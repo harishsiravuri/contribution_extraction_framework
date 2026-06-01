@@ -1,0 +1,78 @@
+{
+  "paper_id": "tdmsci:test_500_v2:01492",
+  "contributions": [
+    {
+      "method": {
+        "name": "DS",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 93,
+          "end": 95
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "fact extraction",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 14,
+          "end": 30
+        },
+        "confidence": 0.5
+      },
+      "datasets": [
+        {
+          "name": "Freebase",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 61,
+            "end": 66
+          },
+          "confidence": 0.5
+        },
+        {
+          "name": "Wikipedia articles",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 8,
+            "end": 24
+          },
+          "confidence": 0.5
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 105,
+            "end": 112
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "DS"
+      ],
+      "self_consistency": 0.75,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "PARTIAL",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 5270,
+    "tokens_out": 1688,
+    "cost_usd": 0.0038282199999999994,
+    "wall_time_seconds": 56.55327158397995,
+    "voting_samples": 3
+  }
+}

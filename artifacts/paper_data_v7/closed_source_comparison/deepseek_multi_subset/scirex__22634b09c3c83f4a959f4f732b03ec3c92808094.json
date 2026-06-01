@@ -1,0 +1,173 @@
+{
+  "paper_id": "scirex:22634b09c3c83f4a959f4f732b03ec3c92808094",
+  "contributions": [
+    {
+      "method": {
+        "name": "DeepMatching",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 10,
+          "end": 20
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "image matching",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 121,
+          "end": 135
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "Mikolajczyk",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 352,
+            "end": 365
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "MPI-Sintel",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 382,
+            "end": 394
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "Kitti",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 399,
+            "end": 404
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy@10",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 6982,
+            "end": 6992
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "SIFT-NN",
+        "HOG-NN",
+        "Generalized PatchMatch",
+        "Kd-tree PatchMatch",
+        "Non-Rigid Dense Correspondences",
+        "SIFT-flow",
+        "Scale-less SIFT",
+        "DaisyFilterFlow",
+        "Deformable Pyramid Matching"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    },
+    {
+      "method": {
+        "name": "DeepFlow",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 208,
+          "end": 220
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "optical flow estimation",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 257,
+          "end": 280
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "MPI-Sintel",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 382,
+            "end": 394
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "Kitti",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 399,
+            "end": 404
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "Middlebury",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 5473,
+            "end": 5484
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "EPE",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 5581,
+            "end": 5584
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": null,
+      "comparison_targets": [
+        "LDOF",
+        "MDP-Flow2",
+        "EpicFlow",
+        "SparseFlowFused",
+        "BTF-ILLUM",
+        "NLTGB-SC",
+        "TGV2ADCSIFT"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 62767,
+    "tokens_out": 4209,
+    "cost_usd": 0.02870605,
+    "wall_time_seconds": 77.3060701250215,
+    "voting_samples": 3
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "paper_id": "tdmsci:test_500_v2:01529",
+  "contributions": [
+    {
+      "method": {
+        "name": null,
+        "canonical_id": null,
+        "evidence_span": null,
+        "confidence": 0.0
+      },
+      "task": {
+        "name": "reordering",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 40,
+          "end": 49
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "UrduEnglish",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 30,
+            "end": 40
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 150,
+            "end": 155
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "mBLEU",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 177,
+            "end": 183
+          },
+          "confidence": 0.6666666666666666
+        }
+      ],
+      "claim_strength": null,
+      "comparison_targets": [],
+      "self_consistency": 0.75,
+      "critic_verdict": {
+        "method": "UNSUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 5908,
+    "tokens_out": 2373,
+    "cost_usd": 0.00473436,
+    "wall_time_seconds": 70.95441883290187,
+    "voting_samples": 3
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "paper_id": "scirex:3d597e16ef56119bb6e6d78e3f379623862f0752",
+  "contributions": [
+    {
+      "method": {
+        "name": "Gradient-Constrained Maximum Mean Discrepancy (GCMMD)",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 9519,
+          "end": 9716
+        },
+        "confidence": 0.75
+      },
+      "task": {
+        "name": "image generation",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 2109,
+          "end": 2128
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "CelebA",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2109,
+            "end": 2128
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "ImageNet",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 21858,
+            "end": 21878
+          },
+          "confidence": 0.5
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Inception Score (IS)",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 21914,
+            "end": 21934
+          },
+          "confidence": 0.5
+        },
+        {
+          "name": "FID",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 21944,
+            "end": 21947
+          },
+          "confidence": 0.75
+        },
+        {
+          "name": "KID",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 21954,
+            "end": 21957
+          },
+          "confidence": 0.75
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "WGAN",
+        "Sobolev GAN",
+        "MMDGAN"
+      ],
+      "self_consistency": 0.875,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "PARTIAL",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 50820,
+    "tokens_out": 3386,
+    "cost_usd": 0.0233407,
+    "wall_time_seconds": 115.29797916702228,
+    "voting_samples": 3
+  }
+}

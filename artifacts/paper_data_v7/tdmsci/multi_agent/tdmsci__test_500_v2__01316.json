@@ -1,0 +1,61 @@
+{
+  "paper_id": "tdmsci:test_500_v2:01316",
+  "contributions": [
+    {
+      "method": {
+        "name": null,
+        "canonical_id": null,
+        "evidence_span": null,
+        "confidence": 0.0
+      },
+      "task": {
+        "name": null,
+        "canonical_id": null,
+        "evidence_span": null,
+        "confidence": 0.0
+      },
+      "datasets": [
+        {
+          "name": "Penn Treebank",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 20,
+            "end": 34
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 50,
+            "end": 52
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": null,
+      "comparison_targets": [],
+      "self_consistency": 0.33,
+      "critic_verdict": {
+        "method": "UNSUPPORTED",
+        "task": "UNSUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 5269,
+    "tokens_out": 1760,
+    "cost_usd": 0.0038680600000000004,
+    "wall_time_seconds": 37.09535724995658,
+    "voting_samples": 3
+  }
+}

@@ -1,0 +1,184 @@
+{
+  "paper_id": "scirex:2af864bc38fd1116b4af32f16b44f5b3b156f5a3",
+  "contributions": [
+    {
+      "method": {
+        "name": "Relation Memory Network",
+        "canonical_id": null,
+        "evidence_span": null,
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "question answering",
+        "canonical_id": null,
+        "evidence_span": null,
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "bAbI story-based QA 10k",
+          "canonical_id": null,
+          "evidence_span": null,
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": null,
+          "unit": null,
+          "evidence_span": null,
+          "confidence": 0.5
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [],
+      "self_consistency": 0.875,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "PARTIAL"
+      }
+    },
+    {
+      "method": {
+        "name": "Relation Memory Network",
+        "canonical_id": null,
+        "evidence_span": null,
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "dialog response selection",
+        "canonical_id": null,
+        "evidence_span": null,
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "bAbI dialog",
+          "canonical_id": null,
+          "evidence_span": null,
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "error rate",
+          "value": null,
+          "unit": "%",
+          "evidence_span": null,
+          "confidence": 0.75
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "MemN2N",
+        "GMemN2N",
+        "DMN",
+        "DMN+",
+        "RN"
+      ],
+      "self_consistency": 0.875,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "PARTIAL"
+      }
+    },
+    {
+      "method": {
+        "name": "Relation Memory Network",
+        "canonical_id": null,
+        "evidence_span": null,
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "dialog response selection",
+        "canonical_id": null,
+        "evidence_span": null,
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "bAbI dialog task 3",
+          "canonical_id": null,
+          "evidence_span": null,
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "error rate",
+          "value": 25.1,
+          "unit": "%",
+          "evidence_span": null,
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "comparable",
+      "comparison_targets": [
+        "MemN2N",
+        "GMemN2N"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    },
+    {
+      "method": {
+        "name": "RMN (inner product attention)",
+        "canonical_id": null,
+        "evidence_span": null,
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "dialog response selection",
+        "canonical_id": null,
+        "evidence_span": null,
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "bAbI dialog task 4",
+          "canonical_id": null,
+          "evidence_span": null,
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "error rate",
+          "value": 11.3,
+          "unit": "%",
+          "evidence_span": null,
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": null,
+      "comparison_targets": [],
+      "self_consistency": 1.0,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "openai/gpt-5",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 27908,
+    "tokens_out": 19077,
+    "cost_usd": 0.19000018,
+    "wall_time_seconds": 103.87005333398702,
+    "voting_samples": 3
+  }
+}

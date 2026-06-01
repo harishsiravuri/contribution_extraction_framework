@@ -1,0 +1,91 @@
+{
+  "paper_id": "scirex:1827de6fa9c9c1b3d647a9d707042e89cf94abf0",
+  "contributions": [
+    {
+      "method": {
+        "name": "Batch Normalization",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 100
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "image classification",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 100,
+          "end": 200
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "ImageNet",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 200,
+            "end": 300
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "MNIST",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 400,
+            "end": 500
+          },
+          "confidence": 0.5
+        }
+      ],
+      "metrics": [
+        {
+          "name": "top-5 error rate",
+          "value": 4.9,
+          "unit": "%",
+          "evidence_span": {
+            "start": 300,
+            "end": 400
+          },
+          "confidence": 0.75
+        },
+        {
+          "name": "accuracy",
+          "value": 74.8,
+          "unit": "%",
+          "evidence_span": {
+            "start": 300,
+            "end": 400
+          },
+          "confidence": 0.5
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "previous state of the art",
+        "Deep Image ensemble",
+        "Inception",
+        "baseline network"
+      ],
+      "self_consistency": 0.875,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "DISABLED (E2 critic-off ablation)",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 26506,
+    "tokens_out": 2824,
+    "cost_usd": 0.01192443,
+    "wall_time_seconds": 30.069881667150185,
+    "voting_samples": 3
+  }
+}

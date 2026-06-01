@@ -1,0 +1,55 @@
+{
+  "paper_id": "scirex:189e6bb7523733c4e524214b9e6ae92d4ed50dac",
+  "contributions": [
+    {
+      "method": {
+        "name": "hierarchical recurrent networks",
+        "canonical_id": null,
+        "evidence_span": null,
+        "confidence": 0.5
+      },
+      "task": {
+        "name": "sequence tagging",
+        "canonical_id": null,
+        "evidence_span": null,
+        "confidence": 0.5
+      },
+      "datasets": [
+        {
+          "name": "penn treebank",
+          "canonical_id": null,
+          "evidence_span": null,
+          "confidence": 0.5
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": null,
+          "unit": null,
+          "evidence_span": null,
+          "confidence": 0.5
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "PARTIAL",
+        "task": "PARTIAL",
+        "datasets": "PARTIAL",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "harishsiravuri_e088/Meta-Llama-3.1-70B-Instruct-Reference-scirex-v6-70b-7cecddd1-66437b32",
+    "critic_model": "(none)",
+    "consolidator_model": "(none)",
+    "tokens_in": 5311,
+    "tokens_out": 256,
+    "cost_usd": 0.0027835,
+    "wall_time_seconds": 3.593944374995772,
+    "voting_samples": 1
+  }
+}

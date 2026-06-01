@@ -1,0 +1,67 @@
+{
+  "paper_id": "arxiv:2605.30335",
+  "contributions": [
+    {
+      "method": {
+        "name": "hierarchical Boyle-Dykstra projection",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 600,
+          "end": 626
+        },
+        "confidence": 0.5
+      },
+      "task": {
+        "name": "multi-component LLM agent coherence",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 202
+        },
+        "confidence": 0.5
+      },
+      "datasets": [
+        {
+          "name": "four-LLM mid-tier panel",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 838,
+            "end": 859
+          },
+          "confidence": 0.5
+        }
+      ],
+      "metrics": [
+        {
+          "name": "regret",
+          "value": 0.115,
+          "unit": "nats per bet",
+          "evidence_span": {
+            "start": 703,
+            "end": 732
+          },
+          "confidence": 0.5
+        }
+      ],
+      "claim_strength": "novel",
+      "comparison_targets": [],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 12411,
+    "tokens_out": 6454,
+    "cost_usd": 0.01180304,
+    "wall_time_seconds": 140.516765832901,
+    "voting_samples": 3
+  }
+}

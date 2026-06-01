@@ -1,0 +1,67 @@
+{
+  "paper_id": "scirex:1762baa638866a13dcc6d146fd5a49b36cbd9c30",
+  "contributions": [
+    {
+      "method": {
+        "name": "graph convolutional networks",
+        "canonical_id": null,
+        "evidence_span": null,
+        "confidence": 0.5
+      },
+      "task": {
+        "name": "semi-supervised learning",
+        "canonical_id": null,
+        "evidence_span": null,
+        "confidence": 0.5
+      },
+      "datasets": [
+        {
+          "name": "cora",
+          "canonical_id": null,
+          "evidence_span": null,
+          "confidence": 0.5
+        },
+        {
+          "name": "citeseer",
+          "canonical_id": null,
+          "evidence_span": null,
+          "confidence": 0.5
+        },
+        {
+          "name": "pubmed",
+          "canonical_id": null,
+          "evidence_span": null,
+          "confidence": 0.5
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": null,
+          "unit": null,
+          "evidence_span": null,
+          "confidence": 0.5
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "PARTIAL",
+        "task": "PARTIAL",
+        "datasets": "PARTIAL",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "harishsiravuri_e088/Meta-Llama-3.1-70B-Instruct-Reference-scirex-v6-70b-7cecddd1-66437b32",
+    "critic_model": "(none)",
+    "consolidator_model": "(none)",
+    "tokens_in": 6718,
+    "tokens_out": 329,
+    "cost_usd": 0.0035235,
+    "wall_time_seconds": 4.759904583974276,
+    "voting_samples": 1
+  }
+}

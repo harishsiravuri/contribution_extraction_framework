@@ -1,0 +1,77 @@
+{
+  "paper_id": "scirex:27e98e09cf09bc13c913d01676e5f32624011050",
+  "contributions": [
+    {
+      "method": {
+        "name": "U-Net",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 123,
+          "end": 128
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "machine reading comprehension",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 69
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "SQuAD 2.0",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1015,
+            "end": 1024
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 72.6,
+          "unit": null,
+          "evidence_span": {
+            "start": 1863,
+            "end": 1872
+          },
+          "confidence": 0.5
+        },
+        {
+          "name": "EM",
+          "value": 69.2,
+          "unit": null,
+          "evidence_span": {
+            "start": 1874,
+            "end": 1883
+          },
+          "confidence": 0.5
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [],
+      "self_consistency": 0.875,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "openai/gpt-4o-2024-11-20",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 29794,
+    "tokens_out": 2618,
+    "cost_usd": 0.07196769999999998,
+    "wall_time_seconds": 38.246252541895956,
+    "voting_samples": 3
+  }
+}

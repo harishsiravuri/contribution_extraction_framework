@@ -1,0 +1,88 @@
+{
+  "paper_id": "arxiv:2605.28226",
+  "contributions": [
+    {
+      "method": {
+        "name": "PhAME",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 38,
+          "end": 43
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "molecular optimization",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 156,
+          "end": 175
+        },
+        "confidence": 0.5
+      },
+      "datasets": [
+        {
+          "name": "docking score optimization",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 746,
+            "end": 773
+          },
+          "confidence": 0.5
+        },
+        {
+          "name": "multimodal phenotypic generation",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 774,
+            "end": 803
+          },
+          "confidence": 0.5
+        }
+      ],
+      "metrics": [
+        {
+          "name": "chemical validity",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 774,
+            "end": 791
+          },
+          "confidence": 0.5
+        },
+        {
+          "name": "novelty",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 796,
+            "end": 803
+          },
+          "confidence": 0.5
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "state-of-the-art"
+      ],
+      "self_consistency": 0.67,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "PARTIAL",
+        "metrics": "UNSUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 6435,
+    "tokens_out": 4122,
+    "cost_usd": 0.0063557100000000005,
+    "wall_time_seconds": 84.6241746249143,
+    "voting_samples": 3
+  }
+}

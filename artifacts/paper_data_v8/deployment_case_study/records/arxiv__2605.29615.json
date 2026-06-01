@@ -1,0 +1,69 @@
+{
+  "paper_id": "arxiv:2605.29615",
+  "contributions": [
+    {
+      "method": {
+        "name": "DiffSpot",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 219,
+          "end": 227
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "fine-grained visual difference spotting",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 149,
+          "end": 179
+        },
+        "confidence": 0.5
+      },
+      "datasets": [
+        {
+          "name": "DiffSpot",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 219,
+            "end": 227
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Recall",
+          "value": 40.7,
+          "unit": "%",
+          "evidence_span": {
+            "start": 664,
+            "end": 684
+          },
+          "confidence": 0.5
+        }
+      ],
+      "claim_strength": null,
+      "comparison_targets": [
+        "13 frontier VLMs"
+      ],
+      "self_consistency": 0.75,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "PARTIAL",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 8130,
+    "tokens_out": 3331,
+    "cost_usd": 0.00665692,
+    "wall_time_seconds": 72.0926766670309,
+    "voting_samples": 3
+  }
+}

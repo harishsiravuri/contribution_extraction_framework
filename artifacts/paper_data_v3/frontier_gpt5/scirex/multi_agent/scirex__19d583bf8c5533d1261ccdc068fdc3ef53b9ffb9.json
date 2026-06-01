@@ -1,0 +1,85 @@
+{
+  "paper_id": "scirex:19d583bf8c5533d1261ccdc068fdc3ef53b9ffb9",
+  "contributions": [
+    {
+      "method": {
+        "name": "FaceNet",
+        "canonical_id": null,
+        "evidence_span": null,
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "face verification",
+        "canonical_id": null,
+        "evidence_span": null,
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "LFW",
+          "canonical_id": null,
+          "evidence_span": null,
+          "confidence": 0.75
+        },
+        {
+          "name": "YouTube Faces DB",
+          "canonical_id": null,
+          "evidence_span": null,
+          "confidence": 0.5
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": 99.63,
+          "unit": "%",
+          "evidence_span": null,
+          "confidence": 0.5
+        },
+        {
+          "name": "accuracy",
+          "value": 98.87,
+          "unit": "%",
+          "evidence_span": null,
+          "confidence": 0.25
+        },
+        {
+          "name": "accuracy",
+          "value": 95.12,
+          "unit": "%",
+          "evidence_span": null,
+          "confidence": 0.25
+        },
+        {
+          "name": "accuracy",
+          "value": 95.18,
+          "unit": "%",
+          "evidence_span": null,
+          "confidence": 0.25
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "DeepFace",
+        "DeepId2+"
+      ],
+      "self_consistency": 0.875,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "PARTIAL",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "openai/gpt-5",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 31637,
+    "tokens_out": 13267,
+    "cost_usd": 0.14038144999999996,
+    "wall_time_seconds": 74.69178966601612,
+    "voting_samples": 3
+  }
+}

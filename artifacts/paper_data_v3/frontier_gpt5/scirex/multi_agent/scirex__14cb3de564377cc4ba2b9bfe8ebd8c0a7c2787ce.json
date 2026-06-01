@@ -1,0 +1,180 @@
+{
+  "paper_id": "scirex:14cb3de564377cc4ba2b9bfe8ebd8c0a7c2787ce",
+  "contributions": [
+    {
+      "method": {
+        "name": "CifarNet",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 1556,
+          "end": 1563
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "pedestrian detection",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 29
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "Caltech",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 743,
+            "end": 749
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "miss rate",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 2145,
+            "end": 2154
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "SDN",
+        "JointDeep"
+      ],
+      "self_consistency": 0.875,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    },
+    {
+      "method": {
+        "name": "AlexNet",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 2461,
+          "end": 2467
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "pedestrian detection",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 29
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "Caltech",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 743,
+            "end": 749
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "miss rate",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 2145,
+            "end": 2154
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "LDCF",
+        "SquaresChnFtrs",
+        "SDN"
+      ],
+      "self_consistency": 0.875,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    },
+    {
+      "method": {
+        "name": "AlexNet",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 2461,
+          "end": 2467
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "pedestrian detection",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 29
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "KITTI",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 835,
+            "end": 840
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "average precision",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 3084,
+            "end": 3089
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "SquaresChnFtrs"
+      ],
+      "self_consistency": 0.875,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "openai/gpt-5",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 39230,
+    "tokens_out": 20608,
+    "cost_usd": 0.20174999,
+    "wall_time_seconds": 246.8536892090342,
+    "voting_samples": 3
+  }
+}

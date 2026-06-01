@@ -1,0 +1,79 @@
+{
+  "paper_id": "scirex:34f92431bb8cb9fa6a1210c5d6e4642079ffac7a",
+  "contributions": [
+    {
+      "method": {
+        "name": "Sliding Line Point Regression (SLPR)",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 70,
+          "end": 124
+        },
+        "confidence": 0.9
+      },
+      "task": {
+        "name": "arbitrary-shape text detection in natural scenes",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 70,
+          "end": 124
+        },
+        "confidence": 0.9
+      },
+      "datasets": [
+        {
+          "name": "ICDAR2015 Incidental Scene Text",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2268,
+            "end": 2309
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "CTW1500",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2363,
+            "end": 2372
+          },
+          "confidence": 0.9
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Hmean",
+          "value": null,
+          "unit": "%",
+          "evidence_span": {
+            "start": 4896,
+            "end": 4902
+          },
+          "confidence": 0.7
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "CTD",
+        "CTD+TLOC"
+      ],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "PARTIAL",
+        "task": "PARTIAL",
+        "datasets": "PARTIAL",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "(none)",
+    "consolidator_model": "(none)",
+    "tokens_in": 4236,
+    "tokens_out": 397,
+    "cost_usd": 0.00170885,
+    "wall_time_seconds": 15.628507541958243,
+    "voting_samples": 1
+  }
+}

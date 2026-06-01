@@ -1,0 +1,99 @@
+{
+  "paper_id": "nlp_tdms:1807.03955",
+  "contributions": [
+    {
+      "method": {
+        "name": "jPTDP v2.0",
+        "canonical_id": "jPTDP",
+        "evidence_span": {
+          "start": 145,
+          "end": 155
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "joint POS tagging and dependency parsing",
+        "canonical_id": "joint_pos_dep_parsing",
+        "evidence_span": {
+          "start": 24,
+          "end": 55
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "English Penn treebank",
+          "canonical_id": "ptb",
+          "evidence_span": {
+            "start": 210,
+            "end": 230
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "Universal Dependencies treebanks",
+          "canonical_id": "ud",
+          "evidence_span": {
+            "start": 308,
+            "end": 336
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "UAS",
+          "value": 94.51,
+          "unit": "%",
+          "evidence_span": {
+            "start": 248,
+            "end": 252
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "LAS",
+          "value": 92.87,
+          "unit": "%",
+          "evidence_span": {
+            "start": 267,
+            "end": 270
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "POS tagging accuracy",
+          "value": 97.97,
+          "unit": "%",
+          "evidence_span": {
+            "start": 338,
+            "end": 354
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "BIST graph-based parser",
+        "UDPipe"
+      ],
+      "self_consistency": 0.875,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 27335,
+    "tokens_out": 4083,
+    "cost_usd": 0.01491464,
+    "wall_time_seconds": 103.22042958298698,
+    "voting_samples": 3
+  }
+}

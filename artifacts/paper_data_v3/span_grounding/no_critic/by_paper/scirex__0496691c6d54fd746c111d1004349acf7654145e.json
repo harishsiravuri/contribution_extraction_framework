@@ -1,0 +1,98 @@
+{
+  "paper_id": "scirex:0496691c6d54fd746c111d1004349acf7654145e",
+  "contributions": [
+    {
+      "method": {
+        "name": "EGAN-Ent-NN",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 9605,
+          "end": 9621
+        },
+        "confidence": 0.5
+      },
+      "task": {
+        "name": "generative modeling",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 254,
+          "end": 337
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "synthetic datasets (Gaussian mixtures, spirals)",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 7618,
+            "end": 7725
+          },
+          "confidence": 0.5
+        },
+        {
+          "name": "CIFAR-10",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 8602,
+            "end": 8610
+          },
+          "confidence": 0.5
+        },
+        {
+          "name": "NIST",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 8007,
+            "end": 8011
+          },
+          "confidence": 0.5
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Inception score",
+          "value": 7.07,
+          "unit": null,
+          "evidence_span": {
+            "start": 8841,
+            "end": 8852
+          },
+          "confidence": 0.5
+        },
+        {
+          "name": "KL divergence",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 7808,
+            "end": 7832
+          },
+          "confidence": 0.5
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "GAN",
+        "EGAN-Const"
+      ],
+      "self_consistency": 0.75,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "(none)",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 30911,
+    "tokens_out": 3066,
+    "cost_usd": 0.013390990000000002,
+    "wall_time_seconds": 42.13751345797209,
+    "voting_samples": 3
+  }
+}

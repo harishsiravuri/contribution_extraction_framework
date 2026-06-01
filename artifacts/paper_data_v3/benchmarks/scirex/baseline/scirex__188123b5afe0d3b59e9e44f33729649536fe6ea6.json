@@ -1,0 +1,90 @@
+{
+  "paper_id": "scirex:188123b5afe0d3b59e9e44f33729649536fe6ea6",
+  "contributions": [
+    {
+      "method": {
+        "name": "pseudo-count exploration algorithm",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 250,
+          "end": 400
+        },
+        "confidence": 0.9
+      },
+      "task": {
+        "name": "non-tabular reinforcement learning exploration",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 175,
+          "end": 225
+        },
+        "confidence": 0.9
+      },
+      "datasets": [
+        {
+          "name": "Atari 2600 games",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 400,
+            "end": 420
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "Montezuma's Revenge",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 450,
+            "end": 475
+          },
+          "confidence": 0.9
+        }
+      ],
+      "metrics": [
+        {
+          "name": "exploration bonus effectiveness",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 2400,
+            "end": 2600
+          },
+          "confidence": 0.8
+        },
+        {
+          "name": "score improvement",
+          "value": 6600.0,
+          "unit": "points",
+          "evidence_span": {
+            "start": 8800,
+            "end": 8900
+          },
+          "confidence": 0.8
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "MBIE-EB",
+        "simple epsilon-greedy",
+        "optimistic initialization"
+      ],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "PARTIAL",
+        "task": "PARTIAL",
+        "datasets": "PARTIAL",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "(none)",
+    "consolidator_model": "(none)",
+    "tokens_in": 8668,
+    "tokens_out": 490,
+    "cost_usd": 0.00320986,
+    "wall_time_seconds": 22.3925038750167,
+    "voting_samples": 1
+  }
+}

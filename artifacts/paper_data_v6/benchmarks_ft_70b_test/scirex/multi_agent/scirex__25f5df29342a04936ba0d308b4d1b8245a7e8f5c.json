@@ -1,0 +1,86 @@
+{
+  "paper_id": "scirex:25f5df29342a04936ba0d308b4d1b8245a7e8f5c",
+  "contributions": [
+    {
+      "method": {
+        "name": "convolutional pose machines",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 1955,
+          "end": 1974
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "pose estimation",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 2041,
+          "end": 2055
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "flic",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 3411,
+            "end": 3414
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "lsp",
+          "canonical_id": null,
+          "evidence_span": null,
+          "confidence": 0.5
+        },
+        {
+          "name": "mpii human pose",
+          "canonical_id": null,
+          "evidence_span": null,
+          "confidence": 0.5
+        }
+      ],
+      "metrics": [
+        {
+          "name": "pck",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 4441,
+            "end": 4444
+          },
+          "confidence": 0.5
+        },
+        {
+          "name": "pckh",
+          "value": null,
+          "unit": null,
+          "evidence_span": null,
+          "confidence": 0.25
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [],
+      "self_consistency": 0.875,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "PARTIAL",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "harishsiravuri_e088/Meta-Llama-3.1-70B-Instruct-Reference-scirex-v6-70b-7cecddd1-66437b32",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 29485,
+    "tokens_out": 3156,
+    "cost_usd": 0.01775172,
+    "wall_time_seconds": 60.62151237495709,
+    "voting_samples": 3
+  }
+}

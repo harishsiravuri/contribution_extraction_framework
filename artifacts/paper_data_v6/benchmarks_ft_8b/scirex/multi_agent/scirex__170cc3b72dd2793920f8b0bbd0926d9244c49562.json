@@ -1,0 +1,55 @@
+{
+  "paper_id": "scirex:170cc3b72dd2793920f8b0bbd0926d9244c49562",
+  "contributions": [
+    {
+      "method": {
+        "name": "bootstrapped dqn",
+        "canonical_id": null,
+        "evidence_span": null,
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "atari games",
+        "canonical_id": null,
+        "evidence_span": null,
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "atari 2600",
+          "canonical_id": null,
+          "evidence_span": null,
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "score",
+          "value": null,
+          "unit": null,
+          "evidence_span": null,
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [],
+      "self_consistency": 1.0,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "harishsiravuri_e088/Meta-Llama-3.1-8B-Instruct-Reference-scirex-v6-bf594110-52031aad",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 38563,
+    "tokens_out": 1148,
+    "cost_usd": 0.02097797,
+    "wall_time_seconds": 31.33645158301806,
+    "voting_samples": 3
+  }
+}

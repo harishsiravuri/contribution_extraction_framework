@@ -1,0 +1,87 @@
+{
+  "paper_id": "scirex:3fc5ed18c2294596af072df929c8ee12c71f96a2",
+  "contributions": [
+    {
+      "method": {
+        "name": "Classical Structured Prediction Losses",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 300
+        },
+        "confidence": 0.9
+      },
+      "task": {
+        "name": "Sequence to Sequence Learning",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 300
+        },
+        "confidence": 0.9
+      },
+      "datasets": [
+        {
+          "name": "IWSLT’14 German - English",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 300,
+            "end": 350
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "Gigaword abstractive summarization",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 350,
+            "end": 400
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "WMT’14 English - French",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 400,
+            "end": 450
+          },
+          "confidence": 0.9
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 41.5,
+          "unit": null,
+          "evidence_span": {
+            "start": 400,
+            "end": 450
+          },
+          "confidence": 0.9
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "beam search optimization"
+      ],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "PARTIAL",
+        "task": "PARTIAL",
+        "datasets": "PARTIAL",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "(none)",
+    "consolidator_model": "(none)",
+    "tokens_in": 6275,
+    "tokens_out": 429,
+    "cost_usd": 0.00238981,
+    "wall_time_seconds": 23.41325575002702,
+    "voting_samples": 1
+  }
+}

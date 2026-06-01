@@ -1,0 +1,152 @@
+{
+  "paper_id": "scirex:14cb3de564377cc4ba2b9bfe8ebd8c0a7c2787ce",
+  "contributions": [
+    {
+      "method": {
+        "name": "CifarNet",
+        "canonical_id": "CifarNet",
+        "evidence_span": {
+          "start": 2265,
+          "end": 2272
+        },
+        "confidence": 0.75
+      },
+      "task": {
+        "name": "pedestrian detection",
+        "canonical_id": "pedestrian_detection",
+        "evidence_span": {
+          "start": 81,
+          "end": 101
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "Caltech",
+          "canonical_id": "Caltech",
+          "evidence_span": {
+            "start": 485,
+            "end": 493
+          },
+          "confidence": 0.75
+        },
+        {
+          "name": "KITTI",
+          "canonical_id": "KITTI",
+          "evidence_span": {
+            "start": 554,
+            "end": 559
+          },
+          "confidence": 0.75
+        }
+      ],
+      "metrics": [
+        {
+          "name": "miss rate",
+          "value": 36.0,
+          "unit": "%",
+          "evidence_span": {
+            "start": 4826,
+            "end": 4835
+          },
+          "confidence": 0.5
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "SDN",
+        "JointDeep"
+      ],
+      "self_consistency": 0.875,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "PARTIAL"
+      }
+    },
+    {
+      "method": {
+        "name": "AlexNet",
+        "canonical_id": "AlexNet",
+        "evidence_span": {
+          "start": 3268,
+          "end": 3276
+        },
+        "confidence": 0.75
+      },
+      "task": {
+        "name": "pedestrian detection",
+        "canonical_id": "pedestrian_detection",
+        "evidence_span": {
+          "start": 81,
+          "end": 101
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "Caltech",
+          "canonical_id": "Caltech",
+          "evidence_span": {
+            "start": 485,
+            "end": 493
+          },
+          "confidence": 0.75
+        },
+        {
+          "name": "KITTI",
+          "canonical_id": "KITTI",
+          "evidence_span": {
+            "start": 554,
+            "end": 559
+          },
+          "confidence": 0.75
+        },
+        {
+          "name": "ImageNet",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 3385,
+            "end": 3393
+          },
+          "confidence": 0.5
+        }
+      ],
+      "metrics": [
+        {
+          "name": "miss rate",
+          "value": 25.0,
+          "unit": "%",
+          "evidence_span": {
+            "start": 4826,
+            "end": 4835
+          },
+          "confidence": 0.5
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "SDN",
+        "LDCF"
+      ],
+      "self_consistency": 0.875,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 34806,
+    "tokens_out": 5059,
+    "cost_usd": 0.01890595,
+    "wall_time_seconds": 189.26422970800195,
+    "voting_samples": 3
+  }
+}

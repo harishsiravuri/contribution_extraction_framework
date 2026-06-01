@@ -1,0 +1,67 @@
+{
+  "paper_id": "scirex:1130d8fdd931225c2d7563c3808367726cfa1c3a",
+  "contributions": [
+    {
+      "method": {
+        "name": "PixelGAN Autoencoder",
+        "canonical_id": null,
+        "evidence_span": null,
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "semi-supervised image classification",
+        "canonical_id": null,
+        "evidence_span": null,
+        "confidence": 0.75
+      },
+      "datasets": [
+        {
+          "name": "mnist",
+          "canonical_id": null,
+          "evidence_span": null,
+          "confidence": 0.5
+        },
+        {
+          "name": "norb",
+          "canonical_id": null,
+          "evidence_span": null,
+          "confidence": 0.5
+        },
+        {
+          "name": "svhn",
+          "canonical_id": null,
+          "evidence_span": null,
+          "confidence": 0.5
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": null,
+          "unit": null,
+          "evidence_span": null,
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [],
+      "self_consistency": 0.875,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "harishsiravuri_e088/Meta-Llama-3.1-70B-Instruct-Reference-scirex-v6-70b-7cecddd1-66437b32",
+    "critic_model": "DISABLED (E4 critic-off ablation)",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 35595,
+    "tokens_out": 2031,
+    "cost_usd": 0.01920187,
+    "wall_time_seconds": 17.26180616696365,
+    "voting_samples": 3
+  }
+}

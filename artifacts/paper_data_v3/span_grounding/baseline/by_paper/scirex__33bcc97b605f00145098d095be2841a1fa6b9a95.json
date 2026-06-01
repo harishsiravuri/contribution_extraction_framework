@@ -1,0 +1,148 @@
+{
+  "paper_id": "scirex:33bcc97b605f00145098d095be2841a1fa6b9a95",
+  "contributions": [
+    {
+      "method": {
+        "name": "order-embeddings",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 333,
+          "end": 432
+        },
+        "confidence": 0.9
+      },
+      "task": {
+        "name": "visual-semantic hierarchy modeling",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 114,
+          "end": 220
+        },
+        "confidence": 0.9
+      },
+      "datasets": [
+        {
+          "name": "WordNet",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1388,
+            "end": 1400
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "Microsoft COCO",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2867,
+            "end": 2881
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "SNLI corpus",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 4314,
+            "end": 4325
+          },
+          "confidence": 0.9
+        }
+      ],
+      "metrics": [
+        {
+          "name": "hypernym prediction accuracy",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 1658,
+            "end": 2042
+          },
+          "confidence": 0.8
+        },
+        {
+          "name": "caption retrieval Recall@1",
+          "value": 46.7,
+          "unit": "%",
+          "evidence_span": {
+            "start": 3486,
+            "end": 3492
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "caption retrieval Recall@10",
+          "value": 88.9,
+          "unit": "%",
+          "evidence_span": {
+            "start": 3496,
+            "end": 3503
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "image retrieval Recall@1",
+          "value": 37.9,
+          "unit": "%",
+          "evidence_span": {
+            "start": 3508,
+            "end": 3514
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "image retrieval Recall@10",
+          "value": 85.9,
+          "unit": "%",
+          "evidence_span": {
+            "start": 3518,
+            "end": 3525
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "natural language inference accuracy",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 4534,
+            "end": 4687
+          },
+          "confidence": 0.7
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "transitive closure baseline",
+        "word2gauss",
+        "order-embeddings (symmetric)",
+        "order-embeddings (bilinear)",
+        "MNLM",
+        "m-RNN",
+        "DVSA",
+        "STV",
+        "FV",
+        "m-CNN",
+        "skip-thoughts",
+        "EOP classifier"
+      ],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "PARTIAL",
+        "task": "PARTIAL",
+        "datasets": "PARTIAL",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "(none)",
+    "consolidator_model": "(none)",
+    "tokens_in": 6859,
+    "tokens_out": 797,
+    "cost_usd": 0.00290421,
+    "wall_time_seconds": 24.020606542006135,
+    "voting_samples": 1
+  }
+}

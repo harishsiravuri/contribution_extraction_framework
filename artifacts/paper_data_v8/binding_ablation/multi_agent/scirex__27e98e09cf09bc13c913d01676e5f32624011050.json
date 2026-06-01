@@ -1,0 +1,79 @@
+{
+  "paper_id": "scirex:27e98e09cf09bc13c913d01676e5f32624011050",
+  "contributions": [
+    {
+      "method": {
+        "name": "U-Net",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 156,
+          "end": 160
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "machine reading comprehension with unanswerable questions",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 47,
+          "end": 96
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "SQuAD 2.0",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 3014,
+            "end": 3024
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 72.6,
+          "unit": null,
+          "evidence_span": {
+            "start": 3441,
+            "end": 3458
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "EM",
+          "value": 69.2,
+          "unit": null,
+          "evidence_span": {
+            "start": 3465,
+            "end": 3482
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "previous pipeline models"
+      ],
+      "self_consistency": 0.8333333333333334,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 29604,
+    "tokens_out": 2558,
+    "cost_usd": 0.01411328,
+    "wall_time_seconds": 51.8753424170427,
+    "voting_samples": 3
+  }
+}

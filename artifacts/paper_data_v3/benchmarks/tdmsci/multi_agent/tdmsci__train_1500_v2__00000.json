@@ -1,0 +1,67 @@
+{
+  "paper_id": "tdmsci:train_1500_v2:00000",
+  "contributions": [
+    {
+      "method": {
+        "name": "learned types",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 13,
+          "end": 25
+        },
+        "confidence": 0.6666666666666666
+      },
+      "task": {
+        "name": "verb argument prediction",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 42,
+          "end": 64
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "several domains",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 68,
+            "end": 83
+          },
+          "confidence": 0.6666666666666666
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 33,
+            "end": 41
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": null,
+      "comparison_targets": [],
+      "self_consistency": 0.875,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 4674,
+    "tokens_out": 1389,
+    "cost_usd": 0.0032619299999999997,
+    "wall_time_seconds": 48.61930045799818,
+    "voting_samples": 3
+  }
+}

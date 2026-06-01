@@ -1,0 +1,119 @@
+{
+  "paper_id": "scirex:0c7f1d285ce069b2f7a807a4b2750695098bffe6",
+  "contributions": [
+    {
+      "method": {
+        "name": "Planetoid (Predicting Labels And Neighbors with Embeddings Transductively Or Inductively from Data)",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 1224,
+          "end": 1307
+        },
+        "confidence": 0.9
+      },
+      "task": {
+        "name": "semi-supervised learning with graph embeddings",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 78
+        },
+        "confidence": 0.8
+      },
+      "datasets": [
+        {
+          "name": "Citeseer",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 12294,
+            "end": 12302
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "Cora",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 12304,
+            "end": 12308
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "Pubmed",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 12312,
+            "end": 12318
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "DIEL (Distant Information Extraction using coordinate-term Lists)",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 13294,
+            "end": 13347
+          },
+          "confidence": 0.8
+        },
+        {
+          "name": "NELL (Never Ending Language Learning)",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 14063,
+            "end": 14067
+          },
+          "confidence": 0.8
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 12294,
+            "end": 12318
+          },
+          "confidence": 0.7
+        },
+        {
+          "name": "recall@50",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 13294,
+            "end": 13347
+          },
+          "confidence": 0.7
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "label propagation (LP)",
+        "semi-supervised embedding (SemiEmb)",
+        "manifold regularization (ManiReg)",
+        "TSVM",
+        "graph embeddings (GraphEmb)"
+      ],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "PARTIAL",
+        "task": "PARTIAL",
+        "datasets": "PARTIAL",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "openai/gpt-4o-2024-11-20",
+    "critic_model": "(none)",
+    "consolidator_model": "(none)",
+    "tokens_in": 6099,
+    "tokens_out": 630,
+    "cost_usd": 0.0215475,
+    "wall_time_seconds": 3.9947497909888625,
+    "voting_samples": 1
+  }
+}

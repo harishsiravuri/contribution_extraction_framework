@@ -1,0 +1,73 @@
+{
+  "paper_id": "scirex:2c1d608e3cd43b3104d76296a14f1aef0e6b2c64",
+  "contributions": [
+    {
+      "method": {
+        "name": "dynamic evaluation",
+        "canonical_id": null,
+        "evidence_span": null,
+        "confidence": 0.5
+      },
+      "task": {
+        "name": "language modelling",
+        "canonical_id": null,
+        "evidence_span": null,
+        "confidence": 0.5
+      },
+      "datasets": [
+        {
+          "name": "penn treebank",
+          "canonical_id": null,
+          "evidence_span": null,
+          "confidence": 0.5
+        },
+        {
+          "name": "wikitext-2",
+          "canonical_id": null,
+          "evidence_span": null,
+          "confidence": 0.5
+        },
+        {
+          "name": "text8",
+          "canonical_id": null,
+          "evidence_span": null,
+          "confidence": 0.5
+        },
+        {
+          "name": "hutter prize",
+          "canonical_id": null,
+          "evidence_span": null,
+          "confidence": 0.5
+        }
+      ],
+      "metrics": [
+        {
+          "name": "perplexity",
+          "value": null,
+          "unit": null,
+          "evidence_span": null,
+          "confidence": 0.5
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "PARTIAL",
+        "task": "PARTIAL",
+        "datasets": "PARTIAL",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "harishsiravuri_e088/Meta-Llama-3.1-70B-Instruct-Reference-scirex-v6-70b-7cecddd1-66437b32",
+    "critic_model": "(none)",
+    "consolidator_model": "(none)",
+    "tokens_in": 4797,
+    "tokens_out": 368,
+    "cost_usd": 0.0025825,
+    "wall_time_seconds": 5.1202750420197845,
+    "voting_samples": 1
+  }
+}

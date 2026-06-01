@@ -1,0 +1,89 @@
+{
+  "paper_id": "scirex:3bf52841ade9f6adc55e102a4460af922e52bb7d",
+  "contributions": [
+    {
+      "method": {
+        "name": "convolutional DRAW",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 1554,
+          "end": 1569
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "image modeling",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 24
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "ImageNet",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2411,
+            "end": 2418
+          },
+          "confidence": 0.5
+        },
+        {
+          "name": "Omniglot",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2101,
+            "end": 2109
+          },
+          "confidence": 0.5
+        },
+        {
+          "name": "Cifar-10",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2411,
+            "end": 2418
+          },
+          "confidence": 0.5
+        }
+      ],
+      "metrics": [
+        {
+          "name": "likelihood",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 3059,
+            "end": 3068
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "JPEG",
+        "JPEG2000",
+        "deep variational auto-encoders"
+      ],
+      "self_consistency": 0.875,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 32973,
+    "tokens_out": 5304,
+    "cost_usd": 0.01841611,
+    "wall_time_seconds": 220.79693583300104,
+    "voting_samples": 3
+  }
+}

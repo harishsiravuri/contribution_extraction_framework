@@ -1,0 +1,101 @@
+{
+  "paper_id": "scirex:1f08598381af9146d0fd9a61b30d0e51a7331689",
+  "contributions": [
+    {
+      "method": {
+        "name": "ape-x dqn",
+        "canonical_id": null,
+        "evidence_span": null,
+        "confidence": 0.5
+      },
+      "task": {
+        "name": "atari games",
+        "canonical_id": null,
+        "evidence_span": null,
+        "confidence": 0.5
+      },
+      "datasets": [
+        {
+          "name": "atari 57 games",
+          "canonical_id": null,
+          "evidence_span": null,
+          "confidence": 0.5
+        }
+      ],
+      "metrics": [
+        {
+          "name": "human normalized score",
+          "value": null,
+          "unit": null,
+          "evidence_span": null,
+          "confidence": 0.25
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [],
+      "self_consistency": 0.5625,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "PARTIAL"
+      }
+    },
+    {
+      "method": {
+        "name": "ape-x dpg",
+        "canonical_id": null,
+        "evidence_span": null,
+        "confidence": 0.5
+      },
+      "task": {
+        "name": "continuous control",
+        "canonical_id": null,
+        "evidence_span": null,
+        "confidence": 0.5
+      },
+      "datasets": [
+        {
+          "name": "humanoid",
+          "canonical_id": null,
+          "evidence_span": null,
+          "confidence": 0.25
+        },
+        {
+          "name": "manipulator",
+          "canonical_id": null,
+          "evidence_span": null,
+          "confidence": 0.25
+        }
+      ],
+      "metrics": [
+        {
+          "name": "average return",
+          "value": null,
+          "unit": null,
+          "evidence_span": null,
+          "confidence": 0.5
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [],
+      "self_consistency": 0.5625,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "harishsiravuri_e088/Meta-Llama-3.1-70B-Instruct-Reference-scirex-v6-70b-7cecddd1-66437b32",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 18435,
+    "tokens_out": 2131,
+    "cost_usd": 0.01164414,
+    "wall_time_seconds": 49.25475125014782,
+    "voting_samples": 1
+  }
+}

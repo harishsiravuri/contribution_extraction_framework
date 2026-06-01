@@ -1,0 +1,56 @@
+{
+  "paper_id": "tdmsci:test_500_v2:01211",
+  "contributions": [
+    {
+      "method": {
+        "name": "weight-tying (WT)",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 59,
+          "end": 71
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "language modeling",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 28,
+          "end": 44
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "Penn Treebank",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 7,
+            "end": 20
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [],
+      "claim_strength": null,
+      "comparison_targets": [],
+      "self_consistency": 1.0,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "UNSUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 4552,
+    "tokens_out": 1094,
+    "cost_usd": 0.00292774,
+    "wall_time_seconds": 24.529228874947876,
+    "voting_samples": 3
+  }
+}

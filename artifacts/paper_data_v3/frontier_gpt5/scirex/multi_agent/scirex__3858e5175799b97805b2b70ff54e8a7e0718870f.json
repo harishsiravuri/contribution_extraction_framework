@@ -1,0 +1,69 @@
+{
+  "paper_id": "scirex:3858e5175799b97805b2b70ff54e8a7e0718870f",
+  "contributions": [
+    {
+      "method": {
+        "name": "convolutional neural network",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 190,
+          "end": 217
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "smile recognition",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 148,
+          "end": 173
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "DISFA",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2791,
+            "end": 2801
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": 99.45,
+          "unit": "%",
+          "evidence_span": {
+            "start": 4465,
+            "end": 4471
+          },
+          "confidence": 0.6
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "SVM with hand-crafted features"
+      ],
+      "self_consistency": 0.8,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "openai/gpt-5",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 17142,
+    "tokens_out": 13784,
+    "cost_usd": 0.13046861,
+    "wall_time_seconds": 106.96252966695465,
+    "voting_samples": 3
+  }
+}

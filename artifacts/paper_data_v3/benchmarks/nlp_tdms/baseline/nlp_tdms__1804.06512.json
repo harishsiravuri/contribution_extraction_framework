@@ -1,0 +1,99 @@
+{
+  "paper_id": "nlp_tdms:1804.06512",
+  "contributions": [
+    {
+      "method": {
+        "name": "hybrid imitation and reinforcement learning method",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 192,
+          "end": 253
+        },
+        "confidence": 0.9
+      },
+      "task": {
+        "name": "task-oriented dialogue systems",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 96,
+          "end": 121
+        },
+        "confidence": 0.9
+      },
+      "datasets": [
+        {
+          "name": "DSTC2",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 8008,
+            "end": 8013
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "movie booking dialogue corpus",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 8017,
+            "end": 8072
+          },
+          "confidence": 0.9
+        }
+      ],
+      "metrics": [
+        {
+          "name": "task success rate",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 8385,
+            "end": 8401
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "dialogue turn size",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 8402,
+            "end": 8420
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "DST accuracy",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 8421,
+            "end": 8433
+          },
+          "confidence": 0.9
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "supervised learning (SL) based systems",
+        "deep reinforcement learning (RL) based systems"
+      ],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "PARTIAL",
+        "task": "PARTIAL",
+        "datasets": "PARTIAL",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "(none)",
+    "consolidator_model": "(none)",
+    "tokens_in": 6253,
+    "tokens_out": 542,
+    "cost_usd": 0.00248334,
+    "wall_time_seconds": 16.45937216700986,
+    "voting_samples": 1
+  }
+}

@@ -1,0 +1,129 @@
+{
+  "paper_id": "nlp_tdms:1804.00079",
+  "contributions": [
+    {
+      "method": {
+        "name": "multi-task learning framework for sentence representations",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 224,
+          "end": 362
+        },
+        "confidence": 0.9
+      },
+      "task": {
+        "name": "learning general-purpose fixed-length sentence representations",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 362,
+          "end": 424
+        },
+        "confidence": 0.9
+      },
+      "datasets": [
+        {
+          "name": "BookCorpus",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1554,
+            "end": 1564
+          },
+          "confidence": 0.8
+        },
+        {
+          "name": "WMT15 English-German",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1676,
+            "end": 1723
+          },
+          "confidence": 0.8
+        },
+        {
+          "name": "WMT14 English-French",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1725,
+            "end": 1771
+          },
+          "confidence": 0.8
+        },
+        {
+          "name": "Penn Treebank",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1832,
+            "end": 1856
+          },
+          "confidence": 0.8
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 3138,
+            "end": 3147
+          },
+          "confidence": 0.7
+        },
+        {
+          "name": "F1 score",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 3149,
+            "end": 3157
+          },
+          "confidence": 0.7
+        },
+        {
+          "name": "Pearson correlation",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 3160,
+            "end": 3178
+          },
+          "confidence": 0.7
+        },
+        {
+          "name": "Recall@K",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 3180,
+            "end": 3189
+          },
+          "confidence": 0.7
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Infersent",
+        "CNN-LSTM",
+        "skip-thoughts",
+        "supervised approaches trained from scratch"
+      ],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "PARTIAL",
+        "task": "PARTIAL",
+        "datasets": "PARTIAL",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "(none)",
+    "consolidator_model": "(none)",
+    "tokens_in": 6261,
+    "tokens_out": 675,
+    "cost_usd": 0.00260427,
+    "wall_time_seconds": 21.15840479102917,
+    "voting_samples": 1
+  }
+}

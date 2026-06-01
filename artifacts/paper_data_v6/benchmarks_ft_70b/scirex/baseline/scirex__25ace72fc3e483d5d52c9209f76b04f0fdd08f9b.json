@@ -1,0 +1,67 @@
+{
+  "paper_id": "scirex:25ace72fc3e483d5d52c9209f76b04f0fdd08f9b",
+  "contributions": [
+    {
+      "method": {
+        "name": "ftsn",
+        "canonical_id": null,
+        "evidence_span": null,
+        "confidence": 0.5
+      },
+      "task": {
+        "name": "multi-oriented scene text detection",
+        "canonical_id": null,
+        "evidence_span": null,
+        "confidence": 0.5
+      },
+      "datasets": [
+        {
+          "name": "icdar2015",
+          "canonical_id": null,
+          "evidence_span": null,
+          "confidence": 0.5
+        },
+        {
+          "name": "msra-td500",
+          "canonical_id": null,
+          "evidence_span": null,
+          "confidence": 0.5
+        },
+        {
+          "name": "total-text",
+          "canonical_id": null,
+          "evidence_span": null,
+          "confidence": 0.5
+        }
+      ],
+      "metrics": [
+        {
+          "name": "hmean",
+          "value": null,
+          "unit": null,
+          "evidence_span": null,
+          "confidence": 0.5
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "PARTIAL",
+        "task": "PARTIAL",
+        "datasets": "PARTIAL",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "harishsiravuri_e088/Meta-Llama-3.1-70B-Instruct-Reference-scirex-v6-70b-7cecddd1-66437b32",
+    "critic_model": "(none)",
+    "consolidator_model": "(none)",
+    "tokens_in": 3914,
+    "tokens_out": 333,
+    "cost_usd": 0.0021235,
+    "wall_time_seconds": 4.198433457990177,
+    "voting_samples": 1
+  }
+}

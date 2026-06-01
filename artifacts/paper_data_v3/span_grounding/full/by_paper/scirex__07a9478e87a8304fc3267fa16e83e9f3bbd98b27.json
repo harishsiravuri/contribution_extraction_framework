@@ -1,0 +1,71 @@
+{
+  "paper_id": "scirex:07a9478e87a8304fc3267fa16e83e9f3bbd98b27",
+  "contributions": [
+    {
+      "method": {
+        "name": "Decomposable Attention Model",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 37
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "natural language inference",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 78,
+          "end": 110
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "Stanford Natural Language Inference (SNLI)",
+          "canonical_id": "SNLI",
+          "evidence_span": {
+            "start": 161,
+            "end": 213
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 5279,
+            "end": 5287
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "LSTMN",
+        "SPINN-PI",
+        "mLSTM"
+      ],
+      "self_consistency": 0.96,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 15767,
+    "tokens_out": 2209,
+    "cost_usd": 0.008474329999999999,
+    "wall_time_seconds": 64.62144083401654,
+    "voting_samples": 3
+  }
+}

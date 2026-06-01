@@ -1,0 +1,80 @@
+{
+  "paper_id": "tdmsci:train_1500_v2:00046",
+  "contributions": [
+    {
+      "method": {
+        "name": null,
+        "canonical_id": null,
+        "evidence_span": null,
+        "confidence": 0.0
+      },
+      "task": {
+        "name": "cross-language sentiment classification",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 20,
+          "end": 56
+        },
+        "confidence": 0.9
+      },
+      "datasets": [
+        {
+          "name": "English",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 82,
+            "end": 89
+          },
+          "confidence": 0.8
+        },
+        {
+          "name": "German",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 93,
+            "end": 99
+          },
+          "confidence": 0.8
+        },
+        {
+          "name": "French",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 101,
+            "end": 107
+          },
+          "confidence": 0.8
+        },
+        {
+          "name": "Japanese",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 112,
+            "end": 120
+          },
+          "confidence": 0.8
+        }
+      ],
+      "metrics": [],
+      "claim_strength": null,
+      "comparison_targets": [],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "PARTIAL",
+        "task": "PARTIAL",
+        "datasets": "PARTIAL",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "(none)",
+    "consolidator_model": "(none)",
+    "tokens_in": 567,
+    "tokens_out": 335,
+    "cost_usd": 0.00047959,
+    "wall_time_seconds": 8.942276999994647,
+    "voting_samples": 1
+  }
+}

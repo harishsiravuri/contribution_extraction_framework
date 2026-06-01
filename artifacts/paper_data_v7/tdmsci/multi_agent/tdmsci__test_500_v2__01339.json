@@ -1,0 +1,70 @@
+{
+  "paper_id": "tdmsci:test_500_v2:01339",
+  "contributions": [
+    {
+      "method": {
+        "name": "textualized word vectors",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 24
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "word sense disambiguation",
+        "canonical_id": "WSD",
+        "evidence_span": {
+          "start": 71,
+          "end": 109
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "GigaWord Corpus",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 40,
+            "end": 57
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "reliability",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 96,
+            "end": 106
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "comparable",
+      "comparison_targets": [
+        "baselines",
+        "systems with full WSD modules"
+      ],
+      "self_consistency": 0.8333333333333334,
+      "critic_verdict": {
+        "method": "UNSUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 5184,
+    "tokens_out": 1745,
+    "cost_usd": 0.0038168599999999996,
+    "wall_time_seconds": 33.03060487518087,
+    "voting_samples": 3
+  }
+}

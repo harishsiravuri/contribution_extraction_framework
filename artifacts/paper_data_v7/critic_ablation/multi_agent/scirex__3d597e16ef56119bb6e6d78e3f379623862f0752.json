@@ -1,0 +1,101 @@
+{
+  "paper_id": "scirex:3d597e16ef56119bb6e6d78e3f379623862f0752",
+  "contributions": [
+    {
+      "method": {
+        "name": "Gradient-Constrained MMD",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 200
+        },
+        "confidence": 0.75
+      },
+      "task": {
+        "name": "image generation",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 150,
+          "end": 300
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "CelebA",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 400,
+            "end": 450
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "ImageNet",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 450,
+            "end": 500
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "FID",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 2000,
+            "end": 2100
+          },
+          "confidence": 0.75
+        },
+        {
+          "name": "KID",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 2100,
+            "end": 2200
+          },
+          "confidence": 0.75
+        },
+        {
+          "name": "Inception Score",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 2200,
+            "end": 2300
+          },
+          "confidence": 0.5
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "WGAN",
+        "Sobolev GAN",
+        "MMDGAN",
+        "state-of-the-art methods"
+      ],
+      "self_consistency": 0.875,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "DISABLED (E2 critic-off ablation)",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 38582,
+    "tokens_out": 2530,
+    "cost_usd": 0.01544694,
+    "wall_time_seconds": 36.46521312487312,
+    "voting_samples": 3
+  }
+}

@@ -1,0 +1,130 @@
+{
+  "paper_id": "scirex:3208b5abafa1146e7df1073090523c822909275e",
+  "contributions": [
+    {
+      "method": {
+        "name": "Bidirectional LSTM with Two-dimensional Max Pooling Recurrent Neural Network",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 117
+        },
+        "confidence": 0.9
+      },
+      "task": {
+        "name": "Text Classification",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 25
+        },
+        "confidence": 0.9
+      },
+      "datasets": [
+        {
+          "name": "Stanford Sentiment Treebank (SST-1)",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1015,
+            "end": 1047
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "Stanford Sentiment Treebank (SST-2)",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1048,
+            "end": 1080
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "MR (Movie Review)",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 994,
+            "end": 1014
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "Subj (Subjectivity)",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1081,
+            "end": 1099
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "TREC (Question Classification)",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1100,
+            "end": 1128
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "20Newsgroups (20Ng)",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1129,
+            "end": 1145
+          },
+          "confidence": 0.9
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 1015,
+            "end": 1047
+          },
+          "confidence": 0.8
+        },
+        {
+          "name": "Macro-F1",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 3547,
+            "end": 3555
+          },
+          "confidence": 0.8
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "BLSTM",
+        "BLSTM-Att",
+        "BLSTM-2DPooling",
+        "RecNN",
+        "RNN",
+        "CNN",
+        "DSCNN"
+      ],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "PARTIAL",
+        "task": "PARTIAL",
+        "datasets": "PARTIAL",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "(none)",
+    "consolidator_model": "(none)",
+    "tokens_in": 5309,
+    "tokens_out": 692,
+    "cost_usd": 0.00231476,
+    "wall_time_seconds": 24.173687583010178,
+    "voting_samples": 1
+  }
+}

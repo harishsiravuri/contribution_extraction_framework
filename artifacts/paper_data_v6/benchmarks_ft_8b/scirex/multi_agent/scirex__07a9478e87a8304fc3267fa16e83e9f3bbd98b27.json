@@ -1,0 +1,67 @@
+{
+  "paper_id": "scirex:07a9478e87a8304fc3267fa16e83e9f3bbd98b27",
+  "contributions": [
+    {
+      "method": {
+        "name": "decomposable attention model",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 36,
+          "end": 63
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "natural language inference",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 191,
+          "end": 217
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "snli",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 549,
+            "end": 553
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "parameters",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 133,
+            "end": 154
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [],
+      "self_consistency": 0.8333333333333334,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "harishsiravuri_e088/Meta-Llama-3.1-8B-Instruct-Reference-scirex-v6-bf594110-52031aad",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 19498,
+    "tokens_out": 4106,
+    "cost_usd": 0.01313925,
+    "wall_time_seconds": 99.86736854200717,
+    "voting_samples": 3
+  }
+}

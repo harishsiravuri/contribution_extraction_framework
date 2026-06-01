@@ -1,0 +1,55 @@
+{
+  "paper_id": "scirex:0e6b990f41fc0e7fdd0662f88b5ad024375bd77b",
+  "contributions": [
+    {
+      "method": {
+        "name": "parsimonious representations",
+        "canonical_id": null,
+        "evidence_span": null,
+        "confidence": 0.5
+      },
+      "task": {
+        "name": "image classification",
+        "canonical_id": null,
+        "evidence_span": null,
+        "confidence": 0.5
+      },
+      "datasets": [
+        {
+          "name": "cifar-10",
+          "canonical_id": null,
+          "evidence_span": null,
+          "confidence": 0.5
+        }
+      ],
+      "metrics": [
+        {
+          "name": "percentage correct",
+          "value": null,
+          "unit": null,
+          "evidence_span": null,
+          "confidence": 0.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "UNSUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "harishsiravuri_e088/Meta-Llama-3.1-8B-Instruct-Reference-scirex-v6-bf594110-52031aad",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 30939,
+    "tokens_out": 3807,
+    "cost_usd": 0.01893241,
+    "wall_time_seconds": 93.15002337499755,
+    "voting_samples": 3
+  }
+}

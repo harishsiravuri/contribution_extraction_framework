@@ -1,0 +1,120 @@
+{
+  "paper_id": "scirex:3208b5abafa1146e7df1073090523c822909275e",
+  "contributions": [
+    {
+      "method": {
+        "name": "Bidirectional Long Short-Term Memory Networks with Two-Dimensional Max Pooling (BLSTM-2DPooling)",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 1685,
+          "end": 1778
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "text classification",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 20
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "Stanford Sentiment Treebank (SST-1)",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2364,
+            "end": 2385
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "Stanford Sentiment Treebank (SST-2)",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2398,
+            "end": 2419
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "MR",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2361,
+            "end": 2363
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "Subj",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2421,
+            "end": 2425
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "TREC",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2429,
+            "end": 2433
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "20Newsgroups",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2461,
+            "end": 2473
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": null,
+          "unit": "%",
+          "evidence_span": {
+            "start": 3394,
+            "end": 3419
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "BLSTM",
+        "BLSTM-Att",
+        "BLSTM-2DPooling",
+        "RecNN",
+        "RNN",
+        "CNN",
+        "DSCNN"
+      ],
+      "self_consistency": 0.875,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 27598,
+    "tokens_out": 5217,
+    "cost_usd": 0.016425469999999998,
+    "wall_time_seconds": 129.34704416699242,
+    "voting_samples": 3
+  }
+}

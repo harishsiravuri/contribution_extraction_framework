@@ -1,0 +1,113 @@
+{
+  "paper_id": "scirex:1c059493904b2244d2280b8b4c0c7d3ca115be73",
+  "contributions": [
+    {
+      "method": {
+        "name": "node2vec",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 173,
+          "end": 189
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "multi-label classification",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 1482,
+          "end": 1505
+        },
+        "confidence": 0.6
+      },
+      "datasets": [
+        {
+          "name": "BlogCatalog",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2889,
+            "end": 2900
+          },
+          "confidence": 0.4
+        },
+        {
+          "name": "Protein-Protein Interactions (PPI)",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2922,
+            "end": 2955
+          },
+          "confidence": 0.4
+        },
+        {
+          "name": "Wikipedia",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2967,
+            "end": 2975
+          },
+          "confidence": 0.2
+        },
+        {
+          "name": "Facebook",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 5137,
+            "end": 5145
+          },
+          "confidence": 0.2
+        },
+        {
+          "name": "arXiv ASTRO-PH",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 5202,
+            "end": 5215
+          },
+          "confidence": 0.2
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Macro-F",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 4104,
+            "end": 4111
+          },
+          "confidence": 0.4
+        },
+        {
+          "name": "AUC",
+          "value": null,
+          "unit": null,
+          "evidence_span": null,
+          "confidence": 0.4
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "DeepWalk",
+        "LINE"
+      ],
+      "self_consistency": 0.64,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "DISABLED (E2 critic-off ablation)",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 36329,
+    "tokens_out": 4513,
+    "cost_usd": 0.01729356,
+    "wall_time_seconds": 91.86486054211855,
+    "voting_samples": 3
+  }
+}

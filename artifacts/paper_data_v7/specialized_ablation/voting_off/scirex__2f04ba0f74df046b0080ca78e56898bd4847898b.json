@@ -1,0 +1,68 @@
+{
+  "paper_id": "scirex:2f04ba0f74df046b0080ca78e56898bd4847898b",
+  "contributions": [
+    {
+      "method": {
+        "name": "acfmv",
+        "canonical_id": null,
+        "evidence_span": null,
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "face detection",
+        "canonical_id": null,
+        "evidence_span": null,
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "afw",
+          "canonical_id": null,
+          "evidence_span": null,
+          "confidence": 0.3333333333333333
+        },
+        {
+          "name": "fddb",
+          "canonical_id": null,
+          "evidence_span": null,
+          "confidence": 0.6666666666666666
+        }
+      ],
+      "metrics": [
+        {
+          "name": "discrete roc",
+          "value": null,
+          "unit": null,
+          "evidence_span": null,
+          "confidence": 0.3333333333333333
+        },
+        {
+          "name": "continuous roc",
+          "value": null,
+          "unit": null,
+          "evidence_span": null,
+          "confidence": 0.3333333333333333
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [],
+      "self_consistency": 0.7833333333333333,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "harishsiravuri_e088/Meta-Llama-3.1-70B-Instruct-Reference-scirex-v6-70b-7cecddd1-66437b32",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 15405,
+    "tokens_out": 1581,
+    "cost_usd": 0.00958445,
+    "wall_time_seconds": 43.1053083750885,
+    "voting_samples": 1
+  }
+}

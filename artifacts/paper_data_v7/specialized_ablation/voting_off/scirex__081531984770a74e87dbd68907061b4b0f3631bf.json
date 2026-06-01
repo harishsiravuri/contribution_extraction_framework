@@ -1,0 +1,62 @@
+{
+  "paper_id": "scirex:081531984770a74e87dbd68907061b4b0f3631bf",
+  "contributions": [
+    {
+      "method": {
+        "name": "vespcn",
+        "canonical_id": null,
+        "evidence_span": null,
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "video super-resolution",
+        "canonical_id": null,
+        "evidence_span": null,
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "vid4",
+          "canonical_id": null,
+          "evidence_span": null,
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "psnr",
+          "value": null,
+          "unit": null,
+          "evidence_span": null,
+          "confidence": 0.0
+        },
+        {
+          "name": "ssim",
+          "value": null,
+          "unit": null,
+          "evidence_span": null,
+          "confidence": 0.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [],
+      "self_consistency": 1.0,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "UNSUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "harishsiravuri_e088/Meta-Llama-3.1-70B-Instruct-Reference-scirex-v6-70b-7cecddd1-66437b32",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 14605,
+    "tokens_out": 1523,
+    "cost_usd": 0.00914152,
+    "wall_time_seconds": 44.66268683294766,
+    "voting_samples": 1
+  }
+}

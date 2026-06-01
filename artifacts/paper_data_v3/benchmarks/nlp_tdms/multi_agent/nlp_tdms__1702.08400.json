@@ -1,0 +1,79 @@
+{
+  "paper_id": "nlp_tdms:1702.08400",
+  "contributions": [
+    {
+      "method": {
+        "name": "asymmetric tri-training",
+        "canonical_id": "asymmetric_tri_training",
+        "evidence_span": {
+          "start": 376,
+          "end": 414
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "unsupervised domain adaptation",
+        "canonical_id": "unsupervised_domain_adaptation",
+        "evidence_span": {
+          "start": 114,
+          "end": 169
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "MNIST→SVHN",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 3191,
+            "end": 3202
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "Amazon Reviews",
+          "canonical_id": "amazon_reviews",
+          "evidence_span": {
+            "start": 1683,
+            "end": 1699
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": null,
+          "unit": "%",
+          "evidence_span": {
+            "start": 10811,
+            "end": 10882
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "DANN",
+        "VFAE"
+      ],
+      "self_consistency": 0.8333333333333334,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "PARTIAL",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 30252,
+    "tokens_out": 2927,
+    "cost_usd": 0.01484721,
+    "wall_time_seconds": 141.7474072080222,
+    "voting_samples": 3
+  }
+}

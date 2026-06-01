@@ -1,0 +1,90 @@
+{
+  "paper_id": "scirex:188123b5afe0d3b59e9e44f33729649536fe6ea6",
+  "contributions": [
+    {
+      "method": {
+        "name": "pseudo-count exploration",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 53,
+          "end": 327
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "reinforcement learning exploration",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 132,
+          "end": 189
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "Atari 2600",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 264,
+            "end": 276
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "Montezuma's Revenge",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 370,
+            "end": 389
+          },
+          "confidence": 0.5
+        }
+      ],
+      "metrics": [
+        {
+          "name": "score",
+          "value": null,
+          "unit": "points",
+          "evidence_span": {
+            "start": 7371,
+            "end": 7424
+          },
+          "confidence": 0.5
+        },
+        {
+          "name": "rooms explored",
+          "value": null,
+          "unit": "count",
+          "evidence_span": {
+            "start": 7387,
+            "end": 7424
+          },
+          "confidence": 0.5
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "MBIE-EB",
+        "A3C",
+        "ϵ-greedy"
+      ],
+      "self_consistency": 0.75,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 40523,
+    "tokens_out": 4326,
+    "cost_usd": 0.02021235,
+    "wall_time_seconds": 101.29590987507254,
+    "voting_samples": 3
+  }
+}

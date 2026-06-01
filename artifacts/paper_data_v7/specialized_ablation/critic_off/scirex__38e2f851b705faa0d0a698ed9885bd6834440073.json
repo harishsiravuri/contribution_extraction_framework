@@ -1,0 +1,55 @@
+{
+  "paper_id": "scirex:38e2f851b705faa0d0a698ed9885bd6834440073",
+  "contributions": [
+    {
+      "method": {
+        "name": "platipus",
+        "canonical_id": null,
+        "evidence_span": null,
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "few-shot image classification",
+        "canonical_id": null,
+        "evidence_span": null,
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "mini-imagenet",
+          "canonical_id": null,
+          "evidence_span": null,
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": null,
+          "unit": null,
+          "evidence_span": null,
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [],
+      "self_consistency": 1.0,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "harishsiravuri_e088/Meta-Llama-3.1-70B-Instruct-Reference-scirex-v6-70b-7cecddd1-66437b32",
+    "critic_model": "DISABLED (E4 critic-off ablation)",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 23321,
+    "tokens_out": 815,
+    "cost_usd": 0.012275459999999998,
+    "wall_time_seconds": 45.876245541032404,
+    "voting_samples": 3
+  }
+}

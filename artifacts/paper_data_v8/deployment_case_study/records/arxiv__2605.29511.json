@@ -1,0 +1,108 @@
+{
+  "paper_id": "arxiv:2605.29511",
+  "contributions": [
+    {
+      "method": {
+        "name": "DynaGraph",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 260,
+          "end": 269
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "complex reasoning",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 38,
+          "end": 55
+        },
+        "confidence": 0.75
+      },
+      "datasets": [
+        {
+          "name": "StrategyQA",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 736,
+            "end": 746
+          },
+          "confidence": 0.75
+        },
+        {
+          "name": "MATH",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 748,
+            "end": 752
+          },
+          "confidence": 0.5
+        },
+        {
+          "name": "FinQA",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 754,
+            "end": 759
+          },
+          "confidence": 0.5
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": 87.6,
+          "unit": "%",
+          "evidence_span": {
+            "start": 783,
+            "end": 788
+          },
+          "confidence": 0.5
+        },
+        {
+          "name": "latency",
+          "value": 68.1,
+          "unit": "%",
+          "evidence_span": {
+            "start": 850,
+            "end": 855
+          },
+          "confidence": 0.25
+        },
+        {
+          "name": "token consumption",
+          "value": 68.6,
+          "unit": "%",
+          "evidence_span": {
+            "start": 886,
+            "end": 891
+          },
+          "confidence": 0.25
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "72B monolithic model",
+        "unconstrained dynamic architectures"
+      ],
+      "self_consistency": 0.625,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "UNSUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "UNSUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 9780,
+    "tokens_out": 4514,
+    "cost_usd": 0.00865166,
+    "wall_time_seconds": 63.485200041905046,
+    "voting_samples": 3
+  }
+}

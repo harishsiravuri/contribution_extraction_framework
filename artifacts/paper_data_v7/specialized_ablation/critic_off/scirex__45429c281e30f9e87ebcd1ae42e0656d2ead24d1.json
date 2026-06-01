@@ -1,0 +1,69 @@
+{
+  "paper_id": "scirex:45429c281e30f9e87ebcd1ae42e0656d2ead24d1",
+  "contributions": [
+    {
+      "method": {
+        "name": "ours",
+        "canonical_id": null,
+        "evidence_span": null,
+        "confidence": 0.0
+      },
+      "task": {
+        "name": "image-to-image translation",
+        "canonical_id": null,
+        "evidence_span": null,
+        "confidence": 0.0
+      },
+      "datasets": [
+        {
+          "name": "cityscapes",
+          "canonical_id": null,
+          "evidence_span": null,
+          "confidence": 0.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "mean iou",
+          "value": null,
+          "unit": null,
+          "evidence_span": null,
+          "confidence": 0.0
+        },
+        {
+          "name": "pixel accuracy",
+          "value": null,
+          "unit": null,
+          "evidence_span": null,
+          "confidence": 0.0
+        },
+        {
+          "name": "perceptual path length",
+          "value": null,
+          "unit": null,
+          "evidence_span": null,
+          "confidence": 0.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [],
+      "self_consistency": 1.0,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "harishsiravuri_e088/Meta-Llama-3.1-70B-Instruct-Reference-scirex-v6-70b-7cecddd1-66437b32",
+    "critic_model": "DISABLED (E4 critic-off ablation)",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 23613,
+    "tokens_out": 1385,
+    "cost_usd": 0.0128009,
+    "wall_time_seconds": 15.051400166004896,
+    "voting_samples": 3
+  }
+}

@@ -1,0 +1,118 @@
+{
+  "paper_id": "scirex:0c5c93594647d77dcbad5f3ed71139b186a23a3c",
+  "contributions": [
+    {
+      "method": {
+        "name": "Neural Machine Translation with Monolingual Data via Backtranslation",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 160,
+          "end": 380
+        },
+        "confidence": 0.9
+      },
+      "task": {
+        "name": "Machine Translation",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 100
+        },
+        "confidence": 0.95
+      },
+      "datasets": [
+        {
+          "name": "WMT 15 English↔German",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 380,
+            "end": 420
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "IWSLT 14 Turkish→English",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 420,
+            "end": 470
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "IWSLT 15 English→German",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 470,
+            "end": 510
+          },
+          "confidence": 0.9
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 2.8,
+          "unit": null,
+          "evidence_span": {
+            "start": 380,
+            "end": 420
+          },
+          "confidence": 0.85
+        },
+        {
+          "name": "BLEU",
+          "value": 3.7,
+          "unit": null,
+          "evidence_span": {
+            "start": 380,
+            "end": 420
+          },
+          "confidence": 0.85
+        },
+        {
+          "name": "BLEU",
+          "value": 2.1,
+          "unit": null,
+          "evidence_span": {
+            "start": 420,
+            "end": 470
+          },
+          "confidence": 0.85
+        },
+        {
+          "name": "BLEU",
+          "value": 3.4,
+          "unit": null,
+          "evidence_span": {
+            "start": 420,
+            "end": 470
+          },
+          "confidence": 0.85
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "previous NMT models",
+        "phrase-based statistical machine translation"
+      ],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "PARTIAL",
+        "task": "PARTIAL",
+        "datasets": "PARTIAL",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "(none)",
+    "consolidator_model": "(none)",
+    "tokens_in": 6962,
+    "tokens_out": 663,
+    "cost_usd": 0.00281791,
+    "wall_time_seconds": 18.878905666002538,
+    "voting_samples": 1
+  }
+}

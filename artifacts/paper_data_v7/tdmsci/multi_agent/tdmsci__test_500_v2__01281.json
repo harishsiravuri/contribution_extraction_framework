@@ -1,0 +1,85 @@
+{
+  "paper_id": "tdmsci:test_500_v2:01281",
+  "contributions": [
+    {
+      "method": {
+        "name": null,
+        "canonical_id": null,
+        "evidence_span": null,
+        "confidence": 0.0
+      },
+      "task": {
+        "name": "language modeling",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 85,
+          "end": 108
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "Penn Treebank",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 82,
+            "end": 95
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "WikiText-2",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 100,
+            "end": 110
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "perplexity",
+          "value": 47.69,
+          "unit": null,
+          "evidence_span": {
+            "start": 85,
+            "end": 97
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "perplexity",
+          "value": 40.68,
+          "unit": null,
+          "evidence_span": {
+            "start": 85,
+            "end": 97
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "state-of-the-art"
+      ],
+      "self_consistency": 0.875,
+      "critic_verdict": {
+        "method": "UNSUPPORTED",
+        "task": "UNSUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 5958,
+    "tokens_out": 2286,
+    "cost_usd": 0.00471682,
+    "wall_time_seconds": 84.38651666697115,
+    "voting_samples": 3
+  }
+}

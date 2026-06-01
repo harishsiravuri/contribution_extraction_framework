@@ -1,0 +1,127 @@
+{
+  "paper_id": "scirex:1efdad6f91e830fd64306e4625f74191b05ef9c4",
+  "contributions": [
+    {
+      "method": {
+        "name": "Patchy-san",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 107,
+          "end": 187
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "graph classification",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 10938,
+          "end": 10956
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "MUTAG",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 11027,
+            "end": 11033
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "PTC",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 11035,
+            "end": 11038
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "NCI1",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 11040,
+            "end": 11044
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "NCI109",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 11046,
+            "end": 11052
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "PROTEINS",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 11054,
+            "end": 11062
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "D&D",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 11064,
+            "end": 11067
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "social graph data",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 7241,
+            "end": 7258
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 11506,
+            "end": 11515
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "shortest-path kernel",
+        "random walk kernel",
+        "graphlet count kernel",
+        "Weisfeiler-Lehman subtree kernel",
+        "deep graphlet count kernel"
+      ],
+      "self_consistency": 0.875,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "(none)",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 25175,
+    "tokens_out": 3651,
+    "cost_usd": 0.01219277,
+    "wall_time_seconds": 59.37820912501775,
+    "voting_samples": 3
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "paper_id": "scirex:2b507f659b341ed0f23106446de8e4322f4a3f7e",
+  "contributions": [
+    {
+      "method": {
+        "name": "Deep Identity-Aware Transfer (DIAT)",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 36,
+          "end": 78
+        },
+        "confidence": 0.9
+      },
+      "task": {
+        "name": "Facial Attribute Transfer",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 36,
+          "end": 78
+        },
+        "confidence": 0.9
+      },
+      "datasets": [
+        {
+          "name": "CelebA",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 3665,
+            "end": 3671
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "iStock",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 3665,
+            "end": 3671
+          },
+          "confidence": 0.8
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Classification Accuracy",
+          "value": 0.99,
+          "unit": null,
+          "evidence_span": {
+            "start": 20491,
+            "end": 20500
+          },
+          "confidence": 0.8
+        },
+        {
+          "name": "PSNR",
+          "value": 33.27,
+          "unit": "dB",
+          "evidence_span": {
+            "start": 21194,
+            "end": 21200
+          },
+          "confidence": 0.8
+        },
+        {
+          "name": "SSIM",
+          "value": null,
+          "unit": null,
+          "evidence_span": null,
+          "confidence": 0.5
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "CNIA",
+        "IcGAN",
+        "VAE/GAN",
+        "semantic inpainting"
+      ],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "PARTIAL",
+        "task": "PARTIAL",
+        "datasets": "PARTIAL",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "openai/gpt-4o-2024-11-20",
+    "critic_model": "(none)",
+    "consolidator_model": "(none)",
+    "tokens_in": 9052,
+    "tokens_out": 502,
+    "cost_usd": 0.027649999999999997,
+    "wall_time_seconds": 3.7344062498304993,
+    "voting_samples": 1
+  }
+}

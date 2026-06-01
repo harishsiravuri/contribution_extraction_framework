@@ -1,0 +1,92 @@
+{
+  "paper_id": "nlp_tdms:D18-1205",
+  "contributions": [
+    {
+      "method": {
+        "name": "hierarchical encoder-decoder with information selection layer",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 209,
+          "end": 345
+        },
+        "confidence": 0.5
+      },
+      "task": {
+        "name": "abstractive document summarization",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 144,
+          "end": 178
+        },
+        "confidence": 0.5
+      },
+      "datasets": [
+        {
+          "name": "CNN/DailyMail",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 6177,
+            "end": 6191
+          },
+          "confidence": 0.5
+        }
+      ],
+      "metrics": [
+        {
+          "name": "ROUGE-1",
+          "value": null,
+          "unit": "F1",
+          "evidence_span": {
+            "start": 6427,
+            "end": 6435
+          },
+          "confidence": 0.5
+        },
+        {
+          "name": "ROUGE-2",
+          "value": null,
+          "unit": "F1",
+          "evidence_span": {
+            "start": 6436,
+            "end": 6444
+          },
+          "confidence": 0.5
+        },
+        {
+          "name": "ROUGE-L",
+          "value": null,
+          "unit": "F1",
+          "evidence_span": {
+            "start": 6445,
+            "end": 6453
+          },
+          "confidence": 0.5
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Seq2seq-baseline",
+        "Coverage",
+        "SummaRuNNer",
+        "Lead-3"
+      ],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 26974,
+    "tokens_out": 3107,
+    "cost_usd": 0.013871440000000002,
+    "wall_time_seconds": 96.65730187500594,
+    "voting_samples": 3
+  }
+}

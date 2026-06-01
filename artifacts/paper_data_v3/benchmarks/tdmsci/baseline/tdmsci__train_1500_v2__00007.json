@@ -1,0 +1,70 @@
+{
+  "paper_id": "tdmsci:train_1500_v2:00007",
+  "contributions": [
+    {
+      "method": {
+        "name": "HMM structure with function/content word split",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 20,
+          "end": 62
+        },
+        "confidence": 0.9
+      },
+      "task": {
+        "name": "sequence tagging",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 92,
+          "end": 108
+        },
+        "confidence": 0.8
+      },
+      "datasets": [],
+      "metrics": [
+        {
+          "name": "tag matching accuracy",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 92,
+            "end": 108
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "information",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 119,
+            "end": 129
+          },
+          "confidence": 0.9
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "EM estimation",
+        "VB estimation"
+      ],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "PARTIAL",
+        "task": "PARTIAL",
+        "datasets": "PARTIAL",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "(none)",
+    "consolidator_model": "(none)",
+    "tokens_in": 565,
+    "tokens_out": 325,
+    "cost_usd": 0.00047005,
+    "wall_time_seconds": 8.750920082966331,
+    "voting_samples": 1
+  }
+}

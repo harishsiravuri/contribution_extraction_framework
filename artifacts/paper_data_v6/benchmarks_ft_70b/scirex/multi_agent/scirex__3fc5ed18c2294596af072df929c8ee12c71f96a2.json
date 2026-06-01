@@ -1,0 +1,55 @@
+{
+  "paper_id": "scirex:3fc5ed18c2294596af072df929c8ee12c71f96a2",
+  "contributions": [
+    {
+      "method": {
+        "name": "risk",
+        "canonical_id": null,
+        "evidence_span": null,
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "machine translation",
+        "canonical_id": null,
+        "evidence_span": null,
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "iwslt2014 german-english",
+          "canonical_id": null,
+          "evidence_span": null,
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "bleu score",
+          "value": null,
+          "unit": null,
+          "evidence_span": null,
+          "confidence": 0.875
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [],
+      "self_consistency": 0.875,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "harishsiravuri_e088/Meta-Llama-3.1-70B-Instruct-Reference-scirex-v6-70b-7cecddd1-66437b32",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 46655,
+    "tokens_out": 12673,
+    "cost_usd": 0.032980510000000005,
+    "wall_time_seconds": 173.1454098750255,
+    "voting_samples": 3
+  }
+}

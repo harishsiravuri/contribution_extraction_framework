@@ -1,0 +1,99 @@
+{
+  "paper_id": "scirex:088b649415378c4dde666f614ba24d08a36b6652",
+  "contributions": [
+    {
+      "method": {
+        "name": "Long Short-Term Memory-Network (LSTMN)",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 126,
+          "end": 235
+        },
+        "confidence": 0.9
+      },
+      "task": {
+        "name": "machine reading",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 74,
+          "end": 125
+        },
+        "confidence": 0.9
+      },
+      "datasets": [
+        {
+          "name": "English Penn Treebank",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2952,
+            "end": 2974
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "Stanford Sentiment Treebank",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 3627,
+            "end": 3653
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "Stanford Natural Language Inference (SNLI)",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 4515,
+            "end": 4551
+          },
+          "confidence": 0.9
+        }
+      ],
+      "metrics": [
+        {
+          "name": "perplexity",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 3238,
+            "end": 3249
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "accuracy",
+          "value": null,
+          "unit": null,
+          "evidence_span": null,
+          "confidence": 0.7
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Kneser-Ney 5-gram language model (KN5)",
+        "standard RNN",
+        "LSTM",
+        "stacked LSTM (sLSTM)",
+        "gated-feedback LSTM (gLSTM)",
+        "depth-gated LSTM (dLSTM)"
+      ],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "PARTIAL",
+        "task": "PARTIAL",
+        "datasets": "PARTIAL",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "(none)",
+    "consolidator_model": "(none)",
+    "tokens_in": 6081,
+    "tokens_out": 570,
+    "cost_usd": 0.00245322,
+    "wall_time_seconds": 24.19043125002645,
+    "voting_samples": 1
+  }
+}

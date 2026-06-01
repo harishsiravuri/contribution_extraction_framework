@@ -1,0 +1,118 @@
+{
+  "paper_id": "scirex:0e6b990f41fc0e7fdd0662f88b5ad024375bd77b",
+  "contributions": [
+    {
+      "method": {
+        "name": "clustering based regularization",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 104,
+          "end": 180
+        },
+        "confidence": 0.9
+      },
+      "task": {
+        "name": "unsupervised learning, classification, fine grained categorization, zero-shot learning",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 181,
+          "end": 280
+        },
+        "confidence": 0.9
+      },
+      "datasets": [
+        {
+          "name": "MNIST",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1006,
+            "end": 1011
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "CIFAR10",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1016,
+            "end": 1022
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "CIFAR100",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1023,
+            "end": 1030
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "CUB-200-2011",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1031,
+            "end": 1043
+          },
+          "confidence": 0.9
+        }
+      ],
+      "metrics": [
+        {
+          "name": "reconstruction error",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 1501,
+            "end": 1520
+          },
+          "confidence": 0.8
+        },
+        {
+          "name": "accuracy",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 2000,
+            "end": 2008
+          },
+          "confidence": 0.8
+        },
+        {
+          "name": "normalized mutual information",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 3000,
+            "end": 3025
+          },
+          "confidence": 0.8
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "DeCov",
+        "Dropout",
+        "baseline models"
+      ],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "PARTIAL",
+        "task": "PARTIAL",
+        "datasets": "PARTIAL",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "(none)",
+    "consolidator_model": "(none)",
+    "tokens_in": 6324,
+    "tokens_out": 659,
+    "cost_usd": 0.00261019,
+    "wall_time_seconds": 31.382367542013526,
+    "voting_samples": 1
+  }
+}

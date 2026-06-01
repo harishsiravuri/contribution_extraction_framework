@@ -1,0 +1,100 @@
+{
+  "paper_id": "scirex:2af864bc38fd1116b4af32f16b44f5b3b156f5a3",
+  "contributions": [
+    {
+      "method": {
+        "name": "Relation Memory Network (RMN)",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 1074,
+          "end": 1098
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "question answering",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 107,
+          "end": 133
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "bAbI-10k story-based QA",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1074,
+            "end": 1098
+          },
+          "confidence": 0.75
+        },
+        {
+          "name": "bAbI dialog-based QA",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1074,
+            "end": 1098
+          },
+          "confidence": 0.75
+        },
+        {
+          "name": "bAbI story-based QA dataset",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1496,
+            "end": 1518
+          },
+          "confidence": 0.25
+        },
+        {
+          "name": "bAbI dialog dataset",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1597,
+            "end": 1614
+          },
+          "confidence": 0.25
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": null,
+          "unit": "%",
+          "evidence_span": {
+            "start": 7143,
+            "end": 7172
+          },
+          "confidence": 0.5
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "MemN2N",
+        "GMemN2N",
+        "DMN",
+        "DMN+",
+        "Relation Network (RN)"
+      ],
+      "self_consistency": 0.875,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "(none)",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 18831,
+    "tokens_out": 2281,
+    "cost_usd": 0.00863588,
+    "wall_time_seconds": 55.099588292010594,
+    "voting_samples": 3
+  }
+}

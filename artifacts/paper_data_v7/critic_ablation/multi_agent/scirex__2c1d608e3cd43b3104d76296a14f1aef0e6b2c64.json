@@ -1,0 +1,128 @@
+{
+  "paper_id": "scirex:2c1d608e3cd43b3104d76296a14f1aef0e6b2c64",
+  "contributions": [
+    {
+      "method": {
+        "name": "dynamic evaluation",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 14,
+          "end": 60
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "language modeling",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 1888,
+          "end": 1906
+        },
+        "confidence": 0.6
+      },
+      "datasets": [
+        {
+          "name": "Penn Treebank",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 225,
+            "end": 239
+          },
+          "confidence": 0.4
+        },
+        {
+          "name": "WikiText-2",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 250,
+            "end": 260
+          },
+          "confidence": 0.4
+        },
+        {
+          "name": "text8",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 277,
+            "end": 282
+          },
+          "confidence": 0.2
+        },
+        {
+          "name": "Hutter Prize",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 315,
+            "end": 327
+          },
+          "confidence": 0.4
+        }
+      ],
+      "metrics": [
+        {
+          "name": "perplexity",
+          "value": 51.1,
+          "unit": null,
+          "evidence_span": {
+            "start": 225,
+            "end": 248
+          },
+          "confidence": 0.4
+        },
+        {
+          "name": "perplexity",
+          "value": 44.3,
+          "unit": null,
+          "evidence_span": {
+            "start": 250,
+            "end": 276
+          },
+          "confidence": 0.4
+        },
+        {
+          "name": "cross-entropy",
+          "value": 1.19,
+          "unit": "bits/char",
+          "evidence_span": {
+            "start": 277,
+            "end": 313
+          },
+          "confidence": 0.2
+        },
+        {
+          "name": "cross-entropy",
+          "value": 1.08,
+          "unit": "bits/char",
+          "evidence_span": {
+            "start": 315,
+            "end": 346
+          },
+          "confidence": 0.4
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "neural cache",
+        "AWD-LSTM",
+        "mLSTM"
+      ],
+      "self_consistency": 0.72,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "DISABLED (E2 critic-off ablation)",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 20020,
+    "tokens_out": 3711,
+    "cost_usd": 0.01094177,
+    "wall_time_seconds": 72.58820933313109,
+    "voting_samples": 3
+  }
+}

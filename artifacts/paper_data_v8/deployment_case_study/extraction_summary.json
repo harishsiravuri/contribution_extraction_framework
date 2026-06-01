@@ -1,0 +1,1010 @@
+{
+  "papers_total": 100,
+  "papers_ok": 91,
+  "papers_error": 9,
+  "papers_skipped": 0,
+  "total_cost_usd": 0.62216488,
+  "wall_time_seconds": 823.4803409578744,
+  "per_paper": [
+    {
+      "paper_id": "arxiv:2605.28079",
+      "status": "ok",
+      "cost_usd": 0.00915214,
+      "tokens_in": 10172,
+      "tokens_out": 4893,
+      "wall_time_seconds": 111.6734895829577,
+      "error": null,
+      "output_file": "outputs/paper_data_v8/deployment_case_study/records/arxiv__2605.28079.json"
+    },
+    {
+      "paper_id": "arxiv:2605.28093",
+      "status": "ok",
+      "cost_usd": 0.00486468,
+      "tokens_in": 6550,
+      "tokens_out": 2232,
+      "wall_time_seconds": 60.492518292041495,
+      "error": null,
+      "output_file": "outputs/paper_data_v8/deployment_case_study/records/arxiv__2605.28093.json"
+    },
+    {
+      "paper_id": "arxiv:2605.28103",
+      "status": "error",
+      "cost_usd": 0.0,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "wall_time_seconds": 0.0,
+      "error": "ExtractorParseError: Extractor output failed schema validation: 2 validation errors for ExtractorDraft\ncontributions.0.metrics.0.evidence_span.start\n  Input should be greater than or equal to 0 [type=greater_than_equal, i",
+      "output_file": null
+    },
+    {
+      "paper_id": "arxiv:2605.28109",
+      "status": "ok",
+      "cost_usd": 0.008257869999999999,
+      "tokens_in": 9200,
+      "tokens_out": 4470,
+      "wall_time_seconds": 125.77612524991855,
+      "error": null,
+      "output_file": "outputs/paper_data_v8/deployment_case_study/records/arxiv__2605.28109.json"
+    },
+    {
+      "paper_id": "arxiv:2605.28111",
+      "status": "ok",
+      "cost_usd": 0.01016863,
+      "tokens_in": 11329,
+      "tokens_out": 5307,
+      "wall_time_seconds": 85.10383058316074,
+      "error": null,
+      "output_file": "outputs/paper_data_v8/deployment_case_study/records/arxiv__2605.28111.json"
+    },
+    {
+      "paper_id": "arxiv:2605.28122",
+      "status": "ok",
+      "cost_usd": 0.004881030000000001,
+      "tokens_in": 6779,
+      "tokens_out": 2172,
+      "wall_time_seconds": 52.899184624897316,
+      "error": null,
+      "output_file": "outputs/paper_data_v8/deployment_case_study/records/arxiv__2605.28122.json"
+    },
+    {
+      "paper_id": "arxiv:2605.28143",
+      "status": "ok",
+      "cost_usd": 0.0049241,
+      "tokens_in": 6052,
+      "tokens_out": 2488,
+      "wall_time_seconds": 37.79957312485203,
+      "error": null,
+      "output_file": "outputs/paper_data_v8/deployment_case_study/records/arxiv__2605.28143.json"
+    },
+    {
+      "paper_id": "arxiv:2605.28145",
+      "status": "ok",
+      "cost_usd": 0.0045848,
+      "tokens_in": 6216,
+      "tokens_out": 2102,
+      "wall_time_seconds": 57.325084457872435,
+      "error": null,
+      "output_file": "outputs/paper_data_v8/deployment_case_study/records/arxiv__2605.28145.json"
+    },
+    {
+      "paper_id": "arxiv:2605.28150",
+      "status": "ok",
+      "cost_usd": 0.00395827,
+      "tokens_in": 5811,
+      "tokens_out": 1637,
+      "wall_time_seconds": 43.59694145806134,
+      "error": null,
+      "output_file": "outputs/paper_data_v8/deployment_case_study/records/arxiv__2605.28150.json"
+    },
+    {
+      "paper_id": "arxiv:2605.28162",
+      "status": "ok",
+      "cost_usd": 0.00409435,
+      "tokens_in": 5956,
+      "tokens_out": 1650,
+      "wall_time_seconds": 38.229408459039405,
+      "error": null,
+      "output_file": "outputs/paper_data_v8/deployment_case_study/records/arxiv__2605.28162.json"
+    },
+    {
+      "paper_id": "arxiv:2605.28183",
+      "status": "ok",
+      "cost_usd": 0.00678608,
+      "tokens_in": 7973,
+      "tokens_out": 3490,
+      "wall_time_seconds": 46.24813904101029,
+      "error": null,
+      "output_file": "outputs/paper_data_v8/deployment_case_study/records/arxiv__2605.28183.json"
+    },
+    {
+      "paper_id": "arxiv:2605.28207",
+      "status": "ok",
+      "cost_usd": 0.0057794000000000005,
+      "tokens_in": 7257,
+      "tokens_out": 2861,
+      "wall_time_seconds": 37.30991895799525,
+      "error": null,
+      "output_file": "outputs/paper_data_v8/deployment_case_study/records/arxiv__2605.28207.json"
+    },
+    {
+      "paper_id": "arxiv:2605.28226",
+      "status": "ok",
+      "cost_usd": 0.0063557100000000005,
+      "tokens_in": 6435,
+      "tokens_out": 4122,
+      "wall_time_seconds": 84.6241746249143,
+      "error": null,
+      "output_file": "outputs/paper_data_v8/deployment_case_study/records/arxiv__2605.28226.json"
+    },
+    {
+      "paper_id": "arxiv:2605.28340",
+      "status": "ok",
+      "cost_usd": 0.01148983,
+      "tokens_in": 12160,
+      "tokens_out": 6348,
+      "wall_time_seconds": 172.45670112478547,
+      "error": null,
+      "output_file": "outputs/paper_data_v8/deployment_case_study/records/arxiv__2605.28340.json"
+    },
+    {
+      "paper_id": "arxiv:2605.28363",
+      "status": "ok",
+      "cost_usd": 0.00666408,
+      "tokens_in": 8046,
+      "tokens_out": 3402,
+      "wall_time_seconds": 67.0660476249177,
+      "error": null,
+      "output_file": "outputs/paper_data_v8/deployment_case_study/records/arxiv__2605.28363.json"
+    },
+    {
+      "paper_id": "arxiv:2605.28534",
+      "status": "ok",
+      "cost_usd": 0.00541295,
+      "tokens_in": 7199,
+      "tokens_out": 2459,
+      "wall_time_seconds": 38.12017737515271,
+      "error": null,
+      "output_file": "outputs/paper_data_v8/deployment_case_study/records/arxiv__2605.28534.json"
+    },
+    {
+      "paper_id": "arxiv:2605.28551",
+      "status": "error",
+      "cost_usd": 0.0,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "wall_time_seconds": 0.0,
+      "error": "ConsolidatorParseError: Consolidator output failed schema validation: 5 validation errors for ContributionRecord\ncontributions.0.method.confidence\n  Input should be a valid number [type=float_type, input_value=None, input_ty",
+      "output_file": null
+    },
+    {
+      "paper_id": "arxiv:2605.28554",
+      "status": "error",
+      "cost_usd": 0.0,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "wall_time_seconds": 0.0,
+      "error": "ConsolidatorParseError: Consolidator output failed schema validation: 4 validation errors for ContributionRecord\ncontributions.0.method.confidence\n  Input should be a valid number [type=float_type, input_value=None, input_ty",
+      "output_file": null
+    },
+    {
+      "paper_id": "arxiv:2605.28567",
+      "status": "ok",
+      "cost_usd": 0.006992429999999999,
+      "tokens_in": 8220,
+      "tokens_out": 3617,
+      "wall_time_seconds": 50.43719895905815,
+      "error": null,
+      "output_file": "outputs/paper_data_v8/deployment_case_study/records/arxiv__2605.28567.json"
+    },
+    {
+      "paper_id": "arxiv:2605.28585",
+      "status": "ok",
+      "cost_usd": 0.00622123,
+      "tokens_in": 7531,
+      "tokens_out": 3028,
+      "wall_time_seconds": 62.54485254199244,
+      "error": null,
+      "output_file": "outputs/paper_data_v8/deployment_case_study/records/arxiv__2605.28585.json"
+    },
+    {
+      "paper_id": "arxiv:2605.28669",
+      "status": "ok",
+      "cost_usd": 0.00897346,
+      "tokens_in": 9500,
+      "tokens_out": 5059,
+      "wall_time_seconds": 137.63473754189909,
+      "error": null,
+      "output_file": "outputs/paper_data_v8/deployment_case_study/records/arxiv__2605.28669.json"
+    },
+    {
+      "paper_id": "arxiv:2605.28684",
+      "status": "ok",
+      "cost_usd": 0.00920923,
+      "tokens_in": 10185,
+      "tokens_out": 4918,
+      "wall_time_seconds": 82.52559841703624,
+      "error": null,
+      "output_file": "outputs/paper_data_v8/deployment_case_study/records/arxiv__2605.28684.json"
+    },
+    {
+      "paper_id": "arxiv:2605.28767",
+      "status": "ok",
+      "cost_usd": 0.006766909999999999,
+      "tokens_in": 8197,
+      "tokens_out": 3400,
+      "wall_time_seconds": 100.83822270901874,
+      "error": null,
+      "output_file": "outputs/paper_data_v8/deployment_case_study/records/arxiv__2605.28767.json"
+    },
+    {
+      "paper_id": "arxiv:2605.28774",
+      "status": "ok",
+      "cost_usd": 0.0069047299999999995,
+      "tokens_in": 8094,
+      "tokens_out": 3597,
+      "wall_time_seconds": 78.77605716697872,
+      "error": null,
+      "output_file": "outputs/paper_data_v8/deployment_case_study/records/arxiv__2605.28774.json"
+    },
+    {
+      "paper_id": "arxiv:2605.28812",
+      "status": "ok",
+      "cost_usd": 0.007418429999999999,
+      "tokens_in": 8427,
+      "tokens_out": 3956,
+      "wall_time_seconds": 90.39352270890959,
+      "error": null,
+      "output_file": "outputs/paper_data_v8/deployment_case_study/records/arxiv__2605.28812.json"
+    },
+    {
+      "paper_id": "arxiv:2605.28814",
+      "status": "ok",
+      "cost_usd": 0.00665609,
+      "tokens_in": 8084,
+      "tokens_out": 3359,
+      "wall_time_seconds": 63.2068409579806,
+      "error": null,
+      "output_file": "outputs/paper_data_v8/deployment_case_study/records/arxiv__2605.28814.json"
+    },
+    {
+      "paper_id": "arxiv:2605.28890",
+      "status": "ok",
+      "cost_usd": 0.00595308,
+      "tokens_in": 7235,
+      "tokens_out": 3006,
+      "wall_time_seconds": 61.07399966707453,
+      "error": null,
+      "output_file": "outputs/paper_data_v8/deployment_case_study/records/arxiv__2605.28890.json"
+    },
+    {
+      "paper_id": "arxiv:2605.28919",
+      "status": "ok",
+      "cost_usd": 0.0037403999999999996,
+      "tokens_in": 5674,
+      "tokens_out": 1469,
+      "wall_time_seconds": 27.476948417024687,
+      "error": null,
+      "output_file": "outputs/paper_data_v8/deployment_case_study/records/arxiv__2605.28919.json"
+    },
+    {
+      "paper_id": "arxiv:2605.28952",
+      "status": "ok",
+      "cost_usd": 0.00675357,
+      "tokens_in": 7737,
+      "tokens_out": 3647,
+      "wall_time_seconds": 80.79669841681607,
+      "error": null,
+      "output_file": "outputs/paper_data_v8/deployment_case_study/records/arxiv__2605.28952.json"
+    },
+    {
+      "paper_id": "arxiv:2605.28961",
+      "status": "ok",
+      "cost_usd": 0.00649983,
+      "tokens_in": 7622,
+      "tokens_out": 3410,
+      "wall_time_seconds": 74.3769381660968,
+      "error": null,
+      "output_file": "outputs/paper_data_v8/deployment_case_study/records/arxiv__2605.28961.json"
+    },
+    {
+      "paper_id": "arxiv:2605.28969",
+      "status": "ok",
+      "cost_usd": 0.007042339999999999,
+      "tokens_in": 8529,
+      "tokens_out": 3519,
+      "wall_time_seconds": 79.844600582961,
+      "error": null,
+      "output_file": "outputs/paper_data_v8/deployment_case_study/records/arxiv__2605.28969.json"
+    },
+    {
+      "paper_id": "arxiv:2605.28999",
+      "status": "ok",
+      "cost_usd": 0.00750898,
+      "tokens_in": 8658,
+      "tokens_out": 3931,
+      "wall_time_seconds": 79.07646383321844,
+      "error": null,
+      "output_file": "outputs/paper_data_v8/deployment_case_study/records/arxiv__2605.28999.json"
+    },
+    {
+      "paper_id": "arxiv:2605.29002",
+      "status": "ok",
+      "cost_usd": 0.00634183,
+      "tokens_in": 8003,
+      "tokens_out": 3012,
+      "wall_time_seconds": 46.03368654195219,
+      "error": null,
+      "output_file": "outputs/paper_data_v8/deployment_case_study/records/arxiv__2605.29002.json"
+    },
+    {
+      "paper_id": "arxiv:2605.29008",
+      "status": "ok",
+      "cost_usd": 0.005912549999999999,
+      "tokens_in": 7164,
+      "tokens_out": 3029,
+      "wall_time_seconds": 51.135744208004326,
+      "error": null,
+      "output_file": "outputs/paper_data_v8/deployment_case_study/records/arxiv__2605.29008.json"
+    },
+    {
+      "paper_id": "arxiv:2605.29021",
+      "status": "ok",
+      "cost_usd": 0.00558106,
+      "tokens_in": 7506,
+      "tokens_out": 2558,
+      "wall_time_seconds": 41.85062683420256,
+      "error": null,
+      "output_file": "outputs/paper_data_v8/deployment_case_study/records/arxiv__2605.29021.json"
+    },
+    {
+      "paper_id": "arxiv:2605.29068",
+      "status": "ok",
+      "cost_usd": 0.00686345,
+      "tokens_in": 8189,
+      "tokens_out": 3470,
+      "wall_time_seconds": 72.61253383290023,
+      "error": null,
+      "output_file": "outputs/paper_data_v8/deployment_case_study/records/arxiv__2605.29068.json"
+    },
+    {
+      "paper_id": "arxiv:2605.29078",
+      "status": "ok",
+      "cost_usd": 0.00467599,
+      "tokens_in": 6419,
+      "tokens_out": 2102,
+      "wall_time_seconds": 50.15866199997254,
+      "error": null,
+      "output_file": "outputs/paper_data_v8/deployment_case_study/records/arxiv__2605.29078.json"
+    },
+    {
+      "paper_id": "arxiv:2605.29101",
+      "status": "ok",
+      "cost_usd": 0.0059457,
+      "tokens_in": 7359,
+      "tokens_out": 2925,
+      "wall_time_seconds": 81.48994775000028,
+      "error": null,
+      "output_file": "outputs/paper_data_v8/deployment_case_study/records/arxiv__2605.29101.json"
+    },
+    {
+      "paper_id": "arxiv:2605.29152",
+      "status": "error",
+      "cost_usd": 0.0,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "wall_time_seconds": 0.0,
+      "error": "ConsolidatorParseError: Consolidator output failed schema validation: 12 validation errors for ContributionRecord\ncontributions.0.method.confidence\n  Input should be a valid number [type=float_type, input_value=None, input_t",
+      "output_file": null
+    },
+    {
+      "paper_id": "arxiv:2605.29183",
+      "status": "ok",
+      "cost_usd": 0.01374619,
+      "tokens_in": 13551,
+      "tokens_out": 7941,
+      "wall_time_seconds": 196.3970303342212,
+      "error": null,
+      "output_file": "outputs/paper_data_v8/deployment_case_study/records/arxiv__2605.29183.json"
+    },
+    {
+      "paper_id": "arxiv:2605.29184",
+      "status": "ok",
+      "cost_usd": 0.00992758,
+      "tokens_in": 10985,
+      "tokens_out": 5225,
+      "wall_time_seconds": 83.38066425011493,
+      "error": null,
+      "output_file": "outputs/paper_data_v8/deployment_case_study/records/arxiv__2605.29184.json"
+    },
+    {
+      "paper_id": "arxiv:2605.29267",
+      "status": "ok",
+      "cost_usd": 0.004486749999999999,
+      "tokens_in": 6206,
+      "tokens_out": 2008,
+      "wall_time_seconds": 30.17022466706112,
+      "error": null,
+      "output_file": "outputs/paper_data_v8/deployment_case_study/records/arxiv__2605.29267.json"
+    },
+    {
+      "paper_id": "arxiv:2605.29268",
+      "status": "ok",
+      "cost_usd": 0.0041588400000000005,
+      "tokens_in": 6005,
+      "tokens_out": 1755,
+      "wall_time_seconds": 30.305588332936168,
+      "error": null,
+      "output_file": "outputs/paper_data_v8/deployment_case_study/records/arxiv__2605.29268.json"
+    },
+    {
+      "paper_id": "arxiv:2605.29271",
+      "status": "ok",
+      "cost_usd": 0.00787067,
+      "tokens_in": 9307,
+      "tokens_out": 3964,
+      "wall_time_seconds": 107.30965145910159,
+      "error": null,
+      "output_file": "outputs/paper_data_v8/deployment_case_study/records/arxiv__2605.29271.json"
+    },
+    {
+      "paper_id": "arxiv:2605.29273",
+      "status": "ok",
+      "cost_usd": 0.00438531,
+      "tokens_in": 5967,
+      "tokens_out": 1995,
+      "wall_time_seconds": 49.01669900002889,
+      "error": null,
+      "output_file": "outputs/paper_data_v8/deployment_case_study/records/arxiv__2605.29273.json"
+    },
+    {
+      "paper_id": "arxiv:2605.29313",
+      "status": "ok",
+      "cost_usd": 0.00821086,
+      "tokens_in": 9163,
+      "tokens_out": 4308,
+      "wall_time_seconds": 87.1128880418837,
+      "error": null,
+      "output_file": "outputs/paper_data_v8/deployment_case_study/records/arxiv__2605.29313.json"
+    },
+    {
+      "paper_id": "arxiv:2605.29324",
+      "status": "ok",
+      "cost_usd": 0.00466034,
+      "tokens_in": 6393,
+      "tokens_out": 2094,
+      "wall_time_seconds": 71.34695383301005,
+      "error": null,
+      "output_file": "outputs/paper_data_v8/deployment_case_study/records/arxiv__2605.29324.json"
+    },
+    {
+      "paper_id": "arxiv:2605.29329",
+      "status": "ok",
+      "cost_usd": 0.00680303,
+      "tokens_in": 8311,
+      "tokens_out": 3403,
+      "wall_time_seconds": 99.69310929183848,
+      "error": null,
+      "output_file": "outputs/paper_data_v8/deployment_case_study/records/arxiv__2605.29329.json"
+    },
+    {
+      "paper_id": "arxiv:2605.29351",
+      "status": "error",
+      "cost_usd": 0.0,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "wall_time_seconds": 0.0,
+      "error": "ConsolidatorParseError: Consolidator output failed schema validation: 2 validation errors for ContributionRecord\ncontributions.0.method.confidence\n  Input should be a valid number [type=float_type, input_value=None, input_ty",
+      "output_file": null
+    },
+    {
+      "paper_id": "arxiv:2605.29354",
+      "status": "ok",
+      "cost_usd": 0.005489529999999999,
+      "tokens_in": 7106,
+      "tokens_out": 2635,
+      "wall_time_seconds": 51.98853087518364,
+      "error": null,
+      "output_file": "outputs/paper_data_v8/deployment_case_study/records/arxiv__2605.29354.json"
+    },
+    {
+      "paper_id": "arxiv:2605.29355",
+      "status": "ok",
+      "cost_usd": 0.00446886,
+      "tokens_in": 6094,
+      "tokens_out": 2011,
+      "wall_time_seconds": 40.13108925009146,
+      "error": null,
+      "output_file": "outputs/paper_data_v8/deployment_case_study/records/arxiv__2605.29355.json"
+    },
+    {
+      "paper_id": "arxiv:2605.29357",
+      "status": "ok",
+      "cost_usd": 0.00879076,
+      "tokens_in": 9972,
+      "tokens_out": 4594,
+      "wall_time_seconds": 111.07566804182716,
+      "error": null,
+      "output_file": "outputs/paper_data_v8/deployment_case_study/records/arxiv__2605.29357.json"
+    },
+    {
+      "paper_id": "arxiv:2605.29366",
+      "status": "ok",
+      "cost_usd": 0.007905889999999999,
+      "tokens_in": 9178,
+      "tokens_out": 4048,
+      "wall_time_seconds": 93.07467412482947,
+      "error": null,
+      "output_file": "outputs/paper_data_v8/deployment_case_study/records/arxiv__2605.29366.json"
+    },
+    {
+      "paper_id": "arxiv:2605.29367",
+      "status": "error",
+      "cost_usd": 0.0,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "wall_time_seconds": 0.0,
+      "error": "ConsolidatorParseError: Consolidator output failed schema validation: 1 validation error for ContributionRecord\ncontributions.4.metrics.0.name\n  Input should be a valid string [type=string_type, input_value=None, input_type=",
+      "output_file": null
+    },
+    {
+      "paper_id": "arxiv:2605.29427",
+      "status": "ok",
+      "cost_usd": 0.006185530000000001,
+      "tokens_in": 7808,
+      "tokens_out": 2889,
+      "wall_time_seconds": 59.1843229169026,
+      "error": null,
+      "output_file": "outputs/paper_data_v8/deployment_case_study/records/arxiv__2605.29427.json"
+    },
+    {
+      "paper_id": "arxiv:2605.29467",
+      "status": "ok",
+      "cost_usd": 0.004829770000000001,
+      "tokens_in": 6480,
+      "tokens_out": 2190,
+      "wall_time_seconds": 47.349403999978676,
+      "error": null,
+      "output_file": "outputs/paper_data_v8/deployment_case_study/records/arxiv__2605.29467.json"
+    },
+    {
+      "paper_id": "arxiv:2605.29486",
+      "status": "ok",
+      "cost_usd": 0.008088399999999999,
+      "tokens_in": 9342,
+      "tokens_out": 4168,
+      "wall_time_seconds": 98.1058186669834,
+      "error": null,
+      "output_file": "outputs/paper_data_v8/deployment_case_study/records/arxiv__2605.29486.json"
+    },
+    {
+      "paper_id": "arxiv:2605.29489",
+      "status": "ok",
+      "cost_usd": 0.00587966,
+      "tokens_in": 7183,
+      "tokens_out": 2988,
+      "wall_time_seconds": 83.06229979195632,
+      "error": null,
+      "output_file": "outputs/paper_data_v8/deployment_case_study/records/arxiv__2605.29489.json"
+    },
+    {
+      "paper_id": "arxiv:2605.29498",
+      "status": "error",
+      "cost_usd": 0.0,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "wall_time_seconds": 0.0,
+      "error": "ConsolidatorParseError: Consolidator output failed schema validation: 2 validation errors for ContributionRecord\ncontributions.0.datasets\n  Input should be a valid list [type=list_type, input_value=None, input_type=NoneType]",
+      "output_file": null
+    },
+    {
+      "paper_id": "arxiv:2605.29511",
+      "status": "ok",
+      "cost_usd": 0.00865166,
+      "tokens_in": 9780,
+      "tokens_out": 4514,
+      "wall_time_seconds": 63.485200041905046,
+      "error": null,
+      "output_file": "outputs/paper_data_v8/deployment_case_study/records/arxiv__2605.29511.json"
+    },
+    {
+      "paper_id": "arxiv:2605.29523",
+      "status": "ok",
+      "cost_usd": 0.00646617,
+      "tokens_in": 7923,
+      "tokens_out": 3121,
+      "wall_time_seconds": 53.58797891600989,
+      "error": null,
+      "output_file": "outputs/paper_data_v8/deployment_case_study/records/arxiv__2605.29523.json"
+    },
+    {
+      "paper_id": "arxiv:2605.29525",
+      "status": "ok",
+      "cost_usd": 0.00875796,
+      "tokens_in": 9487,
+      "tokens_out": 4863,
+      "wall_time_seconds": 75.89845091709867,
+      "error": null,
+      "output_file": "outputs/paper_data_v8/deployment_case_study/records/arxiv__2605.29525.json"
+    },
+    {
+      "paper_id": "arxiv:2605.29535",
+      "status": "ok",
+      "cost_usd": 0.008993379999999999,
+      "tokens_in": 10073,
+      "tokens_out": 4557,
+      "wall_time_seconds": 62.34137349994853,
+      "error": null,
+      "output_file": "outputs/paper_data_v8/deployment_case_study/records/arxiv__2605.29535.json"
+    },
+    {
+      "paper_id": "arxiv:2605.29537",
+      "status": "error",
+      "cost_usd": 0.0,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "wall_time_seconds": 0.0,
+      "error": "ConsolidatorParseError: Consolidator output failed schema validation: 8 validation errors for ContributionRecord\ncontributions.0.method.confidence\n  Input should be a valid number [type=float_type, input_value=None, input_ty",
+      "output_file": null
+    },
+    {
+      "paper_id": "arxiv:2605.29547",
+      "status": "ok",
+      "cost_usd": 0.00653133,
+      "tokens_in": 8075,
+      "tokens_out": 3213,
+      "wall_time_seconds": 80.57793091703206,
+      "error": null,
+      "output_file": "outputs/paper_data_v8/deployment_case_study/records/arxiv__2605.29547.json"
+    },
+    {
+      "paper_id": "arxiv:2605.29548",
+      "status": "ok",
+      "cost_usd": 0.005925369999999999,
+      "tokens_in": 7671,
+      "tokens_out": 2852,
+      "wall_time_seconds": 49.52025837497786,
+      "error": null,
+      "output_file": "outputs/paper_data_v8/deployment_case_study/records/arxiv__2605.29548.json"
+    },
+    {
+      "paper_id": "arxiv:2605.29559",
+      "status": "ok",
+      "cost_usd": 0.010684659999999999,
+      "tokens_in": 11099,
+      "tokens_out": 6052,
+      "wall_time_seconds": 83.02433516597375,
+      "error": null,
+      "output_file": "outputs/paper_data_v8/deployment_case_study/records/arxiv__2605.29559.json"
+    },
+    {
+      "paper_id": "arxiv:2605.29615",
+      "status": "ok",
+      "cost_usd": 0.00665692,
+      "tokens_in": 8130,
+      "tokens_out": 3331,
+      "wall_time_seconds": 72.0926766670309,
+      "error": null,
+      "output_file": "outputs/paper_data_v8/deployment_case_study/records/arxiv__2605.29615.json"
+    },
+    {
+      "paper_id": "arxiv:2605.29622",
+      "status": "ok",
+      "cost_usd": 0.00806184,
+      "tokens_in": 9152,
+      "tokens_out": 4398,
+      "wall_time_seconds": 103.01791904191487,
+      "error": null,
+      "output_file": "outputs/paper_data_v8/deployment_case_study/records/arxiv__2605.29622.json"
+    },
+    {
+      "paper_id": "arxiv:2605.29637",
+      "status": "ok",
+      "cost_usd": 0.008095620000000001,
+      "tokens_in": 9237,
+      "tokens_out": 4351,
+      "wall_time_seconds": 68.80284495907836,
+      "error": null,
+      "output_file": "outputs/paper_data_v8/deployment_case_study/records/arxiv__2605.29637.json"
+    },
+    {
+      "paper_id": "arxiv:2605.29708",
+      "status": "error",
+      "cost_usd": 0.0,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "wall_time_seconds": 0.0,
+      "error": "ConsolidatorParseError: Consolidator output failed schema validation: 1 validation error for ContributionRecord\ncontributions.0.metrics.0.name\n  Input should be a valid string [type=string_type, input_value=None, input_type=",
+      "output_file": null
+    },
+    {
+      "paper_id": "arxiv:2605.29729",
+      "status": "ok",
+      "cost_usd": 0.00462551,
+      "tokens_in": 6055,
+      "tokens_out": 2186,
+      "wall_time_seconds": 53.54572395817377,
+      "error": null,
+      "output_file": "outputs/paper_data_v8/deployment_case_study/records/arxiv__2605.29729.json"
+    },
+    {
+      "paper_id": "arxiv:2605.29731",
+      "status": "ok",
+      "cost_usd": 0.00588828,
+      "tokens_in": 7589,
+      "tokens_out": 2745,
+      "wall_time_seconds": 54.13997699995525,
+      "error": null,
+      "output_file": "outputs/paper_data_v8/deployment_case_study/records/arxiv__2605.29731.json"
+    },
+    {
+      "paper_id": "arxiv:2605.29738",
+      "status": "ok",
+      "cost_usd": 0.012533099999999998,
+      "tokens_in": 12723,
+      "tokens_out": 7143,
+      "wall_time_seconds": 146.10053145792335,
+      "error": null,
+      "output_file": "outputs/paper_data_v8/deployment_case_study/records/arxiv__2605.29738.json"
+    },
+    {
+      "paper_id": "arxiv:2605.29751",
+      "status": "ok",
+      "cost_usd": 0.00397574,
+      "tokens_in": 5862,
+      "tokens_out": 1623,
+      "wall_time_seconds": 34.505079332971945,
+      "error": null,
+      "output_file": "outputs/paper_data_v8/deployment_case_study/records/arxiv__2605.29751.json"
+    },
+    {
+      "paper_id": "arxiv:2605.29819",
+      "status": "ok",
+      "cost_usd": 0.0054535,
+      "tokens_in": 6570,
+      "tokens_out": 2806,
+      "wall_time_seconds": 31.20690270792693,
+      "error": null,
+      "output_file": "outputs/paper_data_v8/deployment_case_study/records/arxiv__2605.29819.json"
+    },
+    {
+      "paper_id": "arxiv:2605.29834",
+      "status": "ok",
+      "cost_usd": 0.0062019,
+      "tokens_in": 7463,
+      "tokens_out": 3108,
+      "wall_time_seconds": 63.856613958021626,
+      "error": null,
+      "output_file": "outputs/paper_data_v8/deployment_case_study/records/arxiv__2605.29834.json"
+    },
+    {
+      "paper_id": "arxiv:2605.29859",
+      "status": "ok",
+      "cost_usd": 0.00720347,
+      "tokens_in": 8119,
+      "tokens_out": 3809,
+      "wall_time_seconds": 79.02469208394177,
+      "error": null,
+      "output_file": "outputs/paper_data_v8/deployment_case_study/records/arxiv__2605.29859.json"
+    },
+    {
+      "paper_id": "arxiv:2605.29889",
+      "status": "ok",
+      "cost_usd": 0.0068029100000000006,
+      "tokens_in": 8149,
+      "tokens_out": 3388,
+      "wall_time_seconds": 49.492579540936276,
+      "error": null,
+      "output_file": "outputs/paper_data_v8/deployment_case_study/records/arxiv__2605.29889.json"
+    },
+    {
+      "paper_id": "arxiv:2605.29897",
+      "status": "ok",
+      "cost_usd": 0.00392534,
+      "tokens_in": 5778,
+      "tokens_out": 1604,
+      "wall_time_seconds": 33.05596037511714,
+      "error": null,
+      "output_file": "outputs/paper_data_v8/deployment_case_study/records/arxiv__2605.29897.json"
+    },
+    {
+      "paper_id": "arxiv:2605.29937",
+      "status": "ok",
+      "cost_usd": 0.007610809999999999,
+      "tokens_in": 8709,
+      "tokens_out": 3902,
+      "wall_time_seconds": 82.63564770808443,
+      "error": null,
+      "output_file": "outputs/paper_data_v8/deployment_case_study/records/arxiv__2605.29937.json"
+    },
+    {
+      "paper_id": "arxiv:2605.29979",
+      "status": "ok",
+      "cost_usd": 0.004256940000000001,
+      "tokens_in": 6020,
+      "tokens_out": 1852,
+      "wall_time_seconds": 38.29327412508428,
+      "error": null,
+      "output_file": "outputs/paper_data_v8/deployment_case_study/records/arxiv__2605.29979.json"
+    },
+    {
+      "paper_id": "arxiv:2605.29980",
+      "status": "ok",
+      "cost_usd": 0.0057021,
+      "tokens_in": 7302,
+      "tokens_out": 2656,
+      "wall_time_seconds": 65.71359495795332,
+      "error": null,
+      "output_file": "outputs/paper_data_v8/deployment_case_study/records/arxiv__2605.29980.json"
+    },
+    {
+      "paper_id": "arxiv:2605.30003",
+      "status": "ok",
+      "cost_usd": 0.006100029999999999,
+      "tokens_in": 7499,
+      "tokens_out": 3083,
+      "wall_time_seconds": 66.38299112510867,
+      "error": null,
+      "output_file": "outputs/paper_data_v8/deployment_case_study/records/arxiv__2605.30003.json"
+    },
+    {
+      "paper_id": "arxiv:2605.30022",
+      "status": "ok",
+      "cost_usd": 0.00527636,
+      "tokens_in": 6986,
+      "tokens_out": 2468,
+      "wall_time_seconds": 66.31449029198848,
+      "error": null,
+      "output_file": "outputs/paper_data_v8/deployment_case_study/records/arxiv__2605.30022.json"
+    },
+    {
+      "paper_id": "arxiv:2605.30031",
+      "status": "ok",
+      "cost_usd": 0.00818047,
+      "tokens_in": 9013,
+      "tokens_out": 4520,
+      "wall_time_seconds": 95.65117524983361,
+      "error": null,
+      "output_file": "outputs/paper_data_v8/deployment_case_study/records/arxiv__2605.30031.json"
+    },
+    {
+      "paper_id": "arxiv:2605.30051",
+      "status": "ok",
+      "cost_usd": 0.0054957800000000005,
+      "tokens_in": 7164,
+      "tokens_out": 2538,
+      "wall_time_seconds": 62.099042291985825,
+      "error": null,
+      "output_file": "outputs/paper_data_v8/deployment_case_study/records/arxiv__2605.30051.json"
+    },
+    {
+      "paper_id": "arxiv:2605.30080",
+      "status": "ok",
+      "cost_usd": 0.0054483199999999996,
+      "tokens_in": 7192,
+      "tokens_out": 2507,
+      "wall_time_seconds": 53.46843245904893,
+      "error": null,
+      "output_file": "outputs/paper_data_v8/deployment_case_study/records/arxiv__2605.30080.json"
+    },
+    {
+      "paper_id": "arxiv:2605.30085",
+      "status": "ok",
+      "cost_usd": 0.00613691,
+      "tokens_in": 7416,
+      "tokens_out": 3168,
+      "wall_time_seconds": 66.74690066697076,
+      "error": null,
+      "output_file": "outputs/paper_data_v8/deployment_case_study/records/arxiv__2605.30085.json"
+    },
+    {
+      "paper_id": "arxiv:2605.30112",
+      "status": "ok",
+      "cost_usd": 0.00875889,
+      "tokens_in": 9489,
+      "tokens_out": 4841,
+      "wall_time_seconds": 122.95582358306274,
+      "error": null,
+      "output_file": "outputs/paper_data_v8/deployment_case_study/records/arxiv__2605.30112.json"
+    },
+    {
+      "paper_id": "arxiv:2605.30119",
+      "status": "ok",
+      "cost_usd": 0.00774316,
+      "tokens_in": 8841,
+      "tokens_out": 4094,
+      "wall_time_seconds": 79.54404070903547,
+      "error": null,
+      "output_file": "outputs/paper_data_v8/deployment_case_study/records/arxiv__2605.30119.json"
+    },
+    {
+      "paper_id": "arxiv:2605.30126",
+      "status": "ok",
+      "cost_usd": 0.00471003,
+      "tokens_in": 6507,
+      "tokens_out": 2104,
+      "wall_time_seconds": 53.79654683312401,
+      "error": null,
+      "output_file": "outputs/paper_data_v8/deployment_case_study/records/arxiv__2605.30126.json"
+    },
+    {
+      "paper_id": "arxiv:2605.30162",
+      "status": "ok",
+      "cost_usd": 0.01683535,
+      "tokens_in": 16083,
+      "tokens_out": 10022,
+      "wall_time_seconds": 210.7026366670616,
+      "error": null,
+      "output_file": "outputs/paper_data_v8/deployment_case_study/records/arxiv__2605.30162.json"
+    },
+    {
+      "paper_id": "arxiv:2605.30198",
+      "status": "ok",
+      "cost_usd": 0.00669583,
+      "tokens_in": 7960,
+      "tokens_out": 3354,
+      "wall_time_seconds": 57.305482499999925,
+      "error": null,
+      "output_file": "outputs/paper_data_v8/deployment_case_study/records/arxiv__2605.30198.json"
+    },
+    {
+      "paper_id": "arxiv:2605.30202",
+      "status": "ok",
+      "cost_usd": 0.00392346,
+      "tokens_in": 5818,
+      "tokens_out": 1593,
+      "wall_time_seconds": 43.14367966703139,
+      "error": null,
+      "output_file": "outputs/paper_data_v8/deployment_case_study/records/arxiv__2605.30202.json"
+    },
+    {
+      "paper_id": "arxiv:2605.30245",
+      "status": "ok",
+      "cost_usd": 0.0054790099999999994,
+      "tokens_in": 7101,
+      "tokens_out": 2625,
+      "wall_time_seconds": 173.40104050002992,
+      "error": null,
+      "output_file": "outputs/paper_data_v8/deployment_case_study/records/arxiv__2605.30245.json"
+    },
+    {
+      "paper_id": "arxiv:2605.30251",
+      "status": "ok",
+      "cost_usd": 0.00559006,
+      "tokens_in": 7190,
+      "tokens_out": 2722,
+      "wall_time_seconds": 77.80670454213396,
+      "error": null,
+      "output_file": "outputs/paper_data_v8/deployment_case_study/records/arxiv__2605.30251.json"
+    },
+    {
+      "paper_id": "arxiv:2605.30260",
+      "status": "ok",
+      "cost_usd": 0.0062096600000000005,
+      "tokens_in": 7612,
+      "tokens_out": 3095,
+      "wall_time_seconds": 137.27092070807703,
+      "error": null,
+      "output_file": "outputs/paper_data_v8/deployment_case_study/records/arxiv__2605.30260.json"
+    },
+    {
+      "paper_id": "arxiv:2605.30273",
+      "status": "ok",
+      "cost_usd": 0.00955083,
+      "tokens_in": 10668,
+      "tokens_out": 4992,
+      "wall_time_seconds": 142.34854150004685,
+      "error": null,
+      "output_file": "outputs/paper_data_v8/deployment_case_study/records/arxiv__2605.30273.json"
+    },
+    {
+      "paper_id": "arxiv:2605.30335",
+      "status": "ok",
+      "cost_usd": 0.01180304,
+      "tokens_in": 12411,
+      "tokens_out": 6454,
+      "wall_time_seconds": 140.516765832901,
+      "error": null,
+      "output_file": "outputs/paper_data_v8/deployment_case_study/records/arxiv__2605.30335.json"
+    }
+  ]
+}

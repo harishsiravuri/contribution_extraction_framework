@@ -1,0 +1,111 @@
+{
+  "paper_id": "scirex:027d6c52be01b583b9a0d9eb8c9364c6b701c656",
+  "contributions": [
+    {
+      "method": {
+        "name": "LSUV",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 47,
+          "end": 51
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "image classification",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 1085,
+          "end": 1099
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "MNIST",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2225,
+            "end": 2230
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "CIFAR-10",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2595,
+            "end": 2603
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "CIFAR-100",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2595,
+            "end": 2603
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "ImageNet",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1085,
+            "end": 1099
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "error rate",
+          "value": 0.39,
+          "unit": "%",
+          "evidence_span": {
+            "start": 2525,
+            "end": 2530
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "accuracy",
+          "value": 0.68,
+          "unit": null,
+          "evidence_span": {
+            "start": 4825,
+            "end": 4830
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "DSN",
+        "Hints initialization",
+        "Large-All-CNN",
+        "Fractional Max-pooling",
+        "original GoogLeNet initialization",
+        "standard initialization"
+      ],
+      "self_consistency": 0.875,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "openai/gpt-4o-2024-11-20",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 25756,
+    "tokens_out": 6017,
+    "cost_usd": 0.07562656,
+    "wall_time_seconds": 74.86036875005811,
+    "voting_samples": 3
+  }
+}

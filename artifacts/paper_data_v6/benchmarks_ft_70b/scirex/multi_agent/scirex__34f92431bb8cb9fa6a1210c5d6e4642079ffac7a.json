@@ -1,0 +1,65 @@
+{
+  "paper_id": "scirex:34f92431bb8cb9fa6a1210c5d6e4642079ffac7a",
+  "contributions": [
+    {
+      "method": {
+        "name": "slpr",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 186,
+          "end": 200
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "text detection",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 9,
+          "end": 24
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "icdar2015 incidental scene text",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1414,
+            "end": 1439
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "ctw1500",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1551,
+            "end": 1558
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [],
+      "claim_strength": "improves",
+      "comparison_targets": [],
+      "self_consistency": 0.83,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "UNSUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "harishsiravuri_e088/Meta-Llama-3.1-70B-Instruct-Reference-scirex-v6-70b-7cecddd1-66437b32",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 23386,
+    "tokens_out": 4293,
+    "cost_usd": 0.015397270000000001,
+    "wall_time_seconds": 53.87719349999679,
+    "voting_samples": 3
+  }
+}

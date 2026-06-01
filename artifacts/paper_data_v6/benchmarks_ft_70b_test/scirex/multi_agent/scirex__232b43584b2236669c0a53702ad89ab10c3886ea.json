@@ -1,0 +1,67 @@
+{
+  "paper_id": "scirex:232b43584b2236669c0a53702ad89ab10c3886ea",
+  "contributions": [
+    {
+      "method": {
+        "name": "iqn",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 4441,
+          "end": 4444
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "atari games",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 157,
+          "end": 169
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "atari 57",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 823,
+            "end": 835
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "human-normalized score",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 5521,
+            "end": 5544
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [],
+      "self_consistency": 1.0,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "harishsiravuri_e088/Meta-Llama-3.1-70B-Instruct-Reference-scirex-v6-70b-7cecddd1-66437b32",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 30933,
+    "tokens_out": 1242,
+    "cost_usd": 0.017076,
+    "wall_time_seconds": 28.98763291700743,
+    "voting_samples": 3
+  }
+}

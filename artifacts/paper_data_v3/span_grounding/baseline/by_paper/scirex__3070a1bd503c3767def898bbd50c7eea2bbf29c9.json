@@ -1,0 +1,151 @@
+{
+  "paper_id": "scirex:3070a1bd503c3767def898bbd50c7eea2bbf29c9",
+  "contributions": [
+    {
+      "method": {
+        "name": "shallow residual network architecture",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 813,
+          "end": 885
+        },
+        "confidence": 0.9
+      },
+      "task": {
+        "name": "image classification",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 669,
+          "end": 685
+        },
+        "confidence": 0.9
+      },
+      "datasets": [
+        {
+          "name": "ImageNet classification dataset",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 689,
+            "end": 716
+          },
+          "confidence": 0.9
+        }
+      ],
+      "metrics": [
+        {
+          "name": "top-1 error rate",
+          "value": null,
+          "unit": "percentage",
+          "evidence_span": {
+            "start": 4968,
+            "end": 4985
+          },
+          "confidence": 0.8
+        },
+        {
+          "name": "top-5 error rate",
+          "value": null,
+          "unit": "percentage",
+          "evidence_span": {
+            "start": 4968,
+            "end": 4985
+          },
+          "confidence": 0.8
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "ResNet-200"
+      ],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "PARTIAL",
+        "task": "PARTIAL",
+        "datasets": "PARTIAL",
+        "metrics": "PARTIAL"
+      }
+    },
+    {
+      "method": {
+        "name": "shallow residual network architecture",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 813,
+          "end": 885
+        },
+        "confidence": 0.9
+      },
+      "task": {
+        "name": "semantic image segmentation",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 733,
+          "end": 763
+        },
+        "confidence": 0.9
+      },
+      "datasets": [
+        {
+          "name": "PASCAL VOC",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 748,
+            "end": 758
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "PASCAL Context",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 760,
+            "end": 773
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "Cityscapes",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 776,
+            "end": 785
+          },
+          "confidence": 0.9
+        }
+      ],
+      "metrics": [
+        {
+          "name": "mean IoU score",
+          "value": 82.5,
+          "unit": "percentage",
+          "evidence_span": {
+            "start": 5808,
+            "end": 5823
+          },
+          "confidence": 0.9
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "state-of-the-art"
+      ],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "PARTIAL",
+        "task": "PARTIAL",
+        "datasets": "PARTIAL",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "(none)",
+    "consolidator_model": "(none)",
+    "tokens_in": 8502,
+    "tokens_out": 783,
+    "cost_usd": 0.00341751,
+    "wall_time_seconds": 23.46033287496539,
+    "voting_samples": 1
+  }
+}

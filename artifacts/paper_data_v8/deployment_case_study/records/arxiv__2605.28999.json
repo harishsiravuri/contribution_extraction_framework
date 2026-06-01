@@ -1,0 +1,88 @@
+{
+  "paper_id": "arxiv:2605.28999",
+  "contributions": [
+    {
+      "method": {
+        "name": "tailored prompt-injection detection",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 472,
+          "end": 512
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "prompt injection detection",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 386,
+          "end": 409
+        },
+        "confidence": 0.75
+      },
+      "datasets": [
+        {
+          "name": "small-scale dataset",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 518,
+            "end": 538
+          },
+          "confidence": 0.5
+        },
+        {
+          "name": "full resume dataset (200K resumes)",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 559,
+            "end": 591
+          },
+          "confidence": 0.75
+        }
+      ],
+      "metrics": [
+        {
+          "name": "precision",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 546,
+            "end": 554
+          },
+          "confidence": 0.5
+        },
+        {
+          "name": "prevalence rate",
+          "value": 1.0,
+          "unit": "percent",
+          "evidence_span": {
+            "start": 745,
+            "end": 753
+          },
+          "confidence": 0.5
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "state-of-the-art general-purpose detectors"
+      ],
+      "self_consistency": 0.625,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "PARTIAL",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 8658,
+    "tokens_out": 3931,
+    "cost_usd": 0.00750898,
+    "wall_time_seconds": 79.07646383321844,
+    "voting_samples": 3
+  }
+}

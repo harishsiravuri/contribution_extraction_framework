@@ -1,0 +1,67 @@
+{
+  "paper_id": "tdmsci:test_500_v2:01551",
+  "contributions": [
+    {
+      "method": {
+        "name": "unsupervised morphological segmentation",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 31,
+          "end": 63
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "statistical machine translation",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 92,
+          "end": 119
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "SMT training corpus",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 168,
+            "end": 187
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "segmentation metric",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 115,
+            "end": 132
+          },
+          "confidence": 0.6666666666666666
+        }
+      ],
+      "claim_strength": "novel",
+      "comparison_targets": [],
+      "self_consistency": 0.9444444444444444,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 5048,
+    "tokens_out": 1544,
+    "cost_usd": 0.0035769,
+    "wall_time_seconds": 36.780459749978036,
+    "voting_samples": 3
+  }
+}

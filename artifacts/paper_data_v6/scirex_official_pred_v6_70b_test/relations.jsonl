@@ -1,0 +1,66 @@
+{"doc_id": "02567fd428a675ca91a0c6786f47f3e35881bcbd", "predicted_relations": [[["Material__chalearn", "Metric__mae", "Task__age estimation", "Method__dldl"], 1, 1], [["Material__morph", "Metric__mae", "Task__age estimation", "Method__dldl"], 1, 1], [["Material__aflw", "Metric__mae", "Task__head pose estimation", "Method__dldl"], 1, 1]]}
+{"doc_id": "02b3d1d162080d9aefd3fc30a0bcc9a843073b5d", "predicted_relations": []}
+{"doc_id": "0398552184f80db111e9c28bf533b395f233ac00", "predicted_relations": []}
+{"doc_id": "05d2700846c0323f79c1344aca5333994c7c03a5", "predicted_relations": [[["Material__switchboard", "Metric__wer", "Task__speech recognition", "Method__ibm 2016 english conversational telephone speech recognition system"], 1, 1]]}
+{"doc_id": "0626908dd710b91aece1a81f4ca0635f23fc47f3", "predicted_relations": []}
+{"doc_id": "0678a8abea82793993cd89383319da75f6dc4be3", "predicted_relations": []}
+{"doc_id": "081531984770a74e87dbd68907061b4b0f3631bf", "predicted_relations": []}
+{"doc_id": "0834e74304b547c9354b6d7da6fa78ef47a48fa8", "predicted_relations": []}
+{"doc_id": "0a3381f0432c5cfe491c718349d7a44e5814592c", "predicted_relations": []}
+{"doc_id": "0a6c36de8726b6feaab586046ddc1d1a008f44f9", "predicted_relations": []}
+{"doc_id": "0c47cad9729c38d9db1f75491b1ee4bd883a5d4e", "predicted_relations": []}
+{"doc_id": "0dc9eb7d17f2def56ad930945f2521653f04c3fa", "predicted_relations": []}
+{"doc_id": "107010b7f2abe3c0c9df62bcef35eb77f6fc76df", "predicted_relations": [[["Material__amazon reviews", "Metric__accuracy", "Task__sentiment analysis", "Method__dann"], 1, 1]]}
+{"doc_id": "1130d8fdd931225c2d7563c3808367726cfa1c3a", "predicted_relations": []}
+{"doc_id": "11356cd6bb0f2776a88cd584ff108470414c6594", "predicted_relations": [[["Material__casia", "Metric__accuracy", "Task__image classification", "Method__submanifold vgg"], 1, 1]]}
+{"doc_id": "11da0c54ba904a1cb31a09d10da55f73e8825c61", "predicted_relations": []}
+{"doc_id": "1235dd37312cb20aced0e97d953f6379d8a0c7d4", "predicted_relations": []}
+{"doc_id": "14318685b5959b51d0f1e3db34643eb2855dc6d9", "predicted_relations": [[["Material__imagenet", "Metric__map", "Task__image classification", "Method__googlenet"], 1, 1]]}
+{"doc_id": "16051bbe3a7f7c77a952ebf76722ea655e8906ca", "predicted_relations": []}
+{"doc_id": "160563abbd75265b19afc8b4169bab9e1eb33d97", "predicted_relations": []}
+{"doc_id": "175f74a09241b6cb5101a2a09978095720db7d5f", "predicted_relations": []}
+{"doc_id": "1778e32c18bd611169e64c1805a51abff341ca53", "predicted_relations": [[["Material__snli", "Metric__accuracy", "Task__natural language inference", "Method__diin"], 1, 1]]}
+{"doc_id": "178275dbdcfa267e41a9d5efe386ee5874c6d23f", "predicted_relations": []}
+{"doc_id": "178631e0f0e624b1607c7a7a2507ed30d4e83a42", "predicted_relations": [[["Material__timit", "Metric__per", "Task__phoneme recognition", "Method__deep bidirectional lstm"], 1, 1]]}
+{"doc_id": "18168aea48a22f6fe2fe407c0ff70083cba225a7", "predicted_relations": []}
+{"doc_id": "193089d56758ab88391d846edd08d359b1f9a863", "predicted_relations": []}
+{"doc_id": "193b518bc3025804c6d587c74cbc154d91478417", "predicted_relations": []}
+{"doc_id": "1d0dcb458aa4d30b51f7c74b159be687f39120a0", "predicted_relations": []}
+{"doc_id": "1f08598381af9146d0fd9a61b30d0e51a7331689", "predicted_relations": []}
+{"doc_id": "2138a7127429d67746ec78de46d6820fee0e548e", "predicted_relations": [[["Material__wikisql", "Metric__accuracy", "Task__natural language generation", "Method__graph2seq"], 1, 1]]}
+{"doc_id": "21a1654b856cf0c64e60e58258669b374cb05539", "predicted_relations": [[["Material__pascal voc 2007", "Metric__map", "Task__object detection", "Method__yolo"], 1, 1]]}
+{"doc_id": "232b43584b2236669c0a53702ad89ab10c3886ea", "predicted_relations": []}
+{"doc_id": "23d2d3a6ffebfecaa8930307fdcf451c147757c8", "predicted_relations": [[["Material__nottingham", "Metric__bleu score", "Task__text generation", "Method__seqgan"], 1, 1]]}
+{"doc_id": "24730424236724d3f798dec02901e7a1f1c4710e", "predicted_relations": []}
+{"doc_id": "249b3b7421d3cdb932eecfe4b67203e0e46806b2", "predicted_relations": []}
+{"doc_id": "25a784f7f8c94c42821ee078587fc38dffcd00a4", "predicted_relations": []}
+{"doc_id": "25f5df29342a04936ba0d308b4d1b8245a7e8f5c", "predicted_relations": [[["Material__flic", "Metric__pck", "Task__pose estimation", "Method__convolutional pose machines"], 1, 1]]}
+{"doc_id": "269730dbbabed8b8b5ba720e44a4c31b1f51e8f1", "predicted_relations": [[["Material__babi", "Metric__accuracy", "Task__question answering", "Method__qrn"], 1, 1]]}
+{"doc_id": "270e65acc071b9e4e2a632720130c0e10cb6fa08", "predicted_relations": []}
+{"doc_id": "2777cd26b2c257843273fe41ad4c5b8cdf1b1b75", "predicted_relations": []}
+{"doc_id": "27a99c21a1324f087b2f144adc119f04137dfd87", "predicted_relations": []}
+{"doc_id": "27aa0f3ec934925265f93fac7ff1cd1d70ceb618", "predicted_relations": []}
+{"doc_id": "2a86bcdfb1d817ddb76ba202319f8267a36c0f62", "predicted_relations": []}
+{"doc_id": "2f04ba0f74df046b0080ca78e56898bd4847898b", "predicted_relations": []}
+{"doc_id": "2f56b1ac5b9faac9527b6814778925e9242cf5fd", "predicted_relations": []}
+{"doc_id": "2f97ee95cad6a1f13596b108072b846c6f747d4e", "predicted_relations": []}
+{"doc_id": "322a7dad274f440a92548faa8f2b2be666b2d01f", "predicted_relations": [[["Material__pascal voc 2012", "Metric__mean iou", "Task__semantic segmentation", "Method__pspnet"], 1, 1]]}
+{"doc_id": "325af39d281d5903a269c01fab8f53d7400a4c49", "predicted_relations": []}
+{"doc_id": "33261d252218007147a71e40f8367ed152fa2fe0", "predicted_relations": [[["Material__webquestions", "Metric__f1", "Task__question answering", "Method__subgraph embedding"], 1, 1]]}
+{"doc_id": "3448e6a5039417dc1ae890efeca3bef5390ace7c", "predicted_relations": []}
+{"doc_id": "35734e8724559fb0d494e5cba6a28ad7a3d5dd4d", "predicted_relations": []}
+{"doc_id": "364c1a3df58d87cb40ab33fdf3831cf2862f3570", "predicted_relations": []}
+{"doc_id": "3842ee1e0fdfeff936b5c49973ff21adfaaf3929", "predicted_relations": [[["Material__mnist usps", "Metric__accuracy", "Task__unsupervised domain adaptation", "Method__adversarial discriminative domain adaptation"], 1, 1]]}
+{"doc_id": "38cc89399dd6f5aaab1654f27ab3c9eeade12a36", "predicted_relations": []}
+{"doc_id": "38e2f851b705faa0d0a698ed9885bd6834440073", "predicted_relations": []}
+{"doc_id": "3aa21de1a7c97e0458e10ed5730ce160bb436caa", "predicted_relations": []}
+{"doc_id": "3acc07f7f8951617276cf99483ed02aeb0a6eeac", "predicted_relations": [[["Material__cityscapes", "Metric__mean iou", "Task__semantic segmentation", "Method__curriculum domain adaptation"], 1, 1]]}
+{"doc_id": "3ca3993b1f3536b15112f759067f62e999c5d38f", "predicted_relations": []}
+{"doc_id": "3cf31ecb2724b5088783d7c96a5fc0d5604cbf41", "predicted_relations": [[["Material__penn treebank", "Metric__unlabeled accuracy", "Task__dependency parsing", "Method__bilstm"], 1, 1]]}
+{"doc_id": "3daa086acd367dc971a2dc1382caba2031294233", "predicted_relations": []}
+{"doc_id": "408e8eecc14c5cc60bbdfc486ba7a7fc97031788", "predicted_relations": []}
+{"doc_id": "4365eb43a635bc6431dfaf3af1f7bf7bf55522cc", "predicted_relations": [[["Material__pascal voc 2007", "Metric__map", "Task__object detection", "Method__couplenet"], 1, 1]]}
+{"doc_id": "436b07bebaa1d1f05ef85415e10374048d25334d", "predicted_relations": []}
+{"doc_id": "44078d0daed8b13114cffb15b368acc467f96351", "predicted_relations": [[["Material__cfp", "Metric__eer", "Task__face verification", "Method__triplet probability embedding"], 1, 1]]}
+{"doc_id": "45429c281e30f9e87ebcd1ae42e0656d2ead24d1", "predicted_relations": []}
+{"doc_id": "455da02e5048dffb51fb6ab5eb8aeca5926c9d9a", "predicted_relations": []}

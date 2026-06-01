@@ -1,0 +1,46 @@
+{
+  "paper_id": "tdmsci:test_500_v2:01371",
+  "contributions": [
+    {
+      "method": {
+        "name": "anew method to induce feature combinations",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 24,
+          "end": 52
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "machine translation",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 56,
+          "end": 75
+        },
+        "confidence": 1.0
+      },
+      "datasets": [],
+      "metrics": [],
+      "claim_strength": null,
+      "comparison_targets": [],
+      "self_consistency": 1.0,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "UNSUPPORTED",
+        "metrics": "UNSUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 4884,
+    "tokens_out": 1419,
+    "cost_usd": 0.0033878800000000002,
+    "wall_time_seconds": 26.607544249854982,
+    "voting_samples": 3
+  }
+}

@@ -1,0 +1,40 @@
+# V6 fine-tuned-extractor config. Replaces ONLY the Extractor with the
+# v6 SciREX-FT 70B Llama 3.1 from Together; Critic + Consolidator stay on
+# Llama 3.3 70B via OpenRouter.
+#
+# extractor.model_id is filled in after the v6 fine-tune completes — the
+# value below is the name field of the dedicated endpoint we deploy
+# (`<owner>/<base>-scirex-v6-<hash>-<endpoint-id>`).
+
+extractor:
+  model_id: "harishsiravuri_e088/Meta-Llama-3.1-8B-Instruct-Reference-scirex-v6-bf594110-52031aad"
+  price_in_per_m: 0.50
+  price_out_per_m: 0.50
+  temperatures: [0.0, 0.3, 0.7]
+  max_tokens: 4000
+  top_p: 0.95
+
+critic:
+  model_id: "meta-llama/llama-3.3-70b-instruct"
+  price_in_per_m: 0.59
+  price_out_per_m: 0.79
+  temperature: 0.0
+  max_tokens: 8000
+  top_p: 0.95
+
+consolidator:
+  model_id: "meta-llama/llama-3.3-70b-instruct"
+  price_in_per_m: 0.59
+  price_out_per_m: 0.79
+  temperature: 0.0
+  max_tokens: 4000
+  top_p: 0.95
+
+defaults:
+  request_timeout_s: 600       # 10 min per call — long-tail SciREX needs it
+  max_retries: 4
+  retry_backoff_s: 2.0
+
+concurrency:
+  papers_in_flight: 3
+  per_provider_max: 3

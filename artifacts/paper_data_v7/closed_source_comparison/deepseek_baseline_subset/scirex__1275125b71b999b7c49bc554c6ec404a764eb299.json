@@ -1,0 +1,86 @@
+{
+  "paper_id": "scirex:1275125b71b999b7c49bc554c6ec404a764eb299",
+  "contributions": [
+    {
+      "method": {
+        "name": "Hierarchical Deep Convolutional Neural Network (HD-CNN)",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 360,
+          "end": 527
+        },
+        "confidence": 0.9
+      },
+      "task": {
+        "name": "Large Scale Visual Recognition / Image Classification",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 62,
+          "end": 146
+        },
+        "confidence": 0.85
+      },
+      "datasets": [
+        {
+          "name": "CIFAR100",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1688,
+            "end": 1696
+          },
+          "confidence": 0.95
+        },
+        {
+          "name": "ImageNet 1000-class",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1697,
+            "end": 1715
+          },
+          "confidence": 0.95
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Top-1 error",
+          "value": 22.72,
+          "unit": "percentage",
+          "evidence_span": {
+            "start": 234,
+            "end": 245
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "Top-5 error",
+          "value": null,
+          "unit": null,
+          "evidence_span": null,
+          "confidence": 0.7
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "standard CNNs",
+        "model averaging"
+      ],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "PARTIAL",
+        "task": "PARTIAL",
+        "datasets": "PARTIAL",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "(none)",
+    "consolidator_model": "(none)",
+    "tokens_in": 6867,
+    "tokens_out": 440,
+    "cost_usd": 0.0025890400000000004,
+    "wall_time_seconds": 17.576813583960757,
+    "voting_samples": 1
+  }
+}

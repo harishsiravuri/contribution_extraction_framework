@@ -1,0 +1,69 @@
+{
+  "paper_id": "scirex:16028acc465c434a43599f0f900c91f38d690e02",
+  "contributions": [
+    {
+      "method": {
+        "name": "CornerNet",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 10,
+          "end": 71
+        },
+        "confidence": 0.95
+      },
+      "task": {
+        "name": "object detection",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 10,
+          "end": 71
+        },
+        "confidence": 0.95
+      },
+      "datasets": [
+        {
+          "name": "MS COCO",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 166,
+            "end": 173
+          },
+          "confidence": 0.95
+        }
+      ],
+      "metrics": [
+        {
+          "name": "AP",
+          "value": 42.2,
+          "unit": "%",
+          "evidence_span": {
+            "start": 166,
+            "end": 179
+          },
+          "confidence": 0.95
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "all existing one-stage detectors"
+      ],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "PARTIAL",
+        "task": "PARTIAL",
+        "datasets": "PARTIAL",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "(none)",
+    "consolidator_model": "(none)",
+    "tokens_in": 7431,
+    "tokens_out": 321,
+    "cost_usd": 0.00266361,
+    "wall_time_seconds": 12.03375404200051,
+    "voting_samples": 1
+  }
+}

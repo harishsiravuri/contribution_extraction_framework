@@ -1,0 +1,76 @@
+{
+  "paper_id": "tdmsci:test_500_v2:01403",
+  "contributions": [
+    {
+      "method": {
+        "name": "ILP scale",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 11,
+          "end": 20
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": null,
+        "canonical_id": null,
+        "evidence_span": null,
+        "confidence": 0.0
+      },
+      "datasets": [
+        {
+          "name": "Sherlock resource",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 44,
+            "end": 60
+          },
+          "confidence": 0.67
+        }
+      ],
+      "metrics": [
+        {
+          "name": "recall",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 28,
+            "end": 34
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "precision",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 79,
+            "end": 88
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "rules from the Sherlock resource"
+      ],
+      "self_consistency": 0.83,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "UNSUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 5142,
+    "tokens_out": 1666,
+    "cost_usd": 0.0037585500000000003,
+    "wall_time_seconds": 45.905862292042,
+    "voting_samples": 3
+  }
+}

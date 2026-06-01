@@ -1,0 +1,109 @@
+{
+  "paper_id": "nlp_tdms:1504.05070",
+  "contributions": [
+    {
+      "method": {
+        "name": "self-adaptive hierarchical sentence model (AdaSent)",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 66,
+          "end": 122
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "sentence classification",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 265,
+          "end": 281
+        },
+        "confidence": 0.9
+      },
+      "datasets": [
+        {
+          "name": "MR",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 6688,
+            "end": 6691
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "CR",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 6698,
+            "end": 6701
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "SUBJ",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 6764,
+            "end": 6768
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "MPQA",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 6770,
+            "end": 6775
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "TREC",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 6777,
+            "end": 6782
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "classification accuracy",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 7368,
+            "end": 7389
+          },
+          "confidence": 0.9
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "P.V.",
+        "cBoW",
+        "RNN",
+        "BRNN",
+        "GrConv"
+      ],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "PARTIAL",
+        "task": "PARTIAL",
+        "datasets": "PARTIAL",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "(none)",
+    "consolidator_model": "(none)",
+    "tokens_in": 5771,
+    "tokens_out": 549,
+    "cost_usd": 0.00233533,
+    "wall_time_seconds": 16.601644500042312,
+    "voting_samples": 1
+  }
+}

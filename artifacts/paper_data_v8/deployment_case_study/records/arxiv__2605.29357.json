@@ -1,0 +1,99 @@
+{
+  "paper_id": "arxiv:2605.29357",
+  "contributions": [
+    {
+      "method": {
+        "name": "PassNet",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 74,
+          "end": 80
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "compiler pass generation",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 129,
+          "end": 149
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "PassNet-Dataset",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 206,
+            "end": 221
+          },
+          "confidence": 0.75
+        },
+        {
+          "name": "PassBench",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 236,
+            "end": 244
+          },
+          "confidence": 0.75
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Error-aware Speedup Score",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 283,
+            "end": 307
+          },
+          "confidence": 0.5
+        },
+        {
+          "name": "speedup",
+          "value": 3.0,
+          "unit": "x",
+          "evidence_span": {
+            "start": 349,
+            "end": 356
+          },
+          "confidence": 0.5
+        },
+        {
+          "name": "speedup",
+          "value": 2.67,
+          "unit": "x",
+          "evidence_span": {
+            "start": 394,
+            "end": 401
+          },
+          "confidence": 0.25
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "TorchInductor",
+        "frontier-model"
+      ],
+      "self_consistency": 0.875,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "PARTIAL",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 9972,
+    "tokens_out": 4594,
+    "cost_usd": 0.00879076,
+    "wall_time_seconds": 111.07566804182716,
+    "voting_samples": 3
+  }
+}

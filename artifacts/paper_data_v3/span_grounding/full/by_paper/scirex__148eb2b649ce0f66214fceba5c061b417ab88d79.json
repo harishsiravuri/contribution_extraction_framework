@@ -1,0 +1,89 @@
+{
+  "paper_id": "scirex:148eb2b649ce0f66214fceba5c061b417ab88d79",
+  "contributions": [
+    {
+      "method": {
+        "name": "Bidirectional-InfoGAN",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 1679,
+          "end": 1698
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "unsupervised learning of disentangled representations",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 100
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "MNIST",
+          "canonical_id": "MNIST",
+          "evidence_span": {
+            "start": 1200,
+            "end": 1205
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "CelebA",
+          "canonical_id": "CelebA",
+          "evidence_span": {
+            "start": 1207,
+            "end": 1213
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "SVHN",
+          "canonical_id": "SVHN",
+          "evidence_span": {
+            "start": 1218,
+            "end": 1222
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": 96.61,
+          "unit": "%",
+          "evidence_span": {
+            "start": 1500,
+            "end": 1510
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "InfoGAN",
+        "Structured GAN",
+        "Bidirectional GAN"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 19313,
+    "tokens_out": 2301,
+    "cost_usd": 0.00996492,
+    "wall_time_seconds": 56.424234249978326,
+    "voting_samples": 3
+  }
+}

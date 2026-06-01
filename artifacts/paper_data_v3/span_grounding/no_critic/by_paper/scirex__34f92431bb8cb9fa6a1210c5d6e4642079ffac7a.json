@@ -1,0 +1,80 @@
+{
+  "paper_id": "scirex:34f92431bb8cb9fa6a1210c5d6e4642079ffac7a",
+  "contributions": [
+    {
+      "method": {
+        "name": "Sliding Line Point Regression (SLPR)",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 43,
+          "end": 106
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "scene text detection",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 107,
+          "end": 135
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "ICDAR2015 Incidental Scene Text",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1105,
+            "end": 1139
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "CTW1500",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1140,
+            "end": 1148
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Hmean",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 3327,
+            "end": 3333
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "state-of-the-art",
+        "CTD",
+        "CTD + TLOC"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "(none)",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 15826,
+    "tokens_out": 2175,
+    "cost_usd": 0.00757843,
+    "wall_time_seconds": 38.64723150001373,
+    "voting_samples": 3
+  }
+}

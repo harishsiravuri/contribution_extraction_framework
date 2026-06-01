@@ -1,0 +1,56 @@
+{
+  "paper_id": "tdmsci:test_500_v2:01331",
+  "contributions": [
+    {
+      "method": {
+        "name": "Google Translate",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 114,
+          "end": 127
+        },
+        "confidence": 0.3333333333333333
+      },
+      "task": {
+        "name": "machine translation",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 49,
+          "end": 66
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "WMT13 French-English",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 34,
+            "end": 76
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [],
+      "claim_strength": null,
+      "comparison_targets": [],
+      "self_consistency": 0.875,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "UNSUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 4640,
+    "tokens_out": 8867,
+    "cost_usd": 0.009100279999999999,
+    "wall_time_seconds": 387.46871649986133,
+    "voting_samples": 3
+  }
+}

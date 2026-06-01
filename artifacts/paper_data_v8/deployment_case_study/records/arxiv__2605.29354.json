@@ -1,0 +1,83 @@
+{
+  "paper_id": "arxiv:2605.29354",
+  "contributions": [
+    {
+      "method": {
+        "name": "Neutral Prompting Attack (NPA)",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 680,
+          "end": 702
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "package hallucination",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 246,
+          "end": 283
+        },
+        "confidence": 0.3333333333333333
+      },
+      "datasets": [
+        {
+          "name": "package hallucination benchmarks",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 902,
+            "end": 933
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Hallucination ASR",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 1026,
+            "end": 1042
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "Pip Install ASR",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 1047,
+            "end": 1061
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "existing package hallucination attacks",
+        "targeted dependency steering",
+        "static-analysis defenses",
+        "LLM-based defenses",
+        "agent-based Skill defenses"
+      ],
+      "self_consistency": 0.7833333333333333,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "PARTIAL",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 7106,
+    "tokens_out": 2635,
+    "cost_usd": 0.005489529999999999,
+    "wall_time_seconds": 51.98853087518364,
+    "voting_samples": 3
+  }
+}

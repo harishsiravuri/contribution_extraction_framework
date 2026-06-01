@@ -1,0 +1,64 @@
+{
+  "paper_id": "tdmsci:test_500_v2:01340",
+  "contributions": [
+    {
+      "method": {
+        "name": "system that encodes sense information in contextualized distributional data",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 91,
+          "end": 158
+        },
+        "confidence": 0.5
+      },
+      "task": {
+        "name": "PP-attachment disambiguation",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 62,
+          "end": 90
+        },
+        "confidence": 0.5
+      },
+      "datasets": [
+        {
+          "name": null,
+          "canonical_id": null,
+          "evidence_span": null,
+          "confidence": 0.5
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 92,
+            "end": 108
+          },
+          "confidence": 0.5
+        }
+      ],
+      "claim_strength": null,
+      "comparison_targets": [],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 5080,
+    "tokens_out": 1713,
+    "cost_usd": 0.0037436299999999995,
+    "wall_time_seconds": 30.591013165889308,
+    "voting_samples": 3
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "paper_id": "arxiv:2605.29101",
+  "contributions": [
+    {
+      "method": {
+        "name": "Model Merging by Output-Space Projection",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 39
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "multi-task learning",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 79,
+          "end": 94
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "language benchmarks",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 833,
+            "end": 851
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "vision benchmarks",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 852,
+            "end": 868
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "merge quality",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 518,
+            "end": 530
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "task arithmetic",
+        "model soups",
+        "TIES",
+        "DARE"
+      ],
+      "self_consistency": 0.875,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 7359,
+    "tokens_out": 2925,
+    "cost_usd": 0.0059457,
+    "wall_time_seconds": 81.48994775000028,
+    "voting_samples": 3
+  }
+}

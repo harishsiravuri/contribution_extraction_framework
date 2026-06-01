@@ -1,0 +1,91 @@
+{
+  "paper_id": "scirex:148eb2b649ce0f66214fceba5c061b417ab88d79",
+  "contributions": [
+    {
+      "method": {
+        "name": "Bidirectional-InfoGAN",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 1506,
+          "end": 1526
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "representation learning",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 100
+        },
+        "confidence": 0.75
+      },
+      "datasets": [
+        {
+          "name": "MNIST",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2039,
+            "end": 2045
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "CelebA",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2047,
+            "end": 2053
+          },
+          "confidence": 0.5
+        },
+        {
+          "name": "SVHN",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2058,
+            "end": 2062
+          },
+          "confidence": 0.5
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": 96.61,
+          "unit": "%",
+          "evidence_span": {
+            "start": 2577,
+            "end": 2585
+          },
+          "confidence": 0.75
+        }
+      ],
+      "claim_strength": null,
+      "comparison_targets": [
+        "InfoGAN",
+        "Structured GAN",
+        "Bidirectional GAN",
+        "Chen et al.",
+        "Zhang et al."
+      ],
+      "self_consistency": 0.83,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "PARTIAL",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 22243,
+    "tokens_out": 3614,
+    "cost_usd": 0.01251298,
+    "wall_time_seconds": 146.40678941603983,
+    "voting_samples": 3
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "paper_id": "scirex:44fcb91c6c436902edb35b4c453c34fb353b14ad",
+  "contributions": [
+    {
+      "method": {
+        "name": "Convolutional Encoder",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 100
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "machine translation",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 100
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "WMT'16 English-Romanian",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 0,
+            "end": 100
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "WMT'15 English-German",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 0,
+            "end": 100
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "WMT'14 English-French",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 0,
+            "end": 100
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "IWSLT'14 German-English",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 0,
+            "end": 100
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 0,
+            "end": 100
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "comparable",
+      "comparison_targets": [
+        "bi-directional LSTMs",
+        "deep LSTM setup",
+        "state-of-the-art",
+        "recently published results",
+        "very deep LSTM setup",
+        "uni-directional LSTM",
+        "BiLSTM"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "DISABLED (E2 critic-off ablation)",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 27969,
+    "tokens_out": 3823,
+    "cost_usd": 0.013790110000000001,
+    "wall_time_seconds": 44.287857375107706,
+    "voting_samples": 3
+  }
+}

@@ -1,0 +1,134 @@
+{
+  "paper_id": "scirex:2347efd31b723a636902ccaa7b5bc351788e793f",
+  "contributions": [
+    {
+      "method": {
+        "name": "attention-based character-level architecture",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 435,
+          "end": 474
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "sequence labeling",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 23,
+          "end": 41
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2000",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1544,
+            "end": 1557
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "CoNLL-2003",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1568,
+            "end": 1581
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "PTB-POS",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1592,
+            "end": 1601
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "FCEPUBLIC",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1612,
+            "end": 1622
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "BC2GM",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1632,
+            "end": 1639
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "CHEMDNER",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1650,
+            "end": 1659
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "JNLPBA",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1669,
+            "end": 1677
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "GENIA-POS",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1687,
+            "end": 1698
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": 97.27,
+          "unit": "%",
+          "evidence_span": {
+            "start": 2835,
+            "end": 2853
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "concatenation method",
+        "concatenation approach",
+        "previous work using hand-crafted features"
+      ],
+      "self_consistency": 0.875,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 26353,
+    "tokens_out": 5643,
+    "cost_usd": 0.01611313,
+    "wall_time_seconds": 241.44910237501608,
+    "voting_samples": 3
+  }
+}

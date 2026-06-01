@@ -1,0 +1,89 @@
+{
+  "paper_id": "scirex:1594d954abc650bce2db445c52a76e49655efb0c",
+  "contributions": [
+    {
+      "method": {
+        "name": "Recurrent Neural Network Grammars (RNNGs)",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 29,
+          "end": 68
+        },
+        "confidence": 0.9
+      },
+      "task": {
+        "name": "phrase-structure parsing and language modeling",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 126,
+          "end": 189
+        },
+        "confidence": 0.9
+      },
+      "datasets": [
+        {
+          "name": "Penn Treebank (PTB)",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2134,
+            "end": 2149
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "Chinese Treebank Version 5.1 (CTB)",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2154,
+            "end": 2182
+          },
+          "confidence": 0.9
+        }
+      ],
+      "metrics": [
+        {
+          "name": "phrase-structure parsing F1",
+          "value": 93.3,
+          "unit": null,
+          "evidence_span": {
+            "start": 724,
+            "end": 760
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "language modeling perplexity",
+          "value": 105.2,
+          "unit": null,
+          "evidence_span": {
+            "start": 694,
+            "end": 720
+          },
+          "confidence": 0.9
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "sequential RNNs",
+        "previously published supervised generative model"
+      ],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "PARTIAL",
+        "task": "PARTIAL",
+        "datasets": "PARTIAL",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "(none)",
+    "consolidator_model": "(none)",
+    "tokens_in": 5993,
+    "tokens_out": 469,
+    "cost_usd": 0.00233517,
+    "wall_time_seconds": 16.12682870903518,
+    "voting_samples": 1
+  }
+}

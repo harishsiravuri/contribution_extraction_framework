@@ -1,0 +1,71 @@
+{
+  "paper_id": "nlp_tdms:1601.03651",
+  "contributions": [
+    {
+      "method": {
+        "name": "deep recurrent neural networks (DRNNs)",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 791,
+          "end": 850
+        },
+        "confidence": 0.9
+      },
+      "task": {
+        "name": "relation classification",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 184,
+          "end": 207
+        },
+        "confidence": 0.95
+      },
+      "datasets": [
+        {
+          "name": "SemEval-2010 Task 8",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 894,
+            "end": 915
+          },
+          "confidence": 0.95
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1-score",
+          "value": 86.1,
+          "unit": "%",
+          "evidence_span": {
+            "start": 939,
+            "end": 951
+          },
+          "confidence": 0.95
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "feature-based methods",
+        "kernel-based methods",
+        "shallow neural networks (CNNs, RNNs)"
+      ],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "PARTIAL",
+        "task": "PARTIAL",
+        "datasets": "PARTIAL",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "(none)",
+    "consolidator_model": "(none)",
+    "tokens_in": 5285,
+    "tokens_out": 376,
+    "cost_usd": 0.00202584,
+    "wall_time_seconds": 13.699933999974746,
+    "voting_samples": 1
+  }
+}

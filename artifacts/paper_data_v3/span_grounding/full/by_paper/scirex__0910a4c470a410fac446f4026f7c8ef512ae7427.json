@@ -1,0 +1,83 @@
+{
+  "paper_id": "scirex:0910a4c470a410fac446f4026f7c8ef512ae7427",
+  "contributions": [
+    {
+      "method": {
+        "name": "hierarchical co-attention model",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 155,
+          "end": 183
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "visual question answering",
+        "canonical_id": "visual-question-answering",
+        "evidence_span": {
+          "start": 104,
+          "end": 131
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "VQA",
+          "canonical_id": "vqa",
+          "evidence_span": {
+            "start": 2164,
+            "end": 2175
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "COCO-QA",
+          "canonical_id": "coco-qa",
+          "evidence_span": {
+            "start": 2215,
+            "end": 2226
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": 62.1,
+          "unit": "%",
+          "evidence_span": {
+            "start": 2511,
+            "end": 2519
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "state-of-the-art",
+        "DMN+",
+        "FDA",
+        "SAN",
+        "2-VIS+BLSTM",
+        "IMG-CNN"
+      ],
+      "self_consistency": 0.875,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 26970,
+    "tokens_out": 3215,
+    "cost_usd": 0.01387507,
+    "wall_time_seconds": 146.90014524996514,
+    "voting_samples": 3
+  }
+}

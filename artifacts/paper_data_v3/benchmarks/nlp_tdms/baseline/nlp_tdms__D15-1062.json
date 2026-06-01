@@ -1,0 +1,70 @@
+{
+  "paper_id": "nlp_tdms:D15-1062",
+  "contributions": [
+    {
+      "method": {
+        "name": "Convolutional Neural Network with Negative Sampling",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 118,
+          "end": 250
+        },
+        "confidence": 0.9
+      },
+      "task": {
+        "name": "Relation Extraction",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 531,
+          "end": 581
+        },
+        "confidence": 0.9
+      },
+      "datasets": [
+        {
+          "name": "SemEval-2010 Task 8",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 841,
+            "end": 862
+          },
+          "confidence": 0.95
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": null,
+          "unit": "percent",
+          "evidence_span": {
+            "start": 3817,
+            "end": 3835
+          },
+          "confidence": 0.85
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "MVRNN",
+        "CNN"
+      ],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "PARTIAL",
+        "task": "PARTIAL",
+        "datasets": "PARTIAL",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "(none)",
+    "consolidator_model": "(none)",
+    "tokens_in": 3371,
+    "tokens_out": 334,
+    "cost_usd": 0.00137598,
+    "wall_time_seconds": 10.915747833030764,
+    "voting_samples": 1
+  }
+}

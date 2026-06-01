@@ -1,0 +1,103 @@
+{
+  "paper_id": "scirex:087337fdad69caaab8ebd8ae68a731c5bf2e8b14",
+  "contributions": [
+    {
+      "method": {
+        "name": "Fully Convolutional Networks (FCNs)",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 30
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "semantic segmentation",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 30,
+          "end": 50
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "PASCAL VOC",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 155,
+            "end": 167
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "NYUDv2",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 180,
+            "end": 187
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "SIFT Flow",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 187,
+            "end": 196
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "PASCAL-Context",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 197,
+            "end": 212
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "mean IU",
+          "value": 67.2,
+          "unit": "%",
+          "evidence_span": {
+            "start": 1000,
+            "end": 1008
+          },
+          "confidence": 0.5
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "AlexNet",
+        "VGG net",
+        "GoogLeNet",
+        "previous best result",
+        "previous methods",
+        "previous best system",
+        "SDS",
+        "R-CNN"
+      ],
+      "self_consistency": 0.875,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 44115,
+    "tokens_out": 4461,
+    "cost_usd": 0.02198851,
+    "wall_time_seconds": 82.67445841594599,
+    "voting_samples": 3
+  }
+}

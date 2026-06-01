@@ -1,0 +1,81 @@
+{
+  "paper_id": "scirex:310fed695da4f36139b70b23065c34fe9fb29ca6",
+  "contributions": [
+    {
+      "method": {
+        "name": "Shorten Spatial-spectral RNN with Parallel-GRU (St-SS-pGRU)",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 100
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "hyperspectral image classification",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 100
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "Pavia University",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2000,
+            "end": 2100
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "Indian Pines",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2100,
+            "end": 2200
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": null,
+          "unit": "percentage",
+          "evidence_span": {
+            "start": 2500,
+            "end": 2600
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "GRU",
+        "LSTM",
+        "St-GRU",
+        "St-SS-GRU"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "DISABLED (E2 critic-off ablation)",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 15336,
+    "tokens_out": 2830,
+    "cost_usd": 0.008460349999999998,
+    "wall_time_seconds": 35.07250495790504,
+    "voting_samples": 3
+  }
+}

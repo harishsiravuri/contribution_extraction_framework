@@ -1,0 +1,81 @@
+{
+  "paper_id": "scirex:310fed695da4f36139b70b23065c34fe9fb29ca6",
+  "contributions": [
+    {
+      "method": {
+        "name": "Shorten Spatial-spectral RNN with Parallel-GRU (St-SS-pGRU)",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 587,
+          "end": 664
+        },
+        "confidence": 0.9
+      },
+      "task": {
+        "name": "Hyperspectral Image (HSI) Classification",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 587,
+          "end": 664
+        },
+        "confidence": 0.95
+      },
+      "datasets": [
+        {
+          "name": "Pavia University",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 3848,
+            "end": 3864
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "Indian Pines",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 3939,
+            "end": 3953
+          },
+          "confidence": 0.9
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Overall Accuracy (OA)",
+          "value": null,
+          "unit": "%",
+          "evidence_span": {
+            "start": 4332,
+            "end": 4352
+          },
+          "confidence": 0.85
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "LSTM",
+        "GRU",
+        "3D-CNN",
+        "CLSTM"
+      ],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "PARTIAL",
+        "task": "PARTIAL",
+        "datasets": "PARTIAL",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "(none)",
+    "consolidator_model": "(none)",
+    "tokens_in": 3509,
+    "tokens_out": 409,
+    "cost_usd": 0.0014868899999999998,
+    "wall_time_seconds": 14.102682875003666,
+    "voting_samples": 1
+  }
+}

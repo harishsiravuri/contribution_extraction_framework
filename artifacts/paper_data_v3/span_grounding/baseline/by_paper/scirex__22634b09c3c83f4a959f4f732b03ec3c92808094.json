@@ -1,0 +1,192 @@
+{
+  "paper_id": "scirex:22634b09c3c83f4a959f4f732b03ec3c92808094",
+  "contributions": [
+    {
+      "method": {
+        "name": "DeepMatching",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 17,
+          "end": 366
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "dense image matching",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 17,
+          "end": 366
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "Mikolajczyk",
+          "canonical_id": "Mikolajczyk2005",
+          "evidence_span": {
+            "start": 418,
+            "end": 513
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "MPI-Sintel",
+          "canonical_id": "sintel",
+          "evidence_span": {
+            "start": 418,
+            "end": 513
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "Kitti",
+          "canonical_id": "kitti",
+          "evidence_span": {
+            "start": 418,
+            "end": 513
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy@10",
+          "value": null,
+          "unit": "pixels",
+          "evidence_span": {
+            "start": 20357,
+            "end": 20439
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "EPE",
+          "value": null,
+          "unit": "pixels",
+          "evidence_span": {
+            "start": 20496,
+            "end": 20623
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "SIFT-NN",
+        "HOG-NN",
+        "Generalized PatchMatch (GPM)",
+        "Kd-tree PatchMatch (KPM)",
+        "Non-Rigid Dense Correspondences (NRDC)",
+        "SIFT-flow",
+        "Scale-less SIFT (SLS)",
+        "DaisyFilterFlow (DaisyFF)",
+        "Deformable Pyramid Matching (DSP)"
+      ],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "PARTIAL",
+        "task": "PARTIAL",
+        "datasets": "PARTIAL",
+        "metrics": "PARTIAL"
+      }
+    },
+    {
+      "method": {
+        "name": "DeepFlow",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 514,
+          "end": 776
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "optical flow estimation",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 514,
+          "end": 776
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "MPI-Sintel",
+          "canonical_id": "sintel",
+          "evidence_span": {
+            "start": 418,
+            "end": 513
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "Middlebury",
+          "canonical_id": "middlebury",
+          "evidence_span": {
+            "start": 20244,
+            "end": 20329
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "Kitti",
+          "canonical_id": "kitti",
+          "evidence_span": {
+            "start": 418,
+            "end": 513
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "EPE",
+          "value": null,
+          "unit": "pixels",
+          "evidence_span": {
+            "start": 20496,
+            "end": 20623
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "EPE-Noc",
+          "value": null,
+          "unit": "pixels",
+          "evidence_span": {
+            "start": 39147,
+            "end": 39270
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "LDOF",
+        "MDP-Flow2",
+        "EpicFlow",
+        "BTF-ILLUM",
+        "NLTGB-SC",
+        "TGV2ADCSIFT"
+      ],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "PARTIAL",
+        "task": "PARTIAL",
+        "datasets": "PARTIAL",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "(none)",
+    "consolidator_model": "(none)",
+    "tokens_in": 14389,
+    "tokens_out": 1088,
+    "cost_usd": 0.0055728,
+    "wall_time_seconds": 31.382759790983982,
+    "voting_samples": 1
+  }
+}

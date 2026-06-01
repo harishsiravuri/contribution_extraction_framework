@@ -1,0 +1,193 @@
+{
+  "paper_id": "arxiv:2605.28669",
+  "contributions": [
+    {
+      "method": {
+        "name": "ACROS",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 156,
+          "end": 161
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "word-sense disambiguation",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 251,
+          "end": 273
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "Raganato ALL",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 394,
+            "end": 405
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 64.95,
+          "unit": null,
+          "evidence_span": {
+            "start": 407,
+            "end": 415
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": null,
+      "comparison_targets": [
+        "WordNet first-sense heuristic"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    },
+    {
+      "method": {
+        "name": "ACROS",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 156,
+          "end": 161
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "lexical steering",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 316,
+          "end": 326
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "CoInCo",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 341,
+            "end": 347
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "KL",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 351,
+            "end": 353
+          },
+          "confidence": 0.67
+        },
+        {
+          "name": "positive shifts recovery",
+          "value": 90.0,
+          "unit": "%",
+          "evidence_span": {
+            "start": 365,
+            "end": 388
+          },
+          "confidence": 0.33
+        }
+      ],
+      "claim_strength": null,
+      "comparison_targets": [],
+      "self_consistency": 0.83,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    },
+    {
+      "method": {
+        "name": "ACROS",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 156,
+          "end": 161
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "cross-lingual adaptation",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 427,
+          "end": 446
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "FLORES",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 524,
+            "end": 530
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "R@1",
+          "value": 0.988,
+          "unit": null,
+          "evidence_span": {
+            "start": 494,
+            "end": 503
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "PPL",
+          "value": 7.94,
+          "unit": null,
+          "evidence_span": {
+            "start": 509,
+            "end": 517
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": null,
+      "comparison_targets": [],
+      "self_consistency": 1.0,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 9500,
+    "tokens_out": 5059,
+    "cost_usd": 0.00897346,
+    "wall_time_seconds": 137.63473754189909,
+    "voting_samples": 3
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "paper_id": "scirex:25b9b1ede6519eeef3e67657a97e2f551940b0d6",
+  "contributions": [
+    {
+      "method": {
+        "name": "Segmental RNN",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 191,
+          "end": 205
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "speech recognition",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 20
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "TIMIT",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1346,
+            "end": 1351
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "PER",
+          "value": 17.3,
+          "unit": "%",
+          "evidence_span": {
+            "start": 1561,
+            "end": 1569
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": null,
+      "comparison_targets": [
+        "previous CRF-based acoustic models"
+      ],
+      "self_consistency": 0.8333333333333334,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "openai/gpt-4o-2024-11-20",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 19035,
+    "tokens_out": 2107,
+    "cost_usd": 0.04346713,
+    "wall_time_seconds": 49.50814783317037,
+    "voting_samples": 3
+  }
+}

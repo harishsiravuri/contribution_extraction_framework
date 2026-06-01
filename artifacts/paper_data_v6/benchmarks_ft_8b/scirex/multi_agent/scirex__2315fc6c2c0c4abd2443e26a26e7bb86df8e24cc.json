@@ -1,0 +1,74 @@
+{
+  "paper_id": "scirex:2315fc6c2c0c4abd2443e26a26e7bb86df8e24cc",
+  "contributions": [
+    {
+      "method": {
+        "name": null,
+        "canonical_id": null,
+        "evidence_span": null,
+        "confidence": 0.0
+      },
+      "task": {
+        "name": "image classification",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 195,
+          "end": 217
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "imagenet",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 229,
+            "end": 236
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "top 1 accuracy",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 1484,
+            "end": 1495
+          },
+          "confidence": 0.5
+        },
+        {
+          "name": "top 5 accuracy",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 1512,
+            "end": 1523
+          },
+          "confidence": 0.5
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [],
+      "self_consistency": 0.875,
+      "critic_verdict": {
+        "method": "UNSUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "harishsiravuri_e088/Meta-Llama-3.1-8B-Instruct-Reference-scirex-v6-bf594110-52031aad",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 31679,
+    "tokens_out": 2206,
+    "cost_usd": 0.01816052,
+    "wall_time_seconds": 111.63737591600511,
+    "voting_samples": 3
+  }
+}

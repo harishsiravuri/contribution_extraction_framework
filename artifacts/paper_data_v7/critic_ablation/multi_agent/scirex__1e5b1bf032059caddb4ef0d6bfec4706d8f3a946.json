@@ -1,0 +1,108 @@
+{
+  "paper_id": "scirex:1e5b1bf032059caddb4ef0d6bfec4706d8f3a946",
+  "contributions": [
+    {
+      "method": {
+        "name": "Recurrent Graph CNN (RGCNN)",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 2000
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "recommender systems",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 2000
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "Synthetic dataset",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2000,
+            "end": 3000
+          },
+          "confidence": 0.2
+        },
+        {
+          "name": "MovieLens",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 3000,
+            "end": 4000
+          },
+          "confidence": 0.2
+        },
+        {
+          "name": "Flixster",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 3000,
+            "end": 4000
+          },
+          "confidence": 0.2
+        },
+        {
+          "name": "Douban",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 3000,
+            "end": 4000
+          },
+          "confidence": 0.2
+        },
+        {
+          "name": "YahooMusic",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 3000,
+            "end": 4000
+          },
+          "confidence": 0.2
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 3000,
+            "end": 4000
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Matrix Completion (MC)",
+        "Inductive Matrix Completion (IMC)",
+        "Geometric Matrix Completion (GMC)",
+        "Graph Regularized Alternating Least Squares (GRALS)"
+      ],
+      "self_consistency": 0.8,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "DISABLED (E2 critic-off ablation)",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 22434,
+    "tokens_out": 4515,
+    "cost_usd": 0.01275311,
+    "wall_time_seconds": 81.93921454180963,
+    "voting_samples": 3
+  }
+}

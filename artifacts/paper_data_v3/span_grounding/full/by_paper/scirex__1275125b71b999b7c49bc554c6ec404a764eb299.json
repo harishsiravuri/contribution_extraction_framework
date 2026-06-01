@@ -1,0 +1,142 @@
+{
+  "paper_id": "scirex:1275125b71b999b7c49bc554c6ec404a764eb299",
+  "contributions": [
+    {
+      "method": {
+        "name": "HD-CNN",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 148,
+          "end": 158
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "image classification",
+        "canonical_id": "image_classification",
+        "evidence_span": {
+          "start": 0,
+          "end": 24
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "CIFAR100",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 903,
+            "end": 913
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "ImageNet",
+          "canonical_id": "imagenet",
+          "evidence_span": {
+            "start": 922,
+            "end": 930
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "top-1 error",
+          "value": 18.0,
+          "unit": "%",
+          "evidence_span": {
+            "start": 11262,
+            "end": 11272
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "top-5 error",
+          "value": 18.0,
+          "unit": "%",
+          "evidence_span": {
+            "start": 11274,
+            "end": 11284
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "CIFAR100-NIN",
+        "ImageNet-NIN",
+        "VGG-16-layer"
+      ],
+      "self_consistency": 0.875,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    },
+    {
+      "method": {
+        "name": "Parameter Compression",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 6544,
+          "end": 6564
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "image classification",
+        "canonical_id": "image_classification",
+        "evidence_span": {
+          "start": 87,
+          "end": 103
+        },
+        "confidence": 1.0
+      },
+      "datasets": [],
+      "metrics": [
+        {
+          "name": "memory footprint",
+          "value": null,
+          "unit": "MB",
+          "evidence_span": {
+            "start": 11657,
+            "end": 11729
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "compression factor",
+          "value": 4.0,
+          "unit": "x",
+          "evidence_span": {
+            "start": 11781,
+            "end": 11795
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [],
+      "self_consistency": 1.0,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "UNSUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 30879,
+    "tokens_out": 3281,
+    "cost_usd": 0.01543734,
+    "wall_time_seconds": 100.489129625028,
+    "voting_samples": 3
+  }
+}

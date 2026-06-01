@@ -1,0 +1,93 @@
+{
+  "paper_id": "scirex:0910a4c470a410fac446f4026f7c8ef512ae7427",
+  "contributions": [
+    {
+      "method": {
+        "name": "Hierarchical Co-Attention Model",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 191,
+          "end": 217
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "visual question answering",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 146,
+          "end": 173
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "VQA",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2414,
+            "end": 2417
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "COCO-QA",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2434,
+            "end": 2440
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": 62.1,
+          "unit": "%",
+          "evidence_span": {
+            "start": 3084,
+            "end": 3089
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "accuracy",
+          "value": 65.4,
+          "unit": "%",
+          "evidence_span": {
+            "start": 3084,
+            "end": 3089
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "ResNet",
+        "DMN+",
+        "SAN",
+        "FDA",
+        "2-VIS+BLSTM",
+        "IMG-CNN"
+      ],
+      "self_consistency": 0.93,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 27494,
+    "tokens_out": 2803,
+    "cost_usd": 0.01355996,
+    "wall_time_seconds": 50.25356366694905,
+    "voting_samples": 3
+  }
+}

@@ -1,0 +1,153 @@
+{
+  "paper_id": "scirex:26d4ab9b60b91bb610202b58fa1766951fedb9e9",
+  "contributions": [
+    {
+      "method": {
+        "name": "Deep Recurrent Attentive Writer (DRAW)",
+        "canonical_id": "DRAW",
+        "evidence_span": {
+          "start": 21,
+          "end": 71
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "image generation",
+        "canonical_id": "image generation",
+        "evidence_span": {
+          "start": 21,
+          "end": 71
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "MNIST",
+          "canonical_id": "MNIST",
+          "evidence_span": {
+            "start": 192,
+            "end": 197
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "Street View House Numbers",
+          "canonical_id": "SVHN",
+          "evidence_span": {
+            "start": 204,
+            "end": 229
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "CIFAR-10",
+          "canonical_id": "CIFAR-10",
+          "evidence_span": {
+            "start": 480,
+            "end": 488
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "nats/image",
+          "value": null,
+          "unit": "nats/image",
+          "evidence_span": {
+            "start": 3725,
+            "end": 3748
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "binary cross-entropy",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 3714,
+            "end": 3733
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "DARN",
+        "NADE",
+        "DBMs"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "PARTIAL"
+      }
+    },
+    {
+      "method": {
+        "name": "Differentiable RAM",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 3751,
+          "end": 3898
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "image classification",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 6673,
+          "end": 6690
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "cluttered MNIST",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 3682,
+            "end": 3713
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "test error",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 3923,
+            "end": 3933
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "RAM"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 21931,
+    "tokens_out": 4665,
+    "cost_usd": 0.01342301,
+    "wall_time_seconds": 215.83451129100285,
+    "voting_samples": 3
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "paper_id": "scirex:027d6c52be01b583b9a0d9eb8c9364c6b701c656",
+  "contributions": [
+    {
+      "method": {
+        "name": "Layer-Sequential Unit-Variance (LSUV) initialization",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 281,
+          "end": 310
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "neural network initialization",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 25
+        },
+        "confidence": 0.6666666666666666
+      },
+      "datasets": [
+        {
+          "name": "MNIST",
+          "canonical_id": "MNIST",
+          "evidence_span": {
+            "start": 2064,
+            "end": 2068
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "CIFAR-10",
+          "canonical_id": "CIFAR-10",
+          "evidence_span": {
+            "start": 2164,
+            "end": 2172
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "CIFAR-100",
+          "canonical_id": "CIFAR-100",
+          "evidence_span": {
+            "start": 2173,
+            "end": 2182
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "ImageNet",
+          "canonical_id": "ImageNet",
+          "evidence_span": {
+            "start": 2183,
+            "end": 2191
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 2400,
+            "end": 2408
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "FitNets",
+        "Highway",
+        "Batch Normalization",
+        "Orthonormal initialization",
+        "Hints initialization"
+      ],
+      "self_consistency": 0.875,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 21253,
+    "tokens_out": 3546,
+    "cost_usd": 0.01197685,
+    "wall_time_seconds": 78.99304716603365,
+    "voting_samples": 3
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "paper_id": "nlp_tdms:N18-1064",
+  "contributions": [
+    {
+      "method": {
+        "name": "Entity2Topic (E2T)",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 306,
+          "end": 367
+        },
+        "confidence": 0.9
+      },
+      "task": {
+        "name": "abstractive summarization",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 494,
+          "end": 524
+        },
+        "confidence": 0.9
+      },
+      "datasets": [
+        {
+          "name": "Gigaword",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1039,
+            "end": 1058
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "CNN",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1065,
+            "end": 1068
+          },
+          "confidence": 0.9
+        }
+      ],
+      "metrics": [
+        {
+          "name": "ROUGE F1",
+          "value": null,
+          "unit": "points",
+          "evidence_span": {
+            "start": 3210,
+            "end": 3220
+          },
+          "confidence": 0.8
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "ABS+",
+        "Feat2s",
+        "Luong-NMT",
+        "RAS-Elman",
+        "SEASS",
+        "Lead-3",
+        "LexRank",
+        "Bi-GRU",
+        "Distraction-M3",
+        "GBA"
+      ],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "PARTIAL",
+        "task": "PARTIAL",
+        "datasets": "PARTIAL",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "(none)",
+    "consolidator_model": "(none)",
+    "tokens_in": 6742,
+    "tokens_out": 432,
+    "cost_usd": 0.00254192,
+    "wall_time_seconds": 13.984914375003427,
+    "voting_samples": 1
+  }
+}

@@ -1,0 +1,330 @@
+{
+  "paper_id": "scirex:0690ba31424310a90028533218d0afd25a829c8d",
+  "contributions": [
+    {
+      "method": {
+        "name": "DeepLab",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 239,
+          "end": 245
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "semantic image segmentation",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 156,
+          "end": 183
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "PASCAL VOC 2012 test",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 4441,
+            "end": 4464
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "mIoU",
+          "value": 71.6,
+          "unit": "%",
+          "evidence_span": {
+            "start": 4465,
+            "end": 4473
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "TTI-Zoomout-16",
+        "FCN-8s",
+        "MSRA-CFM"
+      ],
+      "self_consistency": 0.75,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    },
+    {
+      "method": {
+        "name": "DeepLab-CRF",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 239,
+          "end": 248
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "semantic image segmentation",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 156,
+          "end": 183
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "PASCAL VOC 2012 val",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 4211,
+            "end": 4231
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "mIoU",
+          "value": null,
+          "unit": null,
+          "evidence_span": null,
+          "confidence": 0.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "DeepLab"
+      ],
+      "self_consistency": 0.75,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "UNSUPPORTED"
+      }
+    },
+    {
+      "method": {
+        "name": "DeepLab-MSc",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 239,
+          "end": 250
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "semantic image segmentation",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 156,
+          "end": 183
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "PASCAL VOC 2012 val",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 4211,
+            "end": 4231
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "mIoU",
+          "value": null,
+          "unit": null,
+          "evidence_span": null,
+          "confidence": 0.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "DeepLab"
+      ],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "UNSUPPORTED"
+      }
+    },
+    {
+      "method": {
+        "name": "DeepLab-MSc-CRF",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 239,
+          "end": 253
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "semantic image segmentation",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 156,
+          "end": 183
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "PASCAL VOC 2012 val",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 4211,
+            "end": 4231
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "mIoU",
+          "value": null,
+          "unit": null,
+          "evidence_span": null,
+          "confidence": 0.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "DeepLab-MSc"
+      ],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "UNSUPPORTED"
+      }
+    },
+    {
+      "method": {
+        "name": "DeepLab-CRF-LargeFOV",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 239,
+          "end": 256
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "semantic image segmentation",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 156,
+          "end": 183
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "PASCAL VOC 2012 test",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 4441,
+            "end": 4464
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "mIoU",
+          "value": null,
+          "unit": null,
+          "evidence_span": null,
+          "confidence": 0.0
+        }
+      ],
+      "claim_strength": "comparable",
+      "comparison_targets": [
+        "DeepLab-CRF-7x7"
+      ],
+      "self_consistency": 0.25,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "UNSUPPORTED"
+      }
+    },
+    {
+      "method": {
+        "name": "DeepLab-MSc-CRF-LargeFOV",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 239,
+          "end": 262
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "semantic image segmentation",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 156,
+          "end": 183
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "PASCAL VOC 2012 test",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 4441,
+            "end": 4464
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "mIoU",
+          "value": null,
+          "unit": null,
+          "evidence_span": null,
+          "confidence": 0.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "DeepLab-CRF-LargeFOV",
+        "DeepLab-CRF-7x7",
+        "TTI-Zoomout-16",
+        "FCN-8s",
+        "MSRA-CFM"
+      ],
+      "self_consistency": 0.25,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "UNSUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "openai/gpt-5",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 38261,
+    "tokens_out": 21259,
+    "cost_usd": 0.19040581999999998,
+    "wall_time_seconds": 280.428866250033,
+    "voting_samples": 3
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "paper_id": "scirex:35756f711a97166df11202ebe46820a36704ae77",
+  "contributions": [
+    {
+      "method": {
+        "name": "Deep Convolutional Generative Adversarial Networks (DCGANs)",
+        "canonical_id": "DCGAN",
+        "evidence_span": {
+          "start": 155,
+          "end": 173
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "unsupervised representation learning",
+        "canonical_id": "unsupervised_learning",
+        "evidence_span": {
+          "start": 155,
+          "end": 173
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "LSUN",
+          "canonical_id": "LSUN",
+          "evidence_span": {
+            "start": 2013,
+            "end": 2017
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "Imagenet-1k",
+          "canonical_id": "ImageNet",
+          "evidence_span": {
+            "start": 2013,
+            "end": 2023
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": 82.8,
+          "unit": "%",
+          "evidence_span": {
+            "start": 4305,
+            "end": 4310
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "test error",
+          "value": 22.48,
+          "unit": "%",
+          "evidence_span": {
+            "start": 5245,
+            "end": 5251
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": null,
+      "comparison_targets": [
+        "K-means based approaches",
+        "Exemplar CNNs"
+      ],
+      "self_consistency": 0.875,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "PARTIAL",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 27987,
+    "tokens_out": 6619,
+    "cost_usd": 0.0179064,
+    "wall_time_seconds": 193.7915172080393,
+    "voting_samples": 3
+  }
+}

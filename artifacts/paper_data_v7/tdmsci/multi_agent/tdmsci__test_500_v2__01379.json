@@ -1,0 +1,59 @@
+{
+  "paper_id": "tdmsci:test_500_v2:01379",
+  "contributions": [
+    {
+      "method": {
+        "name": null,
+        "canonical_id": null,
+        "evidence_span": null,
+        "confidence": 0.0
+      },
+      "task": {
+        "name": null,
+        "canonical_id": null,
+        "evidence_span": null,
+        "confidence": 0.0
+      },
+      "datasets": [
+        {
+          "name": "People's Daily corpus",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 13,
+            "end": 32
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "Chinese Penn Treebank",
+          "canonical_id": "CTB",
+          "evidence_span": {
+            "start": 39,
+            "end": 66
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [],
+      "claim_strength": null,
+      "comparison_targets": [],
+      "self_consistency": 1.0,
+      "critic_verdict": {
+        "method": "UNSUPPORTED",
+        "task": "UNSUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "UNSUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 5039,
+    "tokens_out": 1581,
+    "cost_usd": 0.0036013499999999997,
+    "wall_time_seconds": 39.9169621670153,
+    "voting_samples": 3
+  }
+}

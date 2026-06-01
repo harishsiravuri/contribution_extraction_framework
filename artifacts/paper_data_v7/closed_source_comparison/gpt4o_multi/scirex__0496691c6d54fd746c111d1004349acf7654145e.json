@@ -1,0 +1,232 @@
+{
+  "paper_id": "scirex:0496691c6d54fd746c111d1004349acf7654145e",
+  "contributions": [
+    {
+      "method": {
+        "name": "EGAN-Ent-NN",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 10189,
+          "end": 10199
+        },
+        "confidence": 0.75
+      },
+      "task": {
+        "name": "density estimation",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 10189,
+          "end": 10289
+        },
+        "confidence": 0.75
+      },
+      "datasets": [
+        {
+          "name": "biased Gaussian mixture",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 10189,
+            "end": 10289
+          },
+          "confidence": 0.75
+        }
+      ],
+      "metrics": [
+        {
+          "name": "KL divergence",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 10189,
+            "end": 10289
+          },
+          "confidence": 0.5
+        }
+      ],
+      "claim_strength": null,
+      "comparison_targets": [
+        "EGAN-Ent-VI"
+      ],
+      "self_consistency": 0.625,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    },
+    {
+      "method": {
+        "name": "EGAN-Ent-VI",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 10189,
+          "end": 10199
+        },
+        "confidence": 0.75
+      },
+      "task": {
+        "name": "density estimation",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 10189,
+          "end": 10289
+        },
+        "confidence": 0.75
+      },
+      "datasets": [
+        {
+          "name": "biased Gaussian mixture",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 10189,
+            "end": 10289
+          },
+          "confidence": 0.75
+        }
+      ],
+      "metrics": [
+        {
+          "name": "KL divergence",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 10189,
+            "end": 10289
+          },
+          "confidence": 0.5
+        }
+      ],
+      "claim_strength": null,
+      "comparison_targets": [
+        "EGAN-Ent-NN"
+      ],
+      "self_consistency": 0.625,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    },
+    {
+      "method": {
+        "name": "EGAN-Ent-VI",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 12345,
+          "end": 12355
+        },
+        "confidence": 0.5
+      },
+      "task": {
+        "name": "image generation",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 12345,
+          "end": 12455
+        },
+        "confidence": 0.5
+      },
+      "datasets": [
+        {
+          "name": "CIFAR-10",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 12345,
+            "end": 12455
+          },
+          "confidence": 0.5
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Inception score",
+          "value": 7.07,
+          "unit": null,
+          "evidence_span": {
+            "start": 12345,
+            "end": 12455
+          },
+          "confidence": 0.5
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "EGAN-Const"
+      ],
+      "self_consistency": 0.375,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    },
+    {
+      "method": {
+        "name": "EGAN-Ent-NN",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 10189,
+          "end": 10199
+        },
+        "confidence": 0.5
+      },
+      "task": {
+        "name": "ranking",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 11234,
+          "end": 11345
+        },
+        "confidence": 0.25
+      },
+      "datasets": [
+        {
+          "name": "NIST digits",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 11234,
+            "end": 11345
+          },
+          "confidence": 0.25
+        }
+      ],
+      "metrics": [
+        {
+          "name": "ranking quality",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 11234,
+            "end": 11345
+          },
+          "confidence": 0.25
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "EGAN-Const",
+        "GAN"
+      ],
+      "self_consistency": 0.25,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "openai/gpt-4o-2024-11-20",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 42764,
+    "tokens_out": 5531,
+    "cost_usd": 0.10785329999999999,
+    "wall_time_seconds": 61.77704995800741,
+    "voting_samples": 3
+  }
+}

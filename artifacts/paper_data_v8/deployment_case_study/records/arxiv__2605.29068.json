@@ -1,0 +1,69 @@
+{
+  "paper_id": "arxiv:2605.29068",
+  "contributions": [
+    {
+      "method": {
+        "name": "COLAGUARD",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 246,
+          "end": 255
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "safety moderation",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 156,
+          "end": 173
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "eight safety benchmarks",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 480,
+            "end": 500
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "macro-F1",
+          "value": 8.24,
+          "unit": "points",
+          "evidence_span": {
+            "start": 520,
+            "end": 537
+          },
+          "confidence": 0.75
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Llama Guard 3"
+      ],
+      "self_consistency": 0.875,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 8189,
+    "tokens_out": 3470,
+    "cost_usd": 0.00686345,
+    "wall_time_seconds": 72.61253383290023,
+    "voting_samples": 3
+  }
+}

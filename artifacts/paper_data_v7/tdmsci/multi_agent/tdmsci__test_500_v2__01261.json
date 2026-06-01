@@ -1,0 +1,62 @@
+{
+  "paper_id": "tdmsci:test_500_v2:01261",
+  "contributions": [
+    {
+      "method": {
+        "name": null,
+        "canonical_id": null,
+        "evidence_span": null,
+        "confidence": 0.0
+      },
+      "task": {
+        "name": "AMR parsing",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 31,
+          "end": 42
+        },
+        "confidence": 0.6666666666666666
+      },
+      "datasets": [
+        {
+          "name": "LDC2016E25",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 59,
+            "end": 68
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "Bio AMR Corpus",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 163,
+            "end": 177
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [],
+      "claim_strength": null,
+      "comparison_targets": [],
+      "self_consistency": 0.75,
+      "critic_verdict": {
+        "method": "UNSUPPORTED",
+        "task": "UNSUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "UNSUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 5260,
+    "tokens_out": 1689,
+    "cost_usd": 0.00379264,
+    "wall_time_seconds": 46.10461666597985,
+    "voting_samples": 3
+  }
+}

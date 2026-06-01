@@ -1,0 +1,56 @@
+{
+  "paper_id": "tdmsci:train_1500_v2:00004",
+  "contributions": [
+    {
+      "method": {
+        "name": null,
+        "canonical_id": null,
+        "evidence_span": null,
+        "confidence": 0.0
+      },
+      "task": {
+        "name": "NIST Chinese-to-English translation",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 87,
+          "end": 123
+        },
+        "confidence": 0.9
+      },
+      "datasets": [],
+      "metrics": [
+        {
+          "name": "translation accuracy",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 32,
+            "end": 53
+          },
+          "confidence": 0.9
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "state-of-the-art baseline"
+      ],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "PARTIAL",
+        "task": "PARTIAL",
+        "datasets": "PARTIAL",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "(none)",
+    "consolidator_model": "(none)",
+    "tokens_in": 571,
+    "tokens_out": 259,
+    "cost_usd": 0.00041323,
+    "wall_time_seconds": 7.465619291004259,
+    "voting_samples": 1
+  }
+}

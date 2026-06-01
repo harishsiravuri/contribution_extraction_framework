@@ -1,0 +1,100 @@
+{
+  "paper_id": "scirex:4682e5d4654b6040f213475c8b75ca039661b5f6",
+  "contributions": [
+    {
+      "method": {
+        "name": "EAST",
+        "canonical_id": "EAST",
+        "evidence_span": {
+          "start": 206,
+          "end": 209
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "scene text detection",
+        "canonical_id": "scene_text_detection",
+        "evidence_span": {
+          "start": 0,
+          "end": 25
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "ICDAR 2015",
+          "canonical_id": "ICDAR_2015",
+          "evidence_span": {
+            "start": 1141,
+            "end": 1151
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "COCO-Text",
+          "canonical_id": "COCO-Text",
+          "evidence_span": {
+            "start": 1294,
+            "end": 1303
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "MSRA-TD500",
+          "canonical_id": "MSRA-TD500",
+          "evidence_span": {
+            "start": 1451,
+            "end": 1462
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F-score",
+          "value": 0.782,
+          "unit": null,
+          "evidence_span": {
+            "start": 535,
+            "end": 543
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "FPS",
+          "value": 13.2,
+          "unit": "fps",
+          "evidence_span": {
+            "start": 1643,
+            "end": 1646
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "state-of-the-art methods",
+        "Tian",
+        "Yao",
+        "Zhang"
+      ],
+      "self_consistency": 0.875,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 29635,
+    "tokens_out": 3548,
+    "cost_usd": 0.015233779999999999,
+    "wall_time_seconds": 133.2177155839745,
+    "voting_samples": 3
+  }
+}

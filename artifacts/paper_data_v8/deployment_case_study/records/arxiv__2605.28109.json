@@ -1,0 +1,110 @@
+{
+  "paper_id": "arxiv:2605.28109",
+  "contributions": [
+    {
+      "method": {
+        "name": "IB-TPO",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 428,
+          "end": 433
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "reinforcement learning",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 38,
+          "end": 63
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "standard benchmarks",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 734,
+            "end": 751
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "performance improvement",
+          "value": 2.9,
+          "unit": "%",
+          "evidence_span": {
+            "start": 767,
+            "end": 785
+          },
+          "confidence": 0.75
+        },
+        {
+          "name": "trajectory efficiency",
+          "value": 50.0,
+          "unit": "%",
+          "evidence_span": {
+            "start": 641,
+            "end": 645
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "GRPO"
+      ],
+      "self_consistency": 0.875,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "PARTIAL"
+      }
+    },
+    {
+      "method": {
+        "name": "IB-Score",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 154,
+          "end": 161
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "reinforcement learning",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 38,
+          "end": 63
+        },
+        "confidence": 1.0
+      },
+      "datasets": [],
+      "metrics": [],
+      "claim_strength": "novel",
+      "comparison_targets": [],
+      "self_consistency": 1.0,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": null,
+        "metrics": null
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 9200,
+    "tokens_out": 4470,
+    "cost_usd": 0.008257869999999999,
+    "wall_time_seconds": 125.77612524991855,
+    "voting_samples": 3
+  }
+}

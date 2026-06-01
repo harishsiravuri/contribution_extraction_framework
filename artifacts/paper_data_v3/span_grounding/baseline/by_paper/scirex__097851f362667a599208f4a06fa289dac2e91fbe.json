@@ -1,0 +1,69 @@
+{
+  "paper_id": "scirex:097851f362667a599208f4a06fa289dac2e91fbe",
+  "contributions": [
+    {
+      "method": {
+        "name": "meta-parameter free, off-the-shelf, simple and fast unsupervised feature learning algorithm",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 47,
+          "end": 134
+        },
+        "confidence": 0.9
+      },
+      "task": {
+        "name": "image classification and object recognition",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 280,
+          "end": 322
+        },
+        "confidence": 0.8
+      },
+      "datasets": [
+        {
+          "name": "STL-10",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 164,
+            "end": 170
+          },
+          "confidence": 0.9
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": null,
+          "unit": null,
+          "evidence_span": null,
+          "confidence": 0.6
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "ICA",
+        "sparse coding",
+        "OMP-1",
+        "sparse filtering"
+      ],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "PARTIAL",
+        "task": "PARTIAL",
+        "datasets": "PARTIAL",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "(none)",
+    "consolidator_model": "(none)",
+    "tokens_in": 4746,
+    "tokens_out": 336,
+    "cost_usd": 0.00181776,
+    "wall_time_seconds": 10.733853625017218,
+    "voting_samples": 1
+  }
+}

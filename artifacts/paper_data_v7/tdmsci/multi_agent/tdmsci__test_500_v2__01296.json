@@ -1,0 +1,71 @@
+{
+  "paper_id": "tdmsci:test_500_v2:01296",
+  "contributions": [
+    {
+      "method": {
+        "name": null,
+        "canonical_id": null,
+        "evidence_span": null,
+        "confidence": 0.0
+      },
+      "task": {
+        "name": "approximate string search",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 36,
+          "end": 61
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": null,
+          "canonical_id": null,
+          "evidence_span": null,
+          "confidence": 0.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 80,
+            "end": 87
+          },
+          "confidence": 0.5
+        },
+        {
+          "name": "efficiency",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 92,
+            "end": 101
+          },
+          "confidence": 0.5
+        }
+      ],
+      "claim_strength": null,
+      "comparison_targets": [],
+      "self_consistency": 0.625,
+      "critic_verdict": {
+        "method": "UNSUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "UNSUPPORTED",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 5575,
+    "tokens_out": 1891,
+    "cost_usd": 0.00420584,
+    "wall_time_seconds": 38.20817512483336,
+    "voting_samples": 3
+  }
+}

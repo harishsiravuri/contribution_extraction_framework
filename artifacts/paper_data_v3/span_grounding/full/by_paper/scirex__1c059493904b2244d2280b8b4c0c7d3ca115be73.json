@@ -1,0 +1,161 @@
+{
+  "paper_id": "scirex:1c059493904b2244d2280b8b4c0c7d3ca115be73",
+  "contributions": [
+    {
+      "method": {
+        "name": "node2vec",
+        "canonical_id": "node2vec",
+        "evidence_span": {
+          "start": 1551,
+          "end": 1558
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "multi-label classification",
+        "canonical_id": "multi-label_classification",
+        "evidence_span": {
+          "start": 3414,
+          "end": 3432
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "BlogCatalog",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 4441,
+            "end": 4452
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "Protein-Protein Interactions (PPI)",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 4465,
+            "end": 4491
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "Wikipedia",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 4513,
+            "end": 4522
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Macro-F1",
+          "value": 26.7,
+          "unit": "%",
+          "evidence_span": {
+            "start": 4639,
+            "end": 4646
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "DeepWalk",
+        "LINE"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    },
+    {
+      "method": {
+        "name": "node2vec",
+        "canonical_id": "node2vec",
+        "evidence_span": {
+          "start": 1551,
+          "end": 1558
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "link prediction",
+        "canonical_id": "link_prediction",
+        "evidence_span": {
+          "start": 5738,
+          "end": 5751
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "Facebook",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 5839,
+            "end": 5847
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "Protein-Protein Interactions (PPI)",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 5860,
+            "end": 5886
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "arXiv ASTRO-PH",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 5908,
+            "end": 5925
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "AUC",
+          "value": 12.6,
+          "unit": "%",
+          "evidence_span": {
+            "start": 6059,
+            "end": 6062
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "DeepWalk",
+        "LINE"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 43340,
+    "tokens_out": 4374,
+    "cost_usd": 0.02141375,
+    "wall_time_seconds": 151.30872320802882,
+    "voting_samples": 3
+  }
+}

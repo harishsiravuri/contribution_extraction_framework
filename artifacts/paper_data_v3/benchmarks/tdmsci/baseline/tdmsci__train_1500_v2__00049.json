@@ -1,0 +1,80 @@
+{
+  "paper_id": "tdmsci:train_1500_v2:00049",
+  "contributions": [
+    {
+      "method": {
+        "name": null,
+        "canonical_id": null,
+        "evidence_span": null,
+        "confidence": 0.0
+      },
+      "task": {
+        "name": "sentiment classification",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 91,
+          "end": 115
+        },
+        "confidence": 0.9
+      },
+      "datasets": [
+        {
+          "name": "English corpus",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 26,
+            "end": 34
+          },
+          "confidence": 0.8
+        },
+        {
+          "name": "German corpus",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 36,
+            "end": 43
+          },
+          "confidence": 0.8
+        },
+        {
+          "name": "French corpus",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 45,
+            "end": 52
+          },
+          "confidence": 0.8
+        },
+        {
+          "name": "Japanese corpus",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 58,
+            "end": 66
+          },
+          "confidence": 0.8
+        }
+      ],
+      "metrics": [],
+      "claim_strength": null,
+      "comparison_targets": [],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "PARTIAL",
+        "task": "PARTIAL",
+        "datasets": "PARTIAL",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "(none)",
+    "consolidator_model": "(none)",
+    "tokens_in": 564,
+    "tokens_out": 411,
+    "cost_usd": 0.00054627,
+    "wall_time_seconds": 10.502831042045727,
+    "voting_samples": 1
+  }
+}

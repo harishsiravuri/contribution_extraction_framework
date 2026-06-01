@@ -1,0 +1,104 @@
+{
+  "paper_id": "scirex:4592364a6c1eb227ffb3cbb6bb9f4e6431e89f2f",
+  "contributions": [
+    {
+      "method": {
+        "name": "Relation Network (RN)",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 68,
+          "end": 87
+        },
+        "confidence": 0.9
+      },
+      "task": {
+        "name": "few-shot learning and zero-shot learning",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 44,
+          "end": 120
+        },
+        "confidence": 0.9
+      },
+      "datasets": [
+        {
+          "name": "Omniglot",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1208,
+            "end": 1217
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "mini ImageNet",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1273,
+            "end": 1285
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "Animals with Attributes (AwA)",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1286,
+            "end": 1315
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "Caltech-UCSD Birds-200-2011 (CUB)",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1319,
+            "end": 1360
+          },
+          "confidence": 0.9
+        }
+      ],
+      "metrics": [
+        {
+          "name": "classification accuracy",
+          "value": null,
+          "unit": "%",
+          "evidence_span": {
+            "start": 1449,
+            "end": 1475
+          },
+          "confidence": 0.8
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "neural statistician",
+        "Matching Nets",
+        "MANN",
+        "Siamese Nets with Memory",
+        "Convolutional Siamese Nets",
+        "MAML",
+        "Meta Nets",
+        "Prototypical Nets",
+        "Meta-Learner LSTM"
+      ],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "PARTIAL",
+        "task": "PARTIAL",
+        "datasets": "PARTIAL",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "(none)",
+    "consolidator_model": "(none)",
+    "tokens_in": 6600,
+    "tokens_out": 553,
+    "cost_usd": 0.0026041700000000003,
+    "wall_time_seconds": 16.879547667049337,
+    "voting_samples": 1
+  }
+}

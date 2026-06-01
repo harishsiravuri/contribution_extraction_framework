@@ -1,0 +1,164 @@
+{
+  "paper_id": "scirex:2347efd31b723a636902ccaa7b5bc351788e793f",
+  "contributions": [
+    {
+      "method": {
+        "name": "attention-based character-level sequence labeling",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 3057,
+          "end": 3138
+        },
+        "confidence": 0.9
+      },
+      "task": {
+        "name": "sequence labeling",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 138,
+          "end": 154
+        },
+        "confidence": 0.95
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2000",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 3644,
+            "end": 3656
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "CoNLL-2003",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 3677,
+            "end": 3688
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "PTB-POS",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 3697,
+            "end": 3704
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "FCEPUBLIC",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 3719,
+            "end": 3729
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "BC2GM",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 3743,
+            "end": 3748
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "CHEMDNER",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 3772,
+            "end": 3781
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "JNLPBA",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 3808,
+            "end": 3815
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "GENIA-POS",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 3829,
+            "end": 3838
+          },
+          "confidence": 0.9
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": 97.27,
+          "unit": "%",
+          "evidence_span": {
+            "start": 5515,
+            "end": 5523
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "F1",
+          "value": 72.7,
+          "unit": "%",
+          "evidence_span": {
+            "start": 5533,
+            "end": 5539
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "F1",
+          "value": 87.99,
+          "unit": "%",
+          "evidence_span": {
+            "start": 5550,
+            "end": 5556
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "F1",
+          "value": 41.88,
+          "unit": "%",
+          "evidence_span": {
+            "start": 5567,
+            "end": 5573
+          },
+          "confidence": 0.9
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Lample2016",
+        "Huang2015",
+        "Rei2016"
+      ],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "PARTIAL",
+        "task": "PARTIAL",
+        "datasets": "PARTIAL",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "(none)",
+    "consolidator_model": "(none)",
+    "tokens_in": 5132,
+    "tokens_out": 781,
+    "cost_usd": 0.0023373300000000003,
+    "wall_time_seconds": 22.83455283299554,
+    "voting_samples": 1
+  }
+}

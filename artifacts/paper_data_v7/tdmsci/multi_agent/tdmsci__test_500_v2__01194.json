@@ -1,0 +1,62 @@
+{
+  "paper_id": "tdmsci:test_500_v2:01194",
+  "contributions": [
+    {
+      "method": {
+        "name": null,
+        "canonical_id": null,
+        "evidence_span": null,
+        "confidence": 0.0
+      },
+      "task": {
+        "name": "sentiment classification",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 24,
+          "end": 43
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "IMDB",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 0,
+            "end": 4
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "Elec",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 9,
+            "end": 13
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [],
+      "claim_strength": null,
+      "comparison_targets": [],
+      "self_consistency": 0.75,
+      "critic_verdict": {
+        "method": "UNSUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "UNSUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 5135,
+    "tokens_out": 1725,
+    "cost_usd": 0.00378608,
+    "wall_time_seconds": 35.052454667165875,
+    "voting_samples": 3
+  }
+}

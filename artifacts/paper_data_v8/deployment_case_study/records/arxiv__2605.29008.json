@@ -1,0 +1,96 @@
+{
+  "paper_id": "arxiv:2605.29008",
+  "contributions": [
+    {
+      "method": {
+        "name": "COAST",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 180,
+          "end": 184
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "state transition induction",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 9,
+          "end": 44
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "synthetic benchmarks",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 757,
+            "end": 776
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "real biological datasets",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 778,
+            "end": 800
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "transition efficacy",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 549,
+            "end": 568
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "intervention complexity",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 570,
+            "end": 591
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "target-state stability",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 593,
+            "end": 613
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "novel",
+      "comparison_targets": [],
+      "self_consistency": 0.8333333333333334,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 7164,
+    "tokens_out": 3029,
+    "cost_usd": 0.005912549999999999,
+    "wall_time_seconds": 51.135744208004326,
+    "voting_samples": 3
+  }
+}

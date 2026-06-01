@@ -1,0 +1,98 @@
+{
+  "paper_id": "scirex:44fcb91c6c436902edb35b4c453c34fb353b14ad",
+  "contributions": [
+    {
+      "method": {
+        "name": "Convolutional Encoder Model",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 44
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "neural machine translation",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 45,
+          "end": 69
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "WMT'16 English-Romanian",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1561,
+            "end": 1584
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "WMT'15 English-German",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1739,
+            "end": 1763
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "WMT'14 English-French",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1917,
+            "end": 1939
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 27.8,
+          "unit": null,
+          "evidence_span": {
+            "start": 3555,
+            "end": 3558
+          },
+          "confidence": 0.5
+        },
+        {
+          "name": "speed",
+          "value": 2.0,
+          "unit": "times",
+          "evidence_span": {
+            "start": 5021,
+            "end": 5041
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "bi-directional LSTMs",
+        "deep LSTM setup"
+      ],
+      "self_consistency": 0.875,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 35627,
+    "tokens_out": 6213,
+    "cost_usd": 0.02036934,
+    "wall_time_seconds": 270.63900500000454,
+    "voting_samples": 3
+  }
+}

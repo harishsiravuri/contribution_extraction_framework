@@ -1,0 +1,109 @@
+{
+  "paper_id": "scirex:44fcb91c6c436902edb35b4c453c34fb353b14ad",
+  "contributions": [
+    {
+      "method": {
+        "name": "convolutional encoder",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 155,
+          "end": 180
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "machine translation",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 105,
+          "end": 130
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "WMT'16 English-Romanian",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 258,
+            "end": 285
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "WMT'15 English-German",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 321,
+            "end": 346
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "WMT'14 English-French",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 377,
+            "end": 401
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "IWSLT'14 German-English",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1500,
+            "end": 1530
+          },
+          "confidence": 0.5
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 290,
+            "end": 319
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "speed",
+          "value": 2.0,
+          "unit": "times",
+          "evidence_span": {
+            "start": 5000,
+            "end": 5100
+          },
+          "confidence": 0.5
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Bi-directional LSTM",
+        "Uni-directional LSTM",
+        "BiLSTM",
+        "LSTM"
+      ],
+      "self_consistency": 0.875,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 34189,
+    "tokens_out": 3918,
+    "cost_usd": 0.01742018,
+    "wall_time_seconds": 78.34284241707064,
+    "voting_samples": 3
+  }
+}

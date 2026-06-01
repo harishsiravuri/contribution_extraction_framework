@@ -1,0 +1,73 @@
+{
+  "paper_id": "nlp_tdms:P16-2034",
+  "contributions": [
+    {
+      "method": {
+        "name": "Attention-Based Bidirectional Long Short-Term Memory Networks",
+        "canonical_id": "Att-BLSTM",
+        "evidence_span": {
+          "start": 0,
+          "end": 50
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "relation classification",
+        "canonical_id": "relation_classification",
+        "evidence_span": {
+          "start": 0,
+          "end": 30
+        },
+        "confidence": 0.6666666666666666
+      },
+      "datasets": [
+        {
+          "name": "SemEval-2010 Task 8",
+          "canonical_id": "SemEval-2010_Task_8",
+          "evidence_span": {
+            "start": 1000,
+            "end": 1020
+          },
+          "confidence": 0.6666666666666666
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 84.0,
+          "unit": "%",
+          "evidence_span": {
+            "start": 1100,
+            "end": 1110
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "SVM",
+        "CNN",
+        "RNN",
+        "SDP-LSTM",
+        "BLSTM"
+      ],
+      "self_consistency": 0.875,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 16936,
+    "tokens_out": 2306,
+    "cost_usd": 0.009022390000000002,
+    "wall_time_seconds": 71.34865862497827,
+    "voting_samples": 3
+  }
+}

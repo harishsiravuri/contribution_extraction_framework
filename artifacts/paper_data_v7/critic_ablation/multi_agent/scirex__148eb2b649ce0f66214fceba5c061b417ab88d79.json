@@ -1,0 +1,88 @@
+{
+  "paper_id": "scirex:148eb2b649ce0f66214fceba5c061b417ab88d79",
+  "contributions": [
+    {
+      "method": {
+        "name": "Bidirectional-InfoGAN",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 1162,
+          "end": 1189
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "unsupervised representation learning",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 247,
+          "end": 340
+        },
+        "confidence": 0.75
+      },
+      "datasets": [
+        {
+          "name": "MNIST",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2248,
+            "end": 2254
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "CelebA",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2678,
+            "end": 2685
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "SVHN",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2838,
+            "end": 2842
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": 96.61,
+          "unit": "%",
+          "evidence_span": {
+            "start": 2464,
+            "end": 2472
+          },
+          "confidence": 0.5
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Chen et al.",
+        "Zhang et al."
+      ],
+      "self_consistency": 0.875,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "DISABLED (E2 critic-off ablation)",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 16389,
+    "tokens_out": 2313,
+    "cost_usd": 0.00803853,
+    "wall_time_seconds": 39.47567362501286,
+    "voting_samples": 3
+  }
+}

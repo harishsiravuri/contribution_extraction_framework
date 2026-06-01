@@ -1,0 +1,162 @@
+{
+  "paper_id": "scirex:1c059493904b2244d2280b8b4c0c7d3ca115be73",
+  "contributions": [
+    {
+      "method": {
+        "name": "node2vec",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 155,
+          "end": 162
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "multi-label classification",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 1041,
+          "end": 1063
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "BlogCatalog",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1284,
+            "end": 1296
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "PPI",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1357,
+            "end": 1360
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "Wikipedia",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1414,
+            "end": 1422
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Macro-F1",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 1465,
+            "end": 1472
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "DeepWalk",
+        "LINE"
+      ],
+      "self_consistency": 0.83,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    },
+    {
+      "method": {
+        "name": "node2vec",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 155,
+          "end": 162
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "link prediction",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 1649,
+          "end": 1663
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "arXiv ASTRO-PH",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1735,
+            "end": 1750
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "Facebook",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1762,
+            "end": 1769
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "PPI",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1779,
+            "end": 1782
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "AUC",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 1814,
+            "end": 1817
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Adamic-Adar",
+        "DeepWalk",
+        "LINE"
+      ],
+      "self_consistency": 0.83,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "openai/gpt-5",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 49172,
+    "tokens_out": 16920,
+    "cost_usd": 0.18024679,
+    "wall_time_seconds": 166.0628383330186,
+    "voting_samples": 3
+  }
+}

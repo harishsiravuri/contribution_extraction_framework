@@ -1,0 +1,100 @@
+{
+  "paper_id": "scirex:4682e5d4654b6040f213475c8b75ca039661b5f6",
+  "contributions": [
+    {
+      "method": {
+        "name": "EAST",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 206,
+          "end": 209
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "scene text detection",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 35
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "ICDAR 2015",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 433,
+            "end": 445
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "COCO-Text",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 463,
+            "end": 472
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "MSRA-TD500",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 494,
+            "end": 505
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F-score",
+          "value": 0.782,
+          "unit": null,
+          "evidence_span": {
+            "start": 529,
+            "end": 541
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "FPS",
+          "value": 13.2,
+          "unit": null,
+          "evidence_span": {
+            "start": 554,
+            "end": 559
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "state-of-the-art methods",
+        "Tian",
+        "Yao",
+        "Zhang"
+      ],
+      "self_consistency": 0.875,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 30073,
+    "tokens_out": 2834,
+    "cost_usd": 0.01464565,
+    "wall_time_seconds": 69.60754537489265,
+    "voting_samples": 3
+  }
+}

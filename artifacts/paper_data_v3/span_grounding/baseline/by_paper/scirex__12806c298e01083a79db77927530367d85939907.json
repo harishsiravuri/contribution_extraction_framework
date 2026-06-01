@@ -1,0 +1,99 @@
+{
+  "paper_id": "scirex:12806c298e01083a79db77927530367d85939907",
+  "contributions": [
+    {
+      "method": {
+        "name": "Convolutional Neural Networks (CNNs)",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 0
+        },
+        "confidence": 0.9
+      },
+      "task": {
+        "name": "Highway Lane and Vehicle Detection",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 0
+        },
+        "confidence": 0.9
+      },
+      "datasets": [
+        {
+          "name": "Highway Data Set",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 0,
+            "end": 0
+          },
+          "confidence": 0.9
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1 Score",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 0,
+            "end": 0
+          },
+          "confidence": 0.8
+        },
+        {
+          "name": "Precision",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 0,
+            "end": 0
+          },
+          "confidence": 0.8
+        },
+        {
+          "name": "Recall",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 0,
+            "end": 0
+          },
+          "confidence": 0.8
+        },
+        {
+          "name": "Frame Rate",
+          "value": 30.0,
+          "unit": "Hz",
+          "evidence_span": {
+            "start": 0,
+            "end": 0
+          },
+          "confidence": 0.9
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Continental mid-range radar"
+      ],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "PARTIAL",
+        "task": "PARTIAL",
+        "datasets": "PARTIAL",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "(none)",
+    "consolidator_model": "(none)",
+    "tokens_in": 6100,
+    "tokens_out": 472,
+    "cost_usd": 0.0023720800000000004,
+    "wall_time_seconds": 26.442981374973897,
+    "voting_samples": 1
+  }
+}

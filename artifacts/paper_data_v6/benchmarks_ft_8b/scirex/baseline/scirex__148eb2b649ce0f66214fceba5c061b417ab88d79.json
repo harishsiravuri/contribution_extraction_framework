@@ -1,0 +1,88 @@
+{
+  "paper_id": "scirex:148eb2b649ce0f66214fceba5c061b417ab88d79",
+  "contributions": [
+    {
+      "method": {
+        "name": "Bidirectional-InfoGAN",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 2013,
+          "end": 2031
+        },
+        "confidence": 0.9
+      },
+      "task": {
+        "name": "Unsupervised learning of disentangled representations",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 200
+        },
+        "confidence": 0.9
+      },
+      "datasets": [
+        {
+          "name": "MNIST",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2013,
+            "end": 2018
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "CelebA",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2019,
+            "end": 2024
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "SVHN",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2025,
+            "end": 2029
+          },
+          "confidence": 0.9
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Test set accuracy",
+          "value": 96.61,
+          "unit": "%",
+          "evidence_span": {
+            "start": 2013,
+            "end": 2031
+          },
+          "confidence": 0.9
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Chen et al.",
+        "Zhang et al."
+      ],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "PARTIAL",
+        "task": "PARTIAL",
+        "datasets": "PARTIAL",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "(none)",
+    "consolidator_model": "(none)",
+    "tokens_in": 4225,
+    "tokens_out": 433,
+    "cost_usd": 0.0017373699999999998,
+    "wall_time_seconds": 21.817453666997608,
+    "voting_samples": 1
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "paper_id": "scirex:0496691c6d54fd746c111d1004349acf7654145e",
+  "contributions": [
+    {
+      "method": {
+        "name": "Energy-Based Generative Adversarial Networks",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 50
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "generative modeling",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 100,
+          "end": 150
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "NIST",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 4500,
+            "end": 4600
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "CIFAR-10",
+          "canonical_id": "cifar10",
+          "evidence_span": {
+            "start": 5800,
+            "end": 5900
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "CelebA",
+          "canonical_id": "celeba",
+          "evidence_span": {
+            "start": 6100,
+            "end": 6200
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Inception score",
+          "value": 7.07,
+          "unit": null,
+          "evidence_span": {
+            "start": 7000,
+            "end": 7100
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "KL divergence",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 7500,
+            "end": 7600
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": null,
+      "comparison_targets": [
+        "GAN",
+        "EBGAN"
+      ],
+      "self_consistency": 0.875,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 40503,
+    "tokens_out": 3312,
+    "cost_usd": 0.019117529999999997,
+    "wall_time_seconds": 56.008683500112966,
+    "voting_samples": 3
+  }
+}

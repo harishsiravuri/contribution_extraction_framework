@@ -1,0 +1,62 @@
+{
+  "paper_id": "tdmsci:test_500_v2:01195",
+  "contributions": [
+    {
+      "method": {
+        "name": null,
+        "canonical_id": null,
+        "evidence_span": null,
+        "confidence": 0.0
+      },
+      "task": {
+        "name": "cloze-style question answering",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 10,
+          "end": 31
+        },
+        "confidence": 0.5
+      },
+      "datasets": [
+        {
+          "name": "CNN and Daily Mail",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 73,
+            "end": 93
+          },
+          "confidence": 0.5
+        },
+        {
+          "name": "Children's Book Test",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 98,
+            "end": 118
+          },
+          "confidence": 0.75
+        }
+      ],
+      "metrics": [],
+      "claim_strength": null,
+      "comparison_targets": [],
+      "self_consistency": 0.5625,
+      "critic_verdict": {
+        "method": "UNSUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "PARTIAL",
+        "metrics": "UNSUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 5083,
+    "tokens_out": 1451,
+    "cost_usd": 0.00354678,
+    "wall_time_seconds": 25.18666229187511,
+    "voting_samples": 3
+  }
+}

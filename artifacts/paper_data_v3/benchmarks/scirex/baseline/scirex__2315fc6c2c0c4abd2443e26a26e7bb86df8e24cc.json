@@ -1,0 +1,99 @@
+{
+  "paper_id": "scirex:2315fc6c2c0c4abd2443e26a26e7bb86df8e24cc",
+  "contributions": [
+    {
+      "method": {
+        "name": "Deep Convolutional Neural Network",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 9,
+          "end": 44
+        },
+        "confidence": 0.9
+      },
+      "task": {
+        "name": "Image Classification",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 56,
+          "end": 125
+        },
+        "confidence": 0.9
+      },
+      "datasets": [
+        {
+          "name": "ImageNet LSVRC-2010",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 84,
+            "end": 104
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "ILSVRC-2012",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 577,
+            "end": 587
+          },
+          "confidence": 0.9
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Top-1 Error Rate",
+          "value": 37.5,
+          "unit": "%",
+          "evidence_span": {
+            "start": 154,
+            "end": 161
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "Top-5 Error Rate",
+          "value": 17.0,
+          "unit": "%",
+          "evidence_span": {
+            "start": 168,
+            "end": 174
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "Top-5 Error Rate (ILSVRC-2012)",
+          "value": 15.3,
+          "unit": "%",
+          "evidence_span": {
+            "start": 598,
+            "end": 605
+          },
+          "confidence": 0.9
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "previous state-of-the-art",
+        "second-best entry in ILSVRC-2012"
+      ],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "PARTIAL",
+        "task": "PARTIAL",
+        "datasets": "PARTIAL",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "(none)",
+    "consolidator_model": "(none)",
+    "tokens_in": 7002,
+    "tokens_out": 558,
+    "cost_usd": 0.0027372600000000005,
+    "wall_time_seconds": 19.39894662500592,
+    "voting_samples": 1
+  }
+}

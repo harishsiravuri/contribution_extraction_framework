@@ -1,0 +1,671 @@
+{
+  "condition": "no_critic",
+  "wall_time_seconds": 272.5727636250085,
+  "papers_total": 66,
+  "papers_ok": 59,
+  "papers_error": 7,
+  "papers_skipped": 0,
+  "total_cost_usd": 0.68076314,
+  "per_paper": [
+    {
+      "paper_id": "scirex:007ff2ca5f297b04636699ce4d01ca6d6f21dc77",
+      "status": "ok",
+      "cost_usd": 0.0083595,
+      "tokens_in": 16061,
+      "tokens_out": 2832,
+      "wall_time_seconds": 51.90257037500851,
+      "error": null,
+      "output_file": "outputs/paper_data_v3/span_grounding/no_critic/by_paper/scirex__007ff2ca5f297b04636699ce4d01ca6d6f21dc77.json"
+    },
+    {
+      "paper_id": "scirex:027d6c52be01b583b9a0d9eb8c9364c6b701c656",
+      "status": "ok",
+      "cost_usd": 0.01038511,
+      "tokens_in": 17950,
+      "tokens_out": 4072,
+      "wall_time_seconds": 58.61248750000959,
+      "error": null,
+      "output_file": "outputs/paper_data_v3/span_grounding/no_critic/by_paper/scirex__027d6c52be01b583b9a0d9eb8c9364c6b701c656.json"
+    },
+    {
+      "paper_id": "scirex:0496691c6d54fd746c111d1004349acf7654145e",
+      "status": "ok",
+      "cost_usd": 0.013390990000000002,
+      "tokens_in": 30911,
+      "tokens_out": 3066,
+      "wall_time_seconds": 42.13751345797209,
+      "error": null,
+      "output_file": "outputs/paper_data_v3/span_grounding/no_critic/by_paper/scirex__0496691c6d54fd746c111d1004349acf7654145e.json"
+    },
+    {
+      "paper_id": "scirex:0680f04750b1e257ffdd161e85382031dc73ea7f",
+      "status": "error",
+      "cost_usd": 0.0,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "wall_time_seconds": 0.0,
+      "error": "ConsolidatorParseError: Consolidator output failed schema validation: 4 validation errors for ContributionRecord\ncontributions.0.method.confidence\n  Input should be a valid number [type=float_type, input_value=None, input_ty",
+      "output_file": null
+    },
+    {
+      "paper_id": "scirex:0690ba31424310a90028533218d0afd25a829c8d",
+      "status": "ok",
+      "cost_usd": 0.01283668,
+      "tokens_in": 25012,
+      "tokens_out": 4539,
+      "wall_time_seconds": 69.97297445801087,
+      "error": null,
+      "output_file": "outputs/paper_data_v3/span_grounding/no_critic/by_paper/scirex__0690ba31424310a90028533218d0afd25a829c8d.json"
+    },
+    {
+      "paper_id": "scirex:07a9478e87a8304fc3267fa16e83e9f3bbd98b27",
+      "status": "ok",
+      "cost_usd": 0.00617253,
+      "tokens_in": 12813,
+      "tokens_out": 1772,
+      "wall_time_seconds": 54.121425041987095,
+      "error": null,
+      "output_file": "outputs/paper_data_v3/span_grounding/no_critic/by_paper/scirex__07a9478e87a8304fc3267fa16e83e9f3bbd98b27.json"
+    },
+    {
+      "paper_id": "scirex:087337fdad69caaab8ebd8ae68a731c5bf2e8b14",
+      "status": "ok",
+      "cost_usd": 0.015319420000000002,
+      "tokens_in": 33075,
+      "tokens_out": 4098,
+      "wall_time_seconds": 72.46136091701919,
+      "error": null,
+      "output_file": "outputs/paper_data_v3/span_grounding/no_critic/by_paper/scirex__087337fdad69caaab8ebd8ae68a731c5bf2e8b14.json"
+    },
+    {
+      "paper_id": "scirex:088b649415378c4dde666f614ba24d08a36b6652",
+      "status": "ok",
+      "cost_usd": 0.011063229999999999,
+      "tokens_in": 22233,
+      "tokens_out": 3593,
+      "wall_time_seconds": 90.29748691699933,
+      "error": null,
+      "output_file": "outputs/paper_data_v3/span_grounding/no_critic/by_paper/scirex__088b649415378c4dde666f614ba24d08a36b6652.json"
+    },
+    {
+      "paper_id": "scirex:0910a4c470a410fac446f4026f7c8ef512ae7427",
+      "status": "ok",
+      "cost_usd": 0.00987863,
+      "tokens_in": 21464,
+      "tokens_out": 2514,
+      "wall_time_seconds": 81.40421779203461,
+      "error": null,
+      "output_file": "outputs/paper_data_v3/span_grounding/no_critic/by_paper/scirex__0910a4c470a410fac446f4026f7c8ef512ae7427.json"
+    },
+    {
+      "paper_id": "scirex:097851f362667a599208f4a06fa289dac2e91fbe",
+      "status": "error",
+      "cost_usd": 0.0,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "wall_time_seconds": 0.0,
+      "error": "ConsolidatorParseError: Consolidator output failed schema validation: 4 validation errors for ContributionRecord\ncontributions.0.method.confidence\n  Input should be a valid number [type=float_type, input_value=None, input_ty",
+      "output_file": null
+    },
+    {
+      "paper_id": "scirex:0b0dc14b8a8dcccbfc62a38355fff2f6a361e9d2",
+      "status": "ok",
+      "cost_usd": 0.009829629999999999,
+      "tokens_in": 19049,
+      "tokens_out": 3347,
+      "wall_time_seconds": 101.22538295900449,
+      "error": null,
+      "output_file": "outputs/paper_data_v3/span_grounding/no_critic/by_paper/scirex__0b0dc14b8a8dcccbfc62a38355fff2f6a361e9d2.json"
+    },
+    {
+      "paper_id": "scirex:0b4b6932d5df74b366d9235b40334bc40d719c72",
+      "status": "error",
+      "cost_usd": 0.0,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "wall_time_seconds": 0.0,
+      "error": "ConsolidatorParseError: Failed to parse Consolidator JSON output: Expecting ',' delimiter: line 20 column 1 (char 449)\nRaw text:\n```json\n{\n  \"paper_id\": \"scirex:0b4b6932d5df74b366d9235b40334bc40d719c72\",\n  \"contributions\": [",
+      "output_file": null
+    },
+    {
+      "paper_id": "scirex:0c5c93594647d77dcbad5f3ed71139b186a23a3c",
+      "status": "error",
+      "cost_usd": 0.0,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "wall_time_seconds": 0.0,
+      "error": "ConsolidatorParseError: Failed to parse Consolidator JSON output: Could not parse JSON from response: '{\\n  \"paper_id\": \"scirex:0c5c93594647d77dcbad5f3ed71139b186a23a3c\",\\n  \"contributions\": [\\n    {\\n      \"method\": {\\n    ",
+      "output_file": null
+    },
+    {
+      "paper_id": "scirex:0c7f1d285ce069b2f7a807a4b2750695098bffe6",
+      "status": "error",
+      "cost_usd": 0.0,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "wall_time_seconds": 0.0,
+      "error": "ConsolidatorParseError: Consolidator output failed schema validation: 14 validation errors for ContributionRecord\ncontributions.0.method.confidence\n  Input should be a valid number [type=float_type, input_value=None, input_t",
+      "output_file": null
+    },
+    {
+      "paper_id": "scirex:0e6b990f41fc0e7fdd0662f88b5ad024375bd77b",
+      "status": "ok",
+      "cost_usd": 0.013473879999999999,
+      "tokens_in": 24266,
+      "tokens_out": 5242,
+      "wall_time_seconds": 53.14829016599106,
+      "error": null,
+      "output_file": "outputs/paper_data_v3/span_grounding/no_critic/by_paper/scirex__0e6b990f41fc0e7fdd0662f88b5ad024375bd77b.json"
+    },
+    {
+      "paper_id": "scirex:11f411eee106efac9f677149e655252463811b09",
+      "status": "ok",
+      "cost_usd": 0.0126042,
+      "tokens_in": 21701,
+      "tokens_out": 5186,
+      "wall_time_seconds": 109.39177237497643,
+      "error": null,
+      "output_file": "outputs/paper_data_v3/span_grounding/no_critic/by_paper/scirex__11f411eee106efac9f677149e655252463811b09.json"
+    },
+    {
+      "paper_id": "scirex:1275125b71b999b7c49bc554c6ec404a764eb299",
+      "status": "ok",
+      "cost_usd": 0.01050185,
+      "tokens_in": 23971,
+      "tokens_out": 2467,
+      "wall_time_seconds": 72.11570520797977,
+      "error": null,
+      "output_file": "outputs/paper_data_v3/span_grounding/no_critic/by_paper/scirex__1275125b71b999b7c49bc554c6ec404a764eb299.json"
+    },
+    {
+      "paper_id": "scirex:12806c298e01083a79db77927530367d85939907",
+      "status": "ok",
+      "cost_usd": 0.0091895,
+      "tokens_in": 21320,
+      "tokens_out": 2030,
+      "wall_time_seconds": 42.17509525001515,
+      "error": null,
+      "output_file": "outputs/paper_data_v3/span_grounding/no_critic/by_paper/scirex__12806c298e01083a79db77927530367d85939907.json"
+    },
+    {
+      "paper_id": "scirex:148eb2b649ce0f66214fceba5c061b417ab88d79",
+      "status": "ok",
+      "cost_usd": 0.008604770000000001,
+      "tokens_in": 16447,
+      "tokens_out": 2911,
+      "wall_time_seconds": 57.3032519169501,
+      "error": null,
+      "output_file": "outputs/paper_data_v3/span_grounding/no_critic/by_paper/scirex__148eb2b649ce0f66214fceba5c061b417ab88d79.json"
+    },
+    {
+      "paper_id": "scirex:14cb3de564377cc4ba2b9bfe8ebd8c0a7c2787ce",
+      "status": "ok",
+      "cost_usd": 0.01220387,
+      "tokens_in": 26261,
+      "tokens_out": 3311,
+      "wall_time_seconds": 55.48275933298282,
+      "error": null,
+      "output_file": "outputs/paper_data_v3/span_grounding/no_critic/by_paper/scirex__14cb3de564377cc4ba2b9bfe8ebd8c0a7c2787ce.json"
+    },
+    {
+      "paper_id": "scirex:1510cf4b8abea80b9f352325ca4c132887de21a0",
+      "status": "ok",
+      "cost_usd": 0.010750429999999998,
+      "tokens_in": 22934,
+      "tokens_out": 2958,
+      "wall_time_seconds": 86.5539106670185,
+      "error": null,
+      "output_file": "outputs/paper_data_v3/span_grounding/no_critic/by_paper/scirex__1510cf4b8abea80b9f352325ca4c132887de21a0.json"
+    },
+    {
+      "paper_id": "scirex:1594d954abc650bce2db445c52a76e49655efb0c",
+      "status": "ok",
+      "cost_usd": 0.01131922,
+      "tokens_in": 22457,
+      "tokens_out": 3588,
+      "wall_time_seconds": 59.25220820802497,
+      "error": null,
+      "output_file": "outputs/paper_data_v3/span_grounding/no_critic/by_paper/scirex__1594d954abc650bce2db445c52a76e49655efb0c.json"
+    },
+    {
+      "paper_id": "scirex:15c10b24ef645d83ff4059affd86945c33e00328",
+      "status": "ok",
+      "cost_usd": 0.01645912,
+      "tokens_in": 40561,
+      "tokens_out": 3073,
+      "wall_time_seconds": 78.7892405409948,
+      "error": null,
+      "output_file": "outputs/paper_data_v3/span_grounding/no_critic/by_paper/scirex__15c10b24ef645d83ff4059affd86945c33e00328.json"
+    },
+    {
+      "paper_id": "scirex:16028acc465c434a43599f0f900c91f38d690e02",
+      "status": "ok",
+      "cost_usd": 0.011095590000000002,
+      "tokens_in": 25790,
+      "tokens_out": 2420,
+      "wall_time_seconds": 47.900265166012105,
+      "error": null,
+      "output_file": "outputs/paper_data_v3/span_grounding/no_critic/by_paper/scirex__16028acc465c434a43599f0f900c91f38d690e02.json"
+    },
+    {
+      "paper_id": "scirex:170cc3b72dd2793920f8b0bbd0926d9244c49562",
+      "status": "ok",
+      "cost_usd": 0.01327192,
+      "tokens_in": 31227,
+      "tokens_out": 2872,
+      "wall_time_seconds": 56.22542033402715,
+      "error": null,
+      "output_file": "outputs/paper_data_v3/span_grounding/no_critic/by_paper/scirex__170cc3b72dd2793920f8b0bbd0926d9244c49562.json"
+    },
+    {
+      "paper_id": "scirex:1762baa638866a13dcc6d146fd5a49b36cbd9c30",
+      "status": "error",
+      "cost_usd": 0.0,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "wall_time_seconds": 0.0,
+      "error": "ConsolidatorParseError: Consolidator output failed schema validation: 7 validation errors for ContributionRecord\ncontributions.0.method.confidence\n  Input should be a valid number [type=float_type, input_value=None, input_ty",
+      "output_file": null
+    },
+    {
+      "paper_id": "scirex:1827de6fa9c9c1b3d647a9d707042e89cf94abf0",
+      "status": "ok",
+      "cost_usd": 0.01139364,
+      "tokens_in": 25815,
+      "tokens_out": 2684,
+      "wall_time_seconds": 49.32639037503395,
+      "error": null,
+      "output_file": "outputs/paper_data_v3/span_grounding/no_critic/by_paper/scirex__1827de6fa9c9c1b3d647a9d707042e89cf94abf0.json"
+    },
+    {
+      "paper_id": "scirex:188123b5afe0d3b59e9e44f33729649536fe6ea6",
+      "status": "ok",
+      "cost_usd": 0.012277340000000001,
+      "tokens_in": 29358,
+      "tokens_out": 2530,
+      "wall_time_seconds": 55.589352041017264,
+      "error": null,
+      "output_file": "outputs/paper_data_v3/span_grounding/no_critic/by_paper/scirex__188123b5afe0d3b59e9e44f33729649536fe6ea6.json"
+    },
+    {
+      "paper_id": "scirex:189e6bb7523733c4e524214b9e6ae92d4ed50dac",
+      "status": "ok",
+      "cost_usd": 0.01093328,
+      "tokens_in": 20526,
+      "tokens_out": 3805,
+      "wall_time_seconds": 62.337629583023954,
+      "error": null,
+      "output_file": "outputs/paper_data_v3/span_grounding/no_critic/by_paper/scirex__189e6bb7523733c4e524214b9e6ae92d4ed50dac.json"
+    },
+    {
+      "paper_id": "scirex:19d583bf8c5533d1261ccdc068fdc3ef53b9ffb9",
+      "status": "ok",
+      "cost_usd": 0.0090296,
+      "tokens_in": 21616,
+      "tokens_out": 1771,
+      "wall_time_seconds": 53.6557443329948,
+      "error": null,
+      "output_file": "outputs/paper_data_v3/span_grounding/no_critic/by_paper/scirex__19d583bf8c5533d1261ccdc068fdc3ef53b9ffb9.json"
+    },
+    {
+      "paper_id": "scirex:1c059493904b2244d2280b8b4c0c7d3ca115be73",
+      "status": "ok",
+      "cost_usd": 0.017072109999999998,
+      "tokens_in": 35177,
+      "tokens_out": 5030,
+      "wall_time_seconds": 123.99541679100366,
+      "error": null,
+      "output_file": "outputs/paper_data_v3/span_grounding/no_critic/by_paper/scirex__1c059493904b2244d2280b8b4c0c7d3ca115be73.json"
+    },
+    {
+      "paper_id": "scirex:1d73144204eb1604b26cd57ef75536f0f2753c69",
+      "status": "ok",
+      "cost_usd": 0.011956540000000002,
+      "tokens_in": 26550,
+      "tokens_out": 2949,
+      "wall_time_seconds": 85.07752975000767,
+      "error": null,
+      "output_file": "outputs/paper_data_v3/span_grounding/no_critic/by_paper/scirex__1d73144204eb1604b26cd57ef75536f0f2753c69.json"
+    },
+    {
+      "paper_id": "scirex:1e5b1bf032059caddb4ef0d6bfec4706d8f3a946",
+      "status": "ok",
+      "cost_usd": 0.011985329999999999,
+      "tokens_in": 21303,
+      "tokens_out": 4394,
+      "wall_time_seconds": 194.06453041697387,
+      "error": null,
+      "output_file": "outputs/paper_data_v3/span_grounding/no_critic/by_paper/scirex__1e5b1bf032059caddb4ef0d6bfec4706d8f3a946.json"
+    },
+    {
+      "paper_id": "scirex:1efdad6f91e830fd64306e4625f74191b05ef9c4",
+      "status": "ok",
+      "cost_usd": 0.01219277,
+      "tokens_in": 25175,
+      "tokens_out": 3651,
+      "wall_time_seconds": 59.37820912501775,
+      "error": null,
+      "output_file": "outputs/paper_data_v3/span_grounding/no_critic/by_paper/scirex__1efdad6f91e830fd64306e4625f74191b05ef9c4.json"
+    },
+    {
+      "paper_id": "scirex:1f8f0abfe4689aa93f2f6cc7ec4fd4c6adc2c2d6",
+      "status": "ok",
+      "cost_usd": 0.00911241,
+      "tokens_in": 21647,
+      "tokens_out": 1837,
+      "wall_time_seconds": 62.27397841698257,
+      "error": null,
+      "output_file": "outputs/paper_data_v3/span_grounding/no_critic/by_paper/scirex__1f8f0abfe4689aa93f2f6cc7ec4fd4c6adc2c2d6.json"
+    },
+    {
+      "paper_id": "scirex:22634b09c3c83f4a959f4f732b03ec3c92808094",
+      "status": "ok",
+      "cost_usd": 0.018329800000000004,
+      "tokens_in": 46667,
+      "tokens_out": 3104,
+      "wall_time_seconds": 114.0054830830195,
+      "error": null,
+      "output_file": "outputs/paper_data_v3/span_grounding/no_critic/by_paper/scirex__22634b09c3c83f4a959f4f732b03ec3c92808094.json"
+    },
+    {
+      "paper_id": "scirex:2315fc6c2c0c4abd2443e26a26e7bb86df8e24cc",
+      "status": "ok",
+      "cost_usd": 0.01089173,
+      "tokens_in": 24668,
+      "tokens_out": 2567,
+      "wall_time_seconds": 71.61842529196292,
+      "error": null,
+      "output_file": "outputs/paper_data_v3/span_grounding/no_critic/by_paper/scirex__2315fc6c2c0c4abd2443e26a26e7bb86df8e24cc.json"
+    },
+    {
+      "paper_id": "scirex:2347efd31b723a636902ccaa7b5bc351788e793f",
+      "status": "ok",
+      "cost_usd": 0.01448998,
+      "tokens_in": 22875,
+      "tokens_out": 6125,
+      "wall_time_seconds": 143.15155591699295,
+      "error": null,
+      "output_file": "outputs/paper_data_v3/span_grounding/no_critic/by_paper/scirex__2347efd31b723a636902ccaa7b5bc351788e793f.json"
+    },
+    {
+      "paper_id": "scirex:25ace72fc3e483d5d52c9209f76b04f0fdd08f9b",
+      "status": "ok",
+      "cost_usd": 0.00778472,
+      "tokens_in": 15358,
+      "tokens_out": 2434,
+      "wall_time_seconds": 87.5451942080399,
+      "error": null,
+      "output_file": "outputs/paper_data_v3/span_grounding/no_critic/by_paper/scirex__25ace72fc3e483d5d52c9209f76b04f0fdd08f9b.json"
+    },
+    {
+      "paper_id": "scirex:25b9b1ede6519eeef3e67657a97e2f551940b0d6",
+      "status": "ok",
+      "cost_usd": 0.00596814,
+      "tokens_in": 14050,
+      "tokens_out": 1252,
+      "wall_time_seconds": 65.86114320799243,
+      "error": null,
+      "output_file": "outputs/paper_data_v3/span_grounding/no_critic/by_paper/scirex__25b9b1ede6519eeef3e67657a97e2f551940b0d6.json"
+    },
+    {
+      "paper_id": "scirex:26d4ab9b60b91bb610202b58fa1766951fedb9e9",
+      "status": "ok",
+      "cost_usd": 0.00982301,
+      "tokens_in": 17204,
+      "tokens_out": 3841,
+      "wall_time_seconds": 83.21536945801927,
+      "error": null,
+      "output_file": "outputs/paper_data_v3/span_grounding/no_critic/by_paper/scirex__26d4ab9b60b91bb610202b58fa1766951fedb9e9.json"
+    },
+    {
+      "paper_id": "scirex:27e98e09cf09bc13c913d01676e5f32624011050",
+      "status": "ok",
+      "cost_usd": 0.010135830000000002,
+      "tokens_in": 22791,
+      "tokens_out": 2464,
+      "wall_time_seconds": 70.95885816705413,
+      "error": null,
+      "output_file": "outputs/paper_data_v3/span_grounding/no_critic/by_paper/scirex__27e98e09cf09bc13c913d01676e5f32624011050.json"
+    },
+    {
+      "paper_id": "scirex:289e3e6b84982eb65aea8e3a64f2f6916c98e87e",
+      "status": "ok",
+      "cost_usd": 0.015078489999999998,
+      "tokens_in": 31946,
+      "tokens_out": 4187,
+      "wall_time_seconds": 59.53621224995004,
+      "error": null,
+      "output_file": "outputs/paper_data_v3/span_grounding/no_critic/by_paper/scirex__289e3e6b84982eb65aea8e3a64f2f6916c98e87e.json"
+    },
+    {
+      "paper_id": "scirex:28bf3aee9eecc2f7a7b4ac71bfe89534d3fe5f19",
+      "status": "ok",
+      "cost_usd": 0.011480940000000002,
+      "tokens_in": 23230,
+      "tokens_out": 3654,
+      "wall_time_seconds": 87.41846562502906,
+      "error": null,
+      "output_file": "outputs/paper_data_v3/span_grounding/no_critic/by_paper/scirex__28bf3aee9eecc2f7a7b4ac71bfe89534d3fe5f19.json"
+    },
+    {
+      "paper_id": "scirex:2af864bc38fd1116b4af32f16b44f5b3b156f5a3",
+      "status": "ok",
+      "cost_usd": 0.00863588,
+      "tokens_in": 18831,
+      "tokens_out": 2281,
+      "wall_time_seconds": 55.099588292010594,
+      "error": null,
+      "output_file": "outputs/paper_data_v3/span_grounding/no_critic/by_paper/scirex__2af864bc38fd1116b4af32f16b44f5b3b156f5a3.json"
+    },
+    {
+      "paper_id": "scirex:2b507f659b341ed0f23106446de8e4322f4a3f7e",
+      "status": "ok",
+      "cost_usd": 0.01284633,
+      "tokens_in": 30456,
+      "tokens_out": 2722,
+      "wall_time_seconds": 200.1064141659881,
+      "error": null,
+      "output_file": "outputs/paper_data_v3/span_grounding/no_critic/by_paper/scirex__2b507f659b341ed0f23106446de8e4322f4a3f7e.json"
+    },
+    {
+      "paper_id": "scirex:2c1d608e3cd43b3104d76296a14f1aef0e6b2c64",
+      "status": "ok",
+      "cost_usd": 0.009998960000000001,
+      "tokens_in": 18684,
+      "tokens_out": 3538,
+      "wall_time_seconds": 84.50835620803991,
+      "error": null,
+      "output_file": "outputs/paper_data_v3/span_grounding/no_critic/by_paper/scirex__2c1d608e3cd43b3104d76296a14f1aef0e6b2c64.json"
+    },
+    {
+      "paper_id": "scirex:2ead783089fc757052abb908287a2fb743a4ebef",
+      "status": "ok",
+      "cost_usd": 0.011459289999999999,
+      "tokens_in": 19856,
+      "tokens_out": 4395,
+      "wall_time_seconds": 78.04708824999398,
+      "error": null,
+      "output_file": "outputs/paper_data_v3/span_grounding/no_critic/by_paper/scirex__2ead783089fc757052abb908287a2fb743a4ebef.json"
+    },
+    {
+      "paper_id": "scirex:3070a1bd503c3767def898bbd50c7eea2bbf29c9",
+      "status": "ok",
+      "cost_usd": 0.01373315,
+      "tokens_in": 29872,
+      "tokens_out": 3701,
+      "wall_time_seconds": 50.03494250000222,
+      "error": null,
+      "output_file": "outputs/paper_data_v3/span_grounding/no_critic/by_paper/scirex__3070a1bd503c3767def898bbd50c7eea2bbf29c9.json"
+    },
+    {
+      "paper_id": "scirex:310fed695da4f36139b70b23065c34fe9fb29ca6",
+      "status": "ok",
+      "cost_usd": 0.00928787,
+      "tokens_in": 15542,
+      "tokens_out": 3622,
+      "wall_time_seconds": 50.98550012498163,
+      "error": null,
+      "output_file": "outputs/paper_data_v3/span_grounding/no_critic/by_paper/scirex__310fed695da4f36139b70b23065c34fe9fb29ca6.json"
+    },
+    {
+      "paper_id": "scirex:3208b5abafa1146e7df1073090523c822909275e",
+      "status": "ok",
+      "cost_usd": 0.01161845,
+      "tokens_in": 21033,
+      "tokens_out": 4273,
+      "wall_time_seconds": 68.68646933301352,
+      "error": null,
+      "output_file": "outputs/paper_data_v3/span_grounding/no_critic/by_paper/scirex__3208b5abafa1146e7df1073090523c822909275e.json"
+    },
+    {
+      "paper_id": "scirex:33bcc97b605f00145098d095be2841a1fa6b9a95",
+      "status": "ok",
+      "cost_usd": 0.012717260000000001,
+      "tokens_in": 25399,
+      "tokens_out": 4066,
+      "wall_time_seconds": 117.58154237503186,
+      "error": null,
+      "output_file": "outputs/paper_data_v3/span_grounding/no_critic/by_paper/scirex__33bcc97b605f00145098d095be2841a1fa6b9a95.json"
+    },
+    {
+      "paper_id": "scirex:34f92431bb8cb9fa6a1210c5d6e4642079ffac7a",
+      "status": "ok",
+      "cost_usd": 0.00757843,
+      "tokens_in": 15826,
+      "tokens_out": 2175,
+      "wall_time_seconds": 38.64723150001373,
+      "error": null,
+      "output_file": "outputs/paper_data_v3/span_grounding/no_critic/by_paper/scirex__34f92431bb8cb9fa6a1210c5d6e4642079ffac7a.json"
+    },
+    {
+      "paper_id": "scirex:35756f711a97166df11202ebe46820a36704ae77",
+      "status": "ok",
+      "cost_usd": 0.01005742,
+      "tokens_in": 19435,
+      "tokens_out": 3348,
+      "wall_time_seconds": 85.33590954198735,
+      "error": null,
+      "output_file": "outputs/paper_data_v3/span_grounding/no_critic/by_paper/scirex__35756f711a97166df11202ebe46820a36704ae77.json"
+    },
+    {
+      "paper_id": "scirex:3858e5175799b97805b2b70ff54e8a7e0718870f",
+      "status": "error",
+      "cost_usd": 0.0,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "wall_time_seconds": 0.0,
+      "error": "ConsolidatorParseError: Consolidator output failed schema validation: 4 validation errors for ContributionRecord\ncontributions.0.method.confidence\n  Input should be a valid number [type=float_type, input_value=None, input_ty",
+      "output_file": null
+    },
+    {
+      "paper_id": "scirex:398c296d0cc7f9d180f84969f8937e6d3a413796",
+      "status": "ok",
+      "cost_usd": 0.014074789999999998,
+      "tokens_in": 25660,
+      "tokens_out": 5135,
+      "wall_time_seconds": 162.9891896250192,
+      "error": null,
+      "output_file": "outputs/paper_data_v3/span_grounding/no_critic/by_paper/scirex__398c296d0cc7f9d180f84969f8937e6d3a413796.json"
+    },
+    {
+      "paper_id": "scirex:3bf52841ade9f6adc55e102a4460af922e52bb7d",
+      "status": "ok",
+      "cost_usd": 0.0102171,
+      "tokens_in": 22877,
+      "tokens_out": 2461,
+      "wall_time_seconds": 69.39112633402692,
+      "error": null,
+      "output_file": "outputs/paper_data_v3/span_grounding/no_critic/by_paper/scirex__3bf52841ade9f6adc55e102a4460af922e52bb7d.json"
+    },
+    {
+      "paper_id": "scirex:3cdb1364c3e66443e1c2182474d44b2fb01cd584",
+      "status": "ok",
+      "cost_usd": 0.01641775,
+      "tokens_in": 40374,
+      "tokens_out": 2973,
+      "wall_time_seconds": 171.3433758749743,
+      "error": null,
+      "output_file": "outputs/paper_data_v3/span_grounding/no_critic/by_paper/scirex__3cdb1364c3e66443e1c2182474d44b2fb01cd584.json"
+    },
+    {
+      "paper_id": "scirex:3d597e16ef56119bb6e6d78e3f379623862f0752",
+      "status": "ok",
+      "cost_usd": 0.01545285,
+      "tokens_in": 38086,
+      "tokens_out": 2865,
+      "wall_time_seconds": 59.867211291973945,
+      "error": null,
+      "output_file": "outputs/paper_data_v3/span_grounding/no_critic/by_paper/scirex__3d597e16ef56119bb6e6d78e3f379623862f0752.json"
+    },
+    {
+      "paper_id": "scirex:3f55d26dd638c849745b95e912c28d88445ba5e1",
+      "status": "ok",
+      "cost_usd": 0.01177437,
+      "tokens_in": 22026,
+      "tokens_out": 4220,
+      "wall_time_seconds": 107.33437570900423,
+      "error": null,
+      "output_file": "outputs/paper_data_v3/span_grounding/no_critic/by_paper/scirex__3f55d26dd638c849745b95e912c28d88445ba5e1.json"
+    },
+    {
+      "paper_id": "scirex:3fc5ed18c2294596af072df929c8ee12c71f96a2",
+      "status": "ok",
+      "cost_usd": 0.01026326,
+      "tokens_in": 22569,
+      "tokens_out": 2590,
+      "wall_time_seconds": 140.3040973339812,
+      "error": null,
+      "output_file": "outputs/paper_data_v3/span_grounding/no_critic/by_paper/scirex__3fc5ed18c2294596af072df929c8ee12c71f96a2.json"
+    },
+    {
+      "paper_id": "scirex:40a63746a710baf4a694fd5a4dd8b5a3d9fc2846",
+      "status": "ok",
+      "cost_usd": 0.00913593,
+      "tokens_in": 19581,
+      "tokens_out": 2484,
+      "wall_time_seconds": 78.35131354199257,
+      "error": null,
+      "output_file": "outputs/paper_data_v3/span_grounding/no_critic/by_paper/scirex__40a63746a710baf4a694fd5a4dd8b5a3d9fc2846.json"
+    },
+    {
+      "paper_id": "scirex:4265269bc894caa97efbfcfe5b83da7413f86a30",
+      "status": "ok",
+      "cost_usd": 0.011412210000000002,
+      "tokens_in": 26824,
+      "tokens_out": 2373,
+      "wall_time_seconds": 86.58357974997489,
+      "error": null,
+      "output_file": "outputs/paper_data_v3/span_grounding/no_critic/by_paper/scirex__4265269bc894caa97efbfcfe5b83da7413f86a30.json"
+    },
+    {
+      "paper_id": "scirex:44fcb91c6c436902edb35b4c453c34fb353b14ad",
+      "status": "ok",
+      "cost_usd": 0.012646360000000002,
+      "tokens_in": 26151,
+      "tokens_out": 3756,
+      "wall_time_seconds": 89.28635008400306,
+      "error": null,
+      "output_file": "outputs/paper_data_v3/span_grounding/no_critic/by_paper/scirex__44fcb91c6c436902edb35b4c453c34fb353b14ad.json"
+    },
+    {
+      "paper_id": "scirex:4592364a6c1eb227ffb3cbb6bb9f4e6431e89f2f",
+      "status": "ok",
+      "cost_usd": 0.01337484,
+      "tokens_in": 24722,
+      "tokens_out": 5054,
+      "wall_time_seconds": 85.67575333395507,
+      "error": null,
+      "output_file": "outputs/paper_data_v3/span_grounding/no_critic/by_paper/scirex__4592364a6c1eb227ffb3cbb6bb9f4e6431e89f2f.json"
+    },
+    {
+      "paper_id": "scirex:4682e5d4654b6040f213475c8b75ca039661b5f6",
+      "status": "ok",
+      "cost_usd": 0.011414909999999999,
+      "tokens_in": 23509,
+      "tokens_out": 3470,
+      "wall_time_seconds": 115.96858933300246,
+      "error": null,
+      "output_file": "outputs/paper_data_v3/span_grounding/no_critic/by_paper/scirex__4682e5d4654b6040f213475c8b75ca039661b5f6.json"
+    }
+  ]
+}

@@ -1,0 +1,149 @@
+{
+  "paper_id": "scirex:3070a1bd503c3767def898bbd50c7eea2bbf29c9",
+  "contributions": [
+    {
+      "method": {
+        "name": "shallow residual network architecture",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 587,
+          "end": 738
+        },
+        "confidence": 0.9
+      },
+      "task": {
+        "name": "image classification",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 691,
+          "end": 738
+        },
+        "confidence": 0.8
+      },
+      "datasets": [
+        {
+          "name": "ImageNet",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 691,
+            "end": 738
+          },
+          "confidence": 0.9
+        }
+      ],
+      "metrics": [
+        {
+          "name": "top-1 error rate",
+          "value": null,
+          "unit": "%",
+          "evidence_span": null,
+          "confidence": 0.6
+        },
+        {
+          "name": "top-5 error rate",
+          "value": null,
+          "unit": "%",
+          "evidence_span": null,
+          "confidence": 0.6
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "ResNet-200"
+      ],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "PARTIAL",
+        "task": "PARTIAL",
+        "datasets": "PARTIAL",
+        "metrics": "PARTIAL"
+      }
+    },
+    {
+      "method": {
+        "name": "semantic segmentation approach",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 738,
+          "end": 894
+        },
+        "confidence": 0.9
+      },
+      "task": {
+        "name": "semantic segmentation",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 738,
+          "end": 894
+        },
+        "confidence": 0.9
+      },
+      "datasets": [
+        {
+          "name": "PASCAL VOC",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 798,
+            "end": 894
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "PASCAL Context",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 798,
+            "end": 894
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "Cityscapes",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 798,
+            "end": 894
+          },
+          "confidence": 0.9
+        }
+      ],
+      "metrics": [
+        {
+          "name": "mean intersection-over-union",
+          "value": null,
+          "unit": "%",
+          "evidence_span": null,
+          "confidence": 0.7
+        },
+        {
+          "name": "pixel accuracy",
+          "value": null,
+          "unit": "%",
+          "evidence_span": null,
+          "confidence": 0.7
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "state-of-the-art"
+      ],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "PARTIAL",
+        "task": "PARTIAL",
+        "datasets": "PARTIAL",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "(none)",
+    "consolidator_model": "(none)",
+    "tokens_in": 8502,
+    "tokens_out": 793,
+    "cost_usd": 0.00342641,
+    "wall_time_seconds": 25.439261207997333,
+    "voting_samples": 1
+  }
+}

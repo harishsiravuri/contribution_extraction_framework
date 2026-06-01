@@ -1,0 +1,137 @@
+{
+  "paper_id": "nlp_tdms:1806.00187",
+  "contributions": [
+    {
+      "method": {
+        "name": "reduced precision and large batch training",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 143,
+          "end": 374
+        },
+        "confidence": 0.9
+      },
+      "task": {
+        "name": "Neural Machine Translation",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 527,
+          "end": 553
+        },
+        "confidence": 0.9
+      },
+      "datasets": [
+        {
+          "name": "WMT'14 English-German",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 341,
+            "end": 367
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "WMT'14 English-French",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 374,
+            "end": 398
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "Paracrawl",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 6868,
+            "end": 6913
+          },
+          "confidence": 0.8
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 29.3,
+          "unit": null,
+          "evidence_span": {
+            "start": 359,
+            "end": 367
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "BLEU",
+          "value": 29.8,
+          "unit": null,
+          "evidence_span": {
+            "start": 376,
+            "end": 382
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "BLEU",
+          "value": 43.2,
+          "unit": null,
+          "evidence_span": {
+            "start": 390,
+            "end": 396
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "training time",
+          "value": 5.0,
+          "unit": "hours",
+          "evidence_span": {
+            "start": 311,
+            "end": 328
+          },
+          "confidence": 0.8
+        },
+        {
+          "name": "training time",
+          "value": 85.0,
+          "unit": "minutes",
+          "evidence_span": {
+            "start": 337,
+            "end": 353
+          },
+          "confidence": 0.8
+        },
+        {
+          "name": "training time",
+          "value": 8.5,
+          "unit": "hours",
+          "evidence_span": {
+            "start": 398,
+            "end": 413
+          },
+          "confidence": 0.8
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Vaswani et al. (2017)"
+      ],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "PARTIAL",
+        "task": "PARTIAL",
+        "datasets": "PARTIAL",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "(none)",
+    "consolidator_model": "(none)",
+    "tokens_in": 4885,
+    "tokens_out": 710,
+    "cost_usd": 0.0021950999999999997,
+    "wall_time_seconds": 21.500432458007708,
+    "voting_samples": 1
+  }
+}

@@ -1,0 +1,384 @@
+{
+  "paper_id": "scirex:3f55d26dd638c849745b95e912c28d88445ba5e1",
+  "contributions": [
+    {
+      "method": {
+        "name": "BiLSTM with max pooling",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 2302,
+          "end": 2438
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "natural language inference",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 1298,
+          "end": 1338
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "SNLI",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1298,
+            "end": 1338
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 4026,
+            "end": 4089
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "SkipThought vectors"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    },
+    {
+      "method": {
+        "name": "BiLSTM with max pooling",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 2302,
+          "end": 2438
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "binary and multi-class classification",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 2439,
+          "end": 2496
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "MR",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2439,
+            "end": 2496
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "SST",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2439,
+            "end": 2496
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "TREC",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2439,
+            "end": 2496
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "CR",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2439,
+            "end": 2496
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "SUBJ",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2439,
+            "end": 2496
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "MPQA",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2439,
+            "end": 2496
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 4026,
+            "end": 4089
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "SkipThought vectors"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    },
+    {
+      "method": {
+        "name": "BiLSTM with max pooling",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 2302,
+          "end": 2438
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "entailment",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 2497,
+          "end": 2533
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "SICK-E",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2497,
+            "end": 2533
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": 86.3,
+          "unit": "%",
+          "evidence_span": {
+            "start": 4352,
+            "end": 4389
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "previous hand-engineered models"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    },
+    {
+      "method": {
+        "name": "BiLSTM with max pooling",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 2302,
+          "end": 2438
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "semantic relatedness",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 2534,
+          "end": 2573
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "SICK-R",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2534,
+            "end": 2573
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Pearson correlation",
+          "value": 0.885,
+          "unit": null,
+          "evidence_span": {
+            "start": 4342,
+            "end": 4351
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "previous approaches"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    },
+    {
+      "method": {
+        "name": "BiLSTM with max pooling",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 2302,
+          "end": 2438
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "semantic textual similarity",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 2574,
+          "end": 2609
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "STS14",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2574,
+            "end": 2609
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Pearson correlation",
+          "value": 0.68,
+          "unit": null,
+          "evidence_span": {
+            "start": 4390,
+            "end": 4398
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "SkipThought vectors"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    },
+    {
+      "method": {
+        "name": "BiLSTM with max pooling",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 2302,
+          "end": 2438
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "caption-image retrieval",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 2610,
+          "end": 2643
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "COCO",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2610,
+            "end": 2643
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Recall@1",
+          "value": 42.4,
+          "unit": "%",
+          "evidence_span": {
+            "start": 4415,
+            "end": 4420
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "SkipThought vectors"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "DISABLED (E2 critic-off ablation)",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 27051,
+    "tokens_out": 8119,
+    "cost_usd": 0.01808533,
+    "wall_time_seconds": 119.03221000009216,
+    "voting_samples": 3
+  }
+}

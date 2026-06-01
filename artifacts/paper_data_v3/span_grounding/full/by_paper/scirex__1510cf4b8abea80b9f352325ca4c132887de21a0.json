@@ -1,0 +1,80 @@
+{
+  "paper_id": "scirex:1510cf4b8abea80b9f352325ca4c132887de21a0",
+  "contributions": [
+    {
+      "method": {
+        "name": "Paragraph Vector",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 167,
+          "end": 183
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "text classification",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 269,
+          "end": 287
+        },
+        "confidence": 0.75
+      },
+      "datasets": [
+        {
+          "name": "Stanford sentiment treebank dataset",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2792,
+            "end": 2825
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "IMDB dataset",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2828,
+            "end": 2841
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "error rate",
+          "value": 7.42,
+          "unit": "%",
+          "evidence_span": {
+            "start": 4852,
+            "end": 4857
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "bag-of-words",
+        "bag-of-n-grams",
+        "Recursive Neural Tensor Network"
+      ],
+      "self_consistency": 0.875,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 29082,
+    "tokens_out": 3139,
+    "cost_usd": 0.014718450000000001,
+    "wall_time_seconds": 141.00876879197313,
+    "voting_samples": 3
+  }
+}

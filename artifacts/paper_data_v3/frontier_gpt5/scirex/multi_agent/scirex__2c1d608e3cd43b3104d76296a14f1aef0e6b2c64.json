@@ -1,0 +1,96 @@
+{
+  "paper_id": "scirex:2c1d608e3cd43b3104d76296a14f1aef0e6b2c64",
+  "contributions": [
+    {
+      "method": {
+        "name": "dynamic evaluation",
+        "canonical_id": null,
+        "evidence_span": null,
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "language modeling",
+        "canonical_id": null,
+        "evidence_span": null,
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "Penn Treebank",
+          "canonical_id": null,
+          "evidence_span": null,
+          "confidence": 1.0
+        },
+        {
+          "name": "WikiText-2",
+          "canonical_id": null,
+          "evidence_span": null,
+          "confidence": 1.0
+        },
+        {
+          "name": "text8",
+          "canonical_id": null,
+          "evidence_span": null,
+          "confidence": 1.0
+        },
+        {
+          "name": "Hutter Prize",
+          "canonical_id": null,
+          "evidence_span": null,
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "perplexity",
+          "value": 51.1,
+          "unit": null,
+          "evidence_span": null,
+          "confidence": 1.0
+        },
+        {
+          "name": "perplexity",
+          "value": 44.3,
+          "unit": null,
+          "evidence_span": null,
+          "confidence": 1.0
+        },
+        {
+          "name": "cross-entropy",
+          "value": 1.19,
+          "unit": "bits/char",
+          "evidence_span": null,
+          "confidence": 1.0
+        },
+        {
+          "name": "cross-entropy",
+          "value": 1.08,
+          "unit": "bits/char",
+          "evidence_span": null,
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "state of the art"
+      ],
+      "self_consistency": 0.875,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "openai/gpt-5",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 26198,
+    "tokens_out": 14889,
+    "cost_usd": 0.14932216,
+    "wall_time_seconds": 142.86291900003562,
+    "voting_samples": 3
+  }
+}

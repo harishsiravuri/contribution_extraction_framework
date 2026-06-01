@@ -1,0 +1,147 @@
+{
+  "paper_id": "scirex:4682e5d4654b6040f213475c8b75ca039661b5f6",
+  "contributions": [
+    {
+      "method": {
+        "name": "EAST",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 100
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "scene text detection",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 100
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "ICDAR 2015",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 0,
+            "end": 100
+          },
+          "confidence": 0.5
+        },
+        {
+          "name": "MSRA-TD500",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 0,
+            "end": 100
+          },
+          "confidence": 0.5
+        },
+        {
+          "name": "COCO-Text",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 0,
+            "end": 100
+          },
+          "confidence": 0.5
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 0.782,
+          "unit": null,
+          "evidence_span": {
+            "start": 0,
+            "end": 100
+          },
+          "confidence": 0.25
+        },
+        {
+          "name": "F-score",
+          "value": 0.782,
+          "unit": null,
+          "evidence_span": {
+            "start": 1000,
+            "end": 1010
+          },
+          "confidence": 0.25
+        },
+        {
+          "name": "FPS",
+          "value": 13.2,
+          "unit": null,
+          "evidence_span": {
+            "start": 1000,
+            "end": 1010
+          },
+          "confidence": 0.25
+        },
+        {
+          "name": "F1",
+          "value": 0.7608,
+          "unit": null,
+          "evidence_span": {
+            "start": 0,
+            "end": 100
+          },
+          "confidence": 0.25
+        },
+        {
+          "name": "F-score",
+          "value": 0.7608,
+          "unit": null,
+          "evidence_span": {
+            "start": 1000,
+            "end": 1010
+          },
+          "confidence": 0.25
+        },
+        {
+          "name": "F1",
+          "value": 0.3945,
+          "unit": null,
+          "evidence_span": {
+            "start": 0,
+            "end": 100
+          },
+          "confidence": 0.25
+        },
+        {
+          "name": "F-score",
+          "value": 0.3945,
+          "unit": null,
+          "evidence_span": {
+            "start": 1000,
+            "end": 1010
+          },
+          "confidence": 0.25
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "state-of-the-art methods"
+      ],
+      "self_consistency": 0.875,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "PARTIAL",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "(none)",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 23509,
+    "tokens_out": 3470,
+    "cost_usd": 0.011414909999999999,
+    "wall_time_seconds": 115.96858933300246,
+    "voting_samples": 3
+  }
+}

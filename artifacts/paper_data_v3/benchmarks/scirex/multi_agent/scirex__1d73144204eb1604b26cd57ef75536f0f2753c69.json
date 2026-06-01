@@ -1,0 +1,162 @@
+{
+  "paper_id": "scirex:1d73144204eb1604b26cd57ef75536f0f2753c69",
+  "contributions": [
+    {
+      "method": {
+        "name": "subcategory-aware CNN",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 156,
+          "end": 174
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "object detection",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 208,
+          "end": 224
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "KITTI",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2727,
+            "end": 2732
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "PASCAL3D+",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2733,
+            "end": 2745
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "PASCAL VOC 2007",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2746,
+            "end": 2762
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "AP",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 2837,
+            "end": 2839
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Faster R-CNN",
+        "Fast R-CNN"
+      ],
+      "self_consistency": 0.875,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    },
+    {
+      "method": {
+        "name": "subcategory-aware CNN",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 156,
+          "end": 174
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "pose estimation",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 1000,
+          "end": 1100
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "KITTI",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2727,
+            "end": 2732
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "PASCAL3D+",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2733,
+            "end": 2745
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "AOS",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 2881,
+            "end": 2884
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "AVP",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 3005,
+            "end": 3008
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "VDPM",
+        "DPM-VOC+VP"
+      ],
+      "self_consistency": 0.875,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 38736,
+    "tokens_out": 6976,
+    "cost_usd": 0.02242711,
+    "wall_time_seconds": 190.4435845830012,
+    "voting_samples": 3
+  }
+}

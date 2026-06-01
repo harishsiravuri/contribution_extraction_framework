@@ -1,0 +1,181 @@
+{
+  "paper_id": "scirex:0b4b6932d5df74b366d9235b40334bc40d719c72",
+  "contributions": [
+    {
+      "method": {
+        "name": "Π-model",
+        "canonical_id": null,
+        "evidence_span": null,
+        "confidence": 0.5
+      },
+      "task": {
+        "name": "image classification",
+        "canonical_id": null,
+        "evidence_span": null,
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "CIFAR-10",
+          "canonical_id": null,
+          "evidence_span": null,
+          "confidence": 0.75
+        }
+      ],
+      "metrics": [
+        {
+          "name": "error rate",
+          "value": 16.55,
+          "unit": "%",
+          "evidence_span": null,
+          "confidence": 0.5
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "GAN (18.63%)"
+      ],
+      "self_consistency": 0.875,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    },
+    {
+      "method": {
+        "name": "Π-model",
+        "canonical_id": null,
+        "evidence_span": null,
+        "confidence": 0.5
+      },
+      "task": {
+        "name": "image classification",
+        "canonical_id": null,
+        "evidence_span": null,
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "CIFAR-10",
+          "canonical_id": null,
+          "evidence_span": null,
+          "confidence": 0.75
+        }
+      ],
+      "metrics": [
+        {
+          "name": "error rate",
+          "value": 12.36,
+          "unit": "%",
+          "evidence_span": null,
+          "confidence": 0.5
+        }
+      ],
+      "claim_strength": "applies",
+      "comparison_targets": [],
+      "self_consistency": 0.875,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    },
+    {
+      "method": {
+        "name": "temporal ensembling",
+        "canonical_id": null,
+        "evidence_span": null,
+        "confidence": 0.5
+      },
+      "task": {
+        "name": "image classification",
+        "canonical_id": null,
+        "evidence_span": null,
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "CIFAR-10",
+          "canonical_id": null,
+          "evidence_span": null,
+          "confidence": 0.75
+        }
+      ],
+      "metrics": [
+        {
+          "name": "error rate",
+          "value": 12.16,
+          "unit": "%",
+          "evidence_span": null,
+          "confidence": 0.5
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Π-model (12.36%)"
+      ],
+      "self_consistency": 0.875,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    },
+    {
+      "method": {
+        "name": "temporal ensembling",
+        "canonical_id": null,
+        "evidence_span": null,
+        "confidence": 0.5
+      },
+      "task": {
+        "name": "image classification",
+        "canonical_id": null,
+        "evidence_span": null,
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "SVHN",
+          "canonical_id": null,
+          "evidence_span": null,
+          "confidence": 0.75
+        }
+      ],
+      "metrics": [
+        {
+          "name": "error rate",
+          "value": 5.12,
+          "unit": "%",
+          "evidence_span": null,
+          "confidence": 0.5
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Sajjadi et al. (732 labels): 6.03%"
+      ],
+      "self_consistency": 0.875,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "openai/gpt-5",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 45151,
+    "tokens_out": 31026,
+    "cost_usd": 0.29039423,
+    "wall_time_seconds": 314.38494474999607,
+    "voting_samples": 3
+  }
+}

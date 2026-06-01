@@ -1,0 +1,91 @@
+{
+  "paper_id": "tdmsci:test_500_v2:01203",
+  "contributions": [
+    {
+      "method": {
+        "name": null,
+        "canonical_id": null,
+        "evidence_span": null,
+        "confidence": 0.0
+      },
+      "task": {
+        "name": "part-of-speech tagging",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 50,
+          "end": 75
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "Penn Treebank WSJ corpus",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 35,
+            "end": 60
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [],
+      "claim_strength": null,
+      "comparison_targets": [],
+      "self_consistency": 1.0,
+      "critic_verdict": {
+        "method": "UNSUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "UNSUPPORTED"
+      }
+    },
+    {
+      "method": {
+        "name": null,
+        "canonical_id": null,
+        "evidence_span": null,
+        "confidence": 0.0
+      },
+      "task": {
+        "name": "named entity recognition",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 94,
+          "end": 118
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "CoNLL 2003 corpus",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 63,
+            "end": 80
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [],
+      "claim_strength": null,
+      "comparison_targets": [],
+      "self_consistency": 1.0,
+      "critic_verdict": {
+        "method": "UNSUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "UNSUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 5245,
+    "tokens_out": 1730,
+    "cost_usd": 0.00386452,
+    "wall_time_seconds": 36.90811075014062,
+    "voting_samples": 3
+  }
+}

@@ -1,0 +1,116 @@
+{
+  "paper_id": "scirex:1c059493904b2244d2280b8b4c0c7d3ca115be73",
+  "contributions": [
+    {
+      "method": {
+        "name": "node2vec",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 187,
+          "end": 196
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "multi-label classification",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 3057,
+          "end": 3080
+        },
+        "confidence": 0.6
+      },
+      "datasets": [
+        {
+          "name": "BlogCatalog",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 5266,
+            "end": 5276
+          },
+          "confidence": 0.2
+        },
+        {
+          "name": "Protein-Protein Interactions (PPI)",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 5284,
+            "end": 5313
+          },
+          "confidence": 0.2
+        },
+        {
+          "name": "Wikipedia",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 5319,
+            "end": 5328
+          },
+          "confidence": 0.2
+        },
+        {
+          "name": "Facebook",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 8446,
+            "end": 8454
+          },
+          "confidence": 0.2
+        },
+        {
+          "name": "arXiv ASTRO-PH",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 8494,
+            "end": 8507
+          },
+          "confidence": 0.2
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Macro-F",
+          "value": null,
+          "unit": "percentage",
+          "evidence_span": {
+            "start": 5462,
+            "end": 5470
+          },
+          "confidence": 0.4
+        },
+        {
+          "name": "AUC",
+          "value": null,
+          "unit": "percentage",
+          "evidence_span": {
+            "start": 8731,
+            "end": 8782
+          },
+          "confidence": 0.3
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "DeepWalk",
+        "LINE"
+      ],
+      "self_consistency": 0.43,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "PARTIAL",
+        "datasets": "PARTIAL",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "(none)",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 35177,
+    "tokens_out": 5030,
+    "cost_usd": 0.017072109999999998,
+    "wall_time_seconds": 123.99541679100366,
+    "voting_samples": 3
+  }
+}

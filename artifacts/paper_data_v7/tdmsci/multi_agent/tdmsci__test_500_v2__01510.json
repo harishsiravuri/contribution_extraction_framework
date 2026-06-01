@@ -1,0 +1,69 @@
+{
+  "paper_id": "tdmsci:test_500_v2:01510",
+  "contributions": [
+    {
+      "method": {
+        "name": "HD-HPB",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 49,
+          "end": 56
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "machine translation",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 14,
+          "end": 41
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "NIST MT test sets",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 45,
+            "end": 62
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 1.91,
+          "unit": "points absolute",
+          "evidence_span": {
+            "start": 102,
+            "end": 132
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Chiang's model"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "PARTIAL",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 5121,
+    "tokens_out": 1650,
+    "cost_usd": 0.00371067,
+    "wall_time_seconds": 48.39349212497473,
+    "voting_samples": 3
+  }
+}

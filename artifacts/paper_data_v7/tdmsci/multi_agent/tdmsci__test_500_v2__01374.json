@@ -1,0 +1,64 @@
+{
+  "paper_id": "tdmsci:test_500_v2:01374",
+  "contributions": [
+    {
+      "method": {
+        "name": null,
+        "canonical_id": null,
+        "evidence_span": null,
+        "confidence": 0.0
+      },
+      "task": {
+        "name": "sentence compression",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 99,
+          "end": 118
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "human compression references",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 29,
+            "end": 51
+          },
+          "confidence": 0.3333333333333333
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 84,
+            "end": 88
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": null,
+      "comparison_targets": [],
+      "self_consistency": 0.5833333333333334,
+      "critic_verdict": {
+        "method": "UNSUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "PARTIAL",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 5342,
+    "tokens_out": 1945,
+    "cost_usd": 0.00407766,
+    "wall_time_seconds": 39.95836216700263,
+    "voting_samples": 3
+  }
+}

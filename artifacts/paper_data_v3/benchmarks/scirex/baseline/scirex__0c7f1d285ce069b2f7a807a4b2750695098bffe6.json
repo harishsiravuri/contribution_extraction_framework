@@ -1,0 +1,129 @@
+{
+  "paper_id": "scirex:0c7f1d285ce069b2f7a807a4b2750695098bffe6",
+  "contributions": [
+    {
+      "method": {
+        "name": "Planetoid (Predicting Labels And Neighbors with Embeddings Transductively Or Inductively from Data)",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 971,
+          "end": 1086
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "semi-supervised learning",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 20,
+          "end": 145
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "Citeseer",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 3329,
+            "end": 3337
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "Cora",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 3339,
+            "end": 3343
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "Pubmed",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 3345,
+            "end": 3352
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "DIEL (Distant Information Extraction using coordinate-term Lists)",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 3638,
+            "end": 3706
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "NELL (Never Ending Language Learning)",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 3593,
+            "end": 3636
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 3393,
+            "end": 3401
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "recall@",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 3762,
+            "end": 3770
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "improvement over baseline",
+          "value": null,
+          "unit": "percentage points",
+          "evidence_span": {
+            "start": 4868,
+            "end": 4886
+          },
+          "confidence": 0.8
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "label propagation (LP)",
+        "semi-supervised embedding (SemiEmb)",
+        "manifold regularization (ManiReg)",
+        "TSVM",
+        "graph embeddings (GraphEmb)"
+      ],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "PARTIAL",
+        "task": "PARTIAL",
+        "datasets": "PARTIAL",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "(none)",
+    "consolidator_model": "(none)",
+    "tokens_in": 5970,
+    "tokens_out": 758,
+    "cost_usd": 0.00258502,
+    "wall_time_seconds": 27.765952708024997,
+    "voting_samples": 1
+  }
+}

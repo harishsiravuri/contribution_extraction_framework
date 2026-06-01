@@ -1,0 +1,97 @@
+{
+  "paper_id": "scirex:28bf3aee9eecc2f7a7b4ac71bfe89534d3fe5f19",
+  "contributions": [
+    {
+      "method": {
+        "name": "Occlusion-aware R-CNN (OR-CNN)",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 20
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "pedestrian detection",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 27,
+          "end": 47
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "CityPersons",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 377,
+            "end": 388
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "ETH",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 215,
+            "end": 220
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "INRIA",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 225,
+            "end": 230
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "Caltech",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 235,
+            "end": 240
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "MR",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 250,
+            "end": 260
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Faster R-CNN",
+        "Repulsion Loss"
+      ],
+      "self_consistency": 0.75,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 31172,
+    "tokens_out": 3697,
+    "cost_usd": 0.01607641,
+    "wall_time_seconds": 92.14362054201774,
+    "voting_samples": 3
+  }
+}

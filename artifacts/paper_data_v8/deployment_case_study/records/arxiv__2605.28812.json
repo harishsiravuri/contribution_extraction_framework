@@ -1,0 +1,77 @@
+{
+  "paper_id": "arxiv:2605.28812",
+  "contributions": [
+    {
+      "method": {
+        "name": "Center-of-Pressure (CoP)",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 333,
+          "end": 375
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "peg-in-hole insertion",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 600,
+          "end": 617
+        },
+        "confidence": 0.75
+      },
+      "datasets": [],
+      "metrics": [],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "coarse binary-contact",
+        "raw-taxel baselines"
+      ],
+      "self_consistency": 0.875,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "UNSUPPORTED",
+        "metrics": "UNSUPPORTED"
+      }
+    },
+    {
+      "method": {
+        "name": "sensor calibration scheme based on differentiable dynamics",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 491,
+          "end": 561
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": null,
+        "canonical_id": null,
+        "evidence_span": null,
+        "confidence": 0.0
+      },
+      "datasets": [],
+      "metrics": [],
+      "claim_strength": "novel",
+      "comparison_targets": [],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "UNSUPPORTED",
+        "datasets": "UNSUPPORTED",
+        "metrics": "UNSUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 8427,
+    "tokens_out": 3956,
+    "cost_usd": 0.007418429999999999,
+    "wall_time_seconds": 90.39352270890959,
+    "voting_samples": 3
+  }
+}

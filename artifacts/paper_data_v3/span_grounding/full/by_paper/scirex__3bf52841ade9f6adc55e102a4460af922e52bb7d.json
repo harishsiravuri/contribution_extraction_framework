@@ -1,0 +1,101 @@
+{
+  "paper_id": "scirex:3bf52841ade9f6adc55e102a4460af922e52bb7d",
+  "contributions": [
+    {
+      "method": {
+        "name": "convolutional DRAW",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 1977,
+          "end": 1991
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "image modeling",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 39,
+          "end": 53
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "ImageNet",
+          "canonical_id": "ImageNet",
+          "evidence_span": {
+            "start": 9883,
+            "end": 9890
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "Omniglot",
+          "canonical_id": "Omniglot",
+          "evidence_span": {
+            "start": 86,
+            "end": 94
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "Cifar-10",
+          "canonical_id": "CIFAR-10",
+          "evidence_span": {
+            "start": 4174,
+            "end": 4182
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "likelihood",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 6461,
+            "end": 6470
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "compression quality",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 1818,
+            "end": 1835
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "JPEG",
+        "JPEG2000",
+        "Pixel RNN",
+        "standard DRAW",
+        "variational auto-encoder"
+      ],
+      "self_consistency": 0.875,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 31155,
+    "tokens_out": 4871,
+    "cost_usd": 0.01723143,
+    "wall_time_seconds": 220.81119516701438,
+    "voting_samples": 3
+  }
+}

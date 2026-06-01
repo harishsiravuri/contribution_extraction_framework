@@ -1,0 +1,78 @@
+{
+  "paper_id": "scirex:170cc3b72dd2793920f8b0bbd0926d9244c49562",
+  "contributions": [
+    {
+      "method": {
+        "name": "Bootstrapped DQN",
+        "canonical_id": null,
+        "evidence_span": null,
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "Atari game playing",
+        "canonical_id": null,
+        "evidence_span": null,
+        "confidence": 0.75
+      },
+      "datasets": [
+        {
+          "name": "Arcade Learning Environment",
+          "canonical_id": null,
+          "evidence_span": null,
+          "confidence": 1.0
+        },
+        {
+          "name": "Montezuma's Revenge",
+          "canonical_id": null,
+          "evidence_span": null,
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "AUC-20",
+          "value": 0.62,
+          "unit": null,
+          "evidence_span": null,
+          "confidence": 1.0
+        },
+        {
+          "name": "frames to human performance (relative improvement)",
+          "value": 30.0,
+          "unit": "%",
+          "evidence_span": null,
+          "confidence": 0.75
+        },
+        {
+          "name": "frames to first key",
+          "value": 20000000.0,
+          "unit": "frames",
+          "evidence_span": null,
+          "confidence": 0.5
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "DQN",
+        "best prior method"
+      ],
+      "self_consistency": 0.875,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "PARTIAL",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "openai/gpt-5",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 42455,
+    "tokens_out": 14800,
+    "cost_usd": 0.17446424,
+    "wall_time_seconds": 115.27925745799439,
+    "voting_samples": 3
+  }
+}

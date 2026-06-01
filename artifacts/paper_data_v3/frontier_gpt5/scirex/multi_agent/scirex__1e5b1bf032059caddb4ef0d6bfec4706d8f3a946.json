@@ -1,0 +1,160 @@
+{
+  "paper_id": "scirex:1e5b1bf032059caddb4ef0d6bfec4706d8f3a946",
+  "contributions": [
+    {
+      "method": {
+        "name": "RGCNN",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 4441,
+          "end": 4446
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "matrix completion",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 103,
+          "end": 125
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "Synthetic Netflix",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 5334,
+            "end": 5351
+          },
+          "confidence": 0.6
+        },
+        {
+          "name": "MovieLens",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 5642,
+            "end": 5652
+          },
+          "confidence": 0.2
+        },
+        {
+          "name": "Flixster",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 5673,
+            "end": 5681
+          },
+          "confidence": 0.2
+        },
+        {
+          "name": "Douban",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 5704,
+            "end": 5711
+          },
+          "confidence": 0.2
+        },
+        {
+          "name": "YahooMusic",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 5735,
+            "end": 5745
+          },
+          "confidence": 0.2
+        }
+      ],
+      "metrics": [
+        {
+          "name": "RMSE",
+          "value": null,
+          "unit": null,
+          "evidence_span": null,
+          "confidence": 0.4
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "MC",
+        "IMC",
+        "GMC",
+        "GRALS",
+        "sRGCNN"
+      ],
+      "self_consistency": 0.73,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "UNSUPPORTED"
+      }
+    },
+    {
+      "method": {
+        "name": "sRGCNN",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 4610,
+          "end": 4618
+        },
+        "confidence": 0.4
+      },
+      "task": {
+        "name": "matrix completion",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 103,
+          "end": 125
+        },
+        "confidence": 0.4
+      },
+      "datasets": [
+        {
+          "name": "Synthetic Netflix",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 5334,
+            "end": 5351
+          },
+          "confidence": 0.4
+        }
+      ],
+      "metrics": [
+        {
+          "name": "RMSE",
+          "value": null,
+          "unit": null,
+          "evidence_span": null,
+          "confidence": 0.2
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "MC",
+        "IMC",
+        "GMC",
+        "GRALS"
+      ],
+      "self_consistency": 0.47,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "UNSUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "openai/gpt-5",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 28091,
+    "tokens_out": 15369,
+    "cost_usd": 0.15261793,
+    "wall_time_seconds": 134.13230958301574,
+    "voting_samples": 3
+  }
+}

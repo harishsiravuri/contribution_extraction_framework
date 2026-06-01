@@ -1,0 +1,77 @@
+{
+  "paper_id": "scirex:081531984770a74e87dbd68907061b4b0f3631bf",
+  "contributions": [
+    {
+      "method": {
+        "name": "vespcn",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 2555,
+          "end": 2561
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "video super-resolution",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 103,
+          "end": 122
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "vid4",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 4441,
+            "end": 4445
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "psnr",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 4639,
+            "end": 4643
+          },
+          "confidence": 0.67
+        },
+        {
+          "name": "ssim",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 4681,
+            "end": 4685
+          },
+          "confidence": 0.67
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [],
+      "self_consistency": 0.83,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "harishsiravuri_e088/Meta-Llama-3.1-70B-Instruct-Reference-scirex-v6-70b-7cecddd1-66437b32",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 28576,
+    "tokens_out": 2361,
+    "cost_usd": 0.016642829999999997,
+    "wall_time_seconds": 49.65356666705338,
+    "voting_samples": 3
+  }
+}

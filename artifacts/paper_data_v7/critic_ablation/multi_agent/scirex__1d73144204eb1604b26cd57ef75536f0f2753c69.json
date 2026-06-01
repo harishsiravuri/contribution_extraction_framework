@@ -1,0 +1,164 @@
+{
+  "paper_id": "scirex:1d73144204eb1604b26cd57ef75536f0f2753c69",
+  "contributions": [
+    {
+      "method": {
+        "name": "Subcategory-aware CNNs",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 16,
+          "end": 66
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "object detection",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 16,
+          "end": 66
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "KITTI",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 3154,
+            "end": 3159
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "PASCAL3D+",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 5363,
+            "end": 5374
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "PASCAL VOC 2007",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 6333,
+            "end": 6351
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "AP",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 3154,
+            "end": 3361
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Faster R-CNN",
+        "R-CNN",
+        "Fast R-CNN"
+      ],
+      "self_consistency": 0.875,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    },
+    {
+      "method": {
+        "name": "Subcategory-aware CNNs",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 16,
+          "end": 66
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "pose estimation",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 840,
+          "end": 864
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "KITTI",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 3154,
+            "end": 3159
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "PASCAL3D+",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 5363,
+            "end": 5374
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "AOS",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 3269,
+            "end": 3272
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "AVP",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 5399,
+            "end": 5402
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Faster R-CNN",
+        "VDPM",
+        "DPM-VOC+VP"
+      ],
+      "self_consistency": 0.875,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "DISABLED (E2 critic-off ablation)",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 28744,
+    "tokens_out": 4604,
+    "cost_usd": 0.014679150000000002,
+    "wall_time_seconds": 58.89322454109788,
+    "voting_samples": 3
+  }
+}

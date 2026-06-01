@@ -1,0 +1,76 @@
+{
+  "paper_id": "tdmsci:test_500_v2:01565",
+  "contributions": [
+    {
+      "method": {
+        "name": "proposed approach",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 64,
+          "end": 79
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "translation",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 45,
+          "end": 55
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "English-Chinese",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 24,
+            "end": 40
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "English-Japanese",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 45,
+            "end": 62
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "translation quality",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 103,
+            "end": 122
+          },
+          "confidence": 0.5
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [],
+      "self_consistency": 0.8333333333333334,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 5384,
+    "tokens_out": 1823,
+    "cost_usd": 0.00400152,
+    "wall_time_seconds": 45.97036408400163,
+    "voting_samples": 3
+  }
+}

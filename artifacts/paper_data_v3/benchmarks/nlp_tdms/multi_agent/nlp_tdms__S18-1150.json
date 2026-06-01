@@ -1,0 +1,70 @@
+{
+  "paper_id": "nlp_tdms:S18-1150",
+  "contributions": [
+    {
+      "method": {
+        "name": "EXPR",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 38,
+          "end": 42
+        },
+        "confidence": 0.67
+      },
+      "task": {
+        "name": "hypernym discovery",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 69,
+          "end": 85
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "SemEval 2018 Task 9",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 101,
+            "end": 117
+          },
+          "confidence": 0.83
+        }
+      ],
+      "metrics": [
+        {
+          "name": "False Positive",
+          "value": 40.0,
+          "unit": null,
+          "evidence_span": {
+            "start": 1929,
+            "end": 1941
+          },
+          "confidence": 0.33
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "STJU system",
+        "MFH system"
+      ],
+      "self_consistency": 0.67,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "PARTIAL",
+        "metrics": "UNSUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 17019,
+    "tokens_out": 3326,
+    "cost_usd": 0.010268979999999999,
+    "wall_time_seconds": 68.99338254198665,
+    "voting_samples": 3
+  }
+}

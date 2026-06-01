@@ -1,0 +1,77 @@
+{
+  "paper_id": "scirex:0626908dd710b91aece1a81f4ca0635f23fc47f3",
+  "contributions": [
+    {
+      "method": {
+        "name": "inception-v3",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 4441,
+          "end": 4451
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "image classification",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 156,
+          "end": 174
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "imagenet",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 173,
+            "end": 181
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "top 1 accuracy",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 5306,
+            "end": 5319
+          },
+          "confidence": 0.5
+        },
+        {
+          "name": "top 5 accuracy",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 5321,
+            "end": 5334
+          },
+          "confidence": 0.5
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [],
+      "self_consistency": 0.875,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "harishsiravuri_e088/Meta-Llama-3.1-70B-Instruct-Reference-scirex-v6-70b-7cecddd1-66437b32",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 14281,
+    "tokens_out": 1573,
+    "cost_usd": 0.00900373,
+    "wall_time_seconds": 35.71966141695157,
+    "voting_samples": 1
+  }
+}

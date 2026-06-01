@@ -1,0 +1,67 @@
+{
+  "paper_id": "scirex:0dc9eb7d17f2def56ad930945f2521653f04c3fa",
+  "contributions": [
+    {
+      "method": {
+        "name": "snm10-skip",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 2661,
+          "end": 2672
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "language modelling",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 156,
+          "end": 173
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "one billion word benchmark",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2344,
+            "end": 2364
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "perplexity",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 751,
+            "end": 761
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": null,
+      "comparison_targets": [],
+      "self_consistency": 1.0,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "harishsiravuri_e088/Meta-Llama-3.1-70B-Instruct-Reference-scirex-v6-70b-7cecddd1-66437b32",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 12390,
+    "tokens_out": 1015,
+    "cost_usd": 0.00754935,
+    "wall_time_seconds": 31.051827165996656,
+    "voting_samples": 1
+  }
+}

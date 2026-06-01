@@ -1,0 +1,67 @@
+{
+  "paper_id": "arxiv:2605.29889",
+  "contributions": [
+    {
+      "method": {
+        "name": "sparse-autoencoder (SAE)",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 308,
+          "end": 330
+        },
+        "confidence": 0.5
+      },
+      "task": {
+        "name": "clinical triage",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 86,
+          "end": 103
+        },
+        "confidence": 0.75
+      },
+      "datasets": [
+        {
+          "name": "patient-voiced clinical-triage benchmarks",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 86,
+            "end": 127
+          },
+          "confidence": 0.25
+        }
+      ],
+      "metrics": [
+        {
+          "name": "under-triage rate",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 128,
+            "end": 145
+          },
+          "confidence": 0.25
+        }
+      ],
+      "claim_strength": "novel",
+      "comparison_targets": [],
+      "self_consistency": 0.5625,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 8149,
+    "tokens_out": 3388,
+    "cost_usd": 0.0068029100000000006,
+    "wall_time_seconds": 49.492579540936276,
+    "voting_samples": 3
+  }
+}

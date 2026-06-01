@@ -1,0 +1,81 @@
+{
+  "paper_id": "scirex:2af864bc38fd1116b4af32f16b44f5b3b156f5a3",
+  "contributions": [
+    {
+      "method": {
+        "name": "Relation Memory Network (RMN)",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 682,
+          "end": 705
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "question answering",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 79
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "bAbI story-based QA",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 3665,
+            "end": 3693
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "bAbI dialog",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 3776,
+            "end": 3795
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": null,
+          "unit": "%",
+          "evidence_span": {
+            "start": 3693,
+            "end": 3775
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "MemN2N",
+        "GMemN2N",
+        "DMN",
+        "DMN+"
+      ],
+      "self_consistency": 0.875,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "openai/gpt-4o-2024-11-20",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 29582,
+    "tokens_out": 6360,
+    "cost_usd": 0.07510968999999999,
+    "wall_time_seconds": 90.04723133309744,
+    "voting_samples": 3
+  }
+}

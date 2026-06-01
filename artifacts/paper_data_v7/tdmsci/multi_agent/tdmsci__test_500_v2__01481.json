@@ -1,0 +1,53 @@
+{
+  "paper_id": "tdmsci:test_500_v2:01481",
+  "contributions": [
+    {
+      "method": {
+        "name": null,
+        "canonical_id": null,
+        "evidence_span": null,
+        "confidence": 0.0
+      },
+      "task": {
+        "name": "error detection",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 21,
+          "end": 36
+        },
+        "confidence": 0.5
+      },
+      "datasets": [
+        {
+          "name": "WSJ",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 96,
+            "end": 99
+          },
+          "confidence": 0.5
+        }
+      ],
+      "metrics": [],
+      "claim_strength": null,
+      "comparison_targets": [],
+      "self_consistency": 0.3333333333333333,
+      "critic_verdict": {
+        "method": "UNSUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "UNSUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 4724,
+    "tokens_out": 1198,
+    "cost_usd": 0.0030678100000000002,
+    "wall_time_seconds": 28.519441209034994,
+    "voting_samples": 3
+  }
+}

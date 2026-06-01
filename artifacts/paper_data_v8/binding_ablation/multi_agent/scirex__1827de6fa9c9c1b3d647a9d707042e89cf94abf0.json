@@ -1,0 +1,99 @@
+{
+  "paper_id": "scirex:1827de6fa9c9c1b3d647a9d707042e89cf94abf0",
+  "contributions": [
+    {
+      "method": {
+        "name": "Batch Normalization",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 1827,
+          "end": 1843
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "image classification",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 3441,
+          "end": 3458
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "ImageNet",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 3005,
+            "end": 3012
+          },
+          "confidence": 0.67
+        },
+        {
+          "name": "MNIST",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 5000,
+            "end": 5004
+          },
+          "confidence": 0.67
+        }
+      ],
+      "metrics": [
+        {
+          "name": "top-5 error rate",
+          "value": 4.9,
+          "unit": "%",
+          "evidence_span": {
+            "start": 6134,
+            "end": 6149
+          },
+          "confidence": 0.67
+        },
+        {
+          "name": "test error",
+          "value": 4.8,
+          "unit": "%",
+          "evidence_span": {
+            "start": 6161,
+            "end": 6169
+          },
+          "confidence": 0.67
+        },
+        {
+          "name": "accuracy",
+          "value": 74.8,
+          "unit": "%",
+          "evidence_span": {
+            "start": 3000,
+            "end": 3020
+          },
+          "confidence": 0.33
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Inception",
+        "baseline network"
+      ],
+      "self_consistency": 0.83,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "PARTIAL",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 35742,
+    "tokens_out": 4871,
+    "cost_usd": 0.01888132,
+    "wall_time_seconds": 167.26728324987926,
+    "voting_samples": 3
+  }
+}

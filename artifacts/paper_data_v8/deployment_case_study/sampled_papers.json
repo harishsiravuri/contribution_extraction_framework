@@ -1,0 +1,502 @@
+[
+  {
+    "arxiv_id": "2605.29937",
+    "title": "Fisher-Preserving Guidance: Training-Free Manifold Constraints for Safe Diffusion Control",
+    "published": "2026-05-28T13:47:31Z"
+  },
+  {
+    "arxiv_id": "2605.30273",
+    "title": "LLUMI: Improving LLM Writing Assistance for Mental Health Support with Online Community Feedback",
+    "published": "2026-05-28T17:30:57Z"
+  },
+  {
+    "arxiv_id": "2605.29329",
+    "title": "Mixing Vector Model for Copolymer Inference via Mixed Integer Linear Programming",
+    "published": "2026-05-28T04:05:30Z"
+  },
+  {
+    "arxiv_id": "2605.29427",
+    "title": "FinGuard: Detecting Financial Regulatory Non-Compliance in LLM Interactions",
+    "published": "2026-05-28T06:20:45Z"
+  },
+  {
+    "arxiv_id": "2605.29498",
+    "title": "Mask the Target: A Plug-and-Play Regularizer Against LoRA Forgetting",
+    "published": "2026-05-28T07:22:39Z"
+  },
+  {
+    "arxiv_id": "2605.29834",
+    "title": "Open World Autoencoding Drift Detection with Novel Class Recognition in Tabular Non-stationary Data Streams",
+    "published": "2026-05-28T12:12:30Z"
+  },
+  {
+    "arxiv_id": "2605.29979",
+    "title": "Fingerprinting Inference Systems of Large Language Models",
+    "published": "2026-05-28T14:16:53Z"
+  },
+  {
+    "arxiv_id": "2605.28207",
+    "title": "Pruning and Distilling Mixture-of-Experts into Dense Language Models",
+    "published": "2026-05-27T09:27:36Z"
+  },
+  {
+    "arxiv_id": "2605.30051",
+    "title": "Who Am I? History-Aware Profiles for Student Simulation in Tutoring Dialogues",
+    "published": "2026-05-28T15:02:51Z"
+  },
+  {
+    "arxiv_id": "2605.28669",
+    "title": "Sense Representations Are Inducible Interfaces",
+    "published": "2026-05-27T16:04:35Z"
+  },
+  {
+    "arxiv_id": "2605.30245",
+    "title": "Knowing What to Solve Before How: Preplan Empowered LLM Mathematical Reasoning",
+    "published": "2026-05-28T17:11:43Z"
+  },
+  {
+    "arxiv_id": "2605.30251",
+    "title": "Same Evidence, Different Answers: Canonical-Context On-Policy Distillation for Multi-Turn Language Models",
+    "published": "2026-05-28T17:14:29Z"
+  },
+  {
+    "arxiv_id": "2605.30022",
+    "title": "Give it Space! Explicit Disentangling of Positional and Semantic Representations in Encoders",
+    "published": "2026-05-28T14:42:25Z"
+  },
+  {
+    "arxiv_id": "2605.29525",
+    "title": "Learning to Perturb Hidden Representations for Generalizable Deep Learning",
+    "published": "2026-05-28T07:41:39Z"
+  },
+  {
+    "arxiv_id": "2605.29467",
+    "title": "Composing Non-Conjugate Factor Graphs with Closed-Form Variational Inference",
+    "published": "2026-05-28T06:59:35Z"
+  },
+  {
+    "arxiv_id": "2605.28340",
+    "title": "Decision-focused learning for optimal PV-Battery scheduling",
+    "published": "2026-05-27T11:43:27Z"
+  },
+  {
+    "arxiv_id": "2605.30260",
+    "title": "How LoRA Remembers? A Parametric Memory Law for LLM Finetuning",
+    "published": "2026-05-28T17:22:24Z"
+  },
+  {
+    "arxiv_id": "2605.28150",
+    "title": "Off-Policy Learning to Reason Works Because It Is More Pessimistic Than You Think",
+    "published": "2026-05-27T08:33:35Z"
+  },
+  {
+    "arxiv_id": "2605.29622",
+    "title": "M\u014dLe-\u039b: Learning the Coupled-Cluster Response State for Energies, Gradients, and Properties",
+    "published": "2026-05-28T08:56:22Z"
+  },
+  {
+    "arxiv_id": "2605.28103",
+    "title": "Benchmarking Inductive Biases for Multivariate Time-Series Anomaly Detection with a Robust Multi-View Channel-Graph Detector",
+    "published": "2026-05-27T07:55:44Z"
+  },
+  {
+    "arxiv_id": "2605.28684",
+    "title": "History-aware adaptive reduced-order models via incremental singular value decomposition",
+    "published": "2026-05-27T16:15:11Z"
+  },
+  {
+    "arxiv_id": "2605.29511",
+    "title": "DynaGraph: Lightweight Multi-Model Interaction Framework via Dynamic Topological Reconfiguration",
+    "published": "2026-05-28T07:33:29Z"
+  },
+  {
+    "arxiv_id": "2605.28585",
+    "title": "Outer-Momentum Restarting in High-Dimensional Two-Phase Optimization",
+    "published": "2026-05-27T15:09:02Z"
+  },
+  {
+    "arxiv_id": "2605.29324",
+    "title": "STAMP: Training Explicit Memory for Mobile GUI Agents in Controllable and Scalable Virtual Environments",
+    "published": "2026-05-28T04:00:13Z"
+  },
+  {
+    "arxiv_id": "2605.30335",
+    "title": "Locally Coherent, Globally Incoherent: Bounding Compositional Incoherence in Multi-Component LLM Agents",
+    "published": "2026-05-28T17:58:55Z"
+  },
+  {
+    "arxiv_id": "2605.29738",
+    "title": "Multi-Legal-Bench: Evaluating LLMs on Legal Reasoning Across Jurisdictions, Languages, and Legal Traditions",
+    "published": "2026-05-28T10:31:37Z"
+  },
+  {
+    "arxiv_id": "2605.28109",
+    "title": "Long Live The Balance: Information Bottleneck Driven Tree-based Policy Optimization",
+    "published": "2026-05-27T08:01:42Z"
+  },
+  {
+    "arxiv_id": "2605.29078",
+    "title": "Bridging the Sim-to-Real Gap in Reinforcement Learning-Based Industrial Dispatching through Execution Semantics",
+    "published": "2026-05-27T20:30:20Z"
+  },
+  {
+    "arxiv_id": "2605.28145",
+    "title": "Adaptive Reservoir Computing for Multi-Scenario Chaotic System Forecasting",
+    "published": "2026-05-27T08:27:02Z"
+  },
+  {
+    "arxiv_id": "2605.29751",
+    "title": "DySem: Uncovering Dynamic Semantic Components via Multilingual Consensus for Calculating Semantic Textual Similarity",
+    "published": "2026-05-28T10:47:32Z"
+  },
+  {
+    "arxiv_id": "2605.29535",
+    "title": "AsymVLM: Asymmetric Token Pruning for Efficient Vision-Language Model Inference",
+    "published": "2026-05-28T07:49:45Z"
+  },
+  {
+    "arxiv_id": "2605.29101",
+    "title": "Model Merging by Output-Space Projection",
+    "published": "2026-05-27T21:01:29Z"
+  },
+  {
+    "arxiv_id": "2605.28093",
+    "title": "ConRAG: Consensus-Driven Multi-View Retrieval for Multi-Hop Question Answering",
+    "published": "2026-05-27T07:51:46Z"
+  },
+  {
+    "arxiv_id": "2605.30031",
+    "title": "Audio Jailbreaks in Large Audio-Language Models: Taxonomy, Attack-Defense Analysis, and Cost-Aware Evaluation",
+    "published": "2026-05-28T14:53:27Z"
+  },
+  {
+    "arxiv_id": "2605.28812",
+    "title": "Beyond Binary: Sim-to-Real Dexterous Manipulation with Physics-Grounded Contact Representation",
+    "published": "2026-05-27T17:59:02Z"
+  },
+  {
+    "arxiv_id": "2605.30003",
+    "title": "Discovering Cooperative Pipelines: Autoresearch for Sequential Social Dilemmas",
+    "published": "2026-05-28T14:33:10Z"
+  },
+  {
+    "arxiv_id": "2605.29008",
+    "title": "Causal Intelligence for Constraint-Aware Intervention Design to Induce State Transitions",
+    "published": "2026-05-27T19:04:28Z"
+  },
+  {
+    "arxiv_id": "2605.29068",
+    "title": "Robust and Efficient Guardrails with Latent Reasoning",
+    "published": "2026-05-27T20:15:22Z"
+  },
+  {
+    "arxiv_id": "2605.29367",
+    "title": "Attention Asymmetry in AI Layoff Discourse on X: A Computational Analysis of Capital vs Labour Amplification",
+    "published": "2026-05-28T05:09:33Z"
+  },
+  {
+    "arxiv_id": "2605.30202",
+    "title": "A Dual-Path Architecture for Scaling Compute and Capacity in LLMs",
+    "published": "2026-05-28T16:41:36Z"
+  },
+  {
+    "arxiv_id": "2605.28551",
+    "title": "Resolution-free neural surrogates for geometric parameterization and mapping with spatially varying fields",
+    "published": "2026-05-27T14:41:41Z"
+  },
+  {
+    "arxiv_id": "2605.28226",
+    "title": "PhAME: Phenotype-Aware Molecular Editing via Latent Diffusion",
+    "published": "2026-05-27T09:41:07Z"
+  },
+  {
+    "arxiv_id": "2605.29889",
+    "title": "Internal Representation, Not Clinical Knowledge: Where Apparent LLM Triage Failures Originate",
+    "published": "2026-05-28T13:14:17Z"
+  },
+  {
+    "arxiv_id": "2605.28814",
+    "title": "Self-Improving Language Models with Bidirectional Evolutionary Search",
+    "published": "2026-05-27T17:59:15Z"
+  },
+  {
+    "arxiv_id": "2605.30085",
+    "title": "Conformal Certification of Reasoning Trace Prefixes",
+    "published": "2026-05-28T15:31:42Z"
+  },
+  {
+    "arxiv_id": "2605.29267",
+    "title": "When and How Human Curation Backfires: Preference Alignment under Multi-Model Self-Consuming Loop",
+    "published": "2026-05-28T02:36:57Z"
+  },
+  {
+    "arxiv_id": "2605.29002",
+    "title": "FedQHD: Closed-Form Function-Space Federated Reinforcement Learning",
+    "published": "2026-05-27T18:59:40Z"
+  },
+  {
+    "arxiv_id": "2605.29637",
+    "title": "Evaluating Cross-lingual Knowledge Consistency in Code-Mixed vis-a-vis Indian Languages using IndicKLAR",
+    "published": "2026-05-28T09:06:59Z"
+  },
+  {
+    "arxiv_id": "2605.30119",
+    "title": "Evolving Features vs Evolving Entire Trees with GP for Interpretable Survival Analysis",
+    "published": "2026-05-28T15:52:14Z"
+  },
+  {
+    "arxiv_id": "2605.30198",
+    "title": "Active Continual Learning with Metaplastic Binary Bayesian Neural Networks",
+    "published": "2026-05-28T16:36:53Z"
+  },
+  {
+    "arxiv_id": "2605.29489",
+    "title": "Access Sets Matter: Budgeting Expert Reads for Scalable Weight-Space Model Merging",
+    "published": "2026-05-28T07:15:38Z"
+  },
+  {
+    "arxiv_id": "2605.29273",
+    "title": "A Theoretical and Experimental Study of a Novel Adaptive Learning Algorithm",
+    "published": "2026-05-28T02:48:19Z"
+  },
+  {
+    "arxiv_id": "2605.30080",
+    "title": "Adaptive Targeted Dynamic Chunking for Tokenization-Free Hierarchical Model",
+    "published": "2026-05-28T15:26:34Z"
+  },
+  {
+    "arxiv_id": "2605.28122",
+    "title": "SNARE: Adaptive Scenario Synthesis for Eliciting Overeager Behavior in Coding Agents",
+    "published": "2026-05-27T08:14:07Z"
+  },
+  {
+    "arxiv_id": "2605.29980",
+    "title": "Genetically Aligned Patient Representations Improve Hematological Diagnosis",
+    "published": "2026-05-28T14:17:31Z"
+  },
+  {
+    "arxiv_id": "2605.28183",
+    "title": "BenGER: Benchmarking LLM Systems on Subsumption-Based Legal Reasoning in German Law",
+    "published": "2026-05-27T09:03:59Z"
+  },
+  {
+    "arxiv_id": "2605.28162",
+    "title": "Learning Logical Operations for Arbitrary Quantum Error Correction Codes",
+    "published": "2026-05-27T08:44:55Z"
+  },
+  {
+    "arxiv_id": "2605.28567",
+    "title": "Semantic Optimal Transport for Sparse Autoencoder Feature Matching and Circuit Compression",
+    "published": "2026-05-27T14:54:58Z"
+  },
+  {
+    "arxiv_id": "2605.28999",
+    "title": "Measuring Real-World Prompt Injection Attacks in LLM-based Resume Screening",
+    "published": "2026-05-27T18:56:19Z"
+  },
+  {
+    "arxiv_id": "2605.29731",
+    "title": "EMAG: Differentiable 4D Gaussian Mixture Splatting for EEG Spatial Super-Resolution",
+    "published": "2026-05-28T10:26:38Z"
+  },
+  {
+    "arxiv_id": "2605.28969",
+    "title": "Beyond Recall: Behavioral Specification as an Interpretive Layer for AI Personalization",
+    "published": "2026-05-27T18:18:54Z"
+  },
+  {
+    "arxiv_id": "2605.29021",
+    "title": "Designing Active Tether-Net Systems for Space Debris Capture with Graph-Learning-Aided Mixed-Combinatorial Optimization",
+    "published": "2026-05-27T19:19:42Z"
+  },
+  {
+    "arxiv_id": "2605.29559",
+    "title": "LiteCoder-Terminal: Scaling Long-Horizon Terminal Environments for Learning Language Agents",
+    "published": "2026-05-28T08:11:57Z"
+  },
+  {
+    "arxiv_id": "2605.29357",
+    "title": "PassNet: Scaling Large Language Models for Graph Compiler Pass Generation",
+    "published": "2026-05-28T04:55:14Z"
+  },
+  {
+    "arxiv_id": "2605.30112",
+    "title": "Striding Across Reynolds Numbers: Representation Geometry in Neural PDE Generalisation",
+    "published": "2026-05-28T15:49:26Z"
+  },
+  {
+    "arxiv_id": "2605.29708",
+    "title": "Understanding Safety-Sensitive Expert Behavior in Mixture-of-Experts LLMs",
+    "published": "2026-05-28T10:09:51Z"
+  },
+  {
+    "arxiv_id": "2605.28079",
+    "title": "ATLAS: All-round Testing of Long-context Abilities across Scales",
+    "published": "2026-05-27T07:33:47Z"
+  },
+  {
+    "arxiv_id": "2605.29729",
+    "title": "Realistic honeypot evaluations for scheming propensity",
+    "published": "2026-05-28T10:23:07Z"
+  },
+  {
+    "arxiv_id": "2605.28534",
+    "title": "GUI-CIDER: Mid-training GUI Agents via Causal Internalization and Density-aware Exemplar Reselection",
+    "published": "2026-05-27T14:29:41Z"
+  },
+  {
+    "arxiv_id": "2605.28919",
+    "title": "CosmicFish-HRM: Adaptive Reasoning via Hierarchical Recurrent Mechanisms in Compact Language Models",
+    "published": "2026-05-27T17:59:14Z"
+  },
+  {
+    "arxiv_id": "2605.29351",
+    "title": "Attention as In-Context Empirical Bayes: A Two-Stage View via Particle Dynamics",
+    "published": "2026-05-28T04:44:31Z"
+  },
+  {
+    "arxiv_id": "2605.29523",
+    "title": "K-FinHallu: A Hallucination Detection Benchmark for Multi-Turn RAG in Korean Finance",
+    "published": "2026-05-28T07:40:19Z"
+  },
+  {
+    "arxiv_id": "2605.29152",
+    "title": "Do Deep Networks Forget Initialization? A Forgetting-Time View of Practical Inductive Bias",
+    "published": "2026-05-27T22:30:39Z"
+  },
+  {
+    "arxiv_id": "2605.30162",
+    "title": "BioRefusalAudit: Auditing Biosecurity Refusal Depth Using General and Domain-Fine-Tuned Sparse Autoencoders",
+    "published": "2026-05-28T16:18:07Z"
+  },
+  {
+    "arxiv_id": "2605.29486",
+    "title": "PhoneWorld: Scaling Phone-Use Agent Environments",
+    "published": "2026-05-28T07:14:15Z"
+  },
+  {
+    "arxiv_id": "2605.28111",
+    "title": "Chreode: A Cell World Model for One-Step Temporal Dynamics and Perturbation Prediction",
+    "published": "2026-05-27T08:05:35Z"
+  },
+  {
+    "arxiv_id": "2605.29183",
+    "title": "TIMEGATE: Sustainable Time-Boxed Promotion Gates for Continual ML Adaptation Under Resource Constraints",
+    "published": "2026-05-27T23:41:29Z"
+  },
+  {
+    "arxiv_id": "2605.28767",
+    "title": "Principled Algorithms for Optimizing Generalized Metrics in Multi-Label Learning",
+    "published": "2026-05-27T17:23:58Z"
+  },
+  {
+    "arxiv_id": "2605.29355",
+    "title": "Neural-Behavioral Representation of Natural Whole-body Movement in Monkeys",
+    "published": "2026-05-28T04:52:00Z"
+  },
+  {
+    "arxiv_id": "2605.30126",
+    "title": "PARCEL: Pool-Anchored Resampling with Conditioned Elastic Queries for Efficient Vision-Language Understanding",
+    "published": "2026-05-28T15:57:31Z"
+  },
+  {
+    "arxiv_id": "2605.29548",
+    "title": "Why Larger Models Learn More: Effects of Capacity, Interference, and Rare-Task Retention",
+    "published": "2026-05-28T08:02:11Z"
+  },
+  {
+    "arxiv_id": "2605.29184",
+    "title": "Influence-Guided Symbolic Regression: Scientific Discovery via LLM-Driven Equation Search with Granular Feedback",
+    "published": "2026-05-27T23:48:01Z"
+  },
+  {
+    "arxiv_id": "2605.29547",
+    "title": "Singularity-aware Optimization via Randomized Geometric Probing: Towards Stable Non-smooth Optimization",
+    "published": "2026-05-28T08:00:40Z"
+  },
+  {
+    "arxiv_id": "2605.28363",
+    "title": "PubMedCausal: A Span-Level Annotated Corpus for Causal Relation Extraction in Biomedical Text",
+    "published": "2026-05-27T11:59:17Z"
+  },
+  {
+    "arxiv_id": "2605.28774",
+    "title": "Agent Explorative Policy Optimization for Multimodal Agentic Reasoning",
+    "published": "2026-05-27T17:36:39Z"
+  },
+  {
+    "arxiv_id": "2605.28554",
+    "title": "High Performance, Low Reliability: Uncertainty Benchmarking for Tabular Foundation Models",
+    "published": "2026-05-27T14:45:05Z"
+  },
+  {
+    "arxiv_id": "2605.29819",
+    "title": "The Interplay Between Interpolation and Aggregation in Regression: Optimal Sample Complexity",
+    "published": "2026-05-28T12:02:09Z"
+  },
+  {
+    "arxiv_id": "2605.29366",
+    "title": "Solving Integer Linear Programming with Parallel Tempering",
+    "published": "2026-05-28T05:09:21Z"
+  },
+  {
+    "arxiv_id": "2605.28890",
+    "title": "Echoes within the Reasoning: Stealthy and Effective Watermarking via Chain of Thought",
+    "published": "2026-05-27T07:44:38Z"
+  },
+  {
+    "arxiv_id": "2605.29897",
+    "title": "ExCAM: Explainable Cultural Awareness Metrics",
+    "published": "2026-05-28T13:21:36Z"
+  },
+  {
+    "arxiv_id": "2605.28961",
+    "title": "Dynamics of Stochastic Momentum with Sparse Updates in High Dimensions",
+    "published": "2026-05-27T18:06:41Z"
+  },
+  {
+    "arxiv_id": "2605.29313",
+    "title": "PatchBoard: Schema-Grounded State Mutation for Reliable and Auditable LLM Multi-Agent Collaboration",
+    "published": "2026-05-28T03:43:22Z"
+  },
+  {
+    "arxiv_id": "2605.29354",
+    "title": "Harmless Yet Harmful: Neutral Prompting Attacks for Stealthy Hallucination Steering in Agent Skills",
+    "published": "2026-05-28T04:48:45Z"
+  },
+  {
+    "arxiv_id": "2605.29859",
+    "title": "MELD: Mel-Spectrogram-Based Speech Language Modeling with Discrete Latent Variables",
+    "published": "2026-05-28T12:39:36Z"
+  },
+  {
+    "arxiv_id": "2605.28952",
+    "title": "Optimal Rates for Differentially Private Hypothesis Testing with E-values",
+    "published": "2026-05-27T18:00:13Z"
+  },
+  {
+    "arxiv_id": "2605.29268",
+    "title": "Compute Allocation in Evolutionary Search: From Depth-Breadth to Multi-Armed Bandits",
+    "published": "2026-05-28T02:37:51Z"
+  },
+  {
+    "arxiv_id": "2605.29537",
+    "title": "The Complexity of Verifying Feedforward Neural Networks in Quantised Settings",
+    "published": "2026-05-28T07:52:29Z"
+  },
+  {
+    "arxiv_id": "2605.28143",
+    "title": "Sequential Neural Probabilistic Amplitude Shaping: Learning the Channel's Language",
+    "published": "2026-05-27T08:25:18Z"
+  },
+  {
+    "arxiv_id": "2605.29271",
+    "title": "CoHyDE: Iterative Co-Training of LLM Rewriter &amp; Dense Encoder for Tool Retrieval",
+    "published": "2026-05-28T02:41:30Z"
+  },
+  {
+    "arxiv_id": "2605.29615",
+    "title": "DiffSpot: Can VLMs Spot Fine-Grained Visual Differences in Web Interfaces?",
+    "published": "2026-05-28T08:50:34Z"
+  }
+]

@@ -1,0 +1,67 @@
+{
+  "paper_id": "arxiv:2605.29467",
+  "contributions": [
+    {
+      "method": {
+        "name": "closed-form variational message passing",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 89,
+          "end": 142
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "ensemble time-series forecasting",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 1027,
+          "end": 1055
+        },
+        "confidence": 0.75
+      },
+      "datasets": [
+        {
+          "name": "five benchmark datasets",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1040,
+            "end": 1059
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "calibrated uncertainty",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 1087,
+            "end": 1105
+          },
+          "confidence": 0.5
+        }
+      ],
+      "claim_strength": "novel",
+      "comparison_targets": [],
+      "self_consistency": 0.875,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 6480,
+    "tokens_out": 2190,
+    "cost_usd": 0.004829770000000001,
+    "wall_time_seconds": 47.349403999978676,
+    "voting_samples": 3
+  }
+}

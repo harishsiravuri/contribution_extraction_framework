@@ -1,0 +1,96 @@
+{
+  "paper_id": "arxiv:2605.29489",
+  "contributions": [
+    {
+      "method": {
+        "name": "MergePipe",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 205,
+          "end": 213
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "weight-space model merging",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 40,
+          "end": 65
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "Qwen",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 671,
+            "end": 675
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "Llama",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 680,
+            "end": 685
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "I/O reduction",
+          "value": 10.0,
+          "unit": "times",
+          "evidence_span": {
+            "start": 699,
+            "end": 711
+          },
+          "confidence": 0.3333333333333333
+        },
+        {
+          "name": "speedup",
+          "value": 11.0,
+          "unit": "times",
+          "evidence_span": {
+            "start": 723,
+            "end": 729
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "parameter deviation",
+          "value": 0.001,
+          "unit": null,
+          "evidence_span": {
+            "start": 758,
+            "end": 773
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": null,
+      "comparison_targets": [],
+      "self_consistency": 0.875,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 7183,
+    "tokens_out": 2988,
+    "cost_usd": 0.00587966,
+    "wall_time_seconds": 83.06229979195632,
+    "voting_samples": 3
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "paper_id": "tdmsci:test_500_v2:01384",
+  "contributions": [
+    {
+      "method": {
+        "name": "Unsupervised Discovery",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 24
+        },
+        "confidence": 0.3333333333333333
+      },
+      "task": {
+        "name": "knowledge discovery",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 25,
+          "end": 38
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "Text",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 36,
+            "end": 40
+          },
+          "confidence": 0.3333333333333333
+        }
+      ],
+      "metrics": [],
+      "claim_strength": null,
+      "comparison_targets": [],
+      "self_consistency": 0.5833333333333334,
+      "critic_verdict": {
+        "method": "PARTIAL",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "UNSUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 5009,
+    "tokens_out": 1656,
+    "cost_usd": 0.0036594700000000006,
+    "wall_time_seconds": 46.174905667081475,
+    "voting_samples": 3
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "paper_id": "scirex:18168aea48a22f6fe2fe407c0ff70083cba225a7",
+  "contributions": [
+    {
+      "method": {
+        "name": "red-net",
+        "canonical_id": null,
+        "evidence_span": null,
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "image denoising",
+        "canonical_id": null,
+        "evidence_span": null,
+        "confidence": 0.6666666666666666
+      },
+      "datasets": [
+        {
+          "name": "bsd200",
+          "canonical_id": null,
+          "evidence_span": null,
+          "confidence": 0.3333333333333333
+        },
+        {
+          "name": "bsd100",
+          "canonical_id": null,
+          "evidence_span": null,
+          "confidence": 0.16666666666666666
+        },
+        {
+          "name": "set14",
+          "canonical_id": null,
+          "evidence_span": null,
+          "confidence": 0.16666666666666666
+        },
+        {
+          "name": "set5",
+          "canonical_id": null,
+          "evidence_span": null,
+          "confidence": 0.16666666666666666
+        }
+      ],
+      "metrics": [
+        {
+          "name": "psnr",
+          "value": null,
+          "unit": null,
+          "evidence_span": null,
+          "confidence": 0.5
+        },
+        {
+          "name": "ssim",
+          "value": null,
+          "unit": null,
+          "evidence_span": null,
+          "confidence": 0.16666666666666666
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [],
+      "self_consistency": 0.7083333333333334,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "PARTIAL",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "harishsiravuri_e088/Meta-Llama-3.1-70B-Instruct-Reference-scirex-v6-70b-7cecddd1-66437b32",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 14725,
+    "tokens_out": 2741,
+    "cost_usd": 0.01002188,
+    "wall_time_seconds": 61.52077895891853,
+    "voting_samples": 1
+  }
+}

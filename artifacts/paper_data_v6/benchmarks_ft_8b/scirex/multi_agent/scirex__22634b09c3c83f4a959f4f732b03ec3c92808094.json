@@ -1,0 +1,67 @@
+{
+  "paper_id": "scirex:22634b09c3c83f4a959f4f732b03ec3c92808094",
+  "contributions": [
+    {
+      "method": {
+        "name": "deepmatching",
+        "canonical_id": null,
+        "evidence_span": null,
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "image matching",
+        "canonical_id": null,
+        "evidence_span": null,
+        "confidence": 0.75
+      },
+      "datasets": [
+        {
+          "name": "kitti",
+          "canonical_id": null,
+          "evidence_span": null,
+          "confidence": 0.5
+        },
+        {
+          "name": "mikolajczyk",
+          "canonical_id": null,
+          "evidence_span": null,
+          "confidence": 0.5
+        },
+        {
+          "name": "mpi-sintel",
+          "canonical_id": null,
+          "evidence_span": null,
+          "confidence": 0.5
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": null,
+          "unit": null,
+          "evidence_span": null,
+          "confidence": 0.75
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [],
+      "self_consistency": 0.625,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "harishsiravuri_e088/Meta-Llama-3.1-8B-Instruct-Reference-scirex-v6-bf594110-52031aad",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 61595,
+    "tokens_out": 2561,
+    "cost_usd": 0.03406958,
+    "wall_time_seconds": 57.027261165960226,
+    "voting_samples": 3
+  }
+}

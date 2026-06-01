@@ -1,0 +1,81 @@
+{
+  "paper_id": "scirex:310fed695da4f36139b70b23065c34fe9fb29ca6",
+  "contributions": [
+    {
+      "method": {
+        "name": "St-SS-pGRU",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 953,
+          "end": 1081
+        },
+        "confidence": 0.5
+      },
+      "task": {
+        "name": "hyperspectral image classification",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 953,
+          "end": 1081
+        },
+        "confidence": 0.5
+      },
+      "datasets": [
+        {
+          "name": "Pavia University",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 4353,
+            "end": 4476
+          },
+          "confidence": 0.5
+        },
+        {
+          "name": "Indian Pines",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 4476,
+            "end": 4595
+          },
+          "confidence": 0.5
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": null,
+          "unit": "percentage",
+          "evidence_span": {
+            "start": 4983,
+            "end": 5128
+          },
+          "confidence": 0.5
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "LSTM",
+        "GRU",
+        "St-GRU",
+        "St-SS-GRU"
+      ],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "UNSUPPORTED",
+        "task": "UNSUPPORTED",
+        "datasets": "UNSUPPORTED",
+        "metrics": "UNSUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "(none)",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 15542,
+    "tokens_out": 3622,
+    "cost_usd": 0.00928787,
+    "wall_time_seconds": 50.98550012498163,
+    "voting_samples": 3
+  }
+}

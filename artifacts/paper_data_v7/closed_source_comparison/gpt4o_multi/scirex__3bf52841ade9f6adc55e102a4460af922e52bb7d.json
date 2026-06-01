@@ -1,0 +1,100 @@
+{
+  "paper_id": "scirex:3bf52841ade9f6adc55e102a4460af922e52bb7d",
+  "contributions": [
+    {
+      "method": {
+        "name": "convolutional DRAW",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 155,
+          "end": 263
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "image modeling",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 155,
+          "end": 263
+        },
+        "confidence": 0.75
+      },
+      "datasets": [
+        {
+          "name": "ImageNet",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 108,
+            "end": 148
+          },
+          "confidence": 0.5
+        },
+        {
+          "name": "Omniglot",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 10331,
+            "end": 10339
+          },
+          "confidence": 0.5
+        },
+        {
+          "name": "CIFAR-10",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 10865,
+            "end": 10873
+          },
+          "confidence": 0.25
+        }
+      ],
+      "metrics": [
+        {
+          "name": "likelihood",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 108,
+            "end": 148
+          },
+          "confidence": 0.75
+        },
+        {
+          "name": "compression quality",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 108,
+            "end": 148
+          },
+          "confidence": 0.25
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "earlier latent variable models",
+        "JPEG2000",
+        "variational auto-encoder",
+        "standard DRAW"
+      ],
+      "self_consistency": 0.81,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "PARTIAL",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "openai/gpt-4o-2024-11-20",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 35500,
+    "tokens_out": 7329,
+    "cost_usd": 0.0892094,
+    "wall_time_seconds": 177.20960854110308,
+    "voting_samples": 3
+  }
+}

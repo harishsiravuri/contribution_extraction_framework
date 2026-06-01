@@ -1,0 +1,57 @@
+{
+  "paper_id": "tdmsci:test_500_v2:01439",
+  "contributions": [
+    {
+      "method": {
+        "name": "TER-PLUS",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 31,
+          "end": 38
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "machine translation",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 82,
+          "end": 96
+        },
+        "confidence": 0.6666666666666666
+      },
+      "datasets": [],
+      "metrics": [
+        {
+          "name": "TER-PLUS",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 31,
+            "end": 38
+          },
+          "confidence": 0.6666666666666666
+        }
+      ],
+      "claim_strength": null,
+      "comparison_targets": [],
+      "self_consistency": 0.7083333333333334,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 5098,
+    "tokens_out": 1706,
+    "cost_usd": 0.0037387999999999996,
+    "wall_time_seconds": 33.49694500002079,
+    "voting_samples": 3
+  }
+}

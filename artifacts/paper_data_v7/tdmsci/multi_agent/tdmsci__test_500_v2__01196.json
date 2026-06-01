@@ -1,0 +1,46 @@
+{
+  "paper_id": "tdmsci:test_500_v2:01196",
+  "contributions": [
+    {
+      "method": {
+        "name": "hierarchical recurrent neural network",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 31,
+          "end": 53
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "relation classification",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 103,
+          "end": 120
+        },
+        "confidence": 1.0
+      },
+      "datasets": [],
+      "metrics": [],
+      "claim_strength": null,
+      "comparison_targets": [],
+      "self_consistency": 1.0,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 4711,
+    "tokens_out": 1342,
+    "cost_usd": 0.0032287700000000006,
+    "wall_time_seconds": 24.722811457933858,
+    "voting_samples": 3
+  }
+}

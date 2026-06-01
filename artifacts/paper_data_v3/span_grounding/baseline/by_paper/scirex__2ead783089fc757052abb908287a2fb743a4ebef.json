@@ -1,0 +1,108 @@
+{
+  "paper_id": "scirex:2ead783089fc757052abb908287a2fb743a4ebef",
+  "contributions": [
+    {
+      "method": {
+        "name": "Squeezed Very Deep Convolutional Neural Networks (SVDCNN)",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 2000
+        },
+        "confidence": 0.9
+      },
+      "task": {
+        "name": "Text Classification",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 2000
+        },
+        "confidence": 0.9
+      },
+      "datasets": [
+        {
+          "name": "AG's News",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2000,
+            "end": 3000
+          },
+          "confidence": 0.8
+        },
+        {
+          "name": "Yelp Polarity",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2000,
+            "end": 3000
+          },
+          "confidence": 0.8
+        },
+        {
+          "name": "Yelp Full",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2000,
+            "end": 3000
+          },
+          "confidence": 0.8
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy",
+          "value": null,
+          "unit": "%",
+          "evidence_span": {
+            "start": 2000,
+            "end": 3000
+          },
+          "confidence": 0.7
+        },
+        {
+          "name": "Storage Size",
+          "value": 6.0,
+          "unit": "MB",
+          "evidence_span": {
+            "start": 2000,
+            "end": 3000
+          },
+          "confidence": 0.8
+        },
+        {
+          "name": "Latency",
+          "value": null,
+          "unit": "ms",
+          "evidence_span": {
+            "start": 2000,
+            "end": 3000
+          },
+          "confidence": 0.7
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "VDCNN",
+        "Char-CNN"
+      ],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "PARTIAL",
+        "task": "PARTIAL",
+        "datasets": "PARTIAL",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "(none)",
+    "consolidator_model": "(none)",
+    "tokens_in": 4800,
+    "tokens_out": 537,
+    "cost_usd": 0.0020139299999999997,
+    "wall_time_seconds": 29.945125665981323,
+    "voting_samples": 1
+  }
+}

@@ -1,0 +1,119 @@
+{
+  "paper_id": "tdmsci:test_500_v2:01547",
+  "contributions": [
+    {
+      "method": {
+        "name": "self-training",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 20,
+          "end": 33
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "instance selection",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 128,
+          "end": 144
+        },
+        "confidence": 0.6666666666666666
+      },
+      "datasets": [
+        {
+          "name": "normal newswire corpus",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 37,
+            "end": 54
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [],
+      "claim_strength": "comparable",
+      "comparison_targets": [
+        "IR"
+      ],
+      "self_consistency": 0.8333333333333334,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": null
+      }
+    },
+    {
+      "method": {
+        "name": "IR",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 85,
+          "end": 87
+        },
+        "confidence": 0.3333333333333333
+      },
+      "task": {
+        "name": null,
+        "canonical_id": null,
+        "evidence_span": null,
+        "confidence": 0.0
+      },
+      "datasets": [],
+      "metrics": [],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "self-training"
+      ],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": null,
+        "datasets": null,
+        "metrics": null
+      }
+    },
+    {
+      "method": {
+        "name": "global inference",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 101,
+          "end": 117
+        },
+        "confidence": 0.6666666666666666
+      },
+      "task": {
+        "name": "instance selection",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 128,
+          "end": 144
+        },
+        "confidence": 0.6666666666666666
+      },
+      "datasets": [],
+      "metrics": [],
+      "claim_strength": "improves",
+      "comparison_targets": [],
+      "self_consistency": 0.6666666666666666,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "UNSUPPORTED",
+        "datasets": null,
+        "metrics": null
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 6034,
+    "tokens_out": 2573,
+    "cost_usd": 0.0050101,
+    "wall_time_seconds": 101.00607541692443,
+    "voting_samples": 3
+  }
+}

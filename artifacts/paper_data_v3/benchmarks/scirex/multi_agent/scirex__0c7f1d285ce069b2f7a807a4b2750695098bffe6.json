@@ -1,0 +1,91 @@
+{
+  "paper_id": "scirex:0c7f1d285ce069b2f7a807a4b2750695098bffe6",
+  "contributions": [
+    {
+      "method": {
+        "name": "Planetoid",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 155,
+          "end": 162
+        },
+        "confidence": 0.8
+      },
+      "task": {
+        "name": "text classification",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 2469,
+          "end": 2484
+        },
+        "confidence": 0.7
+      },
+      "datasets": [
+        {
+          "name": "Citeseer",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2475,
+            "end": 2482
+          },
+          "confidence": 0.6
+        },
+        {
+          "name": "Cora",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2445,
+            "end": 2449
+          },
+          "confidence": 0.6
+        },
+        {
+          "name": "Pubmed",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2451,
+            "end": 2458
+          },
+          "confidence": 0.6
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 2634,
+            "end": 2641
+          },
+          "confidence": 0.5
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "label propagation",
+        "semi-supervised embedding",
+        "manifold regularization",
+        "TSVM",
+        "graph embeddings"
+      ],
+      "self_consistency": 0.75,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 35267,
+    "tokens_out": 7037,
+    "cost_usd": 0.021672160000000003,
+    "wall_time_seconds": 149.23908983299043,
+    "voting_samples": 3
+  }
+}

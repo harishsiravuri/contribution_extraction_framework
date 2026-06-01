@@ -1,0 +1,70 @@
+{
+  "paper_id": "arxiv:2605.29366",
+  "contributions": [
+    {
+      "method": {
+        "name": "Parallel Tempering with Locally-Balanced Proposal",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 156,
+          "end": 193
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "Integer Linear Programming",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 24,
+          "end": 44
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "MIPLIB 2017",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1074,
+            "end": 1087
+          },
+          "confidence": 0.67
+        }
+      ],
+      "metrics": [
+        {
+          "name": "runtime",
+          "value": 200.0,
+          "unit": "seconds",
+          "evidence_span": {
+            "start": 773,
+            "end": 791
+          },
+          "confidence": 0.33
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "SCIP",
+        "Gurobi"
+      ],
+      "self_consistency": 0.83,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 9178,
+    "tokens_out": 4048,
+    "cost_usd": 0.007905889999999999,
+    "wall_time_seconds": 93.07467412482947,
+    "voting_samples": 3
+  }
+}

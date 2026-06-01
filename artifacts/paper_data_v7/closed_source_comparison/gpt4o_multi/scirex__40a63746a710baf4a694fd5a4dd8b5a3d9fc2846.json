@@ -1,0 +1,141 @@
+{
+  "paper_id": "scirex:40a63746a710baf4a694fd5a4dd8b5a3d9fc2846",
+  "contributions": [
+    {
+      "method": {
+        "name": "Invertible Conditional GAN (IcGAN)",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 146,
+          "end": 164
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "image editing",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 443,
+          "end": 457
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "MNIST",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2043,
+            "end": 2048
+          },
+          "confidence": 0.5
+        },
+        {
+          "name": "CelebA",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2059,
+            "end": 2065
+          },
+          "confidence": 0.75
+        }
+      ],
+      "metrics": [
+        {
+          "name": "qualitative evaluation",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 443,
+            "end": 457
+          },
+          "confidence": 0.5
+        },
+        {
+          "name": "reconstruction loss",
+          "value": 0.429,
+          "unit": null,
+          "evidence_span": {
+            "start": 10191,
+            "end": 10204
+          },
+          "confidence": 0.5
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "IND-COND",
+        "SNG"
+      ],
+      "self_consistency": 0.625,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "PARTIAL"
+      }
+    },
+    {
+      "method": {
+        "name": "Conditional GAN (cGAN)",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 2661,
+          "end": 2673
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "image generation",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 2661,
+          "end": 2679
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "CelebA",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2059,
+            "end": 2065
+          },
+          "confidence": 0.25
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": null,
+          "unit": "%",
+          "evidence_span": {
+            "start": 8655,
+            "end": 8664
+          },
+          "confidence": 0.25
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [],
+      "self_consistency": 0.25,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "UNSUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "openai/gpt-4o-2024-11-20",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 28596,
+    "tokens_out": 5278,
+    "cost_usd": 0.07893199,
+    "wall_time_seconds": 144.27003800007515,
+    "voting_samples": 3
+  }
+}

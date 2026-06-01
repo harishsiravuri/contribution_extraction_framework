@@ -1,0 +1,177 @@
+{
+  "paper_id": "scirex:3fc5ed18c2294596af072df929c8ee12c71f96a2",
+  "contributions": [
+    {
+      "method": {
+        "name": "sequence-level training",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 155,
+          "end": 176
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "machine translation",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 200,
+          "end": 221
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "IWSLT'14 German-English",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 936,
+            "end": 959
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 41.5,
+          "unit": null,
+          "evidence_span": {
+            "start": 1734,
+            "end": 1738
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "beam search optimization"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    },
+    {
+      "method": {
+        "name": "sequence-level training",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 155,
+          "end": 176
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "machine translation",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 200,
+          "end": 221
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "WMT'14 English-French",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1051,
+            "end": 1073
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 41.5,
+          "unit": null,
+          "evidence_span": {
+            "start": 1734,
+            "end": 1738
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "comparable",
+      "comparison_targets": [
+        "state of the art"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    },
+    {
+      "method": {
+        "name": "sequence-level training",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 155,
+          "end": 176
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "abstractive summarization",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 973,
+          "end": 995
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "Gigaword",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 964,
+            "end": 971
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "ROUGE-1",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 1873,
+            "end": 1879
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "prior approaches"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 31739,
+    "tokens_out": 5097,
+    "cost_usd": 0.01766989,
+    "wall_time_seconds": 129.26036283402937,
+    "voting_samples": 3
+  }
+}

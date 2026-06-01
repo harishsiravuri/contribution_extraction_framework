@@ -1,0 +1,70 @@
+{
+  "paper_id": "arxiv:2605.28534",
+  "contributions": [
+    {
+      "method": {
+        "name": "GUI-CIDER",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 34,
+          "end": 43
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "GUI operation understanding",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 1398,
+          "end": 1419
+        },
+        "confidence": 0.5
+      },
+      "datasets": [
+        {
+          "name": "GUI knowledge benchmarks",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1234,
+            "end": 1253
+          },
+          "confidence": 0.5
+        }
+      ],
+      "metrics": [
+        {
+          "name": "task success rate",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 1454,
+            "end": 1467
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Supervised Fine-Tuning (SFT)",
+        "Reinforcement Learning (RL)"
+      ],
+      "self_consistency": 0.875,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "PARTIAL",
+        "datasets": "PARTIAL",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 7199,
+    "tokens_out": 2459,
+    "cost_usd": 0.00541295,
+    "wall_time_seconds": 38.12017737515271,
+    "voting_samples": 3
+  }
+}

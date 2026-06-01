@@ -1,0 +1,98 @@
+{
+  "paper_id": "scirex:35756f711a97166df11202ebe46820a36704ae77",
+  "contributions": [
+    {
+      "method": {
+        "name": "DCGAN",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 631,
+          "end": 635
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "unsupervised representation learning",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 260,
+          "end": 283
+        },
+        "confidence": 0.6
+      },
+      "datasets": [
+        {
+          "name": "LSUN",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 4459,
+            "end": 4463
+          },
+          "confidence": 0.4
+        },
+        {
+          "name": "CIFAR-10",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 7726,
+            "end": 7734
+          },
+          "confidence": 0.4
+        },
+        {
+          "name": "SVHN",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 8836,
+            "end": 8840
+          },
+          "confidence": 0.4
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": 82.8,
+          "unit": "%",
+          "evidence_span": {
+            "start": 3400,
+            "end": 3408
+          },
+          "confidence": 0.6
+        },
+        {
+          "name": "error rate",
+          "value": 22.48,
+          "unit": "%",
+          "evidence_span": {
+            "start": 3900,
+            "end": 3909
+          },
+          "confidence": 0.4
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "K-means based approaches",
+        "supervised CNN with same architecture"
+      ],
+      "self_consistency": 0.73,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 28960,
+    "tokens_out": 5801,
+    "cost_usd": 0.01759824,
+    "wall_time_seconds": 238.38969091704348,
+    "voting_samples": 3
+  }
+}

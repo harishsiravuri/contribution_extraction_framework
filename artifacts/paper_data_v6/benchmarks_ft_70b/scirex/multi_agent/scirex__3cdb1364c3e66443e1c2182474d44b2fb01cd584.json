@@ -1,0 +1,68 @@
+{
+  "paper_id": "scirex:3cdb1364c3e66443e1c2182474d44b2fb01cd584",
+  "contributions": [
+    {
+      "method": {
+        "name": "segnet",
+        "canonical_id": null,
+        "evidence_span": null,
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "semantic segmentation",
+        "canonical_id": null,
+        "evidence_span": null,
+        "confidence": 0.75
+      },
+      "datasets": [
+        {
+          "name": "camvid",
+          "canonical_id": null,
+          "evidence_span": null,
+          "confidence": 0.5
+        },
+        {
+          "name": "sun rgb-d",
+          "canonical_id": null,
+          "evidence_span": null,
+          "confidence": 0.5
+        }
+      ],
+      "metrics": [
+        {
+          "name": "mean iou",
+          "value": null,
+          "unit": null,
+          "evidence_span": null,
+          "confidence": 0.5
+        },
+        {
+          "name": "global accuracy",
+          "value": null,
+          "unit": null,
+          "evidence_span": null,
+          "confidence": 0.25
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [],
+      "self_consistency": 0.6875,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "harishsiravuri_e088/Meta-Llama-3.1-70B-Instruct-Reference-scirex-v6-70b-7cecddd1-66437b32",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 52680,
+    "tokens_out": 2719,
+    "cost_usd": 0.029511799999999998,
+    "wall_time_seconds": 93.65061695902841,
+    "voting_samples": 3
+  }
+}

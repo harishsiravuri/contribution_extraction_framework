@@ -1,0 +1,97 @@
+{
+  "paper_id": "nlp_tdms:wang13a",
+  "contributions": [
+    {
+      "method": {
+        "name": "Fast dropout training",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 54
+        },
+        "confidence": 0.9
+      },
+      "task": {
+        "name": "classification, regression, and multilayer neural networks",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 1108,
+          "end": 1179
+        },
+        "confidence": 0.8
+      },
+      "datasets": [
+        {
+          "name": "MNIST",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 7565,
+            "end": 7570
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "CIFAR",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 8512,
+            "end": 8517
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "20-newsgroup",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 7441,
+            "end": 7453
+          },
+          "confidence": 0.8
+        }
+      ],
+      "metrics": [
+        {
+          "name": "validation error",
+          "value": null,
+          "unit": "%",
+          "evidence_span": {
+            "start": 7781,
+            "end": 7796
+          },
+          "confidence": 0.7
+        },
+        {
+          "name": "training speed",
+          "value": null,
+          "unit": "times faster",
+          "evidence_span": {
+            "start": 1199,
+            "end": 1214
+          },
+          "confidence": 0.8
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "MC dropout"
+      ],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "PARTIAL",
+        "task": "PARTIAL",
+        "datasets": "PARTIAL",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "(none)",
+    "consolidator_model": "(none)",
+    "tokens_in": 5084,
+    "tokens_out": 512,
+    "cost_usd": 0.00208256,
+    "wall_time_seconds": 16.606585457979236,
+    "voting_samples": 1
+  }
+}

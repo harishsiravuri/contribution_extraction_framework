@@ -1,0 +1,56 @@
+{
+  "paper_id": "tdmsci:test_500_v2:01343",
+  "contributions": [
+    {
+      "method": {
+        "name": "frame and argument identification models",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 156,
+          "end": 184
+        },
+        "confidence": 0.3333333333333333
+      },
+      "task": {
+        "name": "frame identification",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 10,
+          "end": 35
+        },
+        "confidence": 0.6666666666666666
+      },
+      "datasets": [
+        {
+          "name": "FrameNet 1.5",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 130,
+            "end": 143
+          },
+          "confidence": 0.6666666666666666
+        }
+      ],
+      "metrics": [],
+      "claim_strength": "applies",
+      "comparison_targets": [],
+      "self_consistency": 0.5555555555555556,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "UNSUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 5276,
+    "tokens_out": 1553,
+    "cost_usd": 0.00368704,
+    "wall_time_seconds": 36.721851458074525,
+    "voting_samples": 3
+  }
+}

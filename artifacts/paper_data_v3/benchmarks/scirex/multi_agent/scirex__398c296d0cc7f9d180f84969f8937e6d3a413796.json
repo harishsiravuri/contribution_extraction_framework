@@ -1,0 +1,154 @@
+{
+  "paper_id": "scirex:398c296d0cc7f9d180f84969f8937e6d3a413796",
+  "contributions": [
+    {
+      "method": {
+        "name": "Multi-column Deep Neural Network (MCDNN)",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 395,
+          "end": 506
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "image classification",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 77,
+          "end": 94
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "MNIST",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 395,
+            "end": 618
+          },
+          "confidence": 0.5
+        },
+        {
+          "name": "NIST SD 19",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1639,
+            "end": 1700
+          },
+          "confidence": 0.5
+        },
+        {
+          "name": "CASIA",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2202,
+            "end": 2291
+          },
+          "confidence": 0.5
+        },
+        {
+          "name": "GTSRB",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 3967,
+            "end": 4004
+          },
+          "confidence": 0.5
+        },
+        {
+          "name": "CIFAR10",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 5023,
+            "end": 5065
+          },
+          "confidence": 0.5
+        },
+        {
+          "name": "NORB",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 6421,
+            "end": 6456
+          },
+          "confidence": 0.5
+        }
+      ],
+      "metrics": [
+        {
+          "name": "error rate",
+          "value": 0.23,
+          "unit": "%",
+          "evidence_span": {
+            "start": 1394,
+            "end": 1559
+          },
+          "confidence": 0.5
+        },
+        {
+          "name": "error rate",
+          "value": 6.5,
+          "unit": "%",
+          "evidence_span": {
+            "start": 2979,
+            "end": 3019
+          },
+          "confidence": 0.5
+        },
+        {
+          "name": "error rate",
+          "value": 0.54,
+          "unit": "%",
+          "evidence_span": {
+            "start": 3967,
+            "end": 4031
+          },
+          "confidence": 0.5
+        },
+        {
+          "name": "error rate",
+          "value": 11.21,
+          "unit": "%",
+          "evidence_span": {
+            "start": 6189,
+            "end": 6209
+          },
+          "confidence": 0.5
+        },
+        {
+          "name": "error rate",
+          "value": 2.7,
+          "unit": "%",
+          "evidence_span": {
+            "start": 7248,
+            "end": 7264
+          },
+          "confidence": 0.5
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "previous methods"
+      ],
+      "self_consistency": 0.83,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 36463,
+    "tokens_out": 7652,
+    "cost_usd": 0.02241269,
+    "wall_time_seconds": 168.94848654197995,
+    "voting_samples": 3
+  }
+}

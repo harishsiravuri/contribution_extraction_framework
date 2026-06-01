@@ -1,0 +1,90 @@
+# --- Secrets ---
+.env
+.env.local
+.env.*.local
+*.key
+*_key.txt
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+*.egg
+.eggs/
+build/
+dist/
+lib/
+lib64/
+parts/
+var/
+wheels/
+sdist/
+develop-eggs/
+.installed.cfg
+.Python
+.venv/
+venv/
+ENV/
+env/
+
+# --- Testing / type-check caches ---
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+coverage.xml
+*.cover
+.mypy_cache/
+.ruff_cache/
+.pyre/
+pytest-cache-files-*/
+
+# --- IDE / editor ---
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+.claude/
+
+# --- Project: data and intermediate artifacts ---
+# Raw and processed datasets are deposited separately (Zenodo); not in repo.
+data/raw/
+data/processed/
+data/intermediate/
+data/cache/
+
+# Per-paper extracted records (too large + not needed for code reproducibility).
+# Final summary JSONs and RESULTS.md should be copied to results/ manually
+# if you want them tracked.
+outputs/
+
+# Local pilot corpus (download separately via scripts/fetch_arxiv_bulk.py).
+examples/pilot_corpus/
+examples/pilot_corpus_v2/
+examples/papers/
+
+# --- Project: LaTeX manuscript (lives in latex/ alongside the repo) ---
+# The latex/ folder is intentionally NOT in the code repo per the project
+# README. If you put it here anyway, it stays out of git.
+latex/
+manuscript/
+
+# --- Logs and runtime ---
+*.log
+runs/
+checkpoints/
+
+# --- Model artifacts (fine-tune outputs) ---
+# Together / Fireworks model IDs and per-job metadata may contain
+# usernames; redact before anonymous upload.
+finetune_meta.json
+*_finetune_meta.json
+together_endpoint_*.json
+
+# --- OS ---
+*.icloud

@@ -1,0 +1,64 @@
+{
+  "paper_id": "tdmsci:test_500_v2:01243",
+  "contributions": [
+    {
+      "method": {
+        "name": null,
+        "canonical_id": null,
+        "evidence_span": null,
+        "confidence": 0.0
+      },
+      "task": {
+        "name": "sentiment analysis",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 50,
+          "end": 65
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "Stanford Sentiment Treebank",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 50,
+            "end": 71
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 30,
+            "end": 38
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [],
+      "self_consistency": 0.8333333333333334,
+      "critic_verdict": {
+        "method": "UNSUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 5408,
+    "tokens_out": 1947,
+    "cost_usd": 0.00412403,
+    "wall_time_seconds": 41.66756720887497,
+    "voting_samples": 3
+  }
+}

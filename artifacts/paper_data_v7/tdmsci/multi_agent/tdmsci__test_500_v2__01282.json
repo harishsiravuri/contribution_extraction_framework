@@ -1,0 +1,169 @@
+{
+  "paper_id": "tdmsci:test_500_v2:01282",
+  "contributions": [
+    {
+      "method": {
+        "name": null,
+        "canonical_id": null,
+        "evidence_span": null,
+        "confidence": 0.0
+      },
+      "task": {
+        "name": "natural language inference",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 80,
+          "end": 86
+        },
+        "confidence": 0.5
+      },
+      "datasets": [
+        {
+          "name": "GLUE",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 78,
+            "end": 82
+          },
+          "confidence": 0.5
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": 80.4,
+          "unit": "%",
+          "evidence_span": {
+            "start": 84,
+            "end": 88
+          },
+          "confidence": 0.5
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "previous state-of-the-art"
+      ],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "UNSUPPORTED",
+        "task": "UNSUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    },
+    {
+      "method": {
+        "name": null,
+        "canonical_id": null,
+        "evidence_span": null,
+        "confidence": 0.0
+      },
+      "task": {
+        "name": "natural language inference",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 129,
+          "end": 136
+        },
+        "confidence": 0.5
+      },
+      "datasets": [
+        {
+          "name": "MultiNLI",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 129,
+            "end": 136
+          },
+          "confidence": 0.5
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": 86.7,
+          "unit": "%",
+          "evidence_span": {
+            "start": 138,
+            "end": 142
+          },
+          "confidence": 0.5
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "previous state-of-the-art"
+      ],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "UNSUPPORTED",
+        "task": "UNSUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    },
+    {
+      "method": {
+        "name": null,
+        "canonical_id": null,
+        "evidence_span": null,
+        "confidence": 0.0
+      },
+      "task": {
+        "name": "question answering",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 178,
+          "end": 188
+        },
+        "confidence": 0.5
+      },
+      "datasets": [
+        {
+          "name": "SQuAD v1.1",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 178,
+            "end": 188
+          },
+          "confidence": 0.5
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 93.2,
+          "unit": null,
+          "evidence_span": {
+            "start": 190,
+            "end": 194
+          },
+          "confidence": 0.5
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "previous state-of-the-art",
+        "human performance"
+      ],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "UNSUPPORTED",
+        "task": "UNSUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 8717,
+    "tokens_out": 5014,
+    "cost_usd": 0.00854968,
+    "wall_time_seconds": 81.82616524980403,
+    "voting_samples": 3
+  }
+}

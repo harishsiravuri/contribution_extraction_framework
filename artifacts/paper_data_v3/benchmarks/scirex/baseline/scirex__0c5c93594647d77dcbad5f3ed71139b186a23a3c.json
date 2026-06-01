@@ -1,0 +1,162 @@
+{
+  "paper_id": "scirex:0c5c93594647d77dcbad5f3ed71139b186a23a3c",
+  "contributions": [
+    {
+      "method": {
+        "name": "Neural Machine Translation with Monolingual Data via Backtranslation",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 167,
+          "end": 335
+        },
+        "confidence": 0.9
+      },
+      "task": {
+        "name": "Machine Translation",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 38,
+          "end": 91
+        },
+        "confidence": 0.95
+      },
+      "datasets": [
+        {
+          "name": "WMT 15 English↔German",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 349,
+            "end": 385
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "IWSLT 14 Turkish→English",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 390,
+            "end": 432
+          },
+          "confidence": 0.9
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 2.8,
+          "unit": null,
+          "evidence_span": {
+            "start": 349,
+            "end": 385
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "BLEU",
+          "value": 3.7,
+          "unit": null,
+          "evidence_span": {
+            "start": 349,
+            "end": 385
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "BLEU",
+          "value": 2.1,
+          "unit": null,
+          "evidence_span": {
+            "start": 390,
+            "end": 432
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "BLEU",
+          "value": 3.4,
+          "unit": null,
+          "evidence_span": {
+            "start": 390,
+            "end": 432
+          },
+          "confidence": 0.9
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "previous NMT systems"
+      ],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "PARTIAL",
+        "task": "PARTIAL",
+        "datasets": "PARTIAL",
+        "metrics": "PARTIAL"
+      }
+    },
+    {
+      "method": {
+        "name": "Domain Adaptation via Fine-tuning with Monolingual Data",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 2322,
+          "end": 2416
+        },
+        "confidence": 0.8
+      },
+      "task": {
+        "name": "Machine Translation",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 2322,
+          "end": 2416
+        },
+        "confidence": 0.95
+      },
+      "datasets": [
+        {
+          "name": "IWSLT 15 English→German",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2322,
+            "end": 2416
+          },
+          "confidence": 0.8
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 2322,
+            "end": 2416
+          },
+          "confidence": 0.7
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "baseline NMT systems"
+      ],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "PARTIAL",
+        "task": "PARTIAL",
+        "datasets": "PARTIAL",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "(none)",
+    "consolidator_model": "(none)",
+    "tokens_in": 6962,
+    "tokens_out": 861,
+    "cost_usd": 0.0029941300000000002,
+    "wall_time_seconds": 31.3569877500413,
+    "voting_samples": 1
+  }
+}

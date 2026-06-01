@@ -1,0 +1,138 @@
+{
+  "paper_id": "scirex:19d583bf8c5533d1261ccdc068fdc3ef53b9ffb9",
+  "contributions": [
+    {
+      "method": {
+        "name": "FaceNet",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 47
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "face verification",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 48,
+          "end": 63
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "Labeled Faces in the Wild (LFW)",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1015,
+            "end": 1043
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "YouTube Faces DB",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 722,
+            "end": 782
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": 99.63,
+          "unit": "%",
+          "evidence_span": {
+            "start": 1045,
+            "end": 1055
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "accuracy",
+          "value": 95.12,
+          "unit": "%",
+          "evidence_span": {
+            "start": 722,
+            "end": 782
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "DeepFace",
+        "DeepId2+"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    },
+    {
+      "method": {
+        "name": "FaceNet",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 47
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "face clustering",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 64,
+          "end": 78
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "personal photo collections",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 3643,
+            "end": 3669
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": null,
+          "unit": null,
+          "evidence_span": null,
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "novel",
+      "comparison_targets": [],
+      "self_consistency": 1.0,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "DISABLED (E2 critic-off ablation)",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 23182,
+    "tokens_out": 2937,
+    "cost_usd": 0.01096258,
+    "wall_time_seconds": 85.88709558313712,
+    "voting_samples": 3
+  }
+}

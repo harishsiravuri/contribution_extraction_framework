@@ -1,0 +1,130 @@
+{
+  "paper_id": "scirex:1d73144204eb1604b26cd57ef75536f0f2753c69",
+  "contributions": [
+    {
+      "method": {
+        "name": "subcategory-aware CNNs",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 98,
+          "end": 137
+        },
+        "confidence": 0.9
+      },
+      "task": {
+        "name": "object detection and pose estimation",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 401,
+          "end": 459
+        },
+        "confidence": 0.9
+      },
+      "datasets": [
+        {
+          "name": "KITTI",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2069,
+            "end": 2074
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "PASCAL3D+",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2076,
+            "end": 2087
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "PASCAL VOC 2007",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2089,
+            "end": 2106
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Average Precision (AP)",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 2361,
+            "end": 2382
+          },
+          "confidence": 0.8
+        },
+        {
+          "name": "Average Orientation Similarity (AOS)",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 2437,
+            "end": 2473
+          },
+          "confidence": 0.8
+        },
+        {
+          "name": "Average Segmentation Accuracy (ASA)",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 2530,
+            "end": 2561
+          },
+          "confidence": 0.8
+        },
+        {
+          "name": "Average Location Precision (ALP)",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 2566,
+            "end": 2592
+          },
+          "confidence": 0.8
+        },
+        {
+          "name": "Average Viewpoint Precision (AVP)",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 2818,
+            "end": 2845
+          },
+          "confidence": 0.8
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Faster R-CNN",
+        "VDPM",
+        "DPM-VOC+VP",
+        "Fast R-CNN"
+      ],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "PARTIAL",
+        "task": "PARTIAL",
+        "datasets": "PARTIAL",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "(none)",
+    "consolidator_model": "(none)",
+    "tokens_in": 7487,
+    "tokens_out": 679,
+    "cost_usd": 0.00300015,
+    "wall_time_seconds": 26.019861124979798,
+    "voting_samples": 1
+  }
+}

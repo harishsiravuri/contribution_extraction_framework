@@ -1,0 +1,56 @@
+{
+  "n_built": 300,
+  "n_excluded_over_token_limit": 6,
+  "excluded": [
+    {
+      "paper_id": "scirex:01959ef569f74c286956024866c1d107099199f7",
+      "est_tokens": 17952
+    },
+    {
+      "paper_id": "scirex:02e85d62fbd8249a046d00ac10e39546511b2a51",
+      "est_tokens": 18449
+    },
+    {
+      "paper_id": "scirex:061c05faf3d68a7bdade9d4debeab369e2f9746c",
+      "est_tokens": 17675
+    },
+    {
+      "paper_id": "scirex:0ecd4fdce541317b38124967b5c2a259d8f43c91",
+      "est_tokens": 21040
+    },
+    {
+      "paper_id": "scirex:231af7dc01a166cac3b5b01ca05778238f796e41",
+      "est_tokens": 16534
+    },
+    {
+      "paper_id": "scirex:3b9732bb07dc99bde5e1f9f75251c6ea5039373e",
+      "est_tokens": 16445
+    }
+  ],
+  "n_train": 270,
+  "n_val": 30,
+  "val_frac": 0.1,
+  "seed": 43,
+  "chars_per_example": {
+    "min": 12270,
+    "p50": 35313,
+    "p95": 51766,
+    "max": 63795,
+    "mean": 35763
+  },
+  "est_tokens_per_example": {
+    "min": 3067,
+    "p50": 8828,
+    "p95": 12941,
+    "max": 15948,
+    "mean": 8940
+  },
+  "contributions_per_example": {
+    "min": 1,
+    "p50": 2,
+    "p95": 10,
+    "max": 52
+  },
+  "train_jsonl": "outputs/paper_data_v6/scirex_finetune_train.jsonl",
+  "val_jsonl": "outputs/paper_data_v6/scirex_finetune_val.jsonl"
+}

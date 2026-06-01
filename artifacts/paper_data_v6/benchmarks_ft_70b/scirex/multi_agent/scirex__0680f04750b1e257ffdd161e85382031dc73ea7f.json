@@ -1,0 +1,77 @@
+{
+  "paper_id": "scirex:0680f04750b1e257ffdd161e85382031dc73ea7f",
+  "contributions": [
+    {
+      "method": {
+        "name": "dynamic chunk reader",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 190,
+          "end": 207
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "question answering",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 146,
+          "end": 173
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "squad",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2646,
+            "end": 2651
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "em",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 3431,
+            "end": 3433
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "f1",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 3441,
+            "end": 3443
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [],
+      "self_consistency": 1.0,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "harishsiravuri_e088/Meta-Llama-3.1-70B-Instruct-Reference-scirex-v6-70b-7cecddd1-66437b32",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 27654,
+    "tokens_out": 2099,
+    "cost_usd": 0.01597058,
+    "wall_time_seconds": 52.91237341699889,
+    "voting_samples": 3
+  }
+}

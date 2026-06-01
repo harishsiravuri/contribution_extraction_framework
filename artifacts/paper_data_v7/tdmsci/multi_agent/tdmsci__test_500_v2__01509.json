@@ -1,0 +1,73 @@
+{
+  "paper_id": "tdmsci:test_500_v2:01509",
+  "contributions": [
+    {
+      "method": {
+        "name": "one feature",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 53,
+          "end": 63
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": null,
+        "canonical_id": null,
+        "evidence_span": null,
+        "confidence": 0.0
+      },
+      "datasets": [
+        {
+          "name": "NIST CE_LD",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 41,
+            "end": 50
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "NIST CE_SD",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 51,
+            "end": 60
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": null,
+          "unit": "%",
+          "evidence_span": {
+            "start": 15,
+            "end": 19
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": null,
+      "comparison_targets": [],
+      "self_consistency": 0.8333333333333334,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "UNSUPPORTED",
+        "datasets": "PARTIAL",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 5073,
+    "tokens_out": 1589,
+    "cost_usd": 0.0036446200000000003,
+    "wall_time_seconds": 27.130365499993786,
+    "voting_samples": 3
+  }
+}

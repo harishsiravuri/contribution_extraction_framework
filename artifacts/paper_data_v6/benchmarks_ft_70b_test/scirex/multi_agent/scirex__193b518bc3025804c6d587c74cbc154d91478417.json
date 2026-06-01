@@ -1,0 +1,73 @@
+{
+  "paper_id": "scirex:193b518bc3025804c6d587c74cbc154d91478417",
+  "contributions": [
+    {
+      "method": {
+        "name": "multi-level adversarial learning",
+        "canonical_id": null,
+        "evidence_span": null,
+        "confidence": 0.5
+      },
+      "task": {
+        "name": "semantic segmentation",
+        "canonical_id": null,
+        "evidence_span": null,
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "gta5",
+          "canonical_id": null,
+          "evidence_span": null,
+          "confidence": 0.5
+        },
+        {
+          "name": "synthia",
+          "canonical_id": null,
+          "evidence_span": null,
+          "confidence": 0.5
+        },
+        {
+          "name": "cityscapes",
+          "canonical_id": null,
+          "evidence_span": null,
+          "confidence": 0.25
+        },
+        {
+          "name": "cross-city",
+          "canonical_id": null,
+          "evidence_span": null,
+          "confidence": 0.25
+        }
+      ],
+      "metrics": [
+        {
+          "name": "miou",
+          "value": null,
+          "unit": null,
+          "evidence_span": null,
+          "confidence": 0.75
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [],
+      "self_consistency": 0.625,
+      "critic_verdict": {
+        "method": "UNSUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "harishsiravuri_e088/Meta-Llama-3.1-70B-Instruct-Reference-scirex-v6-70b-7cecddd1-66437b32",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 27843,
+    "tokens_out": 2882,
+    "cost_usd": 0.01667095,
+    "wall_time_seconds": 71.37307820800925,
+    "voting_samples": 3
+  }
+}

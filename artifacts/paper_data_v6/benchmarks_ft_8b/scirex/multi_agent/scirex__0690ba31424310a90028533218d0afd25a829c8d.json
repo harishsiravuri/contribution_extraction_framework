@@ -1,0 +1,67 @@
+{
+  "paper_id": "scirex:0690ba31424310a90028533218d0afd25a829c8d",
+  "contributions": [
+    {
+      "method": {
+        "name": "deeplab",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 1551,
+          "end": 1558
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "semantic segmentation",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 216,
+          "end": 236
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "pascal voc 2012",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 4441,
+            "end": 4457
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "mean iou",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 4634,
+            "end": 4643
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [],
+      "self_consistency": 0.8333333333333334,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "harishsiravuri_e088/Meta-Llama-3.1-8B-Instruct-Reference-scirex-v6-bf594110-52031aad",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 30024,
+    "tokens_out": 1327,
+    "cost_usd": 0.01666889,
+    "wall_time_seconds": 47.12801300000865,
+    "voting_samples": 3
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "paper_id": "tdmsci:train_1500_v2:00013",
+  "contributions": [
+    {
+      "method": {
+        "name": null,
+        "canonical_id": null,
+        "evidence_span": null,
+        "confidence": 0.0
+      },
+      "task": {
+        "name": null,
+        "canonical_id": null,
+        "evidence_span": null,
+        "confidence": 0.0
+      },
+      "datasets": [],
+      "metrics": [
+        {
+          "name": "average polysemy",
+          "value": 1.3,
+          "unit": null,
+          "evidence_span": {
+            "start": 4,
+            "end": 19
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "average polysemy",
+          "value": 2.5,
+          "unit": null,
+          "evidence_span": {
+            "start": 24,
+            "end": 42
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "average polysemy (excluding monosemous words)",
+          "value": 2.8,
+          "unit": null,
+          "evidence_span": {
+            "start": 48,
+            "end": 81
+          },
+          "confidence": 0.8
+        },
+        {
+          "name": "average polysemy (excluding monosemous words)",
+          "value": 4.7,
+          "unit": null,
+          "evidence_span": {
+            "start": 48,
+            "end": 81
+          },
+          "confidence": 0.8
+        }
+      ],
+      "claim_strength": null,
+      "comparison_targets": [],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "PARTIAL",
+        "task": "PARTIAL",
+        "datasets": "PARTIAL",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "(none)",
+    "consolidator_model": "(none)",
+    "tokens_in": 582,
+    "tokens_out": 412,
+    "cost_usd": 0.00055292,
+    "wall_time_seconds": 10.74900324997725,
+    "voting_samples": 1
+  }
+}

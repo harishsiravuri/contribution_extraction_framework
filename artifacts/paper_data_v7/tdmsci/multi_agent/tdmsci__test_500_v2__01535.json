@@ -1,0 +1,53 @@
+{
+  "paper_id": "tdmsci:test_500_v2:01535",
+  "contributions": [
+    {
+      "method": {
+        "name": null,
+        "canonical_id": null,
+        "evidence_span": null,
+        "confidence": 0.0
+      },
+      "task": {
+        "name": "dependency parsing",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 30,
+          "end": 47
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "PASCAL Shared Task",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 120,
+            "end": 140
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [],
+      "claim_strength": null,
+      "comparison_targets": [],
+      "self_consistency": 0.6666666666666666,
+      "critic_verdict": {
+        "method": "UNSUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "UNSUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 5123,
+    "tokens_out": 1644,
+    "cost_usd": 0.00369534,
+    "wall_time_seconds": 42.34261833317578,
+    "voting_samples": 3
+  }
+}

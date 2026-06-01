@@ -1,0 +1,131 @@
+{
+  "paper_id": "arxiv:2605.28890",
+  "contributions": [
+    {
+      "method": {
+        "name": "BiCoT",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 190,
+          "end": 195
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "watermarking",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 43,
+          "end": 53
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "diverse complex reasoning tasks",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 758,
+            "end": 786
+          },
+          "confidence": 0.3333333333333333
+        }
+      ],
+      "metrics": [
+        {
+          "name": "reasoning fidelity",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 543,
+            "end": 560
+          },
+          "confidence": 0.3333333333333333
+        },
+        {
+          "name": "robust detection",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 758,
+            "end": 773
+          },
+          "confidence": 0.3333333333333333
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "black-box watermarking methods"
+      ],
+      "self_consistency": 0.6153846153846154,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    },
+    {
+      "method": {
+        "name": "Robust Subspace Registration (RSR)",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 493,
+          "end": 523
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "watermark verification",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 493,
+          "end": 518
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "in-domain and out-of-distribution settings",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 807,
+            "end": 846
+          },
+          "confidence": 0.3333333333333333
+        }
+      ],
+      "metrics": [
+        {
+          "name": "robust detection",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 758,
+            "end": 773
+          },
+          "confidence": 0.3333333333333333
+        }
+      ],
+      "claim_strength": null,
+      "comparison_targets": [],
+      "self_consistency": 0.5384615384615384,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "UNSUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 7235,
+    "tokens_out": 3006,
+    "cost_usd": 0.00595308,
+    "wall_time_seconds": 61.07399966707453,
+    "voting_samples": 3
+  }
+}

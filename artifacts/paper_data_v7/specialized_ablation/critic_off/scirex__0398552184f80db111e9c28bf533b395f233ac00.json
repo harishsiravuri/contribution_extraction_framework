@@ -1,0 +1,55 @@
+{
+  "paper_id": "scirex:0398552184f80db111e9c28bf533b395f233ac00",
+  "contributions": [
+    {
+      "method": {
+        "name": "self-paced curriculum learning",
+        "canonical_id": null,
+        "evidence_span": null,
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "weakly-supervised object detection",
+        "canonical_id": null,
+        "evidence_span": null,
+        "confidence": 0.6666666666666666
+      },
+      "datasets": [
+        {
+          "name": "pascal voc 2007",
+          "canonical_id": null,
+          "evidence_span": null,
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "map",
+          "value": null,
+          "unit": null,
+          "evidence_span": null,
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [],
+      "self_consistency": 0.875,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "harishsiravuri_e088/Meta-Llama-3.1-70B-Instruct-Reference-scirex-v6-70b-7cecddd1-66437b32",
+    "critic_model": "DISABLED (E4 critic-off ablation)",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 18369,
+    "tokens_out": 838,
+    "cost_usd": 0.00981474,
+    "wall_time_seconds": 10.901234459131956,
+    "voting_samples": 3
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "paper_id": "scirex:2138a7127429d67746ec78de46d6820fee0e548e",
+  "contributions": [
+    {
+      "method": {
+        "name": "graph2seq",
+        "canonical_id": null,
+        "evidence_span": null,
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "graph-to-sequence learning",
+        "canonical_id": null,
+        "evidence_span": null,
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "babi",
+          "canonical_id": null,
+          "evidence_span": null,
+          "confidence": 1.0
+        },
+        {
+          "name": "shortest path",
+          "canonical_id": null,
+          "evidence_span": null,
+          "confidence": 1.0
+        },
+        {
+          "name": "wikisql",
+          "canonical_id": null,
+          "evidence_span": null,
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": null,
+          "unit": null,
+          "evidence_span": null,
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "PARTIAL",
+        "task": "PARTIAL",
+        "datasets": "PARTIAL",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "harishsiravuri_e088/Meta-Llama-3.1-70B-Instruct-Reference-scirex-v6-70b-7cecddd1-66437b32",
+    "critic_model": "(none)",
+    "consolidator_model": "(none)",
+    "tokens_in": 9786,
+    "tokens_out": 330,
+    "cost_usd": 0.005058,
+    "wall_time_seconds": 4.434017916035373,
+    "voting_samples": 1
+  }
+}

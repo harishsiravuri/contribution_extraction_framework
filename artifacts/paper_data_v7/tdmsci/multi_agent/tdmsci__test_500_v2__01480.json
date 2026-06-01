@@ -1,0 +1,58 @@
+{
+  "paper_id": "tdmsci:test_500_v2:01480",
+  "contributions": [
+    {
+      "method": {
+        "name": "Reinforcement Learning",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 28,
+          "end": 50
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "multi-label classification",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 24
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "Time-series Data",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 86,
+            "end": 101
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [],
+      "claim_strength": null,
+      "comparison_targets": [
+        "Multi-label Classification"
+      ],
+      "self_consistency": 0.7777777777777778,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "UNSUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 5667,
+    "tokens_out": 1986,
+    "cost_usd": 0.00432204,
+    "wall_time_seconds": 61.99662437499501,
+    "voting_samples": 3
+  }
+}

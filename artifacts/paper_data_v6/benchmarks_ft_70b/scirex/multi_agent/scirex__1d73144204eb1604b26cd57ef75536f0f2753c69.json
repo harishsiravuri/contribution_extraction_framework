@@ -1,0 +1,105 @@
+{
+  "paper_id": "scirex:1d73144204eb1604b26cd57ef75536f0f2753c69",
+  "contributions": [
+    {
+      "method": {
+        "name": "subcnn",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 195,
+          "end": 200
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "object detection",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 146,
+          "end": 163
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "kitti",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 4441,
+            "end": 4446
+          },
+          "confidence": 0.5
+        },
+        {
+          "name": "pascal3d+",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 4556,
+            "end": 4566
+          },
+          "confidence": 0.5
+        },
+        {
+          "name": "pascal voc 2007",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 4683,
+            "end": 4696
+          },
+          "confidence": 0.5
+        }
+      ],
+      "metrics": [
+        {
+          "name": "ap",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 4631,
+            "end": 4633
+          },
+          "confidence": 0.5
+        },
+        {
+          "name": "map",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 4644,
+            "end": 4647
+          },
+          "confidence": 0.5
+        },
+        {
+          "name": "avp",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 4821,
+            "end": 4824
+          },
+          "confidence": 0.5
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [],
+      "self_consistency": 0.875,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "harishsiravuri_e088/Meta-Llama-3.1-70B-Instruct-Reference-scirex-v6-70b-7cecddd1-66437b32",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 37330,
+    "tokens_out": 5241,
+    "cost_usd": 0.02340802,
+    "wall_time_seconds": 101.27347158297198,
+    "voting_samples": 3
+  }
+}

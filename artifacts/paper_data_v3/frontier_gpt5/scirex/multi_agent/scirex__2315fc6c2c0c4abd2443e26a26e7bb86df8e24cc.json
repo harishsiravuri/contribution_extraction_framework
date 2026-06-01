@@ -1,0 +1,95 @@
+{
+  "paper_id": "scirex:2315fc6c2c0c4abd2443e26a26e7bb86df8e24cc",
+  "contributions": [
+    {
+      "method": {
+        "name": "convolutional neural network",
+        "canonical_id": null,
+        "evidence_span": null,
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "image classification",
+        "canonical_id": null,
+        "evidence_span": null,
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "ImageNet ILSVRC-2010",
+          "canonical_id": null,
+          "evidence_span": null,
+          "confidence": 1.0
+        },
+        {
+          "name": "ImageNet ILSVRC-2012",
+          "canonical_id": null,
+          "evidence_span": null,
+          "confidence": 1.0
+        },
+        {
+          "name": "ImageNet Fall 2009",
+          "canonical_id": null,
+          "evidence_span": null,
+          "confidence": 1.0
+        },
+        {
+          "name": "CIFAR-10",
+          "canonical_id": null,
+          "evidence_span": null,
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "top-1 error",
+          "value": 37.5,
+          "unit": "%",
+          "evidence_span": null,
+          "confidence": 1.0
+        },
+        {
+          "name": "top-5 error",
+          "value": 17.0,
+          "unit": "%",
+          "evidence_span": null,
+          "confidence": 1.0
+        },
+        {
+          "name": "error rate",
+          "value": 11.0,
+          "unit": "%",
+          "evidence_span": null,
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "47.1% (sparse-coding models, ILSVRC-2010)",
+        "45.7% (Fisher Vectors, ILSVRC-2010)",
+        "28.2% (sparse-coding models, ILSVRC-2010)",
+        "25.7% (Fisher Vectors, ILSVRC-2010)",
+        "78.1% (best published, ImageNet Fall 2009)",
+        "60.9% (best published, ImageNet Fall 2009)",
+        "26.2% (second-best entry, ILSVRC-2012)"
+      ],
+      "self_consistency": 0.95,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "openai/gpt-5",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 46159,
+    "tokens_out": 27982,
+    "cost_usd": 0.26084955,
+    "wall_time_seconds": 158.46114445803687,
+    "voting_samples": 3
+  }
+}

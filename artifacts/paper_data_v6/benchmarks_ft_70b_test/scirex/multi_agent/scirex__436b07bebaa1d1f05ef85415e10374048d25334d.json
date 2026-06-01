@@ -1,0 +1,95 @@
+{
+  "paper_id": "scirex:436b07bebaa1d1f05ef85415e10374048d25334d",
+  "contributions": [
+    {
+      "method": {
+        "name": "moe",
+        "canonical_id": null,
+        "evidence_span": null,
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "language modelling",
+        "canonical_id": null,
+        "evidence_span": null,
+        "confidence": 0.6666666666666666
+      },
+      "datasets": [
+        {
+          "name": "1 billion word language modelling benchmark",
+          "canonical_id": null,
+          "evidence_span": null,
+          "confidence": 0.6666666666666666
+        }
+      ],
+      "metrics": [
+        {
+          "name": "perplexity",
+          "value": null,
+          "unit": null,
+          "evidence_span": null,
+          "confidence": 0.6666666666666666
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [],
+      "self_consistency": 0.7272727272727273,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    },
+    {
+      "method": {
+        "name": "moe",
+        "canonical_id": null,
+        "evidence_span": null,
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "machine translation",
+        "canonical_id": null,
+        "evidence_span": null,
+        "confidence": 0.6666666666666666
+      },
+      "datasets": [
+        {
+          "name": "wmt2014 english-french",
+          "canonical_id": null,
+          "evidence_span": null,
+          "confidence": 0.6666666666666666
+        }
+      ],
+      "metrics": [
+        {
+          "name": "bleu score",
+          "value": null,
+          "unit": null,
+          "evidence_span": null,
+          "confidence": 0.6666666666666666
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [],
+      "self_consistency": 0.7272727272727273,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "harishsiravuri_e088/Meta-Llama-3.1-70B-Instruct-Reference-scirex-v6-70b-7cecddd1-66437b32",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 44069,
+    "tokens_out": 3132,
+    "cost_usd": 0.02528567,
+    "wall_time_seconds": 46.34947908303002,
+    "voting_samples": 3
+  }
+}

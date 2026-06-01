@@ -1,0 +1,109 @@
+{
+  "paper_id": "scirex:0910a4c470a410fac446f4026f7c8ef512ae7427",
+  "contributions": [
+    {
+      "method": {
+        "name": "hierarchical co-attention model",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 178,
+          "end": 207
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "visual question answering",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 93,
+          "end": 117
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "VQA",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 300,
+            "end": 307
+          },
+          "confidence": 0.75
+        },
+        {
+          "name": "COCO-QA",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 333,
+            "end": 342
+          },
+          "confidence": 0.75
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": 60.5,
+          "unit": "%",
+          "evidence_span": {
+            "start": 300,
+            "end": 327
+          },
+          "confidence": 0.5
+        },
+        {
+          "name": "accuracy",
+          "value": 63.3,
+          "unit": "%",
+          "evidence_span": {
+            "start": 333,
+            "end": 361
+          },
+          "confidence": 0.5
+        },
+        {
+          "name": "accuracy",
+          "value": 62.1,
+          "unit": "%",
+          "evidence_span": {
+            "start": 396,
+            "end": 419
+          },
+          "confidence": 0.5
+        },
+        {
+          "name": "accuracy",
+          "value": 65.4,
+          "unit": "%",
+          "evidence_span": {
+            "start": 424,
+            "end": 452
+          },
+          "confidence": 0.5
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "state-of-the-art on the VQA dataset",
+        "state-of-the-art on the COCO-QA dataset"
+      ],
+      "self_consistency": 0.875,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 30178,
+    "tokens_out": 4981,
+    "cost_usd": 0.017046119999999998,
+    "wall_time_seconds": 150.27334012498613,
+    "voting_samples": 3
+  }
+}

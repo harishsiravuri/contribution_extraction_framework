@@ -1,0 +1,153 @@
+{
+  "paper_id": "tdmsci:test_500_v2:01288",
+  "contributions": [
+    {
+      "method": {
+        "name": null,
+        "canonical_id": null,
+        "evidence_span": null,
+        "confidence": 0.0
+      },
+      "task": {
+        "name": "POS tagging",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 28,
+          "end": 39
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": null,
+          "canonical_id": null,
+          "evidence_span": null,
+          "confidence": 0.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 24,
+            "end": 33
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": null,
+      "comparison_targets": [],
+      "self_consistency": 0.6666666666666666,
+      "critic_verdict": {
+        "method": "UNSUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "UNSUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    },
+    {
+      "method": {
+        "name": null,
+        "canonical_id": null,
+        "evidence_span": null,
+        "confidence": 0.0
+      },
+      "task": {
+        "name": "chunking",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 45,
+          "end": 52
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": null,
+          "canonical_id": null,
+          "evidence_span": null,
+          "confidence": 0.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 53,
+            "end": 55
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": null,
+      "comparison_targets": [],
+      "self_consistency": 0.6666666666666666,
+      "critic_verdict": {
+        "method": "UNSUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "UNSUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    },
+    {
+      "method": {
+        "name": null,
+        "canonical_id": null,
+        "evidence_span": null,
+        "confidence": 0.0
+      },
+      "task": {
+        "name": "named entity recognition",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 61,
+          "end": 74
+        },
+        "confidence": 0.6666666666666666
+      },
+      "datasets": [
+        {
+          "name": null,
+          "canonical_id": null,
+          "evidence_span": null,
+          "confidence": 0.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 53,
+            "end": 55
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": null,
+      "comparison_targets": [],
+      "self_consistency": 0.5555555555555556,
+      "critic_verdict": {
+        "method": "UNSUPPORTED",
+        "task": "PARTIAL",
+        "datasets": "UNSUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 6423,
+    "tokens_out": 3158,
+    "cost_usd": 0.00577895,
+    "wall_time_seconds": 44.69363445811905,
+    "voting_samples": 3
+  }
+}

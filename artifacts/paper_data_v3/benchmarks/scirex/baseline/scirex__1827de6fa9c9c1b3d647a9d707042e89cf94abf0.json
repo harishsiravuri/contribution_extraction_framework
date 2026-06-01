@@ -1,0 +1,110 @@
+{
+  "paper_id": "scirex:1827de6fa9c9c1b3d647a9d707042e89cf94abf0",
+  "contributions": [
+    {
+      "method": {
+        "name": "Batch Normalization",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 251,
+          "end": 341
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "ImageNet classification",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 4892,
+          "end": 4915
+        },
+        "confidence": 0.9
+      },
+      "datasets": [
+        {
+          "name": "ImageNet",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 4873,
+            "end": 4881
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "MNIST",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 3603,
+            "end": 3608
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "top-5 validation error",
+          "value": 4.9,
+          "unit": "%",
+          "evidence_span": {
+            "start": 540,
+            "end": 570
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "top-5 test error",
+          "value": 4.8,
+          "unit": "%",
+          "evidence_span": {
+            "start": 572,
+            "end": 594
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "training speedup",
+          "value": 14.0,
+          "unit": "times fewer training steps",
+          "evidence_span": {
+            "start": 413,
+            "end": 452
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "validation accuracy",
+          "value": 74.8,
+          "unit": "%",
+          "evidence_span": {
+            "start": 6535,
+            "end": 6545
+          },
+          "confidence": 0.9
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "original model",
+        "human raters",
+        "previous best results"
+      ],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "PARTIAL",
+        "task": "PARTIAL",
+        "datasets": "PARTIAL",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "(none)",
+    "consolidator_model": "(none)",
+    "tokens_in": 7357,
+    "tokens_out": 601,
+    "cost_usd": 0.00288913,
+    "wall_time_seconds": 24.056893667031545,
+    "voting_samples": 1
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "paper_id": "scirex:33bcc97b605f00145098d095be2841a1fa6b9a95",
+  "contributions": [
+    {
+      "method": {
+        "name": "order-embeddings",
+        "canonical_id": null,
+        "evidence_span": null,
+        "confidence": 0.0
+      },
+      "task": {
+        "name": "image captioning",
+        "canonical_id": null,
+        "evidence_span": null,
+        "confidence": 0.0
+      },
+      "datasets": [
+        {
+          "name": "coco",
+          "canonical_id": null,
+          "evidence_span": null,
+          "confidence": 0.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": null,
+          "unit": null,
+          "evidence_span": null,
+          "confidence": 0.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "PARTIAL",
+        "datasets": "SUPPORTED",
+        "metrics": "UNSUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "harishsiravuri_e088/Meta-Llama-3.1-70B-Instruct-Reference-scirex-v6-70b-7cecddd1-66437b32",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 35661,
+    "tokens_out": 6193,
+    "cost_usd": 0.02314856,
+    "wall_time_seconds": 57.41079924994847,
+    "voting_samples": 3
+  }
+}

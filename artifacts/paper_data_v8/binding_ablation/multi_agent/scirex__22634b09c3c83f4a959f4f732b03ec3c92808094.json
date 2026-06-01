@@ -1,0 +1,167 @@
+{
+  "paper_id": "scirex:22634b09c3c83f4a959f4f732b03ec3c92808094",
+  "contributions": [
+    {
+      "method": {
+        "name": "DeepMatching",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 28,
+          "end": 85
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "dense image matching",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 86,
+          "end": 174
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "Mikolajczyk",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 323,
+            "end": 345
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "MPI-Sintel",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 350,
+            "end": 361
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "Kitti",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 366,
+            "end": 371
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy@10",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 4804,
+            "end": 4814
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "SIFT",
+        "HOG",
+        "Generalized PatchMatch",
+        "Non-Rigid Dense Correspondences",
+        "SIFT-flow",
+        "DaisyFilterFlow",
+        "Deformable Spatial Pyramid"
+      ],
+      "self_consistency": 0.875,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    },
+    {
+      "method": {
+        "name": "DeepFlow",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 396,
+          "end": 404
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "optical flow estimation",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 405,
+          "end": 427
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "MPI-Sintel",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 350,
+            "end": 361
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "Kitti",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 366,
+            "end": 371
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "Middlebury",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 4799,
+            "end": 4809
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "EPE",
+          "value": null,
+          "unit": "pixels",
+          "evidence_span": {
+            "start": 4828,
+            "end": 4831
+          },
+          "confidence": 0.5
+        }
+      ],
+      "claim_strength": null,
+      "comparison_targets": [
+        "LDOF",
+        "EpicFlow",
+        "SparseFlowFused"
+      ],
+      "self_consistency": 0.75,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 62563,
+    "tokens_out": 4067,
+    "cost_usd": 0.02846223,
+    "wall_time_seconds": 90.04004112514667,
+    "voting_samples": 3
+  }
+}

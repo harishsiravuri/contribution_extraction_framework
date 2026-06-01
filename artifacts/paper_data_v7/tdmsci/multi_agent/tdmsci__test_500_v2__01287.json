@@ -1,0 +1,61 @@
+{
+  "paper_id": "tdmsci:test_500_v2:01287",
+  "contributions": [
+    {
+      "method": {
+        "name": null,
+        "canonical_id": null,
+        "evidence_span": null,
+        "confidence": 0.0
+      },
+      "task": {
+        "name": "aspect detection",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 47,
+          "end": 63
+        },
+        "confidence": 0.5
+      },
+      "datasets": [
+        {
+          "name": null,
+          "canonical_id": null,
+          "evidence_span": null,
+          "confidence": 0.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "AUC",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 11,
+            "end": 14
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": null,
+      "comparison_targets": [],
+      "self_consistency": 0.25,
+      "critic_verdict": {
+        "method": "UNSUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "UNSUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 5103,
+    "tokens_out": 1495,
+    "cost_usd": 0.00361365,
+    "wall_time_seconds": 22.563797499984503,
+    "voting_samples": 3
+  }
+}

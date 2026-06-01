@@ -1,0 +1,129 @@
+{
+  "paper_id": "nlp_tdms:P18-1063",
+  "contributions": [
+    {
+      "method": {
+        "name": "Fast Abstractive Summarization with Reinforce-Selected Sentence Rewriting",
+        "canonical_id": "Fast Abstractive Summarization with Reinforce-Selected Sentence Rewriting",
+        "evidence_span": {
+          "start": 0,
+          "end": 62
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "abstractive summarization",
+        "canonical_id": "abstractive summarization",
+        "evidence_span": {
+          "start": 184,
+          "end": 203
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "CNN/Daily Mail",
+          "canonical_id": "CNN/Daily Mail",
+          "evidence_span": {
+            "start": 283,
+            "end": 298
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "DUC-2002",
+          "canonical_id": "DUC-2002",
+          "evidence_span": {
+            "start": 320,
+            "end": 330
+          },
+          "confidence": 0.67
+        }
+      ],
+      "metrics": [
+        {
+          "name": "ROUGE-1",
+          "value": null,
+          "unit": "F1",
+          "evidence_span": {
+            "start": 2437,
+            "end": 2449
+          },
+          "confidence": 0.67
+        },
+        {
+          "name": "ROUGE-2",
+          "value": null,
+          "unit": "F1",
+          "evidence_span": {
+            "start": 2450,
+            "end": 2462
+          },
+          "confidence": 0.67
+        },
+        {
+          "name": "ROUGE-L",
+          "value": null,
+          "unit": "F1",
+          "evidence_span": {
+            "start": 2463,
+            "end": 2475
+          },
+          "confidence": 0.67
+        },
+        {
+          "name": "METEOR",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 2476,
+            "end": 2483
+          },
+          "confidence": 0.67
+        },
+        {
+          "name": "inference speed",
+          "value": 20.0,
+          "unit": "x",
+          "evidence_span": {
+            "start": 298,
+            "end": 344
+          },
+          "confidence": 0.67
+        },
+        {
+          "name": "training convergence",
+          "value": 4.0,
+          "unit": "x",
+          "evidence_span": {
+            "start": 298,
+            "end": 344
+          },
+          "confidence": 0.67
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "previous long-paragraph encoder-decoder models",
+        "state-of-the-art model"
+      ],
+      "self_consistency": 0.83,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 34658,
+    "tokens_out": 6402,
+    "cost_usd": 0.020427829999999998,
+    "wall_time_seconds": 137.37719437497435,
+    "voting_samples": 3
+  }
+}

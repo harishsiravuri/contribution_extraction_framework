@@ -1,0 +1,87 @@
+{
+  "paper_id": "nlp_tdms:D13-1007",
+  "contributions": [
+    {
+      "method": {
+        "name": "UNLOL (unsupervised normalization in a LOg-Linear model)",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 146,
+          "end": 243
+        },
+        "confidence": 0.9
+      },
+      "task": {
+        "name": "text normalization",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 60,
+          "end": 76
+        },
+        "confidence": 0.9
+      },
+      "datasets": [
+        {
+          "name": "LWWL11",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 7303,
+            "end": 7326
+          },
+          "confidence": 0.8
+        },
+        {
+          "name": "LexNorm1.1",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 7338,
+            "end": 7356
+          },
+          "confidence": 0.8
+        },
+        {
+          "name": "LexNorm1.2",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 7396,
+            "end": 7414
+          },
+          "confidence": 0.8
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F-measure",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 7432,
+            "end": 7442
+          },
+          "confidence": 0.8
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "prior work"
+      ],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "PARTIAL",
+        "task": "PARTIAL",
+        "datasets": "PARTIAL",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "(none)",
+    "consolidator_model": "(none)",
+    "tokens_in": 7723,
+    "tokens_out": 439,
+    "cost_usd": 0.00286207,
+    "wall_time_seconds": 14.396033708995674,
+    "voting_samples": 1
+  }
+}

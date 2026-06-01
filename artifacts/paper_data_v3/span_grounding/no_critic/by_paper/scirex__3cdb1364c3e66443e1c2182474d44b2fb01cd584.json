@@ -1,0 +1,100 @@
+{
+  "paper_id": "scirex:3cdb1364c3e66443e1c2182474d44b2fb01cd584",
+  "contributions": [
+    {
+      "method": {
+        "name": "SegNet",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 200
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "semantic segmentation",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 200
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "CamVid",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2500,
+            "end": 2600
+          },
+          "confidence": 0.67
+        },
+        {
+          "name": "SUN RGB-D",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 6000,
+            "end": 6100
+          },
+          "confidence": 0.67
+        }
+      ],
+      "metrics": [
+        {
+          "name": "global accuracy",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 4000,
+            "end": 4100
+          },
+          "confidence": 0.67
+        },
+        {
+          "name": "class average accuracy",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 3235,
+            "end": 3258
+          },
+          "confidence": 0.33
+        },
+        {
+          "name": "mean intersection over union",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 3260,
+            "end": 3288
+          },
+          "confidence": 0.33
+        }
+      ],
+      "claim_strength": "novel",
+      "comparison_targets": [
+        "FCN",
+        "DeepLab-LargeFOV",
+        "DeconvNet"
+      ],
+      "self_consistency": 0.83,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "PARTIAL",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "(none)",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 40374,
+    "tokens_out": 2973,
+    "cost_usd": 0.01641775,
+    "wall_time_seconds": 171.3433758749743,
+    "voting_samples": 3
+  }
+}

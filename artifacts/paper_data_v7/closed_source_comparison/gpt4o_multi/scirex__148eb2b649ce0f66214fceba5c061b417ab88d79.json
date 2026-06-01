@@ -1,0 +1,88 @@
+{
+  "paper_id": "scirex:148eb2b649ce0f66214fceba5c061b417ab88d79",
+  "contributions": [
+    {
+      "method": {
+        "name": "Bidirectional-InfoGAN",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 2765,
+          "end": 2779
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "representation learning",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 2779,
+          "end": 2845
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "MNIST",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2845,
+            "end": 2850
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "CelebA",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2852,
+            "end": 2858
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "SVHN",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2860,
+            "end": 2864
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": 96.61,
+          "unit": "%",
+          "evidence_span": {
+            "start": 3665,
+            "end": 3685
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Chen et al.",
+        "Zhang et al."
+      ],
+      "self_consistency": 0.875,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "openai/gpt-4o-2024-11-20",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 23165,
+    "tokens_out": 4151,
+    "cost_usd": 0.06414407999999999,
+    "wall_time_seconds": 138.90567358396947,
+    "voting_samples": 3
+  }
+}

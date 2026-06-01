@@ -1,0 +1,62 @@
+{
+  "paper_id": "tdmsci:test_500_v2:01517",
+  "contributions": [
+    {
+      "method": {
+        "name": null,
+        "canonical_id": null,
+        "evidence_span": null,
+        "confidence": 0.0
+      },
+      "task": {
+        "name": "word sense disambiguation",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 112,
+          "end": 142
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "WordNet",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 82,
+            "end": 91
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "Wikipedia",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 101,
+            "end": 111
+          },
+          "confidence": 0.5
+        }
+      ],
+      "metrics": [],
+      "claim_strength": null,
+      "comparison_targets": [],
+      "self_consistency": 0.75,
+      "critic_verdict": {
+        "method": "UNSUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "PARTIAL",
+        "metrics": "UNSUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 5435,
+    "tokens_out": 1574,
+    "cost_usd": 0.00383761,
+    "wall_time_seconds": 27.174419332994148,
+    "voting_samples": 3
+  }
+}

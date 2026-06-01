@@ -1,0 +1,46 @@
+{
+  "paper_id": "tdmsci:test_500_v2:01562",
+  "contributions": [
+    {
+      "method": {
+        "name": "MetaMap",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 125,
+          "end": 133
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "natural language processing",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 109,
+          "end": 135
+        },
+        "confidence": 1.0
+      },
+      "datasets": [],
+      "metrics": [],
+      "claim_strength": null,
+      "comparison_targets": [],
+      "self_consistency": 0.6666666666666666,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 4735,
+    "tokens_out": 1272,
+    "cost_usd": 0.00316436,
+    "wall_time_seconds": 35.613313915906474,
+    "voting_samples": 3
+  }
+}

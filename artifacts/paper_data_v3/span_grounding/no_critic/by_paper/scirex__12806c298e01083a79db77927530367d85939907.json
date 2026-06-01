@@ -1,0 +1,69 @@
+{
+  "paper_id": "scirex:12806c298e01083a79db77927530367d85939907",
+  "contributions": [
+    {
+      "method": {
+        "name": "Overfeat",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 2133,
+          "end": 2140
+        },
+        "confidence": 0.75
+      },
+      "task": {
+        "name": "vehicle detection",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 2133,
+          "end": 2150
+        },
+        "confidence": 0.75
+      },
+      "datasets": [
+        {
+          "name": "highway data set",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2133,
+            "end": 2150
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 2133,
+            "end": 2150
+          },
+          "confidence": 0.75
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "radar"
+      ],
+      "self_consistency": 0.875,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "(none)",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 21320,
+    "tokens_out": 2030,
+    "cost_usd": 0.0091895,
+    "wall_time_seconds": 42.17509525001515,
+    "voting_samples": 3
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "paper_id": "scirex:14cb3de564377cc4ba2b9bfe8ebd8c0a7c2787ce",
+  "contributions": [
+    {
+      "method": {
+        "name": "convolutional neural networks (convnets)",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 24,
+          "end": 69
+        },
+        "confidence": 0.9
+      },
+      "task": {
+        "name": "pedestrian detection",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 85,
+          "end": 106
+        },
+        "confidence": 0.95
+      },
+      "datasets": [
+        {
+          "name": "Caltech",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 276,
+            "end": 283
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "KITTI",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 288,
+            "end": 293
+          },
+          "confidence": 0.9
+        }
+      ],
+      "metrics": [
+        {
+          "name": "miss rate",
+          "value": null,
+          "unit": null,
+          "evidence_span": null,
+          "confidence": 0.7
+        },
+        {
+          "name": "average precision",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 4795,
+            "end": 4812
+          },
+          "confidence": 0.8
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "SDN",
+        "SquaresChnFtrs",
+        "JointDeep",
+        "SpatialPooling",
+        "LDCF",
+        "Katamari"
+      ],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "PARTIAL",
+        "task": "PARTIAL",
+        "datasets": "PARTIAL",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "(none)",
+    "consolidator_model": "(none)",
+    "tokens_in": 7331,
+    "tokens_out": 475,
+    "cost_usd": 0.00276867,
+    "wall_time_seconds": 15.03112791699823,
+    "voting_samples": 1
+  }
+}

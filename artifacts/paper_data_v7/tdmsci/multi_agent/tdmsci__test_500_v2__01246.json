@@ -1,0 +1,80 @@
+{
+  "paper_id": "tdmsci:test_500_v2:01246",
+  "contributions": [
+    {
+      "method": {
+        "name": null,
+        "canonical_id": null,
+        "evidence_span": null,
+        "confidence": 0.0
+      },
+      "task": {
+        "name": null,
+        "canonical_id": null,
+        "evidence_span": null,
+        "confidence": 0.0
+      },
+      "datasets": [
+        {
+          "name": "IMDB",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 16,
+            "end": 20
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "Elec",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 23,
+            "end": 27
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "RCV1",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 30,
+            "end": 33
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "20-newsgroup",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 52,
+            "end": 63
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [],
+      "claim_strength": null,
+      "comparison_targets": [
+        "JZ15",
+        "DL15"
+      ],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "UNSUPPORTED",
+        "task": "UNSUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "UNSUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 6057,
+    "tokens_out": 2320,
+    "cost_usd": 0.004793,
+    "wall_time_seconds": 45.17199220811017,
+    "voting_samples": 3
+  }
+}

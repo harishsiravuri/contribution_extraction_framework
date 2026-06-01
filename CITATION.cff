@@ -1,0 +1,34 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "contribution_extraction_framework: Multi-Agent Contribution Extraction with Verifiable Grounding"
+abstract: >
+  A three-agent (Extractor + Critic + Consolidator) pipeline for extracting
+  (Method, Task, Dataset, Metric) tuples from scientific papers, with
+  self-consistency voting and temperature-scaled confidence calibration.
+  Default deployment uses open-weights LLMs (DeepSeek Chat, Llama 3.3 70B);
+  a specialized variant uses a LoRA fine-tuned Llama 3.1 70B extractor.
+type: software
+authors:
+  - family-names: Siravuri
+    given-names: Harish
+    email: harish.siravuri@gmail.com
+license: MIT
+license-url: "https://opensource.org/licenses/MIT"
+keywords:
+  - information extraction
+  - scientific papers
+  - multi-agent systems
+  - LLM
+  - SciREX
+  - TDMSci
+preferred-citation:
+  type: conference-paper
+  title: "Multi-Agent Contribution Extraction with Verifiable Grounding"
+  authors:
+    - family-names: Siravuri
+      given-names: Harish
+  year: 2026
+  conference:
+    name: "International Conference on Machine Learning and Applications (ICMLA)"
+  notes: >
+    Update with the final published reference (DOI, pages, etc.) after acceptance.

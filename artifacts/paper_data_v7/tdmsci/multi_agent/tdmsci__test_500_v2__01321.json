@@ -1,0 +1,64 @@
+{
+  "paper_id": "tdmsci:test_500_v2:01321",
+  "contributions": [
+    {
+      "method": {
+        "name": "linear regression",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 71,
+          "end": 86
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": null,
+        "canonical_id": null,
+        "evidence_span": null,
+        "confidence": 0.0
+      },
+      "datasets": [
+        {
+          "name": "WSJ45",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 104,
+            "end": 109
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 91,
+            "end": 99
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": null,
+      "comparison_targets": [],
+      "self_consistency": 1.0,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "UNSUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 4656,
+    "tokens_out": 1149,
+    "cost_usd": 0.00303085,
+    "wall_time_seconds": 23.313159458106384,
+    "voting_samples": 3
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "paper_id": "scirex:027d6c52be01b583b9a0d9eb8c9364c6b701c656",
+  "contributions": [
+    {
+      "method": {
+        "name": "lsuv",
+        "canonical_id": null,
+        "evidence_span": null,
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "image classification",
+        "canonical_id": null,
+        "evidence_span": null,
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "cifar-10",
+          "canonical_id": null,
+          "evidence_span": null,
+          "confidence": 1.0
+        },
+        {
+          "name": "cifar-100",
+          "canonical_id": null,
+          "evidence_span": null,
+          "confidence": 1.0
+        },
+        {
+          "name": "mnist",
+          "canonical_id": null,
+          "evidence_span": null,
+          "confidence": 1.0
+        },
+        {
+          "name": "imagenet",
+          "canonical_id": null,
+          "evidence_span": null,
+          "confidence": 0.3333333333333333
+        }
+      ],
+      "metrics": [],
+      "claim_strength": "improves",
+      "comparison_targets": [],
+      "self_consistency": 0.9166666666666666,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "UNSUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "harishsiravuri_e088/Meta-Llama-3.1-8B-Instruct-Reference-scirex-v6-bf594110-52031aad",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 21812,
+    "tokens_out": 2798,
+    "cost_usd": 0.01334768,
+    "wall_time_seconds": 40.497065416013356,
+    "voting_samples": 3
+  }
+}

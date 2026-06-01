@@ -1,0 +1,130 @@
+{
+  "paper_id": "scirex:3208b5abafa1146e7df1073090523c822909275e",
+  "contributions": [
+    {
+      "method": {
+        "name": "BLSTM-2DCNN",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 2729,
+          "end": 2744
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "sentiment analysis",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 1038,
+          "end": 1055
+        },
+        "confidence": 0.6
+      },
+      "datasets": [
+        {
+          "name": "Stanford Sentiment Treebank (SST-1)",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1417,
+            "end": 1447
+          },
+          "confidence": 0.2
+        },
+        {
+          "name": "Stanford Sentiment Treebank (SST-2)",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1449,
+            "end": 1479
+          },
+          "confidence": 0.2
+        },
+        {
+          "name": "MR",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2077,
+            "end": 2079
+          },
+          "confidence": 0.2
+        },
+        {
+          "name": "TREC",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2089,
+            "end": 2093
+          },
+          "confidence": 0.2
+        },
+        {
+          "name": "Subj",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2080,
+            "end": 2084
+          },
+          "confidence": 0.2
+        },
+        {
+          "name": "20Newsgroups",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2095,
+            "end": 2108
+          },
+          "confidence": 0.2
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": 52.6,
+          "unit": null,
+          "evidence_span": {
+            "start": 3097,
+            "end": 3101
+          },
+          "confidence": 0.2
+        },
+        {
+          "name": "Macro-F1",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 2273,
+            "end": 2281
+          },
+          "confidence": 0.2
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "RecNN",
+        "RNN",
+        "CNN",
+        "BLSTM-2DPooling",
+        "DSCNN",
+        "BLSTM",
+        "BLSTM-Att"
+      ],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "PARTIAL",
+        "datasets": "PARTIAL",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "(none)",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 21033,
+    "tokens_out": 4273,
+    "cost_usd": 0.01161845,
+    "wall_time_seconds": 68.68646933301352,
+    "voting_samples": 3
+  }
+}

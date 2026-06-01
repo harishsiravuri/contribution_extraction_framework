@@ -1,0 +1,62 @@
+{
+  "paper_id": "scirex:27e98e09cf09bc13c913d01676e5f32624011050",
+  "contributions": [
+    {
+      "method": {
+        "name": "u-net",
+        "canonical_id": null,
+        "evidence_span": null,
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "question answering",
+        "canonical_id": null,
+        "evidence_span": null,
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "squad2",
+          "canonical_id": null,
+          "evidence_span": null,
+          "confidence": 0.75
+        }
+      ],
+      "metrics": [
+        {
+          "name": "em",
+          "value": null,
+          "unit": null,
+          "evidence_span": null,
+          "confidence": 0.5
+        },
+        {
+          "name": "f1",
+          "value": null,
+          "unit": null,
+          "evidence_span": null,
+          "confidence": 0.5
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [],
+      "self_consistency": 0.875,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "PARTIAL",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "harishsiravuri_e088/Meta-Llama-3.1-8B-Instruct-Reference-scirex-v6-bf594110-52031aad",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 30322,
+    "tokens_out": 2954,
+    "cost_usd": 0.01793661,
+    "wall_time_seconds": 30.51350179198198,
+    "voting_samples": 3
+  }
+}

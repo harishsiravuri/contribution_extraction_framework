@@ -1,0 +1,89 @@
+{
+  "paper_id": "scirex:12806c298e01083a79db77927530367d85939907",
+  "contributions": [
+    {
+      "method": {
+        "name": "Overfeat CNN detector with modifications",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 2773,
+          "end": 2989
+        },
+        "confidence": 0.9
+      },
+      "task": {
+        "name": "highway lane and vehicle detection",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 306
+        },
+        "confidence": 0.9
+      },
+      "datasets": [
+        {
+          "name": "highway dataset with vehicle and lane annotations",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2926,
+            "end": 3067
+          },
+          "confidence": 0.9
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1 score (ego-lane boundaries)",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 5192,
+            "end": 5274
+          },
+          "confidence": 0.8
+        },
+        {
+          "name": "Intersection Over Union (IOU)",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 5564,
+            "end": 5593
+          },
+          "confidence": 0.8
+        },
+        {
+          "name": "Frame rate",
+          "value": 20.0,
+          "unit": "Hz",
+          "evidence_span": {
+            "start": 5961,
+            "end": 5995
+          },
+          "confidence": 0.9
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Continental mid-range radar"
+      ],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "PARTIAL",
+        "task": "PARTIAL",
+        "datasets": "PARTIAL",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "(none)",
+    "consolidator_model": "(none)",
+    "tokens_in": 6100,
+    "tokens_out": 457,
+    "cost_usd": 0.0023587300000000003,
+    "wall_time_seconds": 19.618883540970273,
+    "voting_samples": 1
+  }
+}

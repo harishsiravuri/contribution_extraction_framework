@@ -1,0 +1,73 @@
+{
+  "paper_id": "scirex:3bf52841ade9f6adc55e102a4460af922e52bb7d",
+  "contributions": [
+    {
+      "method": {
+        "name": "convolutional DRAW",
+        "canonical_id": null,
+        "evidence_span": null,
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "image modeling",
+        "canonical_id": null,
+        "evidence_span": null,
+        "confidence": 0.6
+      },
+      "datasets": [
+        {
+          "name": "Omniglot",
+          "canonical_id": null,
+          "evidence_span": null,
+          "confidence": 0.4
+        },
+        {
+          "name": "CIFAR-10",
+          "canonical_id": null,
+          "evidence_span": null,
+          "confidence": 0.4
+        },
+        {
+          "name": "ImageNet",
+          "canonical_id": null,
+          "evidence_span": null,
+          "confidence": 0.4
+        }
+      ],
+      "metrics": [
+        {
+          "name": "log-likelihood",
+          "value": null,
+          "unit": null,
+          "evidence_span": null,
+          "confidence": 0.6
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "earlier latent variable models",
+        "previous methods",
+        "Pixel RNN",
+        "variational auto-encoder",
+        "DRAW"
+      ],
+      "self_consistency": 0.73,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "openai/gpt-5",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 31729,
+    "tokens_out": 14404,
+    "cost_usd": 0.16097346,
+    "wall_time_seconds": 79.9925100840046,
+    "voting_samples": 3
+  }
+}

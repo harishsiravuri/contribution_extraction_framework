@@ -1,0 +1,57 @@
+{
+  "paper_id": "tdmsci:train_1500_v2:00016",
+  "contributions": [
+    {
+      "method": {
+        "name": "crowdsourcing",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 92,
+          "end": 104
+        },
+        "confidence": 0.8
+      },
+      "task": {
+        "name": "query segmentation",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 110,
+          "end": 127
+        },
+        "confidence": 0.9
+      },
+      "datasets": [],
+      "metrics": [
+        {
+          "name": "Inter Annotator Agreement",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 45,
+            "end": 68
+          },
+          "confidence": 0.7
+        }
+      ],
+      "claim_strength": null,
+      "comparison_targets": [],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "PARTIAL",
+        "task": "PARTIAL",
+        "datasets": "PARTIAL",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "(none)",
+    "consolidator_model": "(none)",
+    "tokens_in": 593,
+    "tokens_out": 263,
+    "cost_usd": 0.00042383,
+    "wall_time_seconds": 7.9244166249991395,
+    "voting_samples": 1
+  }
+}

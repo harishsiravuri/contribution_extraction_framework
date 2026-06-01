@@ -1,0 +1,68 @@
+{
+  "paper_id": "scirex:178275dbdcfa267e41a9d5efe386ee5874c6d23f",
+  "contributions": [
+    {
+      "method": {
+        "name": "fraternal dropout",
+        "canonical_id": null,
+        "evidence_span": null,
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "language modelling",
+        "canonical_id": null,
+        "evidence_span": null,
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "penn treebank",
+          "canonical_id": null,
+          "evidence_span": null,
+          "confidence": 0.75
+        },
+        {
+          "name": "wikitext-2",
+          "canonical_id": null,
+          "evidence_span": null,
+          "confidence": 0.75
+        }
+      ],
+      "metrics": [
+        {
+          "name": "perplexity",
+          "value": null,
+          "unit": null,
+          "evidence_span": null,
+          "confidence": 0.625
+        },
+        {
+          "name": "number of parameters",
+          "value": null,
+          "unit": null,
+          "evidence_span": null,
+          "confidence": 0.25
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [],
+      "self_consistency": 0.875,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "harishsiravuri_e088/Meta-Llama-3.1-70B-Instruct-Reference-scirex-v6-70b-7cecddd1-66437b32",
+    "critic_model": "DISABLED (E4 critic-off ablation)",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 22941,
+    "tokens_out": 1725,
+    "cost_usd": 0.01270718,
+    "wall_time_seconds": 18.089415000053123,
+    "voting_samples": 3
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "paper_id": "tdmsci:test_500_v2:01385",
+  "contributions": [
+    {
+      "method": {
+        "name": "our approach",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 31,
+          "end": 43
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "tagging",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 56,
+          "end": 63
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "SANCL 2012 shared task",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 12,
+            "end": 29
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": 93.15,
+          "unit": "%",
+          "evidence_span": {
+            "start": 49,
+            "end": 56
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": null,
+      "comparison_targets": [
+        "ensembled syntactic parsers"
+      ],
+      "self_consistency": 0.8333333333333334,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 5584,
+    "tokens_out": 2110,
+    "cost_usd": 0.0043457899999999995,
+    "wall_time_seconds": 66.23184666596353,
+    "voting_samples": 3
+  }
+}

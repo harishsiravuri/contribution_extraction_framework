@@ -1,0 +1,99 @@
+{
+  "paper_id": "nlp_tdms:1807.03955",
+  "contributions": [
+    {
+      "method": {
+        "name": "neural network model for joint POS tagging and dependency parsing",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 73,
+          "end": 128
+        },
+        "confidence": 0.9
+      },
+      "task": {
+        "name": "joint POS tagging and dependency parsing",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 73,
+          "end": 128
+        },
+        "confidence": 0.9
+      },
+      "datasets": [
+        {
+          "name": "English Penn treebank",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 304,
+            "end": 324
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "Universal Dependencies treebanks",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 385,
+            "end": 419
+          },
+          "confidence": 0.9
+        }
+      ],
+      "metrics": [
+        {
+          "name": "UAS",
+          "value": 94.51,
+          "unit": "%",
+          "evidence_span": {
+            "start": 328,
+            "end": 348
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "LAS",
+          "value": 92.87,
+          "unit": "%",
+          "evidence_span": {
+            "start": 353,
+            "end": 372
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "POS tagging accuracy",
+          "value": 97.97,
+          "unit": "%",
+          "evidence_span": {
+            "start": 377,
+            "end": 405
+          },
+          "confidence": 0.9
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "BIST graph-based parser",
+        "UDPipe"
+      ],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "PARTIAL",
+        "task": "PARTIAL",
+        "datasets": "PARTIAL",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "(none)",
+    "consolidator_model": "(none)",
+    "tokens_in": 5709,
+    "tokens_out": 492,
+    "cost_usd": 0.0022647599999999998,
+    "wall_time_seconds": 16.58244695799658,
+    "voting_samples": 1
+  }
+}

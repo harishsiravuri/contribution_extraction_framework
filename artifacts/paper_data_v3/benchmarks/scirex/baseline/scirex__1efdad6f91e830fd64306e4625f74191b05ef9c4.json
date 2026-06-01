@@ -1,0 +1,117 @@
+{
+  "paper_id": "scirex:1efdad6f91e830fd64306e4625f74191b05ef9c4",
+  "contributions": [
+    {
+      "method": {
+        "name": "Patchy-san",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 1234,
+          "end": 1300
+        },
+        "confidence": 0.9
+      },
+      "task": {
+        "name": "graph classification",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 2000,
+          "end": 2100
+        },
+        "confidence": 0.8
+      },
+      "datasets": [
+        {
+          "name": "MUTAG",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 5000,
+            "end": 5100
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "PTC",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 5100,
+            "end": 5200
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "NCI1",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 5200,
+            "end": 5300
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "NCI109",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 5300,
+            "end": 5400
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "PROTEINS",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 5400,
+            "end": 5500
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "D&D",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 5500,
+            "end": 5600
+          },
+          "confidence": 0.9
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 6000,
+            "end": 6100
+          },
+          "confidence": 0.8
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "shortest-path kernel",
+        "random walk kernel",
+        "graphlet count kernel",
+        "Weisfeiler-Lehman subtree kernel"
+      ],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "PARTIAL",
+        "task": "PARTIAL",
+        "datasets": "PARTIAL",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "(none)",
+    "consolidator_model": "(none)",
+    "tokens_in": 6937,
+    "tokens_out": 591,
+    "cost_usd": 0.00274583,
+    "wall_time_seconds": 35.19576720800251,
+    "voting_samples": 1
+  }
+}

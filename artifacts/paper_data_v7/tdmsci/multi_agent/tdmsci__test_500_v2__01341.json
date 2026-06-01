@@ -1,0 +1,56 @@
+{
+  "paper_id": "tdmsci:test_500_v2:01341",
+  "contributions": [
+    {
+      "method": {
+        "name": "TILDE",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 39,
+          "end": 44
+        },
+        "confidence": 0.6666666666666666
+      },
+      "task": {
+        "name": "machine translation",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 19,
+          "end": 53
+        },
+        "confidence": 0.6666666666666666
+      },
+      "datasets": [
+        {
+          "name": "parallel sentence pairs",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 70,
+            "end": 92
+          },
+          "confidence": 0.6666666666666666
+        }
+      ],
+      "metrics": [],
+      "claim_strength": null,
+      "comparison_targets": [],
+      "self_consistency": 0.625,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "UNSUPPORTED",
+        "datasets": "PARTIAL",
+        "metrics": null
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 4672,
+    "tokens_out": 1165,
+    "cost_usd": 0.0030471199999999995,
+    "wall_time_seconds": 19.401955750072375,
+    "voting_samples": 3
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "paper_id": "tdmsci:train_1500_v2:00041",
+  "contributions": [
+    {
+      "method": {
+        "name": null,
+        "canonical_id": null,
+        "evidence_span": null,
+        "confidence": 0.0
+      },
+      "task": {
+        "name": null,
+        "canonical_id": null,
+        "evidence_span": null,
+        "confidence": 0.0
+      },
+      "datasets": [
+        {
+          "name": "ASR and manual transcripts",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 66,
+            "end": 88
+          },
+          "confidence": 0.8
+        }
+      ],
+      "metrics": [
+        {
+          "name": "MAP",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 13,
+            "end": 16
+          },
+          "confidence": 0.9
+        }
+      ],
+      "claim_strength": null,
+      "comparison_targets": [],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "PARTIAL",
+        "task": "PARTIAL",
+        "datasets": "PARTIAL",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "(none)",
+    "consolidator_model": "(none)",
+    "tokens_in": 555,
+    "tokens_out": 283,
+    "cost_usd": 0.00042947000000000005,
+    "wall_time_seconds": 8.62222512497101,
+    "voting_samples": 1
+  }
+}

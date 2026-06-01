@@ -1,0 +1,69 @@
+{
+  "paper_id": "nlp_tdms:S18-1146",
+  "contributions": [
+    {
+      "method": {
+        "name": "rule-based system using syntactic dependency paths",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 124,
+          "end": 363
+        },
+        "confidence": 0.9
+      },
+      "task": {
+        "name": "Hypernym Discovery",
+        "canonical_id": "SemEval-2018 Task 9",
+        "evidence_span": {
+          "start": 124,
+          "end": 363
+        },
+        "confidence": 0.95
+      },
+      "datasets": [
+        {
+          "name": "UMBC corpus",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1168,
+            "end": 1260
+          },
+          "confidence": 0.9
+        }
+      ],
+      "metrics": [
+        {
+          "name": "performance comparison to random strategy",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 2188,
+            "end": 2257
+          },
+          "confidence": 0.8
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "traditional lexical patterns"
+      ],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "PARTIAL",
+        "task": "PARTIAL",
+        "datasets": "PARTIAL",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "(none)",
+    "consolidator_model": "(none)",
+    "tokens_in": 1947,
+    "tokens_out": 338,
+    "cost_usd": 0.0009238599999999999,
+    "wall_time_seconds": 9.46680820803158,
+    "voting_samples": 1
+  }
+}

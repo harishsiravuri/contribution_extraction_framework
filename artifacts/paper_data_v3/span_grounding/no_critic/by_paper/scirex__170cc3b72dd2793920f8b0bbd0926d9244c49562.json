@@ -1,0 +1,99 @@
+{
+  "paper_id": "scirex:170cc3b72dd2793920f8b0bbd0926d9244c49562",
+  "contributions": [
+    {
+      "method": {
+        "name": "bootstrapped DQN",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 613,
+          "end": 628
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "reinforcement learning",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 5,
+          "end": 33
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "Atari games",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 23678,
+            "end": 23747
+          },
+          "confidence": 0.75
+        },
+        {
+          "name": "Arcade Learning Environment",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 635,
+            "end": 661
+          },
+          "confidence": 0.5
+        }
+      ],
+      "metrics": [
+        {
+          "name": "AUC-20",
+          "value": 0.62,
+          "unit": null,
+          "evidence_span": {
+            "start": 24224,
+            "end": 24296
+          },
+          "confidence": 0.5
+        },
+        {
+          "name": "learning speed",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 635,
+            "end": 661
+          },
+          "confidence": 0.5
+        },
+        {
+          "name": "cumulative performance",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 635,
+            "end": 661
+          },
+          "confidence": 0.5
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "DQN",
+        "Dynamic AE"
+      ],
+      "self_consistency": 0.875,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "PARTIAL",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "(none)",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 31227,
+    "tokens_out": 2872,
+    "cost_usd": 0.01327192,
+    "wall_time_seconds": 56.22542033402715,
+    "voting_samples": 3
+  }
+}

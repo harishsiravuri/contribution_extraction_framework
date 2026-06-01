@@ -1,0 +1,123 @@
+{
+  "paper_id": "scirex:1f8f0abfe4689aa93f2f6cc7ec4fd4c6adc2c2d6",
+  "contributions": [
+    {
+      "method": {
+        "name": "discriminative loss function",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 211,
+          "end": 239
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "instance segmentation",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 24
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "Cityscapes",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 586,
+            "end": 596
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "CVPPP leaf segmentation",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 596,
+            "end": 619
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "SBD",
+          "value": 84.2,
+          "unit": null,
+          "evidence_span": {
+            "start": 3395,
+            "end": 3414
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "AP",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 3504,
+            "end": 3506
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "AP0.5",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 3508,
+            "end": 3515
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "AP50 m",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 3517,
+            "end": 3523
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "AP100 m",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 3525,
+            "end": 3532
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "proposal-based methods",
+        "recurrent methods",
+        "clustering methods",
+        "MNC",
+        "SAIS",
+        "recurrent instance segmentation"
+      ],
+      "self_consistency": 0.8333333333333334,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 29649,
+    "tokens_out": 4399,
+    "cost_usd": 0.01616138,
+    "wall_time_seconds": 137.89128245797474,
+    "voting_samples": 3
+  }
+}

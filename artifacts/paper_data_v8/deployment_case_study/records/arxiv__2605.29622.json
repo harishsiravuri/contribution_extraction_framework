@@ -1,0 +1,129 @@
+{
+  "paper_id": "arxiv:2605.29622",
+  "contributions": [
+    {
+      "method": {
+        "name": "MōLe-Λ",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 24,
+          "end": 31
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "molecular property prediction",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 146,
+          "end": 158
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "localized Hartree--Fock molecular orbitals",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 278,
+            "end": 317
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "energy accuracy",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 407,
+            "end": 427
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "force accuracy",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 407,
+            "end": 427
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "dipole accuracy",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 446,
+            "end": 453
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "quadrupole accuracy",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 455,
+            "end": 465
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "polarizability accuracy",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 467,
+            "end": 479
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "electron density accuracy",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 481,
+            "end": 494
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "pair density accuracy",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 516,
+            "end": 526
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "CCSD"
+      ],
+      "self_consistency": 0.875,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 9152,
+    "tokens_out": 4398,
+    "cost_usd": 0.00806184,
+    "wall_time_seconds": 103.01791904191487,
+    "voting_samples": 3
+  }
+}

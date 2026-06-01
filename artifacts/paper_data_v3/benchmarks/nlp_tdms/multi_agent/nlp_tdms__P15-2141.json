@@ -1,0 +1,90 @@
+{
+  "paper_id": "nlp_tdms:P15-2141",
+  "contributions": [
+    {
+      "method": {
+        "name": "transition-based AMR parser with refined actions and auxiliary analyzers",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 55
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "AMR parsing",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 428,
+          "end": 439
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "LDC2013E117",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 4876,
+            "end": 4888
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "LDC2014T12",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 5314,
+            "end": 5326
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 70.0,
+          "unit": "percent",
+          "evidence_span": {
+            "start": 5574,
+            "end": 5579
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "F1",
+          "value": 66.0,
+          "unit": "percent",
+          "evidence_span": {
+            "start": 5665,
+            "end": 5670
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "JAMR",
+        "Stanford AMR parser",
+        "SHRG-based AMR parser"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 17640,
+    "tokens_out": 2591,
+    "cost_usd": 0.00962378,
+    "wall_time_seconds": 79.45024041697616,
+    "voting_samples": 3
+  }
+}

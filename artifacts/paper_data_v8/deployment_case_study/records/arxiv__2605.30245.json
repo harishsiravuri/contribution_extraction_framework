@@ -1,0 +1,80 @@
+{
+  "paper_id": "arxiv:2605.30245",
+  "contributions": [
+    {
+      "method": {
+        "name": "PPC (Preplan-Plan-CoT)",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 236,
+          "end": 251
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "mathematical reasoning",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 156,
+          "end": 176
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "five mathematical reasoning benchmarks",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 720,
+            "end": 750
+          },
+          "confidence": 0.67
+        }
+      ],
+      "metrics": [
+        {
+          "name": "maj@16",
+          "value": 2.23,
+          "unit": "absolute improvement",
+          "evidence_span": {
+            "start": 841,
+            "end": 852
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "pass@16",
+          "value": 3.06,
+          "unit": "absolute improvement",
+          "evidence_span": {
+            "start": 865,
+            "end": 876
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "plan-based reasoning methods",
+        "strongest baseline"
+      ],
+      "self_consistency": 0.83,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 7101,
+    "tokens_out": 2625,
+    "cost_usd": 0.0054790099999999994,
+    "wall_time_seconds": 173.40104050002992,
+    "voting_samples": 3
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "paper_id": "scirex:1d0dcb458aa4d30b51f7c74b159be687f39120a0",
+  "contributions": [
+    {
+      "method": {
+        "name": "pdc",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 195,
+          "end": 197
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "person re-identification",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 24,
+          "end": 40
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "cuhk03",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 444,
+            "end": 450
+          },
+          "confidence": 0.4
+        },
+        {
+          "name": "market-1501",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 503,
+            "end": 514
+          },
+          "confidence": 0.4
+        },
+        {
+          "name": "viper",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 581,
+            "end": 586
+          },
+          "confidence": 0.2
+        }
+      ],
+      "metrics": [
+        {
+          "name": "map",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 729,
+            "end": 732
+          },
+          "confidence": 0.2
+        },
+        {
+          "name": "rank-1",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 654,
+            "end": 659
+          },
+          "confidence": 0.6
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [],
+      "self_consistency": 0.86,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "UNSUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "harishsiravuri_e088/Meta-Llama-3.1-70B-Instruct-Reference-scirex-v6-70b-7cecddd1-66437b32",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 16658,
+    "tokens_out": 2734,
+    "cost_usd": 0.01114808,
+    "wall_time_seconds": 58.46715662511997,
+    "voting_samples": 1
+  }
+}

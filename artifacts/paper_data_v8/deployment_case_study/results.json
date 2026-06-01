@@ -1,0 +1,346 @@
+{
+  "experiment": "E7_deployment_case_study",
+  "seed": 42,
+  "papers_total": 100,
+  "papers_ok": 91,
+  "papers_error": 9,
+  "wall_time_seconds": 823.4803409578744,
+  "total_cost_usd": 0.62216488,
+  "cost_per_paper_usd": 0.006836976703296704,
+  "mean_contributions_per_paper": 1.3406593406593406,
+  "contributions_per_paper_distribution": {
+    "1": 74,
+    "2": 11,
+    "3": 4,
+    "5": 1,
+    "9": 1
+  },
+  "self_consistency_histogram": [
+    {
+      "bin_lo": 0.0,
+      "bin_hi": 0.1,
+      "n": 0
+    },
+    {
+      "bin_lo": 0.1,
+      "bin_hi": 0.2,
+      "n": 0
+    },
+    {
+      "bin_lo": 0.2,
+      "bin_hi": 0.30000000000000004,
+      "n": 0
+    },
+    {
+      "bin_lo": 0.30000000000000004,
+      "bin_hi": 0.4,
+      "n": 1
+    },
+    {
+      "bin_lo": 0.4,
+      "bin_hi": 0.5,
+      "n": 0
+    },
+    {
+      "bin_lo": 0.5,
+      "bin_hi": 0.6000000000000001,
+      "n": 15
+    },
+    {
+      "bin_lo": 0.6000000000000001,
+      "bin_hi": 0.7000000000000001,
+      "n": 6
+    },
+    {
+      "bin_lo": 0.7000000000000001,
+      "bin_hi": 0.8,
+      "n": 21
+    },
+    {
+      "bin_lo": 0.8,
+      "bin_hi": 0.9,
+      "n": 55
+    },
+    {
+      "bin_lo": 0.9,
+      "bin_hi": 1.0,
+      "n": 24
+    }
+  ],
+  "mean_calibrated_confidence_per_field_applied": {
+    "method.name": 0.5435463103305377,
+    "task.name": 0.571622947436664,
+    "datasets": 0.5679591631559143,
+    "metrics": 0.6788863020320008,
+    "uncalibrated": 0.8108129052186429
+  },
+  "scirex_T_per_field": {
+    "method.name": 20.0,
+    "task.name": 11.582278481012658,
+    "datasets": 12.30379746835443,
+    "metrics": 2.9240506329113924
+  },
+  "top20_methods": [
+    {
+      "name": "llms",
+      "count": 5
+    },
+    {
+      "name": "acros",
+      "count": 3
+    },
+    {
+      "name": "learning to perturb activations lpa",
+      "count": 3
+    },
+    {
+      "name": "gemma 4 e2b it",
+      "count": 3
+    },
+    {
+      "name": "algorithm for differentially private hypothesis testing with e values",
+      "count": 2
+    },
+    {
+      "name": "stochastic momentum with sparse updates",
+      "count": 2
+    },
+    {
+      "name": "sparse autoencoder sae",
+      "count": 2
+    },
+    {
+      "name": "gemma 2 2b it",
+      "count": 2
+    },
+    {
+      "name": "atlas",
+      "count": 1
+    },
+    {
+      "name": "conrag",
+      "count": 1
+    },
+    {
+      "name": "ib tpo",
+      "count": 1
+    },
+    {
+      "name": "ib score",
+      "count": 1
+    },
+    {
+      "name": "chreode",
+      "count": 1
+    },
+    {
+      "name": "snare",
+      "count": 1
+    },
+    {
+      "name": "sequential neural probabilistic amplitude shaping",
+      "count": 1
+    },
+    {
+      "name": "adaptive reservoir computing framework",
+      "count": 1
+    },
+    {
+      "name": "off policy learning",
+      "count": 1
+    },
+    {
+      "name": "variational early fault tolerant quantum computing vareftqc",
+      "count": 1
+    },
+    {
+      "name": "llm as a judge",
+      "count": 1
+    },
+    {
+      "name": "moe to dense conversion",
+      "count": 1
+    }
+  ],
+  "top20_datasets": [
+    {
+      "name": "multi legal bench",
+      "count": 5
+    },
+    {
+      "name": "forced 2d navier stokes",
+      "count": 3
+    },
+    {
+      "name": "residential pv battery data from twenty buildings",
+      "count": 2
+    },
+    {
+      "name": "pubmedcausal",
+      "count": 2
+    },
+    {
+      "name": "nine multimodal benchmarks",
+      "count": 2
+    },
+    {
+      "name": "synthetic data",
+      "count": 2
+    },
+    {
+      "name": "litecoder terminal rl",
+      "count": 2
+    },
+    {
+      "name": "indicklar",
+      "count": 2
+    },
+    {
+      "name": "ten open source lalms",
+      "count": 2
+    },
+    {
+      "name": "atlas",
+      "count": 1
+    },
+    {
+      "name": "musique",
+      "count": 1
+    },
+    {
+      "name": "standard benchmarks",
+      "count": 1
+    },
+    {
+      "name": "mouse embryonic atlas",
+      "count": 1
+    },
+    {
+      "name": "weinreb hematopoiesis",
+      "count": 1
+    },
+    {
+      "name": "veres islet differentiation",
+      "count": 1
+    },
+    {
+      "name": "norman perturb seq",
+      "count": 1
+    },
+    {
+      "name": "overeager",
+      "count": 1
+    },
+    {
+      "name": "ctf 4 science lorenz benchmark",
+      "count": 1
+    },
+    {
+      "name": "standard stabilizer codes",
+      "count": 1
+    },
+    {
+      "name": "benger",
+      "count": 1
+    }
+  ],
+  "top20_metrics": [
+    {
+      "name": "accuracy",
+      "count": 12
+    },
+    {
+      "name": "refusal rate",
+      "count": 8
+    },
+    {
+      "name": "performance",
+      "count": 6
+    },
+    {
+      "name": "pass 1",
+      "count": 4
+    },
+    {
+      "name": "speedup",
+      "count": 3
+    },
+    {
+      "name": "relative l2 error",
+      "count": 3
+    },
+    {
+      "name": "performance improvement",
+      "count": 2
+    },
+    {
+      "name": "electricity cost reduction",
+      "count": 2
+    },
+    {
+      "name": "rmse",
+      "count": 2
+    },
+    {
+      "name": "f1",
+      "count": 2
+    },
+    {
+      "name": "pass 4",
+      "count": 2
+    },
+    {
+      "name": "robust detection",
+      "count": 2
+    },
+    {
+      "name": "squared error",
+      "count": 2
+    },
+    {
+      "name": "ndcg 5",
+      "count": 2
+    },
+    {
+      "name": "r 2",
+      "count": 2
+    },
+    {
+      "name": "latency",
+      "count": 2
+    },
+    {
+      "name": "atlascore",
+      "count": 1
+    },
+    {
+      "name": "performance gain",
+      "count": 1
+    },
+    {
+      "name": "trajectory efficiency",
+      "count": 1
+    },
+    {
+      "name": "sinkhorn distance",
+      "count": 1
+    }
+  ],
+  "n_distinct_methods": 108,
+  "n_distinct_datasets": 113,
+  "n_distinct_metrics": 118,
+  "examples": [
+    {
+      "paper_id": "arxiv:2605.30162",
+      "n_contributions": 9
+    },
+    {
+      "paper_id": "arxiv:2605.29738",
+      "n_contributions": 5
+    },
+    {
+      "paper_id": "arxiv:2605.28669",
+      "n_contributions": 3
+    }
+  ]
+}

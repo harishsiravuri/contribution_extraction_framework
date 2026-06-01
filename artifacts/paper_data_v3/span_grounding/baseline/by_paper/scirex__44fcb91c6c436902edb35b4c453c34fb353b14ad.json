@@ -1,0 +1,97 @@
+{
+  "paper_id": "scirex:44fcb91c6c436902edb35b4c453c34fb353b14ad",
+  "contributions": [
+    {
+      "method": {
+        "name": "Convolutional Encoder Model",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 200
+        },
+        "confidence": 0.9
+      },
+      "task": {
+        "name": "Neural Machine Translation",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 200
+        },
+        "confidence": 0.9
+      },
+      "datasets": [
+        {
+          "name": "WMT'16 English-Romanian",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 200,
+            "end": 300
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "WMT'15 English-German",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 300,
+            "end": 400
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "WMT'14 English-French",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 400,
+            "end": 500
+          },
+          "confidence": 0.9
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 200,
+            "end": 500
+          },
+          "confidence": 0.8
+        },
+        {
+          "name": "CPU decoding speed",
+          "value": 2.0,
+          "unit": "times",
+          "evidence_span": {
+            "start": 500,
+            "end": 600
+          },
+          "confidence": 0.8
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "bidirectional LSTM"
+      ],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "PARTIAL",
+        "task": "PARTIAL",
+        "datasets": "PARTIAL",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "(none)",
+    "consolidator_model": "(none)",
+    "tokens_in": 7207,
+    "tokens_out": 477,
+    "cost_usd": 0.0027307700000000004,
+    "wall_time_seconds": 25.07778995897388,
+    "voting_samples": 1
+  }
+}

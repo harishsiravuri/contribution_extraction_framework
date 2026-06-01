@@ -1,0 +1,69 @@
+{
+  "paper_id": "scirex:07a9478e87a8304fc3267fa16e83e9f3bbd98b27",
+  "contributions": [
+    {
+      "method": {
+        "name": "Decomposable Attention Model",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 120
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "Natural Language Inference",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 120,
+          "end": 200
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "Stanford Natural Language Inference (SNLI)",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 200,
+            "end": 300
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy",
+          "value": null,
+          "unit": "percentage points",
+          "evidence_span": {
+            "start": 3000,
+            "end": 3100
+          },
+          "confidence": 0.8
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "LSTM-based approaches"
+      ],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "PARTIAL",
+        "task": "PARTIAL",
+        "datasets": "PARTIAL",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "(none)",
+    "consolidator_model": "(none)",
+    "tokens_in": 3342,
+    "tokens_out": 317,
+    "cost_usd": 0.00135157,
+    "wall_time_seconds": 13.898433624999598,
+    "voting_samples": 1
+  }
+}

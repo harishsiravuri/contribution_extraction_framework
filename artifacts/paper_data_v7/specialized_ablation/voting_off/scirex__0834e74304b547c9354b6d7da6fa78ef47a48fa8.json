@@ -1,0 +1,86 @@
+{
+  "paper_id": "scirex:0834e74304b547c9354b6d7da6fa78ef47a48fa8",
+  "contributions": [
+    {
+      "method": {
+        "name": "line",
+        "canonical_id": null,
+        "evidence_span": null,
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "node classification",
+        "canonical_id": null,
+        "evidence_span": null,
+        "confidence": 0.8
+      },
+      "datasets": [
+        {
+          "name": "dblp-author-citation",
+          "canonical_id": null,
+          "evidence_span": null,
+          "confidence": 0.2
+        },
+        {
+          "name": "dblp-paper-citation",
+          "canonical_id": null,
+          "evidence_span": null,
+          "confidence": 0.2
+        },
+        {
+          "name": "flickr",
+          "canonical_id": null,
+          "evidence_span": null,
+          "confidence": 0.2
+        },
+        {
+          "name": "wikipedia",
+          "canonical_id": null,
+          "evidence_span": null,
+          "confidence": 0.2
+        },
+        {
+          "name": "youtube",
+          "canonical_id": null,
+          "evidence_span": null,
+          "confidence": 0.2
+        }
+      ],
+      "metrics": [
+        {
+          "name": "macro f1",
+          "value": null,
+          "unit": null,
+          "evidence_span": null,
+          "confidence": 0.5
+        },
+        {
+          "name": "micro f1",
+          "value": null,
+          "unit": null,
+          "evidence_span": null,
+          "confidence": 0.5
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [],
+      "self_consistency": 0.85,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "harishsiravuri_e088/Meta-Llama-3.1-70B-Instruct-Reference-scirex-v6-70b-7cecddd1-66437b32",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 28604,
+    "tokens_out": 5688,
+    "cost_usd": 0.01989137,
+    "wall_time_seconds": 132.3327874590177,
+    "voting_samples": 1
+  }
+}

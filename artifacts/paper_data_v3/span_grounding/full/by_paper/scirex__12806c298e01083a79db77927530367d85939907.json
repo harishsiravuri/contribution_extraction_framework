@@ -1,0 +1,99 @@
+{
+  "paper_id": "scirex:12806c298e01083a79db77927530367d85939907",
+  "contributions": [
+    {
+      "method": {
+        "name": "Overfeat CNN",
+        "canonical_id": "Overfeat",
+        "evidence_span": {
+          "start": 2223,
+          "end": 2231
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "lane and vehicle detection",
+        "canonical_id": "object detection",
+        "evidence_span": {
+          "start": 2181,
+          "end": 2205
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "highway data set",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 3853,
+            "end": 3868
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 4911,
+            "end": 4913
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "precision",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 4976,
+            "end": 4985
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "recall",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 4976,
+            "end": 4982
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "IOU",
+          "value": 0.7,
+          "unit": null,
+          "evidence_span": {
+            "start": 5714,
+            "end": 5717
+          },
+          "confidence": 0.3333333333333333
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "radar"
+      ],
+      "self_consistency": 0.875,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 29584,
+    "tokens_out": 4786,
+    "cost_usd": 0.01650101,
+    "wall_time_seconds": 175.71737862500595,
+    "voting_samples": 3
+  }
+}

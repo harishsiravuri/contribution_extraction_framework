@@ -1,0 +1,80 @@
+{
+  "paper_id": "scirex:170cc3b72dd2793920f8b0bbd0926d9244c49562",
+  "contributions": [
+    {
+      "method": {
+        "name": "bootstrapped DQN",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 309,
+          "end": 324
+        },
+        "confidence": 0.95
+      },
+      "task": {
+        "name": "reinforcement learning",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 39,
+          "end": 62
+        },
+        "confidence": 0.98
+      },
+      "datasets": [
+        {
+          "name": "Arcade Learning Environment",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1276,
+            "end": 1301
+          },
+          "confidence": 0.95
+        }
+      ],
+      "metrics": [
+        {
+          "name": "learning speed improvement",
+          "value": 30.0,
+          "unit": "% faster",
+          "evidence_span": {
+            "start": 1325,
+            "end": 1349
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "AUC-100 metric",
+          "value": 0.62,
+          "unit": null,
+          "evidence_span": {
+            "start": 7369,
+            "end": 7377
+          },
+          "confidence": 0.85
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "DQN",
+        "-greedy exploration"
+      ],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "PARTIAL",
+        "task": "PARTIAL",
+        "datasets": "PARTIAL",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "(none)",
+    "consolidator_model": "(none)",
+    "tokens_in": 9179,
+    "tokens_out": 385,
+    "cost_usd": 0.00327993,
+    "wall_time_seconds": 15.606491542013828,
+    "voting_samples": 1
+  }
+}

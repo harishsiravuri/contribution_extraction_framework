@@ -1,0 +1,69 @@
+{
+  "paper_id": "tdmsci:test_500_v2:01401",
+  "contributions": [
+    {
+      "method": {
+        "name": "our method",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 31,
+          "end": 40
+        },
+        "confidence": 0.6666666666666666
+      },
+      "task": {
+        "name": "translation",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 56,
+          "end": 66
+        },
+        "confidence": 0.6666666666666666
+      },
+      "datasets": [
+        {
+          "name": "NIST evaluation test sets",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 29,
+            "end": 53
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 80,
+            "end": 89
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "baseline systems"
+      ],
+      "self_consistency": 0.875,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 5097,
+    "tokens_out": 1583,
+    "cost_usd": 0.0036448699999999997,
+    "wall_time_seconds": 35.312881499994546,
+    "voting_samples": 3
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "paper_id": "scirex:25ace72fc3e483d5d52c9209f76b04f0fdd08f9b",
+  "contributions": [
+    {
+      "method": {
+        "name": "Fused Text Segmentation Networks (FTSN)",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 58,
+          "end": 86
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "multi-oriented scene text detection",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 57
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "ICDAR2015 Incidental Scene Text",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 451,
+            "end": 482
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "MSRA-TD500",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 486,
+            "end": 496
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "Total-Text",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 579,
+            "end": 590
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Hmean",
+          "value": 84.1,
+          "unit": "%",
+          "evidence_span": {
+            "start": 497,
+            "end": 512
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "Hmean",
+          "value": 82.0,
+          "unit": "%",
+          "evidence_span": {
+            "start": 516,
+            "end": 531
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "state of the art methods"
+      ],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "PARTIAL",
+        "task": "PARTIAL",
+        "datasets": "PARTIAL",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "openai/gpt-4o-2024-11-20",
+    "critic_model": "(none)",
+    "consolidator_model": "(none)",
+    "tokens_in": 3887,
+    "tokens_out": 464,
+    "cost_usd": 0.0143575,
+    "wall_time_seconds": 3.307826125063002,
+    "voting_samples": 1
+  }
+}

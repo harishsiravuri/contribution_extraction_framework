@@ -1,0 +1,73 @@
+{
+  "paper_id": "scirex:0a3381f0432c5cfe491c718349d7a44e5814592c",
+  "contributions": [
+    {
+      "method": {
+        "name": "bidirectional lstm",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 1954,
+          "end": 1970
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "error detection",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 173,
+          "end": 187
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "fce-public",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2461,
+            "end": 2473
+          },
+          "confidence": 0.75
+        },
+        {
+          "name": "conll-14",
+          "canonical_id": null,
+          "evidence_span": null,
+          "confidence": 0.25
+        }
+      ],
+      "metrics": [
+        {
+          "name": "f0 5 score",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 3514,
+            "end": 3525
+          },
+          "confidence": 0.75
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [],
+      "self_consistency": 0.875,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "harishsiravuri_e088/Meta-Llama-3.1-70B-Instruct-Reference-scirex-v6-70b-7cecddd1-66437b32",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 27420,
+    "tokens_out": 2209,
+    "cost_usd": 0.01599248,
+    "wall_time_seconds": 36.474498541036155,
+    "voting_samples": 3
+  }
+}

@@ -1,0 +1,66 @@
+{"doc_id": "007ff2ca5f297b04636699ce4d01ca6d6f21dc77", "predicted_relations": [[["Material__snli", "Metric__accuracy", "Task__natural language inference", "Method__aesim"], 1, 1]]}
+{"doc_id": "027d6c52be01b583b9a0d9eb8c9364c6b701c656", "predicted_relations": [[["Material__imagenet", "Metric__accuracy", "Task__image classification", "Method__lsuv"], 1, 1]]}
+{"doc_id": "0496691c6d54fd746c111d1004349acf7654145e", "predicted_relations": []}
+{"doc_id": "0680f04750b1e257ffdd161e85382031dc73ea7f", "predicted_relations": [[["Material__squad", "Metric__em", "Task__question answering", "Method__dynamic chunk reader"], 1, 1]]}
+{"doc_id": "0690ba31424310a90028533218d0afd25a829c8d", "predicted_relations": [[["Material__pascal voc 2012", "Metric__mean iou", "Task__semantic segmentation", "Method__deeplab"], 1, 1]]}
+{"doc_id": "07a9478e87a8304fc3267fa16e83e9f3bbd98b27", "predicted_relations": [[["Material__snli", "Metric__accuracy", "Task__natural language inference", "Method__decomposable attention"], 1, 1]]}
+{"doc_id": "087337fdad69caaab8ebd8ae68a731c5bf2e8b14", "predicted_relations": []}
+{"doc_id": "088b649415378c4dde666f614ba24d08a36b6652", "predicted_relations": []}
+{"doc_id": "0910a4c470a410fac446f4026f7c8ef512ae7427", "predicted_relations": []}
+{"doc_id": "097851f362667a599208f4a06fa289dac2e91fbe", "predicted_relations": []}
+{"doc_id": "0b0dc14b8a8dcccbfc62a38355fff2f6a361e9d2", "predicted_relations": []}
+{"doc_id": "0b4b6932d5df74b366d9235b40334bc40d719c72", "predicted_relations": [[["Material__svhn", "Metric__accuracy", "Task__image classification", "Method__temporal ensembling"], 1, 1]]}
+{"doc_id": "0c5c93594647d77dcbad5f3ed71139b186a23a3c", "predicted_relations": []}
+{"doc_id": "0c7f1d285ce069b2f7a807a4b2750695098bffe6", "predicted_relations": []}
+{"doc_id": "0e6b990f41fc0e7fdd0662f88b5ad024375bd77b", "predicted_relations": []}
+{"doc_id": "11f411eee106efac9f677149e655252463811b09", "predicted_relations": []}
+{"doc_id": "1275125b71b999b7c49bc554c6ec404a764eb299", "predicted_relations": []}
+{"doc_id": "12806c298e01083a79db77927530367d85939907", "predicted_relations": []}
+{"doc_id": "148eb2b649ce0f66214fceba5c061b417ab88d79", "predicted_relations": []}
+{"doc_id": "14cb3de564377cc4ba2b9bfe8ebd8c0a7c2787ce", "predicted_relations": [[["Material__caltech", "Metric__miss rate", "Task__pedestrian detection", "Method__cifarnet"], 1, 1]]}
+{"doc_id": "1510cf4b8abea80b9f352325ca4c132887de21a0", "predicted_relations": []}
+{"doc_id": "1594d954abc650bce2db445c52a76e49655efb0c", "predicted_relations": []}
+{"doc_id": "15c10b24ef645d83ff4059affd86945c33e00328", "predicted_relations": []}
+{"doc_id": "16028acc465c434a43599f0f900c91f38d690e02", "predicted_relations": []}
+{"doc_id": "170cc3b72dd2793920f8b0bbd0926d9244c49562", "predicted_relations": []}
+{"doc_id": "1762baa638866a13dcc6d146fd5a49b36cbd9c30", "predicted_relations": [[["Material__citeseer", "Metric__accuracy", "Task__node classification", "Method__gcn"], 1, 1]]}
+{"doc_id": "1827de6fa9c9c1b3d647a9d707042e89cf94abf0", "predicted_relations": [[["Material__imagenet", "Metric__accuracy", "Task__image classification", "Method__batch normalization"], 1, 1]]}
+{"doc_id": "188123b5afe0d3b59e9e44f33729649536fe6ea6", "predicted_relations": []}
+{"doc_id": "189e6bb7523733c4e524214b9e6ae92d4ed50dac", "predicted_relations": []}
+{"doc_id": "19d583bf8c5533d1261ccdc068fdc3ef53b9ffb9", "predicted_relations": [[["Material__lfw", "Metric__accuracy", "Task__face verification", "Method__facenet"], 1, 1]]}
+{"doc_id": "1c059493904b2244d2280b8b4c0c7d3ca115be73", "predicted_relations": [[["Material__facebook", "Metric__auc", "Task__link prediction", "Method__node2vec"], 1, 1]]}
+{"doc_id": "1d73144204eb1604b26cd57ef75536f0f2753c69", "predicted_relations": [[["Material__kitti", "Metric__ap", "Task__object detection", "Method__subcnn"], 1, 1]]}
+{"doc_id": "1e5b1bf032059caddb4ef0d6bfec4706d8f3a946", "predicted_relations": []}
+{"doc_id": "1efdad6f91e830fd64306e4625f74191b05ef9c4", "predicted_relations": []}
+{"doc_id": "1f8f0abfe4689aa93f2f6cc7ec4fd4c6adc2c2d6", "predicted_relations": []}
+{"doc_id": "22634b09c3c83f4a959f4f732b03ec3c92808094", "predicted_relations": [[["Material__kitti", "Metric__accuracy 10", "Task__image matching", "Method__deepmatching"], 1, 1]]}
+{"doc_id": "2315fc6c2c0c4abd2443e26a26e7bb86df8e24cc", "predicted_relations": []}
+{"doc_id": "2347efd31b723a636902ccaa7b5bc351788e793f", "predicted_relations": []}
+{"doc_id": "25ace72fc3e483d5d52c9209f76b04f0fdd08f9b", "predicted_relations": [[["Material__icdar 2015", "Metric__hmean", "Task__text detection", "Method__ftsn"], 1, 1]]}
+{"doc_id": "25b9b1ede6519eeef3e67657a97e2f551940b0d6", "predicted_relations": [[["Material__timit", "Metric__per", "Task__speech recognition", "Method__segmental rnn"], 1, 1]]}
+{"doc_id": "26d4ab9b60b91bb610202b58fa1766951fedb9e9", "predicted_relations": []}
+{"doc_id": "27e98e09cf09bc13c913d01676e5f32624011050", "predicted_relations": []}
+{"doc_id": "289e3e6b84982eb65aea8e3a64f2f6916c98e87e", "predicted_relations": []}
+{"doc_id": "28bf3aee9eecc2f7a7b4ac71bfe89534d3fe5f19", "predicted_relations": []}
+{"doc_id": "2af864bc38fd1116b4af32f16b44f5b3b156f5a3", "predicted_relations": [[["Material__babi", "Metric__accuracy", "Task__question answering", "Method__rmn"], 1, 1]]}
+{"doc_id": "2b507f659b341ed0f23106446de8e4322f4a3f7e", "predicted_relations": [[["Material__celeba", "Metric__psnr", "Task__facial attribute transfer", "Method__diat"], 1, 1]]}
+{"doc_id": "2c1d608e3cd43b3104d76296a14f1aef0e6b2c64", "predicted_relations": [[["Material__penn treebank", "Metric__perplexity", "Task__language modelling", "Method__dynamic evaluation"], 1, 1]]}
+{"doc_id": "2ead783089fc757052abb908287a2fb743a4ebef", "predicted_relations": []}
+{"doc_id": "3070a1bd503c3767def898bbd50c7eea2bbf29c9", "predicted_relations": [[["Material__imagenet", "Metric__mean iou", "Task__image classification", "Method__wider or deeper"], 1, 1]]}
+{"doc_id": "310fed695da4f36139b70b23065c34fe9fb29ca6", "predicted_relations": []}
+{"doc_id": "3208b5abafa1146e7df1073090523c822909275e", "predicted_relations": []}
+{"doc_id": "33bcc97b605f00145098d095be2841a1fa6b9a95", "predicted_relations": []}
+{"doc_id": "34f92431bb8cb9fa6a1210c5d6e4642079ffac7a", "predicted_relations": []}
+{"doc_id": "35756f711a97166df11202ebe46820a36704ae77", "predicted_relations": [[["Material__svhn", "Metric__accuracy", "Task__image classification", "Method__dcgan"], 1, 1]]}
+{"doc_id": "3858e5175799b97805b2b70ff54e8a7e0718870f", "predicted_relations": []}
+{"doc_id": "398c296d0cc7f9d180f84969f8937e6d3a413796", "predicted_relations": []}
+{"doc_id": "3bf52841ade9f6adc55e102a4460af922e52bb7d", "predicted_relations": []}
+{"doc_id": "3cdb1364c3e66443e1c2182474d44b2fb01cd584", "predicted_relations": [[["Material__camvid", "Metric__global accuracy", "Task__semantic segmentation", "Method__segnet"], 1, 1]]}
+{"doc_id": "3d597e16ef56119bb6e6d78e3f379623862f0752", "predicted_relations": [[["Material__celeba", "Metric__fid", "Task__image generation", "Method__smmdgan"], 1, 1]]}
+{"doc_id": "3f55d26dd638c849745b95e912c28d88445ba5e1", "predicted_relations": []}
+{"doc_id": "3fc5ed18c2294596af072df929c8ee12c71f96a2", "predicted_relations": []}
+{"doc_id": "40a63746a710baf4a694fd5a4dd8b5a3d9fc2846", "predicted_relations": [[["Material__celeba", "Metric__accuracy", "Task__image generation", "Method__icgan"], 1, 1]]}
+{"doc_id": "4265269bc894caa97efbfcfe5b83da7413f86a30", "predicted_relations": []}
+{"doc_id": "44fcb91c6c436902edb35b4c453c34fb353b14ad", "predicted_relations": []}
+{"doc_id": "4592364a6c1eb227ffb3cbb6bb9f4e6431e89f2f", "predicted_relations": []}
+{"doc_id": "4682e5d4654b6040f213475c8b75ca039661b5f6", "predicted_relations": [[["Material__icdar 2015", "Metric__fps", "Task__text detection", "Method__east"], 1, 1]]}

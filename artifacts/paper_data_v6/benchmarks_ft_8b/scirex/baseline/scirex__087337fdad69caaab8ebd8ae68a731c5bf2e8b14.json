@@ -1,0 +1,107 @@
+{
+  "paper_id": "scirex:087337fdad69caaab8ebd8ae68a731c5bf2e8b14",
+  "contributions": [
+    {
+      "method": {
+        "name": "Fully Convolutional Networks (FCNs)",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 300
+        },
+        "confidence": 0.99
+      },
+      "task": {
+        "name": "Semantic Segmentation",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 85,
+          "end": 110
+        },
+        "confidence": 0.99
+      },
+      "datasets": [
+        {
+          "name": "PASCAL VOC",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 650,
+            "end": 665
+          },
+          "confidence": 0.95
+        },
+        {
+          "name": "NYUDv2",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 670,
+            "end": 677
+          },
+          "confidence": 0.95
+        },
+        {
+          "name": "SIFT Flow",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 680,
+            "end": 689
+          },
+          "confidence": 0.95
+        },
+        {
+          "name": "PASCAL-Context",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 690,
+            "end": 705
+          },
+          "confidence": 0.95
+        }
+      ],
+      "metrics": [
+        {
+          "name": "mean IU",
+          "value": 67.2,
+          "unit": "%",
+          "evidence_span": {
+            "start": 645,
+            "end": 668
+          },
+          "confidence": 0.95
+        },
+        {
+          "name": "inference time",
+          "value": 0.1,
+          "unit": "seconds",
+          "evidence_span": {
+            "start": 710,
+            "end": 730
+          },
+          "confidence": 0.9
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "SDS",
+        "R-CNN"
+      ],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "PARTIAL",
+        "task": "PARTIAL",
+        "datasets": "PARTIAL",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "(none)",
+    "consolidator_model": "(none)",
+    "tokens_in": 9345,
+    "tokens_out": 538,
+    "cost_usd": 0.00346922,
+    "wall_time_seconds": 17.03919883398339,
+    "voting_samples": 1
+  }
+}

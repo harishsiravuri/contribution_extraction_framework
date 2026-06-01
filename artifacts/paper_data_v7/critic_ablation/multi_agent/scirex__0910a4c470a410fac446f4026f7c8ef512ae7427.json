@@ -1,0 +1,80 @@
+{
+  "paper_id": "scirex:0910a4c470a410fac446f4026f7c8ef512ae7427",
+  "contributions": [
+    {
+      "method": {
+        "name": "Hierarchical Co-Attention Model",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 200
+        },
+        "confidence": 0.75
+      },
+      "task": {
+        "name": "visual question answering",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 200
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "VQA",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 200,
+            "end": 300
+          },
+          "confidence": 0.5
+        },
+        {
+          "name": "COCO-QA",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 200,
+            "end": 300
+          },
+          "confidence": 0.5
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": 62.8,
+          "unit": "%",
+          "evidence_span": {
+            "start": 200,
+            "end": 300
+          },
+          "confidence": 0.75
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "state-of-the-art",
+        "DMN+",
+        "SAN (2, CNN)"
+      ],
+      "self_consistency": 0.875,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "DISABLED (E2 critic-off ablation)",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 21919,
+    "tokens_out": 2294,
+    "cost_usd": 0.00994978,
+    "wall_time_seconds": 22.25904795806855,
+    "voting_samples": 3
+  }
+}

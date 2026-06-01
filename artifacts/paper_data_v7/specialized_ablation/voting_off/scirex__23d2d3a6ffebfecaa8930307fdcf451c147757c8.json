@@ -1,0 +1,48 @@
+{
+  "paper_id": "scirex:23d2d3a6ffebfecaa8930307fdcf451c147757c8",
+  "contributions": [
+    {
+      "method": {
+        "name": "seqgan",
+        "canonical_id": null,
+        "evidence_span": null,
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "text generation",
+        "canonical_id": null,
+        "evidence_span": null,
+        "confidence": 1.0
+      },
+      "datasets": [],
+      "metrics": [
+        {
+          "name": "bleu score",
+          "value": null,
+          "unit": null,
+          "evidence_span": null,
+          "confidence": 0.5
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [],
+      "self_consistency": 0.875,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "UNSUPPORTED",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "harishsiravuri_e088/Meta-Llama-3.1-70B-Instruct-Reference-scirex-v6-70b-7cecddd1-66437b32",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 16693,
+    "tokens_out": 1051,
+    "cost_usd": 0.00988994,
+    "wall_time_seconds": 26.381429582834244,
+    "voting_samples": 1
+  }
+}

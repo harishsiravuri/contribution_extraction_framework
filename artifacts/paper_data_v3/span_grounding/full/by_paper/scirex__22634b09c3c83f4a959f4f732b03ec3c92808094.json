@@ -1,0 +1,163 @@
+{
+  "paper_id": "scirex:22634b09c3c83f4a959f4f732b03ec3c92808094",
+  "contributions": [
+    {
+      "method": {
+        "name": "DeepMatching",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 28,
+          "end": 40
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "dense image matching",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 77,
+          "end": 96
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "Mikolajczyk",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 235,
+            "end": 248
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "MPI-Sintel",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 272,
+            "end": 284
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "Kitti",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 289,
+            "end": 294
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy@10",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 10852,
+            "end": 10863
+          },
+          "confidence": 0.3333333333333333
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "SIFT",
+        "HOG",
+        "Generalized PatchMatch",
+        "Non-Rigid Dense Correspondences",
+        "DaisyFilterFlow"
+      ],
+      "self_consistency": 0.875,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    },
+    {
+      "method": {
+        "name": "DeepFlow",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 383,
+          "end": 393
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "optical flow estimation",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 408,
+          "end": 429
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "MPI-Sintel",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 272,
+            "end": 284
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "Kitti",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 289,
+            "end": 294
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "Middlebury",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 299,
+            "end": 309
+          },
+          "confidence": 0.6666666666666666
+        }
+      ],
+      "metrics": [
+        {
+          "name": "EPE",
+          "value": null,
+          "unit": "pixels",
+          "evidence_span": {
+            "start": 10852,
+            "end": 10855
+          },
+          "confidence": 0.3333333333333333
+        }
+      ],
+      "claim_strength": null,
+      "comparison_targets": [
+        "LDOF"
+      ],
+      "self_consistency": 0.75,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 61660,
+    "tokens_out": 4019,
+    "cost_usd": 0.02814473,
+    "wall_time_seconds": 78.69852987496415,
+    "voting_samples": 3
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "paper_id": "scirex:007ff2ca5f297b04636699ce4d01ca6d6f21dc77",
+  "contributions": [
+    {
+      "method": {
+        "name": "aESIM",
+        "canonical_id": null,
+        "evidence_span": null,
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "natural language inference",
+        "canonical_id": null,
+        "evidence_span": null,
+        "confidence": 0.75
+      },
+      "datasets": [
+        {
+          "name": "SNLI",
+          "canonical_id": null,
+          "evidence_span": null,
+          "confidence": 1.0
+        },
+        {
+          "name": "MultiNLI",
+          "canonical_id": null,
+          "evidence_span": null,
+          "confidence": 1.0
+        },
+        {
+          "name": "Quora",
+          "canonical_id": null,
+          "evidence_span": null,
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": 88.1,
+          "unit": "%",
+          "evidence_span": null,
+          "confidence": 1.0
+        },
+        {
+          "name": "accuracy",
+          "value": null,
+          "unit": "%",
+          "evidence_span": null,
+          "confidence": 0.5
+        },
+        {
+          "name": "accuracy",
+          "value": 88.01,
+          "unit": "%",
+          "evidence_span": null,
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "ESIM",
+        "CBOW",
+        "Bi-LSTM",
+        "state-of-the-art models"
+      ],
+      "self_consistency": 0.875,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "openai/gpt-5",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 21632,
+    "tokens_out": 11580,
+    "cost_usd": 0.12063973000000003,
+    "wall_time_seconds": 150.74263870803406,
+    "voting_samples": 3
+  }
+}

@@ -1,0 +1,178 @@
+{
+  "paper_id": "scirex:3f55d26dd638c849745b95e912c28d88445ba5e1",
+  "contributions": [
+    {
+      "method": {
+        "name": "BiLSTM with max pooling",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 3595,
+          "end": 3673
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "natural language inference",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 150,
+          "end": 200
+        },
+        "confidence": 0.5
+      },
+      "datasets": [
+        {
+          "name": "SNLI",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 3633,
+            "end": 3637
+          },
+          "confidence": 0.5
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 3729,
+            "end": 3737
+          },
+          "confidence": 0.5
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "SkipThought",
+        "FastSent"
+      ],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "PARTIAL",
+        "datasets": "PARTIAL",
+        "metrics": "PARTIAL"
+      }
+    },
+    {
+      "method": {
+        "name": "BiLSTM with max pooling",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 3595,
+          "end": 3673
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "semantic textual similarity",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 4527,
+          "end": 4545
+        },
+        "confidence": 0.5
+      },
+      "datasets": [
+        {
+          "name": "SICK",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 4322,
+            "end": 4326
+          },
+          "confidence": 0.5
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Pearson correlation",
+          "value": 0.885,
+          "unit": null,
+          "evidence_span": {
+            "start": 5487,
+            "end": 5496
+          },
+          "confidence": 0.5
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "previous state-of-the-art"
+      ],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "PARTIAL",
+        "datasets": "PARTIAL",
+        "metrics": "PARTIAL"
+      }
+    },
+    {
+      "method": {
+        "name": "BiLSTM with max pooling",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 3595,
+          "end": 3673
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "image-caption retrieval",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 4994,
+          "end": 5016
+        },
+        "confidence": 0.5
+      },
+      "datasets": [
+        {
+          "name": "COCO",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 5031,
+            "end": 5035
+          },
+          "confidence": 0.5
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Recall@1",
+          "value": 42.4,
+          "unit": null,
+          "evidence_span": {
+            "start": 5777,
+            "end": 5783
+          },
+          "confidence": 0.5
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "SkipThought"
+      ],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "PARTIAL",
+        "datasets": "PARTIAL",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "(none)",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 22026,
+    "tokens_out": 4220,
+    "cost_usd": 0.01177437,
+    "wall_time_seconds": 107.33437570900423,
+    "voting_samples": 3
+  }
+}

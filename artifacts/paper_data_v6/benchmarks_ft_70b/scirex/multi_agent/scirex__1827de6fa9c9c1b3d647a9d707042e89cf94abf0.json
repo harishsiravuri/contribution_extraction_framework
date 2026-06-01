@@ -1,0 +1,83 @@
+{
+  "paper_id": "scirex:1827de6fa9c9c1b3d647a9d707042e89cf94abf0",
+  "contributions": [
+    {
+      "method": {
+        "name": "batch normalization",
+        "canonical_id": null,
+        "evidence_span": null,
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "image classification",
+        "canonical_id": null,
+        "evidence_span": null,
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "imagenet",
+          "canonical_id": null,
+          "evidence_span": null,
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": null,
+          "unit": null,
+          "evidence_span": null,
+          "confidence": 0.25
+        },
+        {
+          "name": "top 1 accuracy",
+          "value": null,
+          "unit": null,
+          "evidence_span": null,
+          "confidence": 0.25
+        },
+        {
+          "name": "top 5 accuracy",
+          "value": null,
+          "unit": null,
+          "evidence_span": null,
+          "confidence": 0.25
+        },
+        {
+          "name": "top 1 error",
+          "value": null,
+          "unit": null,
+          "evidence_span": null,
+          "confidence": 0.25
+        },
+        {
+          "name": "top 5 error",
+          "value": null,
+          "unit": null,
+          "evidence_span": null,
+          "confidence": 0.25
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [],
+      "self_consistency": 0.875,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "harishsiravuri_e088/Meta-Llama-3.1-70B-Instruct-Reference-scirex-v6-70b-7cecddd1-66437b32",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 32618,
+    "tokens_out": 1921,
+    "cost_usd": 0.018456179999999996,
+    "wall_time_seconds": 74.42210766702192,
+    "voting_samples": 3
+  }
+}

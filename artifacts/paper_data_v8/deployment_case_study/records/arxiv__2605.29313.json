@@ -1,0 +1,80 @@
+{
+  "paper_id": "arxiv:2605.29313",
+  "contributions": [
+    {
+      "method": {
+        "name": "PatchBoard",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 10,
+          "end": 19
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "multi-agent collaboration",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 41,
+          "end": 63
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "ALFWorld",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 452,
+            "end": 461
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "success rate",
+          "value": 84.6,
+          "unit": "%",
+          "evidence_span": {
+            "start": 524,
+            "end": 536
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "tokens per successful task",
+          "value": 45500.0,
+          "unit": "tokens",
+          "evidence_span": {
+            "start": 568,
+            "end": 573
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "LangGraph",
+        "Flock"
+      ],
+      "self_consistency": 0.75,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "PARTIAL",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 9163,
+    "tokens_out": 4308,
+    "cost_usd": 0.00821086,
+    "wall_time_seconds": 87.1128880418837,
+    "voting_samples": 3
+  }
+}

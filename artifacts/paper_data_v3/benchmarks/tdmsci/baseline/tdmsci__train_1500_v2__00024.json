@@ -1,0 +1,56 @@
+{
+  "paper_id": "tdmsci:train_1500_v2:00024",
+  "contributions": [
+    {
+      "method": {
+        "name": "FrameNet-based analysis with argument identification strategy",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 7,
+          "end": 154
+        },
+        "confidence": 0.8
+      },
+      "task": {
+        "name": "frame and argument identification",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 231,
+          "end": 265
+        },
+        "confidence": 0.9
+      },
+      "datasets": [
+        {
+          "name": "FrameNet 1.5 release",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 166,
+            "end": 185
+          },
+          "confidence": 0.95
+        }
+      ],
+      "metrics": [],
+      "claim_strength": "improves",
+      "comparison_targets": [],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "PARTIAL",
+        "task": "PARTIAL",
+        "datasets": "PARTIAL",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "(none)",
+    "consolidator_model": "(none)",
+    "tokens_in": 628,
+    "tokens_out": 271,
+    "cost_usd": 0.00044215,
+    "wall_time_seconds": 7.523980832949746,
+    "voting_samples": 1
+  }
+}

@@ -1,0 +1,161 @@
+{
+  "paper_id": "scirex:12806c298e01083a79db77927530367d85939907",
+  "contributions": [
+    {
+      "method": {
+        "name": "Overfeat CNN",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 851,
+          "end": 860
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "vehicle detection",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 1243,
+          "end": 1260
+        },
+        "confidence": 0.75
+      },
+      "datasets": [
+        {
+          "name": "highway data set",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 238,
+            "end": 253
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 4240,
+            "end": 4242
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "precision",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 4240,
+            "end": 4249
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "recall",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 4251,
+            "end": 4257
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "radar"
+      ],
+      "self_consistency": 0.875,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    },
+    {
+      "method": {
+        "name": "Overfeat CNN",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 851,
+          "end": 860
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "lane detection",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 2710,
+          "end": 2724
+        },
+        "confidence": 0.75
+      },
+      "datasets": [
+        {
+          "name": "highway data set",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 238,
+            "end": 253
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 4240,
+            "end": 4242
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "precision",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 4240,
+            "end": 4249
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "recall",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 4251,
+            "end": 4257
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [],
+      "self_consistency": 0.875,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 29622,
+    "tokens_out": 4114,
+    "cost_usd": 0.01578456,
+    "wall_time_seconds": 61.64299908303656,
+    "voting_samples": 3
+  }
+}

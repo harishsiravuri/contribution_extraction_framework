@@ -1,0 +1,90 @@
+{
+  "paper_id": "scirex:188123b5afe0d3b59e9e44f33729649536fe6ea6",
+  "contributions": [
+    {
+      "method": {
+        "name": "pseudo-count exploration",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 1037,
+          "end": 1054
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "exploration in reinforcement learning",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 100,
+          "end": 137
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "Atari 2600",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1237,
+            "end": 1250
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "Montezuma's Revenge",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1340,
+            "end": 1362
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "score",
+          "value": 6600.0,
+          "unit": "points",
+          "evidence_span": {
+            "start": 6551,
+            "end": 6561
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "rooms explored",
+          "value": 15.0,
+          "unit": "rooms",
+          "evidence_span": {
+            "start": 6454,
+            "end": 6461
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "DQN",
+        "A3C",
+        "MBIE-EB"
+      ],
+      "self_consistency": 0.875,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 41638,
+    "tokens_out": 5292,
+    "cost_usd": 0.02170762,
+    "wall_time_seconds": 206.05667237500893,
+    "voting_samples": 3
+  }
+}

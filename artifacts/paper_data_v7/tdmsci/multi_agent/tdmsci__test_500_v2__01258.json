@@ -1,0 +1,64 @@
+{
+  "paper_id": "tdmsci:test_500_v2:01258",
+  "contributions": [
+    {
+      "method": {
+        "name": null,
+        "canonical_id": null,
+        "evidence_span": null,
+        "confidence": 0.0
+      },
+      "task": {
+        "name": "language modeling",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 77
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "text8",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 31,
+            "end": 36
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BPC",
+          "value": 1.5,
+          "unit": "bits per character",
+          "evidence_span": {
+            "start": 12,
+            "end": 29
+          },
+          "confidence": 0.5
+        }
+      ],
+      "claim_strength": null,
+      "comparison_targets": [],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "UNSUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 5390,
+    "tokens_out": 1960,
+    "cost_usd": 0.00411538,
+    "wall_time_seconds": 56.67085633287206,
+    "voting_samples": 3
+  }
+}

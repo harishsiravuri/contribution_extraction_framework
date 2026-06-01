@@ -1,0 +1,151 @@
+{
+  "paper_id": "scirex:1594d954abc650bce2db445c52a76e49655efb0c",
+  "contributions": [
+    {
+      "method": {
+        "name": "Recurrent Neural Network Grammars (RNNGs)",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 45
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "parsing",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 100,
+          "end": 114
+        },
+        "confidence": 0.75
+      },
+      "datasets": [
+        {
+          "name": "Penn Treebank (PTB) §23",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1368,
+            "end": 1387
+          },
+          "confidence": 0.75
+        },
+        {
+          "name": "Chinese Treebank (CTB) 5.1",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1424,
+            "end": 1446
+          },
+          "confidence": 0.75
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 93.3,
+          "unit": null,
+          "evidence_span": {
+            "start": 93,
+            "end": 95
+          },
+          "confidence": 0.75
+        },
+        {
+          "name": "perplexity",
+          "value": 105.2,
+          "unit": null,
+          "evidence_span": {
+            "start": 114,
+            "end": 124
+          },
+          "confidence": 0.75
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "state-of-the-art sequential RNNs"
+      ],
+      "self_consistency": 0.875,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    },
+    {
+      "method": {
+        "name": "Recurrent Neural Network Grammars (RNNGs)",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 45
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "language modeling",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 100,
+          "end": 114
+        },
+        "confidence": 0.75
+      },
+      "datasets": [
+        {
+          "name": "Penn Treebank (PTB) §23",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1368,
+            "end": 1387
+          },
+          "confidence": 0.75
+        },
+        {
+          "name": "Chinese Treebank (CTB) 5.1",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1424,
+            "end": 1446
+          },
+          "confidence": 0.75
+        }
+      ],
+      "metrics": [
+        {
+          "name": "perplexity",
+          "value": 148.5,
+          "unit": null,
+          "evidence_span": {
+            "start": 114,
+            "end": 124
+          },
+          "confidence": 0.75
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "state-of-the-art sequential RNNs"
+      ],
+      "self_consistency": 0.875,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 31806,
+    "tokens_out": 5614,
+    "cost_usd": 0.01839897,
+    "wall_time_seconds": 147.91666250000708,
+    "voting_samples": 3
+  }
+}

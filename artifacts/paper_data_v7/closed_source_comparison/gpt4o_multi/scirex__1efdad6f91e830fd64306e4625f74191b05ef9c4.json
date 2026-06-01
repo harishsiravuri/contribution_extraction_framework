@@ -1,0 +1,108 @@
+{
+  "paper_id": "scirex:1efdad6f91e830fd64306e4625f74191b05ef9c4",
+  "contributions": [
+    {
+      "method": {
+        "name": "Patchy-san",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 1554,
+          "end": 1563
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "graph classification",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 11044,
+          "end": 11059
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "MUTAG",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 10891,
+            "end": 10896
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "PTC",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 10900,
+            "end": 10903
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "NCI1",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 10907,
+            "end": 10911
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "PROTEINS",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 10915,
+            "end": 10923
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "D&D",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 10927,
+            "end": 10930
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 11155,
+            "end": 11162
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "comparable",
+      "comparison_targets": [
+        "shortest-path kernel",
+        "random walk kernel",
+        "graphlet count kernel",
+        "Weisfeiler-Lehman subtree kernel"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "openai/gpt-4o-2024-11-20",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 36444,
+    "tokens_out": 5924,
+    "cost_usd": 0.1017527,
+    "wall_time_seconds": 67.89261633297428,
+    "voting_samples": 3
+  }
+}

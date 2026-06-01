@@ -1,0 +1,61 @@
+{
+  "paper_id": "tdmsci:test_500_v2:01421",
+  "contributions": [
+    {
+      "method": {
+        "name": null,
+        "canonical_id": null,
+        "evidence_span": null,
+        "confidence": 0.0
+      },
+      "task": {
+        "name": null,
+        "canonical_id": null,
+        "evidence_span": null,
+        "confidence": 0.0
+      },
+      "datasets": [
+        {
+          "name": "essay data",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 33,
+            "end": 43
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": 85.0,
+          "unit": "%",
+          "evidence_span": {
+            "start": 54,
+            "end": 67
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [],
+      "self_consistency": 0.875,
+      "critic_verdict": {
+        "method": "UNSUPPORTED",
+        "task": "UNSUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 5263,
+    "tokens_out": 1800,
+    "cost_usd": 0.00391119,
+    "wall_time_seconds": 51.03975270804949,
+    "voting_samples": 3
+  }
+}

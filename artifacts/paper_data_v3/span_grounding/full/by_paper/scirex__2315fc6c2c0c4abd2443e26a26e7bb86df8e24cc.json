@@ -1,0 +1,207 @@
+{
+  "paper_id": "scirex:2315fc6c2c0c4abd2443e26a26e7bb86df8e24cc",
+  "contributions": [
+    {
+      "method": {
+        "name": "AlexNet",
+        "canonical_id": "AlexNet",
+        "evidence_span": {
+          "start": 0,
+          "end": 2000
+        },
+        "confidence": 0.67
+      },
+      "task": {
+        "name": "image classification",
+        "canonical_id": "image_classification",
+        "evidence_span": {
+          "start": 0,
+          "end": 200
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "ImageNet LSVRC-2010",
+          "canonical_id": "ImageNet_LSVRC-2010",
+          "evidence_span": {
+            "start": 50,
+            "end": 100
+          },
+          "confidence": 0.67
+        },
+        {
+          "name": "ILSVRC-2012",
+          "canonical_id": "ILSVRC-2012",
+          "evidence_span": {
+            "start": 300,
+            "end": 350
+          },
+          "confidence": 0.67
+        }
+      ],
+      "metrics": [
+        {
+          "name": "top-1 error rate",
+          "value": 37.5,
+          "unit": "%",
+          "evidence_span": {
+            "start": 150,
+            "end": 180
+          },
+          "confidence": 0.67
+        },
+        {
+          "name": "top-5 error rate",
+          "value": 17.0,
+          "unit": "%",
+          "evidence_span": {
+            "start": 150,
+            "end": 180
+          },
+          "confidence": 0.67
+        },
+        {
+          "name": "top-5 error rate (ILSVRC-2012)",
+          "value": 15.3,
+          "unit": "%",
+          "evidence_span": {
+            "start": 300,
+            "end": 350
+          },
+          "confidence": 0.67
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "previous state-of-the-art",
+        "second-best entry in ILSVRC-2012"
+      ],
+      "self_consistency": 0.83,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    },
+    {
+      "method": {
+        "name": "ReLU nonlinearity",
+        "canonical_id": "ReLU",
+        "evidence_span": {
+          "start": 2000,
+          "end": 2500
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "image classification",
+        "canonical_id": "image_classification",
+        "evidence_span": {
+          "start": 0,
+          "end": 200
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "CIFAR-10",
+          "canonical_id": "CIFAR-10",
+          "evidence_span": {
+            "start": 2200,
+            "end": 2250
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "training speed",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 2100,
+            "end": 2200
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "tanh units"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    },
+    {
+      "method": {
+        "name": "dropout",
+        "canonical_id": "dropout",
+        "evidence_span": {
+          "start": 4000,
+          "end": 4500
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "image classification",
+        "canonical_id": "image_classification",
+        "evidence_span": {
+          "start": 0,
+          "end": 200
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "ImageNet LSVRC-2010",
+          "canonical_id": "ImageNet_LSVRC-2010",
+          "evidence_span": {
+            "start": 50,
+            "end": 100
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "top-1 error rate reduction",
+          "value": 1.0,
+          "unit": "%",
+          "evidence_span": {
+            "start": 4500,
+            "end": 4600
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "baseline without dropout"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 32884,
+    "tokens_out": 4831,
+    "cost_usd": 0.01778604,
+    "wall_time_seconds": 166.45185016700998,
+    "voting_samples": 3
+  }
+}

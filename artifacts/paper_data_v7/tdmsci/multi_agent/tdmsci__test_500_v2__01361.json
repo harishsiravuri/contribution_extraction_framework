@@ -1,0 +1,54 @@
+{
+  "paper_id": "tdmsci:test_500_v2:01361",
+  "contributions": [
+    {
+      "method": {
+        "name": null,
+        "canonical_id": null,
+        "evidence_span": null,
+        "confidence": 0.0
+      },
+      "task": {
+        "name": "POS tagging",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 55,
+          "end": 65
+        },
+        "confidence": 0.6666666666666666
+      },
+      "datasets": [],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 24,
+            "end": 32
+          },
+          "confidence": 0.6666666666666666
+        }
+      ],
+      "claim_strength": null,
+      "comparison_targets": [],
+      "self_consistency": 0.4444444444444444,
+      "critic_verdict": {
+        "method": "UNSUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "UNSUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 5069,
+    "tokens_out": 1652,
+    "cost_usd": 0.0036844399999999998,
+    "wall_time_seconds": 29.058065708028153,
+    "voting_samples": 3
+  }
+}

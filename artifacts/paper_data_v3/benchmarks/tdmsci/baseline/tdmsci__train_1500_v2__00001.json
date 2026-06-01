@@ -1,0 +1,54 @@
+{
+  "paper_id": "tdmsci:train_1500_v2:00001",
+  "contributions": [
+    {
+      "method": {
+        "name": null,
+        "canonical_id": null,
+        "evidence_span": null,
+        "confidence": 0.0
+      },
+      "task": {
+        "name": "selectional restriction task",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 65,
+          "end": 91
+        },
+        "confidence": 0.8
+      },
+      "datasets": [],
+      "metrics": [
+        {
+          "name": "prediction accuracy",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 10,
+            "end": 30
+          },
+          "confidence": 0.9
+        }
+      ],
+      "claim_strength": null,
+      "comparison_targets": [],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "PARTIAL",
+        "task": "PARTIAL",
+        "datasets": "PARTIAL",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "(none)",
+    "consolidator_model": "(none)",
+    "tokens_in": 556,
+    "tokens_out": 249,
+    "cost_usd": 0.00039953,
+    "wall_time_seconds": 7.159317790996283,
+    "voting_samples": 1
+  }
+}

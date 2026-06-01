@@ -1,0 +1,88 @@
+{
+  "paper_id": "scirex:0496691c6d54fd746c111d1004349acf7654145e",
+  "contributions": [
+    {
+      "method": {
+        "name": "Energy-Based Generative Adversarial Networks",
+        "canonical_id": "EBGAN",
+        "evidence_span": {
+          "start": 145,
+          "end": 170
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "generative modeling",
+        "canonical_id": "generative_modeling",
+        "evidence_span": {
+          "start": 106,
+          "end": 125
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "NIST",
+          "canonical_id": "NIST",
+          "evidence_span": {
+            "start": 6346,
+            "end": 6350
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "CIFAR-10",
+          "canonical_id": "CIFAR-10",
+          "evidence_span": {
+            "start": 6875,
+            "end": 6883
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "CelebA",
+          "canonical_id": "CelebA",
+          "evidence_span": {
+            "start": 6886,
+            "end": 6891
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Inception score",
+          "value": 7.07,
+          "unit": null,
+          "evidence_span": {
+            "start": 6898,
+            "end": 6923
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": null,
+      "comparison_targets": [
+        "GAN",
+        "EBGAN"
+      ],
+      "self_consistency": 0.875,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 40666,
+    "tokens_out": 4184,
+    "cost_usd": 0.02020387,
+    "wall_time_seconds": 206.54040479200194,
+    "voting_samples": 3
+  }
+}

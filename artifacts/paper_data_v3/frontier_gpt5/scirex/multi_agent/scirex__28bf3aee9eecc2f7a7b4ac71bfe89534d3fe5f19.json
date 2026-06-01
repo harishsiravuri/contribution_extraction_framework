@@ -1,0 +1,79 @@
+{
+  "paper_id": "scirex:28bf3aee9eecc2f7a7b4ac71bfe89534d3fe5f19",
+  "contributions": [
+    {
+      "method": {
+        "name": "OR-CNN",
+        "canonical_id": null,
+        "evidence_span": null,
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "pedestrian detection",
+        "canonical_id": null,
+        "evidence_span": null,
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "CityPersons",
+          "canonical_id": null,
+          "evidence_span": null,
+          "confidence": 0.6
+        },
+        {
+          "name": "Caltech-USA",
+          "canonical_id": null,
+          "evidence_span": null,
+          "confidence": 0.4
+        },
+        {
+          "name": "ETH",
+          "canonical_id": null,
+          "evidence_span": null,
+          "confidence": 0.4
+        },
+        {
+          "name": "INRIA",
+          "canonical_id": null,
+          "evidence_span": null,
+          "confidence": 0.4
+        }
+      ],
+      "metrics": [
+        {
+          "name": "MR",
+          "value": null,
+          "unit": null,
+          "evidence_span": null,
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Repulsion Loss",
+        "RFN-BF",
+        "state-of-the-art methods",
+        "baseline",
+        "other available competitors"
+      ],
+      "self_consistency": 0.83,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "openai/gpt-5",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 32986,
+    "tokens_out": 14229,
+    "cost_usd": 0.15341288,
+    "wall_time_seconds": 51.47987887496129,
+    "voting_samples": 3
+  }
+}

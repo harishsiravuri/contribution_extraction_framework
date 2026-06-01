@@ -1,0 +1,67 @@
+{
+  "paper_id": "arxiv:2605.28585",
+  "contributions": [
+    {
+      "method": {
+        "name": "DiLoCo",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 96,
+          "end": 102
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "distributed optimization",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 55,
+          "end": 78
+        },
+        "confidence": 0.75
+      },
+      "datasets": [
+        {
+          "name": "toy experiments",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 612,
+            "end": 626
+          },
+          "confidence": 0.5
+        }
+      ],
+      "metrics": [
+        {
+          "name": "stable range of outer learning rates",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 704,
+            "end": 737
+          },
+          "confidence": 0.5
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [],
+      "self_consistency": 0.75,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "PARTIAL",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 7531,
+    "tokens_out": 3028,
+    "cost_usd": 0.00622123,
+    "wall_time_seconds": 62.54485254199244,
+    "voting_samples": 3
+  }
+}

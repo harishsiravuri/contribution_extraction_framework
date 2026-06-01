@@ -1,0 +1,67 @@
+{
+  "paper_id": "arxiv:2605.28145",
+  "contributions": [
+    {
+      "method": {
+        "name": "adaptive reservoir computing framework",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 40
+        },
+        "confidence": 0.6666666666666666
+      },
+      "task": {
+        "name": "chaotic system forecasting",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 64,
+          "end": 87
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "CTF-4-Science Lorenz benchmark",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 41,
+            "end": 73
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "score",
+          "value": 74.91,
+          "unit": null,
+          "evidence_span": {
+            "start": 238,
+            "end": 246
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": null,
+      "comparison_targets": [],
+      "self_consistency": 0.875,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 6216,
+    "tokens_out": 2102,
+    "cost_usd": 0.0045848,
+    "wall_time_seconds": 57.325084457872435,
+    "voting_samples": 3
+  }
+}

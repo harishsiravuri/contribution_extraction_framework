@@ -1,0 +1,98 @@
+{
+  "paper_id": "scirex:0496691c6d54fd746c111d1004349acf7654145e",
+  "contributions": [
+    {
+      "method": {
+        "name": "Energy-based Generative Adversarial Networks (EBGANs) with energy estimation",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 1728
+        },
+        "confidence": 0.9
+      },
+      "task": {
+        "name": "Probabilistic generative modeling with energy estimation",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 430,
+          "end": 682
+        },
+        "confidence": 0.8
+      },
+      "datasets": [
+        {
+          "name": "NIST digits",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 9246,
+            "end": 9254
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "CIFAR-10",
+          "canonical_id": "CIFAR-10",
+          "evidence_span": {
+            "start": 9565,
+            "end": 9573
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "CelebA",
+          "canonical_id": "CelebA",
+          "evidence_span": {
+            "start": 9575,
+            "end": 9580
+          },
+          "confidence": 0.9
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Inception Score",
+          "value": 7.07,
+          "unit": null,
+          "evidence_span": {
+            "start": 9713,
+            "end": 9757
+          },
+          "confidence": 0.8
+        },
+        {
+          "name": "KL divergence",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 11038,
+            "end": 11051
+          },
+          "confidence": 0.7
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "GAN",
+        "EBGAN"
+      ],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "PARTIAL",
+        "task": "PARTIAL",
+        "datasets": "PARTIAL",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "(none)",
+    "consolidator_model": "(none)",
+    "tokens_in": 9014,
+    "tokens_out": 515,
+    "cost_usd": 0.00334283,
+    "wall_time_seconds": 19.391735707991756,
+    "voting_samples": 1
+  }
+}

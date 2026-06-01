@@ -1,0 +1,100 @@
+{
+  "paper_id": "scirex:1275125b71b999b7c49bc554c6ec404a764eb299",
+  "contributions": [
+    {
+      "method": {
+        "name": "HD-CNN",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 299
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "image classification",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 77,
+          "end": 95
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "CIFAR100",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 6677,
+            "end": 6686
+          },
+          "confidence": 0.5
+        },
+        {
+          "name": "ImageNet",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 272,
+            "end": 291
+          },
+          "confidence": 0.5
+        }
+      ],
+      "metrics": [
+        {
+          "name": "error",
+          "value": 18.0,
+          "unit": "%",
+          "evidence_span": {
+            "start": 6733,
+            "end": 6742
+          },
+          "confidence": 0.25
+        },
+        {
+          "name": "error",
+          "value": 23.0,
+          "unit": "%",
+          "evidence_span": {
+            "start": 11787,
+            "end": 11791
+          },
+          "confidence": 0.25
+        },
+        {
+          "name": "error",
+          "value": 27.0,
+          "unit": "%",
+          "evidence_span": {
+            "start": 19259,
+            "end": 19263
+          },
+          "confidence": 0.25
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "CIFAR100-NIN",
+        "ImageNet-NIN",
+        "ImageNet-VGG-16-layer"
+      ],
+      "self_consistency": 0.875,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "PARTIAL",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "(none)",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 23971,
+    "tokens_out": 2467,
+    "cost_usd": 0.01050185,
+    "wall_time_seconds": 72.11570520797977,
+    "voting_samples": 3
+  }
+}

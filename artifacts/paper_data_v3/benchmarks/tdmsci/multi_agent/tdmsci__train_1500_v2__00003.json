@@ -1,0 +1,54 @@
+{
+  "paper_id": "tdmsci:train_1500_v2:00003",
+  "contributions": [
+    {
+      "method": {
+        "name": null,
+        "canonical_id": null,
+        "evidence_span": null,
+        "confidence": 0.0
+      },
+      "task": {
+        "name": "prediction",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 51,
+          "end": 61
+        },
+        "confidence": 1.0
+      },
+      "datasets": [],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 1,
+            "end": 9
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": null,
+      "comparison_targets": [],
+      "self_consistency": 0.6666666666666666,
+      "critic_verdict": {
+        "method": "UNSUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "UNSUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 4947,
+    "tokens_out": 1558,
+    "cost_usd": 0.0035421999999999997,
+    "wall_time_seconds": 22.768493124982342,
+    "voting_samples": 3
+  }
+}

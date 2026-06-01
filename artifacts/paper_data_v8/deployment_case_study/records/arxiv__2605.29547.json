@@ -1,0 +1,89 @@
+{
+  "paper_id": "arxiv:2605.29547",
+  "contributions": [
+    {
+      "method": {
+        "name": "Singularity-aware Adam (S-Adam)",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 469,
+          "end": 489
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "optimization",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 469
+        },
+        "confidence": 0.3333333333333333
+      },
+      "datasets": [
+        {
+          "name": "CIFAR-100",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1195,
+            "end": 1204
+          },
+          "confidence": 0.6666666666666666
+        },
+        {
+          "name": "TinyImageNet",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1239,
+            "end": 1251
+          },
+          "confidence": 0.6666666666666666
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": 6.0,
+          "unit": "percent",
+          "evidence_span": {
+            "start": 1206,
+            "end": 1237
+          },
+          "confidence": 0.6666666666666666
+        },
+        {
+          "name": "accuracy",
+          "value": 3.0,
+          "unit": "percent",
+          "evidence_span": {
+            "start": 1257,
+            "end": 1281
+          },
+          "confidence": 0.6666666666666666
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "AdamW",
+        "Prox-SGD"
+      ],
+      "self_consistency": 0.7083333333333334,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "UNSUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 8075,
+    "tokens_out": 3213,
+    "cost_usd": 0.00653133,
+    "wall_time_seconds": 80.57793091703206,
+    "voting_samples": 3
+  }
+}

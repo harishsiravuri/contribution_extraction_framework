@@ -1,0 +1,100 @@
+{
+  "paper_id": "tdmsci:test_500_v2:01394",
+  "contributions": [
+    {
+      "method": {
+        "name": null,
+        "canonical_id": null,
+        "evidence_span": null,
+        "confidence": 0.0
+      },
+      "task": {
+        "name": null,
+        "canonical_id": null,
+        "evidence_span": null,
+        "confidence": 0.0
+      },
+      "datasets": [
+        {
+          "name": "WordNet",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 22,
+            "end": 29
+          },
+          "confidence": 0.5
+        },
+        {
+          "name": "Wikipages",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 33,
+            "end": 42
+          },
+          "confidence": 0.5
+        }
+      ],
+      "metrics": [
+        {
+          "name": "average polysemy",
+          "value": 1.3,
+          "unit": null,
+          "evidence_span": {
+            "start": 4,
+            "end": 7
+          },
+          "confidence": 0.25
+        },
+        {
+          "name": "average polysemy",
+          "value": 2.5,
+          "unit": null,
+          "evidence_span": {
+            "start": 29,
+            "end": 32
+          },
+          "confidence": 0.25
+        },
+        {
+          "name": "average polysemy",
+          "value": 2.8,
+          "unit": null,
+          "evidence_span": {
+            "start": 45,
+            "end": 48
+          },
+          "confidence": 0.25
+        },
+        {
+          "name": "average polysemy",
+          "value": 4.7,
+          "unit": null,
+          "evidence_span": {
+            "start": 53,
+            "end": 56
+          },
+          "confidence": 0.25
+        }
+      ],
+      "claim_strength": null,
+      "comparison_targets": [],
+      "self_consistency": 0.375,
+      "critic_verdict": {
+        "method": "UNSUPPORTED",
+        "task": "UNSUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 7123,
+    "tokens_out": 3065,
+    "cost_usd": 0.0060525100000000005,
+    "wall_time_seconds": 94.58274462493137,
+    "voting_samples": 3
+  }
+}

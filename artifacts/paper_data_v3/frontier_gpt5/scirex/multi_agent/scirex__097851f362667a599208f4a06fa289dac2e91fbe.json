@@ -1,0 +1,83 @@
+{
+  "paper_id": "scirex:097851f362667a599208f4a06fa289dac2e91fbe",
+  "contributions": [
+    {
+      "method": {
+        "name": "EPLS",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 1745,
+          "end": 1749
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "image classification",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 102,
+          "end": 121
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "STL-10",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2404,
+            "end": 2409
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 3094,
+            "end": 3101
+          },
+          "confidence": 0.75
+        },
+        {
+          "name": "standard deviation",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 3653,
+            "end": 3667
+          },
+          "confidence": 0.25
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "state-of-the-art methods",
+        "OMP-1 with sparse coding",
+        "state-of-the-art best performer in single layer networks",
+        "OMP-1 paired with sparse coding",
+        "OMP-1 with sparse coding encoding"
+      ],
+      "self_consistency": 0.875,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "openai/gpt-5",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 23559,
+    "tokens_out": 11733,
+    "cost_usd": 0.12551516999999998,
+    "wall_time_seconds": 107.48830383399036,
+    "voting_samples": 3
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "paper_id": "tdmsci:train_1500_v2:00040",
+  "contributions": [
+    {
+      "method": {
+        "name": "MF",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 28,
+          "end": 30
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "recommendation",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 62,
+          "end": 81
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "Netflix",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 20,
+            "end": 26
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [],
+      "claim_strength": null,
+      "comparison_targets": [],
+      "self_consistency": 0.8333333333333334,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "UNSUPPORTED",
+        "metrics": null
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 4903,
+    "tokens_out": 1507,
+    "cost_usd": 0.00347537,
+    "wall_time_seconds": 32.216574874997605,
+    "voting_samples": 3
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "paper_id": "scirex:3f55d26dd638c849745b95e912c28d88445ba5e1",
+  "contributions": [
+    {
+      "method": {
+        "name": "BiLSTM with max pooling",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 2345,
+          "end": 2364
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "natural language inference",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 1551,
+          "end": 1574
+        },
+        "confidence": 0.5
+      },
+      "datasets": [
+        {
+          "name": "SNLI",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1319,
+            "end": 1323
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "MultiNLI",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 5866,
+            "end": 5873
+          },
+          "confidence": 0.33
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Pearson correlation",
+          "value": 0.885,
+          "unit": null,
+          "evidence_span": {
+            "start": 5638,
+            "end": 5649
+          },
+          "confidence": 0.33
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "SkipThought",
+        "FastSent"
+      ],
+      "self_consistency": 0.67,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 29107,
+    "tokens_out": 3934,
+    "cost_usd": 0.01559434,
+    "wall_time_seconds": 100.4817976669874,
+    "voting_samples": 3
+  }
+}

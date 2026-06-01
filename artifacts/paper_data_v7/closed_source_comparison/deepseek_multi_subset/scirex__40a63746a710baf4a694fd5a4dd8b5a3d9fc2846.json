@@ -1,0 +1,101 @@
+{
+  "paper_id": "scirex:40a63746a710baf4a694fd5a4dd8b5a3d9fc2846",
+  "contributions": [
+    {
+      "method": {
+        "name": "Invertible Conditional GANs (IcGANs)",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 156,
+          "end": 183
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "image editing",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 90,
+          "end": 105
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "MNIST",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2005,
+            "end": 2010
+          },
+          "confidence": 0.5
+        },
+        {
+          "name": "CelebA",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1050,
+            "end": 1056
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 3065,
+            "end": 3073
+          },
+          "confidence": 0.5
+        },
+        {
+          "name": "F1",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 3075,
+            "end": 3077
+          },
+          "confidence": 0.75
+        },
+        {
+          "name": "reconstruction loss",
+          "value": 0.429,
+          "unit": null,
+          "evidence_span": {
+            "start": 4045,
+            "end": 4063
+          },
+          "confidence": 0.5
+        }
+      ],
+      "claim_strength": null,
+      "comparison_targets": [
+        "DCGANs",
+        "VAE",
+        "IND-CND",
+        "SNG"
+      ],
+      "self_consistency": 0.83,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 27470,
+    "tokens_out": 4072,
+    "cost_usd": 0.01503776,
+    "wall_time_seconds": 130.4190055000363,
+    "voting_samples": 3
+  }
+}

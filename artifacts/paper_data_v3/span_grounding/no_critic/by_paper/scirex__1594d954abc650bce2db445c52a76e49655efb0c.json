@@ -1,0 +1,89 @@
+{
+  "paper_id": "scirex:1594d954abc650bce2db445c52a76e49655efb0c",
+  "contributions": [
+    {
+      "method": {
+        "name": "recurrent neural network grammars",
+        "canonical_id": "RNNG",
+        "evidence_span": {
+          "start": 24,
+          "end": 89
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "parsing",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 148,
+          "end": 296
+        },
+        "confidence": 0.5
+      },
+      "datasets": [
+        {
+          "name": "Penn Treebank",
+          "canonical_id": "PTB",
+          "evidence_span": {
+            "start": 1594,
+            "end": 1876
+          },
+          "confidence": 0.5
+        },
+        {
+          "name": "Chinese Treebank",
+          "canonical_id": "CTB",
+          "evidence_span": {
+            "start": 1581,
+            "end": 1749
+          },
+          "confidence": 0.5
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 93.3,
+          "unit": null,
+          "evidence_span": {
+            "start": 1529,
+            "end": 1749
+          },
+          "confidence": 0.5
+        },
+        {
+          "name": "perplexity",
+          "value": 105.2,
+          "unit": null,
+          "evidence_span": {
+            "start": 1529,
+            "end": 1749
+          },
+          "confidence": 0.5
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "previously published supervised generative model",
+        "state-of-the-art sequential RNNs"
+      ],
+      "self_consistency": 0.625,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "PARTIAL",
+        "datasets": "PARTIAL",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "(none)",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 22457,
+    "tokens_out": 3588,
+    "cost_usd": 0.01131922,
+    "wall_time_seconds": 59.25220820802497,
+    "voting_samples": 3
+  }
+}

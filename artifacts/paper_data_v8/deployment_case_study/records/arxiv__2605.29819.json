@@ -1,0 +1,115 @@
+{
+  "paper_id": "arxiv:2605.29819",
+  "contributions": [
+    {
+      "method": {
+        "name": "median aggregation of three interpolating hypotheses",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 270,
+          "end": 328
+        },
+        "confidence": 0.67
+      },
+      "task": {
+        "name": "regression",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 53,
+          "end": 62
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": null,
+          "canonical_id": null,
+          "evidence_span": null,
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "sample complexity",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 0,
+            "end": 70
+          },
+          "confidence": 0.33
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "proper learning"
+      ],
+      "self_consistency": 0.83,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "PARTIAL"
+      }
+    },
+    {
+      "method": {
+        "name": "γ-graph dimension",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 108,
+          "end": 123
+        },
+        "confidence": 0.67
+      },
+      "task": {
+        "name": "regression",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 53,
+          "end": 62
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": null,
+          "canonical_id": null,
+          "evidence_span": null,
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "learnability",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 170,
+            "end": 190
+          },
+          "confidence": 0.33
+        }
+      ],
+      "claim_strength": "novel",
+      "comparison_targets": [],
+      "self_consistency": 0.83,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 6570,
+    "tokens_out": 2806,
+    "cost_usd": 0.0054535,
+    "wall_time_seconds": 31.20690270792693,
+    "voting_samples": 3
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "paper_id": "scirex:27e98e09cf09bc13c913d01676e5f32624011050",
+  "contributions": [
+    {
+      "method": {
+        "name": "U-Net",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 100
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "Machine Reading Comprehension with Unanswerable Questions",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 100
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "SQuAD 2.0",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 0,
+            "end": 100
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1 score",
+          "value": 72.6,
+          "unit": null,
+          "evidence_span": {
+            "start": 0,
+            "end": 100
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "state-of-the-art pipeline models"
+      ],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "PARTIAL",
+        "task": "PARTIAL",
+        "datasets": "PARTIAL",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "(none)",
+    "consolidator_model": "(none)",
+    "tokens_in": 6472,
+    "tokens_out": 326,
+    "cost_usd": 0.00236118,
+    "wall_time_seconds": 18.956787792034447,
+    "voting_samples": 1
+  }
+}

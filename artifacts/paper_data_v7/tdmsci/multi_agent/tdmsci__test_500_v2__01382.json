@@ -1,0 +1,43 @@
+{
+  "paper_id": "tdmsci:test_500_v2:01382",
+  "contributions": [
+    {
+      "method": {
+        "name": null,
+        "canonical_id": null,
+        "evidence_span": null,
+        "confidence": 0.0
+      },
+      "task": {
+        "name": "semantic role labeling",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 106,
+          "end": 129
+        },
+        "confidence": 1.0
+      },
+      "datasets": [],
+      "metrics": [],
+      "claim_strength": null,
+      "comparison_targets": [],
+      "self_consistency": 0.6666666666666666,
+      "critic_verdict": {
+        "method": "UNSUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "UNSUPPORTED",
+        "metrics": "UNSUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 4834,
+    "tokens_out": 1395,
+    "cost_usd": 0.0033211800000000004,
+    "wall_time_seconds": 28.836851707892492,
+    "voting_samples": 3
+  }
+}

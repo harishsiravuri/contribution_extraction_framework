@@ -1,0 +1,69 @@
+{
+  "paper_id": "arxiv:2605.29021",
+  "contributions": [
+    {
+      "method": {
+        "name": "Graph Neural Network (GNN)-aided optimization with Particle Swarm Optimization (PSO)",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 736,
+          "end": 821
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "Mixed Combinatorial Nonlinear Programmings (MCNLPs) in engineering design",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 239,
+          "end": 320
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "space debris capture design problem",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 0,
+            "end": 44
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "convergence speed",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 1219,
+            "end": 1241
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "direct solution of the MCNLP problem"
+      ],
+      "self_consistency": 0.8333333333333334,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "PARTIAL",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 7506,
+    "tokens_out": 2558,
+    "cost_usd": 0.00558106,
+    "wall_time_seconds": 41.85062683420256,
+    "voting_samples": 3
+  }
+}

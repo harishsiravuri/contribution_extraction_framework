@@ -1,0 +1,66 @@
+{
+  "paper_id": "arxiv:2605.29535",
+  "contributions": [
+    {
+      "method": {
+        "name": "AsymVLM",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 208,
+          "end": 215
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "document understanding",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 503,
+          "end": 520
+        },
+        "confidence": 0.75
+      },
+      "datasets": [
+        {
+          "name": null,
+          "canonical_id": null,
+          "evidence_span": null,
+          "confidence": 0.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 503,
+            "end": 520
+          },
+          "confidence": 0.5
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "state-of-the-art methods"
+      ],
+      "self_consistency": 0.875,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "UNSUPPORTED",
+        "metrics": "UNSUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 10073,
+    "tokens_out": 4557,
+    "cost_usd": 0.008993379999999999,
+    "wall_time_seconds": 62.34137349994853,
+    "voting_samples": 3
+  }
+}

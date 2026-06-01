@@ -1,0 +1,91 @@
+{
+  "paper_id": "scirex:310fed695da4f36139b70b23065c34fe9fb29ca6",
+  "contributions": [
+    {
+      "method": {
+        "name": "Shorten Spatial-spectral RNN with Parallel-GRU (St-SS-pGRU)",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 108
+        },
+        "confidence": 0.9
+      },
+      "task": {
+        "name": "Hyperspectral Image Classification",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 109,
+          "end": 161
+        },
+        "confidence": 0.9
+      },
+      "datasets": [
+        {
+          "name": "Pavia University",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 4825,
+            "end": 4839
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "Indian Pines",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 4844,
+            "end": 4856
+          },
+          "confidence": 0.9
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy Improvement (Pavia University)",
+          "value": 1.64,
+          "unit": "%",
+          "evidence_span": {
+            "start": 6175,
+            "end": 6180
+          },
+          "confidence": 0.8
+        },
+        {
+          "name": "Accuracy Improvement (Indian Pines)",
+          "value": 3.19,
+          "unit": "%",
+          "evidence_span": {
+            "start": 6185,
+            "end": 6190
+          },
+          "confidence": 0.8
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "LSTM",
+        "GRU",
+        "St-GRU",
+        "St-SS-GRU"
+      ],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "PARTIAL",
+        "task": "PARTIAL",
+        "datasets": "PARTIAL",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "openai/gpt-4o-2024-11-20",
+    "critic_model": "(none)",
+    "consolidator_model": "(none)",
+    "tokens_in": 3482,
+    "tokens_out": 476,
+    "cost_usd": 0.013465,
+    "wall_time_seconds": 3.583604000043124,
+    "voting_samples": 1
+  }
+}

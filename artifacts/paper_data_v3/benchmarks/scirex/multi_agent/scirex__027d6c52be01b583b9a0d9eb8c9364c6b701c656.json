@@ -1,0 +1,100 @@
+{
+  "paper_id": "scirex:027d6c52be01b583b9a0d9eb8c9364c6b701c656",
+  "contributions": [
+    {
+      "method": {
+        "name": "Layer-sequential unit-variance (LSUV) initialization",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 155,
+          "end": 184
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "image classification",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 1115,
+          "end": 1132
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "MNIST",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1922,
+            "end": 1927
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "CIFAR-10",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2261,
+            "end": 2269
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "CIFAR-100",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2261,
+            "end": 2271
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "ImageNet",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 3704,
+            "end": 3712
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": 0.68,
+          "unit": null,
+          "evidence_span": {
+            "start": 4018,
+            "end": 4025
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "orthonormal initialization",
+        "Hints initialization",
+        "Large-All-CNN",
+        "Fractional Max-pooling",
+        "standard initialization"
+      ],
+      "self_consistency": 0.875,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 27127,
+    "tokens_out": 7295,
+    "cost_usd": 0.01827231,
+    "wall_time_seconds": 345.3194161669817,
+    "voting_samples": 3
+  }
+}

@@ -1,0 +1,110 @@
+{
+  "paper_id": "scirex:0910a4c470a410fac446f4026f7c8ef512ae7427",
+  "contributions": [
+    {
+      "method": {
+        "name": "hierarchical co-attention model",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 156,
+          "end": 183
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "visual question answering",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 29,
+          "end": 55
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "VQA",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2174,
+            "end": 2177
+          },
+          "confidence": 0.75
+        },
+        {
+          "name": "COCO-QA",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2464,
+            "end": 2469
+          },
+          "confidence": 0.75
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": 62.1,
+          "unit": "%",
+          "evidence_span": {
+            "start": 3041,
+            "end": 3044
+          },
+          "confidence": 0.5
+        },
+        {
+          "name": "accuracy",
+          "value": 65.4,
+          "unit": "%",
+          "evidence_span": {
+            "start": 3134,
+            "end": 3137
+          },
+          "confidence": 0.5
+        },
+        {
+          "name": "accuracy",
+          "value": 60.5,
+          "unit": "%",
+          "evidence_span": {
+            "start": 2993,
+            "end": 2996
+          },
+          "confidence": 0.5
+        },
+        {
+          "name": "accuracy",
+          "value": 63.3,
+          "unit": "%",
+          "evidence_span": {
+            "start": 3005,
+            "end": 3008
+          },
+          "confidence": 0.5
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "DMN+",
+        "SAN (2, CNN)",
+        "state-of-the-art"
+      ],
+      "self_consistency": 0.875,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "openai/gpt-4o-2024-11-20",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 31194,
+    "tokens_out": 5838,
+    "cost_usd": 0.08415246,
+    "wall_time_seconds": 29.214721666881815,
+    "voting_samples": 3
+  }
+}

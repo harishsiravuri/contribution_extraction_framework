@@ -1,0 +1,101 @@
+{
+  "paper_id": "nlp_tdms:P15-1089",
+  "contributions": [
+    {
+      "method": {
+        "name": "syllable-based tweet normalization",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 102,
+          "end": 132
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "tweet normalization",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 355,
+          "end": 371
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "LexNorm1.1",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 10253,
+            "end": 10263
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "LexNorm1.2",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 10379,
+            "end": 10389
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "precision",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 10514,
+            "end": 10522
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "recall",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 10562,
+            "end": 10569
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "F-score",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 10600,
+            "end": 10607
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "character-level CRF tagging system",
+        "log-linear model with string edit distance",
+        "bipartite graph contextual similarity",
+        "orthography-phone combined system"
+      ],
+      "self_consistency": 0.875,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 26170,
+    "tokens_out": 2914,
+    "cost_usd": 0.01337196,
+    "wall_time_seconds": 73.49747708300129,
+    "voting_samples": 3
+  }
+}

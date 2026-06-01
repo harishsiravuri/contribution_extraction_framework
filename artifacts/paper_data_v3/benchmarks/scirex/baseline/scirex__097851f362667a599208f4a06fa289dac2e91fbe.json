@@ -1,0 +1,73 @@
+{
+  "paper_id": "scirex:097851f362667a599208f4a06fa289dac2e91fbe",
+  "contributions": [
+    {
+      "method": {
+        "name": "Enforcing Population and Lifetime Sparsity (EPLS)",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 1039
+        },
+        "confidence": 0.9
+      },
+      "task": {
+        "name": "unsupervised sparse feature learning",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 28,
+          "end": 410
+        },
+        "confidence": 0.9
+      },
+      "datasets": [
+        {
+          "name": "STL-10",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 410,
+            "end": 415
+          },
+          "confidence": 0.9
+        }
+      ],
+      "metrics": [
+        {
+          "name": "classification accuracy",
+          "value": 77.0,
+          "unit": "%",
+          "evidence_span": {
+            "start": 8540,
+            "end": 8547
+          },
+          "confidence": 0.8
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "ICA",
+        "sparse filtering",
+        "OMP-1",
+        "sparse coding",
+        "PSD"
+      ],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "PARTIAL",
+        "task": "PARTIAL",
+        "datasets": "PARTIAL",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "(none)",
+    "consolidator_model": "(none)",
+    "tokens_in": 4746,
+    "tokens_out": 380,
+    "cost_usd": 0.0018569200000000002,
+    "wall_time_seconds": 18.88736437499756,
+    "voting_samples": 1
+  }
+}

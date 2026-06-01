@@ -1,0 +1,46 @@
+{
+  "paper_id": "tdmsci:test_500_v2:01541",
+  "contributions": [
+    {
+      "method": {
+        "name": "Excitement Open Platform",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 4,
+          "end": 24
+        },
+        "confidence": 0.3333333333333333
+      },
+      "task": {
+        "name": "textual inference",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 25,
+          "end": 41
+        },
+        "confidence": 0.3333333333333333
+      },
+      "datasets": [],
+      "metrics": [],
+      "claim_strength": null,
+      "comparison_targets": [],
+      "self_consistency": 0.3333333333333333,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "UNSUPPORTED",
+        "metrics": "UNSUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 4788,
+    "tokens_out": 1411,
+    "cost_usd": 0.0033288300000000005,
+    "wall_time_seconds": 41.717145915841684,
+    "voting_samples": 3
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "paper_id": "tdmsci:test_500_v2:01495",
+  "contributions": [
+    {
+      "method": {
+        "name": "unsupervised segmentation models with person-specific information",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 14,
+          "end": 74
+        },
+        "confidence": 0.6666666666666666
+      },
+      "task": {
+        "name": "segmentation",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 46,
+          "end": 57
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "meeting corpora",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 96,
+            "end": 110
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "political debates",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 114,
+            "end": 131
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "performance",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 81,
+            "end": 92
+          },
+          "confidence": 0.6666666666666666
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "current unsupervised segmentation models"
+      ],
+      "self_consistency": 0.875,
+      "critic_verdict": {
+        "method": "PARTIAL",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 5393,
+    "tokens_out": 2001,
+    "cost_usd": 0.0041765299999999995,
+    "wall_time_seconds": 43.68585587502457,
+    "voting_samples": 3
+  }
+}

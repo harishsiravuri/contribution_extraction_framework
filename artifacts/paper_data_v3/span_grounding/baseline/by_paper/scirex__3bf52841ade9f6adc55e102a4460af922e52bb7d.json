@@ -1,0 +1,79 @@
+{
+  "paper_id": "scirex:3bf52841ade9f6adc55e102a4460af922e52bb7d",
+  "contributions": [
+    {
+      "method": {
+        "name": "convolutional DRAW",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 100
+        },
+        "confidence": 0.9
+      },
+      "task": {
+        "name": "image modeling",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 100
+        },
+        "confidence": 0.9
+      },
+      "datasets": [
+        {
+          "name": "ImageNet",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 100,
+            "end": 200
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "Omniglot",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 100,
+            "end": 200
+          },
+          "confidence": 0.9
+        }
+      ],
+      "metrics": [
+        {
+          "name": "compression quality",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 2000,
+            "end": 2100
+          },
+          "confidence": 0.8
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "JPEG",
+        "JPEG2000"
+      ],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "PARTIAL",
+        "task": "PARTIAL",
+        "datasets": "PARTIAL",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "(none)",
+    "consolidator_model": "(none)",
+    "tokens_in": 6432,
+    "tokens_out": 362,
+    "cost_usd": 0.0023804200000000003,
+    "wall_time_seconds": 21.14643745799549,
+    "voting_samples": 1
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "paper_id": "tdmsci:test_500_v2:01496",
+  "contributions": [
+    {
+      "method": {
+        "name": null,
+        "canonical_id": null,
+        "evidence_span": null,
+        "confidence": 0.0
+      },
+      "task": {
+        "name": "sense discrimination",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 60,
+          "end": 77
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "parallel corpora",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 38,
+            "end": 54
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [],
+      "claim_strength": null,
+      "comparison_targets": [],
+      "self_consistency": 0.6666666666666666,
+      "critic_verdict": {
+        "method": "UNSUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "UNSUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 4849,
+    "tokens_out": 1525,
+    "cost_usd": 0.0034605,
+    "wall_time_seconds": 40.16531179193407,
+    "voting_samples": 3
+  }
+}

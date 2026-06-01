@@ -1,0 +1,66 @@
+{
+  "paper_id": "tdmsci:test_500_v2:01427",
+  "contributions": [
+    {
+      "method": {
+        "name": null,
+        "canonical_id": null,
+        "evidence_span": null,
+        "confidence": 0.0
+      },
+      "task": {
+        "name": "tagging",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 16
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "Twitter",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 38,
+            "end": 45
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "performance",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 1,
+            "end": 12
+          },
+          "confidence": 0.6666666666666666
+        }
+      ],
+      "claim_strength": null,
+      "comparison_targets": [
+        "out-of-domain data"
+      ],
+      "self_consistency": 0.5833333333333334,
+      "critic_verdict": {
+        "method": "UNSUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 5417,
+    "tokens_out": 1856,
+    "cost_usd": 0.00402922,
+    "wall_time_seconds": 40.50267954100855,
+    "voting_samples": 3
+  }
+}

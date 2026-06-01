@@ -1,0 +1,79 @@
+{
+  "paper_id": "nlp_tdms:S18-1150",
+  "contributions": [
+    {
+      "method": {
+        "name": "Combined path-based and distributional technique (EXPR)",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 34,
+          "end": 619
+        },
+        "confidence": 0.9
+      },
+      "task": {
+        "name": "Hypernym Discovery",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 74,
+          "end": 128
+        },
+        "confidence": 0.9
+      },
+      "datasets": [
+        {
+          "name": "SemEval 2018 Task 9 (English, Italian, Spanish)",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 522,
+            "end": 617
+          },
+          "confidence": 0.8
+        },
+        {
+          "name": "SemEval 2018 Task 9 (Medical, Music)",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 617,
+            "end": 669
+          },
+          "confidence": 0.8
+        }
+      ],
+      "metrics": [
+        {
+          "name": "False Positive",
+          "value": 40.0,
+          "unit": null,
+          "evidence_span": {
+            "start": 2503,
+            "end": 2534
+          },
+          "confidence": 0.7
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "STJU system",
+        "MFH system"
+      ],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "PARTIAL",
+        "task": "PARTIAL",
+        "datasets": "PARTIAL",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "(none)",
+    "consolidator_model": "(none)",
+    "tokens_in": 3228,
+    "tokens_out": 405,
+    "cost_usd": 0.00139341,
+    "wall_time_seconds": 13.829167624993715,
+    "voting_samples": 1
+  }
+}

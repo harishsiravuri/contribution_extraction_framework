@@ -1,0 +1,189 @@
+{
+  "paper_id": "scirex:33bcc97b605f00145098d095be2841a1fa6b9a95",
+  "contributions": [
+    {
+      "method": {
+        "name": "order-embeddings",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 185,
+          "end": 200
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "hypernym prediction",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 2164,
+          "end": 2180
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "WordNet",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2314,
+            "end": 2321
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": null,
+          "unit": null,
+          "evidence_span": null,
+          "confidence": 0.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "transitive closure baseline",
+        "word2gauss baseline"
+      ],
+      "self_consistency": 0.75,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "UNSUPPORTED"
+      }
+    },
+    {
+      "method": {
+        "name": "order-embeddings",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 185,
+          "end": 200
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "image-caption retrieval",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 3419,
+          "end": 3435
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "Microsoft COCO",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 3574,
+            "end": 3584
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Recall@1",
+          "value": 46.7,
+          "unit": "%",
+          "evidence_span": {
+            "start": 3721,
+            "end": 3736
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "Recall@10",
+          "value": 88.9,
+          "unit": "%",
+          "evidence_span": {
+            "start": 3744,
+            "end": 3759
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "MNLM",
+        "m-RNN",
+        "DVSA",
+        "STV",
+        "FV",
+        "m-CNN",
+        "m-CNN ENS"
+      ],
+      "self_consistency": 0.75,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    },
+    {
+      "method": {
+        "name": "order-embeddings",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 185,
+          "end": 200
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "natural language inference",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 4421,
+          "end": 4439
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "SNLI",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 4574,
+            "end": 4577
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": null,
+          "unit": null,
+          "evidence_span": null,
+          "confidence": 0.0
+        }
+      ],
+      "claim_strength": "comparable",
+      "comparison_targets": [
+        "skip-thoughts baseline",
+        "EOP classifier"
+      ],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "UNSUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 35064,
+    "tokens_out": 6419,
+    "cost_usd": 0.020218180000000002,
+    "wall_time_seconds": 125.79610966698965,
+    "voting_samples": 3
+  }
+}

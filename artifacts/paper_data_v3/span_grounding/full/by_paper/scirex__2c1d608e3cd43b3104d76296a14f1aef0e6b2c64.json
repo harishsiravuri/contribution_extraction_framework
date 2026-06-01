@@ -1,0 +1,178 @@
+{
+  "paper_id": "scirex:2c1d608e3cd43b3104d76296a14f1aef0e6b2c64",
+  "contributions": [
+    {
+      "method": {
+        "name": "dynamic evaluation",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 155,
+          "end": 173
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "language modeling",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 237,
+          "end": 254
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "Penn Treebank",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 3004,
+            "end": 3017
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "WikiText-2",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 3051,
+            "end": 3063
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "text8",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 3435,
+            "end": 3440
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "Hutter Prize",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 3464,
+            "end": 3476
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "perplexity",
+          "value": 51.1,
+          "unit": null,
+          "evidence_span": {
+            "start": 1941,
+            "end": 1945
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "perplexity",
+          "value": 44.3,
+          "unit": null,
+          "evidence_span": {
+            "start": 1991,
+            "end": 1995
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "cross-entropy",
+          "value": 1.19,
+          "unit": "bits/char",
+          "evidence_span": {
+            "start": 1996,
+            "end": 2005
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "cross-entropy",
+          "value": 1.08,
+          "unit": "bits/char",
+          "evidence_span": {
+            "start": 1996,
+            "end": 2005
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "neural cache",
+        "AWD-LSTM"
+      ],
+      "self_consistency": 0.875,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    },
+    {
+      "method": {
+        "name": "sparse dynamic evaluation",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 10714,
+          "end": 10735
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "language modeling",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 10714,
+          "end": 10735
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "Hutter Prize",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 3464,
+            "end": 3476
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "cross-entropy",
+          "value": null,
+          "unit": "bits/char",
+          "evidence_span": null,
+          "confidence": 0.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "dynamic evaluation"
+      ],
+      "self_consistency": 0.75,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "UNSUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 25227,
+    "tokens_out": 5992,
+    "cost_usd": 0.015998,
+    "wall_time_seconds": 258.56988170801196,
+    "voting_samples": 3
+  }
+}

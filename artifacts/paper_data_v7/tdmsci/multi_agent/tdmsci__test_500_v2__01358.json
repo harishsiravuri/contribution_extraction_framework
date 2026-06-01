@@ -1,0 +1,70 @@
+{
+  "paper_id": "tdmsci:test_500_v2:01358",
+  "contributions": [
+    {
+      "method": {
+        "name": null,
+        "canonical_id": null,
+        "evidence_span": null,
+        "confidence": 0.0
+      },
+      "task": {
+        "name": null,
+        "canonical_id": null,
+        "evidence_span": null,
+        "confidence": 0.0
+      },
+      "datasets": [
+        {
+          "name": "RBC",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 13,
+            "end": 16
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "IRBC",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 27,
+            "end": 31
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 8,
+            "end": 16
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": null,
+      "comparison_targets": [],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "UNSUPPORTED",
+        "task": "UNSUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 5584,
+    "tokens_out": 2111,
+    "cost_usd": 0.00434874,
+    "wall_time_seconds": 47.18302191584371,
+    "voting_samples": 3
+  }
+}

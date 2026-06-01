@@ -1,0 +1,67 @@
+{
+  "paper_id": "arxiv:2605.29078",
+  "contributions": [
+    {
+      "method": {
+        "name": "policy-neutral execution and measurement layer",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 246,
+          "end": 283
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "industrial dispatching",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 64,
+          "end": 87
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "discrete-event simulation",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 907,
+            "end": 929
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "attribution coverage",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 963,
+            "end": 982
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [],
+      "self_consistency": 1.0,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 6419,
+    "tokens_out": 2102,
+    "cost_usd": 0.00467599,
+    "wall_time_seconds": 50.15866199997254,
+    "voting_samples": 3
+  }
+}

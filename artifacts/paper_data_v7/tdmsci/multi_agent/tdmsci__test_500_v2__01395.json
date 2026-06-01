@@ -1,0 +1,86 @@
+{
+  "paper_id": "tdmsci:test_500_v2:01395",
+  "contributions": [
+    {
+      "method": {
+        "name": null,
+        "canonical_id": null,
+        "evidence_span": null,
+        "confidence": 0.0
+      },
+      "task": {
+        "name": "translation",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 50,
+          "end": 60
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "BabelNet",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 38,
+            "end": 47
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "precision",
+          "value": 72.0,
+          "unit": "%",
+          "evidence_span": {
+            "start": 120,
+            "end": 130
+          },
+          "confidence": 0.5
+        },
+        {
+          "name": "precision",
+          "value": 80.0,
+          "unit": "%",
+          "evidence_span": {
+            "start": 150,
+            "end": 160
+          },
+          "confidence": 0.25
+        },
+        {
+          "name": "precision",
+          "value": 95.0,
+          "unit": "%",
+          "evidence_span": {
+            "start": 200,
+            "end": 210
+          },
+          "confidence": 0.25
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "WordNet-only synsets"
+      ],
+      "self_consistency": 0.875,
+      "critic_verdict": {
+        "method": "UNSUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 7551,
+    "tokens_out": 3394,
+    "cost_usd": 0.00654695,
+    "wall_time_seconds": 96.85664562508464,
+    "voting_samples": 3
+  }
+}

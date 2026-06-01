@@ -1,0 +1,79 @@
+{
+  "paper_id": "nlp_tdms:N18-1064",
+  "contributions": [
+    {
+      "method": {
+        "name": "Entity2Topic (E2T)",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 1547,
+          "end": 1563
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "abstractive summarization",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 103,
+          "end": 127
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "Gigaword",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2411,
+            "end": 2419
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "CNN",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2434,
+            "end": 2437
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "ROUGE",
+          "value": 2.0,
+          "unit": "points",
+          "evidence_span": {
+            "start": 156,
+            "end": 171
+          },
+          "confidence": 0.5
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "sequence-to-sequence model with attention mechanism",
+        "state-of-the-art models"
+      ],
+      "self_consistency": 0.75,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 31977,
+    "tokens_out": 4341,
+    "cost_usd": 0.01704481,
+    "wall_time_seconds": 124.07979620801052,
+    "voting_samples": 3
+  }
+}

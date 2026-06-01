@@ -1,0 +1,188 @@
+{
+  "paper_id": "scirex:088b649415378c4dde666f614ba24d08a36b6652",
+  "contributions": [
+    {
+      "method": {
+        "name": "Long Short-Term Memory-Network (LSTMN)",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 156,
+          "end": 173
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "language modeling",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 2000,
+          "end": 2014
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "English Penn Treebank",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2100,
+            "end": 2122
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "perplexity",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 2200,
+            "end": 2210
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Kneser-Ney 5-gram",
+        "RNN",
+        "LSTM",
+        "stacked LSTM",
+        "gated-feedback LSTM",
+        "depth-gated LSTM"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "PARTIAL"
+      }
+    },
+    {
+      "method": {
+        "name": "Long Short-Term Memory-Network (LSTMN)",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 156,
+          "end": 173
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "sentiment analysis",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 2300,
+          "end": 2322
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "Stanford Sentiment Treebank",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2400,
+            "end": 2425
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 2500,
+            "end": 2508
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "LSTM",
+        "recursive neural networks",
+        "convolutional neural networks",
+        "paragraph vector model"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "PARTIAL"
+      }
+    },
+    {
+      "method": {
+        "name": "Long Short-Term Memory-Network (LSTMN)",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 156,
+          "end": 173
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "natural language inference",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 2600,
+          "end": 2627
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "Stanford Natural Language Inference (SNLI)",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2700,
+            "end": 2732
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 2800,
+            "end": 2808
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "LSTM",
+        "word-by-word attention model",
+        "matching LSTM",
+        "bag-of-words baseline"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 32162,
+    "tokens_out": 6454,
+    "cost_usd": 0.01914963,
+    "wall_time_seconds": 176.38359395897714,
+    "voting_samples": 3
+  }
+}

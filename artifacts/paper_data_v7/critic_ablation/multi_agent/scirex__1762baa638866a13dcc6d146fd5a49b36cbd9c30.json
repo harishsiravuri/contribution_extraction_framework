@@ -1,0 +1,102 @@
+{
+  "paper_id": "scirex:1762baa638866a13dcc6d146fd5a49b36cbd9c30",
+  "contributions": [
+    {
+      "method": {
+        "name": "Graph Convolutional Network (GCN)",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 125
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "semi-supervised node classification",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 120,
+          "end": 250
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "Citeseer",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2500,
+            "end": 2550
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "Cora",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2500,
+            "end": 2550
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "Pubmed",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2500,
+            "end": 2550
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "NELL",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2550,
+            "end": 2600
+          },
+          "confidence": 0.75
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": null,
+          "unit": "percent",
+          "evidence_span": {
+            "start": 3000,
+            "end": 3050
+          },
+          "confidence": 0.75
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "label propagation",
+        "semi-supervised embedding",
+        "manifold regularization",
+        "skip-gram based graph embeddings",
+        "iterative classification algorithm",
+        "Planetoid",
+        "DeepWalk"
+      ],
+      "self_consistency": 0.875,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "DISABLED (E2 critic-off ablation)",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 24364,
+    "tokens_out": 2830,
+    "cost_usd": 0.01122569,
+    "wall_time_seconds": 42.137316040927544,
+    "voting_samples": 3
+  }
+}

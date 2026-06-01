@@ -1,0 +1,512 @@
+{
+  "benchmark": "tdmsci",
+  "phase": "multi_agent",
+  "papers_total": 50,
+  "papers_ok": 32,
+  "papers_error": 18,
+  "papers_skipped": 0,
+  "total_cost_usd": 0.11920224,
+  "wall_time_seconds": 108.30143275001319,
+  "per_paper": [
+    {
+      "paper_id": "tdmsci:train_1500_v2:00000",
+      "status": "ok",
+      "cost_usd": 0.0032619299999999997,
+      "tokens_in": 4674,
+      "tokens_out": 1389,
+      "wall_time_seconds": 48.61930045799818,
+      "error": null,
+      "output_file": "outputs/paper_data_v3/benchmarks/tdmsci/multi_agent/tdmsci__train_1500_v2__00000.json"
+    },
+    {
+      "paper_id": "tdmsci:train_1500_v2:00001",
+      "status": "ok",
+      "cost_usd": 0.00377949,
+      "tokens_in": 5073,
+      "tokens_out": 1762,
+      "wall_time_seconds": 39.1192746659508,
+      "error": null,
+      "output_file": "outputs/paper_data_v3/benchmarks/tdmsci/multi_agent/tdmsci__train_1500_v2__00001.json"
+    },
+    {
+      "paper_id": "tdmsci:train_1500_v2:00002",
+      "status": "ok",
+      "cost_usd": 0.00354489,
+      "tokens_in": 4957,
+      "tokens_out": 1565,
+      "wall_time_seconds": 56.78487041697372,
+      "error": null,
+      "output_file": "outputs/paper_data_v3/benchmarks/tdmsci/multi_agent/tdmsci__train_1500_v2__00002.json"
+    },
+    {
+      "paper_id": "tdmsci:train_1500_v2:00003",
+      "status": "ok",
+      "cost_usd": 0.0035421999999999997,
+      "tokens_in": 4947,
+      "tokens_out": 1558,
+      "wall_time_seconds": 22.768493124982342,
+      "error": null,
+      "output_file": "outputs/paper_data_v3/benchmarks/tdmsci/multi_agent/tdmsci__train_1500_v2__00003.json"
+    },
+    {
+      "paper_id": "tdmsci:train_1500_v2:00004",
+      "status": "ok",
+      "cost_usd": 0.0034529599999999997,
+      "tokens_in": 4904,
+      "tokens_out": 1479,
+      "wall_time_seconds": 46.39908837497933,
+      "error": null,
+      "output_file": "outputs/paper_data_v3/benchmarks/tdmsci/multi_agent/tdmsci__train_1500_v2__00004.json"
+    },
+    {
+      "paper_id": "tdmsci:train_1500_v2:00005",
+      "status": "error",
+      "cost_usd": 0.0,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "wall_time_seconds": 0.0,
+      "error": "ConsolidatorParseError: Consolidator output failed schema validation: 1 validation error for ContributionRecord\ncontributions.0.metrics.0.name\n  Input should be a valid string [type=string_type, input_value=None, input_type=",
+      "output_file": null
+    },
+    {
+      "paper_id": "tdmsci:train_1500_v2:00006",
+      "status": "ok",
+      "cost_usd": 0.0035694000000000004,
+      "tokens_in": 5019,
+      "tokens_out": 1557,
+      "wall_time_seconds": 49.540108540968504,
+      "error": null,
+      "output_file": "outputs/paper_data_v3/benchmarks/tdmsci/multi_agent/tdmsci__train_1500_v2__00006.json"
+    },
+    {
+      "paper_id": "tdmsci:train_1500_v2:00007",
+      "status": "ok",
+      "cost_usd": 0.00518447,
+      "tokens_in": 6232,
+      "tokens_out": 2636,
+      "wall_time_seconds": 89.51303916599136,
+      "error": null,
+      "output_file": "outputs/paper_data_v3/benchmarks/tdmsci/multi_agent/tdmsci__train_1500_v2__00007.json"
+    },
+    {
+      "paper_id": "tdmsci:train_1500_v2:00008",
+      "status": "ok",
+      "cost_usd": 0.0036511499999999997,
+      "tokens_in": 5040,
+      "tokens_out": 1618,
+      "wall_time_seconds": 55.24819379200926,
+      "error": null,
+      "output_file": "outputs/paper_data_v3/benchmarks/tdmsci/multi_agent/tdmsci__train_1500_v2__00008.json"
+    },
+    {
+      "paper_id": "tdmsci:train_1500_v2:00009",
+      "status": "ok",
+      "cost_usd": 0.00432986,
+      "tokens_in": 5616,
+      "tokens_out": 2062,
+      "wall_time_seconds": 35.188595541985705,
+      "error": null,
+      "output_file": "outputs/paper_data_v3/benchmarks/tdmsci/multi_agent/tdmsci__train_1500_v2__00009.json"
+    },
+    {
+      "paper_id": "tdmsci:train_1500_v2:00010",
+      "status": "ok",
+      "cost_usd": 0.00340589,
+      "tokens_in": 5010,
+      "tokens_out": 1406,
+      "wall_time_seconds": 57.37671154196141,
+      "error": null,
+      "output_file": "outputs/paper_data_v3/benchmarks/tdmsci/multi_agent/tdmsci__train_1500_v2__00010.json"
+    },
+    {
+      "paper_id": "tdmsci:train_1500_v2:00011",
+      "status": "ok",
+      "cost_usd": 0.00341115,
+      "tokens_in": 5031,
+      "tokens_out": 1393,
+      "wall_time_seconds": 26.22487287502736,
+      "error": null,
+      "output_file": "outputs/paper_data_v3/benchmarks/tdmsci/multi_agent/tdmsci__train_1500_v2__00011.json"
+    },
+    {
+      "paper_id": "tdmsci:train_1500_v2:00012",
+      "status": "ok",
+      "cost_usd": 0.00380094,
+      "tokens_in": 5078,
+      "tokens_out": 1776,
+      "wall_time_seconds": 36.706283334002364,
+      "error": null,
+      "output_file": "outputs/paper_data_v3/benchmarks/tdmsci/multi_agent/tdmsci__train_1500_v2__00012.json"
+    },
+    {
+      "paper_id": "tdmsci:train_1500_v2:00013",
+      "status": "ok",
+      "cost_usd": 0.00532909,
+      "tokens_in": 6337,
+      "tokens_out": 2762,
+      "wall_time_seconds": 71.71717412496218,
+      "error": null,
+      "output_file": "outputs/paper_data_v3/benchmarks/tdmsci/multi_agent/tdmsci__train_1500_v2__00013.json"
+    },
+    {
+      "paper_id": "tdmsci:train_1500_v2:00014",
+      "status": "error",
+      "cost_usd": 0.0,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "wall_time_seconds": 0.0,
+      "error": "ConsolidatorParseError: Consolidator output failed schema validation: 1 validation error for ContributionRecord\ncontributions.0.metrics.0.name\n  Input should be a valid string [type=string_type, input_value=None, input_type=",
+      "output_file": null
+    },
+    {
+      "paper_id": "tdmsci:train_1500_v2:00015",
+      "status": "ok",
+      "cost_usd": 0.0037757499999999996,
+      "tokens_in": 5068,
+      "tokens_out": 1759,
+      "wall_time_seconds": 49.94224420899991,
+      "error": null,
+      "output_file": "outputs/paper_data_v3/benchmarks/tdmsci/multi_agent/tdmsci__train_1500_v2__00015.json"
+    },
+    {
+      "paper_id": "tdmsci:train_1500_v2:00016",
+      "status": "ok",
+      "cost_usd": 0.00389898,
+      "tokens_in": 5326,
+      "tokens_out": 1763,
+      "wall_time_seconds": 87.75163954199525,
+      "error": null,
+      "output_file": "outputs/paper_data_v3/benchmarks/tdmsci/multi_agent/tdmsci__train_1500_v2__00016.json"
+    },
+    {
+      "paper_id": "tdmsci:train_1500_v2:00017",
+      "status": "error",
+      "cost_usd": 0.0,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "wall_time_seconds": 0.0,
+      "error": "ConsolidatorParseError: Consolidator output failed schema validation: 1 validation error for ContributionRecord\ncontributions.0.metrics.0.name\n  Input should be a valid string [type=string_type, input_value=None, input_type=",
+      "output_file": null
+    },
+    {
+      "paper_id": "tdmsci:train_1500_v2:00018",
+      "status": "ok",
+      "cost_usd": 0.00314842,
+      "tokens_in": 4647,
+      "tokens_out": 1289,
+      "wall_time_seconds": 47.93697404197883,
+      "error": null,
+      "output_file": "outputs/paper_data_v3/benchmarks/tdmsci/multi_agent/tdmsci__train_1500_v2__00018.json"
+    },
+    {
+      "paper_id": "tdmsci:train_1500_v2:00019",
+      "status": "ok",
+      "cost_usd": 0.00328711,
+      "tokens_in": 4764,
+      "tokens_out": 1386,
+      "wall_time_seconds": 27.318723124975804,
+      "error": null,
+      "output_file": "outputs/paper_data_v3/benchmarks/tdmsci/multi_agent/tdmsci__train_1500_v2__00019.json"
+    },
+    {
+      "paper_id": "tdmsci:train_1500_v2:00020",
+      "status": "ok",
+      "cost_usd": 0.0037888799999999997,
+      "tokens_in": 5103,
+      "tokens_out": 1754,
+      "wall_time_seconds": 85.7696973750135,
+      "error": null,
+      "output_file": "outputs/paper_data_v3/benchmarks/tdmsci/multi_agent/tdmsci__train_1500_v2__00020.json"
+    },
+    {
+      "paper_id": "tdmsci:train_1500_v2:00021",
+      "status": "ok",
+      "cost_usd": 0.00332218,
+      "tokens_in": 4846,
+      "tokens_out": 1385,
+      "wall_time_seconds": 48.992819708015304,
+      "error": null,
+      "output_file": "outputs/paper_data_v3/benchmarks/tdmsci/multi_agent/tdmsci__train_1500_v2__00021.json"
+    },
+    {
+      "paper_id": "tdmsci:train_1500_v2:00022",
+      "status": "error",
+      "cost_usd": 0.0,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "wall_time_seconds": 0.0,
+      "error": "ConsolidatorParseError: Failed to parse Consolidator JSON output: Expecting ',' delimiter: line 9 column 24 (char 197)\nRaw text:\n```json\n{\n  \"paper_id\": \"tdmsci:train_1500_v2:00022\",\n  \"contributions\": [\n    {\n      \"method\"",
+      "output_file": null
+    },
+    {
+      "paper_id": "tdmsci:train_1500_v2:00023",
+      "status": "error",
+      "cost_usd": 0.0,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "wall_time_seconds": 0.0,
+      "error": "ConsolidatorParseError: Consolidator output failed schema validation: 1 validation error for ContributionRecord\ncontributions.0.metrics.0.name\n  Input should be a valid string [type=string_type, input_value=None, input_type=",
+      "output_file": null
+    },
+    {
+      "paper_id": "tdmsci:train_1500_v2:00024",
+      "status": "ok",
+      "cost_usd": 0.00423177,
+      "tokens_in": 5712,
+      "tokens_out": 1903,
+      "wall_time_seconds": 55.21262987499358,
+      "error": null,
+      "output_file": "outputs/paper_data_v3/benchmarks/tdmsci/multi_agent/tdmsci__train_1500_v2__00024.json"
+    },
+    {
+      "paper_id": "tdmsci:train_1500_v2:00025",
+      "status": "error",
+      "cost_usd": 0.0,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "wall_time_seconds": 0.0,
+      "error": "CriticParseError: Failed to parse Critic JSON output: Expecting value: line 22 column 34 (char 604)\nRaw text:\n```\n{\n  \"verdicts\": [\n    {\n      \"contribution_index\": 0,\n      \"field_path\": \"method.name\",\n      \"verdict",
+      "output_file": null
+    },
+    {
+      "paper_id": "tdmsci:train_1500_v2:00026",
+      "status": "error",
+      "cost_usd": 0.0,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "wall_time_seconds": 0.0,
+      "error": "ConsolidatorParseError: Consolidator output failed schema validation: 1 validation error for ContributionRecord\ncontributions.0.metrics.0.name\n  Input should be a valid string [type=string_type, input_value=None, input_type=",
+      "output_file": null
+    },
+    {
+      "paper_id": "tdmsci:train_1500_v2:00027",
+      "status": "error",
+      "cost_usd": 0.0,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "wall_time_seconds": 0.0,
+      "error": "ConsolidatorParseError: Consolidator output failed schema validation: 1 validation error for ContributionRecord\ncontributions.0.metrics.0.name\n  Input should be a valid string [type=string_type, input_value=None, input_type=",
+      "output_file": null
+    },
+    {
+      "paper_id": "tdmsci:train_1500_v2:00028",
+      "status": "error",
+      "cost_usd": 0.0,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "wall_time_seconds": 0.0,
+      "error": "ConsolidatorParseError: Consolidator output failed schema validation: 1 validation error for ContributionRecord\ncontributions.0.metrics.0.name\n  Input should be a valid string [type=string_type, input_value=None, input_type=",
+      "output_file": null
+    },
+    {
+      "paper_id": "tdmsci:train_1500_v2:00029",
+      "status": "ok",
+      "cost_usd": 0.00404824,
+      "tokens_in": 5259,
+      "tokens_out": 1948,
+      "wall_time_seconds": 42.31255958304973,
+      "error": null,
+      "output_file": "outputs/paper_data_v3/benchmarks/tdmsci/multi_agent/tdmsci__train_1500_v2__00029.json"
+    },
+    {
+      "paper_id": "tdmsci:train_1500_v2:00030",
+      "status": "ok",
+      "cost_usd": 0.00347802,
+      "tokens_in": 4892,
+      "tokens_out": 1530,
+      "wall_time_seconds": 52.02852958400035,
+      "error": null,
+      "output_file": "outputs/paper_data_v3/benchmarks/tdmsci/multi_agent/tdmsci__train_1500_v2__00030.json"
+    },
+    {
+      "paper_id": "tdmsci:train_1500_v2:00031",
+      "status": "ok",
+      "cost_usd": 0.00342753,
+      "tokens_in": 4956,
+      "tokens_out": 1436,
+      "wall_time_seconds": 19.51100391696673,
+      "error": null,
+      "output_file": "outputs/paper_data_v3/benchmarks/tdmsci/multi_agent/tdmsci__train_1500_v2__00031.json"
+    },
+    {
+      "paper_id": "tdmsci:train_1500_v2:00032",
+      "status": "error",
+      "cost_usd": 0.0,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "wall_time_seconds": 0.0,
+      "error": "ConsolidatorParseError: Consolidator output failed schema validation: 1 validation error for ContributionRecord\ncontributions.0.metrics.0.name\n  Input should be a valid string [type=string_type, input_value=None, input_type=",
+      "output_file": null
+    },
+    {
+      "paper_id": "tdmsci:train_1500_v2:00033",
+      "status": "error",
+      "cost_usd": 0.0,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "wall_time_seconds": 0.0,
+      "error": "ConsolidatorParseError: Consolidator output failed schema validation: 1 validation error for ContributionRecord\ncontributions.0.metrics.0.name\n  Input should be a valid string [type=string_type, input_value=None, input_type=",
+      "output_file": null
+    },
+    {
+      "paper_id": "tdmsci:train_1500_v2:00034",
+      "status": "ok",
+      "cost_usd": 0.004938430000000001,
+      "tokens_in": 5962,
+      "tokens_out": 2538,
+      "wall_time_seconds": 59.982020333991386,
+      "error": null,
+      "output_file": "outputs/paper_data_v3/benchmarks/tdmsci/multi_agent/tdmsci__train_1500_v2__00034.json"
+    },
+    {
+      "paper_id": "tdmsci:train_1500_v2:00035",
+      "status": "error",
+      "cost_usd": 0.0,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "wall_time_seconds": 0.0,
+      "error": "ConsolidatorParseError: Consolidator output failed schema validation: 1 validation error for ContributionRecord\ncontributions.0.task\n  Input should be a valid dictionary or instance of NamedEntity [type=model_type, input_val",
+      "output_file": null
+    },
+    {
+      "paper_id": "tdmsci:train_1500_v2:00036",
+      "status": "error",
+      "cost_usd": 0.0,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "wall_time_seconds": 0.0,
+      "error": "ConsolidatorParseError: Consolidator output failed schema validation: 1 validation error for ContributionRecord\ncontributions.0.metrics.0.name\n  Input should be a valid string [type=string_type, input_value=None, input_type=",
+      "output_file": null
+    },
+    {
+      "paper_id": "tdmsci:train_1500_v2:00037",
+      "status": "ok",
+      "cost_usd": 0.00353334,
+      "tokens_in": 4924,
+      "tokens_out": 1565,
+      "wall_time_seconds": 58.72089179098839,
+      "error": null,
+      "output_file": "outputs/paper_data_v3/benchmarks/tdmsci/multi_agent/tdmsci__train_1500_v2__00037.json"
+    },
+    {
+      "paper_id": "tdmsci:train_1500_v2:00038",
+      "status": "error",
+      "cost_usd": 0.0,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "wall_time_seconds": 0.0,
+      "error": "CriticParseError: Failed to parse Critic JSON output: Expecting value: line 22 column 34 (char 595)\nRaw text:\n```\n{\n  \"verdicts\": [\n    {\n      \"contribution_index\": 0,\n      \"field_path\": \"method.name\",\n      \"verdict",
+      "output_file": null
+    },
+    {
+      "paper_id": "tdmsci:train_1500_v2:00039",
+      "status": "error",
+      "cost_usd": 0.0,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "wall_time_seconds": 0.0,
+      "error": "ConsolidatorParseError: Consolidator output failed schema validation: 1 validation error for ContributionRecord\ncontributions.0.metrics.0.name\n  Input should be a valid string [type=string_type, input_value=None, input_type=",
+      "output_file": null
+    },
+    {
+      "paper_id": "tdmsci:train_1500_v2:00040",
+      "status": "ok",
+      "cost_usd": 0.00347537,
+      "tokens_in": 4903,
+      "tokens_out": 1507,
+      "wall_time_seconds": 32.216574874997605,
+      "error": null,
+      "output_file": "outputs/paper_data_v3/benchmarks/tdmsci/multi_agent/tdmsci__train_1500_v2__00040.json"
+    },
+    {
+      "paper_id": "tdmsci:train_1500_v2:00041",
+      "status": "ok",
+      "cost_usd": 0.00373667,
+      "tokens_in": 5142,
+      "tokens_out": 1656,
+      "wall_time_seconds": 61.898397667042445,
+      "error": null,
+      "output_file": "outputs/paper_data_v3/benchmarks/tdmsci/multi_agent/tdmsci__train_1500_v2__00041.json"
+    },
+    {
+      "paper_id": "tdmsci:train_1500_v2:00042",
+      "status": "ok",
+      "cost_usd": 0.0035660400000000004,
+      "tokens_in": 4937,
+      "tokens_out": 1586,
+      "wall_time_seconds": 44.66100637498312,
+      "error": null,
+      "output_file": "outputs/paper_data_v3/benchmarks/tdmsci/multi_agent/tdmsci__train_1500_v2__00042.json"
+    },
+    {
+      "paper_id": "tdmsci:train_1500_v2:00043",
+      "status": "ok",
+      "cost_usd": 0.0032949700000000004,
+      "tokens_in": 4771,
+      "tokens_out": 1390,
+      "wall_time_seconds": 58.19284337502904,
+      "error": null,
+      "output_file": "outputs/paper_data_v3/benchmarks/tdmsci/multi_agent/tdmsci__train_1500_v2__00043.json"
+    },
+    {
+      "paper_id": "tdmsci:train_1500_v2:00044",
+      "status": "ok",
+      "cost_usd": 0.0033330499999999997,
+      "tokens_in": 4886,
+      "tokens_out": 1371,
+      "wall_time_seconds": 23.304374500003178,
+      "error": null,
+      "output_file": "outputs/paper_data_v3/benchmarks/tdmsci/multi_agent/tdmsci__train_1500_v2__00044.json"
+    },
+    {
+      "paper_id": "tdmsci:train_1500_v2:00045",
+      "status": "ok",
+      "cost_usd": 0.0032549000000000002,
+      "tokens_in": 4770,
+      "tokens_out": 1347,
+      "wall_time_seconds": 47.83564529201249,
+      "error": null,
+      "output_file": "outputs/paper_data_v3/benchmarks/tdmsci/multi_agent/tdmsci__train_1500_v2__00045.json"
+    },
+    {
+      "paper_id": "tdmsci:train_1500_v2:00046",
+      "status": "error",
+      "cost_usd": 0.0,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "wall_time_seconds": 0.0,
+      "error": "ConsolidatorParseError: Consolidator output failed schema validation: 1 validation error for ContributionRecord\ncontributions.0.metrics.0.name\n  Input should be a valid string [type=string_type, input_value=None, input_type=",
+      "output_file": null
+    },
+    {
+      "paper_id": "tdmsci:train_1500_v2:00047",
+      "status": "ok",
+      "cost_usd": 0.00339917,
+      "tokens_in": 4874,
+      "tokens_out": 1447,
+      "wall_time_seconds": 47.61024874995928,
+      "error": null,
+      "output_file": "outputs/paper_data_v3/benchmarks/tdmsci/multi_agent/tdmsci__train_1500_v2__00047.json"
+    },
+    {
+      "paper_id": "tdmsci:train_1500_v2:00048",
+      "status": "error",
+      "cost_usd": 0.0,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "wall_time_seconds": 0.0,
+      "error": "ConsolidatorParseError: Consolidator output failed schema validation: 1 validation error for ContributionRecord\ncontributions.0.metrics.0.name\n  Input should be a valid string [type=string_type, input_value=None, input_type=",
+      "output_file": null
+    },
+    {
+      "paper_id": "tdmsci:train_1500_v2:00049",
+      "status": "error",
+      "cost_usd": 0.0,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "wall_time_seconds": 0.0,
+      "error": "ConsolidatorParseError: Consolidator output failed schema validation: 1 validation error for ContributionRecord\ncontributions.0.metrics.0.name\n  Input should be a valid string [type=string_type, input_value=None, input_type=",
+      "output_file": null
+    }
+  ]
+}

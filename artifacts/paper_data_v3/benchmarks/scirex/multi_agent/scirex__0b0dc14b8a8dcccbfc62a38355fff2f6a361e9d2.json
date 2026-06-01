@@ -1,0 +1,179 @@
+{
+  "paper_id": "scirex:0b0dc14b8a8dcccbfc62a38355fff2f6a361e9d2",
+  "contributions": [
+    {
+      "method": {
+        "name": "LSTM",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 1556,
+          "end": 1560
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "sentiment analysis",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 29,
+          "end": 45
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "Twitter",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 208,
+            "end": 215
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 3055,
+            "end": 3063
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": null,
+      "comparison_targets": [
+        "feature-based SVM",
+        "adaptive recursive neural network",
+        "lexicon-enhanced neural network"
+      ],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    },
+    {
+      "method": {
+        "name": "TD-LSTM",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 1834,
+          "end": 1841
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "sentiment analysis",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 29,
+          "end": 45
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "Twitter",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 208,
+            "end": 215
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 3055,
+            "end": 3063
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "LSTM"
+      ],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    },
+    {
+      "method": {
+        "name": "TC-LSTM",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 2014,
+          "end": 2021
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "sentiment analysis",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 29,
+          "end": 45
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "Twitter",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 208,
+            "end": 215
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 3055,
+            "end": 3063
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "TD-LSTM"
+      ],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 28266,
+    "tokens_out": 6656,
+    "cost_usd": 0.01787497,
+    "wall_time_seconds": 214.15887287503574,
+    "voting_samples": 3
+  }
+}

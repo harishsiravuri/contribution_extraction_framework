@@ -1,0 +1,46 @@
+{
+  "paper_id": "tdmsci:train_1500_v2:00006",
+  "contributions": [
+    {
+      "method": {
+        "name": "shallow representations of sentence structure",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 20,
+          "end": 64
+        },
+        "confidence": 0.8
+      },
+      "task": {
+        "name": "semantic role labeling",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 87,
+          "end": 113
+        },
+        "confidence": 0.9
+      },
+      "datasets": [],
+      "metrics": [],
+      "claim_strength": "improves",
+      "comparison_targets": [],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "PARTIAL",
+        "task": "PARTIAL",
+        "datasets": "PARTIAL",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "(none)",
+    "consolidator_model": "(none)",
+    "tokens_in": 584,
+    "tokens_out": 214,
+    "cost_usd": 0.00037734,
+    "wall_time_seconds": 6.344318665971514,
+    "voting_samples": 1
+  }
+}

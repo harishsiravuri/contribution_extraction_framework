@@ -1,0 +1,110 @@
+{
+  "paper_id": "scirex:1762baa638866a13dcc6d146fd5a49b36cbd9c30",
+  "contributions": [
+    {
+      "method": {
+        "name": "Graph Convolutional Network (GCN)",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 1329
+        },
+        "confidence": 0.9
+      },
+      "task": {
+        "name": "semi-supervised node classification",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 1329
+        },
+        "confidence": 0.9
+      },
+      "datasets": [
+        {
+          "name": "Citeseer",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 7671,
+            "end": 7749
+          },
+          "confidence": 0.8
+        },
+        {
+          "name": "Cora",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 7671,
+            "end": 7749
+          },
+          "confidence": 0.8
+        },
+        {
+          "name": "Pubmed",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 7671,
+            "end": 7749
+          },
+          "confidence": 0.8
+        },
+        {
+          "name": "NELL",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 7754,
+            "end": 7989
+          },
+          "confidence": 0.8
+        }
+      ],
+      "metrics": [
+        {
+          "name": "classification accuracy",
+          "value": null,
+          "unit": "percent",
+          "evidence_span": {
+            "start": 8784,
+            "end": 8807
+          },
+          "confidence": 0.7
+        },
+        {
+          "name": "training time per epoch",
+          "value": null,
+          "unit": "seconds",
+          "evidence_span": {
+            "start": 8069,
+            "end": 8094
+          },
+          "confidence": 0.7
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "label propagation (LP)",
+        "semi-supervised embedding (SemiEmb)",
+        "manifold regularization (ManiReg)",
+        "DeepWalk",
+        "Planetoid"
+      ],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "PARTIAL",
+        "task": "PARTIAL",
+        "datasets": "PARTIAL",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "(none)",
+    "consolidator_model": "(none)",
+    "tokens_in": 6657,
+    "tokens_out": 578,
+    "cost_usd": 0.0026446599999999996,
+    "wall_time_seconds": 20.27426124998601,
+    "voting_samples": 1
+  }
+}

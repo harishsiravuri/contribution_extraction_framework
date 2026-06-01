@@ -1,0 +1,128 @@
+{
+  "paper_id": "scirex:28bf3aee9eecc2f7a7b4ac71bfe89534d3fe5f19",
+  "contributions": [
+    {
+      "method": {
+        "name": "occlusion-aware R-CNN (OR-CNN)",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 82,
+          "end": 130
+        },
+        "confidence": 0.9
+      },
+      "task": {
+        "name": "pedestrian detection in crowded scenes",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 29,
+          "end": 81
+        },
+        "confidence": 0.9
+      },
+      "datasets": [
+        {
+          "name": "CityPersons",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 222,
+            "end": 234
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "ETH",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 236,
+            "end": 239
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "INRIA",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 244,
+            "end": 249
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "Caltech",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 254,
+            "end": 261
+          },
+          "confidence": 0.9
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Log Average Miss Rate (MR)",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 4187,
+            "end": 4203
+          },
+          "confidence": 0.8
+        },
+        {
+          "name": "MR on CityPersons",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 4187,
+            "end": 4203
+          },
+          "confidence": 0.8
+        },
+        {
+          "name": "MR on ETH",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 4212,
+            "end": 4222
+          },
+          "confidence": 0.8
+        },
+        {
+          "name": "MR on INRIA",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 4233,
+            "end": 4246
+          },
+          "confidence": 0.8
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Faster R-CNN",
+        "Repulsion Loss",
+        "state-of-the-art methods"
+      ],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "PARTIAL",
+        "task": "PARTIAL",
+        "datasets": "PARTIAL",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "(none)",
+    "consolidator_model": "(none)",
+    "tokens_in": 6382,
+    "tokens_out": 596,
+    "cost_usd": 0.00257268,
+    "wall_time_seconds": 18.74122833396541,
+    "voting_samples": 1
+  }
+}

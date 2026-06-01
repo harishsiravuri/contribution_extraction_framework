@@ -1,0 +1,238 @@
+{
+  "paper_id": "scirex:35756f711a97166df11202ebe46820a36704ae77",
+  "contributions": [
+    {
+      "method": {
+        "name": "DCGAN",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 160,
+          "end": 245
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "unsupervised representation learning",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 160,
+          "end": 245
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "LSUN",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2004,
+            "end": 2008
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "Faces",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2377,
+            "end": 2382
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "Imagenet-1k",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2377,
+            "end": 2388
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [],
+      "claim_strength": "novel",
+      "comparison_targets": [],
+      "self_consistency": 1.0,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    },
+    {
+      "method": {
+        "name": "DCGAN",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 160,
+          "end": 245
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "image classification",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 3496,
+          "end": 3513
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "CIFAR-10",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 3496,
+            "end": 3505
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": 82.8,
+          "unit": "%",
+          "evidence_span": {
+            "start": 3930,
+            "end": 3935
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "K-means"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    },
+    {
+      "method": {
+        "name": "DCGAN",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 160,
+          "end": 245
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "image classification",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 4048,
+          "end": 4065
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "SVHN",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 4048,
+            "end": 4052
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "test error",
+          "value": 22.48,
+          "unit": "%",
+          "evidence_span": {
+            "start": 4237,
+            "end": 4243
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "CNNs"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    },
+    {
+      "method": {
+        "name": "DCGAN",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 295,
+          "end": 371
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "generative modeling",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 295,
+          "end": 371
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "MNIST",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 7683,
+            "end": 7688
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "test error",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 7843,
+            "end": 7848
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "comparable",
+      "comparison_targets": [
+        "nearest neighbor classifier",
+        "InfiMNIST",
+        "probabilistic generative data augmentation"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "DISABLED (E2 critic-off ablation)",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 21395,
+    "tokens_out": 4510,
+    "cost_usd": 0.012170499999999999,
+    "wall_time_seconds": 86.89643925009295,
+    "voting_samples": 3
+  }
+}

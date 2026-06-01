@@ -1,0 +1,124 @@
+{
+  "paper_id": "scirex:1efdad6f91e830fd64306e4625f74191b05ef9c4",
+  "contributions": [
+    {
+      "method": {
+        "name": "Patchy-San",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 1225,
+          "end": 1235
+        },
+        "confidence": 0.9
+      },
+      "task": {
+        "name": "Graph Representation Learning",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 69
+        },
+        "confidence": 0.8
+      },
+      "datasets": [
+        {
+          "name": "MUTAG",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 12291,
+            "end": 12296
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "PTC",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 12301,
+            "end": 12304
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "NCI1",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 12309,
+            "end": 12313
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "NCI109",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 12318,
+            "end": 12323
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "PROTEINS",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 12328,
+            "end": 12336
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "D&D",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 12341,
+            "end": 12344
+          },
+          "confidence": 0.9
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Classification Accuracy",
+          "value": null,
+          "unit": "%",
+          "evidence_span": {
+            "start": 12994,
+            "end": 13014
+          },
+          "confidence": 0.8
+        },
+        {
+          "name": "Runtime Efficiency",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 12994,
+            "end": 13014
+          },
+          "confidence": 0.8
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "state of the art graph kernels"
+      ],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "PARTIAL",
+        "task": "PARTIAL",
+        "datasets": "PARTIAL",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "openai/gpt-4o-2024-11-20",
+    "critic_model": "(none)",
+    "consolidator_model": "(none)",
+    "tokens_in": 6994,
+    "tokens_out": 603,
+    "cost_usd": 0.023515,
+    "wall_time_seconds": 3.809605833142996,
+    "voting_samples": 1
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "paper_id": "tdmsci:test_500_v2:01405",
+  "contributions": [
+    {
+      "method": {
+        "name": "our approach",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 25,
+          "end": 37
+        },
+        "confidence": 0.3333333333333333
+      },
+      "task": {
+        "name": "entity linking",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 3,
+          "end": 18
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": null,
+          "canonical_id": null,
+          "evidence_span": null,
+          "confidence": 0.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 10.0,
+          "unit": "%",
+          "evidence_span": {
+            "start": 45,
+            "end": 52
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "state-of-the-art"
+      ],
+      "self_consistency": 0.7777777777777778,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 5181,
+    "tokens_out": 1737,
+    "cost_usd": 0.00381569,
+    "wall_time_seconds": 39.45255154184997,
+    "voting_samples": 3
+  }
+}

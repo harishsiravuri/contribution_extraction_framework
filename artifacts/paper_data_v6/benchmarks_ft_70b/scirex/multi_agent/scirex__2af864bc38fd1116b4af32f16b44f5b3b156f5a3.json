@@ -1,0 +1,95 @@
+{
+  "paper_id": "scirex:2af864bc38fd1116b4af32f16b44f5b3b156f5a3",
+  "contributions": [
+    {
+      "method": {
+        "name": "rmn",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 195,
+          "end": 198
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "question answering",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 141,
+          "end": 163
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "babi",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 3044,
+            "end": 3048
+          },
+          "confidence": 0.5
+        },
+        {
+          "name": "babi dialog",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 3264,
+            "end": 3275
+          },
+          "confidence": 0.25
+        },
+        {
+          "name": "babi 10k",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 3139,
+            "end": 3147
+          },
+          "confidence": 0.25
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 3981,
+            "end": 3988
+          },
+          "confidence": 0.75
+        },
+        {
+          "name": "joint accuracy",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 4214,
+            "end": 4227
+          },
+          "confidence": 0.25
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [],
+      "self_consistency": 0.875,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "harishsiravuri_e088/Meta-Llama-3.1-70B-Instruct-Reference-scirex-v6-70b-7cecddd1-66437b32",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 23807,
+    "tokens_out": 1898,
+    "cost_usd": 0.013877049999999998,
+    "wall_time_seconds": 74.29225924995262,
+    "voting_samples": 3
+  }
+}

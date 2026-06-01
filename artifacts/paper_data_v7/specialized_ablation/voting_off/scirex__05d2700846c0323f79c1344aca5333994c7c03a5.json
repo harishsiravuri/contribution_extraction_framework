@@ -1,0 +1,67 @@
+{
+  "paper_id": "scirex:05d2700846c0323f79c1344aca5333994c7c03a5",
+  "contributions": [
+    {
+      "method": {
+        "name": "lstm",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 4441,
+          "end": 4445
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "speech recognition",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 23
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "switchboard",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 146,
+            "end": 157
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "wer",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 219,
+            "end": 222
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [],
+      "self_consistency": 1.0,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "harishsiravuri_e088/Meta-Llama-3.1-70B-Instruct-Reference-scirex-v6-70b-7cecddd1-66437b32",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 9536,
+    "tokens_out": 915,
+    "cost_usd": 0.00591155,
+    "wall_time_seconds": 28.261405083118007,
+    "voting_samples": 1
+  }
+}

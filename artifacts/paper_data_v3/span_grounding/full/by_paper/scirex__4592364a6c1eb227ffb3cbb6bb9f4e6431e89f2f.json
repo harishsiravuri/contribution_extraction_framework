@@ -1,0 +1,180 @@
+{
+  "paper_id": "scirex:4592364a6c1eb227ffb3cbb6bb9f4e6431e89f2f",
+  "contributions": [
+    {
+      "method": {
+        "name": "Relation Network",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 20,
+          "end": 58
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "few-shot learning",
+        "canonical_id": "few_shot_learning",
+        "evidence_span": {
+          "start": 59,
+          "end": 185
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "Omniglot",
+          "canonical_id": "omniglot",
+          "evidence_span": {
+            "start": 4215,
+            "end": 4224
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "mini ImageNet",
+          "canonical_id": "mini_imagenet",
+          "evidence_span": {
+            "start": 5048,
+            "end": 5061
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "Animals with Attributes",
+          "canonical_id": "awa",
+          "evidence_span": {
+            "start": 5690,
+            "end": 5713
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "Caltech-UCSD Birds-200-2011",
+          "canonical_id": "cub",
+          "evidence_span": {
+            "start": 5746,
+            "end": 5789
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": null,
+          "unit": "%",
+          "evidence_span": {
+            "start": 4564,
+            "end": 5088
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Prototypical Networks",
+        "Siamese Networks",
+        "MAML",
+        "Meta-Learner LSTM",
+        "neural statistician",
+        "Matching Nets",
+        "MANN",
+        "Siamese Nets with Memory",
+        "Convolutional Siamese Nets",
+        "Meta Nets",
+        "DEM"
+      ],
+      "self_consistency": 0.875,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    },
+    {
+      "method": {
+        "name": "Relation Network",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 20,
+          "end": 58
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "zero-shot learning",
+        "canonical_id": "zero_shot_learning",
+        "evidence_span": {
+          "start": 210,
+          "end": 227
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "Animals with Attributes",
+          "canonical_id": "awa",
+          "evidence_span": {
+            "start": 5690,
+            "end": 5713
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "Caltech-UCSD Birds-200-2011",
+          "canonical_id": "cub",
+          "evidence_span": {
+            "start": 5746,
+            "end": 5789
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": null,
+          "unit": "%",
+          "evidence_span": {
+            "start": 6926,
+            "end": 7793
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "harmonic mean",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 7887,
+            "end": 7892
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "DEM",
+        "Prototypical Nets"
+      ],
+      "self_consistency": 0.875,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 31103,
+    "tokens_out": 4413,
+    "cost_usd": 0.01675365,
+    "wall_time_seconds": 130.35887845803518,
+    "voting_samples": 3
+  }
+}

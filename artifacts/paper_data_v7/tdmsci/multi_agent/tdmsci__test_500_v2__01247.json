@@ -1,0 +1,55 @@
+{
+  "paper_id": "tdmsci:test_500_v2:01247",
+  "contributions": [
+    {
+      "method": {
+        "name": "our model",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 56,
+          "end": 65
+        },
+        "confidence": 0.6666666666666666
+      },
+      "task": {
+        "name": null,
+        "canonical_id": null,
+        "evidence_span": null,
+        "confidence": 0.0
+      },
+      "datasets": [
+        {
+          "name": "SemEval-2010 Task 8",
+          "canonical_id": "semeval_2010_task_8",
+          "evidence_span": {
+            "start": 26,
+            "end": 45
+          },
+          "confidence": 0.6666666666666666
+        }
+      ],
+      "metrics": [],
+      "claim_strength": "comparable",
+      "comparison_targets": [
+        "state-of-the-art"
+      ],
+      "self_consistency": 0.5555555555555556,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "UNSUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": null
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 4751,
+    "tokens_out": 1292,
+    "cost_usd": 0.00320143,
+    "wall_time_seconds": 23.869114624802023,
+    "voting_samples": 3
+  }
+}

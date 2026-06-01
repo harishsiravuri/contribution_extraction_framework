@@ -1,0 +1,89 @@
+{
+  "paper_id": "tdmsci:test_500_v2:01494",
+  "contributions": [
+    {
+      "method": {
+        "name": null,
+        "canonical_id": null,
+        "evidence_span": null,
+        "confidence": 0.0
+      },
+      "task": {
+        "name": "language identification",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 28,
+          "end": 46
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "EUROGOV",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 80,
+            "end": 87
+          },
+          "confidence": 0.5
+        },
+        {
+          "name": "TCL",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 89,
+            "end": 92
+          },
+          "confidence": 0.5
+        },
+        {
+          "name": "WIKIPEDIA",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 94,
+            "end": 103
+          },
+          "confidence": 0.5
+        },
+        {
+          "name": "EMEA",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 160,
+            "end": 164
+          },
+          "confidence": 0.5
+        },
+        {
+          "name": "EUROPARL",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 220,
+            "end": 228
+          },
+          "confidence": 0.5
+        }
+      ],
+      "metrics": [],
+      "claim_strength": null,
+      "comparison_targets": [],
+      "self_consistency": 0.83,
+      "critic_verdict": {
+        "method": "UNSUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "PARTIAL",
+        "metrics": "UNSUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 8033,
+    "tokens_out": 3601,
+    "cost_usd": 0.00702067,
+    "wall_time_seconds": 130.5162247081753,
+    "voting_samples": 3
+  }
+}

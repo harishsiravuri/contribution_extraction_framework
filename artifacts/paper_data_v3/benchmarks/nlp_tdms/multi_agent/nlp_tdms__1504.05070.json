@@ -1,0 +1,109 @@
+{
+  "paper_id": "nlp_tdms:1504.05070",
+  "contributions": [
+    {
+      "method": {
+        "name": "self-adaptive hierarchical sentence model (AdaSent)",
+        "canonical_id": "AdaSent",
+        "evidence_span": {
+          "start": 141,
+          "end": 197
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "sentence classification",
+        "canonical_id": "text classification",
+        "evidence_span": {
+          "start": 2261,
+          "end": 2291
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "MR",
+          "canonical_id": "MR",
+          "evidence_span": {
+            "start": 3056,
+            "end": 3059
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "CR",
+          "canonical_id": "CR",
+          "evidence_span": {
+            "start": 3065,
+            "end": 3067
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "SUBJ",
+          "canonical_id": "SUBJ",
+          "evidence_span": {
+            "start": 3074,
+            "end": 3079
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "MPQA",
+          "canonical_id": "MPQA",
+          "evidence_span": {
+            "start": 3086,
+            "end": 3090
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "TREC",
+          "canonical_id": "TREC",
+          "evidence_span": {
+            "start": 3097,
+            "end": 3101
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 3221,
+            "end": 3228
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "P.V.",
+        "cBoW",
+        "RNN",
+        "BRNN",
+        "GrConv"
+      ],
+      "self_consistency": 0.875,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 29084,
+    "tokens_out": 5333,
+    "cost_usd": 0.01691423,
+    "wall_time_seconds": 138.60084700002335,
+    "voting_samples": 3
+  }
+}

@@ -1,0 +1,128 @@
+{
+  "paper_id": "scirex:1f8f0abfe4689aa93f2f6cc7ec4fd4c6adc2c2d6",
+  "contributions": [
+    {
+      "method": {
+        "name": "discriminative loss function",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 435,
+          "end": 463
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "semantic instance segmentation",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 36
+        },
+        "confidence": 0.6666666666666666
+      },
+      "datasets": [
+        {
+          "name": "Cityscapes",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1011,
+            "end": 1021
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "CVPPP leaf segmentation",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1022,
+            "end": 1041
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Symmetric Best Dice",
+          "value": 84.2,
+          "unit": null,
+          "evidence_span": {
+            "start": 10476,
+            "end": 10493
+          },
+          "confidence": 0.6666666666666666
+        },
+        {
+          "name": "Absolute Difference in Count",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 10514,
+            "end": 10534
+          },
+          "confidence": 0.6666666666666666
+        },
+        {
+          "name": "mean Average Precision",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 10616,
+            "end": 10638
+          },
+          "confidence": 0.6666666666666666
+        },
+        {
+          "name": "AP0.5",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 10653,
+            "end": 10658
+          },
+          "confidence": 0.6666666666666666
+        },
+        {
+          "name": "AP50m",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 10653,
+            "end": 10660
+          },
+          "confidence": 0.6666666666666666
+        },
+        {
+          "name": "AP100m",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 10661,
+            "end": 10668
+          },
+          "confidence": 0.6666666666666666
+        }
+      ],
+      "claim_strength": "comparable",
+      "comparison_targets": [
+        "MNC-based method SAIS"
+      ],
+      "self_consistency": 0.8333333333333334,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 30250,
+    "tokens_out": 3923,
+    "cost_usd": 0.015863739999999998,
+    "wall_time_seconds": 71.64477866701782,
+    "voting_samples": 3
+  }
+}

@@ -1,0 +1,130 @@
+{
+  "paper_id": "scirex:3070a1bd503c3767def898bbd50c7eea2bbf29c9",
+  "contributions": [
+    {
+      "method": {
+        "name": "shallow residual network",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 339,
+          "end": 361
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "image classification",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 372,
+          "end": 393
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "ImageNet",
+          "canonical_id": "ImageNet",
+          "evidence_span": {
+            "start": 404,
+            "end": 412
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "ResNet-200"
+      ],
+      "self_consistency": 0.875,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "UNSUPPORTED"
+      }
+    },
+    {
+      "method": {
+        "name": "shallow residual network",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 435,
+          "end": 457
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "semantic segmentation",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 468,
+          "end": 492
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "PASCAL VOC",
+          "canonical_id": "PASCAL VOC",
+          "evidence_span": {
+            "start": 504,
+            "end": 516
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "PASCAL Context",
+          "canonical_id": "PASCAL Context",
+          "evidence_span": {
+            "start": 528,
+            "end": 542
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "Cityscapes",
+          "canonical_id": "Cityscapes",
+          "evidence_span": {
+            "start": 553,
+            "end": 563
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "mean IoU",
+          "value": null,
+          "unit": "%",
+          "evidence_span": {
+            "start": 574,
+            "end": 583
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "state-of-the-art"
+      ],
+      "self_consistency": 0.875,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 38361,
+    "tokens_out": 3944,
+    "cost_usd": 0.01911504,
+    "wall_time_seconds": 161.9442382500274,
+    "voting_samples": 3
+  }
+}

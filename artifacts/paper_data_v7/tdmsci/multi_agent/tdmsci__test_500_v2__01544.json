@@ -1,0 +1,46 @@
+{
+  "paper_id": "tdmsci:test_500_v2:01544",
+  "contributions": [
+    {
+      "method": {
+        "name": "FAdR",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 7,
+          "end": 11
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "advertisement recognition",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 7,
+          "end": 40
+        },
+        "confidence": 0.6666666666666666
+      },
+      "datasets": [],
+      "metrics": [],
+      "claim_strength": "novel",
+      "comparison_targets": [],
+      "self_consistency": 0.7777777777777778,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "UNSUPPORTED",
+        "metrics": "UNSUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 4816,
+    "tokens_out": 1421,
+    "cost_usd": 0.0033547399999999997,
+    "wall_time_seconds": 40.9542067500297,
+    "voting_samples": 3
+  }
+}

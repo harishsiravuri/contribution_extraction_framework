@@ -1,0 +1,98 @@
+{
+  "paper_id": "arxiv:2605.28684",
+  "contributions": [
+    {
+      "method": {
+        "name": "incremental singular value decomposition (iSVD)",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 222,
+          "end": 280
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "dynamical simulation",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 95,
+          "end": 130
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "one-dimensional viscous Burgers equation",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 618,
+            "end": 660
+          },
+          "confidence": 0.5
+        },
+        {
+          "name": "Sod shock tube",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 662,
+            "end": 675
+          },
+          "confidence": 0.5
+        },
+        {
+          "name": "one-dimensional ten-species rotating detonation engine (RDE)",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 677,
+            "end": 737
+          },
+          "confidence": 0.5
+        }
+      ],
+      "metrics": [
+        {
+          "name": "predictive accuracy",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 1011,
+            "end": 1030
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "computational efficiency",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 1031,
+            "end": 1054
+          },
+          "confidence": 0.5
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "alternative basis adaptation rules",
+        "Direct adaptive ROM baseline"
+      ],
+      "self_consistency": 0.875,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "PARTIAL",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 10185,
+    "tokens_out": 4918,
+    "cost_usd": 0.00920923,
+    "wall_time_seconds": 82.52559841703624,
+    "voting_samples": 3
+  }
+}

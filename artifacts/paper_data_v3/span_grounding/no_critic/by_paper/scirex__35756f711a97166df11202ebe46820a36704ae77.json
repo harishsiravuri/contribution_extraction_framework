@@ -1,0 +1,107 @@
+{
+  "paper_id": "scirex:35756f711a97166df11202ebe46820a36704ae77",
+  "contributions": [
+    {
+      "method": {
+        "name": "DCGAN",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 223,
+          "end": 356
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "unsupervised representation learning",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 223,
+          "end": 356
+        },
+        "confidence": 0.6
+      },
+      "datasets": [
+        {
+          "name": "LSUN",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2073,
+            "end": 2077
+          },
+          "confidence": 0.4
+        },
+        {
+          "name": "CIFAR-10",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2515,
+            "end": 2524
+          },
+          "confidence": 0.4
+        },
+        {
+          "name": "SVHN",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2811,
+            "end": 2815
+          },
+          "confidence": 0.4
+        },
+        {
+          "name": "MNIST",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 7533,
+            "end": 7538
+          },
+          "confidence": 0.2
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": 82.8,
+          "unit": "%",
+          "evidence_span": {
+            "start": 2673,
+            "end": 2678
+          },
+          "confidence": 0.4
+        },
+        {
+          "name": "error rate",
+          "value": 22.48,
+          "unit": "%",
+          "evidence_span": {
+            "start": 2904,
+            "end": 2910
+          },
+          "confidence": 0.4
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "K-means based approaches",
+        "supervised CNNs"
+      ],
+      "self_consistency": 0.57,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "PARTIAL",
+        "datasets": "PARTIAL",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "(none)",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 19435,
+    "tokens_out": 3348,
+    "cost_usd": 0.01005742,
+    "wall_time_seconds": 85.33590954198735,
+    "voting_samples": 3
+  }
+}

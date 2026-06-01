@@ -1,0 +1,90 @@
+{
+  "paper_id": "scirex:1275125b71b999b7c49bc554c6ec404a764eb299",
+  "contributions": [
+    {
+      "method": {
+        "name": "Hierarchical Deep Convolutional Neural Network (HD-CNN)",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 125,
+          "end": 177
+        },
+        "confidence": 0.9
+      },
+      "task": {
+        "name": "Large Scale Visual Recognition",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 177,
+          "end": 206
+        },
+        "confidence": 0.9
+      },
+      "datasets": [
+        {
+          "name": "CIFAR100",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1042,
+            "end": 1050
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "ImageNet 1000-class",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1055,
+            "end": 1074
+          },
+          "confidence": 0.9
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Top-1 error",
+          "value": 0.22,
+          "unit": null,
+          "evidence_span": {
+            "start": 832,
+            "end": 836
+          },
+          "confidence": 0.8
+        },
+        {
+          "name": "Top-5 error",
+          "value": 0.18,
+          "unit": null,
+          "evidence_span": {
+            "start": 1038,
+            "end": 1042
+          },
+          "confidence": 0.8
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "standard CNNs",
+        "GoogLeNet",
+        "VGG 19-layer network"
+      ],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "PARTIAL",
+        "task": "PARTIAL",
+        "datasets": "PARTIAL",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "(none)",
+    "consolidator_model": "(none)",
+    "tokens_in": 6867,
+    "tokens_out": 462,
+    "cost_usd": 0.0026086200000000003,
+    "wall_time_seconds": 14.426312958006747,
+    "voting_samples": 1
+  }
+}

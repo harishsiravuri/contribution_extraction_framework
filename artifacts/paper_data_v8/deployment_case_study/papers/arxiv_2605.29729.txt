@@ -1,0 +1,3 @@
+Title: Realistic honeypot evaluations for scheming propensity
+
+Abstract: We introduce scheming honeypot evaluations, a framework for testing whether models will pursue instrumental goals if given the opportunity. Our scheming honeypot evaluations take the form of coding tasks in Google's alignment research codebases. In a real internal deployment setting, Gemini models do not demonstrate unprompted scheming. If prompts explicitly encourage agency (situational awareness or goal-directedness) and/or give the model a hidden goal, models sometimes scheme or attempt sabotage. Validating the realism of our setting, models show low rates of evaluation awareness, usually due to agency prompts rather than the environments.

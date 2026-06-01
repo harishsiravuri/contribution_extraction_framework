@@ -1,0 +1,188 @@
+{
+  "paper_id": "scirex:15c10b24ef645d83ff4059affd86945c33e00328",
+  "contributions": [
+    {
+      "method": {
+        "name": "Snips Voice Platform",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 24
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "Spoken Language Understanding",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 100,
+          "end": 124
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "LibriSpeech",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2685,
+            "end": 2695
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "WER",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 2082,
+            "end": 2086
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "novel",
+      "comparison_targets": [],
+      "self_consistency": 0.67,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    },
+    {
+      "method": {
+        "name": "Snips NLU",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 6124,
+          "end": 6133
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "Natural Language Understanding",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 6124,
+          "end": 6133
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "in-house open dataset",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 8500,
+            "end": 8529
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 8500,
+            "end": 8529
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "comparable",
+      "comparison_targets": [
+        "Microsoft's Luis",
+        "IBM Watson",
+        "Google's Dialogflow",
+        "Facebook's Wit.ai",
+        "Amazon Alexa"
+      ],
+      "self_consistency": 0.67,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    },
+    {
+      "method": {
+        "name": "dynamic language model",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 6143,
+          "end": 6165
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "Spoken Language Understanding",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 6143,
+          "end": 6165
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "SmartLights",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 6200,
+            "end": 6210
+          },
+          "confidence": 0.5
+        },
+        {
+          "name": "Weather",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 6300,
+            "end": 6310
+          },
+          "confidence": 0.5
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 6400,
+            "end": 6500
+          },
+          "confidence": 0.5
+        }
+      ],
+      "claim_strength": "novel",
+      "comparison_targets": [
+        "static language models"
+      ],
+      "self_consistency": 0.33,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 54910,
+    "tokens_out": 4765,
+    "cost_usd": 0.026276709999999998,
+    "wall_time_seconds": 192.8446492080111,
+    "voting_samples": 3
+  }
+}

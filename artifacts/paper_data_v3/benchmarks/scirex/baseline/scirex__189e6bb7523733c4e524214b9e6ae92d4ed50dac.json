@@ -1,0 +1,143 @@
+{
+  "paper_id": "scirex:189e6bb7523733c4e524214b9e6ae92d4ed50dac",
+  "contributions": [
+    {
+      "method": {
+        "name": "hierarchical recurrent neural networks with transfer learning",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 295,
+          "end": 418
+        },
+        "confidence": 0.9
+      },
+      "task": {
+        "name": "sequence tagging",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 95,
+          "end": 168
+        },
+        "confidence": 0.95
+      },
+      "datasets": [
+        {
+          "name": "Penn Treebank (PTB) POS tagging",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1924,
+            "end": 1957
+          },
+          "confidence": 0.85
+        },
+        {
+          "name": "CoNLL 2000 chunking",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1958,
+            "end": 1979
+          },
+          "confidence": 0.85
+        },
+        {
+          "name": "CoNLL 2003 English NER",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1980,
+            "end": 2005
+          },
+          "confidence": 0.85
+        },
+        {
+          "name": "CoNLL 2002 Dutch NER",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2006,
+            "end": 2030
+          },
+          "confidence": 0.85
+        },
+        {
+          "name": "CoNLL 2002 Spanish NER",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2031,
+            "end": 2057
+          },
+          "confidence": 0.85
+        },
+        {
+          "name": "Genia biomedical corpus",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2058,
+            "end": 2081
+          },
+          "confidence": 0.85
+        },
+        {
+          "name": "Twitter corpus",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2085,
+            "end": 2102
+          },
+          "confidence": 0.85
+        }
+      ],
+      "metrics": [
+        {
+          "name": "POS tagging accuracy",
+          "value": null,
+          "unit": "%",
+          "evidence_span": {
+            "start": 2843,
+            "end": 2866
+          },
+          "confidence": 0.8
+        },
+        {
+          "name": "chunk-level F1",
+          "value": null,
+          "unit": "%",
+          "evidence_span": {
+            "start": 2889,
+            "end": 2909
+          },
+          "confidence": 0.8
+        },
+        {
+          "name": "NER F1",
+          "value": null,
+          "unit": "%",
+          "evidence_span": {
+            "start": 2879,
+            "end": 2887
+          },
+          "confidence": 0.8
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "state-of-the-art systems"
+      ],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "PARTIAL",
+        "task": "PARTIAL",
+        "datasets": "PARTIAL",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "(none)",
+    "consolidator_model": "(none)",
+    "tokens_in": 5291,
+    "tokens_out": 775,
+    "cost_usd": 0.00238287,
+    "wall_time_seconds": 28.152263374999166,
+    "voting_samples": 1
+  }
+}

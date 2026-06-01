@@ -1,0 +1,108 @@
+{
+  "paper_id": "scirex:088b649415378c4dde666f614ba24d08a36b6652",
+  "contributions": [
+    {
+      "method": {
+        "name": "Long Short-Term Memory-Network (LSTMN)",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 123
+        },
+        "confidence": 0.9
+      },
+      "task": {
+        "name": "Machine Reading",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 123
+        },
+        "confidence": 0.8
+      },
+      "datasets": [
+        {
+          "name": "English Penn Treebank",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 10891,
+            "end": 10918
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "Stanford Sentiment Treebank",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 13691,
+            "end": 13720
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "Stanford Natural Language Inference (SNLI)",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 16591,
+            "end": 16627
+          },
+          "confidence": 0.9
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Perplexity",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 11091,
+            "end": 11101
+          },
+          "confidence": 0.8
+        },
+        {
+          "name": "Accuracy (Sentiment Analysis)",
+          "value": null,
+          "unit": "%",
+          "evidence_span": {
+            "start": 13720,
+            "end": 13750
+          },
+          "confidence": 0.8
+        },
+        {
+          "name": "Accuracy (Natural Language Inference)",
+          "value": null,
+          "unit": "%",
+          "evidence_span": {
+            "start": 16627,
+            "end": 16657
+          },
+          "confidence": 0.8
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "vanilla LSTM",
+        "state-of-the-art models"
+      ],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "PARTIAL",
+        "task": "PARTIAL",
+        "datasets": "PARTIAL",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "openai/gpt-4o-2024-11-20",
+    "critic_model": "(none)",
+    "consolidator_model": "(none)",
+    "tokens_in": 6093,
+    "tokens_out": 536,
+    "cost_usd": 0.0205925,
+    "wall_time_seconds": 3.263479665853083,
+    "voting_samples": 1
+  }
+}

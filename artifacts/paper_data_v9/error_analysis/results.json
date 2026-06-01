@@ -1,0 +1,236 @@
+{
+  "experiment": "v9_error_analysis",
+  "seed": 42,
+  "n_resamples_bootstrap": 1000,
+  "categorizer_model": "meta-llama/llama-3.3-70b-instruct",
+  "sample_size_requested": 50,
+  "papers_with_records": 45,
+  "total_errors_enumerated": 385,
+  "total_errors_categorized": 385,
+  "categorizer_total_cost_usd": 0.28194052999999997,
+  "categorizer_wall_time_seconds": 59.45396737498231,
+  "overall_per_category": {
+    "1": {
+      "category_id": 1,
+      "category_name": "Passing-mention method",
+      "count": 96,
+      "pct": 0.24935064935064935,
+      "ci_lo": 0.2051948051948052,
+      "ci_hi": 0.2935714285714285
+    },
+    "2": {
+      "category_id": 2,
+      "category_name": "Shared-baseline binding error",
+      "count": 10,
+      "pct": 0.025974025974025976,
+      "ci_lo": 0.01038961038961039,
+      "ci_hi": 0.04155844155844156
+    },
+    "3": {
+      "category_id": 3,
+      "category_name": "Ambiguous task description",
+      "count": 35,
+      "pct": 0.09090909090909091,
+      "ci_lo": 0.06233766233766234,
+      "ci_hi": 0.12467532467532468
+    },
+    "4": {
+      "category_id": 4,
+      "category_name": "Schema-coverage gap",
+      "count": 240,
+      "pct": 0.6233766233766234,
+      "ci_lo": 0.5739610389610389,
+      "ci_hi": 0.6701298701298701
+    },
+    "5": {
+      "category_id": 5,
+      "category_name": "Other / annotation disagreement",
+      "count": 4,
+      "pct": 0.01038961038961039,
+      "ci_lo": 0.0025974025974025974,
+      "ci_hi": 0.02077922077922078
+    }
+  },
+  "per_field": {
+    "method": {
+      "total_errors": 46,
+      "per_category": {
+        "1": {
+          "category_id": 1,
+          "category_name": "Passing-mention method",
+          "count": 42,
+          "pct": 0.9130434782608695,
+          "ci_lo": 0.8260869565217391,
+          "ci_hi": 0.9782608695652174
+        },
+        "2": {
+          "category_id": 2,
+          "category_name": "Shared-baseline binding error",
+          "count": 0,
+          "pct": 0.0,
+          "ci_lo": 0.0,
+          "ci_hi": 0.0
+        },
+        "3": {
+          "category_id": 3,
+          "category_name": "Ambiguous task description",
+          "count": 0,
+          "pct": 0.0,
+          "ci_lo": 0.0,
+          "ci_hi": 0.0
+        },
+        "4": {
+          "category_id": 4,
+          "category_name": "Schema-coverage gap",
+          "count": 4,
+          "pct": 0.08695652173913043,
+          "ci_lo": 0.021739130434782608,
+          "ci_hi": 0.17391304347826086
+        },
+        "5": {
+          "category_id": 5,
+          "category_name": "Other / annotation disagreement",
+          "count": 0,
+          "pct": 0.0,
+          "ci_lo": 0.0,
+          "ci_hi": 0.0
+        }
+      }
+    },
+    "datasets": {
+      "total_errors": 184,
+      "per_category": {
+        "1": {
+          "category_id": 1,
+          "category_name": "Passing-mention method",
+          "count": 42,
+          "pct": 0.22826086956521738,
+          "ci_lo": 0.17377717391304348,
+          "ci_hi": 0.28274456521739116
+        },
+        "2": {
+          "category_id": 2,
+          "category_name": "Shared-baseline binding error",
+          "count": 10,
+          "pct": 0.05434782608695652,
+          "ci_lo": 0.021739130434782608,
+          "ci_hi": 0.08695652173913043
+        },
+        "3": {
+          "category_id": 3,
+          "category_name": "Ambiguous task description",
+          "count": 0,
+          "pct": 0.0,
+          "ci_lo": 0.0,
+          "ci_hi": 0.0
+        },
+        "4": {
+          "category_id": 4,
+          "category_name": "Schema-coverage gap",
+          "count": 132,
+          "pct": 0.717391304347826,
+          "ci_lo": 0.657608695652174,
+          "ci_hi": 0.7771739130434783
+        },
+        "5": {
+          "category_id": 5,
+          "category_name": "Other / annotation disagreement",
+          "count": 0,
+          "pct": 0.0,
+          "ci_lo": 0.0,
+          "ci_hi": 0.0
+        }
+      }
+    },
+    "metrics": {
+      "total_errors": 115,
+      "per_category": {
+        "1": {
+          "category_id": 1,
+          "category_name": "Passing-mention method",
+          "count": 7,
+          "pct": 0.06086956521739131,
+          "ci_lo": 0.017391304347826087,
+          "ci_hi": 0.11304347826086956
+        },
+        "2": {
+          "category_id": 2,
+          "category_name": "Shared-baseline binding error",
+          "count": 0,
+          "pct": 0.0,
+          "ci_lo": 0.0,
+          "ci_hi": 0.0
+        },
+        "3": {
+          "category_id": 3,
+          "category_name": "Ambiguous task description",
+          "count": 0,
+          "pct": 0.0,
+          "ci_lo": 0.0,
+          "ci_hi": 0.0
+        },
+        "4": {
+          "category_id": 4,
+          "category_name": "Schema-coverage gap",
+          "count": 104,
+          "pct": 0.9043478260869565,
+          "ci_lo": 0.8434782608695652,
+          "ci_hi": 0.9478260869565217
+        },
+        "5": {
+          "category_id": 5,
+          "category_name": "Other / annotation disagreement",
+          "count": 4,
+          "pct": 0.034782608695652174,
+          "ci_lo": 0.008695652173913044,
+          "ci_hi": 0.06956521739130435
+        }
+      }
+    },
+    "task": {
+      "total_errors": 40,
+      "per_category": {
+        "1": {
+          "category_id": 1,
+          "category_name": "Passing-mention method",
+          "count": 5,
+          "pct": 0.125,
+          "ci_lo": 0.025,
+          "ci_hi": 0.225
+        },
+        "2": {
+          "category_id": 2,
+          "category_name": "Shared-baseline binding error",
+          "count": 0,
+          "pct": 0.0,
+          "ci_lo": 0.0,
+          "ci_hi": 0.0
+        },
+        "3": {
+          "category_id": 3,
+          "category_name": "Ambiguous task description",
+          "count": 35,
+          "pct": 0.875,
+          "ci_lo": 0.775,
+          "ci_hi": 0.975
+        },
+        "4": {
+          "category_id": 4,
+          "category_name": "Schema-coverage gap",
+          "count": 0,
+          "pct": 0.0,
+          "ci_lo": 0.0,
+          "ci_hi": 0.0
+        },
+        "5": {
+          "category_id": 5,
+          "category_name": "Other / annotation disagreement",
+          "count": 0,
+          "pct": 0.0,
+          "ci_lo": 0.0,
+          "ci_hi": 0.0
+        }
+      }
+    }
+  }
+}

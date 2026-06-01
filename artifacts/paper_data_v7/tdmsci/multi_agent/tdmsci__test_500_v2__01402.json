@@ -1,0 +1,53 @@
+{
+  "paper_id": "tdmsci:test_500_v2:01402",
+  "contributions": [
+    {
+      "method": {
+        "name": "boosting-based system combination",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 25,
+          "end": 55
+        },
+        "confidence": 0.3333333333333333
+      },
+      "task": {
+        "name": null,
+        "canonical_id": null,
+        "evidence_span": null,
+        "confidence": 0.0
+      },
+      "datasets": [
+        {
+          "name": "NIST MT03",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 51,
+            "end": 61
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [],
+      "claim_strength": null,
+      "comparison_targets": [],
+      "self_consistency": 0.5555555555555556,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "UNSUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": null
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 4391,
+    "tokens_out": 995,
+    "cost_usd": 0.0027576700000000003,
+    "wall_time_seconds": 21.602745667099953,
+    "voting_samples": 3
+  }
+}

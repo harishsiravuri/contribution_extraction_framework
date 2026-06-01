@@ -1,0 +1,159 @@
+{
+  "paper_id": "scirex:22634b09c3c83f4a959f4f732b03ec3c92808094",
+  "contributions": [
+    {
+      "method": {
+        "name": "DeepMatching",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 36,
+          "end": 49
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "image matching",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 36,
+          "end": 49
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "Mikolajczyk",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 366,
+            "end": 379
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "MPI-Sintel",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 404,
+            "end": 419
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "Kitti",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 421,
+            "end": 434
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy@10",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 10891,
+            "end": 10901
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "state-of-the-art matching algorithms"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    },
+    {
+      "method": {
+        "name": "DeepFlow",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 366,
+          "end": 379
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "optical flow estimation",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 366,
+          "end": 379
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "MPI-Sintel",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 404,
+            "end": 419
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "Kitti",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 421,
+            "end": 434
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "Middlebury",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 436,
+            "end": 447
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "EPE",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 366,
+            "end": 379
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "comparable",
+      "comparison_targets": [
+        "state-of-the-art optical flow methods"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "openai/gpt-4o-2024-11-20",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 67022,
+    "tokens_out": 7286,
+    "cost_usd": 0.16926209999999997,
+    "wall_time_seconds": 114.17343837511726,
+    "voting_samples": 3
+  }
+}

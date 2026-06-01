@@ -1,0 +1,56 @@
+{
+  "paper_id": "tdmsci:train_1500_v2:00040",
+  "contributions": [
+    {
+      "method": {
+        "name": "MF",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 27,
+          "end": 29
+        },
+        "confidence": 0.9
+      },
+      "task": {
+        "name": "recommendation systems",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 65,
+          "end": 86
+        },
+        "confidence": 0.9
+      },
+      "datasets": [
+        {
+          "name": "Netflix challenge",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 21,
+            "end": 37
+          },
+          "confidence": 0.95
+        }
+      ],
+      "metrics": [],
+      "claim_strength": "improves",
+      "comparison_targets": [],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "PARTIAL",
+        "task": "PARTIAL",
+        "datasets": "PARTIAL",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "(none)",
+    "consolidator_model": "(none)",
+    "tokens_in": 563,
+    "tokens_out": 260,
+    "cost_usd": 0.00041156,
+    "wall_time_seconds": 7.388337583979592,
+    "voting_samples": 1
+  }
+}

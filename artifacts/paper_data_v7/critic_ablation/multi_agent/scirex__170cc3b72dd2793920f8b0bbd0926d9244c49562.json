@@ -1,0 +1,118 @@
+{
+  "paper_id": "scirex:170cc3b72dd2793920f8b0bbd0926d9244c49562",
+  "contributions": [
+    {
+      "method": {
+        "name": "bootstrapped DQN",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 100
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "reinforcement learning",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 100
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "Arcade Learning Environment",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 0,
+            "end": 100
+          },
+          "confidence": 0.5
+        },
+        {
+          "name": "Atari games",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 0,
+            "end": 100
+          },
+          "confidence": 0.5
+        }
+      ],
+      "metrics": [
+        {
+          "name": "learning speed",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 0,
+            "end": 100
+          },
+          "confidence": 0.5
+        },
+        {
+          "name": "cumulative performance",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 0,
+            "end": 100
+          },
+          "confidence": 0.5
+        },
+        {
+          "name": "AUC-20",
+          "value": 0.62,
+          "unit": null,
+          "evidence_span": {
+            "start": 0,
+            "end": 100
+          },
+          "confidence": 0.25
+        },
+        {
+          "name": "human performance",
+          "value": 30.0,
+          "unit": "% faster",
+          "evidence_span": {
+            "start": 0,
+            "end": 100
+          },
+          "confidence": 0.25
+        },
+        {
+          "name": "time to human performance",
+          "value": 30.0,
+          "unit": "% faster",
+          "evidence_span": {
+            "start": 0,
+            "end": 100
+          },
+          "confidence": 0.25
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "DQN"
+      ],
+      "self_consistency": 0.875,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "DISABLED (E2 critic-off ablation)",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 32079,
+    "tokens_out": 2806,
+    "cost_usd": 0.013704560000000001,
+    "wall_time_seconds": 39.9707991250325,
+    "voting_samples": 3
+  }
+}

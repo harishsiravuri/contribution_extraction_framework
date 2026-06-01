@@ -1,0 +1,89 @@
+{
+  "paper_id": "scirex:289e3e6b84982eb65aea8e3a64f2f6916c98e87e",
+  "contributions": [
+    {
+      "method": {
+        "name": "attention-enhanced sequence-to-sequence model",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 167,
+          "end": 210
+        },
+        "confidence": 0.9
+      },
+      "task": {
+        "name": "syntactic constituency parsing",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 11,
+          "end": 41
+        },
+        "confidence": 0.95
+      },
+      "datasets": [
+        {
+          "name": "WSJ (Wall Street Journal section of Penn Treebank)",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 387,
+            "end": 421
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "high-confidence corpus (11M sentences)",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1565,
+            "end": 1618
+          },
+          "confidence": 0.9
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1 score",
+          "value": 92.5,
+          "unit": "percent",
+          "evidence_span": {
+            "start": 1642,
+            "end": 1648
+          },
+          "confidence": 0.95
+        },
+        {
+          "name": "sentences parsed per second",
+          "value": 120.0,
+          "unit": "sentences/second",
+          "evidence_span": {
+            "start": 6617,
+            "end": 6667
+          },
+          "confidence": 0.9
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "BerkeleyParser",
+        "ZPar"
+      ],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "PARTIAL",
+        "task": "PARTIAL",
+        "datasets": "PARTIAL",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "(none)",
+    "consolidator_model": "(none)",
+    "tokens_in": 8938,
+    "tokens_out": 457,
+    "cost_usd": 0.00326689,
+    "wall_time_seconds": 25.277083084045444,
+    "voting_samples": 1
+  }
+}

@@ -1,0 +1,129 @@
+{
+  "paper_id": "scirex:26d4ab9b60b91bb610202b58fa1766951fedb9e9",
+  "contributions": [
+    {
+      "method": {
+        "name": "Deep Recurrent Attentive Writer (DRAW)",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 51,
+          "end": 103
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "image generation",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 51,
+          "end": 103
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "MNIST",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 260,
+            "end": 326
+          },
+          "confidence": 0.75
+        },
+        {
+          "name": "Street View House Numbers (SVHN)",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 260,
+            "end": 326
+          },
+          "confidence": 0.5
+        },
+        {
+          "name": "CIFAR-10",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 17362,
+            "end": 17371
+          },
+          "confidence": 0.5
+        },
+        {
+          "name": "cluttered MNIST",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 16246,
+            "end": 16272
+          },
+          "confidence": 0.25
+        }
+      ],
+      "metrics": [
+        {
+          "name": "nats",
+          "value": null,
+          "unit": "average nats per image",
+          "evidence_span": {
+            "start": 15796,
+            "end": 15896
+          },
+          "confidence": 0.25
+        },
+        {
+          "name": "nats per image",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 4800,
+            "end": 4830
+          },
+          "confidence": 0.25
+        },
+        {
+          "name": "visual quality",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 200,
+            "end": 300
+          },
+          "confidence": 0.25
+        },
+        {
+          "name": "test error",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 16574,
+            "end": 16585
+          },
+          "confidence": 0.25
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "DARN",
+        "NADE",
+        "DBMs",
+        "Recurrent Attention Model (RAM)"
+      ],
+      "self_consistency": 0.875,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "PARTIAL",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "(none)",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 17204,
+    "tokens_out": 3841,
+    "cost_usd": 0.00982301,
+    "wall_time_seconds": 83.21536945801927,
+    "voting_samples": 3
+  }
+}

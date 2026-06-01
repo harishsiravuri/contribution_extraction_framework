@@ -1,0 +1,70 @@
+{
+  "paper_id": "arxiv:2605.29273",
+  "contributions": [
+    {
+      "method": {
+        "name": "C-Adam",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 506,
+          "end": 512
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "optimization",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 156,
+          "end": 166
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "real-life based numerical experiments",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 625,
+            "end": 662
+          },
+          "confidence": 0.3333333333333333
+        }
+      ],
+      "metrics": [
+        {
+          "name": "convergence",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 571,
+            "end": 581
+          },
+          "confidence": 0.3333333333333333
+        }
+      ],
+      "claim_strength": "novel",
+      "comparison_targets": [
+        "Adam",
+        "AMSGrad"
+      ],
+      "self_consistency": 0.7777777777777778,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 5967,
+    "tokens_out": 1995,
+    "cost_usd": 0.00438531,
+    "wall_time_seconds": 49.01669900002889,
+    "voting_samples": 3
+  }
+}

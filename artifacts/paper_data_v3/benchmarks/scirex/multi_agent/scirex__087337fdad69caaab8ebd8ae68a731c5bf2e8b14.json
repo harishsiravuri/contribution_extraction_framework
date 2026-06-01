@@ -1,0 +1,97 @@
+{
+  "paper_id": "scirex:087337fdad69caaab8ebd8ae68a731c5bf2e8b14",
+  "contributions": [
+    {
+      "method": {
+        "name": "Fully Convolutional Networks (FCNs)",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 100
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "semantic segmentation",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 100,
+          "end": 150
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "PASCAL VOC 2012",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 441,
+            "end": 455
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "NYUDv2",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 456,
+            "end": 462
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "SIFT Flow",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 463,
+            "end": 472
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "PASCAL-Context",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 473,
+            "end": 488
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "mean IU",
+          "value": 67.2,
+          "unit": "%",
+          "evidence_span": {
+            "start": 430,
+            "end": 440
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "SDS",
+        "R-CNN"
+      ],
+      "self_consistency": 0.875,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 44194,
+    "tokens_out": 4689,
+    "cost_usd": 0.02226132,
+    "wall_time_seconds": 214.78092849999666,
+    "voting_samples": 3
+  }
+}

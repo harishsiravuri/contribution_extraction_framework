@@ -1,0 +1,512 @@
+{
+  "benchmark": "tdmsci",
+  "phase": "baseline",
+  "papers_total": 50,
+  "papers_ok": 49,
+  "papers_error": 1,
+  "papers_skipped": 0,
+  "total_cost_usd": 0.01970043,
+  "wall_time_seconds": 17.77619737497298,
+  "per_paper": [
+    {
+      "paper_id": "tdmsci:train_1500_v2:00000",
+      "status": "ok",
+      "cost_usd": 0.00044072,
+      "tokens_in": 554,
+      "tokens_out": 296,
+      "wall_time_seconds": 8.09516845800681,
+      "error": null,
+      "output_file": "outputs/paper_data_v3/benchmarks/tdmsci/baseline/tdmsci__train_1500_v2__00000.json"
+    },
+    {
+      "paper_id": "tdmsci:train_1500_v2:00001",
+      "status": "ok",
+      "cost_usd": 0.00039953,
+      "tokens_in": 556,
+      "tokens_out": 249,
+      "wall_time_seconds": 7.159317790996283,
+      "error": null,
+      "output_file": "outputs/paper_data_v3/benchmarks/tdmsci/baseline/tdmsci__train_1500_v2__00001.json"
+    },
+    {
+      "paper_id": "tdmsci:train_1500_v2:00002",
+      "status": "ok",
+      "cost_usd": 0.00038536000000000006,
+      "tokens_in": 559,
+      "tokens_out": 232,
+      "wall_time_seconds": 6.755639209004585,
+      "error": null,
+      "output_file": "outputs/paper_data_v3/benchmarks/tdmsci/baseline/tdmsci__train_1500_v2__00002.json"
+    },
+    {
+      "paper_id": "tdmsci:train_1500_v2:00003",
+      "status": "ok",
+      "cost_usd": 0.00036717,
+      "tokens_in": 555,
+      "tokens_out": 213,
+      "wall_time_seconds": 6.188811291009188,
+      "error": null,
+      "output_file": "outputs/paper_data_v3/benchmarks/tdmsci/baseline/tdmsci__train_1500_v2__00003.json"
+    },
+    {
+      "paper_id": "tdmsci:train_1500_v2:00004",
+      "status": "ok",
+      "cost_usd": 0.00041323,
+      "tokens_in": 571,
+      "tokens_out": 259,
+      "wall_time_seconds": 7.465619291004259,
+      "error": null,
+      "output_file": "outputs/paper_data_v3/benchmarks/tdmsci/baseline/tdmsci__train_1500_v2__00004.json"
+    },
+    {
+      "paper_id": "tdmsci:train_1500_v2:00005",
+      "status": "ok",
+      "cost_usd": 0.00037645,
+      "tokens_in": 584,
+      "tokens_out": 213,
+      "wall_time_seconds": 6.265787333948538,
+      "error": null,
+      "output_file": "outputs/paper_data_v3/benchmarks/tdmsci/baseline/tdmsci__train_1500_v2__00005.json"
+    },
+    {
+      "paper_id": "tdmsci:train_1500_v2:00006",
+      "status": "ok",
+      "cost_usd": 0.00037734,
+      "tokens_in": 584,
+      "tokens_out": 214,
+      "wall_time_seconds": 6.344318665971514,
+      "error": null,
+      "output_file": "outputs/paper_data_v3/benchmarks/tdmsci/baseline/tdmsci__train_1500_v2__00006.json"
+    },
+    {
+      "paper_id": "tdmsci:train_1500_v2:00007",
+      "status": "ok",
+      "cost_usd": 0.00047005,
+      "tokens_in": 565,
+      "tokens_out": 325,
+      "wall_time_seconds": 8.750920082966331,
+      "error": null,
+      "output_file": "outputs/paper_data_v3/benchmarks/tdmsci/baseline/tdmsci__train_1500_v2__00007.json"
+    },
+    {
+      "paper_id": "tdmsci:train_1500_v2:00008",
+      "status": "ok",
+      "cost_usd": 0.0003687,
+      "tokens_in": 557,
+      "tokens_out": 214,
+      "wall_time_seconds": 6.770288124971557,
+      "error": null,
+      "output_file": "outputs/paper_data_v3/benchmarks/tdmsci/baseline/tdmsci__train_1500_v2__00008.json"
+    },
+    {
+      "paper_id": "tdmsci:train_1500_v2:00009",
+      "status": "ok",
+      "cost_usd": 0.00041483000000000004,
+      "tokens_in": 576,
+      "tokens_out": 259,
+      "wall_time_seconds": 7.266434832999948,
+      "error": null,
+      "output_file": "outputs/paper_data_v3/benchmarks/tdmsci/baseline/tdmsci__train_1500_v2__00009.json"
+    },
+    {
+      "paper_id": "tdmsci:train_1500_v2:00010",
+      "status": "ok",
+      "cost_usd": 0.00036145000000000003,
+      "tokens_in": 615,
+      "tokens_out": 185,
+      "wall_time_seconds": 5.660156416997779,
+      "error": null,
+      "output_file": "outputs/paper_data_v3/benchmarks/tdmsci/baseline/tdmsci__train_1500_v2__00010.json"
+    },
+    {
+      "paper_id": "tdmsci:train_1500_v2:00011",
+      "status": "ok",
+      "cost_usd": 0.00036817999999999996,
+      "tokens_in": 611,
+      "tokens_out": 194,
+      "wall_time_seconds": 5.980465708009433,
+      "error": null,
+      "output_file": "outputs/paper_data_v3/benchmarks/tdmsci/baseline/tdmsci__train_1500_v2__00011.json"
+    },
+    {
+      "paper_id": "tdmsci:train_1500_v2:00012",
+      "status": "ok",
+      "cost_usd": 0.00039824999999999995,
+      "tokens_in": 552,
+      "tokens_out": 249,
+      "wall_time_seconds": 7.375629749963991,
+      "error": null,
+      "output_file": "outputs/paper_data_v3/benchmarks/tdmsci/baseline/tdmsci__train_1500_v2__00012.json"
+    },
+    {
+      "paper_id": "tdmsci:train_1500_v2:00013",
+      "status": "ok",
+      "cost_usd": 0.00055292,
+      "tokens_in": 582,
+      "tokens_out": 412,
+      "wall_time_seconds": 10.74900324997725,
+      "error": null,
+      "output_file": "outputs/paper_data_v3/benchmarks/tdmsci/baseline/tdmsci__train_1500_v2__00013.json"
+    },
+    {
+      "paper_id": "tdmsci:train_1500_v2:00014",
+      "status": "ok",
+      "cost_usd": 0.00040742,
+      "tokens_in": 589,
+      "tokens_out": 246,
+      "wall_time_seconds": 6.943578874983359,
+      "error": null,
+      "output_file": "outputs/paper_data_v3/benchmarks/tdmsci/baseline/tdmsci__train_1500_v2__00014.json"
+    },
+    {
+      "paper_id": "tdmsci:train_1500_v2:00015",
+      "status": "ok",
+      "cost_usd": 0.00036189999999999996,
+      "tokens_in": 558,
+      "tokens_out": 206,
+      "wall_time_seconds": 6.120133332966361,
+      "error": null,
+      "output_file": "outputs/paper_data_v3/benchmarks/tdmsci/baseline/tdmsci__train_1500_v2__00015.json"
+    },
+    {
+      "paper_id": "tdmsci:train_1500_v2:00016",
+      "status": "ok",
+      "cost_usd": 0.00042383,
+      "tokens_in": 593,
+      "tokens_out": 263,
+      "wall_time_seconds": 7.9244166249991395,
+      "error": null,
+      "output_file": "outputs/paper_data_v3/benchmarks/tdmsci/baseline/tdmsci__train_1500_v2__00016.json"
+    },
+    {
+      "paper_id": "tdmsci:train_1500_v2:00017",
+      "status": "ok",
+      "cost_usd": 0.00037055,
+      "tokens_in": 560,
+      "tokens_out": 215,
+      "wall_time_seconds": 6.284625542000867,
+      "error": null,
+      "output_file": "outputs/paper_data_v3/benchmarks/tdmsci/baseline/tdmsci__train_1500_v2__00017.json"
+    },
+    {
+      "paper_id": "tdmsci:train_1500_v2:00018",
+      "status": "ok",
+      "cost_usd": 0.00036229000000000003,
+      "tokens_in": 562,
+      "tokens_out": 205,
+      "wall_time_seconds": 6.423688416951336,
+      "error": null,
+      "output_file": "outputs/paper_data_v3/benchmarks/tdmsci/baseline/tdmsci__train_1500_v2__00018.json"
+    },
+    {
+      "paper_id": "tdmsci:train_1500_v2:00019",
+      "status": "ok",
+      "cost_usd": 0.00035563,
+      "tokens_in": 569,
+      "tokens_out": 195,
+      "wall_time_seconds": 6.2619915420073085,
+      "error": null,
+      "output_file": "outputs/paper_data_v3/benchmarks/tdmsci/baseline/tdmsci__train_1500_v2__00019.json"
+    },
+    {
+      "paper_id": "tdmsci:train_1500_v2:00020",
+      "status": "ok",
+      "cost_usd": 0.00038283,
+      "tokens_in": 565,
+      "tokens_out": 227,
+      "wall_time_seconds": 6.843729584012181,
+      "error": null,
+      "output_file": "outputs/paper_data_v3/benchmarks/tdmsci/baseline/tdmsci__train_1500_v2__00020.json"
+    },
+    {
+      "paper_id": "tdmsci:train_1500_v2:00021",
+      "status": "ok",
+      "cost_usd": 0.00041785000000000005,
+      "tokens_in": 591,
+      "tokens_out": 257,
+      "wall_time_seconds": 7.25797891698312,
+      "error": null,
+      "output_file": "outputs/paper_data_v3/benchmarks/tdmsci/baseline/tdmsci__train_1500_v2__00021.json"
+    },
+    {
+      "paper_id": "tdmsci:train_1500_v2:00022",
+      "status": "ok",
+      "cost_usd": 0.00042468,
+      "tokens_in": 604,
+      "tokens_out": 260,
+      "wall_time_seconds": 7.700773832970299,
+      "error": null,
+      "output_file": "outputs/paper_data_v3/benchmarks/tdmsci/baseline/tdmsci__train_1500_v2__00022.json"
+    },
+    {
+      "paper_id": "tdmsci:train_1500_v2:00023",
+      "status": "ok",
+      "cost_usd": 0.00040355,
+      "tokens_in": 563,
+      "tokens_out": 251,
+      "wall_time_seconds": 6.971649457991589,
+      "error": null,
+      "output_file": "outputs/paper_data_v3/benchmarks/tdmsci/baseline/tdmsci__train_1500_v2__00023.json"
+    },
+    {
+      "paper_id": "tdmsci:train_1500_v2:00024",
+      "status": "ok",
+      "cost_usd": 0.00044215,
+      "tokens_in": 628,
+      "tokens_out": 271,
+      "wall_time_seconds": 7.523980832949746,
+      "error": null,
+      "output_file": "outputs/paper_data_v3/benchmarks/tdmsci/baseline/tdmsci__train_1500_v2__00024.json"
+    },
+    {
+      "paper_id": "tdmsci:train_1500_v2:00025",
+      "status": "ok",
+      "cost_usd": 0.00033374,
+      "tokens_in": 559,
+      "tokens_out": 174,
+      "wall_time_seconds": 5.638448000012431,
+      "error": null,
+      "output_file": "outputs/paper_data_v3/benchmarks/tdmsci/baseline/tdmsci__train_1500_v2__00025.json"
+    },
+    {
+      "paper_id": "tdmsci:train_1500_v2:00026",
+      "status": "ok",
+      "cost_usd": 0.00042774999999999996,
+      "tokens_in": 583,
+      "tokens_out": 271,
+      "wall_time_seconds": 7.668162582966033,
+      "error": null,
+      "output_file": "outputs/paper_data_v3/benchmarks/tdmsci/baseline/tdmsci__train_1500_v2__00026.json"
+    },
+    {
+      "paper_id": "tdmsci:train_1500_v2:00027",
+      "status": "ok",
+      "cost_usd": 0.00036315,
+      "tokens_in": 548,
+      "tokens_out": 211,
+      "wall_time_seconds": 6.1817669160082005,
+      "error": null,
+      "output_file": "outputs/paper_data_v3/benchmarks/tdmsci/baseline/tdmsci__train_1500_v2__00027.json"
+    },
+    {
+      "paper_id": "tdmsci:train_1500_v2:00028",
+      "status": "ok",
+      "cost_usd": 0.00045624,
+      "tokens_in": 558,
+      "tokens_out": 312,
+      "wall_time_seconds": 8.637435416982044,
+      "error": null,
+      "output_file": "outputs/paper_data_v3/benchmarks/tdmsci/baseline/tdmsci__train_1500_v2__00028.json"
+    },
+    {
+      "paper_id": "tdmsci:train_1500_v2:00029",
+      "status": "ok",
+      "cost_usd": 0.00040085,
+      "tokens_in": 549,
+      "tokens_out": 253,
+      "wall_time_seconds": 7.235167625010945,
+      "error": null,
+      "output_file": "outputs/paper_data_v3/benchmarks/tdmsci/baseline/tdmsci__train_1500_v2__00029.json"
+    },
+    {
+      "paper_id": "tdmsci:train_1500_v2:00030",
+      "status": "ok",
+      "cost_usd": 0.00041394,
+      "tokens_in": 576,
+      "tokens_out": 258,
+      "wall_time_seconds": 7.86762145900866,
+      "error": null,
+      "output_file": "outputs/paper_data_v3/benchmarks/tdmsci/baseline/tdmsci__train_1500_v2__00030.json"
+    },
+    {
+      "paper_id": "tdmsci:train_1500_v2:00031",
+      "status": "ok",
+      "cost_usd": 0.00033619,
+      "tokens_in": 575,
+      "tokens_out": 171,
+      "wall_time_seconds": 5.366870124998968,
+      "error": null,
+      "output_file": "outputs/paper_data_v3/benchmarks/tdmsci/baseline/tdmsci__train_1500_v2__00031.json"
+    },
+    {
+      "paper_id": "tdmsci:train_1500_v2:00032",
+      "status": "ok",
+      "cost_usd": 0.00035734,
+      "tokens_in": 566,
+      "tokens_out": 198,
+      "wall_time_seconds": 5.656581167015247,
+      "error": null,
+      "output_file": "outputs/paper_data_v3/benchmarks/tdmsci/baseline/tdmsci__train_1500_v2__00032.json"
+    },
+    {
+      "paper_id": "tdmsci:train_1500_v2:00033",
+      "status": "ok",
+      "cost_usd": 0.00040359,
+      "tokens_in": 552,
+      "tokens_out": 255,
+      "wall_time_seconds": 7.274260041012894,
+      "error": null,
+      "output_file": "outputs/paper_data_v3/benchmarks/tdmsci/baseline/tdmsci__train_1500_v2__00033.json"
+    },
+    {
+      "paper_id": "tdmsci:train_1500_v2:00034",
+      "status": "ok",
+      "cost_usd": 0.00054509,
+      "tokens_in": 577,
+      "tokens_out": 405,
+      "wall_time_seconds": 10.719453750003595,
+      "error": null,
+      "output_file": "outputs/paper_data_v3/benchmarks/tdmsci/baseline/tdmsci__train_1500_v2__00034.json"
+    },
+    {
+      "paper_id": "tdmsci:train_1500_v2:00035",
+      "status": "ok",
+      "cost_usd": 0.00036407,
+      "tokens_in": 562,
+      "tokens_out": 207,
+      "wall_time_seconds": 6.024870417022612,
+      "error": null,
+      "output_file": "outputs/paper_data_v3/benchmarks/tdmsci/baseline/tdmsci__train_1500_v2__00035.json"
+    },
+    {
+      "paper_id": "tdmsci:train_1500_v2:00036",
+      "status": "ok",
+      "cost_usd": 0.00039048,
+      "tokens_in": 575,
+      "tokens_out": 232,
+      "wall_time_seconds": 7.005801749997772,
+      "error": null,
+      "output_file": "outputs/paper_data_v3/benchmarks/tdmsci/baseline/tdmsci__train_1500_v2__00036.json"
+    },
+    {
+      "paper_id": "tdmsci:train_1500_v2:00037",
+      "status": "error",
+      "cost_usd": 0.0,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "wall_time_seconds": 0.0,
+      "error": "SingleLLMParseError: SingleLLM output failed schema validation: 1 validation error for ContributionRecord\ncontributions.0.claim_strength\n  Input should be 'improves', 'comparable', 'novel' or 'applies' [type=literal_error",
+      "output_file": null
+    },
+    {
+      "paper_id": "tdmsci:train_1500_v2:00038",
+      "status": "ok",
+      "cost_usd": 0.00036845000000000004,
+      "tokens_in": 559,
+      "tokens_out": 213,
+      "wall_time_seconds": 6.0878219999722205,
+      "error": null,
+      "output_file": "outputs/paper_data_v3/benchmarks/tdmsci/baseline/tdmsci__train_1500_v2__00038.json"
+    },
+    {
+      "paper_id": "tdmsci:train_1500_v2:00039",
+      "status": "ok",
+      "cost_usd": 0.00035446,
+      "tokens_in": 557,
+      "tokens_out": 198,
+      "wall_time_seconds": 5.662072665989399,
+      "error": null,
+      "output_file": "outputs/paper_data_v3/benchmarks/tdmsci/baseline/tdmsci__train_1500_v2__00039.json"
+    },
+    {
+      "paper_id": "tdmsci:train_1500_v2:00040",
+      "status": "ok",
+      "cost_usd": 0.00041156,
+      "tokens_in": 563,
+      "tokens_out": 260,
+      "wall_time_seconds": 7.388337583979592,
+      "error": null,
+      "output_file": "outputs/paper_data_v3/benchmarks/tdmsci/baseline/tdmsci__train_1500_v2__00040.json"
+    },
+    {
+      "paper_id": "tdmsci:train_1500_v2:00041",
+      "status": "ok",
+      "cost_usd": 0.00042947000000000005,
+      "tokens_in": 555,
+      "tokens_out": 283,
+      "wall_time_seconds": 8.62222512497101,
+      "error": null,
+      "output_file": "outputs/paper_data_v3/benchmarks/tdmsci/baseline/tdmsci__train_1500_v2__00041.json"
+    },
+    {
+      "paper_id": "tdmsci:train_1500_v2:00042",
+      "status": "ok",
+      "cost_usd": 0.0004824,
+      "tokens_in": 573,
+      "tokens_out": 336,
+      "wall_time_seconds": 8.971357332949992,
+      "error": null,
+      "output_file": "outputs/paper_data_v3/benchmarks/tdmsci/baseline/tdmsci__train_1500_v2__00042.json"
+    },
+    {
+      "paper_id": "tdmsci:train_1500_v2:00043",
+      "status": "ok",
+      "cost_usd": 0.0003525,
+      "tokens_in": 562,
+      "tokens_out": 194,
+      "wall_time_seconds": 5.502484791970346,
+      "error": null,
+      "output_file": "outputs/paper_data_v3/benchmarks/tdmsci/baseline/tdmsci__train_1500_v2__00043.json"
+    },
+    {
+      "paper_id": "tdmsci:train_1500_v2:00044",
+      "status": "ok",
+      "cost_usd": 0.00037275000000000003,
+      "tokens_in": 578,
+      "tokens_out": 211,
+      "wall_time_seconds": 6.103429124981631,
+      "error": null,
+      "output_file": "outputs/paper_data_v3/benchmarks/tdmsci/baseline/tdmsci__train_1500_v2__00044.json"
+    },
+    {
+      "paper_id": "tdmsci:train_1500_v2:00045",
+      "status": "ok",
+      "cost_usd": 0.00036884000000000005,
+      "tokens_in": 563,
+      "tokens_out": 212,
+      "wall_time_seconds": 6.165578082960565,
+      "error": null,
+      "output_file": "outputs/paper_data_v3/benchmarks/tdmsci/baseline/tdmsci__train_1500_v2__00045.json"
+    },
+    {
+      "paper_id": "tdmsci:train_1500_v2:00046",
+      "status": "ok",
+      "cost_usd": 0.00047959,
+      "tokens_in": 567,
+      "tokens_out": 335,
+      "wall_time_seconds": 8.942276999994647,
+      "error": null,
+      "output_file": "outputs/paper_data_v3/benchmarks/tdmsci/baseline/tdmsci__train_1500_v2__00046.json"
+    },
+    {
+      "paper_id": "tdmsci:train_1500_v2:00047",
+      "status": "ok",
+      "cost_usd": 0.00033203000000000003,
+      "tokens_in": 562,
+      "tokens_out": 171,
+      "wall_time_seconds": 5.179590083018411,
+      "error": null,
+      "output_file": "outputs/paper_data_v3/benchmarks/tdmsci/baseline/tdmsci__train_1500_v2__00047.json"
+    },
+    {
+      "paper_id": "tdmsci:train_1500_v2:00048",
+      "status": "ok",
+      "cost_usd": 0.00036282,
+      "tokens_in": 572,
+      "tokens_out": 202,
+      "wall_time_seconds": 5.869637999974657,
+      "error": null,
+      "output_file": "outputs/paper_data_v3/benchmarks/tdmsci/baseline/tdmsci__train_1500_v2__00048.json"
+    },
+    {
+      "paper_id": "tdmsci:train_1500_v2:00049",
+      "status": "ok",
+      "cost_usd": 0.00054627,
+      "tokens_in": 564,
+      "tokens_out": 411,
+      "wall_time_seconds": 10.502831042045727,
+      "error": null,
+      "output_file": "outputs/paper_data_v3/benchmarks/tdmsci/baseline/tdmsci__train_1500_v2__00049.json"
+    }
+  ]
+}

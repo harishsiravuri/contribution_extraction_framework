@@ -1,0 +1,46 @@
+{
+  "paper_id": "tdmsci:train_1500_v2:00017",
+  "contributions": [
+    {
+      "method": {
+        "name": "query segmentation",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 7,
+          "end": 25
+        },
+        "confidence": 0.9
+      },
+      "task": {
+        "name": "query segmentation",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 7,
+          "end": 25
+        },
+        "confidence": 0.9
+      },
+      "datasets": [],
+      "metrics": [],
+      "claim_strength": null,
+      "comparison_targets": [],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "PARTIAL",
+        "task": "PARTIAL",
+        "datasets": "PARTIAL",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "(none)",
+    "consolidator_model": "(none)",
+    "tokens_in": 560,
+    "tokens_out": 215,
+    "cost_usd": 0.00037055,
+    "wall_time_seconds": 6.284625542000867,
+    "voting_samples": 1
+  }
+}

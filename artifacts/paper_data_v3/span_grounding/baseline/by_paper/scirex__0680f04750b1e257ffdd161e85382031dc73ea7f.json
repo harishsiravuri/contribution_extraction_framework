@@ -1,0 +1,80 @@
+{
+  "paper_id": "scirex:0680f04750b1e257ffdd161e85382031dc73ea7f",
+  "contributions": [
+    {
+      "method": {
+        "name": "dynamic chunk reader (DCR)",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 18,
+          "end": 78
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "reading comprehension-based question answering (RCQA)",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 277,
+          "end": 321
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "Stanford Question Answering Dataset (SQuAD)",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1463,
+            "end": 1497
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "exact match (EM)",
+          "value": null,
+          "unit": "percentage",
+          "evidence_span": {
+            "start": 2232,
+            "end": 2245
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "F1",
+          "value": null,
+          "unit": "percentage",
+          "evidence_span": {
+            "start": 2248,
+            "end": 2250
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Rajpurkar et al. rajpurkar2016squad",
+        "Wang and Jiang wang2016machine"
+      ],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "PARTIAL",
+        "task": "PARTIAL",
+        "datasets": "PARTIAL",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "(none)",
+    "consolidator_model": "(none)",
+    "tokens_in": 6105,
+    "tokens_out": 418,
+    "cost_usd": 0.0023256200000000005,
+    "wall_time_seconds": 15.217144042020664,
+    "voting_samples": 1
+  }
+}

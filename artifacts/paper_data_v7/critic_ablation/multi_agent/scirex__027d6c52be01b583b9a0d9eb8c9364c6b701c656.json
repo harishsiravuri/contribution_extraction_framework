@@ -1,0 +1,98 @@
+{
+  "paper_id": "scirex:027d6c52be01b583b9a0d9eb8c9364c6b701c656",
+  "contributions": [
+    {
+      "method": {
+        "name": "LSUV initialization",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 120
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "image classification",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 487,
+          "end": 511
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "MNIST",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1681,
+            "end": 1686
+          },
+          "confidence": 0.6
+        },
+        {
+          "name": "CIFAR-10",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1935,
+            "end": 1943
+          },
+          "confidence": 0.6
+        },
+        {
+          "name": "CIFAR-100",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1947,
+            "end": 1956
+          },
+          "confidence": 0.6
+        },
+        {
+          "name": "ImageNet",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2805,
+            "end": 2813
+          },
+          "confidence": 0.8
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": 0.68,
+          "unit": null,
+          "evidence_span": {
+            "start": 2912,
+            "end": 2955
+          },
+          "confidence": 0.4
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "orthonormal initialization",
+        "Hints initialization",
+        "standard initialization"
+      ],
+      "self_consistency": 0.875,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "DISABLED (E2 critic-off ablation)",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 19069,
+    "tokens_out": 4059,
+    "cost_usd": 0.01103655,
+    "wall_time_seconds": 39.705078416038305,
+    "voting_samples": 3
+  }
+}

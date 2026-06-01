@@ -1,0 +1,79 @@
+{
+  "paper_id": "scirex:34f92431bb8cb9fa6a1210c5d6e4642079ffac7a",
+  "contributions": [
+    {
+      "method": {
+        "name": "sliding line point regression (SLPR)",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 93,
+          "end": 152
+        },
+        "confidence": 0.9
+      },
+      "task": {
+        "name": "arbitrary-shape text detection",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 93,
+          "end": 152
+        },
+        "confidence": 0.85
+      },
+      "datasets": [
+        {
+          "name": "ICDAR2015 Incidental Scene Text",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 546,
+            "end": 584
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "CTW1500",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 603,
+            "end": 610
+          },
+          "confidence": 0.9
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Hmean",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 3488,
+            "end": 3494
+          },
+          "confidence": 0.8
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "CTD",
+        "CTD + TLOC"
+      ],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "PARTIAL",
+        "task": "PARTIAL",
+        "datasets": "PARTIAL",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "(none)",
+    "consolidator_model": "(none)",
+    "tokens_in": 4236,
+    "tokens_out": 360,
+    "cost_usd": 0.00167592,
+    "wall_time_seconds": 11.605430499999784,
+    "voting_samples": 1
+  }
+}

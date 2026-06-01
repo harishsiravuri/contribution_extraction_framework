@@ -1,0 +1,98 @@
+{
+  "paper_id": "arxiv:2605.30085",
+  "contributions": [
+    {
+      "method": {
+        "name": "CROP",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 352,
+          "end": 356
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "reasoning trace certification",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 55
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "process-labeled reasoning datasets",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 532,
+            "end": 565
+          },
+          "confidence": 0.6666666666666666
+        },
+        {
+          "name": "six process-labeled reasoning datasets",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 599,
+            "end": 633
+          },
+          "confidence": 0.3333333333333333
+        }
+      ],
+      "metrics": [
+        {
+          "name": "AUROC",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 576,
+            "end": 581
+          },
+          "confidence": 0.6666666666666666
+        },
+        {
+          "name": "certified prefix length",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 658,
+            "end": 678
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "downstream repair accuracy",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 805,
+            "end": 830
+          },
+          "confidence": 0.3333333333333333
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "existing uncertainty quantification methods"
+      ],
+      "self_consistency": 0.875,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 7416,
+    "tokens_out": 3168,
+    "cost_usd": 0.00613691,
+    "wall_time_seconds": 66.74690066697076,
+    "voting_samples": 3
+  }
+}

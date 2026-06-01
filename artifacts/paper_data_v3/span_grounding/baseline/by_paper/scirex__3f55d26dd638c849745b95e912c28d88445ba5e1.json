@@ -1,0 +1,99 @@
+{
+  "paper_id": "scirex:3f55d26dd638c849745b95e912c28d88445ba5e1",
+  "contributions": [
+    {
+      "method": {
+        "name": "BiLSTM with max pooling",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 1542,
+          "end": 1872
+        },
+        "confidence": 0.9
+      },
+      "task": {
+        "name": "Natural Language Inference",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 1009,
+          "end": 1171
+        },
+        "confidence": 0.9
+      },
+      "datasets": [
+        {
+          "name": "Stanford Natural Language Inference (SNLI)",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1176,
+            "end": 1248
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "COCO dataset",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2907,
+            "end": 2919
+          },
+          "confidence": 0.8
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 3238,
+            "end": 3247
+          },
+          "confidence": 0.7
+        },
+        {
+          "name": "Pearson correlation",
+          "value": 0.885,
+          "unit": null,
+          "evidence_span": {
+            "start": 4406,
+            "end": 4431
+          },
+          "confidence": 0.8
+        },
+        {
+          "name": "Recall@1",
+          "value": 42.4,
+          "unit": null,
+          "evidence_span": {
+            "start": 5025,
+            "end": 5044
+          },
+          "confidence": 0.8
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "SkipThought vectors",
+        "FastSent"
+      ],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "PARTIAL",
+        "task": "PARTIAL",
+        "datasets": "PARTIAL",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "(none)",
+    "consolidator_model": "(none)",
+    "tokens_in": 5747,
+    "tokens_out": 493,
+    "cost_usd": 0.00227781,
+    "wall_time_seconds": 15.619002334016841,
+    "voting_samples": 1
+  }
+}

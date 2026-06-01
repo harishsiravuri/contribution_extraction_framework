@@ -1,0 +1,46 @@
+{
+  "paper_id": "tdmsci:train_1500_v2:00018",
+  "contributions": [
+    {
+      "method": {
+        "name": "crowdsourcing using Amazon Mechanical Turk",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 23,
+          "end": 82
+        },
+        "confidence": 0.8
+      },
+      "task": {
+        "name": "query segmentation",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 49,
+          "end": 66
+        },
+        "confidence": 0.9
+      },
+      "datasets": [],
+      "metrics": [],
+      "claim_strength": "novel",
+      "comparison_targets": [],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "PARTIAL",
+        "task": "PARTIAL",
+        "datasets": "PARTIAL",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "(none)",
+    "consolidator_model": "(none)",
+    "tokens_in": 562,
+    "tokens_out": 205,
+    "cost_usd": 0.00036229000000000003,
+    "wall_time_seconds": 6.423688416951336,
+    "voting_samples": 1
+  }
+}

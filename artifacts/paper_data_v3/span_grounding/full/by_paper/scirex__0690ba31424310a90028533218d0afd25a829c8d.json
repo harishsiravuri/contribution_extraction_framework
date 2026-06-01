@@ -1,0 +1,81 @@
+{
+  "paper_id": "scirex:0690ba31424310a90028533218d0afd25a829c8d",
+  "contributions": [
+    {
+      "method": {
+        "name": "DeepLab",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 246,
+          "end": 253
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "semantic image segmentation",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 156,
+          "end": 184
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "PASCAL VOC 2012",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 6016,
+            "end": 6033
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "IOU",
+          "value": 71.6,
+          "unit": "%",
+          "evidence_span": {
+            "start": 338,
+            "end": 346
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "frames per second",
+          "value": 8.0,
+          "unit": "fps",
+          "evidence_span": {
+            "start": 526,
+            "end": 538
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "mostajabi2014feedforward",
+        "long2014fully",
+        "dai2014convolutional"
+      ],
+      "self_consistency": 0.875,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 31633,
+    "tokens_out": 3565,
+    "cost_usd": 0.01614082,
+    "wall_time_seconds": 105.21904683404136,
+    "voting_samples": 3
+  }
+}

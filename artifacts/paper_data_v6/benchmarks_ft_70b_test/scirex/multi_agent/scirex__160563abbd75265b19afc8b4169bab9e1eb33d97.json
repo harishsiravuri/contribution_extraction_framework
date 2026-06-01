@@ -1,0 +1,67 @@
+{
+  "paper_id": "scirex:160563abbd75265b19afc8b4169bab9e1eb33d97",
+  "contributions": [
+    {
+      "method": {
+        "name": "laser",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 190,
+          "end": 195
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "cross-lingual natural language inference",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 1451,
+          "end": 1491
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "xnli",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1544,
+            "end": 1548
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 1604,
+            "end": 1611
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [],
+      "self_consistency": 1.0,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "harishsiravuri_e088/Meta-Llama-3.1-70B-Instruct-Reference-scirex-v6-70b-7cecddd1-66437b32",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 58707,
+    "tokens_out": 19076,
+    "cost_usd": 0.04225381,
+    "wall_time_seconds": 132.11581691697938,
+    "voting_samples": 3
+  }
+}

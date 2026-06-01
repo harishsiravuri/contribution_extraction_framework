@@ -1,0 +1,153 @@
+{
+  "paper_id": "scirex:3208b5abafa1146e7df1073090523c822909275e",
+  "contributions": [
+    {
+      "method": {
+        "name": "BLSTM-2DCNN",
+        "canonical_id": null,
+        "evidence_span": null,
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "sentiment analysis",
+        "canonical_id": null,
+        "evidence_span": null,
+        "confidence": 0.6
+      },
+      "datasets": [
+        {
+          "name": "SST-1",
+          "canonical_id": null,
+          "evidence_span": null,
+          "confidence": 0.4
+        },
+        {
+          "name": "SST-2",
+          "canonical_id": null,
+          "evidence_span": null,
+          "confidence": 0.4
+        },
+        {
+          "name": "MR",
+          "canonical_id": null,
+          "evidence_span": null,
+          "confidence": 0.2
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": null,
+          "unit": null,
+          "evidence_span": null,
+          "confidence": 0.8
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "state-of-the-art models"
+      ],
+      "self_consistency": 0.73,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "PARTIAL",
+        "metrics": "PARTIAL"
+      }
+    },
+    {
+      "method": {
+        "name": "BLSTM-2DCNN",
+        "canonical_id": null,
+        "evidence_span": null,
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "question classification",
+        "canonical_id": null,
+        "evidence_span": null,
+        "confidence": 0.2
+      },
+      "datasets": [
+        {
+          "name": "TREC",
+          "canonical_id": null,
+          "evidence_span": null,
+          "confidence": 0.2
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": null,
+          "unit": null,
+          "evidence_span": null,
+          "confidence": 0.2
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "baselines"
+      ],
+      "self_consistency": 0.43,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "PARTIAL",
+        "metrics": "PARTIAL"
+      }
+    },
+    {
+      "method": {
+        "name": "BLSTM-2DCNN",
+        "canonical_id": null,
+        "evidence_span": null,
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "newsgroup classification",
+        "canonical_id": null,
+        "evidence_span": null,
+        "confidence": 0.2
+      },
+      "datasets": [
+        {
+          "name": "20Newsgroups",
+          "canonical_id": null,
+          "evidence_span": null,
+          "confidence": 0.2
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Macro-F1",
+          "value": null,
+          "unit": null,
+          "evidence_span": null,
+          "confidence": 0.2
+        }
+      ],
+      "claim_strength": "comparable",
+      "comparison_targets": [
+        "RCNN"
+      ],
+      "self_consistency": 0.43,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "PARTIAL",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "openai/gpt-5",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 29916,
+    "tokens_out": 18254,
+    "cost_usd": 0.17674333999999997,
+    "wall_time_seconds": 212.19060008396627,
+    "voting_samples": 3
+  }
+}

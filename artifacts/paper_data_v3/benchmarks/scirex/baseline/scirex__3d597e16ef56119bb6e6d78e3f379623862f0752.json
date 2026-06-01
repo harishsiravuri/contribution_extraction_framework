@@ -1,0 +1,100 @@
+{
+  "paper_id": "scirex:3d597e16ef56119bb6e6d78e3f379623862f0752",
+  "contributions": [
+    {
+      "method": {
+        "name": "Gradient-Constrained Maximum Mean Discrepancy (GCMMD)",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 312
+        },
+        "confidence": 0.9
+      },
+      "task": {
+        "name": "image generation",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 313,
+          "end": 500
+        },
+        "confidence": 0.9
+      },
+      "datasets": [
+        {
+          "name": "CelebA",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 600,
+            "end": 620
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "ImageNet",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 630,
+            "end": 650
+          },
+          "confidence": 0.9
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Inception Score (IS)",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 2000,
+            "end": 2020
+          },
+          "confidence": 0.8
+        },
+        {
+          "name": "FID",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 2030,
+            "end": 2050
+          },
+          "confidence": 0.8
+        },
+        {
+          "name": "KID",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 2060,
+            "end": 2080
+          },
+          "confidence": 0.8
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "WGAN",
+        "Sobolev GAN",
+        "MMD GAN"
+      ],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "PARTIAL",
+        "task": "PARTIAL",
+        "datasets": "PARTIAL",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "(none)",
+    "consolidator_model": "(none)",
+    "tokens_in": 11474,
+    "tokens_out": 493,
+    "cost_usd": 0.00411045,
+    "wall_time_seconds": 20.89192662498681,
+    "voting_samples": 1
+  }
+}

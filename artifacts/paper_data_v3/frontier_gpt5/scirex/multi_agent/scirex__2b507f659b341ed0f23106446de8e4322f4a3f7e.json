@@ -1,0 +1,58 @@
+{
+  "paper_id": "scirex:2b507f659b341ed0f23106446de8e4322f4a3f7e",
+  "contributions": [
+    {
+      "method": {
+        "name": "DIAT",
+        "canonical_id": null,
+        "evidence_span": null,
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "facial attribute transfer",
+        "canonical_id": null,
+        "evidence_span": null,
+        "confidence": 0.6
+      },
+      "datasets": [
+        {
+          "name": "CelebA",
+          "canonical_id": null,
+          "evidence_span": null,
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "PSNR",
+          "value": 33.27,
+          "unit": "dB",
+          "evidence_span": null,
+          "confidence": 0.6
+        }
+      ],
+      "claim_strength": "applies",
+      "comparison_targets": [
+        "Unet",
+        "bicubic interpolator"
+      ],
+      "self_consistency": 0.77,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "openai/gpt-5",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 43338,
+    "tokens_out": 16070,
+    "cost_usd": 0.18569714,
+    "wall_time_seconds": 202.57279337500222,
+    "voting_samples": 3
+  }
+}

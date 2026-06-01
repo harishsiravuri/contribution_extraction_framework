@@ -1,0 +1,66 @@
+{
+  "paper_id": "scirex:15c10b24ef645d83ff4059affd86945c33e00328",
+  "contributions": [
+    {
+      "method": {
+        "name": "Snips NLU",
+        "canonical_id": null,
+        "evidence_span": null,
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "spoken language understanding",
+        "canonical_id": null,
+        "evidence_span": null,
+        "confidence": 0.6
+      },
+      "datasets": [
+        {
+          "name": "Ubuntu",
+          "canonical_id": null,
+          "evidence_span": null,
+          "confidence": 0.4
+        },
+        {
+          "name": "in-house open dataset",
+          "canonical_id": null,
+          "evidence_span": null,
+          "confidence": 0.4
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": null,
+          "unit": null,
+          "evidence_span": null,
+          "confidence": 0.8
+        }
+      ],
+      "claim_strength": "comparable",
+      "comparison_targets": [
+        "Microsoft Luis",
+        "IBM Watson",
+        "Dialogflow",
+        "Rasa NLU"
+      ],
+      "self_consistency": 0.73,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "openai/gpt-5",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 61866,
+    "tokens_out": 22387,
+    "cost_usd": 0.24580846,
+    "wall_time_seconds": 187.04240945802303,
+    "voting_samples": 3
+  }
+}

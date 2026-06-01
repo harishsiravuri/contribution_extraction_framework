@@ -1,0 +1,110 @@
+{
+  "paper_id": "scirex:3cdb1364c3e66443e1c2182474d44b2fb01cd584",
+  "contributions": [
+    {
+      "method": {
+        "name": "SegNet",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 14,
+          "end": 19
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "semantic segmentation",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 32,
+          "end": 52
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "CamVid",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 7826,
+            "end": 7834
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "SUN RGB-D",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 7845,
+            "end": 7854
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "global accuracy",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 9607,
+            "end": 9624
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "class average accuracy",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 9642,
+            "end": 9667
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "mIoU",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 9693,
+            "end": 9698
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "boundary F1-measure",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 9851,
+            "end": 9868
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "FCN",
+        "DeepLab-LargeFOV",
+        "DeconvNet"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 55457,
+    "tokens_out": 5107,
+    "cost_usd": 0.027028780000000002,
+    "wall_time_seconds": 127.19199187500635,
+    "voting_samples": 3
+  }
+}

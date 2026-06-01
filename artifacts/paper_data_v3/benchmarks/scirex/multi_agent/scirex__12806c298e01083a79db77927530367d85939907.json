@@ -1,0 +1,121 @@
+{
+  "paper_id": "scirex:12806c298e01083a79db77927530367d85939907",
+  "contributions": [
+    {
+      "method": {
+        "name": "Overfeat CNN",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 1863,
+          "end": 1875
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "vehicle detection",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 1863,
+          "end": 1881
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "highway data set",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 340,
+            "end": 354
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "IOU",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 4769,
+            "end": 4772
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Continental mid-range radar"
+      ],
+      "self_consistency": 0.8,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    },
+    {
+      "method": {
+        "name": "Overfeat CNN",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 1863,
+          "end": 1875
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "lane detection",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 1863,
+          "end": 1875
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "highway data set",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 340,
+            "end": 354
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 4651,
+            "end": 4653
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [],
+      "self_consistency": 0.8,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 30739,
+    "tokens_out": 4423,
+    "cost_usd": 0.016696480000000003,
+    "wall_time_seconds": 162.9999865409918,
+    "voting_samples": 3
+  }
+}

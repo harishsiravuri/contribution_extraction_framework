@@ -1,0 +1,98 @@
+{
+  "paper_id": "scirex:35756f711a97166df11202ebe46820a36704ae77",
+  "contributions": [
+    {
+      "method": {
+        "name": "Deep Convolutional Generative Adversarial Networks (DCGANs)",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 310,
+          "end": 400
+        },
+        "confidence": 0.9
+      },
+      "task": {
+        "name": "unsupervised representation learning",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 210,
+          "end": 290
+        },
+        "confidence": 0.8
+      },
+      "datasets": [
+        {
+          "name": "Large-scale Scene Understanding (LSUN)",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1890,
+            "end": 1929
+          },
+          "confidence": 0.8
+        },
+        {
+          "name": "Imagenet-1k",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1930,
+            "end": 1941
+          },
+          "confidence": 0.8
+        },
+        {
+          "name": "Faces dataset",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1942,
+            "end": 1954
+          },
+          "confidence": 0.8
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": 82.8,
+          "unit": "%",
+          "evidence_span": {
+            "start": 2920,
+            "end": 2937
+          },
+          "confidence": 0.8
+        },
+        {
+          "name": "test error",
+          "value": 22.48,
+          "unit": "%",
+          "evidence_span": {
+            "start": 3429,
+            "end": 3448
+          },
+          "confidence": 0.8
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "K-means based approaches",
+        "Exemplar CNNs"
+      ],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "PARTIAL",
+        "task": "PARTIAL",
+        "datasets": "PARTIAL",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "(none)",
+    "consolidator_model": "(none)",
+    "tokens_in": 5075,
+    "tokens_out": 513,
+    "cost_usd": 0.00208057,
+    "wall_time_seconds": 17.129860499990173,
+    "voting_samples": 1
+  }
+}

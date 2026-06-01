@@ -1,0 +1,53 @@
+{
+  "paper_id": "tdmsci:train_1500_v2:00033",
+  "contributions": [
+    {
+      "method": {
+        "name": null,
+        "canonical_id": null,
+        "evidence_span": null,
+        "confidence": 0.0
+      },
+      "task": {
+        "name": "understanding and modeling of dialogue",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 45,
+          "end": 87
+        },
+        "confidence": 0.8
+      },
+      "datasets": [
+        {
+          "name": "Online debate forums",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 0,
+            "end": 21
+          },
+          "confidence": 0.7
+        }
+      ],
+      "metrics": [],
+      "claim_strength": null,
+      "comparison_targets": [],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "PARTIAL",
+        "task": "PARTIAL",
+        "datasets": "PARTIAL",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "(none)",
+    "consolidator_model": "(none)",
+    "tokens_in": 552,
+    "tokens_out": 255,
+    "cost_usd": 0.00040359,
+    "wall_time_seconds": 7.274260041012894,
+    "voting_samples": 1
+  }
+}

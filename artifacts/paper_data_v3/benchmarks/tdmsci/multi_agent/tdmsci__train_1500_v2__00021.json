@@ -1,0 +1,56 @@
+{
+  "paper_id": "tdmsci:train_1500_v2:00021",
+  "contributions": [
+    {
+      "method": {
+        "name": "probabilistic model for headline generation",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 11,
+          "end": 39
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "headline generation",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 39,
+          "end": 57
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "English documents",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 210,
+            "end": 227
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [],
+      "claim_strength": null,
+      "comparison_targets": [],
+      "self_consistency": 0.6666666666666666,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "UNSUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 4846,
+    "tokens_out": 1385,
+    "cost_usd": 0.00332218,
+    "wall_time_seconds": 48.992819708015304,
+    "voting_samples": 3
+  }
+}

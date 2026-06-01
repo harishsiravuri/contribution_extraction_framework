@@ -1,0 +1,67 @@
+{
+  "paper_id": "scirex:33261d252218007147a71e40f8367ed152fa2fe0",
+  "contributions": [
+    {
+      "method": {
+        "name": "subgraph embedding",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 4356,
+          "end": 4371
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "question answering",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 1041,
+          "end": 1063
+        },
+        "confidence": 0.6666666666666666
+      },
+      "datasets": [
+        {
+          "name": "webquestions",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1921,
+            "end": 1933
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "f1",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 5711,
+            "end": 5713
+          },
+          "confidence": 0.6666666666666666
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [],
+      "self_consistency": 0.8333333333333334,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "harishsiravuri_e088/Meta-Llama-3.1-70B-Instruct-Reference-scirex-v6-70b-7cecddd1-66437b32",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 22000,
+    "tokens_out": 1639,
+    "cost_usd": 0.012715230000000001,
+    "wall_time_seconds": 50.40092645800905,
+    "voting_samples": 3
+  }
+}

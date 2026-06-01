@@ -1,0 +1,57 @@
+{
+  "paper_id": "tdmsci:test_500_v2:01519",
+  "contributions": [
+    {
+      "method": {
+        "name": "semi-supervised learning",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 3,
+          "end": 31
+        },
+        "confidence": 0.3333333333333333
+      },
+      "task": {
+        "name": "relation classification",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 49,
+          "end": 72
+        },
+        "confidence": 1.0
+      },
+      "datasets": [],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 39,
+            "end": 47
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [],
+      "self_consistency": 0.7777777777777778,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 4966,
+    "tokens_out": 1534,
+    "cost_usd": 0.0035192900000000004,
+    "wall_time_seconds": 24.13725050003268,
+    "voting_samples": 3
+  }
+}

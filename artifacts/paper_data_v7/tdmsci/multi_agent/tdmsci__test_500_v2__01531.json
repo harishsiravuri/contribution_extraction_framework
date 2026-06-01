@@ -1,0 +1,56 @@
+{
+  "paper_id": "tdmsci:test_500_v2:01531",
+  "contributions": [
+    {
+      "method": {
+        "name": "novel framework for new word detection",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 84,
+          "end": 114
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "new word detection",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 96,
+          "end": 114
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "large-scale user-generated data",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 60,
+            "end": 84
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [],
+      "claim_strength": "novel",
+      "comparison_targets": [],
+      "self_consistency": 1.0,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": null
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 4607,
+    "tokens_out": 1158,
+    "cost_usd": 0.00301279,
+    "wall_time_seconds": 26.609032042091712,
+    "voting_samples": 3
+  }
+}

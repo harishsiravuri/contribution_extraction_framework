@@ -1,0 +1,62 @@
+{
+  "paper_id": "tdmsci:train_1500_v2:00009",
+  "contributions": [
+    {
+      "method": {
+        "name": null,
+        "canonical_id": null,
+        "evidence_span": null,
+        "confidence": 0.0
+      },
+      "task": {
+        "name": "information extraction",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 36,
+          "end": 55
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "Message Understanding Conferences",
+          "canonical_id": "MUC",
+          "evidence_span": {
+            "start": 47,
+            "end": 78
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "Automatic Content Extraction",
+          "canonical_id": "ACE",
+          "evidence_span": {
+            "start": 82,
+            "end": 107
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [],
+      "claim_strength": null,
+      "comparison_targets": [],
+      "self_consistency": 0.6666666666666666,
+      "critic_verdict": {
+        "method": "UNSUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "UNSUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 5616,
+    "tokens_out": 2062,
+    "cost_usd": 0.00432986,
+    "wall_time_seconds": 35.188595541985705,
+    "voting_samples": 3
+  }
+}

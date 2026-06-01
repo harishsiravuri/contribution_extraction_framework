@@ -1,0 +1,75 @@
+{
+  "paper_id": "nlp_tdms:S18-1146",
+  "contributions": [
+    {
+      "method": {
+        "name": "dependency patterns for hypernymy relations",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 118,
+          "end": 255
+        },
+        "confidence": 0.75
+      },
+      "task": {
+        "name": "hypernym discovery",
+        "canonical_id": "hypernym_discovery",
+        "evidence_span": {
+          "start": 142,
+          "end": 191
+        },
+        "confidence": 0.75
+      },
+      "datasets": [
+        {
+          "name": "UMBC corpus",
+          "canonical_id": "umbc_corpus",
+          "evidence_span": {
+            "start": 1045,
+            "end": 1060
+          },
+          "confidence": 0.5
+        },
+        {
+          "name": "British National Corpus",
+          "canonical_id": "british_national_corpus",
+          "evidence_span": {
+            "start": 539,
+            "end": 562
+          },
+          "confidence": 0.25
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": null,
+          "unit": null,
+          "evidence_span": null,
+          "confidence": 0.25
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "traditional lexical patterns"
+      ],
+      "self_consistency": 0.625,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "UNSUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 11166,
+    "tokens_out": 3002,
+    "cost_usd": 0.00753456,
+    "wall_time_seconds": 56.1821329590166,
+    "voting_samples": 3
+  }
+}

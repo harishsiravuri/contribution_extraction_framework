@@ -1,0 +1,234 @@
+{
+  "paper_id": "scirex:310fed695da4f36139b70b23065c34fe9fb29ca6",
+  "contributions": [
+    {
+      "method": {
+        "name": "St-SS-pGRU",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 366,
+          "end": 389
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "hyperspectral image classification",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 389
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "Pavia University",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 3035,
+            "end": 3051
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "Indian Pines",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 3053,
+            "end": 3066
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": 1.64,
+          "unit": "%",
+          "evidence_span": {
+            "start": 4825,
+            "end": 4835
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "accuracy",
+          "value": 3.19,
+          "unit": "%",
+          "evidence_span": {
+            "start": 4825,
+            "end": 4835
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "St-SS-GRU"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    },
+    {
+      "method": {
+        "name": "St-GRU",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 366,
+          "end": 389
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "hyperspectral image classification",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 389
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "Pavia University",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 3035,
+            "end": 3051
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "Indian Pines",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 3053,
+            "end": 3066
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": 5.33,
+          "unit": "%",
+          "evidence_span": {
+            "start": 4755,
+            "end": 4765
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "accuracy",
+          "value": 3.52,
+          "unit": "%",
+          "evidence_span": {
+            "start": 4755,
+            "end": 4765
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "band-by-band GRU"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    },
+    {
+      "method": {
+        "name": "St-SS-GRU",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 366,
+          "end": 389
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "hyperspectral image classification",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 389
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "Pavia University",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 3035,
+            "end": 3051
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "Indian Pines",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 3053,
+            "end": 3066
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": 4.55,
+          "unit": "%",
+          "evidence_span": {
+            "start": 4785,
+            "end": 4795
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "accuracy",
+          "value": 6.63,
+          "unit": "%",
+          "evidence_span": {
+            "start": 4785,
+            "end": 4795
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "St-GRU"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "openai/gpt-4o-2024-11-20",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 24020,
+    "tokens_out": 8108,
+    "cost_usd": 0.0770925,
+    "wall_time_seconds": 85.5656025831122,
+    "voting_samples": 3
+  }
+}

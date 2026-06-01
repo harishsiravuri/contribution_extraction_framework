@@ -1,0 +1,247 @@
+{
+  "paper_id": "scirex:4592364a6c1eb227ffb3cbb6bb9f4e6431e89f2f",
+  "contributions": [
+    {
+      "method": {
+        "name": "Relation Network (RN)",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 21,
+          "end": 56
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "few-shot learning",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 57,
+          "end": 72
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "Omniglot",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1781,
+            "end": 1790
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 2043,
+            "end": 2052
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "neural statistician",
+        "Matching Nets",
+        "MANN",
+        "Siamese Nets with Memory",
+        "Convolutional Siamese Nets",
+        "MAML",
+        "Meta Nets",
+        "Prototypical Nets",
+        "Meta-Learner LSTM"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    },
+    {
+      "method": {
+        "name": "Relation Network (RN)",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 21,
+          "end": 56
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "few-shot learning",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 57,
+          "end": 72
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "mini ImageNet",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2195,
+            "end": 2207
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 2533,
+            "end": 2542
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "neural statistician",
+        "Matching Nets",
+        "MANN",
+        "Siamese Nets with Memory",
+        "Convolutional Siamese Nets",
+        "MAML",
+        "Meta Nets",
+        "Prototypical Nets",
+        "Meta-Learner LSTM"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    },
+    {
+      "method": {
+        "name": "Relation Network (RN)",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 21,
+          "end": 56
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "zero-shot learning",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 2610,
+          "end": 2626
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "Animals with Attributes (AwA)",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2631,
+            "end": 2656
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 2043,
+            "end": 2052
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "comparable",
+      "comparison_targets": [
+        "DEM"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    },
+    {
+      "method": {
+        "name": "Relation Network (RN)",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 21,
+          "end": 56
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "zero-shot learning",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 2610,
+          "end": 2626
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "Caltech-UCSD Birds-200-2011 (CUB)",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2661,
+            "end": 2698
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 2043,
+            "end": 2052
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "prototypical networks"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "(none)",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 24722,
+    "tokens_out": 5054,
+    "cost_usd": 0.01337484,
+    "wall_time_seconds": 85.67575333395507,
+    "voting_samples": 3
+  }
+}

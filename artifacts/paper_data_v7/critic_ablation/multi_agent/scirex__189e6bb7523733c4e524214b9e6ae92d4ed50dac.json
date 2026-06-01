@@ -1,0 +1,133 @@
+{
+  "paper_id": "scirex:189e6bb7523733c4e524214b9e6ae92d4ed50dac",
+  "contributions": [
+    {
+      "method": {
+        "name": "hierarchical recurrent neural network",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 200
+        },
+        "confidence": 0.5
+      },
+      "task": {
+        "name": "sequence tagging",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 200
+        },
+        "confidence": 0.5
+      },
+      "datasets": [
+        {
+          "name": "Penn Treebank",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 300,
+            "end": 320
+          },
+          "confidence": 0.5
+        },
+        {
+          "name": "CoNLL 2003 English NER",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 300,
+            "end": 320
+          },
+          "confidence": 0.5
+        },
+        {
+          "name": "CoNLL 2000 chunking",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 300,
+            "end": 320
+          },
+          "confidence": 0.5
+        },
+        {
+          "name": "Genia biomedical corpus",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 300,
+            "end": 320
+          },
+          "confidence": 0.5
+        },
+        {
+          "name": "Twitter corpus",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 300,
+            "end": 320
+          },
+          "confidence": 0.5
+        },
+        {
+          "name": "CoNLL 2002 Spanish NER",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 300,
+            "end": 320
+          },
+          "confidence": 0.5
+        },
+        {
+          "name": "CoNLL 2002 Dutch NER",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 300,
+            "end": 320
+          },
+          "confidence": 0.5
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 3000,
+            "end": 3020
+          },
+          "confidence": 0.5
+        },
+        {
+          "name": "F1",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 3000,
+            "end": 3020
+          },
+          "confidence": 0.5
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "state-of-the-art"
+      ],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "DISABLED (E2 critic-off ablation)",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 23360,
+    "tokens_out": 4440,
+    "cost_usd": 0.013153789999999999,
+    "wall_time_seconds": 57.91868575010449,
+    "voting_samples": 3
+  }
+}

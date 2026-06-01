@@ -1,0 +1,110 @@
+{
+  "paper_id": "scirex:3cdb1364c3e66443e1c2182474d44b2fb01cd584",
+  "contributions": [
+    {
+      "method": {
+        "name": "SegNet",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 169
+        },
+        "confidence": 0.95
+      },
+      "task": {
+        "name": "semantic pixel-wise segmentation",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 169
+        },
+        "confidence": 0.95
+      },
+      "datasets": [
+        {
+          "name": "CamVid",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 7536,
+            "end": 7542
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "SUN RGB-D",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 7558,
+            "end": 7566
+          },
+          "confidence": 0.9
+        }
+      ],
+      "metrics": [
+        {
+          "name": "global accuracy",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 11076,
+            "end": 11091
+          },
+          "confidence": 0.8
+        },
+        {
+          "name": "class average accuracy",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 11093,
+            "end": 11115
+          },
+          "confidence": 0.8
+        },
+        {
+          "name": "mean intersection over union",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 11117,
+            "end": 11143
+          },
+          "confidence": 0.8
+        },
+        {
+          "name": "boundary F1 measure",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 11145,
+            "end": 11164
+          },
+          "confidence": 0.8
+        }
+      ],
+      "claim_strength": "novel",
+      "comparison_targets": [
+        "FCN",
+        "DeepLab-LargeFOV",
+        "DeconvNet"
+      ],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "PARTIAL",
+        "task": "PARTIAL",
+        "datasets": "PARTIAL",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "(none)",
+    "consolidator_model": "(none)",
+    "tokens_in": 12068,
+    "tokens_out": 596,
+    "cost_usd": 0.0043922,
+    "wall_time_seconds": 28.40824891696684,
+    "voting_samples": 1
+  }
+}

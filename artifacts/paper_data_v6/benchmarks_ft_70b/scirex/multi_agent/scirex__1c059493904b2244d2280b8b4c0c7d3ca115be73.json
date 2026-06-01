@@ -1,0 +1,126 @@
+{
+  "paper_id": "scirex:1c059493904b2244d2280b8b4c0c7d3ca115be73",
+  "contributions": [
+    {
+      "method": {
+        "name": "node2vec",
+        "canonical_id": null,
+        "evidence_span": null,
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "link prediction",
+        "canonical_id": null,
+        "evidence_span": null,
+        "confidence": 0.6
+      },
+      "datasets": [
+        {
+          "name": "facebook",
+          "canonical_id": null,
+          "evidence_span": null,
+          "confidence": 0.4
+        },
+        {
+          "name": "protein-protein interactions",
+          "canonical_id": null,
+          "evidence_span": null,
+          "confidence": 0.4
+        },
+        {
+          "name": "snap-patents",
+          "canonical_id": null,
+          "evidence_span": null,
+          "confidence": 0.2
+        }
+      ],
+      "metrics": [
+        {
+          "name": "auc",
+          "value": null,
+          "unit": null,
+          "evidence_span": null,
+          "confidence": 0.4
+        },
+        {
+          "name": "macro-f1",
+          "value": null,
+          "unit": null,
+          "evidence_span": null,
+          "confidence": 0.4
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [],
+      "self_consistency": 0.73,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "UNSUPPORTED"
+      }
+    },
+    {
+      "method": {
+        "name": "node2vec",
+        "canonical_id": null,
+        "evidence_span": null,
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "node classification",
+        "canonical_id": null,
+        "evidence_span": null,
+        "confidence": 0.6
+      },
+      "datasets": [
+        {
+          "name": "blogcatalog",
+          "canonical_id": null,
+          "evidence_span": null,
+          "confidence": 0.4
+        },
+        {
+          "name": "protein-protein interactions",
+          "canonical_id": null,
+          "evidence_span": null,
+          "confidence": 0.4
+        },
+        {
+          "name": "wikipedia",
+          "canonical_id": null,
+          "evidence_span": null,
+          "confidence": 0.2
+        }
+      ],
+      "metrics": [
+        {
+          "name": "macro-f1",
+          "value": null,
+          "unit": null,
+          "evidence_span": null,
+          "confidence": 0.6
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [],
+      "self_consistency": 0.73,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "UNSUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "harishsiravuri_e088/Meta-Llama-3.1-70B-Instruct-Reference-scirex-v6-70b-7cecddd1-66437b32",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 44644,
+    "tokens_out": 4021,
+    "cost_usd": 0.02614395,
+    "wall_time_seconds": 82.43674154102337,
+    "voting_samples": 3
+  }
+}

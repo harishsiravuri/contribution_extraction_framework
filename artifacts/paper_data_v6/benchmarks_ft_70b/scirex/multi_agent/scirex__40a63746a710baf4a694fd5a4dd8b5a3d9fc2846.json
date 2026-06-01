@@ -1,0 +1,67 @@
+{
+  "paper_id": "scirex:40a63746a710baf4a694fd5a4dd8b5a3d9fc2846",
+  "contributions": [
+    {
+      "method": {
+        "name": "icgan",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 195,
+          "end": 200
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "image generation",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 104,
+          "end": 123
+        },
+        "confidence": 0.6666666666666666
+      },
+      "datasets": [
+        {
+          "name": "celeba",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 3414,
+            "end": 3421
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 3945,
+            "end": 3953
+          },
+          "confidence": 0.3333333333333333
+        }
+      ],
+      "claim_strength": null,
+      "comparison_targets": [],
+      "self_consistency": 0.7833333333333333,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "UNSUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "harishsiravuri_e088/Meta-Llama-3.1-70B-Instruct-Reference-scirex-v6-70b-7cecddd1-66437b32",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 24077,
+    "tokens_out": 1389,
+    "cost_usd": 0.013623340000000001,
+    "wall_time_seconds": 54.16915833298117,
+    "voting_samples": 3
+  }
+}

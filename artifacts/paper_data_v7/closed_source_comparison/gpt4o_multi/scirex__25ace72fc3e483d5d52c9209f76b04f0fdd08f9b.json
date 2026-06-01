@@ -1,0 +1,97 @@
+{
+  "paper_id": "scirex:25ace72fc3e483d5d52c9209f76b04f0fdd08f9b",
+  "contributions": [
+    {
+      "method": {
+        "name": "Fused Text Segmentation Networks",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 58,
+          "end": 86
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "scene text detection",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 58,
+          "end": 86
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "ICDAR2015 Incidental Scene Text",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 451,
+            "end": 482
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "MSRA-TD500",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 485,
+            "end": 496
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "Total-Text",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 498,
+            "end": 506
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Hmean",
+          "value": 84.1,
+          "unit": "%",
+          "evidence_span": {
+            "start": 451,
+            "end": 482
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "Hmean",
+          "value": 82.0,
+          "unit": "%",
+          "evidence_span": {
+            "start": 485,
+            "end": 496
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "state of the art"
+      ],
+      "self_consistency": 0.875,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "openai/gpt-4o-2024-11-20",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 21535,
+    "tokens_out": 4263,
+    "cost_usd": 0.057990679999999996,
+    "wall_time_seconds": 81.53259337507188,
+    "voting_samples": 3
+  }
+}

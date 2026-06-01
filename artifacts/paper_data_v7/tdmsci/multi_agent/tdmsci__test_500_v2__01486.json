@@ -1,0 +1,43 @@
+{
+  "paper_id": "tdmsci:test_500_v2:01486",
+  "contributions": [
+    {
+      "method": {
+        "name": null,
+        "canonical_id": null,
+        "evidence_span": null,
+        "confidence": 0.0
+      },
+      "task": {
+        "name": "identifying double entendres",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 40,
+          "end": 63
+        },
+        "confidence": 1.0
+      },
+      "datasets": [],
+      "metrics": [],
+      "claim_strength": "novel",
+      "comparison_targets": [],
+      "self_consistency": 1.0,
+      "critic_verdict": {
+        "method": "UNSUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 4802,
+    "tokens_out": 1428,
+    "cost_usd": 0.0033443299999999995,
+    "wall_time_seconds": 27.962297833990306,
+    "voting_samples": 3
+  }
+}

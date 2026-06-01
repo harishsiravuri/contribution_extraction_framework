@@ -1,0 +1,90 @@
+{
+  "paper_id": "arxiv:2605.30251",
+  "contributions": [
+    {
+      "method": {
+        "name": "Canonical-Context On-Policy Distillation (CCOPD)",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 521,
+          "end": 573
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "math problem solving",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 505,
+          "end": 520
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "RAW-SHARDED",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 437,
+            "end": 450
+          },
+          "confidence": 0.6666666666666666
+        }
+      ],
+      "metrics": [
+        {
+          "name": "relative improvement",
+          "value": 32.0,
+          "unit": "%",
+          "evidence_span": {
+            "start": 636,
+            "end": 652
+          },
+          "confidence": 0.3333333333333333
+        },
+        {
+          "name": "accuracy",
+          "value": 32.0,
+          "unit": "%",
+          "evidence_span": {
+            "start": 450,
+            "end": 487
+          },
+          "confidence": 0.3333333333333333
+        },
+        {
+          "name": "performance",
+          "value": 32.0,
+          "unit": "percentage",
+          "evidence_span": {
+            "start": 576,
+            "end": 595
+          },
+          "confidence": 0.3333333333333333
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "base model",
+        "original base model"
+      ],
+      "self_consistency": 0.875,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 7190,
+    "tokens_out": 2722,
+    "cost_usd": 0.00559006,
+    "wall_time_seconds": 77.80670454213396,
+    "voting_samples": 3
+  }
+}

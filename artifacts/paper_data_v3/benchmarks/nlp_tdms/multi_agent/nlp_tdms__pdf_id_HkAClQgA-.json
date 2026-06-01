@@ -1,0 +1,78 @@
+{
+  "paper_id": "nlp_tdms:pdf_id_HkAClQgA-",
+  "contributions": [
+    {
+      "method": {
+        "name": "intra-attention model with reinforcement learning",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 249,
+          "end": 271
+        },
+        "confidence": 0.75
+      },
+      "task": {
+        "name": "abstractive summarization",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 249,
+          "end": 271
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "CNN/Daily Mail",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 912,
+            "end": 926
+          },
+          "confidence": 0.75
+        },
+        {
+          "name": "New York Times",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 912,
+            "end": 926
+          },
+          "confidence": 0.5
+        }
+      ],
+      "metrics": [
+        {
+          "name": "ROUGE-1",
+          "value": 41.16,
+          "unit": "F1",
+          "evidence_span": {
+            "start": 880,
+            "end": 917
+          },
+          "confidence": 0.75
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "previous state-of-the-art models"
+      ],
+      "self_consistency": 0.875,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "PARTIAL",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 28060,
+    "tokens_out": 4102,
+    "cost_usd": 0.01544033,
+    "wall_time_seconds": 117.25675025000237,
+    "voting_samples": 3
+  }
+}

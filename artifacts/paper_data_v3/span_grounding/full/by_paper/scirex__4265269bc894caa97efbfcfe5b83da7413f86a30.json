@@ -1,0 +1,91 @@
+{
+  "paper_id": "scirex:4265269bc894caa97efbfcfe5b83da7413f86a30",
+  "contributions": [
+    {
+      "method": {
+        "name": "asymmetric tri-training",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 846,
+          "end": 867
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "unsupervised domain adaptation",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 103,
+          "end": 135
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "MNIST",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2359,
+            "end": 2364
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "SVHN",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2370,
+            "end": 2374
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "Amazon Review",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 3059,
+            "end": 3072
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": null,
+          "unit": "%",
+          "evidence_span": {
+            "start": 4141,
+            "end": 4151
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Maximum Mean Discrepancy (MMD)",
+        "Domain Adversarial Neural Network (DANN)",
+        "Deep Reconstruction Classification Network (DRCN)",
+        "Domain Separation Networks (DSN)",
+        "k-Nearest Neighbor based adaptation (kNN-Ad)"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 34171,
+    "tokens_out": 3081,
+    "cost_usd": 0.016513069999999998,
+    "wall_time_seconds": 134.11125137499766,
+    "voting_samples": 3
+  }
+}

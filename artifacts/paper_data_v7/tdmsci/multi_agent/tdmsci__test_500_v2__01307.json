@@ -1,0 +1,61 @@
+{
+  "paper_id": "tdmsci:test_500_v2:01307",
+  "contributions": [
+    {
+      "method": {
+        "name": null,
+        "canonical_id": null,
+        "evidence_span": null,
+        "confidence": 0.0
+      },
+      "task": {
+        "name": "verb clustering",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 80,
+          "end": 96
+        },
+        "confidence": 0.0
+      },
+      "datasets": [
+        {
+          "name": null,
+          "canonical_id": null,
+          "evidence_span": null,
+          "confidence": 0.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F-measure",
+          "value": 70.0,
+          "unit": "%",
+          "evidence_span": {
+            "start": 36,
+            "end": 48
+          },
+          "confidence": 0.0
+        }
+      ],
+      "claim_strength": null,
+      "comparison_targets": [],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "UNSUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 5227,
+    "tokens_out": 1825,
+    "cost_usd": 0.00390253,
+    "wall_time_seconds": 55.35746175004169,
+    "voting_samples": 3
+  }
+}

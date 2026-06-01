@@ -1,0 +1,120 @@
+{
+  "paper_id": "scirex:4682e5d4654b6040f213475c8b75ca039661b5f6",
+  "contributions": [
+    {
+      "method": {
+        "name": "EAST",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 155,
+          "end": 158
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "scene text detection",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 20
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "ICDAR 2015",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1115,
+            "end": 1124
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "MSRA-TD500",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2638,
+            "end": 2648
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "COCO-Text",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2632,
+            "end": 2642
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F-score",
+          "value": 0.782,
+          "unit": null,
+          "evidence_span": {
+            "start": 1135,
+            "end": 1141
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "F-score",
+          "value": 0.7608,
+          "unit": null,
+          "evidence_span": {
+            "start": 2638,
+            "end": 2643
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "F-score",
+          "value": 0.3945,
+          "unit": null,
+          "evidence_span": {
+            "start": 2632,
+            "end": 2637
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "FPS",
+          "value": 13.2,
+          "unit": null,
+          "evidence_span": {
+            "start": 3005,
+            "end": 3011
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Tian",
+        "Yao",
+        "Zhang",
+        "state-of-the-art methods"
+      ],
+      "self_consistency": 0.875,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 33004,
+    "tokens_out": 5175,
+    "cost_usd": 0.01835821,
+    "wall_time_seconds": 109.65973987500183,
+    "voting_samples": 3
+  }
+}

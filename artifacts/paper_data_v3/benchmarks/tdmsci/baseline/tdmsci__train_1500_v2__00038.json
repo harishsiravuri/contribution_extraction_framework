@@ -1,0 +1,53 @@
+{
+  "paper_id": "tdmsci:train_1500_v2:00038",
+  "contributions": [
+    {
+      "method": {
+        "name": null,
+        "canonical_id": null,
+        "evidence_span": null,
+        "confidence": 0.0
+      },
+      "task": {
+        "name": "multi-label classification",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 21,
+          "end": 47
+        },
+        "confidence": 0.9
+      },
+      "datasets": [
+        {
+          "name": "TED corpus",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 59,
+            "end": 69
+          },
+          "confidence": 0.9
+        }
+      ],
+      "metrics": [],
+      "claim_strength": null,
+      "comparison_targets": [],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "PARTIAL",
+        "task": "PARTIAL",
+        "datasets": "PARTIAL",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "(none)",
+    "consolidator_model": "(none)",
+    "tokens_in": 559,
+    "tokens_out": 213,
+    "cost_usd": 0.00036845000000000004,
+    "wall_time_seconds": 6.0878219999722205,
+    "voting_samples": 1
+  }
+}

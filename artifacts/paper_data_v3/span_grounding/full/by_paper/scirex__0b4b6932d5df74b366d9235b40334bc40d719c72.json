@@ -1,0 +1,126 @@
+{
+  "paper_id": "scirex:0b4b6932d5df74b366d9235b40334bc40d719c72",
+  "contributions": [
+    {
+      "method": {
+        "name": "Temporal Ensembling",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 1556,
+          "end": 1671
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "semi-supervised learning",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 28,
+          "end": 53
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "SVHN",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2465,
+            "end": 2468
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "CIFAR-10",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2469,
+            "end": 2476
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "CIFAR-100",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2481,
+            "end": 2490
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "Tiny Images",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2639,
+            "end": 2650
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "error rate",
+          "value": 7.05,
+          "unit": "%",
+          "evidence_span": {
+            "start": 463,
+            "end": 473
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "error rate",
+          "value": 16.55,
+          "unit": "%",
+          "evidence_span": {
+            "start": 463,
+            "end": 473
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "error rate",
+          "value": 5.12,
+          "unit": "%",
+          "evidence_span": {
+            "start": 463,
+            "end": 473
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "error rate",
+          "value": 12.16,
+          "unit": "%",
+          "evidence_span": {
+            "start": 463,
+            "end": 473
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "prior state-of-the-art"
+      ],
+      "self_consistency": 0.8333333333333334,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 34621,
+    "tokens_out": 4237,
+    "cost_usd": 0.017836499999999998,
+    "wall_time_seconds": 151.7786717499839,
+    "voting_samples": 3
+  }
+}

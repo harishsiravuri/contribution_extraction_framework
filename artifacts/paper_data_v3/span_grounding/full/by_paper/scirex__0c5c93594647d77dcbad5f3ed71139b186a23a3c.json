@@ -1,0 +1,142 @@
+{
+  "paper_id": "scirex:0c5c93594647d77dcbad5f3ed71139b186a23a3c",
+  "contributions": [
+    {
+      "method": {
+        "name": "back-translation of monolingual data",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 172,
+          "end": 202
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "machine translation",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 6,
+          "end": 36
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "WMT 15 English↔German",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 272,
+            "end": 292
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "IWSLT 14 Turkish→English",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 305,
+            "end": 326
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 2.8,
+          "unit": null,
+          "evidence_span": {
+            "start": 272,
+            "end": 282
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "BLEU",
+          "value": 3.7,
+          "unit": null,
+          "evidence_span": {
+            "start": 272,
+            "end": 282
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "previous NMT models"
+      ],
+      "self_consistency": 0.875,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    },
+    {
+      "method": {
+        "name": "fine-tuning on in-domain data",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 344,
+          "end": 372
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "machine translation",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 6,
+          "end": 36
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "IWSLT 15 English→German",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 398,
+            "end": 418
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 398,
+            "end": 408
+          },
+          "confidence": 0.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "baseline NMT models"
+      ],
+      "self_consistency": 0.75,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "UNSUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 31640,
+    "tokens_out": 3717,
+    "cost_usd": 0.01621102,
+    "wall_time_seconds": 142.66155912500108,
+    "voting_samples": 3
+  }
+}

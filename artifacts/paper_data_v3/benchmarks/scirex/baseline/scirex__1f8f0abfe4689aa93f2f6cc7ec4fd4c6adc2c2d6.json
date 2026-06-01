@@ -1,0 +1,110 @@
+{
+  "paper_id": "scirex:1f8f0abfe4689aa93f2f6cc7ec4fd4c6adc2c2d6",
+  "contributions": [
+    {
+      "method": {
+        "name": "discriminative loss function",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 35,
+          "end": 193
+        },
+        "confidence": 0.9
+      },
+      "task": {
+        "name": "semantic instance segmentation",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 30,
+          "end": 67
+        },
+        "confidence": 0.95
+      },
+      "datasets": [
+        {
+          "name": "Cityscapes",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1111,
+            "end": 1123
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "CVPPP leaf segmentation",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1124,
+            "end": 1153
+          },
+          "confidence": 0.9
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Symmetric Best Dice",
+          "value": 84.2,
+          "unit": null,
+          "evidence_span": {
+            "start": 4147,
+            "end": 4180
+          },
+          "confidence": 0.8
+        },
+        {
+          "name": "Absolute Difference in Count",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 4181,
+            "end": 4216
+          },
+          "confidence": 0.7
+        },
+        {
+          "name": "mean Average Precision",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 4225,
+            "end": 4247
+          },
+          "confidence": 0.7
+        },
+        {
+          "name": "AP0.5",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 4248,
+            "end": 4262
+          },
+          "confidence": 0.7
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "detect-and-segment approaches",
+        "recurrent instance segmentation",
+        "MNC-based method SAIS"
+      ],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "PARTIAL",
+        "task": "PARTIAL",
+        "datasets": "PARTIAL",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "(none)",
+    "consolidator_model": "(none)",
+    "tokens_in": 6205,
+    "tokens_out": 568,
+    "cost_usd": 0.00249112,
+    "wall_time_seconds": 22.06137791700894,
+    "voting_samples": 1
+  }
+}

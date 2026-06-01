@@ -1,0 +1,92 @@
+{
+  "paper_id": "scirex:0b4b6932d5df74b366d9235b40334bc40d719c72",
+  "contributions": [
+    {
+      "method": {
+        "name": "temporal ensembling",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 1556,
+          "end": 1573
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "image classification",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 104,
+          "end": 125
+        },
+        "confidence": 0.67
+      },
+      "datasets": [
+        {
+          "name": "cifar-10",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2331,
+            "end": 2339
+          },
+          "confidence": 0.67
+        },
+        {
+          "name": "cifar-100",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2461,
+            "end": 2471
+          },
+          "confidence": 0.67
+        },
+        {
+          "name": "svhn",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2511,
+            "end": 2516
+          },
+          "confidence": 0.67
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": null,
+          "unit": null,
+          "evidence_span": null,
+          "confidence": 0.33
+        },
+        {
+          "name": "error rate",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 2961,
+            "end": 2973
+          },
+          "confidence": 0.67
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [],
+      "self_consistency": 0.67,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "harishsiravuri_e088/Meta-Llama-3.1-70B-Instruct-Reference-scirex-v6-70b-7cecddd1-66437b32",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 39874,
+    "tokens_out": 7043,
+    "cost_usd": 0.025970430000000003,
+    "wall_time_seconds": 237.0928082090104,
+    "voting_samples": 3
+  }
+}

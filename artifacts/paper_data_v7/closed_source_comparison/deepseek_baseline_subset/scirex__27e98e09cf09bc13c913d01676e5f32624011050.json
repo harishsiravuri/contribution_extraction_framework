@@ -1,0 +1,80 @@
+{
+  "paper_id": "scirex:27e98e09cf09bc13c913d01676e5f32624011050",
+  "contributions": [
+    {
+      "method": {
+        "name": "U-Net",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 127,
+          "end": 184
+        },
+        "confidence": 0.9
+      },
+      "task": {
+        "name": "machine reading comprehension with unanswerable questions",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 28,
+          "end": 89
+        },
+        "confidence": 0.9
+      },
+      "datasets": [
+        {
+          "name": "SQuAD 2.0",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2246,
+            "end": 2256
+          },
+          "confidence": 0.9
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1 score",
+          "value": 72.6,
+          "unit": null,
+          "evidence_span": {
+            "start": 10159,
+            "end": 10176
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "EM score",
+          "value": 69.2,
+          "unit": null,
+          "evidence_span": {
+            "start": 10185,
+            "end": 10197
+          },
+          "confidence": 0.9
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "previous pipeline models",
+        "best-performing systems"
+      ],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "PARTIAL",
+        "task": "PARTIAL",
+        "datasets": "PARTIAL",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "(none)",
+    "consolidator_model": "(none)",
+    "tokens_in": 6472,
+    "tokens_out": 388,
+    "cost_usd": 0.00241636,
+    "wall_time_seconds": 13.6442834159825,
+    "voting_samples": 1
+  }
+}

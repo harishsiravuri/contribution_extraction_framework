@@ -1,0 +1,92 @@
+{
+  "paper_id": "nlp_tdms:D18-1205",
+  "contributions": [
+    {
+      "method": {
+        "name": "neural encoding-decoding framework with explicit information selection modeling",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 148,
+          "end": 305
+        },
+        "confidence": 0.9
+      },
+      "task": {
+        "name": "abstractive document summarization",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 92,
+          "end": 127
+        },
+        "confidence": 0.9
+      },
+      "datasets": [
+        {
+          "name": "CNN/DailyMail",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 7905,
+            "end": 7917
+          },
+          "confidence": 0.8
+        }
+      ],
+      "metrics": [
+        {
+          "name": "ROUGE-1",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 8330,
+            "end": 8338
+          },
+          "confidence": 0.8
+        },
+        {
+          "name": "ROUGE-2",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 8339,
+            "end": 8347
+          },
+          "confidence": 0.8
+        },
+        {
+          "name": "ROUGE-L",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 8348,
+            "end": 8356
+          },
+          "confidence": 0.8
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Seq2seq-baseline",
+        "Coverage",
+        "Lead-3",
+        "SummaRuNNer-abs"
+      ],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "PARTIAL",
+        "task": "PARTIAL",
+        "datasets": "PARTIAL",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "(none)",
+    "consolidator_model": "(none)",
+    "tokens_in": 5826,
+    "tokens_out": 504,
+    "cost_usd": 0.00231288,
+    "wall_time_seconds": 16.28088974999264,
+    "voting_samples": 1
+  }
+}

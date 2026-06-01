@@ -1,0 +1,139 @@
+{
+  "paper_id": "arxiv:2605.29559",
+  "contributions": [
+    {
+      "method": {
+        "name": "LiteCoder-Terminal-Gen",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 373,
+          "end": 399
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "command-line workflows",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 150
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "LiteCoder-Terminal-SFT",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 503,
+            "end": 525
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "LiteCoder-Terminal-RL",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 550,
+            "end": 570
+          },
+          "confidence": 0.5
+        }
+      ],
+      "metrics": [
+        {
+          "name": "pass@1",
+          "value": 29.06,
+          "unit": "%",
+          "evidence_span": {
+            "start": 877,
+            "end": 887
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "pass@1",
+          "value": 18.54,
+          "unit": "%",
+          "evidence_span": {
+            "start": 889,
+            "end": 899
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "pass@1",
+          "value": 34.0,
+          "unit": "%",
+          "evidence_span": {
+            "start": 901,
+            "end": 911
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "base counterparts"
+      ],
+      "self_consistency": 0.875,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    },
+    {
+      "method": {
+        "name": "Direct Multi-turn Preference Optimization",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 935,
+          "end": 975
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "command-line workflows",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 150
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "LiteCoder-Terminal-RL",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 580,
+            "end": 601
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [],
+      "claim_strength": "improves",
+      "comparison_targets": [],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "UNSUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 11099,
+    "tokens_out": 6052,
+    "cost_usd": 0.010684659999999999,
+    "wall_time_seconds": 83.02433516597375,
+    "voting_samples": 3
+  }
+}

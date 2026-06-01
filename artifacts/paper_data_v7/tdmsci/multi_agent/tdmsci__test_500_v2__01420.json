@@ -1,0 +1,66 @@
+{
+  "paper_id": "tdmsci:test_500_v2:01420",
+  "contributions": [
+    {
+      "method": {
+        "name": null,
+        "canonical_id": null,
+        "evidence_span": null,
+        "confidence": 0.0
+      },
+      "task": {
+        "name": "sentiment analysis",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 37,
+          "end": 50
+        },
+        "confidence": 0.6666666666666666
+      },
+      "datasets": [
+        {
+          "name": "hotel review",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 35,
+            "end": 50
+          },
+          "confidence": 0.6666666666666666
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": 91.2,
+          "unit": "%",
+          "evidence_span": {
+            "start": 63,
+            "end": 72
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "best published result"
+      ],
+      "self_consistency": 0.7083333333333334,
+      "critic_verdict": {
+        "method": "UNSUPPORTED",
+        "task": "PARTIAL",
+        "datasets": "UNSUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 5543,
+    "tokens_out": 2061,
+    "cost_usd": 0.0042815200000000005,
+    "wall_time_seconds": 55.04459804203361,
+    "voting_samples": 3
+  }
+}

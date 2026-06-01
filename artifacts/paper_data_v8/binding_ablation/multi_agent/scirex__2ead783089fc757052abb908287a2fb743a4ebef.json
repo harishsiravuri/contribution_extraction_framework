@@ -1,0 +1,108 @@
+{
+  "paper_id": "scirex:2ead783089fc757052abb908287a2fb743a4ebef",
+  "contributions": [
+    {
+      "method": {
+        "name": "Squeezed Very Deep Convolutional Neural Networks (SVDCNN)",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 166,
+          "end": 242
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "text classification",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 86,
+          "end": 103
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "AG's News",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2702,
+            "end": 2712
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "Yelp Polarity",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2713,
+            "end": 2726
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "Yelp Full",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2731,
+            "end": 2740
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": null,
+          "unit": "%",
+          "evidence_span": {
+            "start": 267,
+            "end": 292
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "storage size",
+          "value": 6.0,
+          "unit": "MB",
+          "evidence_span": {
+            "start": 2798,
+            "end": 2806
+          },
+          "confidence": 0.6666666666666666
+        },
+        {
+          "name": "inference time",
+          "value": null,
+          "unit": "ms",
+          "evidence_span": {
+            "start": 3183,
+            "end": 3198
+          },
+          "confidence": 0.6666666666666666
+        }
+      ],
+      "claim_strength": null,
+      "comparison_targets": [
+        "Very Deep Convolutional Neural Networks (VDCNN)",
+        "Char-CNN"
+      ],
+      "self_consistency": 0.8333333333333334,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 23672,
+    "tokens_out": 3114,
+    "cost_usd": 0.012456660000000001,
+    "wall_time_seconds": 44.62005512486212,
+    "voting_samples": 3
+  }
+}

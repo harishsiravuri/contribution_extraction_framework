@@ -1,0 +1,65 @@
+{
+  "paper_id": "tdmsci:test_500_v2:01263",
+  "contributions": [
+    {
+      "method": {
+        "name": "CRF-ASN",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 102,
+          "end": 110
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "dialogue act recognition",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 111,
+          "end": 135
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "SwDA",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 68,
+            "end": 72
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "MRDA",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 77,
+            "end": 81
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [],
+      "claim_strength": null,
+      "comparison_targets": [],
+      "self_consistency": 0.6666666666666666,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": null
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 4801,
+    "tokens_out": 1354,
+    "cost_usd": 0.00328903,
+    "wall_time_seconds": 38.782111667096615,
+    "voting_samples": 3
+  }
+}

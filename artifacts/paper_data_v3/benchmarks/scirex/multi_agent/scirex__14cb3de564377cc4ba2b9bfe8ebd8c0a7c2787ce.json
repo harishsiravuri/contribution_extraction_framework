@@ -1,0 +1,88 @@
+{
+  "paper_id": "scirex:14cb3de564377cc4ba2b9bfe8ebd8c0a7c2787ce",
+  "contributions": [
+    {
+      "method": {
+        "name": "convnets",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 34,
+          "end": 41
+        },
+        "confidence": 0.6
+      },
+      "task": {
+        "name": "pedestrian detection",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 63,
+          "end": 83
+        },
+        "confidence": 0.8
+      },
+      "datasets": [
+        {
+          "name": "Caltech",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 343,
+            "end": 350
+          },
+          "confidence": 0.6
+        },
+        {
+          "name": "KITTI",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 358,
+            "end": 363
+          },
+          "confidence": 0.4
+        }
+      ],
+      "metrics": [
+        {
+          "name": "miss rate",
+          "value": 25.0,
+          "unit": "%",
+          "evidence_span": {
+            "start": 2865,
+            "end": 2871
+          },
+          "confidence": 0.4
+        },
+        {
+          "name": "average precision",
+          "value": 68.0,
+          "unit": "%",
+          "evidence_span": {
+            "start": 2865,
+            "end": 2871
+          },
+          "confidence": 0.2
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "SDN"
+      ],
+      "self_consistency": 0.55,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "PARTIAL",
+        "metrics": "UNSUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 39124,
+    "tokens_out": 6802,
+    "cost_usd": 0.02260873,
+    "wall_time_seconds": 313.96105124999303,
+    "voting_samples": 3
+  }
+}

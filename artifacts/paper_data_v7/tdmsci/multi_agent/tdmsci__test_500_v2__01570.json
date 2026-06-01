@@ -1,0 +1,66 @@
+{
+  "paper_id": "tdmsci:test_500_v2:01570",
+  "contributions": [
+    {
+      "method": {
+        "name": "mNCD",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 24,
+          "end": 28
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": null,
+        "canonical_id": null,
+        "evidence_span": null,
+        "confidence": 0.0
+      },
+      "datasets": [
+        {
+          "name": "translation tasks into English",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 31,
+            "end": 50
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "correlation",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 7,
+            "end": 17
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": null,
+      "comparison_targets": [
+        "NCD"
+      ],
+      "self_consistency": 0.75,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "UNSUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 5521,
+    "tokens_out": 1979,
+    "cost_usd": 0.0042628,
+    "wall_time_seconds": 46.831453583203256,
+    "voting_samples": 3
+  }
+}

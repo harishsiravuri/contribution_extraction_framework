@@ -1,0 +1,120 @@
+{
+  "paper_id": "scirex:170cc3b72dd2793920f8b0bbd0926d9244c49562",
+  "contributions": [
+    {
+      "method": {
+        "name": "Bootstrapped DQN",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 341,
+          "end": 363
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "reinforcement learning",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 100
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "Arcade Learning Environment",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 382,
+            "end": 408
+          },
+          "confidence": 0.5
+        },
+        {
+          "name": "Atari games",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2937,
+            "end": 2957
+          },
+          "confidence": 0.5
+        }
+      ],
+      "metrics": [
+        {
+          "name": "learning speed",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 437,
+            "end": 457
+          },
+          "confidence": 0.5
+        },
+        {
+          "name": "cumulative performance",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 437,
+            "end": 457
+          },
+          "confidence": 0.5
+        },
+        {
+          "name": "time to reach human performance",
+          "value": 0.7,
+          "unit": "relative to DQN",
+          "evidence_span": {
+            "start": 3733,
+            "end": 3797
+          },
+          "confidence": 0.5
+        },
+        {
+          "name": "AUC-20",
+          "value": 0.62,
+          "unit": "normalized cumulative returns",
+          "evidence_span": {
+            "start": 5896,
+            "end": 5965
+          },
+          "confidence": 0.5
+        },
+        {
+          "name": "AUC-100",
+          "value": 0.62,
+          "unit": null,
+          "evidence_span": {
+            "start": 1000,
+            "end": 1100
+          },
+          "confidence": 0.5
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "DQN",
+        "ε-greedy",
+        "Dynamic AE"
+      ],
+      "self_consistency": 0.75,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "PARTIAL",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 45893,
+    "tokens_out": 4935,
+    "cost_usd": 0.023498730000000002,
+    "wall_time_seconds": 65.42515737499343,
+    "voting_samples": 3
+  }
+}

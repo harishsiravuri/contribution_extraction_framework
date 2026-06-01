@@ -1,0 +1,48 @@
+{
+  "paper_id": "arxiv:2605.30202",
+  "contributions": [
+    {
+      "method": {
+        "name": "dual-path block",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 156,
+          "end": 170
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "language modeling",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 548,
+          "end": 564
+        },
+        "confidence": 1.0
+      },
+      "datasets": [],
+      "metrics": [],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "iso-FLOP matched models"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "UNSUPPORTED",
+        "metrics": "UNSUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 5818,
+    "tokens_out": 1593,
+    "cost_usd": 0.00392346,
+    "wall_time_seconds": 43.14367966703139,
+    "voting_samples": 3
+  }
+}

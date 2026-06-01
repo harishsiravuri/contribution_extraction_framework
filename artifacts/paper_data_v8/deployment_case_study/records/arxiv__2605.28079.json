@@ -1,0 +1,70 @@
+{
+  "paper_id": "arxiv:2605.28079",
+  "contributions": [
+    {
+      "method": {
+        "name": "ATLAS",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 216,
+          "end": 222
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "long-context evaluation",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 216,
+          "end": 292
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "ATLAS",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 216,
+            "end": 292
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "ATLAScore",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 516,
+            "end": 526
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "novel",
+      "comparison_targets": [
+        "Gemini-3.1-Pro-Preview",
+        "Claude-Opus-4.6"
+      ],
+      "self_consistency": 0.75,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 10172,
+    "tokens_out": 4893,
+    "cost_usd": 0.00915214,
+    "wall_time_seconds": 111.6734895829577,
+    "voting_samples": 3
+  }
+}

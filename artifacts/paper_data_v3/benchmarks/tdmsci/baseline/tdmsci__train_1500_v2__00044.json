@@ -1,0 +1,53 @@
+{
+  "paper_id": "tdmsci:train_1500_v2:00044",
+  "contributions": [
+    {
+      "method": {
+        "name": null,
+        "canonical_id": null,
+        "evidence_span": null,
+        "confidence": 0.0
+      },
+      "task": {
+        "name": "entity linking",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 21,
+          "end": 35
+        },
+        "confidence": 0.9
+      },
+      "datasets": [
+        {
+          "name": "tweets",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 44,
+            "end": 50
+          },
+          "confidence": 0.8
+        }
+      ],
+      "metrics": [],
+      "claim_strength": null,
+      "comparison_targets": [],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "PARTIAL",
+        "task": "PARTIAL",
+        "datasets": "PARTIAL",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "(none)",
+    "consolidator_model": "(none)",
+    "tokens_in": 578,
+    "tokens_out": 211,
+    "cost_usd": 0.00037275000000000003,
+    "wall_time_seconds": 6.103429124981631,
+    "voting_samples": 1
+  }
+}

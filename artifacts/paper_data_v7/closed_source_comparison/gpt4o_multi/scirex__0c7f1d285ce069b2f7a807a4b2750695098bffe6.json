@@ -1,0 +1,182 @@
+{
+  "paper_id": "scirex:0c7f1d285ce069b2f7a807a4b2750695098bffe6",
+  "contributions": [
+    {
+      "method": {
+        "name": "Planetoid-T",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 1225,
+          "end": 1235
+        },
+        "confidence": 0.5
+      },
+      "task": {
+        "name": "text classification",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 1866,
+          "end": 1884
+        },
+        "confidence": 0.5
+      },
+      "datasets": [
+        {
+          "name": "Citeseer",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1866,
+            "end": 1884
+          },
+          "confidence": 0.5
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 1866,
+            "end": 1884
+          },
+          "confidence": 0.5
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "TSVM",
+        "SemiEmb",
+        "GraphEmb"
+      ],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    },
+    {
+      "method": {
+        "name": "Planetoid-I",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 1225,
+          "end": 1235
+        },
+        "confidence": 0.5
+      },
+      "task": {
+        "name": "distantly supervised entity extraction",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 2885,
+          "end": 2920
+        },
+        "confidence": 0.5
+      },
+      "datasets": [
+        {
+          "name": "DIEL",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2885,
+            "end": 2920
+          },
+          "confidence": 0.5
+        }
+      ],
+      "metrics": [
+        {
+          "name": "recall@50",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 2885,
+            "end": 2920
+          },
+          "confidence": 0.5
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Feat",
+        "LP",
+        "DIEL"
+      ],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    },
+    {
+      "method": {
+        "name": "Planetoid-I",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 1225,
+          "end": 1235
+        },
+        "confidence": 0.5
+      },
+      "task": {
+        "name": "entity classification",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 3660,
+          "end": 3680
+        },
+        "confidence": 0.5
+      },
+      "datasets": [
+        {
+          "name": "NELL",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 3660,
+            "end": 3680
+          },
+          "confidence": 0.5
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 3660,
+            "end": 3680
+          },
+          "confidence": 0.5
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "SemiEmb",
+        "GraphEmb"
+      ],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "openai/gpt-4o-2024-11-20",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 35289,
+    "tokens_out": 8173,
+    "cost_usd": 0.10395478,
+    "wall_time_seconds": 92.52476479182951,
+    "voting_samples": 3
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "experiment": "E6_binding_ablation",
+  "seed": 42,
+  "n_resamples_bootstrap": 1000,
+  "n_permutations_paired": 10000,
+  "sample_size_requested": 30,
+  "papers_no_binding_ok": 29,
+  "f1_per_field": {
+    "methods": {
+      "n": 26,
+      "no_binding_f1": 0.44487179487179485,
+      "no_binding_ci_lo": 0.282051282051282,
+      "no_binding_ci_hi": 0.6089743589743589,
+      "default_binding_f1": 0.4064102564102564,
+      "default_binding_ci_lo": 0.25125000000000003,
+      "default_binding_ci_hi": 0.5692307692307692,
+      "delta_no_binding_minus_default": 0.038461538461538436,
+      "p_value_paired_perm": 1.0
+    },
+    "tasks": {
+      "n": 26,
+      "no_binding_f1": 0.46153846153846145,
+      "no_binding_ci_lo": 0.2945512820512823,
+      "no_binding_ci_hi": 0.641025641025641,
+      "default_binding_f1": 0.49999999999999994,
+      "default_binding_ci_lo": 0.3333333333333333,
+      "default_binding_ci_hi": 0.6794871794871794,
+      "delta_no_binding_minus_default": -0.03846153846153849,
+      "p_value_paired_perm": 1.0
+    },
+    "datasets": {
+      "n": 26,
+      "no_binding_f1": 0.3710927960927961,
+      "no_binding_ci_lo": 0.22913385225885238,
+      "no_binding_ci_hi": 0.5126984126984127,
+      "default_binding_f1": 0.3616910866910867,
+      "default_binding_ci_lo": 0.2210157203907204,
+      "default_binding_ci_hi": 0.5034271978021978,
+      "delta_no_binding_minus_default": 0.009401709401709424,
+      "p_value_paired_perm": 0.49635036496350365
+    },
+    "metrics": {
+      "n": 26,
+      "no_binding_f1": 0.37307692307692303,
+      "no_binding_ci_lo": 0.22435897435897434,
+      "no_binding_ci_hi": 0.5282371794871795,
+      "default_binding_f1": 0.38803418803418793,
+      "default_binding_ci_lo": 0.2448611111111111,
+      "default_binding_ci_hi": 0.5380662393162393,
+      "delta_no_binding_minus_default": -0.014957264957264904,
+      "p_value_paired_perm": 0.5042495750424958
+    }
+  },
+  "mean_contributions_per_paper_no_binding": 1.0689655172413792,
+  "mean_contributions_per_paper_default_on_same_papers": 1.1923076923076923,
+  "no_binding_total_cost_usd": 0.45921275
+}

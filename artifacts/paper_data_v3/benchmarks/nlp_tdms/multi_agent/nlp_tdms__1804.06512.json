@@ -1,0 +1,99 @@
+{
+  "paper_id": "nlp_tdms:1804.06512",
+  "contributions": [
+    {
+      "method": {
+        "name": "hybrid imitation and reinforcement learning method",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 299,
+          "end": 335
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "task-oriented dialogue",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 88,
+          "end": 123
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "DSTC2",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 13235,
+            "end": 13239
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "movie booking dialogue corpus",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 13243,
+            "end": 13305
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "task success rate",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 14632,
+            "end": 14648
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "dialogue turn size",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 14650,
+            "end": 14667
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "DST accuracy",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 14669,
+            "end": 14682
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "supervised learning",
+        "reinforcement learning"
+      ],
+      "self_consistency": 0.875,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 30270,
+    "tokens_out": 4744,
+    "cost_usd": 0.01673554,
+    "wall_time_seconds": 123.78401924995705,
+    "voting_samples": 3
+  }
+}

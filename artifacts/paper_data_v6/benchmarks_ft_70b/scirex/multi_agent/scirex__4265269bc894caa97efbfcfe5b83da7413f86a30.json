@@ -1,0 +1,73 @@
+{
+  "paper_id": "scirex:4265269bc894caa97efbfcfe5b83da7413f86a30",
+  "contributions": [
+    {
+      "method": {
+        "name": "asymmetric tri-training",
+        "canonical_id": null,
+        "evidence_span": null,
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "unsupervised domain adaptation",
+        "canonical_id": null,
+        "evidence_span": null,
+        "confidence": 0.83
+      },
+      "datasets": [
+        {
+          "name": "mnist",
+          "canonical_id": null,
+          "evidence_span": null,
+          "confidence": 0.33
+        },
+        {
+          "name": "svhn",
+          "canonical_id": null,
+          "evidence_span": null,
+          "confidence": 0.33
+        },
+        {
+          "name": "synthetic digits",
+          "canonical_id": null,
+          "evidence_span": null,
+          "confidence": 0.17
+        },
+        {
+          "name": "synthetic signs",
+          "canonical_id": null,
+          "evidence_span": null,
+          "confidence": 0.17
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": null,
+          "unit": null,
+          "evidence_span": null,
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [],
+      "self_consistency": 0.79,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "harishsiravuri_e088/Meta-Llama-3.1-70B-Instruct-Reference-scirex-v6-70b-7cecddd1-66437b32",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 37632,
+    "tokens_out": 4555,
+    "cost_usd": 0.022868149999999997,
+    "wall_time_seconds": 124.6594132920145,
+    "voting_samples": 3
+  }
+}

@@ -1,0 +1,130 @@
+{
+  "paper_id": "scirex:0e6b990f41fc0e7fdd0662f88b5ad024375bd77b",
+  "contributions": [
+    {
+      "method": {
+        "name": "clustering based regularization",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 88,
+          "end": 180
+        },
+        "confidence": 0.9
+      },
+      "task": {
+        "name": "unsupervised learning, classification, fine grained categorization, zero-shot learning",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 296,
+          "end": 389
+        },
+        "confidence": 0.9
+      },
+      "datasets": [
+        {
+          "name": "MNIST",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1193,
+            "end": 1199
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "CIFAR10",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1225,
+            "end": 1232
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "CIFAR100",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1237,
+            "end": 1244
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "CUB-200-2011",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1268,
+            "end": 1281
+          },
+          "confidence": 0.9
+        }
+      ],
+      "metrics": [
+        {
+          "name": "reconstruction error",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 1705,
+            "end": 1725
+          },
+          "confidence": 0.8
+        },
+        {
+          "name": "accuracy",
+          "value": null,
+          "unit": "percent",
+          "evidence_span": {
+            "start": 2013,
+            "end": 2021
+          },
+          "confidence": 0.8
+        },
+        {
+          "name": "normalized mutual information (NMI)",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 2616,
+            "end": 2651
+          },
+          "confidence": 0.8
+        },
+        {
+          "name": "top-1 accuracy",
+          "value": null,
+          "unit": "percent",
+          "evidence_span": {
+            "start": 7106,
+            "end": 7117
+          },
+          "confidence": 0.8
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "DeCov",
+        "Dropout",
+        "baseline models",
+        "DeCAF",
+        "Alex-Net"
+      ],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "PARTIAL",
+        "task": "PARTIAL",
+        "datasets": "PARTIAL",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "(none)",
+    "consolidator_model": "(none)",
+    "tokens_in": 6324,
+    "tokens_out": 686,
+    "cost_usd": 0.00263422,
+    "wall_time_seconds": 28.05664954095846,
+    "voting_samples": 1
+  }
+}

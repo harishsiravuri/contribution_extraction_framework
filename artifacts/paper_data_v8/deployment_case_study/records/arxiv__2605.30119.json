@@ -1,0 +1,67 @@
+{
+  "paper_id": "arxiv:2605.30119",
+  "contributions": [
+    {
+      "method": {
+        "name": "genetic programming for feature construction",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 658,
+          "end": 712
+        },
+        "confidence": 0.75
+      },
+      "task": {
+        "name": "survival analysis",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 50,
+          "end": 68
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "two real-world datasets",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1001,
+            "end": 1018
+          },
+          "confidence": 0.75
+        }
+      ],
+      "metrics": [
+        {
+          "name": "predictive performance",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 992,
+            "end": 1013
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [],
+      "self_consistency": 0.875,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "PARTIAL",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 8841,
+    "tokens_out": 4094,
+    "cost_usd": 0.00774316,
+    "wall_time_seconds": 79.54404070903547,
+    "voting_samples": 3
+  }
+}

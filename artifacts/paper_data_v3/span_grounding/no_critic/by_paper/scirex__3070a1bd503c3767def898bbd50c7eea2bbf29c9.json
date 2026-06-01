@@ -1,0 +1,141 @@
+{
+  "paper_id": "scirex:3070a1bd503c3767def898bbd50c7eea2bbf29c9",
+  "contributions": [
+    {
+      "method": {
+        "name": "ResNet",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 137,
+          "end": 220
+        },
+        "confidence": 0.75
+      },
+      "task": {
+        "name": "image classification",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 934,
+          "end": 1021
+        },
+        "confidence": 0.5
+      },
+      "datasets": [
+        {
+          "name": "ImageNet",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 934,
+            "end": 1021
+          },
+          "confidence": 0.5
+        }
+      ],
+      "metrics": [
+        {
+          "name": "top-1 error rate",
+          "value": null,
+          "unit": "percentage",
+          "evidence_span": {
+            "start": 2000,
+            "end": 2500
+          },
+          "confidence": 0.25
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "ResNet-200"
+      ],
+      "self_consistency": 0.5625,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "PARTIAL",
+        "datasets": "PARTIAL",
+        "metrics": "UNSUPPORTED"
+      }
+    },
+    {
+      "method": {
+        "name": "ResNet",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 137,
+          "end": 220
+        },
+        "confidence": 0.75
+      },
+      "task": {
+        "name": "semantic segmentation",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 226,
+          "end": 365
+        },
+        "confidence": 0.75
+      },
+      "datasets": [
+        {
+          "name": "PASCAL VOC",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 226,
+            "end": 365
+          },
+          "confidence": 0.5
+        },
+        {
+          "name": "PASCAL Context",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 4500,
+            "end": 5000
+          },
+          "confidence": 0.25
+        },
+        {
+          "name": "Cityscapes",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 5000,
+            "end": 5500
+          },
+          "confidence": 0.5
+        }
+      ],
+      "metrics": [
+        {
+          "name": "mean IoU",
+          "value": 82.5,
+          "unit": "percentage",
+          "evidence_span": {
+            "start": 1000,
+            "end": 1100
+          },
+          "confidence": 0.25
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "state-of-the-art"
+      ],
+      "self_consistency": 0.59375,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "PARTIAL",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "(none)",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 29872,
+    "tokens_out": 3701,
+    "cost_usd": 0.01373315,
+    "wall_time_seconds": 50.03494250000222,
+    "voting_samples": 3
+  }
+}

@@ -1,0 +1,128 @@
+{
+  "paper_id": "scirex:28bf3aee9eecc2f7a7b4ac71bfe89534d3fe5f19",
+  "contributions": [
+    {
+      "method": {
+        "name": "OR-CNN",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 53,
+          "end": 83
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "pedestrian detection",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 12,
+          "end": 31
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "CityPersons",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 164,
+            "end": 175
+          },
+          "confidence": 0.5
+        },
+        {
+          "name": "ETH",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 176,
+            "end": 179
+          },
+          "confidence": 0.5
+        },
+        {
+          "name": "INRIA",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 183,
+            "end": 188
+          },
+          "confidence": 0.5
+        },
+        {
+          "name": "Caltech",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 16702,
+            "end": 16709
+          },
+          "confidence": 0.5
+        }
+      ],
+      "metrics": [
+        {
+          "name": "MR",
+          "value": 10.7,
+          "unit": null,
+          "evidence_span": {
+            "start": 4887,
+            "end": 4893
+          },
+          "confidence": 0.25
+        },
+        {
+          "name": "MR",
+          "value": 7.2,
+          "unit": null,
+          "evidence_span": {
+            "start": 4895,
+            "end": 4901
+          },
+          "confidence": 0.25
+        },
+        {
+          "name": "MR",
+          "value": 8.8,
+          "unit": null,
+          "evidence_span": {
+            "start": 4903,
+            "end": 4909
+          },
+          "confidence": 0.25
+        },
+        {
+          "name": "MR",
+          "value": 9.6,
+          "unit": null,
+          "evidence_span": {
+            "start": 16973,
+            "end": 16978
+          },
+          "confidence": 0.25
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Adaptive Faster R-CNN",
+        "RFN-BF",
+        "state-of-the-art methods"
+      ],
+      "self_consistency": 0.875,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "DISABLED (E2 critic-off ablation)",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 24454,
+    "tokens_out": 3648,
+    "cost_usd": 0.012214260000000001,
+    "wall_time_seconds": 47.287217624951154,
+    "voting_samples": 3
+  }
+}

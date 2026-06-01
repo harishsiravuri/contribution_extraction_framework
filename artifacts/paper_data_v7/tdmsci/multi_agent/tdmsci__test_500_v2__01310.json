@@ -1,0 +1,113 @@
+{
+  "paper_id": "tdmsci:test_500_v2:01310",
+  "contributions": [
+    {
+      "method": {
+        "name": null,
+        "canonical_id": null,
+        "evidence_span": null,
+        "confidence": 0.0
+      },
+      "task": {
+        "name": "classification",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 61,
+          "end": 74
+        },
+        "confidence": 0.5
+      },
+      "datasets": [
+        {
+          "name": "20 Newsgroups",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 4,
+            "end": 20
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": null,
+          "unit": "%",
+          "evidence_span": {
+            "start": 78,
+            "end": 87
+          },
+          "confidence": 0.5
+        }
+      ],
+      "claim_strength": null,
+      "comparison_targets": [],
+      "self_consistency": 0.75,
+      "critic_verdict": {
+        "method": "UNSUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "PARTIAL"
+      }
+    },
+    {
+      "method": {
+        "name": null,
+        "canonical_id": null,
+        "evidence_span": null,
+        "confidence": 0.0
+      },
+      "task": {
+        "name": "information retrieval",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 93,
+          "end": 114
+        },
+        "confidence": 0.5
+      },
+      "datasets": [
+        {
+          "name": "20 Newsgroups",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 4,
+            "end": 20
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "MAP",
+          "value": null,
+          "unit": "%",
+          "evidence_span": {
+            "start": 120,
+            "end": 125
+          },
+          "confidence": 0.5
+        }
+      ],
+      "claim_strength": null,
+      "comparison_targets": [],
+      "self_consistency": 0.75,
+      "critic_verdict": {
+        "method": "UNSUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "PARTIAL",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 6811,
+    "tokens_out": 3238,
+    "cost_usd": 0.00600057,
+    "wall_time_seconds": 93.84185062488541,
+    "voting_samples": 3
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "paper_id": "arxiv:2605.29751",
+  "contributions": [
+    {
+      "method": {
+        "name": "DySem",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 264,
+          "end": 268
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "semantic textual similarity",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 42,
+          "end": 69
+        },
+        "confidence": 1.0
+      },
+      "datasets": [],
+      "metrics": [],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "large language models (LLMs) based methods"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "UNSUPPORTED",
+        "metrics": "UNSUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 5862,
+    "tokens_out": 1623,
+    "cost_usd": 0.00397574,
+    "wall_time_seconds": 34.505079332971945,
+    "voting_samples": 3
+  }
+}

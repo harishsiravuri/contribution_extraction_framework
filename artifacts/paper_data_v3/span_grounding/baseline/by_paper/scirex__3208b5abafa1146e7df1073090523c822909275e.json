@@ -1,0 +1,105 @@
+{
+  "paper_id": "scirex:3208b5abafa1146e7df1073090523c822909275e",
+  "contributions": [
+    {
+      "method": {
+        "name": "Bidirectional Long Short-Term Memory Networks with Two-Dimensional Max Pooling (BLSTM-2DPooling)",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 2000
+        },
+        "confidence": 0.9
+      },
+      "task": {
+        "name": "Text Classification",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 2000
+        },
+        "confidence": 0.9
+      },
+      "datasets": [
+        {
+          "name": "Stanford Sentiment Treebank",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1000,
+            "end": 1200
+          },
+          "confidence": 0.8
+        },
+        {
+          "name": "MR",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1200,
+            "end": 1400
+          },
+          "confidence": 0.8
+        },
+        {
+          "name": "Subj",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1400,
+            "end": 1600
+          },
+          "confidence": 0.8
+        },
+        {
+          "name": "TREC",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1600,
+            "end": 1800
+          },
+          "confidence": 0.8
+        },
+        {
+          "name": "20Newsgroups",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1800,
+            "end": 2000
+          },
+          "confidence": 0.8
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 1000,
+            "end": 1200
+          },
+          "confidence": 0.7
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "state-of-the-art models"
+      ],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "PARTIAL",
+        "task": "PARTIAL",
+        "datasets": "PARTIAL",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "(none)",
+    "consolidator_model": "(none)",
+    "tokens_in": 5309,
+    "tokens_out": 533,
+    "cost_usd": 0.0021732500000000003,
+    "wall_time_seconds": 28.763758499990217,
+    "voting_samples": 1
+  }
+}

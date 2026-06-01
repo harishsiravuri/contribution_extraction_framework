@@ -1,0 +1,87 @@
+{
+  "paper_id": "arxiv:2605.29731",
+  "contributions": [
+    {
+      "method": {
+        "name": "EMAG (EEG Mixture of Anisotropic Gaussians)",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 144,
+          "end": 237
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "EEG spatial super-resolution",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 18,
+          "end": 53
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "Localize-MI",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 604,
+            "end": 614
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "SEED",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 616,
+            "end": 620
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "SEED-IV",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 622,
+            "end": 629
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "super-resolution factor",
+          "value": null,
+          "unit": "x",
+          "evidence_span": {
+            "start": 596,
+            "end": 604
+          },
+          "confidence": 0.5
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "current state-of-the-art EEG super-resolution method"
+      ],
+      "self_consistency": 0.875,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 7589,
+    "tokens_out": 2745,
+    "cost_usd": 0.00588828,
+    "wall_time_seconds": 54.13997699995525,
+    "voting_samples": 3
+  }
+}

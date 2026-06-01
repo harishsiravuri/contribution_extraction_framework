@@ -1,0 +1,56 @@
+{
+  "paper_id": "tdmsci:test_500_v2:01558",
+  "contributions": [
+    {
+      "method": {
+        "name": "VSM",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 18,
+          "end": 21
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "translation pair extraction",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 31,
+          "end": 60
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "comparable or unrelated corpora",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 64,
+            "end": 94
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [],
+      "claim_strength": "applies",
+      "comparison_targets": [],
+      "self_consistency": 0.8333333333333334,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": null
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 4655,
+    "tokens_out": 1161,
+    "cost_usd": 0.00304623,
+    "wall_time_seconds": 30.173672332894057,
+    "voting_samples": 3
+  }
+}

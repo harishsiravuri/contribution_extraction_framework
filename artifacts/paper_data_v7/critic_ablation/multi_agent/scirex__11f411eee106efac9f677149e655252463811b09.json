@@ -1,0 +1,286 @@
+{
+  "paper_id": "scirex:11f411eee106efac9f677149e655252463811b09",
+  "contributions": [
+    {
+      "method": {
+        "name": "Mode Seeking GANs (MSGANs)",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 2615,
+          "end": 2640
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "categorical image generation",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 1220,
+          "end": 1245
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "CIFAR-10",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 3689,
+            "end": 3698
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "NDB",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 2231,
+            "end": 2234
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "JSD",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 2236,
+            "end": 2239
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "FID",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 2241,
+            "end": 2244
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "DCGAN"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    },
+    {
+      "method": {
+        "name": "Mode Seeking GANs (MSGANs)",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 2615,
+          "end": 2640
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "image-to-image translation",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 1247,
+          "end": 1268
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "facades",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 3787,
+            "end": 3794
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "maps",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 3796,
+            "end": 3800
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "Yosemite",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 3802,
+            "end": 3810
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "cat dog",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 3812,
+            "end": 3819
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "LPIPS",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 2505,
+            "end": 2511
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "NDB",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 2231,
+            "end": 2234
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "JSD",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 2236,
+            "end": 2239
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "FID",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 2241,
+            "end": 2244
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Pix2Pix",
+        "DRIT",
+        "BicycleGAN"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    },
+    {
+      "method": {
+        "name": "Mode Seeking GANs (MSGANs)",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 2615,
+          "end": 2640
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "text-to-image synthesis",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 1270,
+          "end": 1290
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "CUB-200-2011",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 3821,
+            "end": 3832
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "LPIPS",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 2505,
+            "end": 2511
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "NDB",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 2231,
+            "end": 2234
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "JSD",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 2236,
+            "end": 2239
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "FID",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 2241,
+            "end": 2244
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "StackGAN++"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "DISABLED (E2 critic-off ablation)",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 23165,
+    "tokens_out": 5671,
+    "cost_usd": 0.013887910000000002,
+    "wall_time_seconds": 62.671611041994765,
+    "voting_samples": 3
+  }
+}

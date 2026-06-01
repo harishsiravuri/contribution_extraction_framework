@@ -1,0 +1,66 @@
+{
+  "paper_id": "tdmsci:test_500_v2:01441",
+  "contributions": [
+    {
+      "method": {
+        "name": null,
+        "canonical_id": null,
+        "evidence_span": null,
+        "confidence": 0.0
+      },
+      "task": {
+        "name": "binary classification",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 31,
+          "end": 48
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "VU Amsterdam Metaphor Corpus",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 63,
+            "end": 86
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 0.608,
+          "unit": null,
+          "evidence_span": {
+            "start": 110,
+            "end": 115
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "comparable",
+      "comparison_targets": [
+        "existing approaches"
+      ],
+      "self_consistency": 0.833,
+      "critic_verdict": {
+        "method": "UNSUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 5456,
+    "tokens_out": 1933,
+    "cost_usd": 0.00411533,
+    "wall_time_seconds": 66.22783808293752,
+    "voting_samples": 3
+  }
+}

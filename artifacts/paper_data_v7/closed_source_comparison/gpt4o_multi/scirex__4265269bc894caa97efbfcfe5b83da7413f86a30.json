@@ -1,0 +1,98 @@
+{
+  "paper_id": "scirex:4265269bc894caa97efbfcfe5b83da7413f86a30",
+  "contributions": [
+    {
+      "method": {
+        "name": "asymmetric tri-training",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 682,
+          "end": 707
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "unsupervised domain adaptation",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 682,
+          "end": 707
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "MNIST→SVHN",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 3666,
+            "end": 3677
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "Amazon Reviews",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 5795,
+            "end": 5809
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "SYN DIGITS→SVHN",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 4825,
+            "end": 4839
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "SYN SIGNS→GTSRB",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 5155,
+            "end": 5169
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": null,
+          "unit": "%",
+          "evidence_span": {
+            "start": 3666,
+            "end": 3677
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "other methods",
+        "VFAE",
+        "DANN"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "UNSUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "openai/gpt-4o-2024-11-20",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 37410,
+    "tokens_out": 4451,
+    "cost_usd": 0.09415826,
+    "wall_time_seconds": 47.08872308395803,
+    "voting_samples": 3
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "paper_id": "tdmsci:test_500_v2:01532",
+  "contributions": [
+    {
+      "method": {
+        "name": "label propagation model with bilingual and sentimental information",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 50,
+          "end": 106
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "emotion detection",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 118,
+          "end": 134
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "code-switching texts",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 138,
+            "end": 157
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [],
+      "claim_strength": "improves",
+      "comparison_targets": [],
+      "self_consistency": 1.0,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": null
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 4692,
+    "tokens_out": 1326,
+    "cost_usd": 0.0032033600000000006,
+    "wall_time_seconds": 24.18276287498884,
+    "voting_samples": 3
+  }
+}

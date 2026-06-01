@@ -1,0 +1,69 @@
+{
+  "paper_id": "arxiv:2605.28183",
+  "contributions": [
+    {
+      "method": {
+        "name": "LLM-as-a-Judge",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 535,
+          "end": 550
+        },
+        "confidence": 0.67
+      },
+      "task": {
+        "name": "legal reasoning",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 81,
+          "end": 96
+        },
+        "confidence": 0.67
+      },
+      "datasets": [
+        {
+          "name": "BenGER",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 63,
+            "end": 69
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Calderon r",
+          "value": 0.96,
+          "unit": null,
+          "evidence_span": {
+            "start": 735,
+            "end": 744
+          },
+          "confidence": 0.67
+        }
+      ],
+      "claim_strength": null,
+      "comparison_targets": [
+        "human reviewer"
+      ],
+      "self_consistency": 0.67,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 7973,
+    "tokens_out": 3490,
+    "cost_usd": 0.00678608,
+    "wall_time_seconds": 46.24813904101029,
+    "voting_samples": 3
+  }
+}

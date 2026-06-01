@@ -1,0 +1,196 @@
+{
+  "paper_id": "tdmsci:test_500_v2:01238",
+  "contributions": [
+    {
+      "method": {
+        "name": "CoVe",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 20,
+          "end": 23
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "sentiment analysis",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 100,
+          "end": 116
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "SST",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 118,
+            "end": 121
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "IMDb",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 123,
+            "end": 127
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "unsupervised word and character vectors"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "UNSUPPORTED"
+      }
+    },
+    {
+      "method": {
+        "name": "CoVe",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 20,
+          "end": 23
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "question classification",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 129,
+          "end": 147
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "TREC",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 149,
+            "end": 153
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "unsupervised word and character vectors"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "UNSUPPORTED"
+      }
+    },
+    {
+      "method": {
+        "name": "CoVe",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 20,
+          "end": 23
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "entailment",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 155,
+          "end": 163
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "SNLI",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 165,
+            "end": 169
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "unsupervised word and character vectors"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "UNSUPPORTED"
+      }
+    },
+    {
+      "method": {
+        "name": "CoVe",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 20,
+          "end": 23
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "question answering",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 171,
+          "end": 186
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "SQuAD",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 188,
+            "end": 193
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "unsupervised word and character vectors"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "UNSUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 9305,
+    "tokens_out": 5606,
+    "cost_usd": 0.00945992,
+    "wall_time_seconds": 108.17770066694357,
+    "voting_samples": 3
+  }
+}

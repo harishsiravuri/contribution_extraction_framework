@@ -1,0 +1,61 @@
+{
+  "paper_id": "scirex:27aa0f3ec934925265f93fac7ff1cd1d70ceb618",
+  "contributions": [
+    {
+      "method": {
+        "name": "multi-task tri-training",
+        "canonical_id": null,
+        "evidence_span": null,
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "sentiment analysis",
+        "canonical_id": null,
+        "evidence_span": null,
+        "confidence": 0.75
+      },
+      "datasets": [
+        {
+          "name": "amazon reviews",
+          "canonical_id": null,
+          "evidence_span": null,
+          "confidence": 0.75
+        },
+        {
+          "name": "sancl 2012",
+          "canonical_id": null,
+          "evidence_span": null,
+          "confidence": 0.25
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": null,
+          "unit": null,
+          "evidence_span": null,
+          "confidence": 0.25
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [],
+      "self_consistency": 0.875,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "UNSUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "harishsiravuri_e088/Meta-Llama-3.1-70B-Instruct-Reference-scirex-v6-70b-7cecddd1-66437b32",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 15688,
+    "tokens_out": 1589,
+    "cost_usd": 0.00970676,
+    "wall_time_seconds": 31.36985445790924,
+    "voting_samples": 1
+  }
+}

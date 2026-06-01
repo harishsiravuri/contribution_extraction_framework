@@ -1,0 +1,67 @@
+{
+  "paper_id": "tdmsci:test_500_v2:01473",
+  "contributions": [
+    {
+      "method": {
+        "name": "embedding models",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 11,
+          "end": 27
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "most contrasting word",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 89,
+          "end": 109
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "GRE most contrasting word questions",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 68,
+            "end": 109
+          },
+          "confidence": 0.6666666666666666
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F-score",
+          "value": 92.0,
+          "unit": "%",
+          "evidence_span": {
+            "start": 36,
+            "end": 47
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": null,
+      "comparison_targets": [],
+      "self_consistency": 0.875,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "PARTIAL",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 5198,
+    "tokens_out": 1618,
+    "cost_usd": 0.00371331,
+    "wall_time_seconds": 47.48627262492664,
+    "voting_samples": 3
+  }
+}

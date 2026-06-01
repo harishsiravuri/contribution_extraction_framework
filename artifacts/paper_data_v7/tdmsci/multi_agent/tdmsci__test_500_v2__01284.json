@@ -1,0 +1,112 @@
+{
+  "paper_id": "tdmsci:test_500_v2:01284",
+  "contributions": [
+    {
+      "method": {
+        "name": null,
+        "canonical_id": null,
+        "evidence_span": null,
+        "confidence": 0.0
+      },
+      "task": {
+        "name": "language modeling",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 57,
+          "end": 72
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "enwiki8",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 92,
+            "end": 99
+          },
+          "confidence": 0.4
+        },
+        {
+          "name": "text8",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 119,
+            "end": 124
+          },
+          "confidence": 0.4
+        },
+        {
+          "name": "WikiText-103",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 151,
+            "end": 163
+          },
+          "confidence": 0.4
+        },
+        {
+          "name": "One Billion Word",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 190,
+            "end": 205
+          },
+          "confidence": 0.4
+        },
+        {
+          "name": "Penn Treebank",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 232,
+            "end": 245
+          },
+          "confidence": 0.4
+        }
+      ],
+      "metrics": [
+        {
+          "name": "bpc",
+          "value": 0.99,
+          "unit": null,
+          "evidence_span": {
+            "start": 73,
+            "end": 76
+          },
+          "confidence": 0.6
+        },
+        {
+          "name": "perplexity",
+          "value": 0.99,
+          "unit": null,
+          "evidence_span": {
+            "start": 78,
+            "end": 88
+          },
+          "confidence": 0.6
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "state-of-the-art"
+      ],
+      "self_consistency": 0.83,
+      "critic_verdict": {
+        "method": "UNSUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 14325,
+    "tokens_out": 7792,
+    "cost_usd": 0.01420791,
+    "wall_time_seconds": 191.16167320800014,
+    "voting_samples": 3
+  }
+}

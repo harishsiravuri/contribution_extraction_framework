@@ -1,0 +1,121 @@
+{
+  "paper_id": "scirex:12806c298e01083a79db77927530367d85939907",
+  "contributions": [
+    {
+      "method": {
+        "name": "Overfeat",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 2483,
+          "end": 2490
+        },
+        "confidence": 0.8
+      },
+      "task": {
+        "name": "vehicle detection",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 2483,
+          "end": 2499
+        },
+        "confidence": 0.6
+      },
+      "datasets": [
+        {
+          "name": "highway data set",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 302,
+            "end": 316
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 4893,
+            "end": 4895
+          },
+          "confidence": 0.8
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Continental mid-range radar"
+      ],
+      "self_consistency": 0.76,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    },
+    {
+      "method": {
+        "name": "Overfeat",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 2483,
+          "end": 2490
+        },
+        "confidence": 0.8
+      },
+      "task": {
+        "name": "lane detection",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 2483,
+          "end": 2496
+        },
+        "confidence": 0.8
+      },
+      "datasets": [
+        {
+          "name": "highway data set",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 302,
+            "end": 316
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 4893,
+            "end": 4895
+          },
+          "confidence": 0.6
+        }
+      ],
+      "claim_strength": "novel",
+      "comparison_targets": [],
+      "self_consistency": 0.84,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "DISABLED (E2 critic-off ablation)",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 23026,
+    "tokens_out": 2837,
+    "cost_usd": 0.01088327,
+    "wall_time_seconds": 40.92183562507853,
+    "voting_samples": 3
+  }
+}

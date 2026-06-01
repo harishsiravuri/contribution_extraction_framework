@@ -1,0 +1,102 @@
+{
+  "paper_id": "scirex:088b649415378c4dde666f614ba24d08a36b6652",
+  "contributions": [
+    {
+      "method": {
+        "name": "Long Short-Term Memory-Network (LSTMN)",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 155,
+          "end": 183
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "machine reading",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 48,
+          "end": 59
+        },
+        "confidence": 0.3333333333333333
+      },
+      "datasets": [
+        {
+          "name": "English Penn Treebank",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2063,
+            "end": 2085
+          },
+          "confidence": 0.6666666666666666
+        },
+        {
+          "name": "Stanford Sentiment Treebank",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2439,
+            "end": 2466
+          },
+          "confidence": 0.6666666666666666
+        },
+        {
+          "name": "Stanford Natural Language Inference (SNLI)",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2944,
+            "end": 2974
+          },
+          "confidence": 0.6666666666666666
+        }
+      ],
+      "metrics": [
+        {
+          "name": "perplexity",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 2145,
+            "end": 2155
+          },
+          "confidence": 0.3333333333333333
+        },
+        {
+          "name": "accuracy",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 2591,
+            "end": 2598
+          },
+          "confidence": 0.6666666666666666
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Kneser-Ney 5-gram language model (KN5)",
+        "RNN",
+        "LSTM",
+        "stacked LSTM (sLSTM)",
+        "gated-feedback LSTM (gLSTM)",
+        "depth-gated LSTM (dLSTM)"
+      ],
+      "self_consistency": 0.6153846153846154,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 28533,
+    "tokens_out": 3557,
+    "cost_usd": 0.014942,
+    "wall_time_seconds": 133.81386845896486,
+    "voting_samples": 3
+  }
+}

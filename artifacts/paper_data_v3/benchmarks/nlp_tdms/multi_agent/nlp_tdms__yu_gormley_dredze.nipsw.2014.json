@@ -1,0 +1,43 @@
+{
+  "paper_id": "nlp_tdms:yu_gormley_dredze.nipsw.2014",
+  "contributions": [
+    {
+      "method": {
+        "name": "Factor-based Compositional Embedding Models",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 49
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": null,
+        "canonical_id": null,
+        "evidence_span": null,
+        "confidence": 0.0
+      },
+      "datasets": [],
+      "metrics": [],
+      "claim_strength": null,
+      "comparison_targets": [],
+      "self_consistency": 1.0,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "UNSUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 3940,
+    "tokens_out": 1288,
+    "cost_usd": 0.00293138,
+    "wall_time_seconds": 12.85406379197957,
+    "voting_samples": 3
+  }
+}

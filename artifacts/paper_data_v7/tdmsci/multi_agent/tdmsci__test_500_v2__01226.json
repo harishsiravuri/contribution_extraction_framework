@@ -1,0 +1,62 @@
+{
+  "paper_id": "tdmsci:test_500_v2:01226",
+  "contributions": [
+    {
+      "method": {
+        "name": null,
+        "canonical_id": null,
+        "evidence_span": null,
+        "confidence": 0.0
+      },
+      "task": {
+        "name": "dependency parsing",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 12,
+          "end": 29
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "English",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 31,
+            "end": 38
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "Czech",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 43,
+            "end": 48
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [],
+      "claim_strength": null,
+      "comparison_targets": [],
+      "self_consistency": 0.8333333333333334,
+      "critic_verdict": {
+        "method": "UNSUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "UNSUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 4896,
+    "tokens_out": 1510,
+    "cost_usd": 0.0034827599999999997,
+    "wall_time_seconds": 31.28837979095988,
+    "voting_samples": 3
+  }
+}

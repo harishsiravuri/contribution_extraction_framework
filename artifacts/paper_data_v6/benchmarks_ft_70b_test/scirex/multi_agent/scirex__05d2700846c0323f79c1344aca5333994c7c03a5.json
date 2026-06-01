@@ -1,0 +1,67 @@
+{
+  "paper_id": "scirex:05d2700846c0323f79c1344aca5333994c7c03a5",
+  "contributions": [
+    {
+      "method": {
+        "name": "ibm 2016 english conversational telephone speech recognition system",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 63
+        },
+        "confidence": 0.3333333333333333
+      },
+      "task": {
+        "name": "speech recognition",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 10,
+          "end": 27
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "switchboard",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 104,
+            "end": 115
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "wer",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 133,
+            "end": 136
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [],
+      "self_consistency": 0.875,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "harishsiravuri_e088/Meta-Llama-3.1-70B-Instruct-Reference-scirex-v6-70b-7cecddd1-66437b32",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 18535,
+    "tokens_out": 1281,
+    "cost_usd": 0.010630960000000002,
+    "wall_time_seconds": 27.80724591697799,
+    "voting_samples": 3
+  }
+}

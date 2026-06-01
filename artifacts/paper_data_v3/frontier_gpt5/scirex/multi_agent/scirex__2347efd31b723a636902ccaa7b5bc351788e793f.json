@@ -1,0 +1,231 @@
+{
+  "paper_id": "scirex:2347efd31b723a636902ccaa7b5bc351788e793f",
+  "contributions": [
+    {
+      "method": {
+        "name": "attention-based character model",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 1556,
+          "end": 1574
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "part-of-speech tagging",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 104,
+          "end": 122
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "PTB-POS",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2359,
+            "end": 2367
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": 97.27,
+          "unit": "%",
+          "evidence_span": {
+            "start": 2704,
+            "end": 2709
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "comparable",
+      "comparison_targets": [
+        "Huang2015"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    },
+    {
+      "method": {
+        "name": "attention-based character model",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 1556,
+          "end": 1574
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "named entity recognition",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 104,
+          "end": 122
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "JNLPBA",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2434,
+            "end": 2441
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "microaveraged mention-level score",
+          "value": 72.7,
+          "unit": "%",
+          "evidence_span": {
+            "start": 2704,
+            "end": 2709
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "comparable",
+      "comparison_targets": [
+        "Zhou2004"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    },
+    {
+      "method": {
+        "name": "attention-based character model",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 1556,
+          "end": 1574
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "named entity recognition",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 104,
+          "end": 122
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "BC2GM",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2401,
+            "end": 2408
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "official evaluation script score",
+          "value": 87.99,
+          "unit": "%",
+          "evidence_span": {
+            "start": 2704,
+            "end": 2709
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Campos2015"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    },
+    {
+      "method": {
+        "name": "attention-based character model",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 1556,
+          "end": 1574
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "error detection",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 235,
+          "end": 247
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "FCEPUBLIC",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2468,
+            "end": 2477
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "score over erroneous words",
+          "value": 41.88,
+          "unit": "%",
+          "evidence_span": {
+            "start": 2704,
+            "end": 2709
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Rei2016"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "openai/gpt-5",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 27956,
+    "tokens_out": 23803,
+    "cost_usd": 0.23455061,
+    "wall_time_seconds": 278.0073696250329,
+    "voting_samples": 3
+  }
+}

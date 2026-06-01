@@ -1,0 +1,55 @@
+{
+  "paper_id": "scirex:15c10b24ef645d83ff4059affd86945c33e00328",
+  "contributions": [
+    {
+      "method": {
+        "name": "snips",
+        "canonical_id": null,
+        "evidence_span": null,
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "intent detection",
+        "canonical_id": null,
+        "evidence_span": null,
+        "confidence": 0.6666666666666666
+      },
+      "datasets": [
+        {
+          "name": "snips",
+          "canonical_id": null,
+          "evidence_span": null,
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "f1 score",
+          "value": null,
+          "unit": null,
+          "evidence_span": null,
+          "confidence": 0.6666666666666666
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [],
+      "self_consistency": 0.875,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "harishsiravuri_e088/Meta-Llama-3.1-70B-Instruct-Reference-scirex-v6-70b-7cecddd1-66437b32",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 52196,
+    "tokens_out": 1646,
+    "cost_usd": 0.028459159999999997,
+    "wall_time_seconds": 25.64797070901841,
+    "voting_samples": 3
+  }
+}

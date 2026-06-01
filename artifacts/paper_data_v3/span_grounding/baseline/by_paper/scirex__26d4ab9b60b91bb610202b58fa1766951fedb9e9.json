@@ -1,0 +1,99 @@
+{
+  "paper_id": "scirex:26d4ab9b60b91bb610202b58fa1766951fedb9e9",
+  "contributions": [
+    {
+      "method": {
+        "name": "Deep Recurrent Attentive Writer (DRAW)",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 86
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "image generation",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 86
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "MNIST",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 244,
+            "end": 249
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "Street View House Numbers",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 255,
+            "end": 279
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "CIFAR-10",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1013,
+            "end": 1020
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "average nats per image",
+          "value": null,
+          "unit": "nats/image",
+          "evidence_span": {
+            "start": 8739,
+            "end": 8766
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "test error",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 8483,
+            "end": 8493
+          },
+          "confidence": 0.8
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "DARN",
+        "NADE",
+        "DBMs"
+      ],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "PARTIAL",
+        "task": "PARTIAL",
+        "datasets": "PARTIAL",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "(none)",
+    "consolidator_model": "(none)",
+    "tokens_in": 4264,
+    "tokens_out": 449,
+    "cost_usd": 0.0017640900000000003,
+    "wall_time_seconds": 12.842117583961226,
+    "voting_samples": 1
+  }
+}

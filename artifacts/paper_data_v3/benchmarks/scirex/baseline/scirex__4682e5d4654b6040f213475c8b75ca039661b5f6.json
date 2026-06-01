@@ -1,0 +1,97 @@
+{
+  "paper_id": "scirex:4682e5d4654b6040f213475c8b75ca039661b5f6",
+  "contributions": [
+    {
+      "method": {
+        "name": "EAST",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 200
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "scene text detection",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 200
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "ICDAR 2015",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 200,
+            "end": 300
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "COCO-Text",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 200,
+            "end": 300
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "MSRA-TD500",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 200,
+            "end": 300
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F-score",
+          "value": 0.782,
+          "unit": null,
+          "evidence_span": {
+            "start": 300,
+            "end": 400
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "FPS",
+          "value": 13.2,
+          "unit": "frames per second",
+          "evidence_span": {
+            "start": 300,
+            "end": 400
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "state-of-the-art methods"
+      ],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "PARTIAL",
+        "task": "PARTIAL",
+        "datasets": "PARTIAL",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "(none)",
+    "consolidator_model": "(none)",
+    "tokens_in": 6470,
+    "tokens_out": 482,
+    "cost_usd": 0.00249938,
+    "wall_time_seconds": 26.65697645797627,
+    "voting_samples": 1
+  }
+}

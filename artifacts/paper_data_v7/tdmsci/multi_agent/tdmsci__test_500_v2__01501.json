@@ -1,0 +1,64 @@
+{
+  "paper_id": "tdmsci:test_500_v2:01501",
+  "contributions": [
+    {
+      "method": {
+        "name": null,
+        "canonical_id": null,
+        "evidence_span": null,
+        "confidence": 0.0
+      },
+      "task": {
+        "name": "alignment",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 31,
+          "end": 40
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "manual alignment corpus",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 45,
+            "end": 68
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "alignment error rate",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 12,
+            "end": 30
+          },
+          "confidence": 0.6666666666666666
+        }
+      ],
+      "claim_strength": null,
+      "comparison_targets": [],
+      "self_consistency": 0.6153846153846154,
+      "critic_verdict": {
+        "method": "UNSUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 5480,
+    "tokens_out": 1845,
+    "cost_usd": 0.00407971,
+    "wall_time_seconds": 43.42004358302802,
+    "voting_samples": 3
+  }
+}

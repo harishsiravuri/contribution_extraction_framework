@@ -1,0 +1,73 @@
+{
+  "paper_id": "nlp_tdms:P18-2045",
+  "contributions": [
+    {
+      "method": {
+        "name": "Recurrent Entity Networks with Memory Chains and Semantic Supervision",
+        "canonical_id": "EntNet",
+        "evidence_span": {
+          "start": 1125,
+          "end": 1145
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "story ending prediction",
+        "canonical_id": "Story Cloze Test",
+        "evidence_span": {
+          "start": 863,
+          "end": 875
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "Story Cloze Test",
+          "canonical_id": "ROC Story Cloze Test",
+          "evidence_span": {
+            "start": 5916,
+            "end": 5935
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": 78.5,
+          "unit": "%",
+          "evidence_span": {
+            "start": 6752,
+            "end": 6759
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "DSSM",
+        "TBMIHAYLOV",
+        "MSAP",
+        "HCM",
+        "EntNet"
+      ],
+      "self_consistency": 0.8333333333333334,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 18520,
+    "tokens_out": 2218,
+    "cost_usd": 0.00955683,
+    "wall_time_seconds": 54.36398254201049,
+    "voting_samples": 3
+  }
+}

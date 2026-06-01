@@ -1,0 +1,131 @@
+{
+  "paper_id": "nlp_tdms:1705.05952",
+  "contributions": [
+    {
+      "method": {
+        "name": "jPTDP",
+        "canonical_id": "jPTDP",
+        "evidence_span": {
+          "start": 134,
+          "end": 138
+        },
+        "confidence": 0.67
+      },
+      "task": {
+        "name": "joint POS tagging and dependency parsing",
+        "canonical_id": "joint POS tagging and dependency parsing",
+        "evidence_span": {
+          "start": 145,
+          "end": 167
+        },
+        "confidence": 0.67
+      },
+      "datasets": [
+        {
+          "name": "Universal Dependencies project",
+          "canonical_id": "UD",
+          "evidence_span": {
+            "start": 245,
+            "end": 262
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "LAS",
+          "value": null,
+          "unit": "percentage",
+          "evidence_span": {
+            "start": 2555,
+            "end": 2558
+          },
+          "confidence": 0.67
+        },
+        {
+          "name": "POS tagging accuracy",
+          "value": null,
+          "unit": "percentage",
+          "evidence_span": {
+            "start": 2722,
+            "end": 2741
+          },
+          "confidence": 0.33
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Stack-propagation model"
+      ],
+      "self_consistency": 0.67,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "PARTIAL"
+      }
+    },
+    {
+      "method": {
+        "name": "BiLSTM",
+        "canonical_id": "BiLSTM",
+        "evidence_span": {
+          "start": 1388,
+          "end": 1394
+        },
+        "confidence": 0.33
+      },
+      "task": {
+        "name": "dependency parsing",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 455,
+          "end": 472
+        },
+        "confidence": 0.33
+      },
+      "datasets": [
+        {
+          "name": "Universal Dependencies project",
+          "canonical_id": "UD",
+          "evidence_span": {
+            "start": 245,
+            "end": 262
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "LAS",
+          "value": null,
+          "unit": "percentage",
+          "evidence_span": {
+            "start": 2555,
+            "end": 2558
+          },
+          "confidence": 0.33
+        }
+      ],
+      "claim_strength": "novel",
+      "comparison_targets": [],
+      "self_consistency": 0.33,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 20348,
+    "tokens_out": 4273,
+    "cost_usd": 0.012343690000000001,
+    "wall_time_seconds": 108.15078158403048,
+    "voting_samples": 3
+  }
+}

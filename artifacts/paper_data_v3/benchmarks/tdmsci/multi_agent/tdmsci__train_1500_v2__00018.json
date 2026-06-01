@@ -1,0 +1,56 @@
+{
+  "paper_id": "tdmsci:train_1500_v2:00018",
+  "contributions": [
+    {
+      "method": {
+        "name": "crowdsourcing",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 31,
+          "end": 44
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "query segmentation",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 45,
+          "end": 63
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "Amazon Mechanical Turk",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 81,
+            "end": 104
+          },
+          "confidence": 0.6666666666666666
+        }
+      ],
+      "metrics": [],
+      "claim_strength": null,
+      "comparison_targets": [],
+      "self_consistency": 0.8333333333333334,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "UNSUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 4647,
+    "tokens_out": 1289,
+    "cost_usd": 0.00314842,
+    "wall_time_seconds": 47.93697404197883,
+    "voting_samples": 3
+  }
+}

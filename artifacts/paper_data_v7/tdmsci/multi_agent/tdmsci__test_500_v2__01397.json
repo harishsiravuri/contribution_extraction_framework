@@ -1,0 +1,83 @@
+{
+  "paper_id": "tdmsci:test_500_v2:01397",
+  "contributions": [
+    {
+      "method": {
+        "name": "Stanford NER",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 20,
+          "end": 33
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": null,
+        "canonical_id": null,
+        "evidence_span": null,
+        "confidence": 0.0
+      },
+      "datasets": [
+        {
+          "name": "CoNLL03",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 44,
+            "end": 51
+          },
+          "confidence": 0.6666666666666666
+        },
+        {
+          "name": "tweets",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 136,
+            "end": 142
+          },
+          "confidence": 0.6666666666666666
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 90.8,
+          "unit": "%",
+          "evidence_span": {
+            "start": 73,
+            "end": 80
+          },
+          "confidence": 0.6666666666666666
+        },
+        {
+          "name": "F1",
+          "value": 45.8,
+          "unit": "%",
+          "evidence_span": {
+            "start": 105,
+            "end": 112
+          },
+          "confidence": 0.6666666666666666
+        }
+      ],
+      "claim_strength": null,
+      "comparison_targets": [],
+      "self_consistency": 0.6153846153846154,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "UNSUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 6551,
+    "tokens_out": 2720,
+    "cost_usd": 0.00542202,
+    "wall_time_seconds": 39.4254622918088,
+    "voting_samples": 3
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "paper_id": "nlp_tdms:1601.03651",
+  "contributions": [
+    {
+      "method": {
+        "name": "deep recurrent neural networks",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 215,
+          "end": 241
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "relation classification",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 100,
+          "end": 122
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "SemEval-2010 Task 8",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 272,
+            "end": 292
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 86.1,
+          "unit": "%",
+          "evidence_span": {
+            "start": 320,
+            "end": 326
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "traditional feature-based methods",
+        "single-layer RNNs",
+        "CNNs",
+        "hybrid models of CNNs and RNNs",
+        "feature-based methods",
+        "CNN models",
+        "RNN models",
+        "hybrid models",
+        "recursive networks"
+      ],
+      "self_consistency": 0.875,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 25424,
+    "tokens_out": 3831,
+    "cost_usd": 0.013959909999999999,
+    "wall_time_seconds": 117.29311354196398,
+    "voting_samples": 3
+  }
+}

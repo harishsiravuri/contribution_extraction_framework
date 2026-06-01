@@ -1,0 +1,80 @@
+{
+  "paper_id": "scirex:193b518bc3025804c6d587c74cbc154d91478417",
+  "contributions": [
+    {
+      "method": {
+        "name": "adaptsegnet",
+        "canonical_id": null,
+        "evidence_span": null,
+        "confidence": 0.5
+      },
+      "task": {
+        "name": "semantic segmentation",
+        "canonical_id": null,
+        "evidence_span": null,
+        "confidence": 0.5
+      },
+      "datasets": [
+        {
+          "name": "synthia",
+          "canonical_id": null,
+          "evidence_span": null,
+          "confidence": 0.3333333333333333
+        },
+        {
+          "name": "gta5",
+          "canonical_id": null,
+          "evidence_span": null,
+          "confidence": 0.16666666666666666
+        },
+        {
+          "name": "gtav",
+          "canonical_id": null,
+          "evidence_span": null,
+          "confidence": 0.16666666666666666
+        },
+        {
+          "name": "cityscapes",
+          "canonical_id": null,
+          "evidence_span": null,
+          "confidence": 0.16666666666666666
+        }
+      ],
+      "metrics": [
+        {
+          "name": "mean iou",
+          "value": null,
+          "unit": null,
+          "evidence_span": null,
+          "confidence": 0.5
+        },
+        {
+          "name": "miou",
+          "value": null,
+          "unit": null,
+          "evidence_span": null,
+          "confidence": 0.3333333333333333
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [],
+      "self_consistency": 0.4166666666666667,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "harishsiravuri_e088/Meta-Llama-3.1-70B-Instruct-Reference-scirex-v6-70b-7cecddd1-66437b32",
+    "critic_model": "DISABLED (E4 critic-off ablation)",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 21022,
+    "tokens_out": 1635,
+    "cost_usd": 0.01170899,
+    "wall_time_seconds": 19.510727500077337,
+    "voting_samples": 3
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "paper_id": "nlp_tdms:P18-2045",
+  "contributions": [
+    {
+      "method": {
+        "name": "Narrative Modeling with Memory Chains and Semantic Supervision",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 51
+        },
+        "confidence": 0.9
+      },
+      "task": {
+        "name": "Story ending prediction",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 363,
+          "end": 383
+        },
+        "confidence": 0.9
+      },
+      "datasets": [
+        {
+          "name": "Story Cloze Test",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2754,
+            "end": 2770
+          },
+          "confidence": 0.9
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": 78.5,
+          "unit": "%",
+          "evidence_span": {
+            "start": 5216,
+            "end": 5220
+          },
+          "confidence": 0.9
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "EntNet",
+        "DSSM",
+        "TBMIHAYLOV",
+        "MSAP",
+        "HCM"
+      ],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "PARTIAL",
+        "task": "PARTIAL",
+        "datasets": "PARTIAL",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "(none)",
+    "consolidator_model": "(none)",
+    "tokens_in": 4030,
+    "tokens_out": 350,
+    "cost_usd": 0.0016010999999999998,
+    "wall_time_seconds": 12.980705875030253,
+    "voting_samples": 1
+  }
+}

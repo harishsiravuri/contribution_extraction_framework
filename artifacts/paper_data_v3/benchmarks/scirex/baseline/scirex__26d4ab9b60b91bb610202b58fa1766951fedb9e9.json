@@ -1,0 +1,99 @@
+{
+  "paper_id": "scirex:26d4ab9b60b91bb610202b58fa1766951fedb9e9",
+  "contributions": [
+    {
+      "method": {
+        "name": "Deep Recurrent Attentive Writer (DRAW)",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 62
+        },
+        "confidence": 0.95
+      },
+      "task": {
+        "name": "image generation",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 62,
+          "end": 81
+        },
+        "confidence": 0.95
+      },
+      "datasets": [
+        {
+          "name": "MNIST",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 230,
+            "end": 235
+          },
+          "confidence": 0.95
+        },
+        {
+          "name": "Street View House Numbers dataset",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 240,
+            "end": 271
+          },
+          "confidence": 0.95
+        },
+        {
+          "name": "CIFAR-10",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 3549,
+            "end": 3556
+          },
+          "confidence": 0.95
+        }
+      ],
+      "metrics": [
+        {
+          "name": "negative log probability",
+          "value": null,
+          "unit": "nats",
+          "evidence_span": {
+            "start": 1647,
+            "end": 1735
+          },
+          "confidence": 0.8
+        },
+        {
+          "name": "Kullback-Leibler divergence",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 1752,
+            "end": 1868
+          },
+          "confidence": 0.8
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "DARN",
+        "NADE",
+        "DBMs"
+      ],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "PARTIAL",
+        "task": "PARTIAL",
+        "datasets": "PARTIAL",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "(none)",
+    "consolidator_model": "(none)",
+    "tokens_in": 4264,
+    "tokens_out": 497,
+    "cost_usd": 0.0018068100000000003,
+    "wall_time_seconds": 16.81653145799646,
+    "voting_samples": 1
+  }
+}

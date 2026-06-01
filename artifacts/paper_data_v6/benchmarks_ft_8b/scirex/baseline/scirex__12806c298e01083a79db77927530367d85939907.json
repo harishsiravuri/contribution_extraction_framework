@@ -1,0 +1,109 @@
+{
+  "paper_id": "scirex:12806c298e01083a79db77927530367d85939907",
+  "contributions": [
+    {
+      "method": {
+        "name": "Overfeat CNN detector",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 2590,
+          "end": 2618
+        },
+        "confidence": 0.9
+      },
+      "task": {
+        "name": "highway lane and vehicle detection",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 612,
+          "end": 653
+        },
+        "confidence": 0.9
+      },
+      "datasets": [
+        {
+          "name": "highway data set with vehicle bounding boxes and lane annotations",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 4948,
+            "end": 4984
+          },
+          "confidence": 0.9
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1 score",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 4124,
+            "end": 4131
+          },
+          "confidence": 0.8
+        },
+        {
+          "name": "precision",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 4159,
+            "end": 4168
+          },
+          "confidence": 0.8
+        },
+        {
+          "name": "recall",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 4182,
+            "end": 4188
+          },
+          "confidence": 0.8
+        },
+        {
+          "name": "Intersection Over Union (IOU)",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 4621,
+            "end": 4645
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "processing speed",
+          "value": 30.0,
+          "unit": "Hz",
+          "evidence_span": {
+            "start": 2997,
+            "end": 3003
+          },
+          "confidence": 0.9
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "radar-based detection"
+      ],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "PARTIAL",
+        "task": "PARTIAL",
+        "datasets": "PARTIAL",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "(none)",
+    "consolidator_model": "(none)",
+    "tokens_in": 6100,
+    "tokens_out": 600,
+    "cost_usd": 0.0024860000000000004,
+    "wall_time_seconds": 19.06316879199585,
+    "voting_samples": 1
+  }
+}

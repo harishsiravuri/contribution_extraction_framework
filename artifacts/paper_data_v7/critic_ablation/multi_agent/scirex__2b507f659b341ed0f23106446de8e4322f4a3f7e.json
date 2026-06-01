@@ -1,0 +1,136 @@
+{
+  "paper_id": "scirex:2b507f659b341ed0f23106446de8e4322f4a3f7e",
+  "contributions": [
+    {
+      "method": {
+        "name": "DIAT",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 106
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "facial attribute transfer",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 106
+        },
+        "confidence": 0.75
+      },
+      "datasets": [
+        {
+          "name": "CelebA",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2025,
+            "end": 2055
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 11159,
+            "end": 11168
+          },
+          "confidence": 0.5
+        },
+        {
+          "name": "PSNR",
+          "value": 33.27,
+          "unit": "dB",
+          "evidence_span": {
+            "start": 11000,
+            "end": 11050
+          },
+          "confidence": 0.75
+        }
+      ],
+      "claim_strength": "novel",
+      "comparison_targets": [
+        "CNIA",
+        "IcGAN",
+        "VAE/GAN"
+      ],
+      "self_consistency": 0.875,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    },
+    {
+      "method": {
+        "name": "DIAT",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 106
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "face hallucination",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 11200,
+          "end": 11250
+        },
+        "confidence": 0.75
+      },
+      "datasets": [
+        {
+          "name": "CelebA",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2025,
+            "end": 2055
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "PSNR",
+          "value": 33.27,
+          "unit": "dB",
+          "evidence_span": {
+            "start": 11000,
+            "end": 11050
+          },
+          "confidence": 0.75
+        }
+      ],
+      "claim_strength": "novel",
+      "comparison_targets": [
+        "bicubic interpolator",
+        "Unet"
+      ],
+      "self_consistency": 0.875,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "DISABLED (E2 critic-off ablation)",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 31025,
+    "tokens_out": 2657,
+    "cost_usd": 0.013125389999999999,
+    "wall_time_seconds": 38.92544204206206,
+    "voting_samples": 3
+  }
+}

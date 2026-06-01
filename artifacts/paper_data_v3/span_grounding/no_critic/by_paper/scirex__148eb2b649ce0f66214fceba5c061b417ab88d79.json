@@ -1,0 +1,88 @@
+{
+  "paper_id": "scirex:148eb2b649ce0f66214fceba5c061b417ab88d79",
+  "contributions": [
+    {
+      "method": {
+        "name": "Bidirectional-InfoGAN",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 2151,
+          "end": 2168
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "disentangled representation learning",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 2151,
+          "end": 2244
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "MNIST",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2249,
+            "end": 2255
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "CelebA",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 3083,
+            "end": 3089
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "SVHN",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 3264,
+            "end": 3268
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": 96.61,
+          "unit": "%",
+          "evidence_span": {
+            "start": 2914,
+            "end": 2923
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Chen et al.",
+        "Zhang et al."
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "(none)",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 16447,
+    "tokens_out": 2911,
+    "cost_usd": 0.008604770000000001,
+    "wall_time_seconds": 57.3032519169501,
+    "voting_samples": 3
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "paper_id": "tdmsci:test_500_v2:01508",
+  "contributions": [
+    {
+      "method": {
+        "name": "reformulation of word pair features",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 11,
+          "end": 37
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "disambiguating implicit relations",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 60,
+          "end": 87
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "Penn Discourse Treebank",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 99,
+            "end": 123
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [],
+      "claim_strength": null,
+      "comparison_targets": [],
+      "self_consistency": 1.0,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "UNSUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 4707,
+    "tokens_out": 1319,
+    "cost_usd": 0.0032036,
+    "wall_time_seconds": 28.668500792002305,
+    "voting_samples": 3
+  }
+}

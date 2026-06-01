@@ -1,0 +1,56 @@
+{
+  "paper_id": "tdmsci:test_500_v2:01461",
+  "contributions": [
+    {
+      "method": {
+        "name": "Joint Word Recognition and Segmentation",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 31,
+          "end": 65
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "word segmentation",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 65
+        },
+        "confidence": 0.6666666666666666
+      },
+      "datasets": [
+        {
+          "name": "Chinese Microtext",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 31,
+            "end": 49
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [],
+      "claim_strength": null,
+      "comparison_targets": [],
+      "self_consistency": 0.875,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "PARTIAL",
+        "datasets": "SUPPORTED",
+        "metrics": null
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 4470,
+    "tokens_out": 1134,
+    "cost_usd": 0.00292735,
+    "wall_time_seconds": 21.313921875087544,
+    "voting_samples": 3
+  }
+}

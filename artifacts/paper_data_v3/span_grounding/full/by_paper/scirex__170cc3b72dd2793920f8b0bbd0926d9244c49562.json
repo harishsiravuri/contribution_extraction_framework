@@ -1,0 +1,93 @@
+{
+  "paper_id": "scirex:170cc3b72dd2793920f8b0bbd0926d9244c49562",
+  "contributions": [
+    {
+      "method": {
+        "name": "Bootstrapped DQN",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 266,
+          "end": 282
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "reinforcement learning",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 54,
+          "end": 75
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "Arcade Learning Environment",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 343,
+            "end": 369
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "learning speed",
+          "value": 30.0,
+          "unit": "% faster",
+          "evidence_span": {
+            "start": 500,
+            "end": 600
+          },
+          "confidence": 0.5
+        },
+        {
+          "name": "cumulative performance",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 500,
+            "end": 600
+          },
+          "confidence": 0.5
+        },
+        {
+          "name": "AUC-20",
+          "value": 0.62,
+          "unit": null,
+          "evidence_span": {
+            "start": 11060,
+            "end": 11079
+          },
+          "confidence": 0.3333333333333333
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "DQN",
+        "Thompson DQN",
+        "Ensemble DQN",
+        "ε-greedy",
+        "Dynamic AE"
+      ],
+      "self_consistency": 0.875,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 40631,
+    "tokens_out": 3735,
+    "cost_usd": 0.01966676,
+    "wall_time_seconds": 155.3718405829859,
+    "voting_samples": 3
+  }
+}

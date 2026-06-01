@@ -1,0 +1,100 @@
+{
+  "paper_id": "scirex:40a63746a710baf4a694fd5a4dd8b5a3d9fc2846",
+  "contributions": [
+    {
+      "method": {
+        "name": "Invertible Conditional GANs (IcGANs)",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 123
+        },
+        "confidence": 0.9
+      },
+      "task": {
+        "name": "Image Editing",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 123
+        },
+        "confidence": 0.8
+      },
+      "datasets": [
+        {
+          "name": "MNIST",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2765,
+            "end": 2770
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "CelebA",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2775,
+            "end": 2781
+          },
+          "confidence": 0.9
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Reconstruction Loss",
+          "value": 0.429,
+          "unit": null,
+          "evidence_span": {
+            "start": 10891,
+            "end": 10896
+          },
+          "confidence": 0.8
+        },
+        {
+          "name": "Accuracy",
+          "value": null,
+          "unit": "%",
+          "evidence_span": {
+            "start": 10163,
+            "end": 10167
+          },
+          "confidence": 0.7
+        },
+        {
+          "name": "F1-Score",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 10163,
+            "end": 10167
+          },
+          "confidence": 0.7
+        }
+      ],
+      "claim_strength": "novel",
+      "comparison_targets": [
+        "DCGAN",
+        "cGAN",
+        "VAE"
+      ],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "PARTIAL",
+        "task": "PARTIAL",
+        "datasets": "PARTIAL",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "openai/gpt-4o-2024-11-20",
+    "critic_model": "(none)",
+    "consolidator_model": "(none)",
+    "tokens_in": 5339,
+    "tokens_out": 471,
+    "cost_usd": 0.0180575,
+    "wall_time_seconds": 2.3120031671132892,
+    "voting_samples": 1
+  }
+}

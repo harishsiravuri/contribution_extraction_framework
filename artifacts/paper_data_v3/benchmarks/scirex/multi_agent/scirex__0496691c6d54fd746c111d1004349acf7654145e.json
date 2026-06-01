@@ -1,0 +1,110 @@
+{
+  "paper_id": "scirex:0496691c6d54fd746c111d1004349acf7654145e",
+  "contributions": [
+    {
+      "method": {
+        "name": "EGAN-Ent-NN",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 5662,
+          "end": 5671
+        },
+        "confidence": 0.75
+      },
+      "task": {
+        "name": "generative modeling",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 140,
+          "end": 155
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "synthetic datasets (Gaussian mixtures, spirals)",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 4239,
+            "end": 4291
+          },
+          "confidence": 0.5
+        },
+        {
+          "name": "NIST digits",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 5033,
+            "end": 5042
+          },
+          "confidence": 0.5
+        },
+        {
+          "name": "CIFAR-10",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 5522,
+            "end": 5529
+          },
+          "confidence": 0.5
+        }
+      ],
+      "metrics": [
+        {
+          "name": "KL divergence",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 6867,
+            "end": 6872
+          },
+          "confidence": 0.5
+        },
+        {
+          "name": "ranking accuracy",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 5043,
+            "end": 5188
+          },
+          "confidence": 0.5
+        },
+        {
+          "name": "Inception score",
+          "value": 7.07,
+          "unit": null,
+          "evidence_span": {
+            "start": 5749,
+            "end": 5754
+          },
+          "confidence": 0.5
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "GAN",
+        "EBGAN",
+        "Improved GAN",
+        "EGAN-Const"
+      ],
+      "self_consistency": 0.875,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 43125,
+    "tokens_out": 5157,
+    "cost_usd": 0.022307240000000002,
+    "wall_time_seconds": 81.26135645899922,
+    "voting_samples": 3
+  }
+}

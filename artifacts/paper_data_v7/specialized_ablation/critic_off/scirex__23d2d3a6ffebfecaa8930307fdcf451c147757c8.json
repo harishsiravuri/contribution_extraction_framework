@@ -1,0 +1,87 @@
+{
+  "paper_id": "scirex:23d2d3a6ffebfecaa8930307fdcf451c147757c8",
+  "contributions": [
+    {
+      "method": {
+        "name": "seqgan",
+        "canonical_id": null,
+        "evidence_span": null,
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "text generation",
+        "canonical_id": null,
+        "evidence_span": null,
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "nottingham",
+          "canonical_id": null,
+          "evidence_span": null,
+          "confidence": 0.5
+        },
+        {
+          "name": "music generation",
+          "canonical_id": null,
+          "evidence_span": null,
+          "confidence": 0.25
+        },
+        {
+          "name": "poem generation",
+          "canonical_id": null,
+          "evidence_span": null,
+          "confidence": 0.25
+        },
+        {
+          "name": "speech generation",
+          "canonical_id": null,
+          "evidence_span": null,
+          "confidence": 0.25
+        }
+      ],
+      "metrics": [
+        {
+          "name": "bleu score",
+          "value": null,
+          "unit": null,
+          "evidence_span": null,
+          "confidence": 0.5
+        },
+        {
+          "name": "mse",
+          "value": null,
+          "unit": null,
+          "evidence_span": null,
+          "confidence": 0.5
+        },
+        {
+          "name": "bleu",
+          "value": null,
+          "unit": null,
+          "evidence_span": null,
+          "confidence": 0.25
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [],
+      "self_consistency": 0.875,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "harishsiravuri_e088/Meta-Llama-3.1-70B-Instruct-Reference-scirex-v6-70b-7cecddd1-66437b32",
+    "critic_model": "DISABLED (E4 critic-off ablation)",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 26063,
+    "tokens_out": 1786,
+    "cost_usd": 0.014328229999999999,
+    "wall_time_seconds": 49.63541229208931,
+    "voting_samples": 3
+  }
+}

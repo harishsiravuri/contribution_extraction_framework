@@ -1,0 +1,90 @@
+{
+  "paper_id": "scirex:0910a4c470a410fac446f4026f7c8ef512ae7427",
+  "contributions": [
+    {
+      "method": {
+        "name": "Hierarchical Co-Attention Model",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 123
+        },
+        "confidence": 0.9
+      },
+      "task": {
+        "name": "Visual Question Answering",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 123,
+          "end": 186
+        },
+        "confidence": 0.9
+      },
+      "datasets": [
+        {
+          "name": "VQA",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 186,
+            "end": 191
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "COCO-QA",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 186,
+            "end": 191
+          },
+          "confidence": 0.9
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy",
+          "value": 62.1,
+          "unit": "%",
+          "evidence_span": {
+            "start": 186,
+            "end": 191
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "Accuracy",
+          "value": 65.4,
+          "unit": "%",
+          "evidence_span": {
+            "start": 186,
+            "end": 191
+          },
+          "confidence": 0.9
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "DMN+",
+        "FDA",
+        "SAN"
+      ],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "PARTIAL",
+        "task": "PARTIAL",
+        "datasets": "PARTIAL",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "openai/gpt-4o-2024-11-20",
+    "critic_model": "(none)",
+    "consolidator_model": "(none)",
+    "tokens_in": 5870,
+    "tokens_out": 408,
+    "cost_usd": 0.018755,
+    "wall_time_seconds": 3.1554654580540955,
+    "voting_samples": 1
+  }
+}

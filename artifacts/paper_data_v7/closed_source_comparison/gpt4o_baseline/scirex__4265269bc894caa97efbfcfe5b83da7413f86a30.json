@@ -1,0 +1,119 @@
+{
+  "paper_id": "scirex:4265269bc894caa97efbfcfe5b83da7413f86a30",
+  "contributions": [
+    {
+      "method": {
+        "name": "Asymmetric Tri-training for Unsupervised Domain Adaptation",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 123
+        },
+        "confidence": 0.9
+      },
+      "task": {
+        "name": "Unsupervised Domain Adaptation",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 204,
+          "end": 292
+        },
+        "confidence": 0.9
+      },
+      "datasets": [
+        {
+          "name": "MNIST",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1555,
+            "end": 1561
+          },
+          "confidence": 0.8
+        },
+        {
+          "name": "SVHN",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1563,
+            "end": 1567
+          },
+          "confidence": 0.8
+        },
+        {
+          "name": "SYN DIGITS",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1569,
+            "end": 1579
+          },
+          "confidence": 0.8
+        },
+        {
+          "name": "SYN SIGNS",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1581,
+            "end": 1590
+          },
+          "confidence": 0.8
+        },
+        {
+          "name": "GTSRB",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1592,
+            "end": 1597
+          },
+          "confidence": 0.8
+        },
+        {
+          "name": "Amazon Reviews",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1600,
+            "end": 1615
+          },
+          "confidence": 0.8
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy",
+          "value": 10.0,
+          "unit": "%",
+          "evidence_span": {
+            "start": 1234,
+            "end": 1240
+          },
+          "confidence": 0.9
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Maximum Mean Discrepancy (MMD)",
+        "Domain Adversarial Neural Network (DANN)",
+        "Deep Reconstruction Classification Network (DRCN)",
+        "Domain Separation Networks (DSN)",
+        "k-Nearest Neighbor based adaptation (kNN-Ad)",
+        "Variational Fair AutoEncoder (VFAE)"
+      ],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "PARTIAL",
+        "task": "PARTIAL",
+        "datasets": "PARTIAL",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "openai/gpt-4o-2024-11-20",
+    "critic_model": "(none)",
+    "consolidator_model": "(none)",
+    "tokens_in": 7738,
+    "tokens_out": 667,
+    "cost_usd": 0.026015,
+    "wall_time_seconds": 5.065768082858995,
+    "voting_samples": 1
+  }
+}

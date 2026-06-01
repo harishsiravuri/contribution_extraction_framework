@@ -1,0 +1,46 @@
+{
+  "paper_id": "tdmsci:test_500_v2:01387",
+  "contributions": [
+    {
+      "method": {
+        "name": "construction and mining of structured heterogeneous information networks",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 80,
+          "end": 153
+        },
+        "confidence": 0.3333333333333333
+      },
+      "task": {
+        "name": "construction and mining of structured heterogeneous information networks",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 96,
+          "end": 168
+        },
+        "confidence": 0.6666666666666666
+      },
+      "datasets": [],
+      "metrics": [],
+      "claim_strength": null,
+      "comparison_targets": [],
+      "self_consistency": 0.5555555555555556,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 4753,
+    "tokens_out": 1309,
+    "cost_usd": 0.00320978,
+    "wall_time_seconds": 33.84762016613968,
+    "voting_samples": 3
+  }
+}

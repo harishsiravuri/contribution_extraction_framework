@@ -1,0 +1,81 @@
+{
+  "paper_id": "scirex:188123b5afe0d3b59e9e44f33729649536fe6ea6",
+  "contributions": [
+    {
+      "method": {
+        "name": "pseudo-count exploration",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 200,
+          "end": 400
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "exploration in reinforcement learning",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 136,
+          "end": 190
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "Atari 2600",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 247,
+            "end": 258
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "Montezuma's Revenge",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 223,
+            "end": 245
+          },
+          "confidence": 0.67
+        }
+      ],
+      "metrics": [
+        {
+          "name": "score",
+          "value": 6600.0,
+          "unit": "points",
+          "evidence_span": {
+            "start": 11563,
+            "end": 11659
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "MBIE-EB",
+        "A3C",
+        "DQN",
+        "ε-greedy"
+      ],
+      "self_consistency": 0.83,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 38364,
+    "tokens_out": 2850,
+    "cost_usd": 0.01804619,
+    "wall_time_seconds": 69.37466775003122,
+    "voting_samples": 3
+  }
+}

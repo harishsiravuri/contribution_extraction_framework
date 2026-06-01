@@ -1,0 +1,48 @@
+{
+  "paper_id": "arxiv:2605.28150",
+  "contributions": [
+    {
+      "method": {
+        "name": "off-policy learning",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 4,
+          "end": 23
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "reasoning",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 62,
+          "end": 70
+        },
+        "confidence": 1.0
+      },
+      "datasets": [],
+      "metrics": [],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "PPO-style trust-region objectives"
+      ],
+      "self_consistency": 0.8333333333333334,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "UNSUPPORTED",
+        "metrics": "UNSUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 5811,
+    "tokens_out": 1637,
+    "cost_usd": 0.00395827,
+    "wall_time_seconds": 43.59694145806134,
+    "voting_samples": 3
+  }
+}

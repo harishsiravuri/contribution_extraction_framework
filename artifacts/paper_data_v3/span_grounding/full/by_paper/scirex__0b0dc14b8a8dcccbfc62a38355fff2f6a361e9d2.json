@@ -1,0 +1,135 @@
+{
+  "paper_id": "scirex:0b0dc14b8a8dcccbfc62a38355fff2f6a361e9d2",
+  "contributions": [
+    {
+      "method": {
+        "name": "Target-Dependent Long Short-Term Memory (TD-LSTM)",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 1541,
+          "end": 1681
+        },
+        "confidence": 0.5
+      },
+      "task": {
+        "name": "target-dependent sentiment classification",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 27,
+          "end": 84
+        },
+        "confidence": 0.5
+      },
+      "datasets": [
+        {
+          "name": "benchmark dataset from Twitter",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 191,
+            "end": 225
+          },
+          "confidence": 0.5
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 226,
+            "end": 300
+          },
+          "confidence": 0.5
+        },
+        {
+          "name": "macro-F1",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 226,
+            "end": 300
+          },
+          "confidence": 0.5
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "SVM",
+        "Recursive NN",
+        "AdaRNN"
+      ],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "UNSUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "UNSUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    },
+    {
+      "method": {
+        "name": "Target-Connection Long Short-Term Memory (TC-LSTM)",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 2011,
+          "end": 2151
+        },
+        "confidence": 0.5
+      },
+      "task": {
+        "name": "target-dependent sentiment classification",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 27,
+          "end": 84
+        },
+        "confidence": 0.5
+      },
+      "datasets": [
+        {
+          "name": "benchmark dataset from Twitter",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 191,
+            "end": 225
+          },
+          "confidence": 0.5
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 226,
+            "end": 300
+          },
+          "confidence": 0.5
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "TD-LSTM"
+      ],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "UNSUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "UNSUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 23869,
+    "tokens_out": 3551,
+    "cost_usd": 0.0130747,
+    "wall_time_seconds": 106.4804367920151,
+    "voting_samples": 3
+  }
+}

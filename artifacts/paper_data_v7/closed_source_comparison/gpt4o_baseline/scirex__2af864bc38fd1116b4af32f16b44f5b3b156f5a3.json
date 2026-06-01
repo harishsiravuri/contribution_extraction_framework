@@ -1,0 +1,93 @@
+{
+  "paper_id": "scirex:2af864bc38fd1116b4af32f16b44f5b3b156f5a3",
+  "contributions": [
+    {
+      "method": {
+        "name": "Relation Memory Network (RMN)",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 497,
+          "end": 520
+        },
+        "confidence": 0.9
+      },
+      "task": {
+        "name": "Text-based Question Answering",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 89
+        },
+        "confidence": 0.8
+      },
+      "datasets": [
+        {
+          "name": "bAbI story-based QA dataset",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 4515,
+            "end": 4542
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "bAbI dialog dataset",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 4543,
+            "end": 4562
+          },
+          "confidence": 0.9
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy",
+          "value": 95.0,
+          "unit": "%",
+          "evidence_span": {
+            "start": 4625,
+            "end": 4655
+          },
+          "confidence": 0.8
+        },
+        {
+          "name": "Error Rate",
+          "value": null,
+          "unit": "%",
+          "evidence_span": {
+            "start": 12291,
+            "end": 12300
+          },
+          "confidence": 0.7
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Memory Network (MemNN)",
+        "Relation Network (RN)",
+        "MemN2N",
+        "GMemN2N",
+        "DMN",
+        "DMN+"
+      ],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "PARTIAL",
+        "task": "PARTIAL",
+        "datasets": "PARTIAL",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "openai/gpt-4o-2024-11-20",
+    "critic_model": "(none)",
+    "consolidator_model": "(none)",
+    "tokens_in": 5204,
+    "tokens_out": 443,
+    "cost_usd": 0.01744,
+    "wall_time_seconds": 3.205770625034347,
+    "voting_samples": 1
+  }
+}

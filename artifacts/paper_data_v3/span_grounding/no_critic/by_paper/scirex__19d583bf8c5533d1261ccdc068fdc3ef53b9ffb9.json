@@ -1,0 +1,89 @@
+{
+  "paper_id": "scirex:19d583bf8c5533d1261ccdc068fdc3ef53b9ffb9",
+  "contributions": [
+    {
+      "method": {
+        "name": "FaceNet",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 60,
+          "end": 68
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "face recognition",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 76,
+          "end": 83
+        },
+        "confidence": 0.6666666666666666
+      },
+      "datasets": [
+        {
+          "name": "Labeled Faces in the Wild (LFW)",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 508,
+            "end": 535
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "YouTube Faces DB",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 537,
+            "end": 554
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": 99.63,
+          "unit": "%",
+          "evidence_span": {
+            "start": 508,
+            "end": 535
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "accuracy",
+          "value": 95.12,
+          "unit": "%",
+          "evidence_span": {
+            "start": 537,
+            "end": 554
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "DeepFace",
+        "DeepId2+"
+      ],
+      "self_consistency": 0.875,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "PARTIAL",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "(none)",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 21616,
+    "tokens_out": 1771,
+    "cost_usd": 0.0090296,
+    "wall_time_seconds": 53.6557443329948,
+    "voting_samples": 3
+  }
+}

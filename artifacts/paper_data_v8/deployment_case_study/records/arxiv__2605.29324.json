@@ -1,0 +1,79 @@
+{
+  "paper_id": "arxiv:2605.29324",
+  "contributions": [
+    {
+      "method": {
+        "name": "STAMP",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 384,
+          "end": 389
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "mobile GUI navigation",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 25
+        },
+        "confidence": 0.6666666666666666
+      },
+      "datasets": [
+        {
+          "name": "Memory-World",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 661,
+            "end": 673
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "memory accuracy",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 813,
+            "end": 829
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "task resilience",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 801,
+            "end": 815
+          },
+          "confidence": 0.6666666666666666
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "GUI-specialized models"
+      ],
+      "self_consistency": 0.875,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "PARTIAL",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 6393,
+    "tokens_out": 2094,
+    "cost_usd": 0.00466034,
+    "wall_time_seconds": 71.34695383301005,
+    "voting_samples": 3
+  }
+}

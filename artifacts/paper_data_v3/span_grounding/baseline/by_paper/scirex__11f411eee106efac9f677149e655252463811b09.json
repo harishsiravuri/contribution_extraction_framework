@@ -1,0 +1,148 @@
+{
+  "paper_id": "scirex:11f411eee106efac9f677149e655252463811b09",
+  "contributions": [
+    {
+      "method": {
+        "name": "Mode Seeking GANs (MSGANs)",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 1287,
+          "end": 1409
+        },
+        "confidence": 0.9
+      },
+      "task": {
+        "name": "conditional image synthesis",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 134,
+          "end": 180
+        },
+        "confidence": 0.9
+      },
+      "datasets": [
+        {
+          "name": "CIFAR-10",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1994,
+            "end": 2005
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "facades",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2033,
+            "end": 2042
+          },
+          "confidence": 0.8
+        },
+        {
+          "name": "maps",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2047,
+            "end": 2053
+          },
+          "confidence": 0.8
+        },
+        {
+          "name": "Yosemite",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2058,
+            "end": 2068
+          },
+          "confidence": 0.8
+        },
+        {
+          "name": "cat dog",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2073,
+            "end": 2082
+          },
+          "confidence": 0.8
+        },
+        {
+          "name": "CUB-200-2011",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2097,
+            "end": 2112
+          },
+          "confidence": 0.8
+        }
+      ],
+      "metrics": [
+        {
+          "name": "FID",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 1798,
+            "end": 1801
+          },
+          "confidence": 0.8
+        },
+        {
+          "name": "LPIPS",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 1809,
+            "end": 1816
+          },
+          "confidence": 0.8
+        },
+        {
+          "name": "NDB",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 1826,
+            "end": 1829
+          },
+          "confidence": 0.8
+        },
+        {
+          "name": "JSD",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 1834,
+            "end": 1837
+          },
+          "confidence": 0.8
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "DCGAN",
+        "Pix2Pix",
+        "DRIT",
+        "StackGAN++",
+        "BicycleGAN"
+      ],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "PARTIAL",
+        "task": "PARTIAL",
+        "datasets": "PARTIAL",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "(none)",
+    "consolidator_model": "(none)",
+    "tokens_in": 5483,
+    "tokens_out": 684,
+    "cost_usd": 0.0023633200000000004,
+    "wall_time_seconds": 18.942888625024352,
+    "voting_samples": 1
+  }
+}

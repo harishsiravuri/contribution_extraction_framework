@@ -1,0 +1,105 @@
+{
+  "paper_id": "arxiv:2605.29184",
+  "contributions": [
+    {
+      "method": {
+        "name": "Influence-Guided Symbolic Regression (IGSR)",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 235,
+          "end": 279
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "symbolic regression",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 130,
+          "end": 146
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "LLM-SRBench",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 699,
+            "end": 711
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "pharmacological PKPD models",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 713,
+            "end": 742
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "epidemiological simulation",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 744,
+            "end": 769
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "real-world genomic data",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 771,
+            "end": 792
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "high-dimensional biological dataset",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 895,
+            "end": 929
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "generalization accuracy",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 457,
+            "end": 478
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Current methods"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 10985,
+    "tokens_out": 5225,
+    "cost_usd": 0.00992758,
+    "wall_time_seconds": 83.38066425011493,
+    "voting_samples": 3
+  }
+}

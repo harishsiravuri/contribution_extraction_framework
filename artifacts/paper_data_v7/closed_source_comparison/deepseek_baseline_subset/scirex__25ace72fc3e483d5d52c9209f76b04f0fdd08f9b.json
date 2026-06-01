@@ -1,0 +1,117 @@
+{
+  "paper_id": "scirex:25ace72fc3e483d5d52c9209f76b04f0fdd08f9b",
+  "contributions": [
+    {
+      "method": {
+        "name": "Fused Text Segmentation Networks (FTSN)",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 28,
+          "end": 75
+        },
+        "confidence": 0.9
+      },
+      "task": {
+        "name": "multi-oriented scene text detection",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 76,
+          "end": 115
+        },
+        "confidence": 0.9
+      },
+      "datasets": [
+        {
+          "name": "ICDAR2015 Incidental Scene Text",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 413,
+            "end": 447
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "MSRA-TD500",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 448,
+            "end": 458
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "Total-Text dataset",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 505,
+            "end": 521
+          },
+          "confidence": 0.9
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Hmean",
+          "value": 84.1,
+          "unit": "%",
+          "evidence_span": {
+            "start": 434,
+            "end": 442
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "Hmean",
+          "value": 82.0,
+          "unit": "%",
+          "evidence_span": {
+            "start": 477,
+            "end": 483
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "FPS",
+          "value": 4.0,
+          "unit": null,
+          "evidence_span": {
+            "start": 7763,
+            "end": 7765
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "FPS",
+          "value": 2.5,
+          "unit": null,
+          "evidence_span": {
+            "start": 7782,
+            "end": 7785
+          },
+          "confidence": 0.9
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "previous state of art published methods"
+      ],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "PARTIAL",
+        "task": "PARTIAL",
+        "datasets": "PARTIAL",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "(none)",
+    "consolidator_model": "(none)",
+    "tokens_in": 3906,
+    "tokens_out": 605,
+    "cost_usd": 0.00178837,
+    "wall_time_seconds": 19.655183875001967,
+    "voting_samples": 1
+  }
+}

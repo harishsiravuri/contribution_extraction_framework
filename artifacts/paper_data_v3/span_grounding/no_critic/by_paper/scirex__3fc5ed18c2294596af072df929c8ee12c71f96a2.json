@@ -1,0 +1,97 @@
+{
+  "paper_id": "scirex:3fc5ed18c2294596af072df929c8ee12c71f96a2",
+  "contributions": [
+    {
+      "method": {
+        "name": "sequence-level training",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 200
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "machine translation",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 200
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "IWSLT’14 German-English",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 200,
+            "end": 300
+          },
+          "confidence": 0.6666666666666666
+        },
+        {
+          "name": "WMT’14 English-French",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 200,
+            "end": 300
+          },
+          "confidence": 0.6666666666666666
+        },
+        {
+          "name": "Gigaword",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 200,
+            "end": 300
+          },
+          "confidence": 0.3333333333333333
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 41.5,
+          "unit": null,
+          "evidence_span": {
+            "start": 200,
+            "end": 300
+          },
+          "confidence": 0.6666666666666666
+        },
+        {
+          "name": "ROUGE-1",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 200,
+            "end": 300
+          },
+          "confidence": 0.3333333333333333
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "beam search optimization"
+      ],
+      "self_consistency": 0.875,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "PARTIAL",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "(none)",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 22569,
+    "tokens_out": 2590,
+    "cost_usd": 0.01026326,
+    "wall_time_seconds": 140.3040973339812,
+    "voting_samples": 3
+  }
+}

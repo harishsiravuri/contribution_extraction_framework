@@ -1,0 +1,143 @@
+{
+  "paper_id": "arxiv:2605.28340",
+  "contributions": [
+    {
+      "method": {
+        "name": "decision-focused learning with LSTM",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 191,
+          "end": 240
+        },
+        "confidence": 0.5
+      },
+      "task": {
+        "name": "optimal PV-Battery scheduling",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 133,
+          "end": 170
+        },
+        "confidence": 0.5
+      },
+      "datasets": [
+        {
+          "name": "residential PV-battery data from twenty buildings",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 653,
+            "end": 682
+          },
+          "confidence": 0.5
+        }
+      ],
+      "metrics": [
+        {
+          "name": "electricity cost reduction",
+          "value": 3.6,
+          "unit": "percentage",
+          "evidence_span": {
+            "start": 612,
+            "end": 697
+          },
+          "confidence": 0.5
+        },
+        {
+          "name": "RMSE",
+          "value": 19.9,
+          "unit": "percentage",
+          "evidence_span": {
+            "start": 803,
+            "end": 833
+          },
+          "confidence": 0.5
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "standard two-phase approach"
+      ],
+      "self_consistency": 0.75,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    },
+    {
+      "method": {
+        "name": "warm-started decision-focused learning with LSTM",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 884,
+          "end": 924
+        },
+        "confidence": 0.5
+      },
+      "task": {
+        "name": "optimal PV-Battery scheduling",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 133,
+          "end": 170
+        },
+        "confidence": 0.5
+      },
+      "datasets": [
+        {
+          "name": "residential PV-battery data from twenty buildings",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 653,
+            "end": 682
+          },
+          "confidence": 0.5
+        }
+      ],
+      "metrics": [
+        {
+          "name": "electricity cost reduction",
+          "value": 8.0,
+          "unit": "percentage",
+          "evidence_span": {
+            "start": 927,
+            "end": 970
+          },
+          "confidence": 0.5
+        },
+        {
+          "name": "RMSE",
+          "value": 13.7,
+          "unit": "percentage",
+          "evidence_span": {
+            "start": 1021,
+            "end": 1049
+          },
+          "confidence": 0.5
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "standard two-phase approach"
+      ],
+      "self_consistency": 0.75,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 12160,
+    "tokens_out": 6348,
+    "cost_usd": 0.01148983,
+    "wall_time_seconds": 172.45670112478547,
+    "voting_samples": 3
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "paper_id": "scirex:44078d0daed8b13114cffb15b368acc467f96351",
+  "contributions": [
+    {
+      "method": {
+        "name": "triplet probability embedding",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 1556,
+          "end": 1581
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "face verification",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 105,
+          "end": 125
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "cfp",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1945,
+            "end": 1948
+          },
+          "confidence": 0.5
+        },
+        {
+          "name": "ijb-a",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1764,
+            "end": 1767
+          },
+          "confidence": 0.5
+        }
+      ],
+      "metrics": [
+        {
+          "name": "tar",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 2831,
+            "end": 2834
+          },
+          "confidence": 0.5
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [],
+      "self_consistency": 0.875,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "UNSUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "harishsiravuri_e088/Meta-Llama-3.1-70B-Instruct-Reference-scirex-v6-70b-7cecddd1-66437b32",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 14617,
+    "tokens_out": 1420,
+    "cost_usd": 0.00906212,
+    "wall_time_seconds": 41.65910041681491,
+    "voting_samples": 1
+  }
+}

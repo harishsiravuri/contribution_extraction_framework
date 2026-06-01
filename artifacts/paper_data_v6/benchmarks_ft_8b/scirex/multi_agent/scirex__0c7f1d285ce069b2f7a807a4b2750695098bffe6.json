@@ -1,0 +1,67 @@
+{
+  "paper_id": "scirex:0c7f1d285ce069b2f7a807a4b2750695098bffe6",
+  "contributions": [
+    {
+      "method": {
+        "name": "planetoid-i",
+        "canonical_id": null,
+        "evidence_span": null,
+        "confidence": 0.33
+      },
+      "task": {
+        "name": "node classification",
+        "canonical_id": null,
+        "evidence_span": null,
+        "confidence": 0.33
+      },
+      "datasets": [
+        {
+          "name": "citeseer",
+          "canonical_id": null,
+          "evidence_span": null,
+          "confidence": 0.33
+        },
+        {
+          "name": "cora",
+          "canonical_id": null,
+          "evidence_span": null,
+          "confidence": 0.33
+        },
+        {
+          "name": "pubmed",
+          "canonical_id": null,
+          "evidence_span": null,
+          "confidence": 0.33
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": null,
+          "unit": null,
+          "evidence_span": null,
+          "confidence": 0.33
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [],
+      "self_consistency": 0.33,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "harishsiravuri_e088/Meta-Llama-3.1-8B-Instruct-Reference-scirex-v6-bf594110-52031aad",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 28502,
+    "tokens_out": 2912,
+    "cost_usd": 0.016984649999999997,
+    "wall_time_seconds": 57.593557792017236,
+    "voting_samples": 3
+  }
+}

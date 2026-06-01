@@ -1,0 +1,108 @@
+{
+  "paper_id": "scirex:1efdad6f91e830fd64306e4625f74191b05ef9c4",
+  "contributions": [
+    {
+      "method": {
+        "name": "Patchy-san",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 309,
+          "end": 317
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "graph classification",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 4658,
+          "end": 4674
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "MUTAG",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 4658,
+            "end": 4664
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "PTC",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 4667,
+            "end": 4670
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "NCI1",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 4676,
+            "end": 4680
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "PROTEIN",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 4687,
+            "end": 4695
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "D&D",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 4702,
+            "end": 4705
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 4476,
+            "end": 4484
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "shortest-path kernel",
+        "random walk kernel",
+        "graphlet count kernel",
+        "Weisfeiler-Lehman subtree kernel"
+      ],
+      "self_consistency": 0.8,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 37721,
+    "tokens_out": 6897,
+    "cost_usd": 0.02225045,
+    "wall_time_seconds": 102.84400591702433,
+    "voting_samples": 3
+  }
+}

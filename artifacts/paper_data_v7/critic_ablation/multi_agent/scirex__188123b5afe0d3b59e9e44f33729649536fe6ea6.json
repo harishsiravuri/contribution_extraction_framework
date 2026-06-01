@@ -1,0 +1,81 @@
+{
+  "paper_id": "scirex:188123b5afe0d3b59e9e44f33729649536fe6ea6",
+  "contributions": [
+    {
+      "method": {
+        "name": "pseudo-count exploration",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 123,
+          "end": 267
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "reinforcement learning",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 141,
+          "end": 209
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "Atari 2600",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 312,
+            "end": 324
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "score",
+          "value": 6600.0,
+          "unit": "points",
+          "evidence_span": {
+            "start": 2234,
+            "end": 2270
+          },
+          "confidence": 0.6
+        },
+        {
+          "name": "rooms explored",
+          "value": 15.0,
+          "unit": "rooms",
+          "evidence_span": {
+            "start": 2234,
+            "end": 2270
+          },
+          "confidence": 0.6
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "MBIE-EB",
+        "A3C",
+        "DQN"
+      ],
+      "self_consistency": 0.875,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "DISABLED (E2 critic-off ablation)",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 30025,
+    "tokens_out": 2384,
+    "cost_usd": 0.012552230000000001,
+    "wall_time_seconds": 29.303007625043392,
+    "voting_samples": 3
+  }
+}

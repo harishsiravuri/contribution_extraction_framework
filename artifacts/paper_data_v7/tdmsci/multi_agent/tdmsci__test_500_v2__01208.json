@@ -1,0 +1,67 @@
+{
+  "paper_id": "tdmsci:test_500_v2:01208",
+  "contributions": [
+    {
+      "method": {
+        "name": "stack-LSTM",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 7,
+          "end": 16
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "constituency parsing",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 42,
+          "end": 61
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "WSJ",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 80,
+            "end": 83
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 91.8,
+          "unit": null,
+          "evidence_span": {
+            "start": 72,
+            "end": 80
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": null,
+      "comparison_targets": [],
+      "self_consistency": 1.0,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 4901,
+    "tokens_out": 1531,
+    "cost_usd": 0.00349383,
+    "wall_time_seconds": 36.84517445904203,
+    "voting_samples": 3
+  }
+}

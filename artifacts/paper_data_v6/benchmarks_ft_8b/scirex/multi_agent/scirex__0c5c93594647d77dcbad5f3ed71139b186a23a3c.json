@@ -1,0 +1,67 @@
+{
+  "paper_id": "scirex:0c5c93594647d77dcbad5f3ed71139b186a23a3c",
+  "contributions": [
+    {
+      "method": {
+        "name": "groundhog",
+        "canonical_id": null,
+        "evidence_span": null,
+        "confidence": 0.75
+      },
+      "task": {
+        "name": "machine translation",
+        "canonical_id": null,
+        "evidence_span": null,
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "iwslt2015 english-german",
+          "canonical_id": null,
+          "evidence_span": null,
+          "confidence": 0.25
+        },
+        {
+          "name": "iwslt2015 turkish-english",
+          "canonical_id": null,
+          "evidence_span": null,
+          "confidence": 0.25
+        },
+        {
+          "name": "wmt2015 english-german",
+          "canonical_id": null,
+          "evidence_span": null,
+          "confidence": 0.25
+        }
+      ],
+      "metrics": [
+        {
+          "name": "bleu",
+          "value": null,
+          "unit": null,
+          "evidence_span": null,
+          "confidence": 0.75
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [],
+      "self_consistency": 0.875,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "UNSUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "harishsiravuri_e088/Meta-Llama-3.1-8B-Instruct-Reference-scirex-v6-bf594110-52031aad",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 31042,
+    "tokens_out": 2554,
+    "cost_usd": 0.018050860000000002,
+    "wall_time_seconds": 40.773561333015095,
+    "voting_samples": 3
+  }
+}

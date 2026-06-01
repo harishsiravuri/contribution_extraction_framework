@@ -1,0 +1,100 @@
+{
+  "paper_id": "scirex:4592364a6c1eb227ffb3cbb6bb9f4e6431e89f2f",
+  "contributions": [
+    {
+      "method": {
+        "name": "Relation Network (RN)",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 41,
+          "end": 61
+        },
+        "confidence": 0.9
+      },
+      "task": {
+        "name": "few-shot learning",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 17,
+          "end": 37
+        },
+        "confidence": 0.9
+      },
+      "datasets": [
+        {
+          "name": "Omniglot",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 869,
+            "end": 878
+          },
+          "confidence": 0.8
+        },
+        {
+          "name": "mini ImageNet",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 919,
+            "end": 931
+          },
+          "confidence": 0.8
+        },
+        {
+          "name": "Animals with Attributes (AwA)",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1115,
+            "end": 1139
+          },
+          "confidence": 0.8
+        },
+        {
+          "name": "Caltech-UCSD Birds-200-2011 (CUB)",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1142,
+            "end": 1177
+          },
+          "confidence": 0.8
+        }
+      ],
+      "metrics": [
+        {
+          "name": "classification accuracy",
+          "value": null,
+          "unit": "percentage",
+          "evidence_span": {
+            "start": 1039,
+            "end": 1093
+          },
+          "confidence": 0.7
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Prototypical Networks",
+        "Siamese Networks",
+        "Matching Networks",
+        "MANN",
+        "MAML"
+      ],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "PARTIAL",
+        "task": "PARTIAL",
+        "datasets": "PARTIAL",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "(none)",
+    "consolidator_model": "(none)",
+    "tokens_in": 6600,
+    "tokens_out": 506,
+    "cost_usd": 0.00256234,
+    "wall_time_seconds": 22.62692904198775,
+    "voting_samples": 1
+  }
+}

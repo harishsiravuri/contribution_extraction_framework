@@ -1,0 +1,101 @@
+{
+  "paper_id": "scirex:027d6c52be01b583b9a0d9eb8c9364c6b701c656",
+  "contributions": [
+    {
+      "method": {
+        "name": "Layer-Sequential Unit-Variance (LSUV) initialization",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 41,
+          "end": 132
+        },
+        "confidence": 0.8
+      },
+      "task": {
+        "name": "image classification",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 513,
+          "end": 527
+        },
+        "confidence": 0.8
+      },
+      "datasets": [
+        {
+          "name": "MNIST",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2753,
+            "end": 2758
+          },
+          "confidence": 0.6
+        },
+        {
+          "name": "CIFAR-10",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 3213,
+            "end": 3220
+          },
+          "confidence": 0.6
+        },
+        {
+          "name": "CIFAR-100",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 3213,
+            "end": 3220
+          },
+          "confidence": 0.6
+        },
+        {
+          "name": "ImageNet",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 6768,
+            "end": 6776
+          },
+          "confidence": 0.8
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": 0.68,
+          "unit": null,
+          "evidence_span": {
+            "start": 358,
+            "end": 373
+          },
+          "confidence": 0.4
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "orthonormal initialization",
+        "Hints initialization",
+        "batch normalization",
+        "Large-All-CNN",
+        "Fractional Max-pooling",
+        "standard initialization"
+      ],
+      "self_consistency": 0.7,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "(none)",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 17950,
+    "tokens_out": 4072,
+    "cost_usd": 0.01038511,
+    "wall_time_seconds": 58.61248750000959,
+    "voting_samples": 3
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "paper_id": "scirex:2347efd31b723a636902ccaa7b5bc351788e793f",
+  "contributions": [
+    {
+      "method": {
+        "name": "attentive character-level composition",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 24,
+          "end": 43
+        },
+        "confidence": 0.6
+      },
+      "task": {
+        "name": "named entity recognition",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 191,
+          "end": 212
+        },
+        "confidence": 0.6
+      },
+      "datasets": [
+        {
+          "name": "conll 2003",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 3441,
+            "end": 3453
+          },
+          "confidence": 0.4
+        },
+        {
+          "name": "penn treebank",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 3513,
+            "end": 3527
+          },
+          "confidence": 0.2
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": null,
+          "unit": null,
+          "evidence_span": null,
+          "confidence": 0.2
+        },
+        {
+          "name": "f1",
+          "value": null,
+          "unit": null,
+          "evidence_span": null,
+          "confidence": 0.2
+        },
+        {
+          "name": "precision",
+          "value": null,
+          "unit": null,
+          "evidence_span": null,
+          "confidence": 0.2
+        },
+        {
+          "name": "recall",
+          "value": null,
+          "unit": null,
+          "evidence_span": null,
+          "confidence": 0.2
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [],
+      "self_consistency": 0.43,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "UNSUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "harishsiravuri_e088/Meta-Llama-3.1-8B-Instruct-Reference-scirex-v6-bf594110-52031aad",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 25047,
+    "tokens_out": 3047,
+    "cost_usd": 0.015329979999999998,
+    "wall_time_seconds": 152.19646333402488,
+    "voting_samples": 3
+  }
+}

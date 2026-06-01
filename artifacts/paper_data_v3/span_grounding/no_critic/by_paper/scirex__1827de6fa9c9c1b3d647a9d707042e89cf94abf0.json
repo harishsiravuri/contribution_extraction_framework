@@ -1,0 +1,88 @@
+{
+  "paper_id": "scirex:1827de6fa9c9c1b3d647a9d707042e89cf94abf0",
+  "contributions": [
+    {
+      "method": {
+        "name": "Batch Normalization",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 185
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "image classification",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 754,
+          "end": 786
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "ImageNet",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 923,
+            "end": 931
+          },
+          "confidence": 0.75
+        },
+        {
+          "name": "MNIST",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2897,
+            "end": 2902
+          },
+          "confidence": 0.25
+        }
+      ],
+      "metrics": [
+        {
+          "name": "top-5 error rate",
+          "value": 4.9,
+          "unit": "%",
+          "evidence_span": {
+            "start": 923,
+            "end": 971
+          },
+          "confidence": 0.75
+        },
+        {
+          "name": "accuracy",
+          "value": 74.8,
+          "unit": "%",
+          "evidence_span": {
+            "start": 3344,
+            "end": 3376
+          },
+          "confidence": 0.5
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Inception"
+      ],
+      "self_consistency": 0.875,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "PARTIAL",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "(none)",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 25815,
+    "tokens_out": 2684,
+    "cost_usd": 0.01139364,
+    "wall_time_seconds": 49.32639037503395,
+    "voting_samples": 3
+  }
+}

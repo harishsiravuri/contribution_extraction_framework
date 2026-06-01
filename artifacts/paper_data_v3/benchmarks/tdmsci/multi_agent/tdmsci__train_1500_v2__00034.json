@@ -1,0 +1,73 @@
+{
+  "paper_id": "tdmsci:train_1500_v2:00034",
+  "contributions": [
+    {
+      "method": {
+        "name": "AD",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 31,
+          "end": 33
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": null,
+        "canonical_id": null,
+        "evidence_span": null,
+        "confidence": 0.0
+      },
+      "datasets": [
+        {
+          "name": "posts on evolution",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 84,
+            "end": 102
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "posts on gay marriage",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 107,
+            "end": 128
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": 80.3,
+          "unit": "%",
+          "evidence_span": {
+            "start": 65,
+            "end": 71
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [],
+      "self_consistency": 0.8333333333333334,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "UNSUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 5962,
+    "tokens_out": 2538,
+    "cost_usd": 0.004938430000000001,
+    "wall_time_seconds": 59.982020333991386,
+    "voting_samples": 3
+  }
+}

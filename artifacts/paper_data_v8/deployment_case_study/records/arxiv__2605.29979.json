@@ -1,0 +1,64 @@
+{
+  "paper_id": "arxiv:2605.29979",
+  "contributions": [
+    {
+      "method": {
+        "name": "fingerprinting method",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 386,
+          "end": 404
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "inference system identification",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 386,
+          "end": 404
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": null,
+          "canonical_id": null,
+          "evidence_span": null,
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "reliability",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 468,
+            "end": 476
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "novel",
+      "comparison_targets": [],
+      "self_consistency": 1.0,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 6020,
+    "tokens_out": 1852,
+    "cost_usd": 0.004256940000000001,
+    "wall_time_seconds": 38.29327412508428,
+    "voting_samples": 3
+  }
+}

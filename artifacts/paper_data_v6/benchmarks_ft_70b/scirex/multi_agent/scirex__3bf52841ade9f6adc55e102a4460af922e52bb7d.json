@@ -1,0 +1,68 @@
+{
+  "paper_id": "scirex:3bf52841ade9f6adc55e102a4460af922e52bb7d",
+  "contributions": [
+    {
+      "method": {
+        "name": "convolutional draw",
+        "canonical_id": null,
+        "evidence_span": null,
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "image generation",
+        "canonical_id": null,
+        "evidence_span": null,
+        "confidence": 0.67
+      },
+      "datasets": [
+        {
+          "name": "cifar-10",
+          "canonical_id": null,
+          "evidence_span": null,
+          "confidence": 0.67
+        },
+        {
+          "name": "omniglot",
+          "canonical_id": null,
+          "evidence_span": null,
+          "confidence": 0.67
+        }
+      ],
+      "metrics": [
+        {
+          "name": "log likelihood",
+          "value": null,
+          "unit": null,
+          "evidence_span": null,
+          "confidence": 0.67
+        },
+        {
+          "name": "bits per dimension",
+          "value": null,
+          "unit": null,
+          "evidence_span": null,
+          "confidence": 0.33
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [],
+      "self_consistency": 0.73,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "harishsiravuri_e088/Meta-Llama-3.1-70B-Instruct-Reference-scirex-v6-70b-7cecddd1-66437b32",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 29845,
+    "tokens_out": 2355,
+    "cost_usd": 0.017297649999999998,
+    "wall_time_seconds": 57.5230406250339,
+    "voting_samples": 3
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "paper_id": "tdmsci:train_1500_v2:00029",
+  "contributions": [
+    {
+      "method": {
+        "name": null,
+        "canonical_id": null,
+        "evidence_span": null,
+        "confidence": 0.0
+      },
+      "task": {
+        "name": "Frame identification",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 12,
+          "end": 34
+        },
+        "confidence": 0.8
+      },
+      "datasets": [
+        {
+          "name": "PropBank",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 35,
+            "end": 43
+          },
+          "confidence": 0.8
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 44,
+            "end": 52
+          },
+          "confidence": 0.9
+        }
+      ],
+      "claim_strength": null,
+      "comparison_targets": [],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "PARTIAL",
+        "task": "PARTIAL",
+        "datasets": "PARTIAL",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "(none)",
+    "consolidator_model": "(none)",
+    "tokens_in": 549,
+    "tokens_out": 253,
+    "cost_usd": 0.00040085,
+    "wall_time_seconds": 7.235167625010945,
+    "voting_samples": 1
+  }
+}

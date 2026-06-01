@@ -1,0 +1,67 @@
+{
+  "paper_id": "tdmsci:test_500_v2:01413",
+  "contributions": [
+    {
+      "method": {
+        "name": "simple pre-ordering method",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 30,
+          "end": 55
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "machine translation",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 22
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "NTCIR-9 patent",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 101,
+            "end": 119
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "human evaluation",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 69,
+            "end": 87
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": null,
+      "comparison_targets": [],
+      "self_consistency": 0.8333333333333334,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "PARTIAL",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 4920,
+    "tokens_out": 1430,
+    "cost_usd": 0.00342225,
+    "wall_time_seconds": 30.578403874998912,
+    "voting_samples": 3
+  }
+}

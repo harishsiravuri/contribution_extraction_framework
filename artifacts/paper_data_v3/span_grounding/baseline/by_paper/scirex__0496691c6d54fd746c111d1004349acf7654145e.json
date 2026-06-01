@@ -1,0 +1,107 @@
+{
+  "paper_id": "scirex:0496691c6d54fd746c111d1004349acf7654145e",
+  "contributions": [
+    {
+      "method": {
+        "name": "Generative Adversarial Networks with energy estimates",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 31,
+          "end": 114
+        },
+        "confidence": 0.9
+      },
+      "task": {
+        "name": "energy estimation for generative models",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 31,
+          "end": 114
+        },
+        "confidence": 0.9
+      },
+      "datasets": [
+        {
+          "name": "synthetic datasets (Gaussian mixtures, spirals)",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 5467,
+            "end": 5543
+          },
+          "confidence": 0.8
+        },
+        {
+          "name": "NIST digits",
+          "canonical_id": "NIST",
+          "evidence_span": {
+            "start": 6943,
+            "end": 6954
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "CIFAR-10",
+          "canonical_id": "CIFAR-10",
+          "evidence_span": {
+            "start": 8123,
+            "end": 8131
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "CelebA",
+          "canonical_id": "CelebA",
+          "evidence_span": {
+            "start": 8135,
+            "end": 8141
+          },
+          "confidence": 0.9
+        }
+      ],
+      "metrics": [
+        {
+          "name": "KL divergence",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 7906,
+            "end": 7939
+          },
+          "confidence": 0.8
+        },
+        {
+          "name": "Inception score",
+          "value": 7.07,
+          "unit": null,
+          "evidence_span": {
+            "start": 8284,
+            "end": 8342
+          },
+          "confidence": 0.9
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "original GAN",
+        "energy-based GAN (EBGAN)"
+      ],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "PARTIAL",
+        "task": "PARTIAL",
+        "datasets": "PARTIAL",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "(none)",
+    "consolidator_model": "(none)",
+    "tokens_in": 9014,
+    "tokens_out": 613,
+    "cost_usd": 0.00343005,
+    "wall_time_seconds": 17.990331124980003,
+    "voting_samples": 1
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "paper_id": "tdmsci:train_1500_v2:00008",
+  "contributions": [
+    {
+      "method": {
+        "name": null,
+        "canonical_id": null,
+        "evidence_span": null,
+        "confidence": 0.0
+      },
+      "task": {
+        "name": "predicate identification",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 27,
+          "end": 49
+        },
+        "confidence": 0.8
+      },
+      "datasets": [],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 0,
+            "end": 2
+          },
+          "confidence": 0.9
+        }
+      ],
+      "claim_strength": null,
+      "comparison_targets": [],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "PARTIAL",
+        "task": "PARTIAL",
+        "datasets": "PARTIAL",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "(none)",
+    "consolidator_model": "(none)",
+    "tokens_in": 557,
+    "tokens_out": 214,
+    "cost_usd": 0.0003687,
+    "wall_time_seconds": 6.770288124971557,
+    "voting_samples": 1
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "paper_id": "scirex:33bcc97b605f00145098d095be2841a1fa6b9a95",
+  "contributions": [
+    {
+      "method": {
+        "name": "order-embeddings",
+        "canonical_id": null,
+        "evidence_span": null,
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "hypernym prediction",
+        "canonical_id": null,
+        "evidence_span": null,
+        "confidence": 0.14285714285714285
+      },
+      "datasets": [
+        {
+          "name": "WordNet",
+          "canonical_id": null,
+          "evidence_span": null,
+          "confidence": 0.14285714285714285
+        },
+        {
+          "name": "Microsoft COCO",
+          "canonical_id": null,
+          "evidence_span": null,
+          "confidence": 0.7142857142857143
+        },
+        {
+          "name": "SNLI",
+          "canonical_id": null,
+          "evidence_span": null,
+          "confidence": 0.14285714285714285
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Recall@1",
+          "value": 46.7,
+          "unit": null,
+          "evidence_span": null,
+          "confidence": 0.2857142857142857
+        },
+        {
+          "name": "Recall@10",
+          "value": 88.9,
+          "unit": null,
+          "evidence_span": null,
+          "confidence": 0.14285714285714285
+        },
+        {
+          "name": "median rank",
+          "value": 2.0,
+          "unit": null,
+          "evidence_span": null,
+          "confidence": 0.14285714285714285
+        },
+        {
+          "name": "mean rank",
+          "value": 5.7,
+          "unit": null,
+          "evidence_span": null,
+          "confidence": 0.14285714285714285
+        },
+        {
+          "name": "accuracy",
+          "value": null,
+          "unit": null,
+          "evidence_span": null,
+          "confidence": 0.14285714285714285
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "transitive closure baseline",
+        "word2gauss",
+        "bilinear",
+        "MNLM",
+        "m-RNN",
+        "DVSA",
+        "STV",
+        "FV",
+        "m-CNN",
+        "skip-thought baseline"
+      ],
+      "self_consistency": 0.47619047619047616,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "openai/gpt-5",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 46656,
+    "tokens_out": 25901,
+    "cost_usd": 0.22776137,
+    "wall_time_seconds": 194.75040733302012,
+    "voting_samples": 3
+  }
+}

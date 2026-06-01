@@ -1,0 +1,98 @@
+{
+  "paper_id": "scirex:2315fc6c2c0c4abd2443e26a26e7bb86df8e24cc",
+  "contributions": [
+    {
+      "method": {
+        "name": "Deep Convolutional Neural Network (AlexNet)",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 123
+        },
+        "confidence": 0.9
+      },
+      "task": {
+        "name": "Image Classification",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 123
+        },
+        "confidence": 0.9
+      },
+      "datasets": [
+        {
+          "name": "ImageNet LSVRC-2010",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 124,
+            "end": 186
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "ImageNet LSVRC-2012",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 124,
+            "end": 186
+          },
+          "confidence": 0.9
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Top-1 Error Rate",
+          "value": 37.5,
+          "unit": "%",
+          "evidence_span": {
+            "start": 187,
+            "end": 243
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "Top-5 Error Rate",
+          "value": 17.0,
+          "unit": "%",
+          "evidence_span": {
+            "start": 187,
+            "end": 243
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "Top-5 Error Rate (ILSVRC-2012)",
+          "value": 15.3,
+          "unit": "%",
+          "evidence_span": {
+            "start": 187,
+            "end": 243
+          },
+          "confidence": 0.9
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Previous state-of-the-art methods on ImageNet LSVRC-2010 and LSVRC-2012"
+      ],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "PARTIAL",
+        "task": "PARTIAL",
+        "datasets": "PARTIAL",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "openai/gpt-4o-2024-11-20",
+    "critic_model": "(none)",
+    "consolidator_model": "(none)",
+    "tokens_in": 7049,
+    "tokens_out": 503,
+    "cost_usd": 0.0226525,
+    "wall_time_seconds": 3.0757116249296814,
+    "voting_samples": 1
+  }
+}

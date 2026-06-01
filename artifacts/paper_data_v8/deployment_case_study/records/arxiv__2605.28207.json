@@ -1,0 +1,87 @@
+{
+  "paper_id": "arxiv:2605.28207",
+  "contributions": [
+    {
+      "method": {
+        "name": "MoE-to-dense conversion",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 155,
+          "end": 170
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "language modeling",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 9,
+          "end": 25
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "Qwen3-30B-A3B",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 445,
+            "end": 457
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "DeepSeek-V2-Lite",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 535,
+            "end": 551
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "GPT-OSS-20B",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 554,
+            "end": 566
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": 6.3,
+          "unit": "percentage points",
+          "evidence_span": {
+            "start": 625,
+            "end": 636
+          },
+          "confidence": 0.6666666666666666
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "dense-to-dense pruning"
+      ],
+      "self_consistency": 0.9444444444444444,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 7257,
+    "tokens_out": 2861,
+    "cost_usd": 0.0057794000000000005,
+    "wall_time_seconds": 37.30991895799525,
+    "voting_samples": 3
+  }
+}

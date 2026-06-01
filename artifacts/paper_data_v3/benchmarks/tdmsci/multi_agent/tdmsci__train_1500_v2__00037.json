@@ -1,0 +1,65 @@
+{
+  "paper_id": "tdmsci:train_1500_v2:00037",
+  "contributions": [
+    {
+      "method": {
+        "name": "learning distributed representations",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 63,
+          "end": 95
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "cross-lingual document classification",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 12,
+          "end": 47
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "Europarl",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 99,
+            "end": 107
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "Reuters RCV1 / RCV2",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 131,
+            "end": 148
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [],
+      "claim_strength": null,
+      "comparison_targets": [],
+      "self_consistency": 1.0,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": null
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 4924,
+    "tokens_out": 1565,
+    "cost_usd": 0.00353334,
+    "wall_time_seconds": 58.72089179098839,
+    "voting_samples": 3
+  }
+}

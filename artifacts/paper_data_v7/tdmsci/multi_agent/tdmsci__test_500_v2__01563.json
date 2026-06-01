@@ -1,0 +1,56 @@
+{
+  "paper_id": "tdmsci:test_500_v2:01563",
+  "contributions": [
+    {
+      "method": {
+        "name": "SP 2",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 12,
+          "end": 16
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "estimation",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 20,
+          "end": 29
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "Samala corpus",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 20,
+            "end": 33
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [],
+      "claim_strength": null,
+      "comparison_targets": [],
+      "self_consistency": 0.6666666666666666,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "UNSUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 4883,
+    "tokens_out": 1577,
+    "cost_usd": 0.00351778,
+    "wall_time_seconds": 46.15172841702588,
+    "voting_samples": 3
+  }
+}

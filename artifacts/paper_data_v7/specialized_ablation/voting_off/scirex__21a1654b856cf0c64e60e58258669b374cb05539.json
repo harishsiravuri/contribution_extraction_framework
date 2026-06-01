@@ -1,0 +1,76 @@
+{
+  "paper_id": "scirex:21a1654b856cf0c64e60e58258669b374cb05539",
+  "contributions": [
+    {
+      "method": {
+        "name": "yolo",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 31,
+          "end": 35
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "object detection",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 64,
+          "end": 83
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "pascal voc 2007",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1546,
+            "end": 1563
+          },
+          "confidence": 0.5
+        },
+        {
+          "name": "pascal voc 2012",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2814,
+            "end": 2825
+          },
+          "confidence": 0.5
+        }
+      ],
+      "metrics": [
+        {
+          "name": "map",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 2405,
+            "end": 2408
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [],
+      "self_consistency": 0.875,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "harishsiravuri_e088/Meta-Llama-3.1-70B-Instruct-Reference-scirex-v6-70b-7cecddd1-66437b32",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 14654,
+    "tokens_out": 1500,
+    "cost_usd": 0.00914754,
+    "wall_time_seconds": 38.38102366682142,
+    "voting_samples": 1
+  }
+}

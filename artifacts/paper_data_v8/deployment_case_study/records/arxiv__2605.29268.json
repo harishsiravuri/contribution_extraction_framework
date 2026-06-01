@@ -1,0 +1,66 @@
+{
+  "paper_id": "arxiv:2605.29268",
+  "contributions": [
+    {
+      "method": {
+        "name": "BaSE (Bandit-based Self-Evolving)",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 643,
+          "end": 684
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "mathematical and combinatorial tasks",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 116,
+          "end": 149
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": null,
+          "canonical_id": null,
+          "evidence_span": null,
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "mean fitness",
+          "value": 12.3,
+          "unit": "%",
+          "evidence_span": {
+            "start": 745,
+            "end": 758
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "island-protocol baseline"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 6005,
+    "tokens_out": 1755,
+    "cost_usd": 0.0041588400000000005,
+    "wall_time_seconds": 30.305588332936168,
+    "voting_samples": 3
+  }
+}

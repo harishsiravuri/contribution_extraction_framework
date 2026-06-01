@@ -1,0 +1,119 @@
+{
+  "paper_id": "nlp_tdms:D13-1007",
+  "contributions": [
+    {
+      "method": {
+        "name": "UNLOL",
+        "canonical_id": "log-linear_model",
+        "evidence_span": {
+          "start": 1003,
+          "end": 1051
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "text normalization",
+        "canonical_id": "text_normalization",
+        "evidence_span": {
+          "start": 1003,
+          "end": 1051
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "LWWL11",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 10003,
+            "end": 10048
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "LexNorm1.1",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 10048,
+            "end": 10096
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "LexNorm1.2",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 10112,
+            "end": 10160
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 10224,
+            "end": 10240
+          },
+          "confidence": 0.5
+        },
+        {
+          "name": "F-measure",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 3500,
+            "end": 3600
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "precision",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 3500,
+            "end": 3600
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "recall",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 3500,
+            "end": 3600
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "state-of-the-art",
+        "Han and Baldwin (2011)",
+        "Liu et al. (2011)"
+      ],
+      "self_consistency": 0.875,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 35329,
+    "tokens_out": 4153,
+    "cost_usd": 0.018070260000000005,
+    "wall_time_seconds": 115.09933245897992,
+    "voting_samples": 3
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "paper_id": "tdmsci:train_1500_v2:00036",
+  "contributions": [
+    {
+      "method": {
+        "name": null,
+        "canonical_id": null,
+        "evidence_span": null,
+        "confidence": 0.0
+      },
+      "task": {
+        "name": "cross-lingual document classification",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 19,
+          "end": 53
+        },
+        "confidence": 0.9
+      },
+      "datasets": [
+        {
+          "name": "Reuters RCV1 / RCV2 corpora",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 56,
+            "end": 83
+          },
+          "confidence": 0.9
+        }
+      ],
+      "metrics": [],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "prior state of the art"
+      ],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "PARTIAL",
+        "task": "PARTIAL",
+        "datasets": "PARTIAL",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "(none)",
+    "consolidator_model": "(none)",
+    "tokens_in": 575,
+    "tokens_out": 232,
+    "cost_usd": 0.00039048,
+    "wall_time_seconds": 7.005801749997772,
+    "voting_samples": 1
+  }
+}

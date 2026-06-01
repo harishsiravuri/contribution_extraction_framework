@@ -1,0 +1,162 @@
+{
+  "paper_id": "tdmsci:test_500_v2:01272",
+  "contributions": [
+    {
+      "method": {
+        "name": null,
+        "canonical_id": null,
+        "evidence_span": null,
+        "confidence": 0.0
+      },
+      "task": {
+        "name": "commonsense reasoning",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 24,
+          "end": 43
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "Stories Cloze Test",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 71,
+            "end": 89
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": 8.9,
+          "unit": "%",
+          "evidence_span": {
+            "start": 34,
+            "end": 38
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [],
+      "self_consistency": 0.7777777777777778,
+      "critic_verdict": {
+        "method": "UNSUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    },
+    {
+      "method": {
+        "name": null,
+        "canonical_id": null,
+        "evidence_span": null,
+        "confidence": 0.0
+      },
+      "task": {
+        "name": "question answering",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 91,
+          "end": 107
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "RACE",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 108,
+            "end": 113
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": 5.7,
+          "unit": "%",
+          "evidence_span": {
+            "start": 40,
+            "end": 44
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [],
+      "self_consistency": 0.7777777777777778,
+      "critic_verdict": {
+        "method": "UNSUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    },
+    {
+      "method": {
+        "name": null,
+        "canonical_id": null,
+        "evidence_span": null,
+        "confidence": 0.0
+      },
+      "task": {
+        "name": "textual entailment",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 115,
+          "end": 133
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "MultiNLI",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 134,
+            "end": 142
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": 1.5,
+          "unit": "%",
+          "evidence_span": {
+            "start": 46,
+            "end": 50
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [],
+      "self_consistency": 0.7777777777777778,
+      "critic_verdict": {
+        "method": "UNSUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 7585,
+    "tokens_out": 4096,
+    "cost_usd": 0.007193870000000001,
+    "wall_time_seconds": 97.28876516688615,
+    "voting_samples": 3
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "paper_id": "scirex:35756f711a97166df11202ebe46820a36704ae77",
+  "contributions": [
+    {
+      "method": {
+        "name": "Deep Convolutional Generative Adversarial Networks (DCGANs)",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 200,
+          "end": 400
+        },
+        "confidence": 0.9
+      },
+      "task": {
+        "name": "Unsupervised Representation Learning",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 100,
+          "end": 200
+        },
+        "confidence": 0.9
+      },
+      "datasets": [
+        {
+          "name": "Large-scale Scene Understanding (LSUN)",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2500,
+            "end": 2600
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "Imagenet-1k",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2600,
+            "end": 2700
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "Faces dataset",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2700,
+            "end": 2800
+          },
+          "confidence": 0.9
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy",
+          "value": 82.8,
+          "unit": "%",
+          "evidence_span": {
+            "start": 5000,
+            "end": 5100
+          },
+          "confidence": 0.9
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "K-means based approaches"
+      ],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "PARTIAL",
+        "task": "PARTIAL",
+        "datasets": "PARTIAL",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "(none)",
+    "consolidator_model": "(none)",
+    "tokens_in": 5075,
+    "tokens_out": 446,
+    "cost_usd": 0.00202094,
+    "wall_time_seconds": 30.03677324997261,
+    "voting_samples": 1
+  }
+}

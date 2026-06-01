@@ -1,0 +1,76 @@
+{
+  "paper_id": "scirex:1510cf4b8abea80b9f352325ca4c132887de21a0",
+  "contributions": [
+    {
+      "method": {
+        "name": "paragraph vector",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 1546,
+          "end": 1560
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "sentiment analysis",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 4251,
+          "end": 4272
+        },
+        "confidence": 0.6
+      },
+      "datasets": [
+        {
+          "name": "imdb",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 6911,
+            "end": 6915
+          },
+          "confidence": 0.4
+        },
+        {
+          "name": "stanford sentiment treebank fine-grained",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 5091,
+            "end": 5122
+          },
+          "confidence": 0.6
+        }
+      ],
+      "metrics": [
+        {
+          "name": "error rate",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 7344,
+            "end": 7354
+          },
+          "confidence": 0.6
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [],
+      "self_consistency": 0.77,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "harishsiravuri_e088/Meta-Llama-3.1-8B-Instruct-Reference-scirex-v6-bf594110-52031aad",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 29441,
+    "tokens_out": 2544,
+    "cost_usd": 0.017303080000000002,
+    "wall_time_seconds": 112.4578631669865,
+    "voting_samples": 3
+  }
+}

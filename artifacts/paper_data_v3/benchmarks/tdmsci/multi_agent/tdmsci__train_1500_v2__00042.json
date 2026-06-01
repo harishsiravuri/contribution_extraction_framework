@@ -1,0 +1,76 @@
+{
+  "paper_id": "tdmsci:train_1500_v2:00042",
+  "contributions": [
+    {
+      "method": {
+        "name": "set of algorithms for generating code-switched text automatically",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 28,
+          "end": 76
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "sentence completion",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 134,
+          "end": 153
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "Mechanical Turk",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 119,
+            "end": 134
+          },
+          "confidence": 0.6666666666666666
+        },
+        {
+          "name": "artificial language vocabulary",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 7,
+            "end": 35
+          },
+          "confidence": 0.3333333333333333
+        }
+      ],
+      "metrics": [
+        {
+          "name": "recall",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 106,
+            "end": 112
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": null,
+      "comparison_targets": [],
+      "self_consistency": 0.875,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 4937,
+    "tokens_out": 1586,
+    "cost_usd": 0.0035660400000000004,
+    "wall_time_seconds": 44.66100637498312,
+    "voting_samples": 3
+  }
+}

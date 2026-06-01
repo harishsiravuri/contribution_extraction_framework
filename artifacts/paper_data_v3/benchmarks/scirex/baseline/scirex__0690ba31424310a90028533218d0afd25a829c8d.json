@@ -1,0 +1,71 @@
+{
+  "paper_id": "scirex:0690ba31424310a90028533218d0afd25a829c8d",
+  "contributions": [
+    {
+      "method": {
+        "name": "DeepLab",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 108,
+          "end": 185
+        },
+        "confidence": 0.9
+      },
+      "task": {
+        "name": "semantic image segmentation",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 107,
+          "end": 143
+        },
+        "confidence": 0.95
+      },
+      "datasets": [
+        {
+          "name": "PASCAL VOC 2012",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 6155,
+            "end": 6177
+          },
+          "confidence": 0.95
+        }
+      ],
+      "metrics": [
+        {
+          "name": "IOU accuracy",
+          "value": 71.6,
+          "unit": "%",
+          "evidence_span": {
+            "start": 342,
+            "end": 368
+          },
+          "confidence": 0.95
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "mostajabi2014feedforward",
+        "FCN-8s",
+        "MSRA-CFM"
+      ],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "PARTIAL",
+        "task": "PARTIAL",
+        "datasets": "PARTIAL",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "(none)",
+    "consolidator_model": "(none)",
+    "tokens_in": 6881,
+    "tokens_out": 344,
+    "cost_usd": 0.00250808,
+    "wall_time_seconds": 17.15411037503509,
+    "voting_samples": 1
+  }
+}

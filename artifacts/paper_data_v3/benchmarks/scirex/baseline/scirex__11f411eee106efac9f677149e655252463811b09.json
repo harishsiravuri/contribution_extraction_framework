@@ -1,0 +1,146 @@
+{
+  "paper_id": "scirex:11f411eee106efac9f677149e655252463811b09",
+  "contributions": [
+    {
+      "method": {
+        "name": "Mode Seeking Generative Adversarial Networks (MSGANs)",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 2000
+        },
+        "confidence": 0.9
+      },
+      "task": {
+        "name": "conditional image synthesis",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 2000
+        },
+        "confidence": 0.9
+      },
+      "datasets": [
+        {
+          "name": "CIFAR-10",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2000,
+            "end": 3000
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "facades",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2000,
+            "end": 3000
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "maps",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2000,
+            "end": 3000
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "Yosemite",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2000,
+            "end": 3000
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "cat dog",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2000,
+            "end": 3000
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "CUB-200-2011",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2000,
+            "end": 3000
+          },
+          "confidence": 0.9
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Fréchet Inception Distance (FID)",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 3000,
+            "end": 4000
+          },
+          "confidence": 0.8
+        },
+        {
+          "name": "LPIPS",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 3000,
+            "end": 4000
+          },
+          "confidence": 0.8
+        },
+        {
+          "name": "Number of Statistically-Different Bins (NDB)",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 3000,
+            "end": 4000
+          },
+          "confidence": 0.8
+        },
+        {
+          "name": "Jensen-Shannon Divergence (JSD)",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 3000,
+            "end": 4000
+          },
+          "confidence": 0.8
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Pix2Pix",
+        "DRIT",
+        "StackGAN++"
+      ],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "PARTIAL",
+        "task": "PARTIAL",
+        "datasets": "PARTIAL",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "(none)",
+    "consolidator_model": "(none)",
+    "tokens_in": 5483,
+    "tokens_out": 775,
+    "cost_usd": 0.00244431,
+    "wall_time_seconds": 36.095371833012905,
+    "voting_samples": 1
+  }
+}

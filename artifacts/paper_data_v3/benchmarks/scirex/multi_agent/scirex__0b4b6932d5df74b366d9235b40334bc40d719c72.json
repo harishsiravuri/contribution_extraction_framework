@@ -1,0 +1,286 @@
+{
+  "paper_id": "scirex:0b4b6932d5df74b366d9235b40334bc40d719c72",
+  "contributions": [
+    {
+      "method": {
+        "name": "Π-model",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 961,
+          "end": 969
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "image classification",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 1503,
+          "end": 1521
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "CIFAR-10",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 6715,
+            "end": 6723
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "error rate",
+          "value": 12.36,
+          "unit": "%",
+          "evidence_span": {
+            "start": 6732,
+            "end": 6756
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "CatGAN",
+        "GAN"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    },
+    {
+      "method": {
+        "name": "temporal ensembling",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 977,
+          "end": 995
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "image classification",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 1503,
+          "end": 1521
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "CIFAR-10",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 6715,
+            "end": 6723
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "error rate",
+          "value": 12.16,
+          "unit": "%",
+          "evidence_span": {
+            "start": 6761,
+            "end": 6785
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Π-model"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    },
+    {
+      "method": {
+        "name": "Π-model",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 961,
+          "end": 969
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "image classification",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 1503,
+          "end": 1521
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "SVHN",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 7567,
+            "end": 7571
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "error rate",
+          "value": 5.56,
+          "unit": "%",
+          "evidence_span": {
+            "start": 7588,
+            "end": 7610
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Virtual Adversarial",
+        "ADGM",
+        "SDGM"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    },
+    {
+      "method": {
+        "name": "temporal ensembling",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 977,
+          "end": 995
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "image classification",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 1503,
+          "end": 1521
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "SVHN",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 7567,
+            "end": 7571
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "error rate",
+          "value": 5.12,
+          "unit": "%",
+          "evidence_span": {
+            "start": 7638,
+            "end": 7660
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Π-model"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    },
+    {
+      "method": {
+        "name": "temporal ensembling",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 977,
+          "end": 995
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "image classification",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 1503,
+          "end": 1521
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "CIFAR-100",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 7854,
+            "end": 7863
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "error rate",
+          "value": 38.65,
+          "unit": "%",
+          "evidence_span": {
+            "start": 7894,
+            "end": 7920
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [],
+      "self_consistency": 1.0,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 40109,
+    "tokens_out": 8259,
+    "cost_usd": 0.02419919,
+    "wall_time_seconds": 241.30785595800262,
+    "voting_samples": 3
+  }
+}

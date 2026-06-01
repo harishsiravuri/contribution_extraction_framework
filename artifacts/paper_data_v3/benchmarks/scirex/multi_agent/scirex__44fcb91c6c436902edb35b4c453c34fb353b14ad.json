@@ -1,0 +1,110 @@
+{
+  "paper_id": "scirex:44fcb91c6c436902edb35b4c453c34fb353b14ad",
+  "contributions": [
+    {
+      "method": {
+        "name": "Convolutional Encoder",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 146,
+          "end": 165
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "machine translation",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 55,
+          "end": 73
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "WMT'16 English-Romanian",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1141,
+            "end": 1164
+          },
+          "confidence": 0.75
+        },
+        {
+          "name": "WMT'15 English-German",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1548,
+            "end": 1571
+          },
+          "confidence": 0.5
+        },
+        {
+          "name": "WMT'14 English-French",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1762,
+            "end": 1785
+          },
+          "confidence": 0.5
+        },
+        {
+          "name": "IWSLT'14 German-English",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2404,
+            "end": 2425
+          },
+          "confidence": 0.5
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 3441,
+            "end": 3445
+          },
+          "confidence": 0.75
+        },
+        {
+          "name": "speed",
+          "value": 2.0,
+          "unit": "times",
+          "evidence_span": {
+            "start": 4251,
+            "end": 4253
+          },
+          "confidence": 0.25
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "state-of-the-art",
+        "several recently published results",
+        "very deep LSTM setup",
+        "strong bidirectional LSTM",
+        "BiLSTM"
+      ],
+      "self_consistency": 0.875,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 37210,
+    "tokens_out": 6226,
+    "cost_usd": 0.02114777,
+    "wall_time_seconds": 215.0268221659935,
+    "voting_samples": 3
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "paper_id": "scirex:0680f04750b1e257ffdd161e85382031dc73ea7f",
+  "contributions": [
+    {
+      "method": {
+        "name": "Dynamic Chunk Reader (DCR)",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 190,
+          "end": 205
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "question answering",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 147,
+          "end": 170
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "SQuAD",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 404,
+            "end": 409
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "EM",
+          "value": 62.0,
+          "unit": "%",
+          "evidence_span": null,
+          "confidence": 0.5
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Rajpurkar et al. (2016)"
+      ],
+      "self_consistency": 0.75,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "openai/gpt-5",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 29843,
+    "tokens_out": 12508,
+    "cost_usd": 0.13731464,
+    "wall_time_seconds": 137.5136822919594,
+    "voting_samples": 3
+  }
+}

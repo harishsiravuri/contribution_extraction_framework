@@ -1,0 +1,91 @@
+{
+  "paper_id": "scirex:4265269bc894caa97efbfcfe5b83da7413f86a30",
+  "contributions": [
+    {
+      "method": {
+        "name": "asymmetric tri-training",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 277,
+          "end": 391
+        },
+        "confidence": 0.9
+      },
+      "task": {
+        "name": "unsupervised domain adaptation",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 151,
+          "end": 276
+        },
+        "confidence": 0.95
+      },
+      "datasets": [
+        {
+          "name": "MNIST",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2393,
+            "end": 2398
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "SVHN",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2400,
+            "end": 2404
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "Amazon Review",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2407,
+            "end": 2420
+          },
+          "confidence": 0.8
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": 10.0,
+          "unit": "%",
+          "evidence_span": {
+            "start": 2847,
+            "end": 2890
+          },
+          "confidence": 0.8
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Maximum Mean Discrepancy (MMD)",
+        "Domain Adversarial Neural Network (DANN)",
+        "Deep Reconstruction Classification Network (DRCN)",
+        "Domain Separation Networks (DSN)",
+        "k-Nearest Neighbor based adaptation (kNN-Ad)"
+      ],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "PARTIAL",
+        "task": "PARTIAL",
+        "datasets": "PARTIAL",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "(none)",
+    "consolidator_model": "(none)",
+    "tokens_in": 7722,
+    "tokens_out": 480,
+    "cost_usd": 0.00289824,
+    "wall_time_seconds": 26.087377583025955,
+    "voting_samples": 1
+  }
+}

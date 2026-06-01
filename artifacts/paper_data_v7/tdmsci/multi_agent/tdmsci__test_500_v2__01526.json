@@ -1,0 +1,64 @@
+{
+  "paper_id": "tdmsci:test_500_v2:01526",
+  "contributions": [
+    {
+      "method": {
+        "name": null,
+        "canonical_id": null,
+        "evidence_span": null,
+        "confidence": 0.0
+      },
+      "task": {
+        "name": "translation",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 11,
+          "end": 21
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "Arabic to English",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 25,
+            "end": 42
+          },
+          "confidence": 0.67
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": null,
+          "unit": "%",
+          "evidence_span": {
+            "start": 57,
+            "end": 61
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": null,
+      "comparison_targets": [],
+      "self_consistency": 0.56,
+      "critic_verdict": {
+        "method": "UNSUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 5265,
+    "tokens_out": 1815,
+    "cost_usd": 0.00392876,
+    "wall_time_seconds": 76.01313116610982,
+    "voting_samples": 3
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "paper_id": "scirex:2315fc6c2c0c4abd2443e26a26e7bb86df8e24cc",
+  "contributions": [
+    {
+      "method": {
+        "name": "Deep Convolutional Neural Network",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 24,
+          "end": 55
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "image classification",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 55,
+          "end": 73
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "ImageNet LSVRC-2010",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 96,
+            "end": 115
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "ImageNet LSVRC-2012",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 341,
+            "end": 360
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "top-1 error rate",
+          "value": 37.5,
+          "unit": "%",
+          "evidence_span": {
+            "start": 169,
+            "end": 173
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "top-5 error rate",
+          "value": 17.0,
+          "unit": "%",
+          "evidence_span": {
+            "start": 192,
+            "end": 195
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "top-5 error rate",
+          "value": 15.3,
+          "unit": "%",
+          "evidence_span": {
+            "start": 382,
+            "end": 386
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "previous state-of-the-art",
+        "second-best entry"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "openai/gpt-4o-2024-11-20",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 33981,
+    "tokens_out": 4140,
+    "cost_usd": 0.08444169,
+    "wall_time_seconds": 66.13500779215246,
+    "voting_samples": 3
+  }
+}

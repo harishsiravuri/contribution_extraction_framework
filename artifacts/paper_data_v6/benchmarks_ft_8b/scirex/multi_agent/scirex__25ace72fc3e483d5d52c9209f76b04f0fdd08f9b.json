@@ -1,0 +1,86 @@
+{
+  "paper_id": "scirex:25ace72fc3e483d5d52c9209f76b04f0fdd08f9b",
+  "contributions": [
+    {
+      "method": {
+        "name": "ftsn",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 195,
+          "end": 198
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "multi-oriented scene text detection",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 10,
+          "end": 43
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "ic15",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2631,
+            "end": 2634
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "td500",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2663,
+            "end": 2667
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "precision",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 2814,
+            "end": 2821
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "recall",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 2922,
+            "end": 2928
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [],
+      "self_consistency": 0.83,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "harishsiravuri_e088/Meta-Llama-3.1-8B-Instruct-Reference-scirex-v6-bf594110-52031aad",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 22490,
+    "tokens_out": 4878,
+    "cost_usd": 0.015331229999999998,
+    "wall_time_seconds": 180.7048092079931,
+    "voting_samples": 3
+  }
+}

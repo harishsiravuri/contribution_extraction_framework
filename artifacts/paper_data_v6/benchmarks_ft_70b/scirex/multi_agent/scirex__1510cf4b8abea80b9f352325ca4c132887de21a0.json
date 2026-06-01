@@ -1,0 +1,65 @@
+{
+  "paper_id": "scirex:1510cf4b8abea80b9f352325ca4c132887de21a0",
+  "contributions": [
+    {
+      "method": {
+        "name": "paragraph vector",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 846,
+          "end": 863
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "sentiment analysis",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 1945,
+          "end": 1963
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "imdb",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 3414,
+            "end": 3418
+          },
+          "confidence": 0.5
+        },
+        {
+          "name": "stanford sentiment treebank",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2671,
+            "end": 2694
+          },
+          "confidence": 0.5
+        }
+      ],
+      "metrics": [],
+      "claim_strength": "improves",
+      "comparison_targets": [],
+      "self_consistency": 0.875,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "UNSUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "harishsiravuri_e088/Meta-Llama-3.1-70B-Instruct-Reference-scirex-v6-70b-7cecddd1-66437b32",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 28678,
+    "tokens_out": 2083,
+    "cost_usd": 0.016493670000000002,
+    "wall_time_seconds": 45.05546666699229,
+    "voting_samples": 3
+  }
+}

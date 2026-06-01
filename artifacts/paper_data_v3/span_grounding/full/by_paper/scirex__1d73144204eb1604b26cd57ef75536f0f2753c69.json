@@ -1,0 +1,215 @@
+{
+  "paper_id": "scirex:1d73144204eb1604b26cd57ef75536f0f2753c69",
+  "contributions": [
+    {
+      "method": {
+        "name": "subcategory-aware CNNs",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 19,
+          "end": 47
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "object detection",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 19,
+          "end": 47
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "KITTI",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 3672,
+            "end": 3676
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "PASCAL3D+",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 3678,
+            "end": 3689
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "PASCAL VOC 2007",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 3691,
+            "end": 3707
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "AP",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 4027,
+            "end": 4029
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "AOS",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 3995,
+            "end": 3998
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "ASA",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 4005,
+            "end": 4008
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "ALP",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 4016,
+            "end": 4019
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "AVP",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 4041,
+            "end": 4044
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Faster R-CNN",
+        "Fast R-CNN",
+        "R-CNN",
+        "Selective Search",
+        "Edge Boxes"
+      ],
+      "self_consistency": 0.75,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    },
+    {
+      "method": {
+        "name": "subcategory-aware RPN",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 1723,
+          "end": 1746
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "region proposal",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 1723,
+          "end": 1746
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "KITTI",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 3672,
+            "end": 3676
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "PASCAL3D+",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 3678,
+            "end": 3689
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "PASCAL VOC 2007",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 3691,
+            "end": 3707
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "recall",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 4474,
+            "end": 4480
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "AP",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 4027,
+            "end": 4029
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Faster R-CNN",
+        "Selective Search",
+        "Edge Boxes"
+      ],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 34900,
+    "tokens_out": 5050,
+    "cost_usd": 0.018791540000000002,
+    "wall_time_seconds": 165.34136245801346,
+    "voting_samples": 3
+  }
+}

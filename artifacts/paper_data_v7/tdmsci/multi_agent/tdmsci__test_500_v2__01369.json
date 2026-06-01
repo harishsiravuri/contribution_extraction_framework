@@ -1,0 +1,64 @@
+{
+  "paper_id": "tdmsci:test_500_v2:01369",
+  "contributions": [
+    {
+      "method": {
+        "name": "automatically learned non-linear features",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 34,
+          "end": 71
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "web search ranking",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 19,
+          "end": 33
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": null,
+          "canonical_id": null,
+          "evidence_span": null,
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "quality",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 85,
+            "end": 92
+          },
+          "confidence": 0.5
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [],
+      "self_consistency": 0.8333333333333334,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 4819,
+    "tokens_out": 1341,
+    "cost_usd": 0.00326727,
+    "wall_time_seconds": 32.857074834173545,
+    "voting_samples": 3
+  }
+}

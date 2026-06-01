@@ -1,0 +1,96 @@
+{
+  "paper_id": "arxiv:2605.29486",
+  "contributions": [
+    {
+      "method": {
+        "name": "PhoneWorld",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 13,
+          "end": 23
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "phone-use agent environments",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 44,
+          "end": 64
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "HYMobileBench",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1242,
+            "end": 1253
+          },
+          "confidence": 0.5
+        },
+        {
+          "name": "AndroidControl",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1261,
+            "end": 1274
+          },
+          "confidence": 0.5
+        },
+        {
+          "name": "AndroidWorld",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1289,
+            "end": 1301
+          },
+          "confidence": 0.5
+        },
+        {
+          "name": "PhoneWorld",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1278,
+            "end": 1288
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "performance improvement",
+          "value": 17.7,
+          "unit": "points",
+          "evidence_span": {
+            "start": 1255,
+            "end": 1259
+          },
+          "confidence": 0.5
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "PhoneWorld"
+      ],
+      "self_consistency": 0.75,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "PARTIAL",
+        "metrics": "UNSUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 9342,
+    "tokens_out": 4168,
+    "cost_usd": 0.008088399999999999,
+    "wall_time_seconds": 98.1058186669834,
+    "voting_samples": 3
+  }
+}

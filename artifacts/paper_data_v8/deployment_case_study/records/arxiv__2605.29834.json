@@ -1,0 +1,58 @@
+{
+  "paper_id": "arxiv:2605.29834",
+  "contributions": [
+    {
+      "method": {
+        "name": "autoencoder-based drift detection with novel class recognition",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 54
+        },
+        "confidence": 0.5
+      },
+      "task": {
+        "name": "drift detection",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 156,
+          "end": 200
+        },
+        "confidence": 0.5
+      },
+      "datasets": [
+        {
+          "name": "synthetic tabular data streams",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 396,
+            "end": 422
+          },
+          "confidence": 0.5
+        }
+      ],
+      "metrics": [],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "current state-of-the-art unsupervised drift detectors and novelty classifiers"
+      ],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "UNSUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 7463,
+    "tokens_out": 3108,
+    "cost_usd": 0.0062019,
+    "wall_time_seconds": 63.856613958021626,
+    "voting_samples": 3
+  }
+}

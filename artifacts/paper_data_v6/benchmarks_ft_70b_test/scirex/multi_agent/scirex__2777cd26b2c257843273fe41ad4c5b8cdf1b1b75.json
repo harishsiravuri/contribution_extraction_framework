@@ -1,0 +1,55 @@
+{
+  "paper_id": "scirex:2777cd26b2c257843273fe41ad4c5b8cdf1b1b75",
+  "contributions": [
+    {
+      "method": {
+        "name": "NAN",
+        "canonical_id": null,
+        "evidence_span": null,
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "multi-human parsing",
+        "canonical_id": null,
+        "evidence_span": null,
+        "confidence": 0.75
+      },
+      "datasets": [
+        {
+          "name": "MHP v1.0",
+          "canonical_id": null,
+          "evidence_span": null,
+          "confidence": 0.75
+        }
+      ],
+      "metrics": [
+        {
+          "name": "AP 0.5",
+          "value": null,
+          "unit": null,
+          "evidence_span": null,
+          "confidence": 0.5
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [],
+      "self_consistency": 0.875,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "harishsiravuri_e088/Meta-Llama-3.1-70B-Instruct-Reference-scirex-v6-70b-7cecddd1-66437b32",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 43866,
+    "tokens_out": 14820,
+    "cost_usd": 0.03126189,
+    "wall_time_seconds": 147.40073920902796,
+    "voting_samples": 3
+  }
+}

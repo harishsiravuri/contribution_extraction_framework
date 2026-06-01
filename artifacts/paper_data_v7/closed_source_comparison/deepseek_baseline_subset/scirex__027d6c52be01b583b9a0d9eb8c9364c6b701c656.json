@@ -1,0 +1,119 @@
+{
+  "paper_id": "scirex:027d6c52be01b583b9a0d9eb8c9364c6b701c656",
+  "contributions": [
+    {
+      "method": {
+        "name": "Layer-sequential unit-variance (LSUV) initialization",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 15,
+          "end": 89
+        },
+        "confidence": 0.95
+      },
+      "task": {
+        "name": "Weight initialization for deep neural networks",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 15,
+          "end": 89
+        },
+        "confidence": 0.95
+      },
+      "datasets": [
+        {
+          "name": "MNIST",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 857,
+            "end": 860
+          },
+          "confidence": 0.95
+        },
+        {
+          "name": "CIFAR-10",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1002,
+            "end": 1010
+          },
+          "confidence": 0.95
+        },
+        {
+          "name": "CIFAR-100",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1010,
+            "end": 1015
+          },
+          "confidence": 0.95
+        },
+        {
+          "name": "ImageNet",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1703,
+            "end": 1711
+          },
+          "confidence": 0.95
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Test accuracy",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 368,
+            "end": 395
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "Training speed",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 400,
+            "end": 462
+          },
+          "confidence": 0.8
+        },
+        {
+          "name": "Final accuracy",
+          "value": 0.68,
+          "unit": null,
+          "evidence_span": {
+            "start": 2986,
+            "end": 2994
+          },
+          "confidence": 0.85
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "standard methods",
+        "FitNets",
+        "Highway",
+        "batch normalization"
+      ],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "PARTIAL",
+        "task": "PARTIAL",
+        "datasets": "PARTIAL",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "(none)",
+    "consolidator_model": "(none)",
+    "tokens_in": 4387,
+    "tokens_out": 604,
+    "cost_usd": 0.0019414000000000002,
+    "wall_time_seconds": 22.69026041601319,
+    "voting_samples": 1
+  }
+}

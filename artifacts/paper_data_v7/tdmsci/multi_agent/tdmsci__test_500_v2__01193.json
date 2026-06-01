@@ -1,0 +1,49 @@
+{
+  "paper_id": "tdmsci:test_500_v2:01193",
+  "contributions": [
+    {
+      "method": {
+        "name": "DNN-based models",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 22,
+          "end": 38
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "response selection",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 132,
+          "end": 149
+        },
+        "confidence": 1.0
+      },
+      "datasets": [],
+      "metrics": [],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Random guess",
+        "TF-IDF"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "UNSUPPORTED",
+        "metrics": "UNSUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 4863,
+    "tokens_out": 1391,
+    "cost_usd": 0.0033528300000000002,
+    "wall_time_seconds": 25.95112904184498,
+    "voting_samples": 3
+  }
+}

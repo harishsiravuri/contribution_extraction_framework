@@ -1,0 +1,100 @@
+{
+  "paper_id": "nlp_tdms:1709.04348",
+  "contributions": [
+    {
+      "method": {
+        "name": "Interactive Inference Network (IIN)",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 181,
+          "end": 254
+        },
+        "confidence": 0.9
+      },
+      "task": {
+        "name": "Natural Language Inference (NLI)",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 80,
+          "end": 180
+        },
+        "confidence": 0.9
+      },
+      "datasets": [
+        {
+          "name": "SNLI",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1144,
+            "end": 1236
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "MultiNLI",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 395,
+            "end": 490
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "Quora Question Pair",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2653,
+            "end": 2728
+          },
+          "confidence": 0.8
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": 88.9,
+          "unit": "%",
+          "evidence_span": {
+            "start": 4783,
+            "end": 4789
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "error reduction",
+          "value": 20.0,
+          "unit": "%",
+          "evidence_span": {
+            "start": 395,
+            "end": 431
+          },
+          "confidence": 0.8
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "ESIM",
+        "BiMPM",
+        "LSTMN",
+        "decomposable attention model"
+      ],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "PARTIAL",
+        "task": "PARTIAL",
+        "datasets": "PARTIAL",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "(none)",
+    "consolidator_model": "(none)",
+    "tokens_in": 6169,
+    "tokens_out": 500,
+    "cost_usd": 0.00241908,
+    "wall_time_seconds": 15.853308041987475,
+    "voting_samples": 1
+  }
+}

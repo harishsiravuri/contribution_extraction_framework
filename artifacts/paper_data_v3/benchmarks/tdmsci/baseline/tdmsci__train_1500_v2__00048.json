@@ -1,0 +1,46 @@
+{
+  "paper_id": "tdmsci:train_1500_v2:00048",
+  "contributions": [
+    {
+      "method": {
+        "name": "cross-language text classification",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 149
+        },
+        "confidence": 0.8
+      },
+      "task": {
+        "name": "text classification",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 24,
+          "end": 45
+        },
+        "confidence": 0.7
+      },
+      "datasets": [],
+      "metrics": [],
+      "claim_strength": "applies",
+      "comparison_targets": [],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "PARTIAL",
+        "task": "PARTIAL",
+        "datasets": "PARTIAL",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "(none)",
+    "consolidator_model": "(none)",
+    "tokens_in": 572,
+    "tokens_out": 202,
+    "cost_usd": 0.00036282,
+    "wall_time_seconds": 5.869637999974657,
+    "voting_samples": 1
+  }
+}

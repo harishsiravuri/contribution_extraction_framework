@@ -1,0 +1,67 @@
+{
+  "paper_id": "scirex:14cb3de564377cc4ba2b9bfe8ebd8c0a7c2787ce",
+  "contributions": [
+    {
+      "method": {
+        "name": "cifarnet",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 1556,
+          "end": 1563
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "pedestrian detection",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 103,
+          "end": 125
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "caltech",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 731,
+            "end": 738
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "miss rate",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 1945,
+            "end": 1953
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [],
+      "self_consistency": 1.0,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "harishsiravuri_e088/Meta-Llama-3.1-70B-Instruct-Reference-scirex-v6-70b-7cecddd1-66437b32",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 64166,
+    "tokens_out": 24738,
+    "cost_usd": 0.04839895,
+    "wall_time_seconds": 138.62276304198895,
+    "voting_samples": 3
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "paper_id": "tdmsci:train_1500_v2:00035",
+  "contributions": [
+    {
+      "method": {
+        "name": "novel technique for learning semantic representations",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 10,
+          "end": 60
+        },
+        "confidence": 0.9
+      },
+      "task": {
+        "name": "joint-space embeddings",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 87,
+          "end": 108
+        },
+        "confidence": 0.8
+      },
+      "datasets": [],
+      "metrics": [],
+      "claim_strength": "novel",
+      "comparison_targets": [],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "PARTIAL",
+        "task": "PARTIAL",
+        "datasets": "PARTIAL",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "(none)",
+    "consolidator_model": "(none)",
+    "tokens_in": 562,
+    "tokens_out": 207,
+    "cost_usd": 0.00036407,
+    "wall_time_seconds": 6.024870417022612,
+    "voting_samples": 1
+  }
+}

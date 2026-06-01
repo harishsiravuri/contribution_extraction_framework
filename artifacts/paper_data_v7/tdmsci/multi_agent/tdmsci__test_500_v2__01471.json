@@ -1,0 +1,77 @@
+{
+  "paper_id": "tdmsci:test_500_v2:01471",
+  "contributions": [
+    {
+      "method": {
+        "name": "context-vector similarity",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 38,
+          "end": 64
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "translation classification",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 69,
+          "end": 126
+        },
+        "confidence": 0.6666666666666666
+      },
+      "datasets": [
+        {
+          "name": "Spanish-English",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 10,
+            "end": 28
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "recall",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 80,
+            "end": 86
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "precision",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 89,
+            "end": 98
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": null,
+      "comparison_targets": [],
+      "self_consistency": 0.875,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "PARTIAL",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 5939,
+    "tokens_out": 2407,
+    "cost_usd": 0.00480013,
+    "wall_time_seconds": 62.72364279185422,
+    "voting_samples": 3
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "paper_id": "arxiv:2605.29523",
+  "contributions": [
+    {
+      "method": {
+        "name": "8B model",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 477,
+          "end": 483
+        },
+        "confidence": 0.5
+      },
+      "task": {
+        "name": "hallucination detection",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 66,
+          "end": 88
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "K-FinHallu",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 280,
+            "end": 289
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "performance",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 570,
+            "end": 580
+          },
+          "confidence": 0.5
+        }
+      ],
+      "claim_strength": "comparable",
+      "comparison_targets": [
+        "frontier LLMs"
+      ],
+      "self_consistency": 0.75,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 7923,
+    "tokens_out": 3121,
+    "cost_usd": 0.00646617,
+    "wall_time_seconds": 53.58797891600989,
+    "voting_samples": 3
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "paper_id": "tdmsci:test_500_v2:01444",
+  "contributions": [
+    {
+      "method": {
+        "name": "LDA-based enriching method",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 92,
+          "end": 117
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "microblog classification",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 129,
+          "end": 151
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "news corpus",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 73,
+            "end": 85
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [],
+      "claim_strength": "novel",
+      "comparison_targets": [],
+      "self_consistency": 0.6666666666666666,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "UNSUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 4718,
+    "tokens_out": 1259,
+    "cost_usd": 0.00314827,
+    "wall_time_seconds": 23.55487870797515,
+    "voting_samples": 3
+  }
+}

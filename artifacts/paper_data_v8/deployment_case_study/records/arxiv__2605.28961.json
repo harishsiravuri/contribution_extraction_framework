@@ -1,0 +1,123 @@
+{
+  "paper_id": "arxiv:2605.28961",
+  "contributions": [
+    {
+      "method": {
+        "name": "Stochastic Momentum with Sparse Updates",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 41,
+          "end": 78
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "least squares",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 290,
+          "end": 306
+        },
+        "confidence": 0.5
+      },
+      "datasets": [
+        {
+          "name": "sparse inputs",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 306,
+            "end": 319
+          },
+          "confidence": 0.5
+        }
+      ],
+      "metrics": [
+        {
+          "name": "squared error",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 521,
+            "end": 534
+          },
+          "confidence": 0.5
+        }
+      ],
+      "claim_strength": null,
+      "comparison_targets": [
+        "SGD"
+      ],
+      "self_consistency": 0.75,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    },
+    {
+      "method": {
+        "name": "Stochastic Momentum with Sparse Updates",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 41,
+          "end": 78
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "logistic regression",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 319,
+          "end": 337
+        },
+        "confidence": 0.5
+      },
+      "datasets": [
+        {
+          "name": "rare class",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 341,
+            "end": 351
+          },
+          "confidence": 0.5
+        }
+      ],
+      "metrics": [
+        {
+          "name": "squared error",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 521,
+            "end": 534
+          },
+          "confidence": 0.5
+        }
+      ],
+      "claim_strength": null,
+      "comparison_targets": [
+        "SGD"
+      ],
+      "self_consistency": 0.75,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 7622,
+    "tokens_out": 3410,
+    "cost_usd": 0.00649983,
+    "wall_time_seconds": 74.3769381660968,
+    "voting_samples": 3
+  }
+}

@@ -1,0 +1,51 @@
+# Model configuration for the three-agent pipeline.
+# Pricing in USD per million tokens (April 2026 OpenRouter prices; verify before runs).
+# Pin exact model IDs — these are the strings OpenRouter recognizes.
+#
+# IMPORTANT: model IDs change as providers add/deprecate models. If you get a 404,
+# visit https://openrouter.ai/models, find the current canonical ID, and update here.
+
+extractor:
+  # DeepSeek family — open weights, cheap, frontier-class reasoning.
+  # If "deepseek/deepseek-chat" 404s, try "deepseek/deepseek-v3.2".
+  model_id: "deepseek/deepseek-chat"
+  price_in_per_m: 0.32
+  price_out_per_m: 0.89
+  temperatures: [0.0, 0.3, 0.7]
+  # Bumped to 4000 — long abstracts can produce truncated JSON otherwise
+  max_tokens: 4000
+  top_p: 0.95
+
+critic:
+  # Different model family from extractor (avoids shared blind spots)
+  model_id: "meta-llama/llama-3.3-70b-instruct"
+  price_in_per_m: 0.59
+  price_out_per_m: 0.79
+  temperature: 0.0
+  # Bumped to 8000 — long verdict lists were truncating mid-string in pilot
+  max_tokens: 8000
+  top_p: 0.95
+
+consolidator:
+  # Switched from google/gemini-flash-1.5-8b (deprecated) to Llama 3.3 70B.
+  # Same model as critic is fine — consolidator only merges, it doesn't verify,
+  # so the "different family" argument doesn't apply here.
+  # If you'd rather use Gemini, try "google/gemini-2.5-flash-lite" or "google/gemini-2.5-flash"
+  # (verify on https://openrouter.ai/models first).
+  model_id: "meta-llama/llama-3.3-70b-instruct"
+  price_in_per_m: 0.59
+  price_out_per_m: 0.79
+  temperature: 0.0
+  max_tokens: 4000
+  top_p: 0.95
+
+# Defaults applied to every call
+defaults:
+  request_timeout_s: 90
+  max_retries: 4
+  retry_backoff_s: 2.0
+
+# Concurrency limit for the parallel corpus runner
+concurrency:
+  papers_in_flight: 50
+  per_provider_max: 25

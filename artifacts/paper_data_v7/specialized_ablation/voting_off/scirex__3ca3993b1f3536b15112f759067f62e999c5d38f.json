@@ -1,0 +1,56 @@
+{
+  "paper_id": "scirex:3ca3993b1f3536b15112f759067f62e999c5d38f",
+  "contributions": [
+    {
+      "method": {
+        "name": "bb8",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 7,
+          "end": 10
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "6d pose estimation",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 103,
+          "end": 121
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "linemod",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 134,
+            "end": 141
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [],
+      "claim_strength": null,
+      "comparison_targets": [],
+      "self_consistency": 1.0,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "UNSUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "harishsiravuri_e088/Meta-Llama-3.1-70B-Instruct-Reference-scirex-v6-70b-7cecddd1-66437b32",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 32064,
+    "tokens_out": 8696,
+    "cost_usd": 0.022770099999999998,
+    "wall_time_seconds": 124.27416133298539,
+    "voting_samples": 1
+  }
+}

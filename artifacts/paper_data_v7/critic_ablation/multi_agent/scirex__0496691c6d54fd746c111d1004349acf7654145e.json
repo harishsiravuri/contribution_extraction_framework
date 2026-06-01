@@ -1,0 +1,182 @@
+{
+  "paper_id": "scirex:0496691c6d54fd746c111d1004349acf7654145e",
+  "contributions": [
+    {
+      "method": {
+        "name": "EGAN-Ent-NN",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 10163,
+          "end": 10175
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "generative modeling",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 100
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "synthetic datasets",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 10163,
+            "end": 10180
+          },
+          "confidence": 0.5
+        },
+        {
+          "name": "NIST",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 10163,
+            "end": 10180
+          },
+          "confidence": 0.25
+        },
+        {
+          "name": "CIFAR-10",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 10163,
+            "end": 10180
+          },
+          "confidence": 0.25
+        }
+      ],
+      "metrics": [
+        {
+          "name": "KL divergence",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 10163,
+            "end": 10180
+          },
+          "confidence": 0.5
+        },
+        {
+          "name": "ranking accuracy",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 10163,
+            "end": 10180
+          },
+          "confidence": 0.25
+        },
+        {
+          "name": "Inception score",
+          "value": 7.07,
+          "unit": null,
+          "evidence_span": {
+            "start": 10163,
+            "end": 10180
+          },
+          "confidence": 0.25
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "GAN",
+        "EGAN-Const"
+      ],
+      "self_consistency": 0.75,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    },
+    {
+      "method": {
+        "name": "EGAN-Ent-VI",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 10163,
+          "end": 10175
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "generative modeling",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 100
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "synthetic datasets",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 10163,
+            "end": 10180
+          },
+          "confidence": 0.5
+        },
+        {
+          "name": "CIFAR-10",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 10163,
+            "end": 10180
+          },
+          "confidence": 0.5
+        }
+      ],
+      "metrics": [
+        {
+          "name": "KL divergence",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 10163,
+            "end": 10180
+          },
+          "confidence": 0.5
+        },
+        {
+          "name": "Inception score",
+          "value": 7.07,
+          "unit": null,
+          "evidence_span": {
+            "start": 10163,
+            "end": 10180
+          },
+          "confidence": 0.5
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "GAN",
+        "EGAN-Const"
+      ],
+      "self_consistency": 0.75,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "DISABLED (E2 critic-off ablation)",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 33002,
+    "tokens_out": 4197,
+    "cost_usd": 0.015581770000000002,
+    "wall_time_seconds": 101.65458899992518,
+    "voting_samples": 3
+  }
+}

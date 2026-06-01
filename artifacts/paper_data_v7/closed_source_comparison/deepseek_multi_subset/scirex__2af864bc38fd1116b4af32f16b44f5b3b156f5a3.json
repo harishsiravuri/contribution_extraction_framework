@@ -1,0 +1,92 @@
+{
+  "paper_id": "scirex:2af864bc38fd1116b4af32f16b44f5b3b156f5a3",
+  "contributions": [
+    {
+      "method": {
+        "name": "Relation Memory Network (RMN)",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 934,
+          "end": 950
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "question answering",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 20
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "bAbI-10k story-based QA",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 511,
+            "end": 534
+          },
+          "confidence": 0.5
+        },
+        {
+          "name": "bAbI dialog-based QA",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 543,
+            "end": 563
+          },
+          "confidence": 0.5
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 521,
+            "end": 529
+          },
+          "confidence": 0.5
+        },
+        {
+          "name": "error rate",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 6348,
+            "end": 6357
+          },
+          "confidence": 0.5
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Relation Network (RN)",
+        "MemN2N",
+        "GMemN2N",
+        "DMN",
+        "DMN+"
+      ],
+      "self_consistency": 0.875,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 26550,
+    "tokens_out": 4298,
+    "cost_usd": 0.01478332,
+    "wall_time_seconds": 210.05720383295557,
+    "voting_samples": 3
+  }
+}

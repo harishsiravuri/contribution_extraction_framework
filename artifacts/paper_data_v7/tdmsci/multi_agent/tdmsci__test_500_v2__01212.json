@@ -1,0 +1,67 @@
+{
+  "paper_id": "tdmsci:test_500_v2:01212",
+  "contributions": [
+    {
+      "method": {
+        "name": "state of the art word-level language models",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 46,
+          "end": 73
+        },
+        "confidence": 0.6666666666666666
+      },
+      "task": {
+        "name": "language modeling",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 35,
+          "end": 51
+        },
+        "confidence": 0.6666666666666666
+      },
+      "datasets": [
+        {
+          "name": "Penn Treebank",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 84,
+            "end": 98
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "perplexity",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 34,
+            "end": 44
+          },
+          "confidence": 0.6666666666666666
+        }
+      ],
+      "claim_strength": null,
+      "comparison_targets": [],
+      "self_consistency": 0.7272727272727273,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "UNSUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 4801,
+    "tokens_out": 1350,
+    "cost_usd": 0.00328945,
+    "wall_time_seconds": 54.57903420808725,
+    "voting_samples": 3
+  }
+}

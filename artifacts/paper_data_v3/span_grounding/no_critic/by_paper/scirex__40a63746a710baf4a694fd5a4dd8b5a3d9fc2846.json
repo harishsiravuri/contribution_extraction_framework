@@ -1,0 +1,89 @@
+{
+  "paper_id": "scirex:40a63746a710baf4a694fd5a4dd8b5a3d9fc2846",
+  "contributions": [
+    {
+      "method": {
+        "name": "Invertible Conditional GANs (IcGANs)",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 150
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "image editing",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 150
+        },
+        "confidence": 0.75
+      },
+      "datasets": [
+        {
+          "name": "MNIST",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1500,
+            "end": 1520
+          },
+          "confidence": 0.5
+        },
+        {
+          "name": "CelebA",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1520,
+            "end": 1540
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 3000,
+            "end": 3008
+          },
+          "confidence": 0.5
+        },
+        {
+          "name": "reconstruction loss",
+          "value": 0.429,
+          "unit": null,
+          "evidence_span": {
+            "start": 4000,
+            "end": 4010
+          },
+          "confidence": 0.5
+        }
+      ],
+      "claim_strength": "novel",
+      "comparison_targets": [
+        "DCGANs",
+        "VAE"
+      ],
+      "self_consistency": 0.75,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "PARTIAL",
+        "datasets": "SUPPORTED",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "(none)",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 19581,
+    "tokens_out": 2484,
+    "cost_usd": 0.00913593,
+    "wall_time_seconds": 78.35131354199257,
+    "voting_samples": 3
+  }
+}

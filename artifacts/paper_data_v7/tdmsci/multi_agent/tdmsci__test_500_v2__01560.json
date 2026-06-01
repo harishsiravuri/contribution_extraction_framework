@@ -1,0 +1,46 @@
+{
+  "paper_id": "tdmsci:test_500_v2:01560",
+  "contributions": [
+    {
+      "method": {
+        "name": "Code-Switched LDA (csLDA)",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 11,
+          "end": 32
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "multilingual corpus analysis",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 89,
+          "end": 114
+        },
+        "confidence": 1.0
+      },
+      "datasets": [],
+      "metrics": [],
+      "claim_strength": null,
+      "comparison_targets": [],
+      "self_consistency": 0.6666666666666666,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 4748,
+    "tokens_out": 1371,
+    "cost_usd": 0.0032704200000000004,
+    "wall_time_seconds": 40.121741665992886,
+    "voting_samples": 3
+  }
+}

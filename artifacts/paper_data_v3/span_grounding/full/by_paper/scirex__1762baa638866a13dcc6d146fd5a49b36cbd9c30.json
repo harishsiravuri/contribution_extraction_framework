@@ -1,0 +1,166 @@
+{
+  "paper_id": "scirex:1762baa638866a13dcc6d146fd5a49b36cbd9c30",
+  "contributions": [
+    {
+      "method": {
+        "name": "Graph Convolutional Network",
+        "canonical_id": "GCN",
+        "evidence_span": {
+          "start": 185,
+          "end": 282
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "semi-supervised node classification",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 127,
+          "end": 191
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "Citeseer",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 4319,
+            "end": 4327
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "Cora",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 4329,
+            "end": 4333
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "Pubmed",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 4335,
+            "end": 4342
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "NELL",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 4344,
+            "end": 4348
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": null,
+          "unit": "%",
+          "evidence_span": {
+            "start": 5218,
+            "end": 5227
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "training time",
+          "value": null,
+          "unit": "seconds",
+          "evidence_span": {
+            "start": 5100,
+            "end": 5200
+          },
+          "confidence": 0.67
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "label propagation",
+        "semi-supervised embedding",
+        "manifold regularization",
+        "DeepWalk",
+        "Planetoid"
+      ],
+      "self_consistency": 0.93,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "PARTIAL"
+      }
+    },
+    {
+      "method": {
+        "name": "layer-wise propagation rule",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 870,
+          "end": 943
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": null,
+        "canonical_id": null,
+        "evidence_span": null,
+        "confidence": 0.0
+      },
+      "datasets": [],
+      "metrics": [],
+      "claim_strength": "novel",
+      "comparison_targets": [],
+      "self_consistency": 0.33,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "UNSUPPORTED",
+        "datasets": "UNSUPPORTED",
+        "metrics": "UNSUPPORTED"
+      }
+    },
+    {
+      "method": {
+        "name": "renormalization trick",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 2759,
+          "end": 2786
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": null,
+        "canonical_id": null,
+        "evidence_span": null,
+        "confidence": 0.0
+      },
+      "datasets": [],
+      "metrics": [],
+      "claim_strength": "novel",
+      "comparison_targets": [],
+      "self_consistency": 0.33,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "UNSUPPORTED",
+        "datasets": "UNSUPPORTED",
+        "metrics": "UNSUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 30519,
+    "tokens_out": 3823,
+    "cost_usd": 0.015849719999999998,
+    "wall_time_seconds": 181.21134083298966,
+    "voting_samples": 3
+  }
+}

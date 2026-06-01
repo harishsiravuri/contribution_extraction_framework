@@ -1,0 +1,88 @@
+{
+  "paper_id": "scirex:0b4b6932d5df74b366d9235b40334bc40d719c72",
+  "contributions": [
+    {
+      "method": {
+        "name": "Temporal Ensembling",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 200
+        },
+        "confidence": 0.9
+      },
+      "task": {
+        "name": "Semi-supervised learning",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 60,
+          "end": 140
+        },
+        "confidence": 0.9
+      },
+      "datasets": [
+        {
+          "name": "SVHN",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 320,
+            "end": 324
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "CIFAR-10",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 328,
+            "end": 336
+          },
+          "confidence": 0.9
+        }
+      ],
+      "metrics": [
+        {
+          "name": "classification error rate",
+          "value": 7.05,
+          "unit": "%",
+          "evidence_span": {
+            "start": 340,
+            "end": 370
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "classification error rate",
+          "value": 16.55,
+          "unit": "%",
+          "evidence_span": {
+            "start": 380,
+            "end": 410
+          },
+          "confidence": 0.9
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "previous semi-supervised learning methods"
+      ],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "PARTIAL",
+        "task": "PARTIAL",
+        "datasets": "PARTIAL",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "(none)",
+    "consolidator_model": "(none)",
+    "tokens_in": 7603,
+    "tokens_out": 433,
+    "cost_usd": 0.00281833,
+    "wall_time_seconds": 17.374897499976214,
+    "voting_samples": 1
+  }
+}

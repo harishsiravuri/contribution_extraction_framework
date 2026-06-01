@@ -1,0 +1,69 @@
+{
+  "paper_id": "scirex:3f55d26dd638c849745b95e912c28d88445ba5e1",
+  "contributions": [
+    {
+      "method": {
+        "name": "BiLSTM with max pooling",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 2000,
+          "end": 2100
+        },
+        "confidence": 0.9
+      },
+      "task": {
+        "name": "Natural Language Inference",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 1000,
+          "end": 1100
+        },
+        "confidence": 0.9
+      },
+      "datasets": [
+        {
+          "name": "Stanford Natural Language Inference (SNLI)",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1200,
+            "end": 1300
+          },
+          "confidence": 0.9
+        }
+      ],
+      "metrics": [
+        {
+          "name": "transfer accuracy",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 1500,
+            "end": 1600
+          },
+          "confidence": 0.8
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "SkipThought vectors"
+      ],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "PARTIAL",
+        "task": "PARTIAL",
+        "datasets": "PARTIAL",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "(none)",
+    "consolidator_model": "(none)",
+    "tokens_in": 5747,
+    "tokens_out": 321,
+    "cost_usd": 0.00212473,
+    "wall_time_seconds": 25.75041679199785,
+    "voting_samples": 1
+  }
+}

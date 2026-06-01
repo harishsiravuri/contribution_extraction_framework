@@ -1,0 +1,64 @@
+{
+  "paper_id": "tdmsci:test_500_v2:01320",
+  "contributions": [
+    {
+      "method": {
+        "name": null,
+        "canonical_id": null,
+        "evidence_span": null,
+        "confidence": 0.0
+      },
+      "task": {
+        "name": "dependency parsing",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 48,
+          "end": 64
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "WSJ45",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 31,
+            "end": 36
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": null,
+          "unit": "%",
+          "evidence_span": {
+            "start": 13,
+            "end": 21
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": null,
+      "comparison_targets": [],
+      "self_consistency": 0.75,
+      "critic_verdict": {
+        "method": "UNSUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 5337,
+    "tokens_out": 1779,
+    "cost_usd": 0.00393948,
+    "wall_time_seconds": 35.938903416041285,
+    "voting_samples": 3
+  }
+}

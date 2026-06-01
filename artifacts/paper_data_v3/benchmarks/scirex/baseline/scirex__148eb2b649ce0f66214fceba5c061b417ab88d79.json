@@ -1,0 +1,89 @@
+{
+  "paper_id": "scirex:148eb2b649ce0f66214fceba5c061b417ab88d79",
+  "contributions": [
+    {
+      "method": {
+        "name": "Bidirectional-InfoGAN",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 1715,
+          "end": 1735
+        },
+        "confidence": 0.9
+      },
+      "task": {
+        "name": "learning disentangled representations",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 135,
+          "end": 192
+        },
+        "confidence": 0.9
+      },
+      "datasets": [
+        {
+          "name": "MNIST",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2585,
+            "end": 2591
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "CelebA",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2593,
+            "end": 2600
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "SVHN",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2602,
+            "end": 2607
+          },
+          "confidence": 0.9
+        }
+      ],
+      "metrics": [
+        {
+          "name": "test set accuracy",
+          "value": 96.61,
+          "unit": "%",
+          "evidence_span": {
+            "start": 2736,
+            "end": 2766
+          },
+          "confidence": 0.9
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "InfoGAN",
+        "Structured GAN",
+        "Bidirectional GAN"
+      ],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "PARTIAL",
+        "task": "PARTIAL",
+        "datasets": "PARTIAL",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "(none)",
+    "consolidator_model": "(none)",
+    "tokens_in": 4225,
+    "tokens_out": 442,
+    "cost_usd": 0.00174538,
+    "wall_time_seconds": 18.532984624966048,
+    "voting_samples": 1
+  }
+}

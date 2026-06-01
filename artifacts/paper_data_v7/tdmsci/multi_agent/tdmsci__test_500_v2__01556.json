@@ -1,0 +1,53 @@
+{
+  "paper_id": "tdmsci:test_500_v2:01556",
+  "contributions": [
+    {
+      "method": {
+        "name": "multilingual approach",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 139,
+          "end": 159
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": null,
+        "canonical_id": null,
+        "evidence_span": null,
+        "confidence": 0.0
+      },
+      "datasets": [
+        {
+          "name": "Europarl parallel corpus",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 185,
+            "end": 209
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [],
+      "claim_strength": null,
+      "comparison_targets": [],
+      "self_consistency": 0.6666666666666666,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "UNSUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": null
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 4696,
+    "tokens_out": 1200,
+    "cost_usd": 0.0030875700000000004,
+    "wall_time_seconds": 27.05597291700542,
+    "voting_samples": 3
+  }
+}

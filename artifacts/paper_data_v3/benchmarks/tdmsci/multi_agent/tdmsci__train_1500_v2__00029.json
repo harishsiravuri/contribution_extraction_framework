@@ -1,0 +1,64 @@
+{
+  "paper_id": "tdmsci:train_1500_v2:00029",
+  "contributions": [
+    {
+      "method": {
+        "name": null,
+        "canonical_id": null,
+        "evidence_span": null,
+        "confidence": 0.0
+      },
+      "task": {
+        "name": "frame identification",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 12,
+          "end": 29
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "PropBank",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 48,
+            "end": 56
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 32,
+            "end": 40
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": null,
+      "comparison_targets": [],
+      "self_consistency": 0.75,
+      "critic_verdict": {
+        "method": "UNSUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 5259,
+    "tokens_out": 1948,
+    "cost_usd": 0.00404824,
+    "wall_time_seconds": 42.31255958304973,
+    "voting_samples": 3
+  }
+}

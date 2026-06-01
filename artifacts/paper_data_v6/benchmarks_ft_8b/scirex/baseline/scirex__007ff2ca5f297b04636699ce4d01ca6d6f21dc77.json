@@ -1,0 +1,97 @@
+{
+  "paper_id": "scirex:007ff2ca5f297b04636699ce4d01ca6d6f21dc77",
+  "contributions": [
+    {
+      "method": {
+        "name": "aESIM",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 1029,
+          "end": 1319
+        },
+        "confidence": 0.9
+      },
+      "task": {
+        "name": "Natural Language Inference",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 1448,
+          "end": 1485
+        },
+        "confidence": 0.9
+      },
+      "datasets": [
+        {
+          "name": "SNLI",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 3528,
+            "end": 3579
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "MultiNLI",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 3590,
+            "end": 3648
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "Quora",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 3659,
+            "end": 3709
+          },
+          "confidence": 0.9
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy",
+          "value": 88.1,
+          "unit": "%",
+          "evidence_span": {
+            "start": 6048,
+            "end": 6057
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "Accuracy",
+          "value": 88.01,
+          "unit": "%",
+          "evidence_span": {
+            "start": 6087,
+            "end": 6097
+          },
+          "confidence": 0.9
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "ESIM"
+      ],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "PARTIAL",
+        "task": "PARTIAL",
+        "datasets": "PARTIAL",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "(none)",
+    "consolidator_model": "(none)",
+    "tokens_in": 4147,
+    "tokens_out": 520,
+    "cost_usd": 0.0017898399999999998,
+    "wall_time_seconds": 21.216413750022184,
+    "voting_samples": 1
+  }
+}

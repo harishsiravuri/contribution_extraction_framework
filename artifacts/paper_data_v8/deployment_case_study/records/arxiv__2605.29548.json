@@ -1,0 +1,88 @@
+{
+  "paper_id": "arxiv:2605.29548",
+  "contributions": [
+    {
+      "method": {
+        "name": "OLMo",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 1259,
+          "end": 1263
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "pretraining",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 1246,
+          "end": 1255
+        },
+        "confidence": 0.6666666666666666
+      },
+      "datasets": [
+        {
+          "name": "novel tasks of varying frequency and complexity",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1256,
+            "end": 1302
+          },
+          "confidence": 0.6666666666666666
+        },
+        {
+          "name": "synthetic data",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 608,
+            "end": 622
+          },
+          "confidence": 0.3333333333333333
+        }
+      ],
+      "metrics": [
+        {
+          "name": "gradient interference",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 1341,
+            "end": 1362
+          },
+          "confidence": 0.3333333333333333
+        },
+        {
+          "name": "task retention",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 1298,
+            "end": 1310
+          },
+          "confidence": 0.3333333333333333
+        }
+      ],
+      "claim_strength": null,
+      "comparison_targets": [
+        "smaller models"
+      ],
+      "self_consistency": 0.5555555555555556,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "PARTIAL",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 7671,
+    "tokens_out": 2852,
+    "cost_usd": 0.005925369999999999,
+    "wall_time_seconds": 49.52025837497786,
+    "voting_samples": 3
+  }
+}

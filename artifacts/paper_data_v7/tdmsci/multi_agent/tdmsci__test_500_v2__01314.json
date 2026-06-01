@@ -1,0 +1,61 @@
+{
+  "paper_id": "tdmsci:test_500_v2:01314",
+  "contributions": [
+    {
+      "method": {
+        "name": null,
+        "canonical_id": null,
+        "evidence_span": null,
+        "confidence": 0.0
+      },
+      "task": {
+        "name": "information retrieval",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 41,
+          "end": 63
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": null,
+          "canonical_id": null,
+          "evidence_span": null,
+          "confidence": 0.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "mAP",
+          "value": null,
+          "unit": "%",
+          "evidence_span": {
+            "start": 11,
+            "end": 15
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": null,
+      "comparison_targets": [],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "UNSUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "UNSUPPORTED",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 5062,
+    "tokens_out": 1667,
+    "cost_usd": 0.00368876,
+    "wall_time_seconds": 29.900941333035007,
+    "voting_samples": 3
+  }
+}

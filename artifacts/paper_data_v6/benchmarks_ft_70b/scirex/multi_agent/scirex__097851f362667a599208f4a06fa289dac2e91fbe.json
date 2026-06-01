@@ -1,0 +1,67 @@
+{
+  "paper_id": "scirex:097851f362667a599208f4a06fa289dac2e91fbe",
+  "contributions": [
+    {
+      "method": {
+        "name": "epls",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 2341,
+          "end": 2345
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "unsupervised feature learning",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 63
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "stl-10",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 4441,
+            "end": 4446
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 5551,
+            "end": 5558
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [],
+      "self_consistency": 0.6666666666666666,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "harishsiravuri_e088/Meta-Llama-3.1-70B-Instruct-Reference-scirex-v6-70b-7cecddd1-66437b32",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 21477,
+    "tokens_out": 1242,
+    "cost_usd": 0.01213644,
+    "wall_time_seconds": 26.168330916960258,
+    "voting_samples": 3
+  }
+}

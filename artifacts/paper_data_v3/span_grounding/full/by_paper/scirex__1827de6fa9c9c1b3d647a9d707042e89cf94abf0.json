@@ -1,0 +1,90 @@
+{
+  "paper_id": "scirex:1827de6fa9c9c1b3d647a9d707042e89cf94abf0",
+  "contributions": [
+    {
+      "method": {
+        "name": "Batch Normalization",
+        "canonical_id": "BatchNormalization",
+        "evidence_span": {
+          "start": 182,
+          "end": 200
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "image classification",
+        "canonical_id": "image_classification",
+        "evidence_span": {
+          "start": 290,
+          "end": 311
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "ImageNet",
+          "canonical_id": "ImageNet",
+          "evidence_span": {
+            "start": 323,
+            "end": 331
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "MNIST",
+          "canonical_id": "MNIST",
+          "evidence_span": {
+            "start": 3436,
+            "end": 3442
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "top-5 error",
+          "value": 4.9,
+          "unit": "%",
+          "evidence_span": {
+            "start": 382,
+            "end": 408
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "accuracy",
+          "value": 74.8,
+          "unit": "%",
+          "evidence_span": {
+            "start": 7784,
+            "end": 7804
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "traditional deep networks",
+        "Inception",
+        "Deep Image ensemble"
+      ],
+      "self_consistency": 0.8333333333333334,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 33111,
+    "tokens_out": 3364,
+    "cost_usd": 0.01640059,
+    "wall_time_seconds": 147.5904604580137,
+    "voting_samples": 3
+  }
+}

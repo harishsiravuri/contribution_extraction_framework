@@ -1,0 +1,128 @@
+{
+  "paper_id": "scirex:4265269bc894caa97efbfcfe5b83da7413f86a30",
+  "contributions": [
+    {
+      "method": {
+        "name": "asymmetric tri-training",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 405,
+          "end": 427
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "domain adaptation",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 1005,
+          "end": 1022
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "MNIST→SVHN",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2001,
+            "end": 2013
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": null,
+          "unit": "%",
+          "evidence_span": {
+            "start": 2001,
+            "end": 2011
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "MMD",
+        "DANN",
+        "DRCN",
+        "DSN",
+        "kNN-Ad"
+      ],
+      "self_consistency": 0.75,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    },
+    {
+      "method": {
+        "name": "asymmetric tri-training",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 405,
+          "end": 427
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "sentiment analysis",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 1101,
+          "end": 1117
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "Amazon Reviews",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 3001,
+            "end": 3015
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": null,
+          "unit": "%",
+          "evidence_span": {
+            "start": 3001,
+            "end": 3011
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "VFAE",
+        "DANN"
+      ],
+      "self_consistency": 0.75,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 37110,
+    "tokens_out": 4815,
+    "cost_usd": 0.01939163,
+    "wall_time_seconds": 181.0853662499576,
+    "voting_samples": 3
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "paper_id": "tdmsci:test_500_v2:01433",
+  "contributions": [
+    {
+      "method": {
+        "name": "statistics over discourse relations",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 14,
+          "end": 41
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "paradigmatic relation identification",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 96,
+          "end": 118
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "multiple languages",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 119,
+            "end": 136
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "recall",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 172,
+            "end": 178
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "F1",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 183,
+            "end": 191
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "patterns"
+      ],
+      "self_consistency": 0.875,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 5247,
+    "tokens_out": 1798,
+    "cost_usd": 0.00391181,
+    "wall_time_seconds": 38.65578104206361,
+    "voting_samples": 3
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "paper_id": "scirex:189e6bb7523733c4e524214b9e6ae92d4ed50dac",
+  "contributions": [
+    {
+      "method": {
+        "name": "hierarchical recurrent neural network",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 127,
+          "end": 166
+        },
+        "confidence": 0.8
+      },
+      "task": {
+        "name": "sequence tagging",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 127,
+          "end": 142
+        },
+        "confidence": 0.8
+      },
+      "datasets": [
+        {
+          "name": "Penn Treebank",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 327,
+            "end": 340
+          },
+          "confidence": 0.4
+        },
+        {
+          "name": "Genia",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 889,
+            "end": 894
+          },
+          "confidence": 0.2
+        },
+        {
+          "name": "CoNLL 2000",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 6978,
+            "end": 6988
+          },
+          "confidence": 0.2
+        },
+        {
+          "name": "CoNLL 2003 English NER",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 6978,
+            "end": 7002
+          },
+          "confidence": 0.2
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 3276,
+            "end": 3285
+          },
+          "confidence": 0.4
+        },
+        {
+          "name": "F1",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 7679,
+            "end": 7681
+          },
+          "confidence": 0.4
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "state-of-the-art"
+      ],
+      "self_consistency": 0.55,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "PARTIAL",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "(none)",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 20526,
+    "tokens_out": 3805,
+    "cost_usd": 0.01093328,
+    "wall_time_seconds": 62.337629583023954,
+    "voting_samples": 3
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "paper_id": "scirex:007ff2ca5f297b04636699ce4d01ca6d6f21dc77",
+  "contributions": [
+    {
+      "method": {
+        "name": "aESIM",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 61,
+          "end": 214
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "natural language inference",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 520,
+          "end": 544
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "SNLI",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2048,
+            "end": 2085
+          },
+          "confidence": 0.5
+        },
+        {
+          "name": "MultiNLI",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2086,
+            "end": 2125
+          },
+          "confidence": 0.5
+        },
+        {
+          "name": "Quora",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2129,
+            "end": 2160
+          },
+          "confidence": 0.5
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": 88.1,
+          "unit": "%",
+          "evidence_span": {
+            "start": 5181,
+            "end": 5190
+          },
+          "confidence": 0.5
+        },
+        {
+          "name": "accuracy",
+          "value": 88.01,
+          "unit": "%",
+          "evidence_span": {
+            "start": 5219,
+            "end": 5228
+          },
+          "confidence": 0.5
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "ESIM"
+      ],
+      "self_consistency": 0.875,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "DISABLED (E2 critic-off ablation)",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 16708,
+    "tokens_out": 2798,
+    "cost_usd": 0.00871687,
+    "wall_time_seconds": 34.88175016711466,
+    "voting_samples": 3
+  }
+}

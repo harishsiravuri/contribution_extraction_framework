@@ -1,0 +1,181 @@
+{
+  "paper_id": "scirex:33bcc97b605f00145098d095be2841a1fa6b9a95",
+  "contributions": [
+    {
+      "method": {
+        "name": "order-embeddings",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 366,
+          "end": 393
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "hypernym prediction",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 112,
+          "end": 129
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "WordNet",
+          "canonical_id": "WordNet",
+          "evidence_span": {
+            "start": 709,
+            "end": 717
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "word2gauss",
+        "transitive closure baseline"
+      ],
+      "self_consistency": 0.75,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "UNSUPPORTED"
+      }
+    },
+    {
+      "method": {
+        "name": "order-embeddings",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 366,
+          "end": 393
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "caption-image retrieval",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 1978,
+          "end": 2003
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "Microsoft COCO",
+          "canonical_id": "COCO",
+          "evidence_span": {
+            "start": 2666,
+            "end": 2680
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Recall@1",
+          "value": 46.7,
+          "unit": "%",
+          "evidence_span": {
+            "start": 3218,
+            "end": 3224
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "Recall@10",
+          "value": 88.9,
+          "unit": "%",
+          "evidence_span": {
+            "start": 3228,
+            "end": 3236
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "Median rank",
+          "value": 2.0,
+          "unit": "rank",
+          "evidence_span": {
+            "start": 3240,
+            "end": 3249
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "MNLM",
+        "m-RNN",
+        "DVSA",
+        "STV",
+        "FV",
+        "m-CNN"
+      ],
+      "self_consistency": 0.75,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    },
+    {
+      "method": {
+        "name": "order-embeddings",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 366,
+          "end": 393
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "textual entailment",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 4357,
+          "end": 4377
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "SNLI",
+          "canonical_id": "SNLI",
+          "evidence_span": {
+            "start": 4651,
+            "end": 4655
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [],
+      "claim_strength": "comparable",
+      "comparison_targets": [
+        "skip-thought baseline"
+      ],
+      "self_consistency": 0.75,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "UNSUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 32404,
+    "tokens_out": 4912,
+    "cost_usd": 0.017723660000000002,
+    "wall_time_seconds": 122.13644079200458,
+    "voting_samples": 3
+  }
+}

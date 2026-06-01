@@ -1,0 +1,101 @@
+{
+  "paper_id": "nlp_tdms:P15-1089",
+  "contributions": [
+    {
+      "method": {
+        "name": "syllable-based tweet normalization",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 52,
+          "end": 86
+        },
+        "confidence": 0.9
+      },
+      "task": {
+        "name": "tweet normalization",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 409,
+          "end": 426
+        },
+        "confidence": 0.9
+      },
+      "datasets": [
+        {
+          "name": "LexNorm1.1",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 4172,
+            "end": 4181
+          },
+          "confidence": 0.8
+        },
+        {
+          "name": "LexNorm1.2",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 4186,
+            "end": 4195
+          },
+          "confidence": 0.8
+        }
+      ],
+      "metrics": [
+        {
+          "name": "precision",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 4240,
+            "end": 4249
+          },
+          "confidence": 0.7
+        },
+        {
+          "name": "recall",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 4254,
+            "end": 4259
+          },
+          "confidence": 0.7
+        },
+        {
+          "name": "F-score",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 4264,
+            "end": 4271
+          },
+          "confidence": 0.7
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "character-level CRF tagging system",
+        "log-linear model using string edit distance and longest common sequence measures",
+        "bipartite graph exploiting contextual similarity",
+        "orthography-phone combined system using lexical edit distance and phonemic edit distance"
+      ],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "PARTIAL",
+        "task": "PARTIAL",
+        "datasets": "PARTIAL",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "(none)",
+    "consolidator_model": "(none)",
+    "tokens_in": 5651,
+    "tokens_out": 570,
+    "cost_usd": 0.00231562,
+    "wall_time_seconds": 17.358943333034404,
+    "voting_samples": 1
+  }
+}

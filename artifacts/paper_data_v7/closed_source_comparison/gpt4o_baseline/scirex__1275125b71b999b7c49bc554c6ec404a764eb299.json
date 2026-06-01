@@ -1,0 +1,89 @@
+{
+  "paper_id": "scirex:1275125b71b999b7c49bc554c6ec404a764eb299",
+  "contributions": [
+    {
+      "method": {
+        "name": "Hierarchical Deep Convolutional Neural Network (HD-CNN)",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 186,
+          "end": 222
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "Image Classification",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 222
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "CIFAR100",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1086,
+            "end": 1094
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "ImageNet 1000-class",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1099,
+            "end": 1118
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Top-1 Error",
+          "value": null,
+          "unit": "percentage",
+          "evidence_span": {
+            "start": 1119,
+            "end": 1135
+          },
+          "confidence": 0.8
+        },
+        {
+          "name": "Top-5 Error",
+          "value": null,
+          "unit": "percentage",
+          "evidence_span": {
+            "start": 1119,
+            "end": 1135
+          },
+          "confidence": 0.8
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "standard CNNs",
+        "state-of-the-art methods"
+      ],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "PARTIAL",
+        "task": "PARTIAL",
+        "datasets": "PARTIAL",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "openai/gpt-4o-2024-11-20",
+    "critic_model": "(none)",
+    "consolidator_model": "(none)",
+    "tokens_in": 6861,
+    "tokens_out": 429,
+    "cost_usd": 0.021442500000000003,
+    "wall_time_seconds": 3.419740042183548,
+    "voting_samples": 1
+  }
+}

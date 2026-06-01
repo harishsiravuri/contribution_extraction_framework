@@ -1,0 +1,63 @@
+{
+  "paper_id": "scirex:16028acc465c434a43599f0f900c91f38d690e02",
+  "contributions": [
+    {
+      "method": {
+        "name": "CornerNet",
+        "canonical_id": null,
+        "evidence_span": null,
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "object detection",
+        "canonical_id": null,
+        "evidence_span": null,
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "MS COCO test-dev",
+          "canonical_id": null,
+          "evidence_span": null,
+          "confidence": 0.6
+        },
+        {
+          "name": "MS COCO validation",
+          "canonical_id": null,
+          "evidence_span": null,
+          "confidence": 0.4
+        }
+      ],
+      "metrics": [
+        {
+          "name": "AP",
+          "value": 42.2,
+          "unit": "%",
+          "evidence_span": null,
+          "confidence": 0.4
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "existing one-stage detectors"
+      ],
+      "self_consistency": 0.73,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "openai/gpt-5",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 36826,
+    "tokens_out": 16402,
+    "cost_usd": 0.17972648999999996,
+    "wall_time_seconds": 105.59026666602585,
+    "voting_samples": 3
+  }
+}

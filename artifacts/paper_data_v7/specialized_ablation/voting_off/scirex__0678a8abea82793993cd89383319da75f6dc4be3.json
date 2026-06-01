@@ -1,0 +1,67 @@
+{
+  "paper_id": "scirex:0678a8abea82793993cd89383319da75f6dc4be3",
+  "contributions": [
+    {
+      "method": {
+        "name": "ProNet",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 186,
+          "end": 191
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "object classification and localization",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 10
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "PASCAL VOC 2012",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 3955,
+            "end": 3970
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "mAP",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 4441,
+            "end": 4444
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [],
+      "self_consistency": 1.0,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "PARTIAL",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "harishsiravuri_e088/Meta-Llama-3.1-70B-Instruct-Reference-scirex-v6-70b-7cecddd1-66437b32",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 14164,
+    "tokens_out": 929,
+    "cost_usd": 0.00844405,
+    "wall_time_seconds": 21.64421308413148,
+    "voting_samples": 1
+  }
+}

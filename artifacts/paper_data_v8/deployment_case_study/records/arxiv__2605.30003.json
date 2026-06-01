@@ -1,0 +1,89 @@
+{
+  "paper_id": "arxiv:2605.30003",
+  "contributions": [
+    {
+      "method": {
+        "name": "autoresearch for cooperation",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 10,
+          "end": 35
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "Sequential Social Dilemmas",
+        "canonical_id": "SSD",
+        "evidence_span": {
+          "start": 70,
+          "end": 118
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "Cleanup",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 283,
+            "end": 291
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "Gathering",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 293,
+            "end": 302
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "utilitarian efficiency",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 379,
+            "end": 400
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "Rawlsian maximin",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 402,
+            "end": 418
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "hand-designed baselines",
+        "prompt-only optimization"
+      ],
+      "self_consistency": 0.875,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 7499,
+    "tokens_out": 3083,
+    "cost_usd": 0.006100029999999999,
+    "wall_time_seconds": 66.38299112510867,
+    "voting_samples": 3
+  }
+}

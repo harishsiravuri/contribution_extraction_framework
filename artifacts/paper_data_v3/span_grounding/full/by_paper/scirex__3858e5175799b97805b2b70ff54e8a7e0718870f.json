@@ -1,0 +1,70 @@
+{
+  "paper_id": "scirex:3858e5175799b97805b2b70ff54e8a7e0718870f",
+  "contributions": [
+    {
+      "method": {
+        "name": "deep convolutional neural networks",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 44,
+          "end": 77
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "smile recognition",
+        "canonical_id": "facial expression recognition",
+        "evidence_span": {
+          "start": 114,
+          "end": 131
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "Denver Intensity of Spontaneous Facial Action (DISFA)",
+          "canonical_id": "DISFA",
+          "evidence_span": {
+            "start": 182,
+            "end": 235
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": 99.45,
+          "unit": "%",
+          "evidence_span": {
+            "start": 148,
+            "end": 156
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "hand-crafted features",
+        "SVM baselines"
+      ],
+      "self_consistency": 0.875,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 15750,
+    "tokens_out": 4221,
+    "cost_usd": 0.01061841,
+    "wall_time_seconds": 106.44525137502933,
+    "voting_samples": 3
+  }
+}

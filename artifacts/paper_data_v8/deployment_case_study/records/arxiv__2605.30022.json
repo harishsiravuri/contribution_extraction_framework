@@ -1,0 +1,71 @@
+{
+  "paper_id": "arxiv:2605.30022",
+  "contributions": [
+    {
+      "method": {
+        "name": "disentangled encoder Transformer",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 459,
+          "end": 483
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "linguistic representation probing",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 1067,
+          "end": 1094
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "Flash-Holmes probing benchmark",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1200,
+            "end": 1225
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "improvement on linguistic phenomena",
+          "value": 49.0,
+          "unit": "out of 65",
+          "evidence_span": {
+            "start": 1313,
+            "end": 1334
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "RoPE",
+        "RP",
+        "entangled AP"
+      ],
+      "self_consistency": 0.8333333333333334,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 6986,
+    "tokens_out": 2468,
+    "cost_usd": 0.00527636,
+    "wall_time_seconds": 66.31449029198848,
+    "voting_samples": 3
+  }
+}

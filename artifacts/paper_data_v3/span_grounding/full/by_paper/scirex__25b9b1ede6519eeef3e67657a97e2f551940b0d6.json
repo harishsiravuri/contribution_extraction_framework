@@ -1,0 +1,71 @@
+{
+  "paper_id": "scirex:25b9b1ede6519eeef3e67657a97e2f551940b0d6",
+  "contributions": [
+    {
+      "method": {
+        "name": "Segmental Recurrent Neural Networks",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 43
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "speech recognition",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 113,
+          "end": 131
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "TIMIT",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 733,
+            "end": 739
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "PER",
+          "value": 17.3,
+          "unit": "%",
+          "evidence_span": {
+            "start": 767,
+            "end": 781
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": null,
+      "comparison_targets": [
+        "CRF-based acoustic models",
+        "CTC",
+        "attention-based RNN"
+      ],
+      "self_consistency": 0.875,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 17624,
+    "tokens_out": 1768,
+    "cost_usd": 0.00875215,
+    "wall_time_seconds": 64.35495954100043,
+    "voting_samples": 3
+  }
+}

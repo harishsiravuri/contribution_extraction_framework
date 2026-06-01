@@ -1,0 +1,76 @@
+{
+  "paper_id": "arxiv:2605.30260",
+  "contributions": [
+    {
+      "method": {
+        "name": "MemFT",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 626,
+          "end": 631
+        },
+        "confidence": 0.75
+      },
+      "task": {
+        "name": "language model finetuning",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 105,
+          "end": 131
+        },
+        "confidence": 0.5
+      },
+      "datasets": [
+        {
+          "name": null,
+          "canonical_id": null,
+          "evidence_span": null,
+          "confidence": 0.75
+        }
+      ],
+      "metrics": [
+        {
+          "name": "memory fidelity",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 677,
+            "end": 691
+          },
+          "confidence": 0.75
+        },
+        {
+          "name": "efficiency",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 763,
+            "end": 772
+          },
+          "confidence": 0.5
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "LoRA"
+      ],
+      "self_consistency": 0.625,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "UNSUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 7612,
+    "tokens_out": 3095,
+    "cost_usd": 0.0062096600000000005,
+    "wall_time_seconds": 137.27092070807703,
+    "voting_samples": 3
+  }
+}

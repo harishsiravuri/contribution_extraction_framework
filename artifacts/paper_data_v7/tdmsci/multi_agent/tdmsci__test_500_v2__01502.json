@@ -1,0 +1,70 @@
+{
+  "paper_id": "tdmsci:test_500_v2:01502",
+  "contributions": [
+    {
+      "method": {
+        "name": null,
+        "canonical_id": null,
+        "evidence_span": null,
+        "confidence": 0.0
+      },
+      "task": {
+        "name": null,
+        "canonical_id": null,
+        "evidence_span": null,
+        "confidence": 0.0
+      },
+      "datasets": [
+        {
+          "name": "Blog corpus",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 4,
+            "end": 16
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "NYT",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 60,
+            "end": 63
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "precision",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 31,
+            "end": 38
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": null,
+      "comparison_targets": [],
+      "self_consistency": 0.33,
+      "critic_verdict": {
+        "method": "UNSUPPORTED",
+        "task": "UNSUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 5596,
+    "tokens_out": 2096,
+    "cost_usd": 0.00434986,
+    "wall_time_seconds": 47.75841487501748,
+    "voting_samples": 3
+  }
+}

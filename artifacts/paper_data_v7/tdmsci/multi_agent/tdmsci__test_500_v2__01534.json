@@ -1,0 +1,67 @@
+{
+  "paper_id": "tdmsci:test_500_v2:01534",
+  "contributions": [
+    {
+      "method": {
+        "name": "statistical machine translation",
+        "canonical_id": "SMT",
+        "evidence_span": {
+          "start": 3,
+          "end": 36
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "machine translation",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 3,
+          "end": 24
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "parallel corpora",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 67,
+            "end": 85
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 99,
+            "end": 108
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": null,
+      "comparison_targets": [],
+      "self_consistency": 0.96,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "PARTIAL",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 5419,
+    "tokens_out": 1934,
+    "cost_usd": 0.00411954,
+    "wall_time_seconds": 38.8337181659881,
+    "voting_samples": 3
+  }
+}

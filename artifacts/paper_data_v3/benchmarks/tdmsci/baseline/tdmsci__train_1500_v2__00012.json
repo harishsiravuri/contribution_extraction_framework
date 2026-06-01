@@ -1,0 +1,54 @@
+{
+  "paper_id": "tdmsci:train_1500_v2:00012",
+  "contributions": [
+    {
+      "method": {
+        "name": null,
+        "canonical_id": null,
+        "evidence_span": null,
+        "confidence": 0.0
+      },
+      "task": {
+        "name": "Entity Linking",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 24,
+          "end": 37
+        },
+        "confidence": 0.9
+      },
+      "datasets": [],
+      "metrics": [
+        {
+          "name": "Micro-Averaged Accuracy",
+          "value": null,
+          "unit": "%",
+          "evidence_span": {
+            "start": 38,
+            "end": 62
+          },
+          "confidence": 0.8
+        }
+      ],
+      "claim_strength": null,
+      "comparison_targets": [],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "PARTIAL",
+        "task": "PARTIAL",
+        "datasets": "PARTIAL",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "(none)",
+    "consolidator_model": "(none)",
+    "tokens_in": 552,
+    "tokens_out": 249,
+    "cost_usd": 0.00039824999999999995,
+    "wall_time_seconds": 7.375629749963991,
+    "voting_samples": 1
+  }
+}

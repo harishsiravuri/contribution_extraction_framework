@@ -1,0 +1,522 @@
+{
+  "gpt4o_multi": {
+    "papers_total": 25,
+    "papers_ok": 24,
+    "papers_error": 1,
+    "papers_skipped": 0,
+    "total_cost_usd": 2.1808545699999997,
+    "wall_time_seconds": 594.0470294998959,
+    "per_paper": [
+      {
+        "paper_id": "scirex:27e98e09cf09bc13c913d01676e5f32624011050",
+        "status": "ok",
+        "cost_usd": 0.07196769999999998,
+        "tokens_in": 29794,
+        "tokens_out": 2618,
+        "wall_time_seconds": 38.246252541895956,
+        "error": null,
+        "output_file": "outputs/paper_data_v7/closed_source_comparison/gpt4o_multi/scirex__27e98e09cf09bc13c913d01676e5f32624011050.json"
+      },
+      {
+        "paper_id": "scirex:088b649415378c4dde666f614ba24d08a36b6652",
+        "status": "ok",
+        "cost_usd": 0.08317147999999999,
+        "tokens_in": 32427,
+        "tokens_out": 6593,
+        "wall_time_seconds": 111.86370795802213,
+        "error": null,
+        "output_file": "outputs/paper_data_v7/closed_source_comparison/gpt4o_multi/scirex__088b649415378c4dde666f614ba24d08a36b6652.json"
+      },
+      {
+        "paper_id": "scirex:027d6c52be01b583b9a0d9eb8c9364c6b701c656",
+        "status": "ok",
+        "cost_usd": 0.07562656,
+        "tokens_in": 25756,
+        "tokens_out": 6017,
+        "wall_time_seconds": 74.86036875005811,
+        "error": null,
+        "output_file": "outputs/paper_data_v7/closed_source_comparison/gpt4o_multi/scirex__027d6c52be01b583b9a0d9eb8c9364c6b701c656.json"
+      },
+      {
+        "paper_id": "scirex:3070a1bd503c3767def898bbd50c7eea2bbf29c9",
+        "status": "ok",
+        "cost_usd": 0.11467324,
+        "tokens_in": 42778,
+        "tokens_out": 6371,
+        "wall_time_seconds": 59.82632912509143,
+        "error": null,
+        "output_file": "outputs/paper_data_v7/closed_source_comparison/gpt4o_multi/scirex__3070a1bd503c3767def898bbd50c7eea2bbf29c9.json"
+      },
+      {
+        "paper_id": "scirex:148eb2b649ce0f66214fceba5c061b417ab88d79",
+        "status": "ok",
+        "cost_usd": 0.06414407999999999,
+        "tokens_in": 23165,
+        "tokens_out": 4151,
+        "wall_time_seconds": 138.90567358396947,
+        "error": null,
+        "output_file": "outputs/paper_data_v7/closed_source_comparison/gpt4o_multi/scirex__148eb2b649ce0f66214fceba5c061b417ab88d79.json"
+      },
+      {
+        "paper_id": "scirex:1275125b71b999b7c49bc554c6ec404a764eb299",
+        "status": "ok",
+        "cost_usd": 0.1023302,
+        "tokens_in": 36156,
+        "tokens_out": 6599,
+        "wall_time_seconds": 139.69190966710448,
+        "error": null,
+        "output_file": "outputs/paper_data_v7/closed_source_comparison/gpt4o_multi/scirex__1275125b71b999b7c49bc554c6ec404a764eb299.json"
+      },
+      {
+        "paper_id": "scirex:0e6b990f41fc0e7fdd0662f88b5ad024375bd77b",
+        "status": "ok",
+        "cost_usd": 0.10054998,
+        "tokens_in": 36152,
+        "tokens_out": 9506,
+        "wall_time_seconds": 140.95338958292268,
+        "error": null,
+        "output_file": "outputs/paper_data_v7/closed_source_comparison/gpt4o_multi/scirex__0e6b990f41fc0e7fdd0662f88b5ad024375bd77b.json"
+      },
+      {
+        "paper_id": "scirex:0910a4c470a410fac446f4026f7c8ef512ae7427",
+        "status": "ok",
+        "cost_usd": 0.08415246,
+        "tokens_in": 31194,
+        "tokens_out": 5838,
+        "wall_time_seconds": 29.214721666881815,
+        "error": null,
+        "output_file": "outputs/paper_data_v7/closed_source_comparison/gpt4o_multi/scirex__0910a4c470a410fac446f4026f7c8ef512ae7427.json"
+      },
+      {
+        "paper_id": "scirex:40a63746a710baf4a694fd5a4dd8b5a3d9fc2846",
+        "status": "ok",
+        "cost_usd": 0.07893199,
+        "tokens_in": 28596,
+        "tokens_out": 5278,
+        "wall_time_seconds": 144.27003800007515,
+        "error": null,
+        "output_file": "outputs/paper_data_v7/closed_source_comparison/gpt4o_multi/scirex__40a63746a710baf4a694fd5a4dd8b5a3d9fc2846.json"
+      },
+      {
+        "paper_id": "scirex:087337fdad69caaab8ebd8ae68a731c5bf2e8b14",
+        "status": "ok",
+        "cost_usd": 0.10967180999999998,
+        "tokens_in": 44052,
+        "tokens_out": 4671,
+        "wall_time_seconds": 123.12730979197659,
+        "error": null,
+        "output_file": "outputs/paper_data_v7/closed_source_comparison/gpt4o_multi/scirex__087337fdad69caaab8ebd8ae68a731c5bf2e8b14.json"
+      },
+      {
+        "paper_id": "scirex:2af864bc38fd1116b4af32f16b44f5b3b156f5a3",
+        "status": "ok",
+        "cost_usd": 0.07510968999999999,
+        "tokens_in": 29582,
+        "tokens_out": 6360,
+        "wall_time_seconds": 90.04723133309744,
+        "error": null,
+        "output_file": "outputs/paper_data_v7/closed_source_comparison/gpt4o_multi/scirex__2af864bc38fd1116b4af32f16b44f5b3b156f5a3.json"
+      },
+      {
+        "paper_id": "scirex:3bf52841ade9f6adc55e102a4460af922e52bb7d",
+        "status": "ok",
+        "cost_usd": 0.0892094,
+        "tokens_in": 35500,
+        "tokens_out": 7329,
+        "wall_time_seconds": 177.20960854110308,
+        "error": null,
+        "output_file": "outputs/paper_data_v7/closed_source_comparison/gpt4o_multi/scirex__3bf52841ade9f6adc55e102a4460af922e52bb7d.json"
+      },
+      {
+        "paper_id": "scirex:22634b09c3c83f4a959f4f732b03ec3c92808094",
+        "status": "ok",
+        "cost_usd": 0.16926209999999997,
+        "tokens_in": 67022,
+        "tokens_out": 7286,
+        "wall_time_seconds": 114.17343837511726,
+        "error": null,
+        "output_file": "outputs/paper_data_v7/closed_source_comparison/gpt4o_multi/scirex__22634b09c3c83f4a959f4f732b03ec3c92808094.json"
+      },
+      {
+        "paper_id": "scirex:07a9478e87a8304fc3267fa16e83e9f3bbd98b27",
+        "status": "ok",
+        "cost_usd": 0.048912269999999994,
+        "tokens_in": 18710,
+        "tokens_out": 3728,
+        "wall_time_seconds": 69.92452062480152,
+        "error": null,
+        "output_file": "outputs/paper_data_v7/closed_source_comparison/gpt4o_multi/scirex__07a9478e87a8304fc3267fa16e83e9f3bbd98b27.json"
+      },
+      {
+        "paper_id": "scirex:25ace72fc3e483d5d52c9209f76b04f0fdd08f9b",
+        "status": "ok",
+        "cost_usd": 0.057990679999999996,
+        "tokens_in": 21535,
+        "tokens_out": 4263,
+        "wall_time_seconds": 81.53259337507188,
+        "error": null,
+        "output_file": "outputs/paper_data_v7/closed_source_comparison/gpt4o_multi/scirex__25ace72fc3e483d5d52c9209f76b04f0fdd08f9b.json"
+      },
+      {
+        "paper_id": "scirex:189e6bb7523733c4e524214b9e6ae92d4ed50dac",
+        "status": "error",
+        "cost_usd": 0.0,
+        "tokens_in": 0,
+        "tokens_out": 0,
+        "wall_time_seconds": 0.0,
+        "error": "ConsolidatorParseError: Consolidator output failed schema validation: 20 validation errors for ContributionRecord\ncontributions.0.method.confidence\n  Input should be a valid number [type=float_type, input_value=None, input_t",
+        "output_file": null
+      },
+      {
+        "paper_id": "scirex:0496691c6d54fd746c111d1004349acf7654145e",
+        "status": "ok",
+        "cost_usd": 0.10785329999999999,
+        "tokens_in": 42764,
+        "tokens_out": 5531,
+        "wall_time_seconds": 61.77704995800741,
+        "error": null,
+        "output_file": "outputs/paper_data_v7/closed_source_comparison/gpt4o_multi/scirex__0496691c6d54fd746c111d1004349acf7654145e.json"
+      },
+      {
+        "paper_id": "scirex:4265269bc894caa97efbfcfe5b83da7413f86a30",
+        "status": "ok",
+        "cost_usd": 0.09415826,
+        "tokens_in": 37410,
+        "tokens_out": 4451,
+        "wall_time_seconds": 47.08872308395803,
+        "error": null,
+        "output_file": "outputs/paper_data_v7/closed_source_comparison/gpt4o_multi/scirex__4265269bc894caa97efbfcfe5b83da7413f86a30.json"
+      },
+      {
+        "paper_id": "scirex:310fed695da4f36139b70b23065c34fe9fb29ca6",
+        "status": "ok",
+        "cost_usd": 0.0770925,
+        "tokens_in": 24020,
+        "tokens_out": 8108,
+        "wall_time_seconds": 85.5656025831122,
+        "error": null,
+        "output_file": "outputs/paper_data_v7/closed_source_comparison/gpt4o_multi/scirex__310fed695da4f36139b70b23065c34fe9fb29ca6.json"
+      },
+      {
+        "paper_id": "scirex:0c7f1d285ce069b2f7a807a4b2750695098bffe6",
+        "status": "ok",
+        "cost_usd": 0.10395478,
+        "tokens_in": 35289,
+        "tokens_out": 8173,
+        "wall_time_seconds": 92.52476479182951,
+        "error": null,
+        "output_file": "outputs/paper_data_v7/closed_source_comparison/gpt4o_multi/scirex__0c7f1d285ce069b2f7a807a4b2750695098bffe6.json"
+      },
+      {
+        "paper_id": "scirex:3d597e16ef56119bb6e6d78e3f379623862f0752",
+        "status": "ok",
+        "cost_usd": 0.13071351,
+        "tokens_in": 54422,
+        "tokens_out": 5657,
+        "wall_time_seconds": 84.65800541685894,
+        "error": null,
+        "output_file": "outputs/paper_data_v7/closed_source_comparison/gpt4o_multi/scirex__3d597e16ef56119bb6e6d78e3f379623862f0752.json"
+      },
+      {
+        "paper_id": "scirex:1efdad6f91e830fd64306e4625f74191b05ef9c4",
+        "status": "ok",
+        "cost_usd": 0.1017527,
+        "tokens_in": 36444,
+        "tokens_out": 5924,
+        "wall_time_seconds": 67.89261633297428,
+        "error": null,
+        "output_file": "outputs/paper_data_v7/closed_source_comparison/gpt4o_multi/scirex__1efdad6f91e830fd64306e4625f74191b05ef9c4.json"
+      },
+      {
+        "paper_id": "scirex:25b9b1ede6519eeef3e67657a97e2f551940b0d6",
+        "status": "ok",
+        "cost_usd": 0.04346713,
+        "tokens_in": 19035,
+        "tokens_out": 2107,
+        "wall_time_seconds": 49.50814783317037,
+        "error": null,
+        "output_file": "outputs/paper_data_v7/closed_source_comparison/gpt4o_multi/scirex__25b9b1ede6519eeef3e67657a97e2f551940b0d6.json"
+      },
+      {
+        "paper_id": "scirex:2b507f659b341ed0f23106446de8e4322f4a3f7e",
+        "status": "ok",
+        "cost_usd": 0.11171705999999999,
+        "tokens_in": 44137,
+        "tokens_out": 5734,
+        "wall_time_seconds": 82.55609112489037,
+        "error": null,
+        "output_file": "outputs/paper_data_v7/closed_source_comparison/gpt4o_multi/scirex__2b507f659b341ed0f23106446de8e4322f4a3f7e.json"
+      },
+      {
+        "paper_id": "scirex:2315fc6c2c0c4abd2443e26a26e7bb86df8e24cc",
+        "status": "ok",
+        "cost_usd": 0.08444169,
+        "tokens_in": 33981,
+        "tokens_out": 4140,
+        "wall_time_seconds": 66.13500779215246,
+        "error": null,
+        "output_file": "outputs/paper_data_v7/closed_source_comparison/gpt4o_multi/scirex__2315fc6c2c0c4abd2443e26a26e7bb86df8e24cc.json"
+      }
+    ]
+  },
+  "gpt4o_baseline": {
+    "papers_total": 25,
+    "papers_ok": 24,
+    "papers_error": 1,
+    "papers_skipped": 0,
+    "total_cost_usd": 0.50376,
+    "wall_time_seconds": 22.22715779207647,
+    "per_paper": [
+      {
+        "paper_id": "scirex:27e98e09cf09bc13c913d01676e5f32624011050",
+        "status": "ok",
+        "cost_usd": 0.019915,
+        "tokens_in": 6434,
+        "tokens_out": 383,
+        "wall_time_seconds": 2.554440542124212,
+        "error": null,
+        "output_file": "outputs/paper_data_v7/closed_source_comparison/gpt4o_baseline/scirex__27e98e09cf09bc13c913d01676e5f32624011050.json"
+      },
+      {
+        "paper_id": "scirex:088b649415378c4dde666f614ba24d08a36b6652",
+        "status": "ok",
+        "cost_usd": 0.0205925,
+        "tokens_in": 6093,
+        "tokens_out": 536,
+        "wall_time_seconds": 3.263479665853083,
+        "error": null,
+        "output_file": "outputs/paper_data_v7/closed_source_comparison/gpt4o_baseline/scirex__088b649415378c4dde666f614ba24d08a36b6652.json"
+      },
+      {
+        "paper_id": "scirex:027d6c52be01b583b9a0d9eb8c9364c6b701c656",
+        "status": "ok",
+        "cost_usd": 0.016625,
+        "tokens_in": 4366,
+        "tokens_out": 571,
+        "wall_time_seconds": 3.3945548329502344,
+        "error": null,
+        "output_file": "outputs/paper_data_v7/closed_source_comparison/gpt4o_baseline/scirex__027d6c52be01b583b9a0d9eb8c9364c6b701c656.json"
+      },
+      {
+        "paper_id": "scirex:3070a1bd503c3767def898bbd50c7eea2bbf29c9",
+        "status": "ok",
+        "cost_usd": 0.0281775,
+        "tokens_in": 8519,
+        "tokens_out": 688,
+        "wall_time_seconds": 4.179957292042673,
+        "error": null,
+        "output_file": "outputs/paper_data_v7/closed_source_comparison/gpt4o_baseline/scirex__3070a1bd503c3767def898bbd50c7eea2bbf29c9.json"
+      },
+      {
+        "paper_id": "scirex:148eb2b649ce0f66214fceba5c061b417ab88d79",
+        "status": "ok",
+        "cost_usd": 0.0151325,
+        "tokens_in": 4217,
+        "tokens_out": 459,
+        "wall_time_seconds": 3.1886400419753045,
+        "error": null,
+        "output_file": "outputs/paper_data_v7/closed_source_comparison/gpt4o_baseline/scirex__148eb2b649ce0f66214fceba5c061b417ab88d79.json"
+      },
+      {
+        "paper_id": "scirex:1275125b71b999b7c49bc554c6ec404a764eb299",
+        "status": "ok",
+        "cost_usd": 0.021442500000000003,
+        "tokens_in": 6861,
+        "tokens_out": 429,
+        "wall_time_seconds": 3.419740042183548,
+        "error": null,
+        "output_file": "outputs/paper_data_v7/closed_source_comparison/gpt4o_baseline/scirex__1275125b71b999b7c49bc554c6ec404a764eb299.json"
+      },
+      {
+        "paper_id": "scirex:0e6b990f41fc0e7fdd0662f88b5ad024375bd77b",
+        "status": "ok",
+        "cost_usd": 0.0223575,
+        "tokens_in": 6383,
+        "tokens_out": 640,
+        "wall_time_seconds": 3.8370119580067694,
+        "error": null,
+        "output_file": "outputs/paper_data_v7/closed_source_comparison/gpt4o_baseline/scirex__0e6b990f41fc0e7fdd0662f88b5ad024375bd77b.json"
+      },
+      {
+        "paper_id": "scirex:0910a4c470a410fac446f4026f7c8ef512ae7427",
+        "status": "ok",
+        "cost_usd": 0.018755,
+        "tokens_in": 5870,
+        "tokens_out": 408,
+        "wall_time_seconds": 3.1554654580540955,
+        "error": null,
+        "output_file": "outputs/paper_data_v7/closed_source_comparison/gpt4o_baseline/scirex__0910a4c470a410fac446f4026f7c8ef512ae7427.json"
+      },
+      {
+        "paper_id": "scirex:40a63746a710baf4a694fd5a4dd8b5a3d9fc2846",
+        "status": "ok",
+        "cost_usd": 0.0180575,
+        "tokens_in": 5339,
+        "tokens_out": 471,
+        "wall_time_seconds": 2.3120031671132892,
+        "error": null,
+        "output_file": "outputs/paper_data_v7/closed_source_comparison/gpt4o_baseline/scirex__40a63746a710baf4a694fd5a4dd8b5a3d9fc2846.json"
+      },
+      {
+        "paper_id": "scirex:087337fdad69caaab8ebd8ae68a731c5bf2e8b14",
+        "status": "ok",
+        "cost_usd": 0.0285575,
+        "tokens_in": 9339,
+        "tokens_out": 521,
+        "wall_time_seconds": 3.4873416249174625,
+        "error": null,
+        "output_file": "outputs/paper_data_v7/closed_source_comparison/gpt4o_baseline/scirex__087337fdad69caaab8ebd8ae68a731c5bf2e8b14.json"
+      },
+      {
+        "paper_id": "scirex:2af864bc38fd1116b4af32f16b44f5b3b156f5a3",
+        "status": "ok",
+        "cost_usd": 0.01744,
+        "tokens_in": 5204,
+        "tokens_out": 443,
+        "wall_time_seconds": 3.205770625034347,
+        "error": null,
+        "output_file": "outputs/paper_data_v7/closed_source_comparison/gpt4o_baseline/scirex__2af864bc38fd1116b4af32f16b44f5b3b156f5a3.json"
+      },
+      {
+        "paper_id": "scirex:3bf52841ade9f6adc55e102a4460af922e52bb7d",
+        "status": "ok",
+        "cost_usd": 0.020357499999999997,
+        "tokens_in": 6499,
+        "tokens_out": 411,
+        "wall_time_seconds": 2.2836490829940885,
+        "error": null,
+        "output_file": "outputs/paper_data_v7/closed_source_comparison/gpt4o_baseline/scirex__3bf52841ade9f6adc55e102a4460af922e52bb7d.json"
+      },
+      {
+        "paper_id": "scirex:22634b09c3c83f4a959f4f732b03ec3c92808094",
+        "status": "error",
+        "cost_usd": 0.0,
+        "tokens_in": 0,
+        "tokens_out": 0,
+        "wall_time_seconds": 0.0,
+        "error": "SingleLLMParseError: SingleLLM output failed schema validation: 1 validation error for ContributionRecord\ncontributions.1.claim_strength\n  Input should be 'improves', 'comparable', 'novel' or 'applies' [type=literal_error",
+        "output_file": null
+      },
+      {
+        "paper_id": "scirex:07a9478e87a8304fc3267fa16e83e9f3bbd98b27",
+        "status": "ok",
+        "cost_usd": 0.01161,
+        "tokens_in": 3352,
+        "tokens_out": 323,
+        "wall_time_seconds": 2.3395869170781225,
+        "error": null,
+        "output_file": "outputs/paper_data_v7/closed_source_comparison/gpt4o_baseline/scirex__07a9478e87a8304fc3267fa16e83e9f3bbd98b27.json"
+      },
+      {
+        "paper_id": "scirex:25ace72fc3e483d5d52c9209f76b04f0fdd08f9b",
+        "status": "ok",
+        "cost_usd": 0.0143575,
+        "tokens_in": 3887,
+        "tokens_out": 464,
+        "wall_time_seconds": 3.307826125063002,
+        "error": null,
+        "output_file": "outputs/paper_data_v7/closed_source_comparison/gpt4o_baseline/scirex__25ace72fc3e483d5d52c9209f76b04f0fdd08f9b.json"
+      },
+      {
+        "paper_id": "scirex:189e6bb7523733c4e524214b9e6ae92d4ed50dac",
+        "status": "ok",
+        "cost_usd": 0.0201025,
+        "tokens_in": 5277,
+        "tokens_out": 691,
+        "wall_time_seconds": 4.642887291032821,
+        "error": null,
+        "output_file": "outputs/paper_data_v7/closed_source_comparison/gpt4o_baseline/scirex__189e6bb7523733c4e524214b9e6ae92d4ed50dac.json"
+      },
+      {
+        "paper_id": "scirex:0496691c6d54fd746c111d1004349acf7654145e",
+        "status": "ok",
+        "cost_usd": 0.027522500000000002,
+        "tokens_in": 8973,
+        "tokens_out": 509,
+        "wall_time_seconds": 3.4919312079437077,
+        "error": null,
+        "output_file": "outputs/paper_data_v7/closed_source_comparison/gpt4o_baseline/scirex__0496691c6d54fd746c111d1004349acf7654145e.json"
+      },
+      {
+        "paper_id": "scirex:4265269bc894caa97efbfcfe5b83da7413f86a30",
+        "status": "ok",
+        "cost_usd": 0.026015,
+        "tokens_in": 7738,
+        "tokens_out": 667,
+        "wall_time_seconds": 5.065768082858995,
+        "error": null,
+        "output_file": "outputs/paper_data_v7/closed_source_comparison/gpt4o_baseline/scirex__4265269bc894caa97efbfcfe5b83da7413f86a30.json"
+      },
+      {
+        "paper_id": "scirex:310fed695da4f36139b70b23065c34fe9fb29ca6",
+        "status": "ok",
+        "cost_usd": 0.013465,
+        "tokens_in": 3482,
+        "tokens_out": 476,
+        "wall_time_seconds": 3.583604000043124,
+        "error": null,
+        "output_file": "outputs/paper_data_v7/closed_source_comparison/gpt4o_baseline/scirex__310fed695da4f36139b70b23065c34fe9fb29ca6.json"
+      },
+      {
+        "paper_id": "scirex:0c7f1d285ce069b2f7a807a4b2750695098bffe6",
+        "status": "ok",
+        "cost_usd": 0.0215475,
+        "tokens_in": 6099,
+        "tokens_out": 630,
+        "wall_time_seconds": 3.9947497909888625,
+        "error": null,
+        "output_file": "outputs/paper_data_v7/closed_source_comparison/gpt4o_baseline/scirex__0c7f1d285ce069b2f7a807a4b2750695098bffe6.json"
+      },
+      {
+        "paper_id": "scirex:3d597e16ef56119bb6e6d78e3f379623862f0752",
+        "status": "ok",
+        "cost_usd": 0.03465,
+        "tokens_in": 11568,
+        "tokens_out": 573,
+        "wall_time_seconds": 3.0317827919498086,
+        "error": null,
+        "output_file": "outputs/paper_data_v7/closed_source_comparison/gpt4o_baseline/scirex__3d597e16ef56119bb6e6d78e3f379623862f0752.json"
+      },
+      {
+        "paper_id": "scirex:1efdad6f91e830fd64306e4625f74191b05ef9c4",
+        "status": "ok",
+        "cost_usd": 0.023515,
+        "tokens_in": 6994,
+        "tokens_out": 603,
+        "wall_time_seconds": 3.809605833142996,
+        "error": null,
+        "output_file": "outputs/paper_data_v7/closed_source_comparison/gpt4o_baseline/scirex__1efdad6f91e830fd64306e4625f74191b05ef9c4.json"
+      },
+      {
+        "paper_id": "scirex:25b9b1ede6519eeef3e67657a97e2f551940b0d6",
+        "status": "ok",
+        "cost_usd": 0.0132625,
+        "tokens_in": 3921,
+        "tokens_out": 346,
+        "wall_time_seconds": 3.141028125071898,
+        "error": null,
+        "output_file": "outputs/paper_data_v7/closed_source_comparison/gpt4o_baseline/scirex__25b9b1ede6519eeef3e67657a97e2f551940b0d6.json"
+      },
+      {
+        "paper_id": "scirex:2b507f659b341ed0f23106446de8e4322f4a3f7e",
+        "status": "ok",
+        "cost_usd": 0.027649999999999997,
+        "tokens_in": 9052,
+        "tokens_out": 502,
+        "wall_time_seconds": 3.7344062498304993,
+        "error": null,
+        "output_file": "outputs/paper_data_v7/closed_source_comparison/gpt4o_baseline/scirex__2b507f659b341ed0f23106446de8e4322f4a3f7e.json"
+      },
+      {
+        "paper_id": "scirex:2315fc6c2c0c4abd2443e26a26e7bb86df8e24cc",
+        "status": "ok",
+        "cost_usd": 0.0226525,
+        "tokens_in": 7049,
+        "tokens_out": 503,
+        "wall_time_seconds": 3.0757116249296814,
+        "error": null,
+        "output_file": "outputs/paper_data_v7/closed_source_comparison/gpt4o_baseline/scirex__2315fc6c2c0c4abd2443e26a26e7bb86df8e24cc.json"
+      }
+    ]
+  }
+}

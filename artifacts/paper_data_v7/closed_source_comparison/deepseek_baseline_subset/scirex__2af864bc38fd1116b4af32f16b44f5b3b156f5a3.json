@@ -1,0 +1,92 @@
+{
+  "paper_id": "scirex:2af864bc38fd1116b4af32f16b44f5b3b156f5a3",
+  "contributions": [
+    {
+      "method": {
+        "name": "Relation Memory Network (RMN)",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 654,
+          "end": 690
+        },
+        "confidence": 0.9
+      },
+      "task": {
+        "name": "text-based question answering",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 55,
+          "end": 107
+        },
+        "confidence": 0.9
+      },
+      "datasets": [
+        {
+          "name": "bAbI story-based QA dataset",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1817,
+            "end": 1839
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "bAbI dialog dataset",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1973,
+            "end": 1991
+          },
+          "confidence": 0.9
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": null,
+          "unit": "%",
+          "evidence_span": {
+            "start": 784,
+            "end": 871
+          },
+          "confidence": 0.8
+        },
+        {
+          "name": "error rate",
+          "value": 25.1,
+          "unit": "%",
+          "evidence_span": {
+            "start": 5034,
+            "end": 5049
+          },
+          "confidence": 0.8
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "MemN2N",
+        "GMemN2N",
+        "DMN",
+        "DMN+",
+        "RN"
+      ],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "PARTIAL",
+        "task": "PARTIAL",
+        "datasets": "PARTIAL",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "(none)",
+    "consolidator_model": "(none)",
+    "tokens_in": 5220,
+    "tokens_out": 455,
+    "cost_usd": 0.00207535,
+    "wall_time_seconds": 19.545988374971785,
+    "voting_samples": 1
+  }
+}

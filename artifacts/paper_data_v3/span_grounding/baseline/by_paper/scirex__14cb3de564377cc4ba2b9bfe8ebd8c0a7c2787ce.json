@@ -1,0 +1,90 @@
+{
+  "paper_id": "scirex:14cb3de564377cc4ba2b9bfe8ebd8c0a7c2787ce",
+  "contributions": [
+    {
+      "method": {
+        "name": "convolutional neural networks (convnets)",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 31,
+          "end": 75
+        },
+        "confidence": 0.9
+      },
+      "task": {
+        "name": "pedestrian detection",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 89,
+          "end": 110
+        },
+        "confidence": 0.95
+      },
+      "datasets": [
+        {
+          "name": "Caltech",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 391,
+            "end": 399
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "KITTI",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 406,
+            "end": 411
+          },
+          "confidence": 0.9
+        }
+      ],
+      "metrics": [
+        {
+          "name": "miss rate",
+          "value": null,
+          "unit": "percent",
+          "evidence_span": null,
+          "confidence": 0.8
+        },
+        {
+          "name": "average precision",
+          "value": null,
+          "unit": "percent",
+          "evidence_span": {
+            "start": 7032,
+            "end": 7060
+          },
+          "confidence": 0.8
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "SquaresChnFtrs",
+        "SDN",
+        "JointDeep",
+        "SpatialPooling",
+        "LDCF",
+        "Katamari"
+      ],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "PARTIAL",
+        "task": "PARTIAL",
+        "datasets": "PARTIAL",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "(none)",
+    "consolidator_model": "(none)",
+    "tokens_in": 7331,
+    "tokens_out": 452,
+    "cost_usd": 0.0027482,
+    "wall_time_seconds": 15.787398167012725,
+    "voting_samples": 1
+  }
+}

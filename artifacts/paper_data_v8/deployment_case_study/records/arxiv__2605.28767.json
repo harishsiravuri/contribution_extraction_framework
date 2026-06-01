@@ -1,0 +1,88 @@
+{
+  "paper_id": "arxiv:2605.28767",
+  "contributions": [
+    {
+      "method": {
+        "name": "MMO (Multi-Label Metric Optimization)",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 858,
+          "end": 905
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "multi-label learning",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 118,
+          "end": 136
+        },
+        "confidence": 0.6666666666666666
+      },
+      "datasets": [
+        {
+          "name": "MS-COCO",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1200,
+            "end": 1208
+          },
+          "confidence": 0.6666666666666666
+        },
+        {
+          "name": "Reuters-21578",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1215,
+            "end": 1228
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F-measure",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 147,
+            "end": 156
+          },
+          "confidence": 0.6666666666666666
+        },
+        {
+          "name": "Jaccard index",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 161,
+            "end": 174
+          },
+          "confidence": 0.6666666666666666
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "state-of-the-art continuous baselines"
+      ],
+      "self_consistency": 0.75,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "PARTIAL",
+        "datasets": "SUPPORTED",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 8197,
+    "tokens_out": 3400,
+    "cost_usd": 0.006766909999999999,
+    "wall_time_seconds": 100.83822270901874,
+    "voting_samples": 3
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "paper_id": "arxiv:2605.29271",
+  "contributions": [
+    {
+      "method": {
+        "name": "CoHyDE",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 55,
+          "end": 61
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "tool retrieval",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 83,
+          "end": 96
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "ToolBench",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 246,
+            "end": 255
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "NDCG@5",
+          "value": 2.5,
+          "unit": "pp",
+          "evidence_span": {
+            "start": 274,
+            "end": 276
+          },
+          "confidence": 0.5
+        },
+        {
+          "name": "NDCG@5",
+          "value": 6.3,
+          "unit": "pp",
+          "evidence_span": {
+            "start": 283,
+            "end": 285
+          },
+          "confidence": 0.5
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "contrastive encoder fine-tuning",
+        "HyDE-style query expansion"
+      ],
+      "self_consistency": 0.83,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 9307,
+    "tokens_out": 3964,
+    "cost_usd": 0.00787067,
+    "wall_time_seconds": 107.30965145910159,
+    "voting_samples": 3
+  }
+}

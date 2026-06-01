@@ -1,0 +1,67 @@
+{
+  "paper_id": "scirex:148eb2b649ce0f66214fceba5c061b417ab88d79",
+  "contributions": [
+    {
+      "method": {
+        "name": "bidirectional-infogan",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 1556,
+          "end": 1574
+        },
+        "confidence": 0.6666666666666666
+      },
+      "task": {
+        "name": "unsupervised image classification",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 104,
+          "end": 143
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "mnist",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1915,
+            "end": 1920
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 2081,
+            "end": 2113
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [],
+      "self_consistency": 0.875,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "PARTIAL",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "harishsiravuri_e088/Meta-Llama-3.1-70B-Instruct-Reference-scirex-v6-70b-7cecddd1-66437b32",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 19878,
+    "tokens_out": 1771,
+    "cost_usd": 0.011754019999999999,
+    "wall_time_seconds": 56.5829616659903,
+    "voting_samples": 3
+  }
+}

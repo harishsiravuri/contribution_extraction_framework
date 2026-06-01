@@ -1,0 +1,110 @@
+{
+  "paper_id": "scirex:1762baa638866a13dcc6d146fd5a49b36cbd9c30",
+  "contributions": [
+    {
+      "method": {
+        "name": "Graph Convolutional Network (GCN)",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 200
+        },
+        "confidence": 0.9
+      },
+      "task": {
+        "name": "Semi-supervised node classification",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 200,
+          "end": 400
+        },
+        "confidence": 0.9
+      },
+      "datasets": [
+        {
+          "name": "Citeseer",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2000,
+            "end": 2100
+          },
+          "confidence": 0.8
+        },
+        {
+          "name": "Cora",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2000,
+            "end": 2100
+          },
+          "confidence": 0.8
+        },
+        {
+          "name": "Pubmed",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2000,
+            "end": 2100
+          },
+          "confidence": 0.8
+        },
+        {
+          "name": "NELL",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2100,
+            "end": 2200
+          },
+          "confidence": 0.8
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Classification accuracy",
+          "value": null,
+          "unit": "percent",
+          "evidence_span": {
+            "start": 3000,
+            "end": 3100
+          },
+          "confidence": 0.8
+        },
+        {
+          "name": "Wall-clock time",
+          "value": null,
+          "unit": "seconds",
+          "evidence_span": {
+            "start": 3100,
+            "end": 3200
+          },
+          "confidence": 0.8
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "label propagation",
+        "semi-supervised embedding",
+        "manifold regularization",
+        "DeepWalk",
+        "Planetoid"
+      ],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "PARTIAL",
+        "task": "PARTIAL",
+        "datasets": "PARTIAL",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "(none)",
+    "consolidator_model": "(none)",
+    "tokens_in": 6657,
+    "tokens_out": 545,
+    "cost_usd": 0.0026152899999999997,
+    "wall_time_seconds": 26.988299582968466,
+    "voting_samples": 1
+  }
+}

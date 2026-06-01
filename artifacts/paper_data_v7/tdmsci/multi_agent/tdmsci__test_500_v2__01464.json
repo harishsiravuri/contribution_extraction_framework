@@ -1,0 +1,64 @@
+{
+  "paper_id": "tdmsci:test_500_v2:01464",
+  "contributions": [
+    {
+      "method": {
+        "name": "trivial baseline classifier",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 100,
+          "end": 126
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": null,
+        "canonical_id": null,
+        "evidence_span": null,
+        "confidence": 0.0
+      },
+      "datasets": [
+        {
+          "name": "Switchboard corpus",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 36,
+            "end": 53
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": 94.1,
+          "unit": "%",
+          "evidence_span": {
+            "start": 176,
+            "end": 191
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": null,
+      "comparison_targets": [],
+      "self_consistency": 0.8333333333333334,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "UNSUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 4962,
+    "tokens_out": 1499,
+    "cost_usd": 0.00349452,
+    "wall_time_seconds": 24.70284350006841,
+    "voting_samples": 3
+  }
+}

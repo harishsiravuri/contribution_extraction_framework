@@ -1,0 +1,79 @@
+{
+  "paper_id": "nlp_tdms:1705.05952",
+  "contributions": [
+    {
+      "method": {
+        "name": "jPTDP",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 42,
+          "end": 117
+        },
+        "confidence": 0.9
+      },
+      "task": {
+        "name": "joint POS tagging and graph-based dependency parsing",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 42,
+          "end": 117
+        },
+        "confidence": 0.9
+      },
+      "datasets": [
+        {
+          "name": "Universal Dependencies project (19 languages)",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 332,
+            "end": 378
+          },
+          "confidence": 0.9
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Labeled Attachment Score (LAS)",
+          "value": null,
+          "unit": "percentage",
+          "evidence_span": {
+            "start": 1542,
+            "end": 1639
+          },
+          "confidence": 0.8
+        },
+        {
+          "name": "POS tagging accuracy",
+          "value": null,
+          "unit": "percentage",
+          "evidence_span": {
+            "start": 1598,
+            "end": 1619
+          },
+          "confidence": 0.7
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Stack-propagation model"
+      ],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "PARTIAL",
+        "task": "PARTIAL",
+        "datasets": "PARTIAL",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "(none)",
+    "consolidator_model": "(none)",
+    "tokens_in": 3991,
+    "tokens_out": 390,
+    "cost_usd": 0.0016242199999999998,
+    "wall_time_seconds": 12.491256417008117,
+    "voting_samples": 1
+  }
+}

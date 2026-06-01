@@ -1,0 +1,55 @@
+{
+  "paper_id": "scirex:1235dd37312cb20aced0e97d953f6379d8a0c7d4",
+  "contributions": [
+    {
+      "method": {
+        "name": "v-bimp",
+        "canonical_id": null,
+        "evidence_span": null,
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "visual entailment",
+        "canonical_id": null,
+        "evidence_span": null,
+        "confidence": 0.6666666666666666
+      },
+      "datasets": [
+        {
+          "name": "v-snli",
+          "canonical_id": null,
+          "evidence_span": null,
+          "confidence": 0.6666666666666666
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": null,
+          "unit": null,
+          "evidence_span": null,
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [],
+      "self_consistency": 0.8333333333333334,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "harishsiravuri_e088/Meta-Llama-3.1-70B-Instruct-Reference-scirex-v6-70b-7cecddd1-66437b32",
+    "critic_model": "DISABLED (E4 critic-off ablation)",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 53135,
+    "tokens_out": 824,
+    "cost_usd": 0.027197810000000003,
+    "wall_time_seconds": 11.98057599994354,
+    "voting_samples": 3
+  }
+}

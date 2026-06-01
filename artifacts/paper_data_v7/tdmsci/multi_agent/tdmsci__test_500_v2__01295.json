@@ -1,0 +1,66 @@
+{
+  "paper_id": "tdmsci:test_500_v2:01295",
+  "contributions": [
+    {
+      "method": {
+        "name": "proposed approach",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 32,
+          "end": 46
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": null,
+        "canonical_id": null,
+        "evidence_span": null,
+        "confidence": 0.0
+      },
+      "datasets": [
+        {
+          "name": "large scale data",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 24,
+            "end": 38
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 63,
+            "end": 70
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "existing methods"
+      ],
+      "self_consistency": 0.8333333333333334,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "UNSUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 4818,
+    "tokens_out": 1313,
+    "cost_usd": 0.00326669,
+    "wall_time_seconds": 20.74314587493427,
+    "voting_samples": 3
+  }
+}

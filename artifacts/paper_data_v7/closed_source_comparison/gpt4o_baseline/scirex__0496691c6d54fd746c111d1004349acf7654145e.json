@@ -1,0 +1,98 @@
+{
+  "paper_id": "scirex:0496691c6d54fd746c111d1004349acf7654145e",
+  "contributions": [
+    {
+      "method": {
+        "name": "Entropy-Regularized Energy-Based Generative Adversarial Networks (EGAN)",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 123
+        },
+        "confidence": 0.9
+      },
+      "task": {
+        "name": "Generative Modeling",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 123
+        },
+        "confidence": 0.8
+      },
+      "datasets": [
+        {
+          "name": "CIFAR-10",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 12289,
+            "end": 12300
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "CelebA",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 12305,
+            "end": 12311
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "NIST Digits",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 10891,
+            "end": 10902
+          },
+          "confidence": 0.8
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Inception Score",
+          "value": 7.07,
+          "unit": null,
+          "evidence_span": {
+            "start": 12391,
+            "end": 12400
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "KL Divergence",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 13689,
+            "end": 13702
+          },
+          "confidence": 0.7
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "GAN",
+        "EBGAN"
+      ],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "PARTIAL",
+        "task": "PARTIAL",
+        "datasets": "PARTIAL",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "openai/gpt-4o-2024-11-20",
+    "critic_model": "(none)",
+    "consolidator_model": "(none)",
+    "tokens_in": 8973,
+    "tokens_out": 509,
+    "cost_usd": 0.027522500000000002,
+    "wall_time_seconds": 3.4919312079437077,
+    "voting_samples": 1
+  }
+}

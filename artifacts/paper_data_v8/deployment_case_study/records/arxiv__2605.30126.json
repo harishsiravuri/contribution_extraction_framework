@@ -1,0 +1,69 @@
+{
+  "paper_id": "arxiv:2605.30126",
+  "contributions": [
+    {
+      "method": {
+        "name": "PARCEL",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 229,
+          "end": 234
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "vision-language understanding",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 144,
+          "end": 165
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "27 benchmarks",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 914,
+            "end": 926
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "performance-efficiency Pareto frontier",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 943,
+            "end": 973
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "matryoshka baselines"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 6507,
+    "tokens_out": 2104,
+    "cost_usd": 0.00471003,
+    "wall_time_seconds": 53.79654683312401,
+    "voting_samples": 3
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "paper_id": "tdmsci:test_500_v2:01393",
+  "contributions": [
+    {
+      "method": {
+        "name": null,
+        "canonical_id": null,
+        "evidence_span": null,
+        "confidence": 0.0
+      },
+      "task": {
+        "name": "information extraction",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 31,
+          "end": 55
+        },
+        "confidence": 0.6666666666666666
+      },
+      "datasets": [
+        {
+          "name": "Wikipedia",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 83,
+            "end": 93
+          },
+          "confidence": 0.6666666666666666
+        }
+      ],
+      "metrics": [],
+      "claim_strength": null,
+      "comparison_targets": [
+        "WordNet"
+      ],
+      "self_consistency": 0.5555555555555556,
+      "critic_verdict": {
+        "method": "UNSUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "UNSUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 5050,
+    "tokens_out": 1559,
+    "cost_usd": 0.0035687899999999996,
+    "wall_time_seconds": 42.88490254106,
+    "voting_samples": 3
+  }
+}

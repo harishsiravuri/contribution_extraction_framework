@@ -1,0 +1,69 @@
+{
+  "paper_id": "arxiv:2605.28122",
+  "contributions": [
+    {
+      "method": {
+        "name": "SNARE",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 211,
+          "end": 215
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "eliciting overeager behavior in coding agents",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 141,
+          "end": 173
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "OverEager",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 740,
+            "end": 749
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "overeager behavior rate",
+          "value": 19.51,
+          "unit": "%",
+          "evidence_span": {
+            "start": 871,
+            "end": 877
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": null,
+      "comparison_targets": [
+        "existing benchmarks"
+      ],
+      "self_consistency": 0.8333333333333334,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 6779,
+    "tokens_out": 2172,
+    "cost_usd": 0.004881030000000001,
+    "wall_time_seconds": 52.899184624897316,
+    "voting_samples": 3
+  }
+}

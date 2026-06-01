@@ -1,0 +1,113 @@
+{
+  "paper_id": "tdmsci:test_500_v2:01313",
+  "contributions": [
+    {
+      "method": {
+        "name": null,
+        "canonical_id": null,
+        "evidence_span": null,
+        "confidence": 0.0
+      },
+      "task": {
+        "name": "classification",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 35,
+          "end": 46
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "small corpora",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 112,
+            "end": 124
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": null,
+          "unit": "%",
+          "evidence_span": {
+            "start": 50,
+            "end": 57
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": null,
+      "comparison_targets": [],
+      "self_consistency": 0.75,
+      "critic_verdict": {
+        "method": "UNSUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    },
+    {
+      "method": {
+        "name": null,
+        "canonical_id": null,
+        "evidence_span": null,
+        "confidence": 0.0
+      },
+      "task": {
+        "name": "information retrieval",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 74,
+          "end": 95
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "small corpora",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 112,
+            "end": 124
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "MAP",
+          "value": null,
+          "unit": "%",
+          "evidence_span": {
+            "start": 99,
+            "end": 102
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": null,
+      "comparison_targets": [],
+      "self_consistency": 0.75,
+      "critic_verdict": {
+        "method": "UNSUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 6734,
+    "tokens_out": 3185,
+    "cost_usd": 0.00591528,
+    "wall_time_seconds": 67.32913700002246,
+    "voting_samples": 3
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "paper_id": "scirex:3070a1bd503c3767def898bbd50c7eea2bbf29c9",
+  "contributions": [
+    {
+      "method": {
+        "name": "ResNet",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 8,
+          "end": 43
+        },
+        "confidence": 0.5
+      },
+      "task": {
+        "name": "image classification",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 528,
+          "end": 551
+        },
+        "confidence": 0.25
+      },
+      "datasets": [
+        {
+          "name": "ImageNet",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 528,
+            "end": 551
+          },
+          "confidence": 0.25
+        },
+        {
+          "name": "PASCAL VOC",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 581,
+            "end": 602
+          },
+          "confidence": 0.25
+        },
+        {
+          "name": "PASCAL Context",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 662,
+            "end": 678
+          },
+          "confidence": 0.25
+        },
+        {
+          "name": "Cityscapes",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 692,
+            "end": 704
+          },
+          "confidence": 0.25
+        }
+      ],
+      "metrics": [
+        {
+          "name": "top-1 error rate",
+          "value": null,
+          "unit": "percentage",
+          "evidence_span": {
+            "start": 5596,
+            "end": 5610
+          },
+          "confidence": 0.25
+        },
+        {
+          "name": "mean IoU",
+          "value": null,
+          "unit": "percentage",
+          "evidence_span": {
+            "start": 7068,
+            "end": 7076
+          },
+          "confidence": 0.25
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "ResNet-200",
+        "state-of-the-art"
+      ],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "DISABLED (E2 critic-off ablation)",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 30585,
+    "tokens_out": 2925,
+    "cost_usd": 0.013483980000000001,
+    "wall_time_seconds": 43.812232583994046,
+    "voting_samples": 3
+  }
+}

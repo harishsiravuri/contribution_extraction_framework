@@ -1,0 +1,107 @@
+{
+  "paper_id": "scirex:25ace72fc3e483d5d52c9209f76b04f0fdd08f9b",
+  "contributions": [
+    {
+      "method": {
+        "name": "Fused Text Segmentation Networks",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 30,
+          "end": 67
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "scene text detection",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 123,
+          "end": 143
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "ICDAR2015 Incidental Scene Text",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 596,
+            "end": 637
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "MSRA-TD500",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 637,
+            "end": 650
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "Total-Text",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 663,
+            "end": 674
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Hmean",
+          "value": 84.1,
+          "unit": "%",
+          "evidence_span": {
+            "start": 643,
+            "end": 651
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "Hmean",
+          "value": 82.0,
+          "unit": "%",
+          "evidence_span": {
+            "start": 651,
+            "end": 659
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "IoU",
+          "value": 0.5,
+          "unit": null,
+          "evidence_span": {
+            "start": 3044,
+            "end": 3049
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "state of the art"
+      ],
+      "self_consistency": 0.875,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 20995,
+    "tokens_out": 3874,
+    "cost_usd": 0.01227705,
+    "wall_time_seconds": 126.92180795798777,
+    "voting_samples": 3
+  }
+}

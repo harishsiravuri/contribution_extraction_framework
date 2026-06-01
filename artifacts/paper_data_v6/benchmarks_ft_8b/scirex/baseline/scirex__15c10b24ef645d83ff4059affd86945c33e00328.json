@@ -1,0 +1,82 @@
+{
+  "paper_id": "scirex:15c10b24ef645d83ff4059affd86945c33e00328",
+  "contributions": [
+    {
+      "method": {
+        "name": "Snips Voice Platform",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 10,
+          "end": 84
+        },
+        "confidence": 0.9
+      },
+      "task": {
+        "name": "Spoken Language Understanding",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 118,
+          "end": 146
+        },
+        "confidence": 0.9
+      },
+      "datasets": [
+        {
+          "name": "LibriSpeech",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 3546,
+            "end": 3556
+          },
+          "confidence": 0.8
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Word Error Rate",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 1023,
+            "end": 1039
+          },
+          "confidence": 0.8
+        },
+        {
+          "name": "F1-score",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 5327,
+            "end": 5336
+          },
+          "confidence": 0.8
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Microsoft's Cortana",
+        "Google's DialogFlow",
+        "IBM's Watson",
+        "Amazon Alexa"
+      ],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "PARTIAL",
+        "task": "PARTIAL",
+        "datasets": "PARTIAL",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "(none)",
+    "consolidator_model": "(none)",
+    "tokens_in": 12244,
+    "tokens_out": 388,
+    "cost_usd": 0.0042634,
+    "wall_time_seconds": 15.20097624999471,
+    "voting_samples": 1
+  }
+}

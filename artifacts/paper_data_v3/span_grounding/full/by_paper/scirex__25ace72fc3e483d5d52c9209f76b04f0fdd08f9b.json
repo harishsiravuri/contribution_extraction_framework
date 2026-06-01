@@ -1,0 +1,110 @@
+{
+  "paper_id": "scirex:25ace72fc3e483d5d52c9209f76b04f0fdd08f9b",
+  "contributions": [
+    {
+      "method": {
+        "name": "Fused Text Segmentation Networks (FTSN)",
+        "canonical_id": "FTSN",
+        "evidence_span": {
+          "start": 191,
+          "end": 217
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "multi-oriented scene text detection",
+        "canonical_id": "scene_text_detection",
+        "evidence_span": {
+          "start": 146,
+          "end": 183
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "ICDAR2015 Incidental Scene Text",
+          "canonical_id": "ICDAR2015",
+          "evidence_span": {
+            "start": 704,
+            "end": 731
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "MSRA-TD500",
+          "canonical_id": "MSRA-TD500",
+          "evidence_span": {
+            "start": 755,
+            "end": 767
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "Total-Text",
+          "canonical_id": "Total-Text",
+          "evidence_span": {
+            "start": 806,
+            "end": 816
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Hmean",
+          "value": 84.1,
+          "unit": "%",
+          "evidence_span": {
+            "start": 10047,
+            "end": 10050
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "Hmean",
+          "value": 82.0,
+          "unit": "%",
+          "evidence_span": {
+            "start": 10047,
+            "end": 10050
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "FPS",
+          "value": 4.0,
+          "unit": "frames per second",
+          "evidence_span": {
+            "start": 6895,
+            "end": 6905
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Faster RCNN",
+        "SSD",
+        "FCN",
+        "state of the art"
+      ],
+      "self_consistency": 0.8333333333333334,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 19091,
+    "tokens_out": 3277,
+    "cost_usd": 0.010872370000000001,
+    "wall_time_seconds": 148.43018520902842,
+    "voting_samples": 3
+  }
+}

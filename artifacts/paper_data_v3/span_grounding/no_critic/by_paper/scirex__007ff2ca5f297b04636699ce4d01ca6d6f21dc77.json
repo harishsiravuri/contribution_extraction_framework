@@ -1,0 +1,107 @@
+{
+  "paper_id": "scirex:007ff2ca5f297b04636699ce4d01ca6d6f21dc77",
+  "contributions": [
+    {
+      "method": {
+        "name": "aESIM",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 41,
+          "end": 208
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "natural language inference",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 2969,
+          "end": 2994
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "SNLI",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 8679,
+            "end": 8710
+          },
+          "confidence": 0.5
+        },
+        {
+          "name": "MultiNLI",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 8716,
+            "end": 8748
+          },
+          "confidence": 0.5
+        },
+        {
+          "name": "Quora",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 8827,
+            "end": 8859
+          },
+          "confidence": 0.5
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": 88.1,
+          "unit": "%",
+          "evidence_span": {
+            "start": 9377,
+            "end": 9435
+          },
+          "confidence": 0.5
+        },
+        {
+          "name": "accuracy",
+          "value": null,
+          "unit": "%",
+          "evidence_span": {
+            "start": 9437,
+            "end": 9493
+          },
+          "confidence": 0.5
+        },
+        {
+          "name": "accuracy",
+          "value": 88.01,
+          "unit": "%",
+          "evidence_span": {
+            "start": 9495,
+            "end": 9559
+          },
+          "confidence": 0.5
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "ESIM"
+      ],
+      "self_consistency": 0.875,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "(none)",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 16061,
+    "tokens_out": 2832,
+    "cost_usd": 0.0083595,
+    "wall_time_seconds": 51.90257037500851,
+    "voting_samples": 3
+  }
+}

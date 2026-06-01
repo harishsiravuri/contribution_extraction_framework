@@ -1,0 +1,231 @@
+{
+  "paper_id": "tdmsci:test_500_v2:01406",
+  "contributions": [
+    {
+      "method": {
+        "name": "N-gram count features",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 9,
+          "end": 29
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "adjective ordering",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 73,
+          "end": 91
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "standard data sets",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 54,
+            "end": 71
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 42,
+            "end": 50
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "state-of-the-art"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    },
+    {
+      "method": {
+        "name": "N-gram count features",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 9,
+          "end": 29
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "spelling correction",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 93,
+          "end": 110
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "standard data sets",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 54,
+            "end": 71
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 42,
+            "end": 50
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "state-of-the-art"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    },
+    {
+      "method": {
+        "name": "N-gram count features",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 9,
+          "end": 29
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "noun compound bracketing",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 112,
+          "end": 134
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "standard data sets",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 54,
+            "end": 71
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 42,
+            "end": 50
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "state-of-the-art"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    },
+    {
+      "method": {
+        "name": "N-gram count features",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 9,
+          "end": 29
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "verb part-of-speech disambiguation",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 136,
+          "end": 169
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "standard data sets",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 54,
+            "end": 71
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 42,
+            "end": 50
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "state-of-the-art"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 9523,
+    "tokens_out": 6322,
+    "cost_usd": 0.010212210000000001,
+    "wall_time_seconds": 124.42922524991445,
+    "voting_samples": 3
+  }
+}

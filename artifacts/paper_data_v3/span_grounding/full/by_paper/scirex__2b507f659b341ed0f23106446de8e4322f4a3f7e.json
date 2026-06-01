@@ -1,0 +1,179 @@
+{
+  "paper_id": "scirex:2b507f659b341ed0f23106446de8e4322f4a3f7e",
+  "contributions": [
+    {
+      "method": {
+        "name": "Deep Identity-Aware Transfer (DIAT)",
+        "canonical_id": "DIAT",
+        "evidence_span": {
+          "start": 12,
+          "end": 33
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "facial attribute transfer",
+        "canonical_id": "facial_attribute_transfer",
+        "evidence_span": {
+          "start": 12,
+          "end": 33
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "CelebFaces Attributes (CelebA)",
+          "canonical_id": "CelebA",
+          "evidence_span": {
+            "start": 1825,
+            "end": 1859
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "iStock",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 3045,
+            "end": 3054
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": 0.95,
+          "unit": null,
+          "evidence_span": {
+            "start": 25486,
+            "end": 25498
+          },
+          "confidence": 0.5
+        },
+        {
+          "name": "PSNR",
+          "value": 33.27,
+          "unit": "dB",
+          "evidence_span": {
+            "start": 25853,
+            "end": 25865
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "CNIA",
+        "IcGAN",
+        "VAE/GAN",
+        "semantic inpainting"
+      ],
+      "self_consistency": 0.875,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "PARTIAL"
+      }
+    },
+    {
+      "method": {
+        "name": "DIAT with adaptive perceptual loss",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 7023,
+          "end": 7066
+        },
+        "confidence": 0.5
+      },
+      "task": {
+        "name": "facial attribute transfer",
+        "canonical_id": "facial_attribute_transfer",
+        "evidence_span": {
+          "start": 12,
+          "end": 33
+        },
+        "confidence": 1.0
+      },
+      "datasets": [],
+      "metrics": [],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "DIAT-1 (with conventional perceptual loss)"
+      ],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "UNSUPPORTED",
+        "metrics": "UNSUPPORTED"
+      }
+    },
+    {
+      "method": {
+        "name": "DIAT for face hallucination",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 15255,
+          "end": 15279
+        },
+        "confidence": 0.5
+      },
+      "task": {
+        "name": "face hallucination",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 15255,
+          "end": 15279
+        },
+        "confidence": 0.5
+      },
+      "datasets": [],
+      "metrics": [
+        {
+          "name": "PSNR",
+          "value": null,
+          "unit": "dB",
+          "evidence_span": {
+            "start": 26509,
+            "end": 26521
+          },
+          "confidence": 0.5
+        },
+        {
+          "name": "SSIM",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 26522,
+            "end": 26526
+          },
+          "confidence": 0.5
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "bicubic interpolator",
+        "Unet"
+      ],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "UNSUPPORTED",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 41287,
+    "tokens_out": 5112,
+    "cost_usd": 0.021438429999999998,
+    "wall_time_seconds": 216.48941208299948,
+    "voting_samples": 3
+  }
+}

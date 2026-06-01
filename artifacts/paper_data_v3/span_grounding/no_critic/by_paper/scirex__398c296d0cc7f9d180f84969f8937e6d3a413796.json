@@ -1,0 +1,155 @@
+{
+  "paper_id": "scirex:398c296d0cc7f9d180f84969f8937e6d3a413796",
+  "contributions": [
+    {
+      "method": {
+        "name": "Multi-column Deep Neural Network (MCDNN)",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 6,
+          "end": 978
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "image classification",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 6,
+          "end": 78
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "MNIST",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 265,
+            "end": 271
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "NIST SD 19",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2521,
+            "end": 2530
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "CASIA Chinese characters",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2767,
+            "end": 2844
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "GTSRB traffic signs",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 3900,
+            "end": 3923
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "CIFAR10",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 4491,
+            "end": 4497
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "NORB",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 5034,
+            "end": 5038
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "error rate",
+          "value": 0.23,
+          "unit": "%",
+          "evidence_span": {
+            "start": 1505,
+            "end": 1517
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "error rate",
+          "value": 6.5,
+          "unit": "%",
+          "evidence_span": {
+            "start": 3705,
+            "end": 3715
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "error rate",
+          "value": 0.54,
+          "unit": "%",
+          "evidence_span": {
+            "start": 4335,
+            "end": 4345
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "error rate",
+          "value": 11.21,
+          "unit": "%",
+          "evidence_span": {
+            "start": 4976,
+            "end": 4987
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "error rate",
+          "value": 2.7,
+          "unit": "%",
+          "evidence_span": {
+            "start": 5749,
+            "end": 5758
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "previous methods",
+        "human performance"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "(none)",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 25660,
+    "tokens_out": 5135,
+    "cost_usd": 0.014074789999999998,
+    "wall_time_seconds": 162.9891896250192,
+    "voting_samples": 3
+  }
+}

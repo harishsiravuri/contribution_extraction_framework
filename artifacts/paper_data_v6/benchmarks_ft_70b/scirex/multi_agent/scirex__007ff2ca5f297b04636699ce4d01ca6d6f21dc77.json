@@ -1,0 +1,85 @@
+{
+  "paper_id": "scirex:007ff2ca5f297b04636699ce4d01ca6d6f21dc77",
+  "contributions": [
+    {
+      "method": {
+        "name": "aesim",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 195,
+          "end": 200
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "natural language inference",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 141,
+          "end": 155
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "snli",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1131,
+            "end": 1135
+          },
+          "confidence": 0.5
+        },
+        {
+          "name": "multinli",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1155,
+            "end": 1163
+          },
+          "confidence": 0.5
+        },
+        {
+          "name": "quora",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1181,
+            "end": 1186
+          },
+          "confidence": 0.5
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 1721,
+            "end": 1728
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [],
+      "self_consistency": 0.875,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "harishsiravuri_e088/Meta-Llama-3.1-70B-Instruct-Reference-scirex-v6-70b-7cecddd1-66437b32",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 21886,
+    "tokens_out": 2828,
+    "cost_usd": 0.01353499,
+    "wall_time_seconds": 41.91399970802013,
+    "voting_samples": 3
+  }
+}

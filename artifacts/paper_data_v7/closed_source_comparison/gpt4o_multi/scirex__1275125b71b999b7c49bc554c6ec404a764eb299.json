@@ -1,0 +1,120 @@
+{
+  "paper_id": "scirex:1275125b71b999b7c49bc554c6ec404a764eb299",
+  "contributions": [
+    {
+      "method": {
+        "name": "HD-CNN",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 204,
+          "end": 222
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "image classification",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 30
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "CIFAR100",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 222,
+            "end": 231
+          },
+          "confidence": 0.2
+        },
+        {
+          "name": "ImageNet",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 228,
+            "end": 236
+          },
+          "confidence": 0.8
+        }
+      ],
+      "metrics": [
+        {
+          "name": "top-1 error",
+          "value": 25.15,
+          "unit": "percentage",
+          "evidence_span": {
+            "start": 10194,
+            "end": 10200
+          },
+          "confidence": 0.2
+        },
+        {
+          "name": "top-1 error",
+          "value": 26.8,
+          "unit": "percentage",
+          "evidence_span": {
+            "start": 15794,
+            "end": 15800
+          },
+          "confidence": 0.2
+        },
+        {
+          "name": "top-1 error",
+          "value": 24.3,
+          "unit": "percentage",
+          "evidence_span": {
+            "start": 17694,
+            "end": 17700
+          },
+          "confidence": 0.2
+        },
+        {
+          "name": "top-5 error",
+          "value": 8.02,
+          "unit": "percentage",
+          "evidence_span": {
+            "start": 15800,
+            "end": 15806
+          },
+          "confidence": 0.2
+        },
+        {
+          "name": "top-5 error",
+          "value": 7.1,
+          "unit": "percentage",
+          "evidence_span": {
+            "start": 17700,
+            "end": 17706
+          },
+          "confidence": 0.2
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "CIFAR100-NIN",
+        "ImageNet-NIN",
+        "ImageNet-VGG-16-layer"
+      ],
+      "self_consistency": 0.86,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "openai/gpt-4o-2024-11-20",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 36156,
+    "tokens_out": 6599,
+    "cost_usd": 0.1023302,
+    "wall_time_seconds": 139.69190966710448,
+    "voting_samples": 3
+  }
+}

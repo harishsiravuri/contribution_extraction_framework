@@ -1,0 +1,81 @@
+{
+  "paper_id": "scirex:25f5df29342a04936ba0d308b4d1b8245a7e8f5c",
+  "contributions": [
+    {
+      "method": {
+        "name": "convolutional pose machines",
+        "canonical_id": null,
+        "evidence_span": null,
+        "confidence": 0.875
+      },
+      "task": {
+        "name": "pose estimation",
+        "canonical_id": null,
+        "evidence_span": null,
+        "confidence": 0.875
+      },
+      "datasets": [
+        {
+          "name": "flic",
+          "canonical_id": null,
+          "evidence_span": null,
+          "confidence": 0.375
+        },
+        {
+          "name": "lsp",
+          "canonical_id": null,
+          "evidence_span": null,
+          "confidence": 0.25
+        },
+        {
+          "name": "mpii human pose",
+          "canonical_id": null,
+          "evidence_span": null,
+          "confidence": 0.5
+        }
+      ],
+      "metrics": [
+        {
+          "name": "pck",
+          "value": null,
+          "unit": null,
+          "evidence_span": null,
+          "confidence": 0.375
+        },
+        {
+          "name": "pckh",
+          "value": null,
+          "unit": null,
+          "evidence_span": null,
+          "confidence": 0.25
+        },
+        {
+          "name": "pckh-0 5",
+          "value": null,
+          "unit": null,
+          "evidence_span": null,
+          "confidence": 0.25
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [],
+      "self_consistency": 0.78125,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "harishsiravuri_e088/Meta-Llama-3.1-70B-Instruct-Reference-scirex-v6-70b-7cecddd1-66437b32",
+    "critic_model": "DISABLED (E4 critic-off ablation)",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 23526,
+    "tokens_out": 2481,
+    "cost_usd": 0.01350952,
+    "wall_time_seconds": 21.523119874997064,
+    "voting_samples": 3
+  }
+}

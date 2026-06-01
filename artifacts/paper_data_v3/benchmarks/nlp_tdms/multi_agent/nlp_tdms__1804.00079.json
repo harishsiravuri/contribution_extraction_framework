@@ -1,0 +1,134 @@
+{
+  "paper_id": "nlp_tdms:1804.00079",
+  "contributions": [
+    {
+      "method": {
+        "name": "multi-task learning framework",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 186,
+          "end": 207
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "sentence representation learning",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 156,
+          "end": 183
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "BookCorpus",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 4408,
+            "end": 4417
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "WMT15 English-German",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 4537,
+            "end": 4555
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "WMT14 English-French",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 4560,
+            "end": 4578
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "Penn Treebank",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 4629,
+            "end": 4643
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "Quora duplicate question dataset",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 16711,
+            "end": 16736
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 13500,
+            "end": 13508
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "F1",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 13550,
+            "end": 13553
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "Pearson correlation",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 13600,
+            "end": 13619
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Infersent",
+        "skip-thought vectors",
+        "CNN-LSTM",
+        "decomposable attention model",
+        "Siamese",
+        "Multi-Perspective CNN",
+        "Deconv LVM",
+        "GloVe average",
+        "GloVe TF-IDF",
+        "Charagram-phrase"
+      ],
+      "self_consistency": 0.875,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "PARTIAL",
+        "metrics": "UNSUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 30075,
+    "tokens_out": 4803,
+    "cost_usd": 0.016686720000000002,
+    "wall_time_seconds": 130.27883987501264,
+    "voting_samples": 3
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "paper_id": "scirex:12806c298e01083a79db77927530367d85939907",
+  "contributions": [
+    {
+      "method": {
+        "name": "overfeat",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 4441,
+          "end": 4448
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "lane detection",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 341,
+          "end": 355
+        },
+        "confidence": 0.75
+      },
+      "datasets": [],
+      "metrics": [
+        {
+          "name": "f1",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 5632,
+            "end": 5634
+          },
+          "confidence": 0.5
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [],
+      "self_consistency": 0.875,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "UNSUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "harishsiravuri_e088/Meta-Llama-3.1-8B-Instruct-Reference-scirex-v6-bf594110-52031aad",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 27476,
+    "tokens_out": 1791,
+    "cost_usd": 0.015661929999999998,
+    "wall_time_seconds": 28.31940224999562,
+    "voting_samples": 3
+  }
+}

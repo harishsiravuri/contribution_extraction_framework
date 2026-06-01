@@ -1,0 +1,107 @@
+{
+  "paper_id": "scirex:087337fdad69caaab8ebd8ae68a731c5bf2e8b14",
+  "contributions": [
+    {
+      "method": {
+        "name": "FCN-8s",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 4354,
+          "end": 4362
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "semantic segmentation",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 129,
+          "end": 150
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "PASCAL VOC 2012",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 5091,
+            "end": 5106
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "NYUDv2",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 5719,
+            "end": 5725
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "SIFT Flow",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 6021,
+            "end": 6029
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "PASCAL-Context",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 6289,
+            "end": 6302
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "mean IU",
+          "value": 67.2,
+          "unit": "%",
+          "evidence_span": {
+            "start": 5097,
+            "end": 5102
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "mean IU",
+          "value": 39.1,
+          "unit": "%",
+          "evidence_span": {
+            "start": 6316,
+            "end": 6319
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "SDS",
+        "R-CNN"
+      ],
+      "self_consistency": 0.875,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "openai/gpt-4o-2024-11-20",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 44052,
+    "tokens_out": 4671,
+    "cost_usd": 0.10967180999999998,
+    "wall_time_seconds": 123.12730979197659,
+    "voting_samples": 3
+  }
+}

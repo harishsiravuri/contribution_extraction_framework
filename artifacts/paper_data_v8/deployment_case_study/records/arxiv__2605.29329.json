@@ -1,0 +1,77 @@
+{
+  "paper_id": "arxiv:2605.29329",
+  "contributions": [
+    {
+      "method": {
+        "name": "mol-infer with mixing vector model",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 34,
+          "end": 51
+        },
+        "confidence": 0.67
+      },
+      "task": {
+        "name": "copolymer property prediction",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 13,
+          "end": 30
+        },
+        "confidence": 0.67
+      },
+      "datasets": [
+        {
+          "name": "copolymer property datasets",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 156,
+            "end": 176
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "R^2",
+          "value": 0.7,
+          "unit": null,
+          "evidence_span": {
+            "start": 246,
+            "end": 250
+          },
+          "confidence": 0.67
+        },
+        {
+          "name": "R^2",
+          "value": 0.9,
+          "unit": null,
+          "evidence_span": {
+            "start": 253,
+            "end": 255
+          },
+          "confidence": 0.67
+        }
+      ],
+      "claim_strength": null,
+      "comparison_targets": [],
+      "self_consistency": 0.73,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "UNSUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 8311,
+    "tokens_out": 3403,
+    "cost_usd": 0.00680303,
+    "wall_time_seconds": 99.69310929183848,
+    "voting_samples": 3
+  }
+}

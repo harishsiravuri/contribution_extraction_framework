@@ -1,0 +1,130 @@
+{
+  "paper_id": "scirex:1f8f0abfe4689aa93f2f6cc7ec4fd4c6adc2c2d6",
+  "contributions": [
+    {
+      "method": {
+        "name": "discriminative loss function",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 75,
+          "end": 163
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "instance segmentation",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 28,
+          "end": 55
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "Cityscapes",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2497,
+            "end": 2507
+          },
+          "confidence": 0.75
+        },
+        {
+          "name": "CVPPP Leaf Segmentation",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2497,
+            "end": 2515
+          },
+          "confidence": 0.75
+        }
+      ],
+      "metrics": [
+        {
+          "name": "AP",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 2567,
+            "end": 2742
+          },
+          "confidence": 0.5
+        },
+        {
+          "name": "AP0.5",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 2567,
+            "end": 2742
+          },
+          "confidence": 0.5
+        },
+        {
+          "name": "AP50m",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 2567,
+            "end": 2742
+          },
+          "confidence": 0.5
+        },
+        {
+          "name": "AP100m",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 2567,
+            "end": 2742
+          },
+          "confidence": 0.5
+        },
+        {
+          "name": "SBD",
+          "value": 84.2,
+          "unit": null,
+          "evidence_span": {
+            "start": 3226,
+            "end": 3285
+          },
+          "confidence": 0.75
+        },
+        {
+          "name": "Absolute Difference in Count",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 2425,
+            "end": 2495
+          },
+          "confidence": 0.5
+        }
+      ],
+      "claim_strength": "comparable",
+      "comparison_targets": [
+        "MNC-based method SAIS",
+        "recurrent instance segmentation",
+        "state-of-the-art"
+      ],
+      "self_consistency": 0.875,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "DISABLED (E2 critic-off ablation)",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 22782,
+    "tokens_out": 2608,
+    "cost_usd": 0.01044335,
+    "wall_time_seconds": 47.48724375013262,
+    "voting_samples": 3
+  }
+}

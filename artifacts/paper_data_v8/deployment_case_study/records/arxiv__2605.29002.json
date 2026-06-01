@@ -1,0 +1,80 @@
+{
+  "paper_id": "arxiv:2605.29002",
+  "contributions": [
+    {
+      "method": {
+        "name": "FedQHD",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 88,
+          "end": 94
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "reinforcement learning",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 27,
+          "end": 47
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "four continuous-state, discrete-action control benchmarks",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1388,
+            "end": 1443
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "federation gap",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 882,
+            "end": 897
+          },
+          "confidence": 0.5
+        },
+        {
+          "name": "computation",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 1426,
+            "end": 1443
+          },
+          "confidence": 0.5
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "FedAvg-style baselines",
+        "distillation-based alternatives"
+      ],
+      "self_consistency": 0.875,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 8003,
+    "tokens_out": 3012,
+    "cost_usd": 0.00634183,
+    "wall_time_seconds": 46.03368654195219,
+    "voting_samples": 3
+  }
+}

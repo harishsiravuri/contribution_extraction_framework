@@ -1,0 +1,69 @@
+{
+  "paper_id": "scirex:0690ba31424310a90028533218d0afd25a829c8d",
+  "contributions": [
+    {
+      "method": {
+        "name": "DeepLab-CRF",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 1804,
+          "end": 1815
+        },
+        "confidence": 0.6
+      },
+      "task": {
+        "name": "semantic image segmentation",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 245,
+          "end": 273
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "PASCAL VOC-2012",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 589,
+            "end": 605
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "IOU",
+          "value": 71.6,
+          "unit": "%",
+          "evidence_span": {
+            "start": 620,
+            "end": 635
+          },
+          "confidence": 0.4
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "mostajabi2014feedforward"
+      ],
+      "self_consistency": 0.83,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "DISABLED (E2 critic-off ablation)",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 26357,
+    "tokens_out": 3725,
+    "cost_usd": 0.013036269999999999,
+    "wall_time_seconds": 42.315972457872704,
+    "voting_samples": 3
+  }
+}

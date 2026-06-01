@@ -1,0 +1,89 @@
+{
+  "paper_id": "scirex:14cb3de564377cc4ba2b9bfe8ebd8c0a7c2787ce",
+  "contributions": [
+    {
+      "method": {
+        "name": "AlexNet",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 1436,
+          "end": 1444
+        },
+        "confidence": 0.5
+      },
+      "task": {
+        "name": "pedestrian detection",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 110,
+          "end": 129
+        },
+        "confidence": 0.5
+      },
+      "datasets": [
+        {
+          "name": "Caltech",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1043,
+            "end": 1050
+          },
+          "confidence": 0.5
+        },
+        {
+          "name": "KITTI",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 397,
+            "end": 402
+          },
+          "confidence": 0.25
+        }
+      ],
+      "metrics": [
+        {
+          "name": "miss rate",
+          "value": 29.0,
+          "unit": "%",
+          "evidence_span": {
+            "start": 3428,
+            "end": 3432
+          },
+          "confidence": 0.25
+        },
+        {
+          "name": "average precision",
+          "value": 45.0,
+          "unit": "%",
+          "evidence_span": {
+            "start": 3428,
+            "end": 3432
+          },
+          "confidence": 0.25
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "SDN",
+        "SquaresChnFtrs"
+      ],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "DISABLED (E2 critic-off ablation)",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 26856,
+    "tokens_out": 2570,
+    "cost_usd": 0.01192623,
+    "wall_time_seconds": 35.964675958966836,
+    "voting_samples": 3
+  }
+}

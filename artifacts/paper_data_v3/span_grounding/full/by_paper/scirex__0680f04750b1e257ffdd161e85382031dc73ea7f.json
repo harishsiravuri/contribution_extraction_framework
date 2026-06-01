@@ -1,0 +1,70 @@
+{
+  "paper_id": "scirex:0680f04750b1e257ffdd161e85382031dc73ea7f",
+  "contributions": [
+    {
+      "method": {
+        "name": "dynamic chunk reader (DCR)",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 186,
+          "end": 207
+        },
+        "confidence": 0.75
+      },
+      "task": {
+        "name": "reading comprehension",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 68,
+          "end": 92
+        },
+        "confidence": 0.75
+      },
+      "datasets": [
+        {
+          "name": "SQuAD",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1013,
+            "end": 1019
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "EM",
+          "value": 4.5,
+          "unit": "%",
+          "evidence_span": {
+            "start": 1013,
+            "end": 1019
+          },
+          "confidence": 0.25
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Rajpurkar et al. (2016)",
+        "Wang and Jiang (2016)"
+      ],
+      "self_consistency": 0.875,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 27803,
+    "tokens_out": 2735,
+    "cost_usd": 0.01381158,
+    "wall_time_seconds": 107.72825866698986,
+    "voting_samples": 3
+  }
+}

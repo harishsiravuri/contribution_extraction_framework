@@ -1,0 +1,166 @@
+{
+  "paper_id": "scirex:2347efd31b723a636902ccaa7b5bc351788e793f",
+  "contributions": [
+    {
+      "method": {
+        "name": "attention-based character-level architecture",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 495,
+          "end": 612
+        },
+        "confidence": 0.9
+      },
+      "task": {
+        "name": "sequence labeling",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 98,
+          "end": 163
+        },
+        "confidence": 0.95
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2000",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1984,
+            "end": 1995
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "CoNLL-2003",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1996,
+            "end": 2008
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "PTB-POS",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2009,
+            "end": 2022
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "FCEPUBLIC",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2023,
+            "end": 2042
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "BC2GM",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2043,
+            "end": 2085
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "CHEMDNER",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2086,
+            "end": 2148
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "JNLPBA",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2149,
+            "end": 2208
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "GENIA-POS",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2209,
+            "end": 2275
+          },
+          "confidence": 0.9
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Token-level accuracy",
+          "value": 97.27,
+          "unit": "%",
+          "evidence_span": {
+            "start": 3441,
+            "end": 3467
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "Microaveraged mention-level F1",
+          "value": 72.7,
+          "unit": "%",
+          "evidence_span": {
+            "start": 3468,
+            "end": 3505
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "F1 score",
+          "value": 87.99,
+          "unit": "%",
+          "evidence_span": {
+            "start": 3506,
+            "end": 3528
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "Accuracy",
+          "value": 41.88,
+          "unit": "%",
+          "evidence_span": {
+            "start": 3529,
+            "end": 3554
+          },
+          "confidence": 0.9
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Lample2016",
+        "Rei2016",
+        "Huang2015",
+        "Zhou2004",
+        "Campos2015"
+      ],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "PARTIAL",
+        "task": "PARTIAL",
+        "datasets": "PARTIAL",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "(none)",
+    "consolidator_model": "(none)",
+    "tokens_in": 5132,
+    "tokens_out": 797,
+    "cost_usd": 0.00235157,
+    "wall_time_seconds": 24.57339283300098,
+    "voting_samples": 1
+  }
+}

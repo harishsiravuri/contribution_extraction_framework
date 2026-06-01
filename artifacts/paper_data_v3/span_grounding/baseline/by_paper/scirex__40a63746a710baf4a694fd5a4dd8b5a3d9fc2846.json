@@ -1,0 +1,99 @@
+{
+  "paper_id": "scirex:40a63746a710baf4a694fd5a4dd8b5a3d9fc2846",
+  "contributions": [
+    {
+      "method": {
+        "name": "Invertible Conditional GANs (IcGANs)",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 200
+        },
+        "confidence": 0.9
+      },
+      "task": {
+        "name": "complex image editing",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 200
+        },
+        "confidence": 0.9
+      },
+      "datasets": [
+        {
+          "name": "MNIST",
+          "canonical_id": "LeCun1998",
+          "evidence_span": {
+            "start": 1000,
+            "end": 1050
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "CelebA",
+          "canonical_id": "celeba",
+          "evidence_span": {
+            "start": 1000,
+            "end": 1050
+          },
+          "confidence": 0.9
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 3000,
+            "end": 3050
+          },
+          "confidence": 0.8
+        },
+        {
+          "name": "F1-Score",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 3000,
+            "end": 3050
+          },
+          "confidence": 0.8
+        },
+        {
+          "name": "minimal squared reconstruction loss",
+          "value": 0.429,
+          "unit": null,
+          "evidence_span": {
+            "start": 3500,
+            "end": 3550
+          },
+          "confidence": 0.8
+        }
+      ],
+      "claim_strength": "novel",
+      "comparison_targets": [
+        "DCGANs",
+        "VAE"
+      ],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "PARTIAL",
+        "task": "PARTIAL",
+        "datasets": "PARTIAL",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "(none)",
+    "consolidator_model": "(none)",
+    "tokens_in": 5382,
+    "tokens_out": 496,
+    "cost_usd": 0.00216368,
+    "wall_time_seconds": 25.788628875045106,
+    "voting_samples": 1
+  }
+}

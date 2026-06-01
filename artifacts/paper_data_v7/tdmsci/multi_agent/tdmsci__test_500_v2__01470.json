@@ -1,0 +1,58 @@
+{
+  "paper_id": "tdmsci:test_500_v2:01470",
+  "contributions": [
+    {
+      "method": {
+        "name": "unsupervised approach to learning translation span alignments",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 18,
+          "end": 80
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "translation span alignment",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 18,
+          "end": 80
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "parallel data",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 61,
+            "end": 74
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "syntactic rule extraction"
+      ],
+      "self_consistency": 0.6666666666666666,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "UNSUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 4713,
+    "tokens_out": 1253,
+    "cost_usd": 0.00314798,
+    "wall_time_seconds": 27.513885291060433,
+    "voting_samples": 3
+  }
+}

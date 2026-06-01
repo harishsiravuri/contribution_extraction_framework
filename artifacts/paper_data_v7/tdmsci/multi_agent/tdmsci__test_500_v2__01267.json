@@ -1,0 +1,65 @@
+{
+  "paper_id": "tdmsci:test_500_v2:01267",
+  "contributions": [
+    {
+      "method": {
+        "name": "VNER",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 23,
+          "end": 27
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "named entity recognition",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 59,
+          "end": 62
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "VLSP-2016 NER",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 67,
+            "end": 81
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "VLSP-2018 NER",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 86,
+            "end": 100
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [],
+      "claim_strength": null,
+      "comparison_targets": [],
+      "self_consistency": 1.0,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "UNSUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 5180,
+    "tokens_out": 1699,
+    "cost_usd": 0.00377905,
+    "wall_time_seconds": 39.85381808388047,
+    "voting_samples": 3
+  }
+}

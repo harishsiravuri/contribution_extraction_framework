@@ -1,0 +1,105 @@
+{
+  "paper_id": "nlp_tdms:C18-1121",
+  "contributions": [
+    {
+      "method": {
+        "name": "entailment-aware encoder and decoder",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 1291,
+          "end": 1400
+        },
+        "confidence": 0.67
+      },
+      "task": {
+        "name": "abstractive sentence summarization",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 107
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "English Gigaword",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 3139,
+            "end": 3155
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "DUC 2004",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2953,
+            "end": 2962
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "ROUGE-1",
+          "value": 2.52,
+          "unit": "%",
+          "evidence_span": {
+            "start": 6037,
+            "end": 6064
+          },
+          "confidence": 0.67
+        },
+        {
+          "name": "ROUGE-2",
+          "value": 2.32,
+          "unit": "%",
+          "evidence_span": {
+            "start": 6037,
+            "end": 6064
+          },
+          "confidence": 0.67
+        },
+        {
+          "name": "ROUGE-L",
+          "value": 2.33,
+          "unit": "%",
+          "evidence_span": {
+            "start": 6037,
+            "end": 6064
+          },
+          "confidence": 0.67
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "ABS",
+        "Seq2seq",
+        "Seq2seq + MTL (Share decoder)",
+        "Seq2seq + selective",
+        "Seq2seq + ERAML",
+        "Seq2seq + ROUGE-2 RAML",
+        "Seq2seq + RL",
+        "basic seq2seq model"
+      ],
+      "self_consistency": 0.83,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 27134,
+    "tokens_out": 4919,
+    "cost_usd": 0.01590832,
+    "wall_time_seconds": 189.025114707998,
+    "voting_samples": 3
+  }
+}

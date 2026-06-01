@@ -1,0 +1,69 @@
+{
+  "paper_id": "arxiv:2605.30080",
+  "contributions": [
+    {
+      "method": {
+        "name": "Adaptive Targeted Dynamic Chunking (ATDC)",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 191,
+          "end": 231
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "byte-level processing",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 156,
+          "end": 173
+        },
+        "confidence": 0.6666666666666666
+      },
+      "datasets": [
+        {
+          "name": "FineWeb-Edu 100B",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 720,
+            "end": 738
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Bits-Per-Byte (BPB)",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 750,
+            "end": 768
+          },
+          "confidence": 0.6666666666666666
+        }
+      ],
+      "claim_strength": null,
+      "comparison_targets": [
+        "conventional baselines"
+      ],
+      "self_consistency": 0.7777777777777778,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 7192,
+    "tokens_out": 2507,
+    "cost_usd": 0.0054483199999999996,
+    "wall_time_seconds": 53.46843245904893,
+    "voting_samples": 3
+  }
+}

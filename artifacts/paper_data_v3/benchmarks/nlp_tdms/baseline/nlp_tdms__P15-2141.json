@@ -1,0 +1,80 @@
+{
+  "paper_id": "nlp_tdms:P15-2141",
+  "contributions": [
+    {
+      "method": {
+        "name": "Transition-based AMR parsing with refined actions and auxiliary analyzers",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 832,
+          "end": 909
+        },
+        "confidence": 0.9
+      },
+      "task": {
+        "name": "AMR parsing",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 528,
+          "end": 537
+        },
+        "confidence": 0.95
+      },
+      "datasets": [
+        {
+          "name": "LDC2013E117",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 4395,
+            "end": 4405
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "LDC2014T12",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 4765,
+            "end": 4775
+          },
+          "confidence": 0.9
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1 score",
+          "value": 0.7,
+          "unit": null,
+          "evidence_span": {
+            "start": 303,
+            "end": 309
+          },
+          "confidence": 0.9
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "JAMR",
+        "Stanford AMR parser",
+        "SHRG-based AMR parser"
+      ],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "PARTIAL",
+        "task": "PARTIAL",
+        "datasets": "PARTIAL",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "(none)",
+    "consolidator_model": "(none)",
+    "tokens_in": 3712,
+    "tokens_out": 397,
+    "cost_usd": 0.0015411700000000001,
+    "wall_time_seconds": 13.105953375052195,
+    "voting_samples": 1
+  }
+}

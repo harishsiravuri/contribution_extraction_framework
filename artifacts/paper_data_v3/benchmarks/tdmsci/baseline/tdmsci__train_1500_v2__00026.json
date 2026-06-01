@@ -1,0 +1,57 @@
+{
+  "paper_id": "tdmsci:train_1500_v2:00026",
+  "contributions": [
+    {
+      "method": {
+        "name": "argument identification model",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 107,
+          "end": 133
+        },
+        "confidence": 0.8
+      },
+      "task": {
+        "name": "full frame-semantic parsing",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 17,
+          "end": 46
+        },
+        "confidence": 0.9
+      },
+      "datasets": [],
+      "metrics": [
+        {
+          "name": "SemEval 2007 shared task evaluation script",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 62,
+            "end": 105
+          },
+          "confidence": 0.7
+        }
+      ],
+      "claim_strength": null,
+      "comparison_targets": [],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "PARTIAL",
+        "task": "PARTIAL",
+        "datasets": "PARTIAL",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "(none)",
+    "consolidator_model": "(none)",
+    "tokens_in": 583,
+    "tokens_out": 271,
+    "cost_usd": 0.00042774999999999996,
+    "wall_time_seconds": 7.668162582966033,
+    "voting_samples": 1
+  }
+}

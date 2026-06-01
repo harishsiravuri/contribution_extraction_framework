@@ -1,0 +1,99 @@
+{
+  "paper_id": "scirex:188123b5afe0d3b59e9e44f33729649536fe6ea6",
+  "contributions": [
+    {
+      "method": {
+        "name": "pseudo-count exploration",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 1000
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "reinforcement learning",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 1000
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "Atari 2600",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1000,
+            "end": 1500
+          },
+          "confidence": 0.75
+        },
+        {
+          "name": "Freeway",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2000,
+            "end": 2100
+          },
+          "confidence": 0.25
+        },
+        {
+          "name": "Montezuma's Revenge",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 3000,
+            "end": 3100
+          },
+          "confidence": 0.25
+        }
+      ],
+      "metrics": [
+        {
+          "name": "score",
+          "value": 6600.0,
+          "unit": "points",
+          "evidence_span": {
+            "start": 5000,
+            "end": 6000
+          },
+          "confidence": 0.5
+        },
+        {
+          "name": "rooms explored",
+          "value": 15.0,
+          "unit": "rooms",
+          "evidence_span": {
+            "start": 5000,
+            "end": 6000
+          },
+          "confidence": 0.25
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "MBIE-EB",
+        "A3C",
+        "DQN"
+      ],
+      "self_consistency": 0.875,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "PARTIAL",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "(none)",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 29358,
+    "tokens_out": 2530,
+    "cost_usd": 0.012277340000000001,
+    "wall_time_seconds": 55.589352041017264,
+    "voting_samples": 3
+  }
+}

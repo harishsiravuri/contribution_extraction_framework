@@ -1,0 +1,49 @@
+{
+  "paper_id": "arxiv:2605.29859",
+  "contributions": [
+    {
+      "method": {
+        "name": "MELD",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 4
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "text-to-speech",
+        "canonical_id": "TTS",
+        "evidence_span": {
+          "start": 515,
+          "end": 520
+        },
+        "confidence": 0.5
+      },
+      "datasets": [],
+      "metrics": [],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "codec-based",
+        "other mel-spectrogram-based baselines"
+      ],
+      "self_consistency": 0.375,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "UNSUPPORTED",
+        "metrics": "UNSUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 8119,
+    "tokens_out": 3809,
+    "cost_usd": 0.00720347,
+    "wall_time_seconds": 79.02469208394177,
+    "voting_samples": 3
+  }
+}

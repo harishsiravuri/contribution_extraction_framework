@@ -1,0 +1,83 @@
+{
+  "paper_id": "tdmsci:train_1500_v2:00034",
+  "contributions": [
+    {
+      "method": {
+        "name": "full joint disagreement model AD",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 4,
+          "end": 34
+        },
+        "confidence": 0.9
+      },
+      "task": {
+        "name": null,
+        "canonical_id": null,
+        "evidence_span": null,
+        "confidence": 0.0
+      },
+      "datasets": [
+        {
+          "name": "posts on evolution",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 96,
+            "end": 114
+          },
+          "confidence": 0.8
+        },
+        {
+          "name": "posts on gay marriage",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 119,
+            "end": 139
+          },
+          "confidence": 0.8
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": 80.3,
+          "unit": "%",
+          "evidence_span": {
+            "start": 64,
+            "end": 85
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "accuracy",
+          "value": 80.5,
+          "unit": "%",
+          "evidence_span": {
+            "start": 90,
+            "end": 111
+          },
+          "confidence": 0.9
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "PARTIAL",
+        "task": "PARTIAL",
+        "datasets": "PARTIAL",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "(none)",
+    "consolidator_model": "(none)",
+    "tokens_in": 577,
+    "tokens_out": 405,
+    "cost_usd": 0.00054509,
+    "wall_time_seconds": 10.719453750003595,
+    "voting_samples": 1
+  }
+}

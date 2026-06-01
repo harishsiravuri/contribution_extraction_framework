@@ -1,0 +1,66 @@
+contribution_extraction_framework — third-party attributions
+
+This repository depends on the following open-source packages and external
+datasets/services. Each is the property of its respective owner; their
+licenses apply to use of those components.
+
+## Python runtime dependencies
+
+| Package      | License        | Notes                                                |
+|--------------|----------------|------------------------------------------------------|
+| httpx        | BSD-3-Clause   | Async HTTP client used by the OpenRouter wrapper.    |
+| pydantic     | MIT            | ContributionRecord schema validation.                |
+| tenacity     | Apache-2.0     | Retry decorators on the LLM API calls.               |
+| pyyaml       | MIT            | Loading config/*.yaml model definitions.             |
+| python-dotenv| BSD-3-Clause   | Loading API keys from .env.                          |
+| typer        | MIT            | CLI for the script entrypoints under scripts/.       |
+| rich         | MIT            | Pretty progress bars in script output.               |
+| numpy        | BSD-3-Clause   | Used in metrics/* for bootstrap CIs and ECE.         |
+| matplotlib   | MPL-style      | Plotting under scripts/figures/.                     |
+| seaborn      | BSD-3-Clause   | Colorblind palette for figures.                      |
+
+## External services
+
+| Service     | Role                                                          |
+|-------------|---------------------------------------------------------------|
+| OpenRouter  | Hosts DeepSeek Chat (Extractor) and Meta Llama 3.3 70B        |
+|             | Instruct (Critic + Consolidator) for the default deployment.  |
+| Together AI | Hosts the LoRA fine-tuned Llama 3.1 70B Instruct extractor    |
+|             | for the specialized-framework deployment (artifacts under     |
+|             | `artifacts/paper_data_v6/benchmarks_ft_70b_test/`).           |
+
+API access to either service requires a paid account. Set the corresponding
+API key in `.env` (see `.env.example`).
+
+## Evaluation datasets
+
+| Dataset | Source                                              | License       |
+|---------|-----------------------------------------------------|---------------|
+| SciREX  | Jain, van Zuylen, Hajishirzi, Beltagy. ACL 2020.    | Apache-2.0    |
+|         | https://github.com/allenai/SciREX                    |               |
+| TDMSci  | Hou, Mariana, Bonin, Cabrio, Villata. ACL 2019.     | Apache-2.0    |
+|         | https://github.com/IBM/science-result-extractor      |               |
+
+The datasets themselves are **not redistributed** in this repository. To
+reproduce results, follow the dataset-provider's instructions to obtain the
+data, then place the SciREX release files under
+`data/raw/scirex/scirex_dataset/release_data/{train,dev,test}.jsonl` and the
+TDMSci CoNLL files under `data/raw/science-result-extractor/data/TDMSci/conllFormat/`.
+
+The case-study artifact `artifacts/paper_data_v8/deployment_case_study/`
+references 100 arXiv papers fetched in 2025-01-01 to 2026-05-31. Only the
+framework's extracted ContributionRecord JSONs are released — the source
+paper texts can be re-fetched from arXiv via `scripts/v8_fetch_recent.py`.
+
+## Model families
+
+The framework references the following model identifiers via OpenRouter and
+Together AI. We hold no rights to these models; they are referenced for
+reproducibility only.
+
+- DeepSeek family — DeepSeek Chat (open weights).
+- Meta Llama 3.3 70B Instruct (open weights, custom community license).
+- Meta Llama 3.1 70B / 8B Instruct Reference (open weights, custom community
+  license; used as the base for the fine-tuned specialized extractor).
+- OpenAI gpt-4o-2024-11-20 (closed weights; used in the closed-source
+  comparison ablation under `artifacts/paper_data_v7/closed_source_comparison/`).

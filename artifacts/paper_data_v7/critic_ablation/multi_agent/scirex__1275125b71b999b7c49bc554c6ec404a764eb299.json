@@ -1,0 +1,100 @@
+{
+  "paper_id": "scirex:1275125b71b999b7c49bc554c6ec404a764eb299",
+  "contributions": [
+    {
+      "method": {
+        "name": "HD-CNN",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 99
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "image classification",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 76,
+          "end": 95
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "CIFAR100",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1168,
+            "end": 1176
+          },
+          "confidence": 0.6
+        },
+        {
+          "name": "ImageNet",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1178,
+            "end": 1185
+          },
+          "confidence": 0.8
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": 70.0,
+          "unit": "%",
+          "evidence_span": {
+            "start": 3181,
+            "end": 3187
+          },
+          "confidence": 0.2
+        },
+        {
+          "name": "top-1 error",
+          "value": 23.0,
+          "unit": "%",
+          "evidence_span": {
+            "start": 6339,
+            "end": 6346
+          },
+          "confidence": 0.4
+        },
+        {
+          "name": "top-5 error",
+          "value": 27.0,
+          "unit": "%",
+          "evidence_span": {
+            "start": 6350,
+            "end": 6357
+          },
+          "confidence": 0.2
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "CIFAR100-NIN",
+        "ImageNet-NIN",
+        "ImageNet-VGG-16-layer"
+      ],
+      "self_consistency": 0.83,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "DISABLED (E2 critic-off ablation)",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 26251,
+    "tokens_out": 3508,
+    "cost_usd": 0.01277274,
+    "wall_time_seconds": 49.096064291894436,
+    "voting_samples": 3
+  }
+}

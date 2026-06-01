@@ -1,0 +1,86 @@
+{
+  "paper_id": "scirex:35756f711a97166df11202ebe46820a36704ae77",
+  "contributions": [
+    {
+      "method": {
+        "name": "dcgan",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 185,
+          "end": 189
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "image classification",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 1051,
+          "end": 1072
+        },
+        "confidence": 0.6666666666666666
+      },
+      "datasets": [
+        {
+          "name": "cifar-10",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 3441,
+            "end": 3450
+          },
+          "confidence": 0.6666666666666666
+        },
+        {
+          "name": "svhn",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 3721,
+            "end": 3726
+          },
+          "confidence": 0.6666666666666666
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 3514,
+            "end": 3521
+          },
+          "confidence": 0.6666666666666666
+        },
+        {
+          "name": "test error",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 3784,
+            "end": 3794
+          },
+          "confidence": 0.3333333333333333
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [],
+      "self_consistency": 0.7272727272727273,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "harishsiravuri_e088/Meta-Llama-3.1-70B-Instruct-Reference-scirex-v6-70b-7cecddd1-66437b32",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 25348,
+    "tokens_out": 3290,
+    "cost_usd": 0.01571904,
+    "wall_time_seconds": 136.2688787909574,
+    "voting_samples": 3
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "paper_id": "tdmsci:test_500_v2:01428",
+  "contributions": [
+    {
+      "method": {
+        "name": "POS tagger",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 57,
+          "end": 66
+        },
+        "confidence": 0.5
+      },
+      "task": {
+        "name": "POS tagging",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 120,
+          "end": 131
+        },
+        "confidence": 0.5
+      },
+      "datasets": [
+        {
+          "name": "Twitter tweets",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 57,
+            "end": 63
+          },
+          "confidence": 0.5
+        }
+      ],
+      "metrics": [],
+      "claim_strength": "novel",
+      "comparison_targets": [],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "UNSUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 6532,
+    "tokens_out": 2414,
+    "cost_usd": 0.00514569,
+    "wall_time_seconds": 66.58424325007945,
+    "voting_samples": 3
+  }
+}

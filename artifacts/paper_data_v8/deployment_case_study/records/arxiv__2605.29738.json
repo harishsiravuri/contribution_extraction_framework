@@ -1,0 +1,220 @@
+{
+  "paper_id": "arxiv:2605.29738",
+  "contributions": [
+    {
+      "method": {
+        "name": "LLMs",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 421,
+          "end": 424
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "court-type classification",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 437,
+          "end": 462
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "Multi-Legal-Bench",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 137,
+            "end": 153
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [],
+      "claim_strength": "novel",
+      "comparison_targets": [],
+      "self_consistency": 0.8,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "UNSUPPORTED"
+      }
+    },
+    {
+      "method": {
+        "name": "LLMs",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 421,
+          "end": 424
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "judgment form classification",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 467,
+          "end": 495
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "Multi-Legal-Bench",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 137,
+            "end": 153
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [],
+      "claim_strength": "novel",
+      "comparison_targets": [],
+      "self_consistency": 0.8,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "UNSUPPORTED"
+      }
+    },
+    {
+      "method": {
+        "name": "LLMs",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 421,
+          "end": 424
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "case-outcome prediction",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 500,
+          "end": 521
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "Multi-Legal-Bench",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 137,
+            "end": 153
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [],
+      "claim_strength": "novel",
+      "comparison_targets": [],
+      "self_consistency": 0.8,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "UNSUPPORTED"
+      }
+    },
+    {
+      "method": {
+        "name": "LLMs",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 421,
+          "end": 424
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "legal norm extraction",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 526,
+          "end": 546
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "Multi-Legal-Bench",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 137,
+            "end": 153
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [],
+      "claim_strength": "novel",
+      "comparison_targets": [],
+      "self_consistency": 0.8,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "UNSUPPORTED"
+      }
+    },
+    {
+      "method": {
+        "name": "LLMs",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 421,
+          "end": 424
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "cause category prediction",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 551,
+          "end": 573
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "Multi-Legal-Bench",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 137,
+            "end": 153
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [],
+      "claim_strength": "novel",
+      "comparison_targets": [],
+      "self_consistency": 0.8,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "UNSUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 12723,
+    "tokens_out": 7143,
+    "cost_usd": 0.012533099999999998,
+    "wall_time_seconds": 146.10053145792335,
+    "voting_samples": 3
+  }
+}

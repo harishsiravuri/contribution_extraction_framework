@@ -1,0 +1,99 @@
+{
+  "paper_id": "nlp_tdms:1709.04348",
+  "contributions": [
+    {
+      "method": {
+        "name": "Densely Interactive Inference Network",
+        "canonical_id": "DIIN",
+        "evidence_span": {
+          "start": 1319,
+          "end": 1370
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "natural language inference",
+        "canonical_id": "NLI",
+        "evidence_span": {
+          "start": 102,
+          "end": 126
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "Multi-Genre NLI",
+          "canonical_id": "MultiNLI",
+          "evidence_span": {
+            "start": 1882,
+            "end": 1888
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "Stanford Natural Language Inference",
+          "canonical_id": "SNLI",
+          "evidence_span": {
+            "start": 3451,
+            "end": 3455
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "Quora Question Pair",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 4731,
+            "end": 4749
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": 80.0,
+          "unit": "%",
+          "evidence_span": {
+            "start": 6044,
+            "end": 6048
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "accuracy",
+          "value": 88.0,
+          "unit": "%",
+          "evidence_span": {
+            "start": 8323,
+            "end": 8327
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "ESIM",
+        "LSTMN",
+        "BiMPM"
+      ],
+      "self_consistency": 0.8333333333333334,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 27783,
+    "tokens_out": 2924,
+    "cost_usd": 0.01389245,
+    "wall_time_seconds": 130.20152637502179,
+    "voting_samples": 3
+  }
+}

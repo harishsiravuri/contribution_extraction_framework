@@ -1,0 +1,109 @@
+{
+  "paper_id": "scirex:33bcc97b605f00145098d095be2841a1fa6b9a95",
+  "contributions": [
+    {
+      "method": {
+        "name": "order-embeddings",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 466,
+          "end": 573
+        },
+        "confidence": 0.9
+      },
+      "task": {
+        "name": "partial order completion",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 809,
+          "end": 897
+        },
+        "confidence": 0.8
+      },
+      "datasets": [
+        {
+          "name": "Microsoft COCO",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 4500,
+            "end": 4534
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "WordNet",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 3005,
+            "end": 3029
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "SNLI corpus",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 7663,
+            "end": 7687
+          },
+          "confidence": 0.9
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Recall@K",
+          "value": null,
+          "unit": "percent",
+          "evidence_span": {
+            "start": 6761,
+            "end": 6831
+          },
+          "confidence": 0.8
+        },
+        {
+          "name": "Median rank",
+          "value": null,
+          "unit": "position",
+          "evidence_span": {
+            "start": 6845,
+            "end": 6859
+          },
+          "confidence": 0.8
+        },
+        {
+          "name": "Mean rank",
+          "value": null,
+          "unit": "position",
+          "evidence_span": {
+            "start": 6870,
+            "end": 6879
+          },
+          "confidence": 0.8
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "hypernym prediction",
+        "image-caption retrieval",
+        "textual entailment"
+      ],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "PARTIAL",
+        "task": "PARTIAL",
+        "datasets": "PARTIAL",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "(none)",
+    "consolidator_model": "(none)",
+    "tokens_in": 6859,
+    "tokens_out": 553,
+    "cost_usd": 0.00268705,
+    "wall_time_seconds": 23.11552583402954,
+    "voting_samples": 1
+  }
+}

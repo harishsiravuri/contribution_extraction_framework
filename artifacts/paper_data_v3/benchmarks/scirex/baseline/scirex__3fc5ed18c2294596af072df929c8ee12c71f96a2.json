@@ -1,0 +1,119 @@
+{
+  "paper_id": "scirex:3fc5ed18c2294596af072df929c8ee12c71f96a2",
+  "contributions": [
+    {
+      "method": {
+        "name": "classical structured prediction losses",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 52,
+          "end": 190
+        },
+        "confidence": 0.9
+      },
+      "task": {
+        "name": "sequence to sequence learning",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 52,
+          "end": 190
+        },
+        "confidence": 0.9
+      },
+      "datasets": [
+        {
+          "name": "IWSLT’14 German - English",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 317,
+            "end": 349
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "Gigaword abstractive summarization",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 354,
+            "end": 389
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "WMT’14 English - French",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 404,
+            "end": 431
+          },
+          "confidence": 0.9
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 41.5,
+          "unit": null,
+          "evidence_span": {
+            "start": 429,
+            "end": 436
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "ROUGE-1",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 6471,
+            "end": 6483
+          },
+          "confidence": 0.8
+        },
+        {
+          "name": "ROUGE-2",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 6485,
+            "end": 6497
+          },
+          "confidence": 0.8
+        },
+        {
+          "name": "ROUGE-L",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 6499,
+            "end": 6511
+          },
+          "confidence": 0.8
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "beam search optimization",
+        "REINFORCE",
+        "actor-critic"
+      ],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "PARTIAL",
+        "task": "PARTIAL",
+        "datasets": "PARTIAL",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "(none)",
+    "consolidator_model": "(none)",
+    "tokens_in": 6275,
+    "tokens_out": 606,
+    "cost_usd": 0.0025473400000000004,
+    "wall_time_seconds": 23.93749820900848,
+    "voting_samples": 1
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "paper_id": "scirex:088b649415378c4dde666f614ba24d08a36b6652",
+  "contributions": [
+    {
+      "method": {
+        "name": null,
+        "canonical_id": null,
+        "evidence_span": null,
+        "confidence": 0.0
+      },
+      "task": {
+        "name": "natural language inference",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 4441,
+          "end": 4464
+        },
+        "confidence": 0.6
+      },
+      "datasets": [
+        {
+          "name": "snli",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 5494,
+            "end": 5497
+          },
+          "confidence": 0.6
+        }
+      ],
+      "metrics": [
+        {
+          "name": "test accuracy",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 5738,
+            "end": 5751
+          },
+          "confidence": 0.4
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [],
+      "self_consistency": 0.2,
+      "critic_verdict": {
+        "method": "UNSUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "harishsiravuri_e088/Meta-Llama-3.1-8B-Instruct-Reference-scirex-v6-bf594110-52031aad",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 30225,
+    "tokens_out": 3986,
+    "cost_usd": 0.01869999,
+    "wall_time_seconds": 207.08087058301317,
+    "voting_samples": 3
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "paper_id": "tdmsci:test_500_v2:01456",
+  "contributions": [
+    {
+      "method": {
+        "name": null,
+        "canonical_id": null,
+        "evidence_span": null,
+        "confidence": 0.0
+      },
+      "task": {
+        "name": null,
+        "canonical_id": null,
+        "evidence_span": null,
+        "confidence": 0.0
+      },
+      "datasets": [
+        {
+          "name": "development data",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 47,
+            "end": 62
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 26,
+            "end": 34
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "oracle scores",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 39,
+            "end": 52
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": null,
+      "comparison_targets": [],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "UNSUPPORTED",
+        "task": "UNSUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 5905,
+    "tokens_out": 2222,
+    "cost_usd": 0.004640099999999999,
+    "wall_time_seconds": 45.287416874896735,
+    "voting_samples": 3
+  }
+}

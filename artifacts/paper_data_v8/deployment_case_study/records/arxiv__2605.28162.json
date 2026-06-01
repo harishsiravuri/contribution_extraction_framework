@@ -1,0 +1,56 @@
+{
+  "paper_id": "arxiv:2605.28162",
+  "contributions": [
+    {
+      "method": {
+        "name": "variational early fault-tolerant quantum computing (VarEFTQC)",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 489,
+          "end": 542
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "quantum error correction",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 41
+        },
+        "confidence": 0.75
+      },
+      "datasets": [
+        {
+          "name": "standard stabilizer codes",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 342,
+            "end": 364
+          },
+          "confidence": 0.5
+        }
+      ],
+      "metrics": [],
+      "claim_strength": "novel",
+      "comparison_targets": [],
+      "self_consistency": 0.875,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "PARTIAL",
+        "datasets": "SUPPORTED",
+        "metrics": "UNSUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 5956,
+    "tokens_out": 1650,
+    "cost_usd": 0.00409435,
+    "wall_time_seconds": 38.229408459039405,
+    "voting_samples": 3
+  }
+}

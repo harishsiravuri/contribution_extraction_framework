@@ -1,0 +1,106 @@
+{
+  "paper_id": "scirex:44078d0daed8b13114cffb15b368acc467f96351",
+  "contributions": [
+    {
+      "method": {
+        "name": "triplet probability embedding",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 1954,
+          "end": 1981
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "face verification",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 105,
+          "end": 123
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "cfp",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 3444,
+            "end": 3447
+          },
+          "confidence": 0.67
+        },
+        {
+          "name": "ijb-a",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 3364,
+            "end": 3368
+          },
+          "confidence": 0.67
+        }
+      ],
+      "metrics": [
+        {
+          "name": "eer",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 3514,
+            "end": 3517
+          },
+          "confidence": 0.33
+        },
+        {
+          "name": "fnmr",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 4064,
+            "end": 4068
+          },
+          "confidence": 0.33
+        },
+        {
+          "name": "tar",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 4239,
+            "end": 4242
+          },
+          "confidence": 0.33
+        },
+        {
+          "name": "tpir",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 4141,
+            "end": 4145
+          },
+          "confidence": 0.33
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [],
+      "self_consistency": 0.83,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "harishsiravuri_e088/Meta-Llama-3.1-70B-Instruct-Reference-scirex-v6-70b-7cecddd1-66437b32",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 29864,
+    "tokens_out": 3308,
+    "cost_usd": 0.018088279999999998,
+    "wall_time_seconds": 67.3487293329672,
+    "voting_samples": 3
+  }
+}

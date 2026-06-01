@@ -1,0 +1,152 @@
+{
+  "paper_id": "scirex:3fc5ed18c2294596af072df929c8ee12c71f96a2",
+  "contributions": [
+    {
+      "method": {
+        "name": "sequence-level training with classical structured prediction losses",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 200
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "machine translation",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 200,
+          "end": 300
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "IWSLT’14 German-English",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 300,
+            "end": 350
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "WMT’14 English-French",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 400,
+            "end": 450
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 41.5,
+          "unit": null,
+          "evidence_span": {
+            "start": 450,
+            "end": 500
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "comparable",
+      "comparison_targets": [
+        "state of the art"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    },
+    {
+      "method": {
+        "name": "sequence-level training with classical structured prediction losses",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 200
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "abstractive summarization",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 500,
+          "end": 600
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "Gigaword",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 600,
+            "end": 650
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "ROUGE-1",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 650,
+            "end": 700
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "ROUGE-2",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 650,
+            "end": 700
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "ROUGE-L",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 650,
+            "end": 700
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "prior approaches"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "DISABLED (E2 critic-off ablation)",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 25186,
+    "tokens_out": 4515,
+    "cost_usd": 0.013489939999999999,
+    "wall_time_seconds": 65.23782483278774,
+    "voting_samples": 3
+  }
+}

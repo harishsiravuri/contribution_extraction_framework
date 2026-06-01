@@ -1,0 +1,76 @@
+{
+  "paper_id": "scirex:310fed695da4f36139b70b23065c34fe9fb29ca6",
+  "contributions": [
+    {
+      "method": {
+        "name": "st-ss-pgru",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 1856,
+          "end": 1866
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "image classification",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 103,
+          "end": 126
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "indian pines",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2721,
+            "end": 2735
+          },
+          "confidence": 0.75
+        },
+        {
+          "name": "pavia university",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2631,
+            "end": 2645
+          },
+          "confidence": 0.75
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 3135,
+            "end": 3144
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [],
+      "self_consistency": 0.875,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "harishsiravuri_e088/Meta-Llama-3.1-70B-Instruct-Reference-scirex-v6-70b-7cecddd1-66437b32",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 17236,
+    "tokens_out": 2121,
+    "cost_usd": 0.01054016,
+    "wall_time_seconds": 32.049696290981956,
+    "voting_samples": 3
+  }
+}

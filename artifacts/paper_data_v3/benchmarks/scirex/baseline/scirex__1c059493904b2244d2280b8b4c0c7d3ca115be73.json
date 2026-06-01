@@ -1,0 +1,99 @@
+{
+  "paper_id": "scirex:1c059493904b2244d2280b8b4c0c7d3ca115be73",
+  "contributions": [
+    {
+      "method": {
+        "name": "node2vec",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 200
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "multi-label classification and link prediction",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 250,
+          "end": 350
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "BlogCatalog",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2500,
+            "end": 2600
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "Protein-Protein Interactions (PPI)",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2600,
+            "end": 2700
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "Wikipedia",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2700,
+            "end": 2800
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Macro-F score",
+          "value": 26.7,
+          "unit": "%",
+          "evidence_span": {
+            "start": 3000,
+            "end": 3100
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "AUC",
+          "value": 12.6,
+          "unit": "%",
+          "evidence_span": {
+            "start": 3100,
+            "end": 3200
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "DeepWalk",
+        "LINE",
+        "Spectral clustering"
+      ],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "PARTIAL",
+        "task": "PARTIAL",
+        "datasets": "PARTIAL",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "(none)",
+    "consolidator_model": "(none)",
+    "tokens_in": 9722,
+    "tokens_out": 531,
+    "cost_usd": 0.00358363,
+    "wall_time_seconds": 20.541502208972815,
+    "voting_samples": 1
+  }
+}

@@ -1,0 +1,173 @@
+{
+  "paper_id": "scirex:2347efd31b723a636902ccaa7b5bc351788e793f",
+  "contributions": [
+    {
+      "method": {
+        "name": "bidirectional LSTM with attention-based character features",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 2220,
+          "end": 2275
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "sequence labeling",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 112,
+          "end": 130
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2000",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2259,
+            "end": 2275
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "CoNLL-2003",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2280,
+            "end": 2296
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "PTB-POS",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2301,
+            "end": 2308
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "BC2GM",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2343,
+            "end": 2348
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "CHEMDNER",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2353,
+            "end": 2362
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "JNLPBA",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2367,
+            "end": 2374
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "GENIA-POS",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2379,
+            "end": 2388
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "FCEPUBLIC",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2393,
+            "end": 2403
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": null,
+          "unit": null,
+          "evidence_span": null,
+          "confidence": 1.0
+        },
+        {
+          "name": "accuracy",
+          "value": 97.27,
+          "unit": "%",
+          "evidence_span": {
+            "start": 3922,
+            "end": 3929
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "F1",
+          "value": 87.99,
+          "unit": "%",
+          "evidence_span": {
+            "start": 3950,
+            "end": 3956
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "F1",
+          "value": 72.7,
+          "unit": "%",
+          "evidence_span": {
+            "start": 3940,
+            "end": 3946
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "F1",
+          "value": 41.88,
+          "unit": "%",
+          "evidence_span": {
+            "start": 3960,
+            "end": 3966
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "concatenation method",
+        "Huang2015",
+        "Campos2015",
+        "Rei2016",
+        "Zhou2004"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "DISABLED (E2 critic-off ablation)",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 25162,
+    "tokens_out": 7011,
+    "cost_usd": 0.016608650000000003,
+    "wall_time_seconds": 86.89100329112262,
+    "voting_samples": 3
+  }
+}

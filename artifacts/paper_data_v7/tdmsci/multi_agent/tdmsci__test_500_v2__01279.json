@@ -1,0 +1,56 @@
+{
+  "paper_id": "tdmsci:test_500_v2:01279",
+  "contributions": [
+    {
+      "method": {
+        "name": "Apollo's team",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 16,
+          "end": 29
+        },
+        "confidence": 0.67
+      },
+      "task": {
+        "name": "hypernym discovery",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 45,
+          "end": 61
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "SemEval-2018 Task 9",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 34,
+            "end": 53
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [],
+      "claim_strength": "applies",
+      "comparison_targets": [],
+      "self_consistency": 0.83,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "UNSUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 5118,
+    "tokens_out": 1629,
+    "cost_usd": 0.00366526,
+    "wall_time_seconds": 51.45698854117654,
+    "voting_samples": 3
+  }
+}

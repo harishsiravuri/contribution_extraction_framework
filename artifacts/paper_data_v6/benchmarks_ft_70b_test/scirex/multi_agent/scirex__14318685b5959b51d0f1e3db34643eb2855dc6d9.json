@@ -1,0 +1,87 @@
+{
+  "paper_id": "scirex:14318685b5959b51d0f1e3db34643eb2855dc6d9",
+  "contributions": [
+    {
+      "method": {
+        "name": "googlenet",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 146,
+          "end": 155
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "image classification",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 104,
+          "end": 125
+        },
+        "confidence": 0.67
+      },
+      "datasets": [
+        {
+          "name": "imagenet",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 125,
+            "end": 134
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "top 1 accuracy",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 3441,
+            "end": 3455
+          },
+          "confidence": 0.33
+        },
+        {
+          "name": "top 5 accuracy",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 3456,
+            "end": 3469
+          },
+          "confidence": 0.33
+        },
+        {
+          "name": "map",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 4231,
+            "end": 4234
+          },
+          "confidence": 0.33
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [],
+      "self_consistency": 0.83,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "harishsiravuri_e088/Meta-Llama-3.1-70B-Instruct-Reference-scirex-v6-70b-7cecddd1-66437b32",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 31032,
+    "tokens_out": 3069,
+    "cost_usd": 0.0184317,
+    "wall_time_seconds": 82.38460695900721,
+    "voting_samples": 3
+  }
+}

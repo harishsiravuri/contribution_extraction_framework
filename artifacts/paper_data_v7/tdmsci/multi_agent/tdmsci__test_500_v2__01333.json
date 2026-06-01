@@ -1,0 +1,69 @@
+{
+  "paper_id": "tdmsci:test_500_v2:01333",
+  "contributions": [
+    {
+      "method": {
+        "name": "tweets guided sentence compression",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 61,
+          "end": 102
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "summarization",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 133,
+          "end": 145
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "public corpus that contains both news articles and relevant tweets",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 25,
+            "end": 60
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "performance",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 133,
+            "end": 145
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "baseline generic sentence compression method"
+      ],
+      "self_consistency": 0.95,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "PARTIAL",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 5953,
+    "tokens_out": 2383,
+    "cost_usd": 0.00478737,
+    "wall_time_seconds": 49.33960491698235,
+    "voting_samples": 3
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "paper_id": "scirex:38cc89399dd6f5aaab1654f27ab3c9eeade12a36",
+  "contributions": [
+    {
+      "method": {
+        "name": "temporal h36m",
+        "canonical_id": null,
+        "evidence_span": null,
+        "confidence": 0.5
+      },
+      "task": {
+        "name": "3d human pose estimation",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 17,
+          "end": 37
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "h36m",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1541,
+            "end": 1551
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "mpjpe",
+          "value": null,
+          "unit": null,
+          "evidence_span": null,
+          "confidence": 0.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [],
+      "self_consistency": 0.75,
+      "critic_verdict": {
+        "method": "UNSUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "UNSUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "harishsiravuri_e088/Meta-Llama-3.1-70B-Instruct-Reference-scirex-v6-70b-7cecddd1-66437b32",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 29964,
+    "tokens_out": 1293,
+    "cost_usd": 0.01661296,
+    "wall_time_seconds": 40.84138100000564,
+    "voting_samples": 3
+  }
+}

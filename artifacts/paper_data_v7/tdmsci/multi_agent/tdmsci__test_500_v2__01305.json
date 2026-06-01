@@ -1,0 +1,74 @@
+{
+  "paper_id": "tdmsci:test_500_v2:01305",
+  "contributions": [
+    {
+      "method": {
+        "name": "neural clustering method",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 91,
+          "end": 112
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": null,
+        "canonical_id": null,
+        "evidence_span": null,
+        "confidence": 0.0
+      },
+      "datasets": [
+        {
+          "name": "French verbs",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 50,
+            "end": 61
+          },
+          "confidence": 0.67
+        }
+      ],
+      "metrics": [
+        {
+          "name": "supervised evaluation metrics",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 156,
+            "end": 181
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "unsupervised evaluation metrics",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 194,
+            "end": 219
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "novel",
+      "comparison_targets": [],
+      "self_consistency": 0.83,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "UNSUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 5201,
+    "tokens_out": 1652,
+    "cost_usd": 0.00376052,
+    "wall_time_seconds": 41.9474521658849,
+    "voting_samples": 3
+  }
+}

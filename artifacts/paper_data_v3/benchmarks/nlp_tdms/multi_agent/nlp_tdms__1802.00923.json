@@ -1,0 +1,158 @@
+{
+  "paper_id": "nlp_tdms:1802.00923",
+  "contributions": [
+    {
+      "method": {
+        "name": "Multi-attention Recurrent Network",
+        "canonical_id": "MARN",
+        "evidence_span": {
+          "start": 156,
+          "end": 182
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "multimodal sentiment analysis, speaker trait recognition, emotion recognition",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 431,
+          "end": 463
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "CMU-MOSI",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 3166,
+            "end": 3174
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "ICT-MMMO",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 3503,
+            "end": 3512
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "YouTube",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 3515,
+            "end": 3522
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "MOUD",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 3525,
+            "end": 3529
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "POM",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 3799,
+            "end": 3802
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "IEMOCAP",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 3822,
+            "end": 3830
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 3084,
+            "end": 3093
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "F1",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 3095,
+            "end": 3097
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "MAE",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 3099,
+            "end": 3102
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "Pearson's correlation",
+          "value": null,
+          "unit": "r",
+          "evidence_span": {
+            "start": 3104,
+            "end": 3129
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "TFN",
+        "SAL-CNN",
+        "EF-HCRF",
+        "EF-LDHCRF",
+        "MV-HCRF",
+        "MV-LDHCRF",
+        "EF-HSSHCRF",
+        "MV-HSSHCRF",
+        "DF",
+        "EF-LSTM",
+        "EF-SLSTM",
+        "EF-BLSTM",
+        "EF-SBLSTM",
+        "Majority",
+        "Human performance"
+      ],
+      "self_consistency": 0.95,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 28228,
+    "tokens_out": 4143,
+    "cost_usd": 0.01541013,
+    "wall_time_seconds": 191.39204170898302,
+    "voting_samples": 3
+  }
+}

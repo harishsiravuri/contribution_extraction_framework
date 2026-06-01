@@ -1,0 +1,80 @@
+{
+  "paper_id": "arxiv:2605.28814",
+  "contributions": [
+    {
+      "method": {
+        "name": "Bidirectional Evolutionary Search (BES)",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 352,
+          "end": 389
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "post-training sample generation",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 126,
+          "end": 161
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "three open problem solving benchmarks",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1013,
+            "end": 1049
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "average performance",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 1065,
+            "end": 1084
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "best-case performance",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 1089,
+            "end": 1110
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "best-of-N sampling",
+        "tree search"
+      ],
+      "self_consistency": 0.875,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 8084,
+    "tokens_out": 3359,
+    "cost_usd": 0.00665609,
+    "wall_time_seconds": 63.2068409579806,
+    "voting_samples": 3
+  }
+}

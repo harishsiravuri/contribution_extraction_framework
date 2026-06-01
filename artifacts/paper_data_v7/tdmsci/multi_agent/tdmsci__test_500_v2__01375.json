@@ -1,0 +1,66 @@
+{
+  "paper_id": "tdmsci:test_500_v2:01375",
+  "contributions": [
+    {
+      "method": {
+        "name": "reranking",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 37,
+          "end": 46
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "text compression",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 69,
+          "end": 83
+        },
+        "confidence": 0.3333333333333333
+      },
+      "datasets": [
+        {
+          "name": null,
+          "canonical_id": null,
+          "evidence_span": null,
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 138,
+            "end": 142
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "training with only one best compression"
+      ],
+      "self_consistency": 0.7777777777777778,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "PARTIAL",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 5028,
+    "tokens_out": 1597,
+    "cost_usd": 0.0036098100000000006,
+    "wall_time_seconds": 42.14232183410786,
+    "voting_samples": 3
+  }
+}

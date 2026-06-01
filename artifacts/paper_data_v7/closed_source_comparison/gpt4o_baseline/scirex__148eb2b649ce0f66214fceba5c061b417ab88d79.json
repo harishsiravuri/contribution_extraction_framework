@@ -1,0 +1,88 @@
+{
+  "paper_id": "scirex:148eb2b649ce0f66214fceba5c061b417ab88d79",
+  "contributions": [
+    {
+      "method": {
+        "name": "Bidirectional-InfoGAN",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 2225,
+          "end": 2239
+        },
+        "confidence": 0.9
+      },
+      "task": {
+        "name": "Learning disentangled representations",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 2225,
+          "end": 2239
+        },
+        "confidence": 0.8
+      },
+      "datasets": [
+        {
+          "name": "MNIST",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2486,
+            "end": 2491
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "CelebA",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2494,
+            "end": 2500
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "SVHN",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2503,
+            "end": 2507
+          },
+          "confidence": 0.9
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Test set accuracy",
+          "value": 96.61,
+          "unit": "%",
+          "evidence_span": {
+            "start": 3365,
+            "end": 3371
+          },
+          "confidence": 0.9
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Chen et al. (unsupervised)",
+        "Zhang et al. (semi-supervised)"
+      ],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "PARTIAL",
+        "task": "PARTIAL",
+        "datasets": "PARTIAL",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "openai/gpt-4o-2024-11-20",
+    "critic_model": "(none)",
+    "consolidator_model": "(none)",
+    "tokens_in": 4217,
+    "tokens_out": 459,
+    "cost_usd": 0.0151325,
+    "wall_time_seconds": 3.1886400419753045,
+    "voting_samples": 1
+  }
+}

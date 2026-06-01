@@ -1,0 +1,86 @@
+{
+  "paper_id": "tdmsci:test_500_v2:01271",
+  "contributions": [
+    {
+      "method": {
+        "name": null,
+        "canonical_id": null,
+        "evidence_span": null,
+        "confidence": 0.0
+      },
+      "task": {
+        "name": "word sense disambiguation",
+        "canonical_id": null,
+        "evidence_span": null,
+        "confidence": 0.3333333333333333
+      },
+      "datasets": [
+        {
+          "name": "Senseval-2",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 10,
+            "end": 19
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "Senseval-3",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 22,
+            "end": 37
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "SemEval-07",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 41,
+            "end": 59
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "SemEval-13",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 63,
+            "end": 81
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "SemEval-15",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 85,
+            "end": 103
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [],
+      "claim_strength": null,
+      "comparison_targets": [],
+      "self_consistency": 0.6153846153846154,
+      "critic_verdict": {
+        "method": "UNSUPPORTED",
+        "task": "UNSUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "UNSUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 7319,
+    "tokens_out": 3408,
+    "cost_usd": 0.00639539,
+    "wall_time_seconds": 83.3600042918697,
+    "voting_samples": 3
+  }
+}

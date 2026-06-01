@@ -1,0 +1,118 @@
+{
+  "paper_id": "scirex:2ead783089fc757052abb908287a2fb743a4ebef",
+  "contributions": [
+    {
+      "method": {
+        "name": "Squeezed Very Deep Convolutional Neural Networks (SVDCNN)",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 48,
+          "end": 110
+        },
+        "confidence": 0.9
+      },
+      "task": {
+        "name": "Text Classification",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 28,
+          "end": 45
+        },
+        "confidence": 0.9
+      },
+      "datasets": [
+        {
+          "name": "AG's News",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 3613,
+            "end": 3622
+          },
+          "confidence": 0.8
+        },
+        {
+          "name": "Yelp Polarity",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 3623,
+            "end": 3636
+          },
+          "confidence": 0.8
+        },
+        {
+          "name": "Yelp Full",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 3637,
+            "end": 3645
+          },
+          "confidence": 0.8
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Storage Size Reduction",
+          "value": 10.0,
+          "unit": "x",
+          "evidence_span": {
+            "start": 168,
+            "end": 185
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "Accuracy Loss",
+          "value": 0.4,
+          "unit": "%",
+          "evidence_span": {
+            "start": 233,
+            "end": 241
+          },
+          "confidence": 0.8
+        },
+        {
+          "name": "Parameter Reduction",
+          "value": 92.45,
+          "unit": "%",
+          "evidence_span": {
+            "start": 4813,
+            "end": 4826
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "Inference Time Ratio Improvement",
+          "value": 31.94,
+          "unit": "%",
+          "evidence_span": {
+            "start": 4830,
+            "end": 4850
+          },
+          "confidence": 0.9
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "VDCNN",
+        "Char-CNN"
+      ],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "PARTIAL",
+        "task": "PARTIAL",
+        "datasets": "PARTIAL",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "(none)",
+    "consolidator_model": "(none)",
+    "tokens_in": 4800,
+    "tokens_out": 609,
+    "cost_usd": 0.00207801,
+    "wall_time_seconds": 18.89296137500787,
+    "voting_samples": 1
+  }
+}

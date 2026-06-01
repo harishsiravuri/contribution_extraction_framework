@@ -1,0 +1,69 @@
+{
+  "paper_id": "arxiv:2605.29897",
+  "contributions": [
+    {
+      "method": {
+        "name": "ExCAM",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 211,
+          "end": 216
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "cultural awareness evaluation",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 38,
+          "end": 63
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "ExCAM40k",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 569,
+            "end": 578
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": 80.0,
+          "unit": "%",
+          "evidence_span": {
+            "start": 693,
+            "end": 710
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": null,
+      "comparison_targets": [
+        "GPT-5"
+      ],
+      "self_consistency": 0.8333333333333334,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 5778,
+    "tokens_out": 1604,
+    "cost_usd": 0.00392534,
+    "wall_time_seconds": 33.05596037511714,
+    "voting_samples": 3
+  }
+}

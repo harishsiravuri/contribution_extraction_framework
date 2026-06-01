@@ -1,0 +1,119 @@
+{
+  "paper_id": "scirex:0c7f1d285ce069b2f7a807a4b2750695098bffe6",
+  "contributions": [
+    {
+      "method": {
+        "name": "Planetoid",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 1362,
+          "end": 1417
+        },
+        "confidence": 0.95
+      },
+      "task": {
+        "name": "semi-supervised learning with graph embeddings",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 1362,
+          "end": 1417
+        },
+        "confidence": 0.9
+      },
+      "datasets": [
+        {
+          "name": "Citeseer",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 3865,
+            "end": 3873
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "Cora",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 3874,
+            "end": 3878
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "Pubmed",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 3880,
+            "end": 3887
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "DIEL",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 4492,
+            "end": 4496
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "NELL",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 5058,
+            "end": 5062
+          },
+          "confidence": 0.9
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": null,
+          "unit": "percentage points",
+          "evidence_span": {
+            "start": 3923,
+            "end": 3931
+          },
+          "confidence": 0.8
+        },
+        {
+          "name": "recall@k",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 4607,
+            "end": 4616
+          },
+          "confidence": 0.8
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "label propagation",
+        "semi-supervised embedding",
+        "manifold regularization",
+        "TSVM",
+        "graph embeddings"
+      ],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "PARTIAL",
+        "task": "PARTIAL",
+        "datasets": "PARTIAL",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "(none)",
+    "consolidator_model": "(none)",
+    "tokens_in": 5970,
+    "tokens_out": 659,
+    "cost_usd": 0.0024969099999999998,
+    "wall_time_seconds": 20.04923541698372,
+    "voting_samples": 1
+  }
+}

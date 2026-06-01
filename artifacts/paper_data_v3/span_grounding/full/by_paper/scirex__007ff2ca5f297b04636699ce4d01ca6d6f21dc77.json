@@ -1,0 +1,87 @@
+{
+  "paper_id": "scirex:007ff2ca5f297b04636699ce4d01ca6d6f21dc77",
+  "contributions": [
+    {
+      "method": {
+        "name": "aESIM",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 224,
+          "end": 229
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "natural language inference",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 615,
+          "end": 635
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "SNLI",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2141,
+            "end": 2146
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "MultiNLI",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2170,
+            "end": 2179
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "Quora",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2201,
+            "end": 2206
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": 88.1,
+          "unit": "%",
+          "evidence_span": {
+            "start": 4924,
+            "end": 4934
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "ESIM"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 19370,
+    "tokens_out": 2676,
+    "cost_usd": 0.010352880000000002,
+    "wall_time_seconds": 93.30180112499511,
+    "voting_samples": 3
+  }
+}

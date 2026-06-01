@@ -1,0 +1,70 @@
+{
+  "paper_id": "scirex:097851f362667a599208f4a06fa289dac2e91fbe",
+  "contributions": [
+    {
+      "method": {
+        "name": "Enforcing Population and Lifetime Sparsity (EPLS)",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 200
+        },
+        "confidence": 0.9
+      },
+      "task": {
+        "name": "unsupervised feature learning",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 200,
+          "end": 400
+        },
+        "confidence": 0.9
+      },
+      "datasets": [
+        {
+          "name": "STL-10",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 500,
+            "end": 600
+          },
+          "confidence": 0.9
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 5000,
+            "end": 5100
+          },
+          "confidence": 0.8
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "OMP-1",
+        "sparse coding"
+      ],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "PARTIAL",
+        "task": "PARTIAL",
+        "datasets": "PARTIAL",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "(none)",
+    "consolidator_model": "(none)",
+    "tokens_in": 4746,
+    "tokens_out": 327,
+    "cost_usd": 0.0018097500000000002,
+    "wall_time_seconds": 14.264304250013083,
+    "voting_samples": 1
+  }
+}

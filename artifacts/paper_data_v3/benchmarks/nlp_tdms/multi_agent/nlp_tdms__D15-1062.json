@@ -1,0 +1,70 @@
+{
+  "paper_id": "nlp_tdms:D15-1062",
+  "contributions": [
+    {
+      "method": {
+        "name": "Convolutional Neural Network with Shortest Dependency Paths",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 254,
+          "end": 397
+        },
+        "confidence": 0.67
+      },
+      "task": {
+        "name": "relation extraction",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 400,
+          "end": 508
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "SemEval-2010 Task 8",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 4859,
+            "end": 4879
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 85.4,
+          "unit": "percent",
+          "evidence_span": {
+            "start": 5418,
+            "end": 5422
+          },
+          "confidence": 0.67
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "MVRNN",
+        "CNN"
+      ],
+      "self_consistency": 0.83,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 17861,
+    "tokens_out": 3850,
+    "cost_usd": 0.01105839,
+    "wall_time_seconds": 90.43667770799948,
+    "voting_samples": 3
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "paper_id": "nlp_tdms:wang13a",
+  "contributions": [
+    {
+      "method": {
+        "name": "Fast dropout training",
+        "canonical_id": "fast_dropout",
+        "evidence_span": {
+          "start": 0,
+          "end": 17
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "classification",
+        "canonical_id": "classification",
+        "evidence_span": {
+          "start": 300,
+          "end": 311
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "MNIST",
+          "canonical_id": "mnist",
+          "evidence_span": {
+            "start": 5081,
+            "end": 5086
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "CIFAR-10",
+          "canonical_id": "cifar10",
+          "evidence_span": {
+            "start": 5091,
+            "end": 5098
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "training speedup",
+          "value": 10.0,
+          "unit": "times",
+          "evidence_span": {
+            "start": 5600,
+            "end": 5620
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "MC dropout"
+      ],
+      "self_consistency": 0.875,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 24712,
+    "tokens_out": 3593,
+    "cost_usd": 0.013535019999999998,
+    "wall_time_seconds": 119.34477045899257,
+    "voting_samples": 3
+  }
+}

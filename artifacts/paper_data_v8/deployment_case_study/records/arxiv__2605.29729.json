@@ -1,0 +1,67 @@
+{
+  "paper_id": "arxiv:2605.29729",
+  "contributions": [
+    {
+      "method": {
+        "name": "scheming honeypot evaluations",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 40,
+          "end": 68
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "coding",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 72,
+          "end": 93
+        },
+        "confidence": 0.6666666666666666
+      },
+      "datasets": [
+        {
+          "name": "Google's alignment research codebases",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 142,
+            "end": 176
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "evaluation awareness rate",
+          "value": null,
+          "unit": "low",
+          "evidence_span": {
+            "start": 338,
+            "end": 361
+          },
+          "confidence": 0.3333333333333333
+        }
+      ],
+      "claim_strength": null,
+      "comparison_targets": [],
+      "self_consistency": 0.7833333333333333,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "PARTIAL",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 6055,
+    "tokens_out": 2186,
+    "cost_usd": 0.00462551,
+    "wall_time_seconds": 53.54572395817377,
+    "voting_samples": 3
+  }
+}

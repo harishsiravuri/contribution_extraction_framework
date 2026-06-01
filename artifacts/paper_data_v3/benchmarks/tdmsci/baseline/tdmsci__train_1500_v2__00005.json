@@ -1,0 +1,46 @@
+{
+  "paper_id": "tdmsci:train_1500_v2:00005",
+  "contributions": [
+    {
+      "method": {
+        "name": "Information Retrieval (IR) methods",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 85,
+          "end": 117
+        },
+        "confidence": 0.9
+      },
+      "task": {
+        "name": "topic modeling",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 37,
+          "end": 51
+        },
+        "confidence": 0.9
+      },
+      "datasets": [],
+      "metrics": [],
+      "claim_strength": "applies",
+      "comparison_targets": [],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "PARTIAL",
+        "task": "PARTIAL",
+        "datasets": "PARTIAL",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "(none)",
+    "consolidator_model": "(none)",
+    "tokens_in": 584,
+    "tokens_out": 213,
+    "cost_usd": 0.00037645,
+    "wall_time_seconds": 6.265787333948538,
+    "voting_samples": 1
+  }
+}

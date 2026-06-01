@@ -1,0 +1,180 @@
+{
+  "paper_id": "arxiv:2605.30112",
+  "contributions": [
+    {
+      "method": {
+        "name": "Fourier Neural Operator",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 201,
+          "end": 222
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "PDE solving",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 64
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "forced 2D Navier-Stokes",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 148,
+            "end": 172
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "relative L2 error",
+          "value": 46.68,
+          "unit": "%",
+          "evidence_span": {
+            "start": 201,
+            "end": 222
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": null,
+      "comparison_targets": [
+        "zero-forward-model retrieval baselines"
+      ],
+      "self_consistency": 0.875,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    },
+    {
+      "method": {
+        "name": "ConvAE-Relay",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 323,
+          "end": 335
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "PDE solving",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 64
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "forced 2D Navier-Stokes",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 148,
+            "end": 172
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "relative L2 error",
+          "value": 38.34,
+          "unit": "%",
+          "evidence_span": {
+            "start": 351,
+            "end": 362
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Fourier Neural Operator",
+        "zero-forward-model retrieval baselines"
+      ],
+      "self_consistency": 0.875,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    },
+    {
+      "method": {
+        "name": "U-Net with multi-scale skip connections",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 723,
+          "end": 758
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "PDE solving",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 64
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "forced 2D Navier-Stokes",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 148,
+            "end": 172
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "relative L2 error",
+          "value": 34.72,
+          "unit": "%",
+          "evidence_span": {
+            "start": 758,
+            "end": 771
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Fourier Neural Operator",
+        "ConvAE-Relay",
+        "zero-forward-model retrieval baselines"
+      ],
+      "self_consistency": 0.875,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 9489,
+    "tokens_out": 4841,
+    "cost_usd": 0.00875889,
+    "wall_time_seconds": 122.95582358306274,
+    "voting_samples": 3
+  }
+}

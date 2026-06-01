@@ -1,0 +1,67 @@
+{
+  "paper_id": "tdmsci:train_1500_v2:00028",
+  "contributions": [
+    {
+      "method": {
+        "name": "structure prediction",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 23,
+          "end": 41
+        },
+        "confidence": 0.8
+      },
+      "task": {
+        "name": "FrameNet frame and argument identification",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 42,
+          "end": 90
+        },
+        "confidence": 0.9
+      },
+      "datasets": [
+        {
+          "name": "FrameNet",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 23,
+            "end": 31
+          },
+          "confidence": 0.9
+        }
+      ],
+      "metrics": [
+        {
+          "name": "performance",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 72,
+            "end": 82
+          },
+          "confidence": 0.7
+        }
+      ],
+      "claim_strength": null,
+      "comparison_targets": [],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "PARTIAL",
+        "task": "PARTIAL",
+        "datasets": "PARTIAL",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "(none)",
+    "consolidator_model": "(none)",
+    "tokens_in": 558,
+    "tokens_out": 312,
+    "cost_usd": 0.00045624,
+    "wall_time_seconds": 8.637435416982044,
+    "voting_samples": 1
+  }
+}

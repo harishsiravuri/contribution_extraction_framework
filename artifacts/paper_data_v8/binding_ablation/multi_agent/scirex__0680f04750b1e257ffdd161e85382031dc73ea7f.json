@@ -1,0 +1,80 @@
+{
+  "paper_id": "scirex:0680f04750b1e257ffdd161e85382031dc73ea7f",
+  "contributions": [
+    {
+      "method": {
+        "name": "dynamic chunk reader (DCR)",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 154,
+          "end": 173
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "reading comprehension-based question answering",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 352,
+          "end": 394
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "SQuAD",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1376,
+            "end": 1382
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "exact match",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 2221,
+            "end": 2235
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "F1",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 2237,
+            "end": 2239
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Rajpurkar et al. (2016)",
+        "Wang and Jiang (2016)"
+      ],
+      "self_consistency": 0.8333333333333334,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 27856,
+    "tokens_out": 2176,
+    "cost_usd": 0.013084450000000001,
+    "wall_time_seconds": 44.1856549999211,
+    "voting_samples": 3
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "paper_id": "scirex:2b507f659b341ed0f23106446de8e4322f4a3f7e",
+  "contributions": [
+    {
+      "method": {
+        "name": "Deep Identity-Aware Transfer (DIAT)",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 155,
+          "end": 183
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "facial attribute transfer",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 191,
+          "end": 219
+        },
+        "confidence": 0.67
+      },
+      "datasets": [
+        {
+          "name": "CelebA",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2000,
+            "end": 2007
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "PSNR",
+          "value": 33.27,
+          "unit": "dB",
+          "evidence_span": {
+            "start": 12000,
+            "end": 12010
+          },
+          "confidence": 0.67
+        }
+      ],
+      "claim_strength": "novel",
+      "comparison_targets": [
+        "CNIA",
+        "IcGAN",
+        "VAE/GAN"
+      ],
+      "self_consistency": 0.83,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 41595,
+    "tokens_out": 3732,
+    "cost_usd": 0.020210239999999997,
+    "wall_time_seconds": 129.2023707079934,
+    "voting_samples": 3
+  }
+}

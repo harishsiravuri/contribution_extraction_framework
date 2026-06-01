@@ -1,0 +1,67 @@
+{
+  "paper_id": "scirex:2ead783089fc757052abb908287a2fb743a4ebef",
+  "contributions": [
+    {
+      "method": {
+        "name": "svdcnn",
+        "canonical_id": null,
+        "evidence_span": null,
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "text classification",
+        "canonical_id": null,
+        "evidence_span": null,
+        "confidence": 0.8
+      },
+      "datasets": [
+        {
+          "name": "ag news",
+          "canonical_id": null,
+          "evidence_span": null,
+          "confidence": 0.6
+        },
+        {
+          "name": "yelp review full",
+          "canonical_id": null,
+          "evidence_span": null,
+          "confidence": 0.4
+        },
+        {
+          "name": "yelp review polarity",
+          "canonical_id": null,
+          "evidence_span": null,
+          "confidence": 0.4
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": null,
+          "unit": null,
+          "evidence_span": null,
+          "confidence": 0.8
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [],
+      "self_consistency": 0.83,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "PARTIAL",
+        "datasets": "PARTIAL",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "harishsiravuri_e088/Meta-Llama-3.1-70B-Instruct-Reference-scirex-v6-70b-7cecddd1-66437b32",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 25330,
+    "tokens_out": 3827,
+    "cost_usd": 0.01600861,
+    "wall_time_seconds": 80.79596737504471,
+    "voting_samples": 3
+  }
+}

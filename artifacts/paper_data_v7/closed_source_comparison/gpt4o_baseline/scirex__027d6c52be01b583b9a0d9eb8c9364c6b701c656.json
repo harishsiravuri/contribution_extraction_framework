@@ -1,0 +1,108 @@
+{
+  "paper_id": "scirex:027d6c52be01b583b9a0d9eb8c9364c6b701c656",
+  "contributions": [
+    {
+      "method": {
+        "name": "Layer-Sequential Unit-Variance (LSUV) Initialization",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 47,
+          "end": 108
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "Weight Initialization for Deep Neural Networks",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 47,
+          "end": 108
+        },
+        "confidence": 0.9
+      },
+      "datasets": [
+        {
+          "name": "MNIST",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1013,
+            "end": 1018
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "CIFAR-10",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1013,
+            "end": 1028
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "CIFAR-100",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1013,
+            "end": 1028
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "ImageNet",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1013,
+            "end": 1028
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Test Accuracy",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 1013,
+            "end": 1028
+          },
+          "confidence": 0.8
+        },
+        {
+          "name": "Training Time",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 1013,
+            "end": 1028
+          },
+          "confidence": 0.7
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "FitNets",
+        "Highway Networks",
+        "Batch Normalization"
+      ],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "PARTIAL",
+        "task": "PARTIAL",
+        "datasets": "PARTIAL",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "openai/gpt-4o-2024-11-20",
+    "critic_model": "(none)",
+    "consolidator_model": "(none)",
+    "tokens_in": 4366,
+    "tokens_out": 571,
+    "cost_usd": 0.016625,
+    "wall_time_seconds": 3.3945548329502344,
+    "voting_samples": 1
+  }
+}

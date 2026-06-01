@@ -1,0 +1,67 @@
+{
+  "paper_id": "scirex:0398552184f80db111e9c28bf533b395f233ac00",
+  "contributions": [
+    {
+      "method": {
+        "name": "self-paced curriculum learning",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 1954,
+          "end": 1973
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "weakly-supervised object detection",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 148,
+          "end": 183
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "pascal voc 2007",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 3041,
+            "end": 3056
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "map",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 3135,
+            "end": 3139
+          },
+          "confidence": 0.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [],
+      "self_consistency": 1.0,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "harishsiravuri_e088/Meta-Llama-3.1-70B-Instruct-Reference-scirex-v6-70b-7cecddd1-66437b32",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 12260,
+    "tokens_out": 923,
+    "cost_usd": 0.00740081,
+    "wall_time_seconds": 19.13673145789653,
+    "voting_samples": 1
+  }
+}

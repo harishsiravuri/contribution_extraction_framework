@@ -1,0 +1,115 @@
+{
+  "paper_id": "scirex:189e6bb7523733c4e524214b9e6ae92d4ed50dac",
+  "contributions": [
+    {
+      "method": {
+        "name": "hierarchical recurrent neural network",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 32,
+          "end": 67
+        },
+        "confidence": 0.8
+      },
+      "task": {
+        "name": "sequence tagging",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 100,
+          "end": 115
+        },
+        "confidence": 0.6
+      },
+      "datasets": [
+        {
+          "name": "Penn Treebank",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 406,
+            "end": 419
+          },
+          "confidence": 0.4
+        },
+        {
+          "name": "CoNLL 2000 chunking",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 3333,
+            "end": 3351
+          },
+          "confidence": 0.4
+        },
+        {
+          "name": "CoNLL 2003 NER",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 3958,
+            "end": 3971
+          },
+          "confidence": 0.4
+        },
+        {
+          "name": "CoNLL 2002 Dutch NER",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 3365,
+            "end": 3386
+          },
+          "confidence": 0.4
+        },
+        {
+          "name": "CoNLL 2002 Spanish NER",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 3390,
+            "end": 3413
+          },
+          "confidence": 0.4
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 3219,
+            "end": 3228
+          },
+          "confidence": 0.4
+        },
+        {
+          "name": "F1",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 3173,
+            "end": 3175
+          },
+          "confidence": 0.6
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "state-of-the-art"
+      ],
+      "self_consistency": 0.65,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "PARTIAL",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 29117,
+    "tokens_out": 5453,
+    "cost_usd": 0.01728649,
+    "wall_time_seconds": 128.6441695409594,
+    "voting_samples": 3
+  }
+}

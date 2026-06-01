@@ -1,0 +1,107 @@
+{
+  "paper_id": "scirex:2c1d608e3cd43b3104d76296a14f1aef0e6b2c64",
+  "contributions": [
+    {
+      "method": {
+        "name": "dynamic evaluation",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 155,
+          "end": 173
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "language modeling",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 90,
+          "end": 110
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "Penn Treebank",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 427,
+            "end": 443
+          },
+          "confidence": 0.25
+        },
+        {
+          "name": "WikiText-2",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 463,
+            "end": 475
+          },
+          "confidence": 0.25
+        },
+        {
+          "name": "text8",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 531,
+            "end": 536
+          },
+          "confidence": 0.25
+        },
+        {
+          "name": "Hutter Prize",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 548,
+            "end": 559
+          },
+          "confidence": 0.25
+        }
+      ],
+      "metrics": [
+        {
+          "name": "perplexity",
+          "value": 51.1,
+          "unit": null,
+          "evidence_span": {
+            "start": 504,
+            "end": 509
+          },
+          "confidence": 0.5
+        },
+        {
+          "name": "cross-entropy",
+          "value": 1.19,
+          "unit": "bits/char",
+          "evidence_span": {
+            "start": 522,
+            "end": 526
+          },
+          "confidence": 0.5
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "existing adaptation approaches",
+        "neural cache"
+      ],
+      "self_consistency": 0.875,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 27242,
+    "tokens_out": 5845,
+    "cost_usd": 0.01683471,
+    "wall_time_seconds": 164.99735125002917,
+    "voting_samples": 3
+  }
+}

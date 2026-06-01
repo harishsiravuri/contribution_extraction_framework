@@ -1,0 +1,91 @@
+{
+  "paper_id": "scirex:2b507f659b341ed0f23106446de8e4322f4a3f7e",
+  "contributions": [
+    {
+      "method": {
+        "name": "Deep Identity-Aware Transfer (DIAT)",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 200
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "Facial Attribute Transfer",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 200
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "CelebFaces Attributes (CelebA)",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2000,
+            "end": 2100
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Classification Accuracy",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 10000,
+            "end": 10100
+          },
+          "confidence": 0.8
+        },
+        {
+          "name": "Identity Verification Accuracy",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 10100,
+            "end": 10200
+          },
+          "confidence": 0.8
+        },
+        {
+          "name": "PSNR",
+          "value": 33.27,
+          "unit": "dB",
+          "evidence_span": {
+            "start": 10200,
+            "end": 10300
+          },
+          "confidence": 0.9
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "CNIA",
+        "IcGAN",
+        "VAE/GAN"
+      ],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "PARTIAL",
+        "task": "PARTIAL",
+        "datasets": "PARTIAL",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "(none)",
+    "consolidator_model": "(none)",
+    "tokens_in": 8949,
+    "tokens_out": 446,
+    "cost_usd": 0.00326062,
+    "wall_time_seconds": 26.926645917003043,
+    "voting_samples": 1
+  }
+}

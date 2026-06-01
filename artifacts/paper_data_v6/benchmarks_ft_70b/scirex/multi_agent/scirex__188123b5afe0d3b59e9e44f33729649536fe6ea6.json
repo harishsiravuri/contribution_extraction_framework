@@ -1,0 +1,70 @@
+{
+  "paper_id": "scirex:188123b5afe0d3b59e9e44f33729649536fe6ea6",
+  "contributions": [
+    {
+      "method": {
+        "name": "dqn with pseudo-counts",
+        "canonical_id": null,
+        "evidence_span": null,
+        "confidence": 0.3333333333333333
+      },
+      "task": {
+        "name": "atari games",
+        "canonical_id": null,
+        "evidence_span": null,
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "atari 2600",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1855,
+            "end": 1868
+          },
+          "confidence": 0.6666666666666666
+        },
+        {
+          "name": "montezuma s revenge",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2081,
+            "end": 2099
+          },
+          "confidence": 0.3333333333333333
+        }
+      ],
+      "metrics": [
+        {
+          "name": "score",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 3441,
+            "end": 3450
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [],
+      "self_consistency": 0.7083333333333334,
+      "critic_verdict": {
+        "method": "UNSUPPORTED",
+        "task": "UNSUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "harishsiravuri_e088/Meta-Llama-3.1-70B-Instruct-Reference-scirex-v6-70b-7cecddd1-66437b32",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 37318,
+    "tokens_out": 1332,
+    "cost_usd": 0.02048746,
+    "wall_time_seconds": 39.82863854098832,
+    "voting_samples": 3
+  }
+}

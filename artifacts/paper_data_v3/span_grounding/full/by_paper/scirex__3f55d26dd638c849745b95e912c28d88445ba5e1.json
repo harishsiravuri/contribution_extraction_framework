@@ -1,0 +1,121 @@
+{
+  "paper_id": "scirex:3f55d26dd638c849745b95e912c28d88445ba5e1",
+  "contributions": [
+    {
+      "method": {
+        "name": "BiLSTM with max pooling",
+        "canonical_id": "BiLSTM",
+        "evidence_span": {
+          "start": 1551,
+          "end": 1561
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "natural language inference",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 1269,
+          "end": 1285
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "Stanford Natural Language Inference",
+          "canonical_id": "SNLI",
+          "evidence_span": {
+            "start": 1269,
+            "end": 1285
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "SICK",
+          "canonical_id": "SICK",
+          "evidence_span": {
+            "start": 2032,
+            "end": 2036
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "STS14",
+          "canonical_id": "STS14",
+          "evidence_span": {
+            "start": 2125,
+            "end": 2129
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "COCO",
+          "canonical_id": "COCO",
+          "evidence_span": {
+            "start": 2263,
+            "end": 2267
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 3298,
+            "end": 3304
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "Pearson correlation",
+          "value": 0.885,
+          "unit": null,
+          "evidence_span": {
+            "start": 3713,
+            "end": 3729
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "Recall@1",
+          "value": 42.4,
+          "unit": null,
+          "evidence_span": {
+            "start": 3941,
+            "end": 3948
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "SkipThought",
+        "FastSent",
+        "Unigram-TFIDF",
+        "Paragraph Vector",
+        "SDAE",
+        "SIF"
+      ],
+      "self_consistency": 0.875,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 31749,
+    "tokens_out": 7607,
+    "cost_usd": 0.020356279999999997,
+    "wall_time_seconds": 173.03410412499215,
+    "voting_samples": 3
+  }
+}

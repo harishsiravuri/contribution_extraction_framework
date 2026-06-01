@@ -1,0 +1,110 @@
+{
+  "paper_id": "arxiv:2605.28111",
+  "contributions": [
+    {
+      "method": {
+        "name": "Chreode",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 293,
+          "end": 309
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "perturbation prediction",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 1,
+          "end": 66
+        },
+        "confidence": 0.6
+      },
+      "datasets": [
+        {
+          "name": "mouse embryonic atlas",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 596,
+            "end": 622
+          },
+          "confidence": 0.4
+        },
+        {
+          "name": "Weinreb hematopoiesis",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 504,
+            "end": 525
+          },
+          "confidence": 0.4
+        },
+        {
+          "name": "Veres islet differentiation",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 748,
+            "end": 775
+          },
+          "confidence": 0.4
+        },
+        {
+          "name": "Norman Perturb-seq",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 676,
+            "end": 693
+          },
+          "confidence": 0.6
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Sinkhorn distance",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 504,
+            "end": 525
+          },
+          "confidence": 0.4
+        },
+        {
+          "name": "mean squared error",
+          "value": 0.1858,
+          "unit": null,
+          "evidence_span": {
+            "start": 676,
+            "end": 693
+          },
+          "confidence": 0.6
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "scratch models",
+        "PI-SDE",
+        "PRESCIENT",
+        "GEARS",
+        "dynamic-OT baselines"
+      ],
+      "self_consistency": 0.72,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "PARTIAL",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 11329,
+    "tokens_out": 5307,
+    "cost_usd": 0.01016863,
+    "wall_time_seconds": 85.10383058316074,
+    "voting_samples": 3
+  }
+}

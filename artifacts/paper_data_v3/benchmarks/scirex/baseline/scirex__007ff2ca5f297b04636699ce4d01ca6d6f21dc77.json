@@ -1,0 +1,97 @@
+{
+  "paper_id": "scirex:007ff2ca5f297b04636699ce4d01ca6d6f21dc77",
+  "contributions": [
+    {
+      "method": {
+        "name": "Attention Boosted Sequential Inference Model (aESIM)",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 17,
+          "end": 102
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "Natural Language Inference (NLI)",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 433,
+          "end": 458
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "Stanford Natural Language Inference (SNLI) corpus",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 3906,
+            "end": 3943
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "Multi-Genre Natural Language Inference (MultiNLI) corpus",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 3944,
+            "end": 3995
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "Quora duplicate question dataset",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 3996,
+            "end": 4024
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy (ACC)",
+          "value": 88.1,
+          "unit": "%",
+          "evidence_span": {
+            "start": 5158,
+            "end": 5166
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "Accuracy (ACC)",
+          "value": 88.01,
+          "unit": "%",
+          "evidence_span": {
+            "start": 5204,
+            "end": 5211
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "ESIM"
+      ],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "PARTIAL",
+        "task": "PARTIAL",
+        "datasets": "PARTIAL",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "(none)",
+    "consolidator_model": "(none)",
+    "tokens_in": 4147,
+    "tokens_out": 512,
+    "cost_usd": 0.0017827199999999998,
+    "wall_time_seconds": 21.912536708987318,
+    "voting_samples": 1
+  }
+}

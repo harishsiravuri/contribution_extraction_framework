@@ -1,0 +1,89 @@
+{
+  "paper_id": "scirex:19d583bf8c5533d1261ccdc068fdc3ef53b9ffb9",
+  "contributions": [
+    {
+      "method": {
+        "name": "FaceNet",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 126
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "Face Recognition, Verification, and Clustering",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 50,
+          "end": 126
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "Labeled Faces in the Wild (LFW)",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 676,
+            "end": 706
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "YouTube Faces DB",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 734,
+            "end": 755
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy",
+          "value": 99.63,
+          "unit": "%",
+          "evidence_span": {
+            "start": 676,
+            "end": 728
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "Accuracy",
+          "value": 95.12,
+          "unit": "%",
+          "evidence_span": {
+            "start": 734,
+            "end": 760
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "DeepFace",
+        "DeepId2+"
+      ],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "PARTIAL",
+        "task": "PARTIAL",
+        "datasets": "PARTIAL",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "(none)",
+    "consolidator_model": "(none)",
+    "tokens_in": 6213,
+    "tokens_out": 442,
+    "cost_usd": 0.00238154,
+    "wall_time_seconds": 18.790690708032344,
+    "voting_samples": 1
+  }
+}

@@ -1,0 +1,160 @@
+{
+  "paper_id": "arxiv:2605.28363",
+  "contributions": [
+    {
+      "method": {
+        "name": "PubMedBERT",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 900,
+          "end": 908
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "causal relation extraction",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 42,
+          "end": 66
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "PubMedCausal",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 203,
+            "end": 214
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 0.7391,
+          "unit": null,
+          "evidence_span": {
+            "start": 923,
+            "end": 929
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": null,
+      "comparison_targets": [],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    },
+    {
+      "method": {
+        "name": "DeepSeek-R1-32B",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 994,
+          "end": 1010
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "causal relation extraction",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 42,
+          "end": 66
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "PubMedCausal",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 203,
+            "end": 214
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Cosine Pair F1",
+          "value": 0.6765,
+          "unit": null,
+          "evidence_span": {
+            "start": 1032,
+            "end": 1048
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": null,
+      "comparison_targets": [],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    },
+    {
+      "method": {
+        "name": "PubMedCausal-trained encoders",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 1049,
+          "end": 1074
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "causal relation extraction",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 42,
+          "end": 66
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "external causal relation datasets",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1075,
+            "end": 1110
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [],
+      "claim_strength": null,
+      "comparison_targets": [],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "UNSUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 8046,
+    "tokens_out": 3402,
+    "cost_usd": 0.00666408,
+    "wall_time_seconds": 67.0660476249177,
+    "voting_samples": 3
+  }
+}

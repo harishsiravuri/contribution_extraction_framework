@@ -1,0 +1,111 @@
+{
+  "paper_id": "nlp_tdms:C18-1121",
+  "contributions": [
+    {
+      "method": {
+        "name": "entailment-aware encoder and decoder",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 1173,
+          "end": 1300
+        },
+        "confidence": 0.9
+      },
+      "task": {
+        "name": "abstractive sentence summarization",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 82,
+          "end": 131
+        },
+        "confidence": 0.95
+      },
+      "datasets": [
+        {
+          "name": "English Gigaword",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 7505,
+            "end": 7523
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "DUC 2004",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 7528,
+            "end": 7536
+          },
+          "confidence": 0.9
+        }
+      ],
+      "metrics": [
+        {
+          "name": "ROUGE-1",
+          "value": null,
+          "unit": "F1 score",
+          "evidence_span": {
+            "start": 7253,
+            "end": 7263
+          },
+          "confidence": 0.8
+        },
+        {
+          "name": "ROUGE-2",
+          "value": null,
+          "unit": "F1 score",
+          "evidence_span": {
+            "start": 7265,
+            "end": 7275
+          },
+          "confidence": 0.8
+        },
+        {
+          "name": "ROUGE-L",
+          "value": null,
+          "unit": "F1 score",
+          "evidence_span": {
+            "start": 7277,
+            "end": 7287
+          },
+          "confidence": 0.8
+        },
+        {
+          "name": "entailment score",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 8692,
+            "end": 8735
+          },
+          "confidence": 0.7
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "ABS",
+        "Seq2seq",
+        "Seq2seq + MTL (Share decoder)",
+        "Seq2seq + selective"
+      ],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "PARTIAL",
+        "task": "PARTIAL",
+        "datasets": "PARTIAL",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "(none)",
+    "consolidator_model": "(none)",
+    "tokens_in": 5286,
+    "tokens_out": 583,
+    "cost_usd": 0.00221039,
+    "wall_time_seconds": 17.918786874972284,
+    "voting_samples": 1
+  }
+}

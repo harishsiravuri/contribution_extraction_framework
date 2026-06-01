@@ -1,0 +1,77 @@
+{
+  "paper_id": "scirex:0b0dc14b8a8dcccbfc62a38355fff2f6a361e9d2",
+  "contributions": [
+    {
+      "method": {
+        "name": "tc-lstm",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 2661,
+          "end": 2668
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "sentiment analysis",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 104,
+          "end": 125
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "twitter sentiment dataset",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 154,
+            "end": 170
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 3244,
+            "end": 3251
+          },
+          "confidence": 0.67
+        },
+        {
+          "name": "macro-f1",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 3255,
+            "end": 3263
+          },
+          "confidence": 0.33
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [],
+      "self_consistency": 0.89,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "harishsiravuri_e088/Meta-Llama-3.1-8B-Instruct-Reference-scirex-v6-bf594110-52031aad",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 22102,
+    "tokens_out": 1309,
+    "cost_usd": 0.012515239999999999,
+    "wall_time_seconds": 24.109691333025694,
+    "voting_samples": 3
+  }
+}

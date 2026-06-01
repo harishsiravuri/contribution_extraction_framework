@@ -1,0 +1,73 @@
+{
+  "paper_id": "tdmsci:test_500_v2:01359",
+  "contributions": [
+    {
+      "method": {
+        "name": "character n-grams",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 40,
+          "end": 60
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": null,
+        "canonical_id": null,
+        "evidence_span": null,
+        "confidence": 0.0
+      },
+      "datasets": [
+        {
+          "name": "RBC",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 25,
+            "end": 28
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "IRBC",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 32,
+            "end": 36
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 7,
+            "end": 15
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": null,
+      "comparison_targets": [],
+      "self_consistency": 0.6666666666666666,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "UNSUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 4939,
+    "tokens_out": 1447,
+    "cost_usd": 0.00345955,
+    "wall_time_seconds": 26.389547583879903,
+    "voting_samples": 3
+  }
+}

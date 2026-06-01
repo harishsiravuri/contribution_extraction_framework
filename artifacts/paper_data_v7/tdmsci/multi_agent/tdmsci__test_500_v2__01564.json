@@ -1,0 +1,75 @@
+{
+  "paper_id": "tdmsci:test_500_v2:01564",
+  "contributions": [
+    {
+      "method": {
+        "name": "Multi-Span-HMM",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 10,
+          "end": 25
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": null,
+        "canonical_id": null,
+        "evidence_span": null,
+        "confidence": 0.0
+      },
+      "datasets": [
+        {
+          "name": "out-of-domain test data",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 60,
+            "end": 83
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "in-domain test data",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 87,
+            "end": 106
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 44,
+            "end": 46
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "comparable systems"
+      ],
+      "self_consistency": 0.8333333333333334,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "UNSUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 6088,
+    "tokens_out": 2558,
+    "cost_usd": 0.0050114,
+    "wall_time_seconds": 53.81826899992302,
+    "voting_samples": 3
+  }
+}

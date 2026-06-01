@@ -1,0 +1,108 @@
+{
+  "paper_id": "tdmsci:test_500_v2:01276",
+  "contributions": [
+    {
+      "method": {
+        "name": "semi-supervised learning",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 43,
+          "end": 67
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "part-of-speech tagging",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 118,
+          "end": 140
+        },
+        "confidence": 1.0
+      },
+      "datasets": [],
+      "metrics": [],
+      "claim_strength": "improves",
+      "comparison_targets": [],
+      "self_consistency": 1.0,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "UNSUPPORTED",
+        "metrics": "UNSUPPORTED"
+      }
+    },
+    {
+      "method": {
+        "name": "semi-supervised learning",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 43,
+          "end": 67
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "syntactic chunking",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 142,
+          "end": 159
+        },
+        "confidence": 1.0
+      },
+      "datasets": [],
+      "metrics": [],
+      "claim_strength": "improves",
+      "comparison_targets": [],
+      "self_consistency": 1.0,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "UNSUPPORTED",
+        "metrics": "UNSUPPORTED"
+      }
+    },
+    {
+      "method": {
+        "name": "semi-supervised learning",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 43,
+          "end": 67
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "named entity recognition",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 164,
+          "end": 186
+        },
+        "confidence": 1.0
+      },
+      "datasets": [],
+      "metrics": [],
+      "claim_strength": "improves",
+      "comparison_targets": [],
+      "self_consistency": 1.0,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "UNSUPPORTED",
+        "metrics": "UNSUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 6882,
+    "tokens_out": 3530,
+    "cost_usd": 0.00633974,
+    "wall_time_seconds": 76.86904316698201,
+    "voting_samples": 3
+  }
+}

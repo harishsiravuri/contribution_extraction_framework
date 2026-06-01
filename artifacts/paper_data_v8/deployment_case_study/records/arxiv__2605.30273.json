@@ -1,0 +1,110 @@
+{
+  "paper_id": "arxiv:2605.30273",
+  "contributions": [
+    {
+      "method": {
+        "name": "LLUMI",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 343,
+          "end": 347
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "mental health support",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 107,
+          "end": 125
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "Reddit mental health communities",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 553,
+            "end": 584
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "readability",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 798,
+            "end": 809
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "empathy",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 810,
+            "end": 817
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "connection",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 818,
+            "end": 828
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "actionability",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 829,
+            "end": 841
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "safety",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 842,
+            "end": 848
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "comparable",
+      "comparison_targets": [
+        "proprietary cloud-based GPT models",
+        "GPT models"
+      ],
+      "self_consistency": 0.875,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 10668,
+    "tokens_out": 4992,
+    "cost_usd": 0.00955083,
+    "wall_time_seconds": 142.34854150004685,
+    "voting_samples": 3
+  }
+}

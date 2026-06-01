@@ -1,0 +1,83 @@
+{
+  "paper_id": "nlp_tdms:N18-1193",
+  "contributions": [
+    {
+      "method": {
+        "name": "Conversational Memory Network (CMN)",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 154,
+          "end": 307
+        },
+        "confidence": 0.9
+      },
+      "task": {
+        "name": "Emotion Recognition in Dyadic Dialogue Videos",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 81
+        },
+        "confidence": 0.95
+      },
+      "datasets": [
+        {
+          "name": "IEMOCAP",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 6924,
+            "end": 7354
+          },
+          "confidence": 0.9
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy",
+          "value": 3.0,
+          "unit": "%",
+          "evidence_span": {
+            "start": 325,
+            "end": 355
+          },
+          "confidence": 0.85
+        },
+        {
+          "name": "Accuracy",
+          "value": 4.0,
+          "unit": "%",
+          "evidence_span": {
+            "start": 325,
+            "end": 355
+          },
+          "confidence": 0.85
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "SVM-ensemble",
+        "bc-LSTM",
+        "Memn2n",
+        "CMN Self",
+        "CMN N A"
+      ],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "PARTIAL",
+        "task": "PARTIAL",
+        "datasets": "PARTIAL",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "(none)",
+    "consolidator_model": "(none)",
+    "tokens_in": 6780,
+    "tokens_out": 408,
+    "cost_usd": 0.0025327199999999996,
+    "wall_time_seconds": 13.666081457980908,
+    "voting_samples": 1
+  }
+}

@@ -1,0 +1,151 @@
+{
+  "paper_id": "scirex:19d583bf8c5533d1261ccdc068fdc3ef53b9ffb9",
+  "contributions": [
+    {
+      "method": {
+        "name": "FaceNet",
+        "canonical_id": "FaceNet",
+        "evidence_span": {
+          "start": 61,
+          "end": 68
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "face recognition",
+        "canonical_id": "face_recognition",
+        "evidence_span": {
+          "start": 17,
+          "end": 31
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "Labeled Faces in the Wild",
+          "canonical_id": "LFW",
+          "evidence_span": {
+            "start": 572,
+            "end": 597
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "YouTube Faces DB",
+          "canonical_id": "YouTube_Faces_DB",
+          "evidence_span": {
+            "start": 609,
+            "end": 626
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": 99.63,
+          "unit": "%",
+          "evidence_span": {
+            "start": 582,
+            "end": 594
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "accuracy",
+          "value": 95.12,
+          "unit": "%",
+          "evidence_span": {
+            "start": 609,
+            "end": 619
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "DeepFace",
+        "DeepId2+"
+      ],
+      "self_consistency": 0.875,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    },
+    {
+      "method": {
+        "name": "online triplet mining",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 309,
+          "end": 342
+        },
+        "confidence": 0.5
+      },
+      "task": {
+        "name": "face recognition",
+        "canonical_id": "face_recognition",
+        "evidence_span": {
+          "start": 89,
+          "end": 154
+        },
+        "confidence": 0.5
+      },
+      "datasets": [],
+      "metrics": [],
+      "claim_strength": "novel",
+      "comparison_targets": [],
+      "self_consistency": 0.25,
+      "critic_verdict": {
+        "method": "UNSUPPORTED",
+        "task": "PARTIAL",
+        "datasets": null,
+        "metrics": null
+      }
+    },
+    {
+      "method": {
+        "name": "harmonic embeddings",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 448,
+          "end": 465
+        },
+        "confidence": 0.5
+      },
+      "task": {
+        "name": "face recognition",
+        "canonical_id": "face_recognition",
+        "evidence_span": {
+          "start": 89,
+          "end": 154
+        },
+        "confidence": 0.5
+      },
+      "datasets": [],
+      "metrics": [],
+      "claim_strength": "novel",
+      "comparison_targets": [],
+      "self_consistency": 0.25,
+      "critic_verdict": {
+        "method": "UNSUPPORTED",
+        "task": "PARTIAL",
+        "datasets": null,
+        "metrics": null
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 28390,
+    "tokens_out": 3450,
+    "cost_usd": 0.01465578,
+    "wall_time_seconds": 104.3422309999587,
+    "voting_samples": 3
+  }
+}

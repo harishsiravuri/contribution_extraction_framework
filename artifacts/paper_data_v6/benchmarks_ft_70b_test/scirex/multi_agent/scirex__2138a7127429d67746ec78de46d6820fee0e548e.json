@@ -1,0 +1,95 @@
+{
+  "paper_id": "scirex:2138a7127429d67746ec78de46d6820fee0e548e",
+  "contributions": [
+    {
+      "method": {
+        "name": "graph2seq",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 155,
+          "end": 162
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "natural language generation",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 443,
+          "end": 465
+        },
+        "confidence": 0.5
+      },
+      "datasets": [
+        {
+          "name": "wikisql",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 692,
+            "end": 699
+          },
+          "confidence": 0.5
+        },
+        {
+          "name": "babi task 19",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 311,
+            "end": 324
+          },
+          "confidence": 0.25
+        },
+        {
+          "name": "shortest path",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 387,
+            "end": 401
+          },
+          "confidence": 0.25
+        }
+      ],
+      "metrics": [
+        {
+          "name": "bleu score",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 737,
+            "end": 746
+          },
+          "confidence": 0.5
+        },
+        {
+          "name": "accuracy",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 564,
+            "end": 571
+          },
+          "confidence": 0.5
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [],
+      "self_consistency": 0.75,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "harishsiravuri_e088/Meta-Llama-3.1-70B-Instruct-Reference-scirex-v6-70b-7cecddd1-66437b32",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 43287,
+    "tokens_out": 2835,
+    "cost_usd": 0.02468337,
+    "wall_time_seconds": 66.4690687090042,
+    "voting_samples": 3
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "paper_id": "scirex:2f04ba0f74df046b0080ca78e56898bd4847898b",
+  "contributions": [
+    {
+      "method": {
+        "name": "multi-scale acf",
+        "canonical_id": null,
+        "evidence_span": null,
+        "confidence": 0.6
+      },
+      "task": {
+        "name": "face detection",
+        "canonical_id": null,
+        "evidence_span": null,
+        "confidence": 0.6
+      },
+      "datasets": [
+        {
+          "name": "afw",
+          "canonical_id": null,
+          "evidence_span": null,
+          "confidence": 0.4
+        },
+        {
+          "name": "fddb",
+          "canonical_id": null,
+          "evidence_span": null,
+          "confidence": 0.4
+        }
+      ],
+      "metrics": [
+        {
+          "name": "ap",
+          "value": null,
+          "unit": null,
+          "evidence_span": null,
+          "confidence": 0.4
+        },
+        {
+          "name": "discrete roc",
+          "value": null,
+          "unit": null,
+          "evidence_span": null,
+          "confidence": 0.2
+        },
+        {
+          "name": "continuous roc",
+          "value": null,
+          "unit": null,
+          "evidence_span": null,
+          "confidence": 0.2
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [],
+      "self_consistency": 0.57,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "harishsiravuri_e088/Meta-Llama-3.1-70B-Instruct-Reference-scirex-v6-70b-7cecddd1-66437b32",
+    "critic_model": "DISABLED (E4 critic-off ablation)",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 22677,
+    "tokens_out": 1404,
+    "cost_usd": 0.012367030000000001,
+    "wall_time_seconds": 20.94390666601248,
+    "voting_samples": 3
+  }
+}

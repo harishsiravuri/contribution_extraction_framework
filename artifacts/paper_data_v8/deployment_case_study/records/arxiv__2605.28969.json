@@ -1,0 +1,84 @@
+{
+  "paper_id": "arxiv:2605.28969",
+  "contributions": [
+    {
+      "method": {
+        "name": "Behavioral Specification",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 126,
+          "end": 149
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "behavioral prediction",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 257,
+          "end": 278
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "14 public-domain autobiographical corpora",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 425,
+            "end": 465
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "representational accuracy",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 79,
+            "end": 104
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "context cost",
+          "value": null,
+          "unit": "factor reduction",
+          "evidence_span": {
+            "start": 476,
+            "end": 500
+          },
+          "confidence": 0.5
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "full raw corpus",
+        "full extracted facts",
+        "Mem0",
+        "Letta",
+        "Supermemory",
+        "Zep"
+      ],
+      "self_consistency": 0.875,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 8529,
+    "tokens_out": 3519,
+    "cost_usd": 0.007042339999999999,
+    "wall_time_seconds": 79.844600582961,
+    "voting_samples": 3
+  }
+}

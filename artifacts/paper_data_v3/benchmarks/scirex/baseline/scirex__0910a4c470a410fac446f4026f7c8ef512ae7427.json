@@ -1,0 +1,90 @@
+{
+  "paper_id": "scirex:0910a4c470a410fac446f4026f7c8ef512ae7427",
+  "contributions": [
+    {
+      "method": {
+        "name": "Hierarchical Question-Image Co-Attention",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 61,
+          "end": 241
+        },
+        "confidence": 0.9
+      },
+      "task": {
+        "name": "Visual Question Answering",
+        "canonical_id": "VQA",
+        "evidence_span": {
+          "start": 23,
+          "end": 47
+        },
+        "confidence": 0.95
+      },
+      "datasets": [
+        {
+          "name": "VQA dataset",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 294,
+            "end": 305
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "COCO-QA dataset",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 317,
+            "end": 330
+          },
+          "confidence": 0.9
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy",
+          "value": 62.1,
+          "unit": "%",
+          "evidence_span": {
+            "start": 294,
+            "end": 305
+          },
+          "confidence": 0.85
+        },
+        {
+          "name": "Accuracy",
+          "value": 65.4,
+          "unit": "%",
+          "evidence_span": {
+            "start": 317,
+            "end": 330
+          },
+          "confidence": 0.85
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "DMN+",
+        "FDA",
+        "SAN"
+      ],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "PARTIAL",
+        "task": "PARTIAL",
+        "datasets": "PARTIAL",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "(none)",
+    "consolidator_model": "(none)",
+    "tokens_in": 5879,
+    "tokens_out": 439,
+    "cost_usd": 0.0022719899999999998,
+    "wall_time_seconds": 18.921899957989808,
+    "voting_samples": 1
+  }
+}

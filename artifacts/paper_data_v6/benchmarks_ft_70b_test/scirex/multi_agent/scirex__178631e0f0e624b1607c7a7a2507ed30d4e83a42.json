@@ -1,0 +1,67 @@
+{
+  "paper_id": "scirex:178631e0f0e624b1607c7a7a2507ed30d4e83a42",
+  "contributions": [
+    {
+      "method": {
+        "name": "deep bidirectional lstm",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 2244,
+          "end": 2263
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "phoneme recognition",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 154,
+          "end": 172
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "timit",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 3044,
+            "end": 3053
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "per",
+          "value": 17.7,
+          "unit": "percentage",
+          "evidence_span": {
+            "start": 195,
+            "end": 199
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [],
+      "self_consistency": 1.0,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "harishsiravuri_e088/Meta-Llama-3.1-70B-Instruct-Reference-scirex-v6-70b-7cecddd1-66437b32",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 17613,
+    "tokens_out": 1500,
+    "cost_usd": 0.01034269,
+    "wall_time_seconds": 36.647565167048015,
+    "voting_samples": 3
+  }
+}

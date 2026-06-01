@@ -1,0 +1,85 @@
+{
+  "paper_id": "scirex:3208b5abafa1146e7df1073090523c822909275e",
+  "contributions": [
+    {
+      "method": {
+        "name": "blstm-2dcnn",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 2554,
+          "end": 2564
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "sentiment analysis",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 124,
+          "end": 141
+        },
+        "confidence": 0.67
+      },
+      "datasets": [
+        {
+          "name": "sst-1",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 3434,
+            "end": 3438
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "sst-2",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 3443,
+            "end": 3447
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "trec",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 3469,
+            "end": 3473
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 4441,
+            "end": 4449
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [],
+      "self_consistency": 0.78,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "PARTIAL",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "harishsiravuri_e088/Meta-Llama-3.1-70B-Instruct-Reference-scirex-v6-70b-7cecddd1-66437b32",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 25474,
+    "tokens_out": 2869,
+    "cost_usd": 0.01539902,
+    "wall_time_seconds": 39.93589170795167,
+    "voting_samples": 3
+  }
+}

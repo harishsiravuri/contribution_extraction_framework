@@ -1,0 +1,64 @@
+{
+  "paper_id": "scirex:25a784f7f8c94c42821ee078587fc38dffcd00a4",
+  "contributions": [
+    {
+      "method": {
+        "name": null,
+        "canonical_id": null,
+        "evidence_span": null,
+        "confidence": 0.0
+      },
+      "task": {
+        "name": "face detection",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 186,
+          "end": 200
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "wider face",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 341,
+            "end": 353
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "ap",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 444,
+            "end": 446
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": null,
+      "comparison_targets": [],
+      "self_consistency": 0.6,
+      "critic_verdict": {
+        "method": "UNSUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "harishsiravuri_e088/Meta-Llama-3.1-70B-Instruct-Reference-scirex-v6-70b-7cecddd1-66437b32",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 14402,
+    "tokens_out": 841,
+    "cost_usd": 0.00850252,
+    "wall_time_seconds": 23.65871270885691,
+    "voting_samples": 1
+  }
+}

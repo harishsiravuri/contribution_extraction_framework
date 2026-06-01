@@ -1,0 +1,57 @@
+{
+  "paper_id": "tdmsci:test_500_v2:01357",
+  "contributions": [
+    {
+      "method": {
+        "name": "bags of local histograms",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 10,
+          "end": 37
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "authorship attribution",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 22
+        },
+        "confidence": 1.0
+      },
+      "datasets": [],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 22,
+            "end": 31
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": null,
+      "comparison_targets": [],
+      "self_consistency": 1.0,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "UNSUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 4637,
+    "tokens_out": 1262,
+    "cost_usd": 0.0031234699999999997,
+    "wall_time_seconds": 23.21172087499872,
+    "voting_samples": 3
+  }
+}

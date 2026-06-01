@@ -1,0 +1,70 @@
+{
+  "paper_id": "arxiv:2605.29427",
+  "contributions": [
+    {
+      "method": {
+        "name": "FinGuard",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 467,
+          "end": 476
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "financial regulatory compliance detection",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 559,
+          "end": 600
+        },
+        "confidence": 0.75
+      },
+      "datasets": [
+        {
+          "name": "FinGuard-Bench",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 559,
+            "end": 573
+          },
+          "confidence": 0.75
+        }
+      ],
+      "metrics": [
+        {
+          "name": "performance",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 512,
+            "end": 520
+          },
+          "confidence": 0.5
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Qwen3.5-397B-A17B",
+        "GPT-5.1"
+      ],
+      "self_consistency": 0.875,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 7808,
+    "tokens_out": 2889,
+    "cost_usd": 0.006185530000000001,
+    "wall_time_seconds": 59.1843229169026,
+    "voting_samples": 3
+  }
+}

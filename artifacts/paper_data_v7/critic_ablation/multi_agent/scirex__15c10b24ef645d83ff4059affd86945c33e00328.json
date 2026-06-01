@@ -1,0 +1,95 @@
+{
+  "paper_id": "scirex:15c10b24ef645d83ff4059affd86945c33e00328",
+  "contributions": [
+    {
+      "method": {
+        "name": "Snips Voice Platform",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 200
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "Spoken Language Understanding",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 200
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "LibriSpeech",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2300,
+            "end": 2310
+          },
+          "confidence": 0.5
+        },
+        {
+          "name": "SmartLights",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 5000,
+            "end": 5010
+          },
+          "confidence": 0.5
+        },
+        {
+          "name": "Weather",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 5100,
+            "end": 5110
+          },
+          "confidence": 0.5
+        }
+      ],
+      "metrics": [
+        {
+          "name": "WER",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 2300,
+            "end": 2310
+          },
+          "confidence": 0.5
+        },
+        {
+          "name": "F1",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 5000,
+            "end": 5010
+          },
+          "confidence": 0.5
+        }
+      ],
+      "claim_strength": null,
+      "comparison_targets": [],
+      "self_consistency": 0.875,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "DISABLED (E2 critic-off ablation)",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 41302,
+    "tokens_out": 2655,
+    "cost_usd": 0.016543090000000003,
+    "wall_time_seconds": 36.74513758299872,
+    "voting_samples": 3
+  }
+}

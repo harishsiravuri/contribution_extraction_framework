@@ -1,0 +1,125 @@
+{
+  "paper_id": "scirex:15c10b24ef645d83ff4059affd86945c33e00328",
+  "contributions": [
+    {
+      "method": {
+        "name": "Snips Voice Platform",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 150
+        },
+        "confidence": 0.875
+      },
+      "task": {
+        "name": "Spoken Language Understanding",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 200
+        },
+        "confidence": 0.75
+      },
+      "datasets": [
+        {
+          "name": "LibriSpeech",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 4153,
+            "end": 4163
+          },
+          "confidence": 0.75
+        }
+      ],
+      "metrics": [
+        {
+          "name": "WER",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 4153,
+            "end": 4163
+          },
+          "confidence": 0.75
+        }
+      ],
+      "claim_strength": "novel",
+      "comparison_targets": [],
+      "self_consistency": 0.783,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "PARTIAL"
+      }
+    },
+    {
+      "method": {
+        "name": "Snips NLU",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 10900,
+          "end": 10910
+        },
+        "confidence": 0.5
+      },
+      "task": {
+        "name": "Natural Language Understanding",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 10900,
+          "end": 10910
+        },
+        "confidence": 0.5
+      },
+      "datasets": [
+        {
+          "name": "in-house open dataset",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 10900,
+            "end": 10910
+          },
+          "confidence": 0.5
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 10900,
+            "end": 10910
+          },
+          "confidence": 0.5
+        }
+      ],
+      "claim_strength": "comparable",
+      "comparison_targets": [
+        "Microsoft’s Luis",
+        "IBM Watson",
+        "API.AI (Google’s Dialogflow)",
+        "Facebook’s Wit.ai",
+        "Amazon Alexa"
+      ],
+      "self_consistency": 0.542,
+      "critic_verdict": {
+        "method": "PARTIAL",
+        "task": "PARTIAL",
+        "datasets": "PARTIAL",
+        "metrics": "UNSUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "(none)",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 40561,
+    "tokens_out": 3073,
+    "cost_usd": 0.01645912,
+    "wall_time_seconds": 78.7892405409948,
+    "voting_samples": 3
+  }
+}

@@ -1,0 +1,133 @@
+{
+  "paper_id": "arxiv:2605.28774",
+  "contributions": [
+    {
+      "method": {
+        "name": "AXPO",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 547,
+          "end": 553
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "multimodal reasoning",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 39,
+          "end": 67
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "nine multimodal benchmarks",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 635,
+            "end": 658
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Pass@1",
+          "value": 1.8,
+          "unit": "percentage points",
+          "evidence_span": {
+            "start": 698,
+            "end": 715
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "Pass@4",
+          "value": 1.8,
+          "unit": "percentage points",
+          "evidence_span": {
+            "start": 720,
+            "end": 737
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "GRPO"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    },
+    {
+      "method": {
+        "name": "SFT+AXPO",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 753,
+          "end": 762
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "multimodal reasoning",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 39,
+          "end": 67
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "nine multimodal benchmarks",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 635,
+            "end": 658
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Pass@4",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 720,
+            "end": 737
+          },
+          "confidence": 0.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "32B Base"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "UNSUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 8094,
+    "tokens_out": 3597,
+    "cost_usd": 0.0069047299999999995,
+    "wall_time_seconds": 78.77605716697872,
+    "voting_samples": 3
+  }
+}

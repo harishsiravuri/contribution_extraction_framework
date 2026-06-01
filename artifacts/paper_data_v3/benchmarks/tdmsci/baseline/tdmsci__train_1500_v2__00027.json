@@ -1,0 +1,53 @@
+{
+  "paper_id": "tdmsci:train_1500_v2:00027",
+  "contributions": [
+    {
+      "method": {
+        "name": null,
+        "canonical_id": null,
+        "evidence_span": null,
+        "confidence": 0.0
+      },
+      "task": {
+        "name": "Frame identification",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 18,
+          "end": 37
+        },
+        "confidence": 0.8
+      },
+      "datasets": [
+        {
+          "name": "FrameNet",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 41,
+            "end": 49
+          },
+          "confidence": 0.9
+        }
+      ],
+      "metrics": [],
+      "claim_strength": null,
+      "comparison_targets": [],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "PARTIAL",
+        "task": "PARTIAL",
+        "datasets": "PARTIAL",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "(none)",
+    "consolidator_model": "(none)",
+    "tokens_in": 548,
+    "tokens_out": 211,
+    "cost_usd": 0.00036315,
+    "wall_time_seconds": 6.1817669160082005,
+    "voting_samples": 1
+  }
+}

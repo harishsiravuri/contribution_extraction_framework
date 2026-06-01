@@ -1,0 +1,112 @@
+{
+  "paper_id": "scirex:0e6b990f41fc0e7fdd0662f88b5ad024375bd77b",
+  "contributions": [
+    {
+      "method": {
+        "name": "clustering-based regularization",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 53,
+          "end": 146
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "classification",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 253,
+          "end": 309
+        },
+        "confidence": 0.6
+      },
+      "datasets": [
+        {
+          "name": "CIFAR10",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2813,
+            "end": 2922
+          },
+          "confidence": 0.4
+        },
+        {
+          "name": "CIFAR100",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2813,
+            "end": 2922
+          },
+          "confidence": 0.4
+        },
+        {
+          "name": "CUB-200-2011",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2813,
+            "end": 292277
+          },
+          "confidence": 0.4
+        },
+        {
+          "name": "MNIST",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2292,
+            "end": 2486
+          },
+          "confidence": 0.2
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 2986,
+            "end": 3114
+          },
+          "confidence": 0.6
+        },
+        {
+          "name": "reconstruction error",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 1920,
+            "end": 1941
+          },
+          "confidence": 0.2
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "DeCov",
+        "Dropout",
+        "Caffe baseline",
+        "plain autoencoder",
+        "DeCAF",
+        "Alex-Net",
+        "other recent methods"
+      ],
+      "self_consistency": 0.73,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "DISABLED (E2 critic-off ablation)",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 25192,
+    "tokens_out": 4093,
+    "cost_usd": 0.013102309999999999,
+    "wall_time_seconds": 46.098958499962464,
+    "voting_samples": 3
+  }
+}

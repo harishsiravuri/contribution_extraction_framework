@@ -1,0 +1,108 @@
+{
+  "paper_id": "scirex:1f08598381af9146d0fd9a61b30d0e51a7331689",
+  "contributions": [
+    {
+      "method": {
+        "name": "ape-x dqn",
+        "canonical_id": null,
+        "evidence_span": null,
+        "confidence": 0.6
+      },
+      "task": {
+        "name": "atari games",
+        "canonical_id": null,
+        "evidence_span": null,
+        "confidence": 0.6
+      },
+      "datasets": [
+        {
+          "name": "atari 57 games",
+          "canonical_id": null,
+          "evidence_span": null,
+          "confidence": 0.6
+        }
+      ],
+      "metrics": [
+        {
+          "name": "human normalized score",
+          "value": null,
+          "unit": null,
+          "evidence_span": null,
+          "confidence": 0.4
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [],
+      "self_consistency": 0.59,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    },
+    {
+      "method": {
+        "name": "ape-x dpg",
+        "canonical_id": null,
+        "evidence_span": null,
+        "confidence": 0.4
+      },
+      "task": {
+        "name": "continuous control",
+        "canonical_id": null,
+        "evidence_span": null,
+        "confidence": 0.4
+      },
+      "datasets": [
+        {
+          "name": "deepmind control suite",
+          "canonical_id": null,
+          "evidence_span": null,
+          "confidence": 0.2
+        },
+        {
+          "name": "humanoid",
+          "canonical_id": null,
+          "evidence_span": null,
+          "confidence": 0.2
+        }
+      ],
+      "metrics": [
+        {
+          "name": "average return",
+          "value": null,
+          "unit": null,
+          "evidence_span": null,
+          "confidence": 0.2
+        },
+        {
+          "name": "score",
+          "value": null,
+          "unit": null,
+          "evidence_span": null,
+          "confidence": 0.2
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [],
+      "self_consistency": 0.41,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "harishsiravuri_e088/Meta-Llama-3.1-70B-Instruct-Reference-scirex-v6-70b-7cecddd1-66437b32",
+    "critic_model": "DISABLED (E4 critic-off ablation)",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 27196,
+    "tokens_out": 1971,
+    "cost_usd": 0.015041780000000001,
+    "wall_time_seconds": 36.173686834052205,
+    "voting_samples": 3
+  }
+}

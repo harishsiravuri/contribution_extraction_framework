@@ -1,0 +1,89 @@
+{
+  "paper_id": "scirex:1f8f0abfe4689aa93f2f6cc7ec4fd4c6adc2c2d6",
+  "contributions": [
+    {
+      "method": {
+        "name": "discriminative loss function",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 52,
+          "end": 114
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "instance segmentation",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 52
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "Cityscapes",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1295,
+            "end": 1305
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "CVPPP Leaf Segmentation",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1295,
+            "end": 1317
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "AP",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 3295,
+            "end": 3297
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "SBD",
+          "value": 84.2,
+          "unit": null,
+          "evidence_span": {
+            "start": 4572,
+            "end": 4576
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "comparable",
+      "comparison_targets": [
+        "SAIS",
+        "state-of-the-art"
+      ],
+      "self_consistency": 0.875,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "(none)",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 21647,
+    "tokens_out": 1837,
+    "cost_usd": 0.00911241,
+    "wall_time_seconds": 62.27397841698257,
+    "voting_samples": 3
+  }
+}

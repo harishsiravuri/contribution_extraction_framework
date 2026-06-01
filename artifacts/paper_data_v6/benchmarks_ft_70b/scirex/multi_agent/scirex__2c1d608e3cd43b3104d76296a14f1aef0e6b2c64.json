@@ -1,0 +1,114 @@
+{
+  "paper_id": "scirex:2c1d608e3cd43b3104d76296a14f1aef0e6b2c64",
+  "contributions": [
+    {
+      "method": {
+        "name": "dynamic evaluation",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 190,
+          "end": 211
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "language modelling",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 147,
+          "end": 165
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "penn treebank",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 3345,
+            "end": 3359
+          },
+          "confidence": 0.6
+        },
+        {
+          "name": "wikitext-2",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 3645,
+            "end": 3656
+          },
+          "confidence": 0.6
+        },
+        {
+          "name": "text8",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 4065,
+            "end": 4071
+          },
+          "confidence": 0.2
+        },
+        {
+          "name": "hutter prize",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 3955,
+            "end": 3967
+          },
+          "confidence": 0.2
+        }
+      ],
+      "metrics": [
+        {
+          "name": "perplexity",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 243,
+            "end": 253
+          },
+          "confidence": 0.6
+        },
+        {
+          "name": "bits per character",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 259,
+            "end": 275
+          },
+          "confidence": 0.2
+        },
+        {
+          "name": "word-level perplexity",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 243,
+            "end": 262
+          },
+          "confidence": 0.2
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [],
+      "self_consistency": 0.83,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "harishsiravuri_e088/Meta-Llama-3.1-70B-Instruct-Reference-scirex-v6-70b-7cecddd1-66437b32",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 24495,
+    "tokens_out": 3808,
+    "cost_usd": 0.01571034,
+    "wall_time_seconds": 61.88271829200676,
+    "voting_samples": 3
+  }
+}

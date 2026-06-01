@@ -1,0 +1,48 @@
+{
+  "paper_id": "tdmsci:test_500_v2:01244",
+  "contributions": [
+    {
+      "method": {
+        "name": "neural methods",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 12,
+          "end": 24
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "grammatical error correction",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 29,
+          "end": 58
+        },
+        "confidence": 1.0
+      },
+      "datasets": [],
+      "metrics": [],
+      "claim_strength": null,
+      "comparison_targets": [
+        "phrase-based statistical machine translation"
+      ],
+      "self_consistency": 0.6666666666666666,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "UNSUPPORTED",
+        "metrics": "UNSUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 5107,
+    "tokens_out": 1563,
+    "cost_usd": 0.0036269599999999994,
+    "wall_time_seconds": 37.79990949993953,
+    "voting_samples": 3
+  }
+}

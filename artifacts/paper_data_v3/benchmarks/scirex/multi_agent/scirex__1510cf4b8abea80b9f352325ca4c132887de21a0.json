@@ -1,0 +1,80 @@
+{
+  "paper_id": "scirex:1510cf4b8abea80b9f352325ca4c132887de21a0",
+  "contributions": [
+    {
+      "method": {
+        "name": "Paragraph Vector",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 154,
+          "end": 168
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "sentiment analysis",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 2000,
+          "end": 2015
+        },
+        "confidence": 0.75
+      },
+      "datasets": [
+        {
+          "name": "Stanford Sentiment Treebank",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2000,
+            "end": 2025
+          },
+          "confidence": 0.5
+        },
+        {
+          "name": "IMDB",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2500,
+            "end": 2515
+          },
+          "confidence": 0.5
+        }
+      ],
+      "metrics": [
+        {
+          "name": "error rate",
+          "value": 7.42,
+          "unit": "%",
+          "evidence_span": {
+            "start": 2000,
+            "end": 2025
+          },
+          "confidence": 0.5
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "bag-of-words models",
+        "Recursive Neural Network",
+        "NBSVM"
+      ],
+      "self_consistency": 0.625,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "PARTIAL",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 34486,
+    "tokens_out": 6629,
+    "cost_usd": 0.0204521,
+    "wall_time_seconds": 119.69903412496205,
+    "voting_samples": 3
+  }
+}

@@ -1,0 +1,290 @@
+{
+  "paper_id": "scirex:0e6b990f41fc0e7fdd0662f88b5ad024375bd77b",
+  "contributions": [
+    {
+      "method": {
+        "name": "clustering-based regularization",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 91,
+          "end": 144
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "unsupervised learning",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 248,
+          "end": 268
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "MNIST",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1087,
+            "end": 1092
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "mean reconstruction error",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 4515,
+            "end": 4521
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "plain autoencoder"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "UNSUPPORTED"
+      }
+    },
+    {
+      "method": {
+        "name": "clustering-based regularization",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 91,
+          "end": 144
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "classification",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 269,
+          "end": 282
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "CIFAR10",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1094,
+            "end": 1101
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 4825,
+            "end": 4833
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "DeCov",
+        "Dropout",
+        "baseline"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "UNSUPPORTED"
+      }
+    },
+    {
+      "method": {
+        "name": "clustering-based regularization",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 91,
+          "end": 144
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "classification",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 269,
+          "end": 282
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "CIFAR100",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1103,
+            "end": 1111
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 4825,
+            "end": 4833
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "DeCov",
+        "Dropout",
+        "baseline"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "UNSUPPORTED"
+      }
+    },
+    {
+      "method": {
+        "name": "clustering-based regularization",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 91,
+          "end": 144
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "fine-grained categorization",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 283,
+          "end": 309
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "CUB-200-2011",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1113,
+            "end": 1126
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 6115,
+            "end": 6123
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "DeCAF",
+        "fine-tuned AlexNet"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "UNSUPPORTED"
+      }
+    },
+    {
+      "method": {
+        "name": "clustering-based regularization",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 91,
+          "end": 144
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "zero-shot learning",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 310,
+          "end": 329
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "CUB-200-2011",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1113,
+            "end": 1126
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "top-1 accuracy",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 7075,
+            "end": 7089
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "other recent methods"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "UNSUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "openai/gpt-4o-2024-11-20",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 36152,
+    "tokens_out": 9506,
+    "cost_usd": 0.10054998,
+    "wall_time_seconds": 140.95338958292268,
+    "voting_samples": 3
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "paper_id": "arxiv:2605.29267",
+  "contributions": [
+    {
+      "method": {
+        "name": "multi-model self-consuming loop",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 266,
+          "end": 305
+        },
+        "confidence": 0.6666666666666666
+      },
+      "task": {
+        "name": "preference alignment",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 155,
+          "end": 173
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "synthetic data",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 106,
+            "end": 120
+          },
+          "confidence": 0.3333333333333333
+        }
+      ],
+      "metrics": [
+        {
+          "name": "alignment",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 173,
+            "end": 181
+          },
+          "confidence": 0.3333333333333333
+        }
+      ],
+      "claim_strength": "novel",
+      "comparison_targets": [
+        "Ferbach et al., 2024"
+      ],
+      "self_consistency": 0.5833333333333334,
+      "critic_verdict": {
+        "method": "PARTIAL",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 6206,
+    "tokens_out": 2008,
+    "cost_usd": 0.004486749999999999,
+    "wall_time_seconds": 30.17022466706112,
+    "voting_samples": 3
+  }
+}

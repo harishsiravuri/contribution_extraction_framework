@@ -1,0 +1,80 @@
+{
+  "paper_id": "scirex:27e98e09cf09bc13c913d01676e5f32624011050",
+  "contributions": [
+    {
+      "method": {
+        "name": "U-Net",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 123,
+          "end": 129
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "Machine Reading Comprehension with Unanswerable Questions",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 72
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "SQuAD 2.0",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1015,
+            "end": 1024
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1 score",
+          "value": 72.6,
+          "unit": null,
+          "evidence_span": {
+            "start": 1015,
+            "end": 1024
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "Exact Match (EM) score",
+          "value": 69.2,
+          "unit": null,
+          "evidence_span": {
+            "start": 1015,
+            "end": 1024
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "state-of-the-art pipeline models",
+        "previous approaches"
+      ],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "PARTIAL",
+        "task": "PARTIAL",
+        "datasets": "PARTIAL",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "openai/gpt-4o-2024-11-20",
+    "critic_model": "(none)",
+    "consolidator_model": "(none)",
+    "tokens_in": 6434,
+    "tokens_out": 383,
+    "cost_usd": 0.019915,
+    "wall_time_seconds": 2.554440542124212,
+    "voting_samples": 1
+  }
+}

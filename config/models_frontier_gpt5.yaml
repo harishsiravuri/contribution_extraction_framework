@@ -1,0 +1,35 @@
+# GPT-5 frontier config. Same shape as models_frontier.yaml but with
+# openai/gpt-5 as the Extractor; Critic + Consolidator stay on Llama 3.3 70B.
+
+extractor:
+  model_id: "openai/gpt-5"
+  price_in_per_m: 1.25
+  price_out_per_m: 10.0
+  temperatures: [0.0, 0.3, 0.7]
+  max_tokens: 12000
+  top_p: 0.95
+
+critic:
+  model_id: "meta-llama/llama-3.3-70b-instruct"
+  price_in_per_m: 0.59
+  price_out_per_m: 0.79
+  temperature: 0.0
+  max_tokens: 8000
+  top_p: 0.95
+
+consolidator:
+  model_id: "meta-llama/llama-3.3-70b-instruct"
+  price_in_per_m: 0.59
+  price_out_per_m: 0.79
+  temperature: 0.0
+  max_tokens: 4000
+  top_p: 0.95
+
+defaults:
+  request_timeout_s: 180
+  max_retries: 4
+  retry_backoff_s: 2.0
+
+concurrency:
+  papers_in_flight: 5
+  per_provider_max: 5

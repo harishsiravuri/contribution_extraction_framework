@@ -1,0 +1,70 @@
+{
+  "paper_id": "scirex:097851f362667a599208f4a06fa289dac2e91fbe",
+  "contributions": [
+    {
+      "method": {
+        "name": "Enforcing Population and Lifetime Sparsity (EPLS)",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 2121,
+          "end": 2201
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "image classification",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 553,
+          "end": 571
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "STL-10",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 5545,
+            "end": 5551
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": 82.6,
+          "unit": "%",
+          "evidence_span": {
+            "start": 6342,
+            "end": 6349
+          },
+          "confidence": 0.3333333333333333
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "OMP-1",
+        "sparse coding"
+      ],
+      "self_consistency": 0.7777777777777778,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "UNSUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "DISABLED (E2 critic-off ablation)",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 16705,
+    "tokens_out": 1156,
+    "cost_usd": 0.0067829299999999995,
+    "wall_time_seconds": 58.54921670816839,
+    "voting_samples": 3
+  }
+}

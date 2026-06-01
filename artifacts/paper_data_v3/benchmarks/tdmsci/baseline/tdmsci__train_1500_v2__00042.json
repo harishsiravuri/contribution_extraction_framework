@@ -1,0 +1,67 @@
+{
+  "paper_id": "tdmsci:train_1500_v2:00042",
+  "contributions": [
+    {
+      "method": {
+        "name": "generating code-switched text automatically",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 33,
+          "end": 76
+        },
+        "confidence": 0.8
+      },
+      "task": {
+        "name": "sentence completion",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 114,
+          "end": 135
+        },
+        "confidence": 0.9
+      },
+      "datasets": [
+        {
+          "name": "artificial language vocabulary",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 13,
+            "end": 31
+          },
+          "confidence": 0.7
+        }
+      ],
+      "metrics": [
+        {
+          "name": "recall",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 102,
+            "end": 108
+          },
+          "confidence": 0.8
+        }
+      ],
+      "claim_strength": null,
+      "comparison_targets": [],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "PARTIAL",
+        "task": "PARTIAL",
+        "datasets": "PARTIAL",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "(none)",
+    "consolidator_model": "(none)",
+    "tokens_in": 573,
+    "tokens_out": 336,
+    "cost_usd": 0.0004824,
+    "wall_time_seconds": 8.971357332949992,
+    "voting_samples": 1
+  }
+}

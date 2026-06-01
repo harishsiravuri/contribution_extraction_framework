@@ -1,0 +1,62 @@
+{
+  "paper_id": "tdmsci:train_1500_v2:00009",
+  "contributions": [
+    {
+      "method": {
+        "name": null,
+        "canonical_id": null,
+        "evidence_span": null,
+        "confidence": 0.0
+      },
+      "task": {
+        "name": "information extraction",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 18,
+          "end": 41
+        },
+        "confidence": 0.9
+      },
+      "datasets": [
+        {
+          "name": "Message Understanding Conferences",
+          "canonical_id": "MUC",
+          "evidence_span": {
+            "start": 74,
+            "end": 104
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "Automatic Content Extraction",
+          "canonical_id": "ACE",
+          "evidence_span": {
+            "start": 109,
+            "end": 135
+          },
+          "confidence": 0.9
+        }
+      ],
+      "metrics": [],
+      "claim_strength": null,
+      "comparison_targets": [],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "PARTIAL",
+        "task": "PARTIAL",
+        "datasets": "PARTIAL",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "(none)",
+    "consolidator_model": "(none)",
+    "tokens_in": 576,
+    "tokens_out": 259,
+    "cost_usd": 0.00041483000000000004,
+    "wall_time_seconds": 7.266434832999948,
+    "voting_samples": 1
+  }
+}

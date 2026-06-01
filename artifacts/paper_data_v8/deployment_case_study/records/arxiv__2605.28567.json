@@ -1,0 +1,70 @@
+{
+  "paper_id": "arxiv:2605.28567",
+  "contributions": [
+    {
+      "method": {
+        "name": "Semantic Optimal Transport for Sparse Autoencoder Feature Matching and Circuit Compression",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 60
+        },
+        "confidence": 0.67
+      },
+      "task": {
+        "name": "feature matching",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 102,
+          "end": 120
+        },
+        "confidence": 0.67
+      },
+      "datasets": [
+        {
+          "name": "SAE features",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 30,
+            "end": 50
+          },
+          "confidence": 0.33
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Wasserstein distance",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 568,
+            "end": 586
+          },
+          "confidence": 0.67
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "decoder-vector",
+        "LLM-based baselines"
+      ],
+      "self_consistency": 0.56,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "PARTIAL",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 8220,
+    "tokens_out": 3617,
+    "cost_usd": 0.006992429999999999,
+    "wall_time_seconds": 50.43719895905815,
+    "voting_samples": 3
+  }
+}

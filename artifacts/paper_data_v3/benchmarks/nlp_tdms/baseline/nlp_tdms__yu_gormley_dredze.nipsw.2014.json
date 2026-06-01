@@ -1,0 +1,46 @@
+{
+  "paper_id": "nlp_tdms:yu_gormley_dredze.nipsw.2014",
+  "contributions": [
+    {
+      "method": {
+        "name": "Factor-based Compositional Embedding Models",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 41
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "NLP tasks including syntax and semantics",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 116,
+          "end": 172
+        },
+        "confidence": 0.9
+      },
+      "datasets": [],
+      "metrics": [],
+      "claim_strength": null,
+      "comparison_targets": [],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "PARTIAL",
+        "task": "PARTIAL",
+        "datasets": "PARTIAL",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "(none)",
+    "consolidator_model": "(none)",
+    "tokens_in": 625,
+    "tokens_out": 216,
+    "cost_usd": 0.00039223999999999997,
+    "wall_time_seconds": 6.987532666011248,
+    "voting_samples": 1
+  }
+}

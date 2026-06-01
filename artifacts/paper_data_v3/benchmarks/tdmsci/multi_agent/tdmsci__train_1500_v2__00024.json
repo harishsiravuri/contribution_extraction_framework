@@ -1,0 +1,56 @@
+{
+  "paper_id": "tdmsci:train_1500_v2:00024",
+  "contributions": [
+    {
+      "method": {
+        "name": "FrameNet-based analysis",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 10,
+          "end": 41
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "frame and argument identification",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 260,
+          "end": 290
+        },
+        "confidence": 0.67
+      },
+      "datasets": [
+        {
+          "name": "FrameNet 1.5",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 121,
+            "end": 137
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [],
+      "claim_strength": null,
+      "comparison_targets": [],
+      "self_consistency": 0.83,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "PARTIAL",
+        "datasets": "SUPPORTED",
+        "metrics": null
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 5712,
+    "tokens_out": 1903,
+    "cost_usd": 0.00423177,
+    "wall_time_seconds": 55.21262987499358,
+    "voting_samples": 3
+  }
+}

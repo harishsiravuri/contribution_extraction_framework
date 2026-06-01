@@ -1,0 +1,81 @@
+{
+  "paper_id": "scirex:0b0dc14b8a8dcccbfc62a38355fff2f6a361e9d2",
+  "contributions": [
+    {
+      "method": {
+        "name": "Target-Dependent Long Short-Term Memory (TD-LSTM) and Target-Connection LSTM (TC-LSTM)",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 288,
+          "end": 480
+        },
+        "confidence": 0.9
+      },
+      "task": {
+        "name": "Target-dependent sentiment classification",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 176,
+          "end": 287
+        },
+        "confidence": 0.9
+      },
+      "datasets": [
+        {
+          "name": "benchmark dataset from Twitter",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 469,
+            "end": 502
+          },
+          "confidence": 0.8
+        }
+      ],
+      "metrics": [
+        {
+          "name": "classification accuracy",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 1547,
+            "end": 1575
+          },
+          "confidence": 0.8
+        },
+        {
+          "name": "macro-F1 score",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 1762,
+            "end": 1776
+          },
+          "confidence": 0.8
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "feature-based SVM",
+        "adaptive recursive neural network",
+        "lexicon-enhanced neural network"
+      ],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "PARTIAL",
+        "task": "PARTIAL",
+        "datasets": "PARTIAL",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "(none)",
+    "consolidator_model": "(none)",
+    "tokens_in": 5021,
+    "tokens_out": 407,
+    "cost_usd": 0.00196895,
+    "wall_time_seconds": 18.767579249979462,
+    "voting_samples": 1
+  }
+}

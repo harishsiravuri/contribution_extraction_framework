@@ -1,0 +1,120 @@
+{
+  "paper_id": "scirex:0e6b990f41fc0e7fdd0662f88b5ad024375bd77b",
+  "contributions": [
+    {
+      "method": {
+        "name": "clustering based regularization",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 57,
+          "end": 83
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "classification",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 287,
+          "end": 305
+        },
+        "confidence": 0.8
+      },
+      "datasets": [
+        {
+          "name": "CIFAR10",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1702,
+            "end": 1709
+          },
+          "confidence": 0.6
+        },
+        {
+          "name": "CIFAR100",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1739,
+            "end": 1747
+          },
+          "confidence": 0.6
+        },
+        {
+          "name": "CUB-200-2011",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2314,
+            "end": 2327
+          },
+          "confidence": 0.8
+        },
+        {
+          "name": "MNIST",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1065,
+            "end": 1070
+          },
+          "confidence": 0.4
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 2009,
+            "end": 2017
+          },
+          "confidence": 0.8
+        },
+        {
+          "name": "reconstruction error",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 1506,
+            "end": 1522
+          },
+          "confidence": 0.4
+        },
+        {
+          "name": "top-1 accuracy",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 4653,
+            "end": 4667
+          },
+          "confidence": 0.4
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "DeCov",
+        "Dropout",
+        "Caffe baseline",
+        "DeCAF",
+        "Alex-Net fine-tuning"
+      ],
+      "self_consistency": 0.85,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 34827,
+    "tokens_out": 7636,
+    "cost_usd": 0.02163523,
+    "wall_time_seconds": 210.13874116697116,
+    "voting_samples": 3
+  }
+}

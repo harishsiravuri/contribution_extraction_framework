@@ -1,0 +1,80 @@
+{
+  "paper_id": "scirex:27e98e09cf09bc13c913d01676e5f32624011050",
+  "contributions": [
+    {
+      "method": {
+        "name": "U-Net",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 121,
+          "end": 140
+        },
+        "confidence": 0.9
+      },
+      "task": {
+        "name": "Machine Reading Comprehension with Unanswerable Questions",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 30,
+          "end": 81
+        },
+        "confidence": 0.95
+      },
+      "datasets": [
+        {
+          "name": "SQuAD 2.0",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 4668,
+            "end": 4679
+          },
+          "confidence": 0.95
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1 score",
+          "value": 72.6,
+          "unit": null,
+          "evidence_span": {
+            "start": 5326,
+            "end": 5335
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "EM score",
+          "value": 69.2,
+          "unit": null,
+          "evidence_span": {
+            "start": 5339,
+            "end": 5349
+          },
+          "confidence": 0.9
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "SQuAD 1.1",
+        "pipeline models"
+      ],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "PARTIAL",
+        "task": "PARTIAL",
+        "datasets": "PARTIAL",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "(none)",
+    "consolidator_model": "(none)",
+    "tokens_in": 6472,
+    "tokens_out": 400,
+    "cost_usd": 0.00242704,
+    "wall_time_seconds": 12.087518958956935,
+    "voting_samples": 1
+  }
+}

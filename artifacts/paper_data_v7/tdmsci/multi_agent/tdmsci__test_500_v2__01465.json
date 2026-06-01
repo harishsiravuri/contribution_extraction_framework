@@ -1,0 +1,46 @@
+{
+  "paper_id": "tdmsci:test_500_v2:01465",
+  "contributions": [
+    {
+      "method": {
+        "name": "concurrent learning using multi-agent RL",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 38,
+          "end": 64
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "dialogue policy learning",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 105,
+          "end": 127
+        },
+        "confidence": 1.0
+      },
+      "datasets": [],
+      "metrics": [],
+      "claim_strength": null,
+      "comparison_targets": [],
+      "self_consistency": 1.0,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 4985,
+    "tokens_out": 1429,
+    "cost_usd": 0.00342543,
+    "wall_time_seconds": 25.4217777911108,
+    "voting_samples": 3
+  }
+}

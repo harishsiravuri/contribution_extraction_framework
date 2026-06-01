@@ -1,0 +1,71 @@
+{
+  "paper_id": "scirex:2b507f659b341ed0f23106446de8e4322f4a3f7e",
+  "contributions": [
+    {
+      "method": {
+        "name": "Deep Identity-Aware Transfer (DIAT)",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 12,
+          "end": 84
+        },
+        "confidence": 0.9
+      },
+      "task": {
+        "name": "facial attribute transfer",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 85,
+          "end": 155
+        },
+        "confidence": 0.9
+      },
+      "datasets": [
+        {
+          "name": "CelebFaces Attributes (CelebA)",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1321,
+            "end": 1353
+          },
+          "confidence": 0.9
+        }
+      ],
+      "metrics": [
+        {
+          "name": "PSNR",
+          "value": 33.27,
+          "unit": "dB",
+          "evidence_span": {
+            "start": 14445,
+            "end": 14460
+          },
+          "confidence": 0.8
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "CNIA",
+        "IcGAN",
+        "VAE/GAN"
+      ],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "PARTIAL",
+        "task": "PARTIAL",
+        "datasets": "PARTIAL",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "(none)",
+    "consolidator_model": "(none)",
+    "tokens_in": 8949,
+    "tokens_out": 347,
+    "cost_usd": 0.00317251,
+    "wall_time_seconds": 12.857849167019594,
+    "voting_samples": 1
+  }
+}

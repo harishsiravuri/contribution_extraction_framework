@@ -1,0 +1,81 @@
+{
+  "paper_id": "scirex:170cc3b72dd2793920f8b0bbd0926d9244c49562",
+  "contributions": [
+    {
+      "method": {
+        "name": "Bootstrapped DQN",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 175,
+          "end": 192
+        },
+        "confidence": 0.9
+      },
+      "task": {
+        "name": "Reinforcement Learning with Deep Exploration",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 118
+        },
+        "confidence": 0.9
+      },
+      "datasets": [
+        {
+          "name": "Arcade Learning Environment (Atari)",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 910,
+            "end": 947
+          },
+          "confidence": 0.9
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Learning speed improvement",
+          "value": 30.0,
+          "unit": "percentage",
+          "evidence_span": {
+            "start": 961,
+            "end": 1007
+          },
+          "confidence": 0.8
+        },
+        {
+          "name": "AUC-100 score",
+          "value": 0.62,
+          "unit": "normalized",
+          "evidence_span": {
+            "start": 4583,
+            "end": 4743
+          },
+          "confidence": 0.7
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "DQN",
+        "ε-greedy",
+        "Dynamic AE"
+      ],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "PARTIAL",
+        "task": "PARTIAL",
+        "datasets": "PARTIAL",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "(none)",
+    "consolidator_model": "(none)",
+    "tokens_in": 9179,
+    "tokens_out": 403,
+    "cost_usd": 0.00329595,
+    "wall_time_seconds": 14.013838166021742,
+    "voting_samples": 1
+  }
+}

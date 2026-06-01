@@ -1,0 +1,59 @@
+{
+  "paper_id": "tdmsci:test_500_v2:01297",
+  "contributions": [
+    {
+      "method": {
+        "name": "our method",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 27,
+          "end": 36
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "web search",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 109,
+          "end": 119
+        },
+        "confidence": 0.3333333333333333
+      },
+      "datasets": [],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 17,
+            "end": 25
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "generative"
+      ],
+      "self_consistency": 0.7777777777777778,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 4943,
+    "tokens_out": 1492,
+    "cost_usd": 0.0034765000000000004,
+    "wall_time_seconds": 24.71912333299406,
+    "voting_samples": 3
+  }
+}

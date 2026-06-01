@@ -1,0 +1,112 @@
+{
+  "paper_id": "nlp_tdms:N18-1193",
+  "contributions": [
+    {
+      "method": {
+        "name": "Conversational Memory Network (CMN)",
+        "canonical_id": "CMN",
+        "evidence_span": {
+          "start": 175,
+          "end": 197
+        },
+        "confidence": 0.75
+      },
+      "task": {
+        "name": "emotion recognition",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 90,
+          "end": 125
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "IEMOCAP",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 6937,
+            "end": 6945
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": 3.0,
+          "unit": "%",
+          "evidence_span": {
+            "start": 6266,
+            "end": 6280
+          },
+          "confidence": 0.75
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "bc-LSTM",
+        "Memn2n",
+        "SVM-ensemble"
+      ],
+      "self_consistency": 0.875,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    },
+    {
+      "method": {
+        "name": "multimodal feature extraction",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 2511,
+          "end": 2535
+        },
+        "confidence": 0.5
+      },
+      "task": {
+        "name": "emotion recognition",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 90,
+          "end": 125
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "IEMOCAP",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 6937,
+            "end": 6945
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [],
+      "claim_strength": "novel",
+      "comparison_targets": [],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "UNSUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 31523,
+    "tokens_out": 3958,
+    "cost_usd": 0.0164529,
+    "wall_time_seconds": 67.68315995903686,
+    "voting_samples": 3
+  }
+}

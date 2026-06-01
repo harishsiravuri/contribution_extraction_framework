@@ -1,0 +1,99 @@
+{
+  "paper_id": "scirex:027d6c52be01b583b9a0d9eb8c9364c6b701c656",
+  "contributions": [
+    {
+      "method": {
+        "name": "Layer-sequential unit-variance (LSUV) initialization",
+        "canonical_id": "LSUV",
+        "evidence_span": {
+          "start": 7,
+          "end": 96
+        },
+        "confidence": 0.9
+      },
+      "task": {
+        "name": "Deep neural network initialization",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 7,
+          "end": 96
+        },
+        "confidence": 0.8
+      },
+      "datasets": [
+        {
+          "name": "MNIST",
+          "canonical_id": "MNIST",
+          "evidence_span": {
+            "start": 1005,
+            "end": 1010
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "CIFAR-10/100",
+          "canonical_id": "CIFAR-10/100",
+          "evidence_span": {
+            "start": 1061,
+            "end": 1073
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "ImageNet",
+          "canonical_id": "ImageNet",
+          "evidence_span": {
+            "start": 1088,
+            "end": 1096
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Test accuracy",
+          "value": null,
+          "unit": "percentage",
+          "evidence_span": {
+            "start": 1358,
+            "end": 1369
+          },
+          "confidence": 0.7
+        },
+        {
+          "name": "Training time",
+          "value": null,
+          "unit": "epochs",
+          "evidence_span": {
+            "start": 1391,
+            "end": 1403
+          },
+          "confidence": 0.7
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "FitNets",
+        "Highway",
+        "batch normalization"
+      ],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "PARTIAL",
+        "task": "PARTIAL",
+        "datasets": "PARTIAL",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "(none)",
+    "consolidator_model": "(none)",
+    "tokens_in": 4387,
+    "tokens_out": 512,
+    "cost_usd": 0.0018595200000000001,
+    "wall_time_seconds": 17.91683549998561,
+    "voting_samples": 1
+  }
+}

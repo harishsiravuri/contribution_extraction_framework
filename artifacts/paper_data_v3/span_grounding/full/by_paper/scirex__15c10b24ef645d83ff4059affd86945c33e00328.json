@@ -1,0 +1,168 @@
+{
+  "paper_id": "scirex:15c10b24ef645d83ff4059affd86945c33e00328",
+  "contributions": [
+    {
+      "method": {
+        "name": "Snips Voice Platform",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 24
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "Spoken Language Understanding",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 133,
+          "end": 161
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "LibriSpeech",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 4075,
+            "end": 4086
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "WER",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 2308,
+            "end": 2312
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "F1",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 7877,
+            "end": 7879
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "novel",
+      "comparison_targets": [
+        "Microsoft’s Cortana",
+        "Google’s DialogFlow",
+        "IBM’s Watson",
+        "Amazon Alexa"
+      ],
+      "self_consistency": 0.75,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    },
+    {
+      "method": {
+        "name": "Dynamic Language Model",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 6711,
+          "end": 6730
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "Spoken Language Understanding",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 133,
+          "end": 210
+        },
+        "confidence": 0.5
+      },
+      "datasets": [],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 7877,
+            "end": 7879
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "static language models"
+      ],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": null,
+        "metrics": "SUPPORTED"
+      }
+    },
+    {
+      "method": {
+        "name": "Data Generation Pipeline",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 11296,
+          "end": 11317
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "Spoken Language Understanding",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 133,
+          "end": 210
+        },
+        "confidence": 0.5
+      },
+      "datasets": [],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 7877,
+            "end": 7879
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": null,
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 53936,
+    "tokens_out": 4643,
+    "cost_usd": 0.025878480000000002,
+    "wall_time_seconds": 216.31195695901988,
+    "voting_samples": 3
+  }
+}

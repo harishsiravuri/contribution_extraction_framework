@@ -1,0 +1,46 @@
+{
+  "paper_id": "tdmsci:train_1500_v2:00045",
+  "contributions": [
+    {
+      "method": {
+        "name": "inter-language correspondence modeling",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 70,
+          "end": 104
+        },
+        "confidence": 0.7
+      },
+      "task": {
+        "name": "use of un-labeled data",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 42,
+          "end": 65
+        },
+        "confidence": 0.8
+      },
+      "datasets": [],
+      "metrics": [],
+      "claim_strength": "improves",
+      "comparison_targets": [],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "PARTIAL",
+        "task": "PARTIAL",
+        "datasets": "PARTIAL",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "(none)",
+    "consolidator_model": "(none)",
+    "tokens_in": 563,
+    "tokens_out": 212,
+    "cost_usd": 0.00036884000000000005,
+    "wall_time_seconds": 6.165578082960565,
+    "voting_samples": 1
+  }
+}

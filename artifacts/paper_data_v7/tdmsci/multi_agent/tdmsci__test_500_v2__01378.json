@@ -1,0 +1,56 @@
+{
+  "paper_id": "tdmsci:test_500_v2:01378",
+  "contributions": [
+    {
+      "method": {
+        "name": "annotation adaptation algorithm",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 10,
+          "end": 41
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "constituency parsing",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 54,
+          "end": 76
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "treebank",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 54,
+            "end": 61
+          },
+          "confidence": 0.6666666666666666
+        }
+      ],
+      "metrics": [],
+      "claim_strength": null,
+      "comparison_targets": [],
+      "self_consistency": 0.8333333333333334,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "PARTIAL",
+        "datasets": "PARTIAL",
+        "metrics": "UNSUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 5384,
+    "tokens_out": 1878,
+    "cost_usd": 0.004032630000000001,
+    "wall_time_seconds": 51.969317875104025,
+    "voting_samples": 3
+  }
+}

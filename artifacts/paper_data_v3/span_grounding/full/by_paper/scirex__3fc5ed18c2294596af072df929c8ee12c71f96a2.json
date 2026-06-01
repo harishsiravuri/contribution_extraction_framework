@@ -1,0 +1,89 @@
+{
+  "paper_id": "scirex:3fc5ed18c2294596af072df929c8ee12c71f96a2",
+  "contributions": [
+    {
+      "method": {
+        "name": "sequence-level training with classical structured prediction losses",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 2000,
+          "end": 2044
+        },
+        "confidence": 0.6666666666666666
+      },
+      "task": {
+        "name": "machine translation",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 2100,
+          "end": 2125
+        },
+        "confidence": 0.6666666666666666
+      },
+      "datasets": [
+        {
+          "name": "IWSLT’14 German-English",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1141,
+            "end": 1164
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "Gigaword",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1306,
+            "end": 1313
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "WMT’14 English-French",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1548,
+            "end": 1566
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 41.5,
+          "unit": null,
+          "evidence_span": {
+            "start": 1548,
+            "end": 1553
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "beam search optimization",
+        "REINFORCE",
+        "actor-critic"
+      ],
+      "self_consistency": 0.875,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "PARTIAL",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 29991,
+    "tokens_out": 4191,
+    "cost_usd": 0.016155439999999997,
+    "wall_time_seconds": 155.0634303750121,
+    "voting_samples": 3
+  }
+}

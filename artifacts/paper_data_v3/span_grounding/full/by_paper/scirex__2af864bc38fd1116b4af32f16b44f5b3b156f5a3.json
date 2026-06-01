@@ -1,0 +1,82 @@
+{
+  "paper_id": "scirex:2af864bc38fd1116b4af32f16b44f5b3b156f5a3",
+  "contributions": [
+    {
+      "method": {
+        "name": "Relation Memory Network",
+        "canonical_id": "RMN",
+        "evidence_span": {
+          "start": 1081,
+          "end": 1103
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "question answering",
+        "canonical_id": "question_answering",
+        "evidence_span": {
+          "start": 108,
+          "end": 140
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "bAbI story-based QA dataset",
+          "canonical_id": "babi",
+          "evidence_span": {
+            "start": 1081,
+            "end": 1103
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "bAbI dialog dataset",
+          "canonical_id": "babi_dialog",
+          "evidence_span": {
+            "start": 1081,
+            "end": 1103
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 1081,
+            "end": 1103
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "MemN2N",
+        "GMemN2N",
+        "DMN",
+        "DMN+",
+        "RN"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 26426,
+    "tokens_out": 4810,
+    "cost_usd": 0.015358650000000001,
+    "wall_time_seconds": 242.39345016598236,
+    "voting_samples": 3
+  }
+}

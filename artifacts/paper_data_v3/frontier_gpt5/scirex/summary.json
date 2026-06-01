@@ -1,0 +1,9 @@
+{
+  "benchmark": "scirex",
+  "papers_total": 66,
+  "papers_ok": 50,
+  "papers_error": 16,
+  "papers_skipped": 0,
+  "total_cost_usd": 9.03580102,
+  "extractor_model": "openai/gpt-5"
+}

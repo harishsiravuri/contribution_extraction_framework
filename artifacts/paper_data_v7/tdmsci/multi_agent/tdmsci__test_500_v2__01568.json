@@ -1,0 +1,74 @@
+{
+  "paper_id": "tdmsci:test_500_v2:01568",
+  "contributions": [
+    {
+      "method": {
+        "name": "our parser",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 28,
+          "end": 38
+        },
+        "confidence": 0.6666666666666666
+      },
+      "task": {
+        "name": null,
+        "canonical_id": null,
+        "evidence_span": null,
+        "confidence": 0.0
+      },
+      "datasets": [
+        {
+          "name": "English Penn Treebank",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 3,
+            "end": 25
+          },
+          "confidence": 0.6666666666666666
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 91.1,
+          "unit": null,
+          "evidence_span": {
+            "start": 49,
+            "end": 64
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "speed",
+          "value": 13.6,
+          "unit": "sentences per second",
+          "evidence_span": {
+            "start": 68,
+            "end": 98
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": null,
+      "comparison_targets": [],
+      "self_consistency": 0.625,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "UNSUPPORTED",
+        "datasets": "UNSUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 5303,
+    "tokens_out": 1773,
+    "cost_usd": 0.00392682,
+    "wall_time_seconds": 77.66217258293182,
+    "voting_samples": 3
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "paper_id": "scirex:0e6b990f41fc0e7fdd0662f88b5ad024375bd77b",
+  "contributions": [
+    {
+      "method": {
+        "name": "deep parsimonious representations",
+        "canonical_id": null,
+        "evidence_span": null,
+        "confidence": 0.67
+      },
+      "task": {
+        "name": "zero-shot image classification",
+        "canonical_id": null,
+        "evidence_span": null,
+        "confidence": 0.33
+      },
+      "datasets": [
+        {
+          "name": "cub-200-2011",
+          "canonical_id": null,
+          "evidence_span": null,
+          "confidence": 0.67
+        },
+        {
+          "name": "cifar-100",
+          "canonical_id": null,
+          "evidence_span": null,
+          "confidence": 0.33
+        },
+        {
+          "name": "cifar-10",
+          "canonical_id": null,
+          "evidence_span": null,
+          "confidence": 0.33
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": null,
+          "unit": null,
+          "evidence_span": null,
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [],
+      "self_consistency": 0.61,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "PARTIAL",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "harishsiravuri_e088/Meta-Llama-3.1-70B-Instruct-Reference-scirex-v6-70b-7cecddd1-66437b32",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 29322,
+    "tokens_out": 2431,
+    "cost_usd": 0.01712858,
+    "wall_time_seconds": 106.59843412501505,
+    "voting_samples": 3
+  }
+}

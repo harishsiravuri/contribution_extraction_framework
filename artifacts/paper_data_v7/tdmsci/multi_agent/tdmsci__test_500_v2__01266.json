@@ -1,0 +1,64 @@
+{
+  "paper_id": "tdmsci:test_500_v2:01266",
+  "contributions": [
+    {
+      "method": {
+        "name": null,
+        "canonical_id": null,
+        "evidence_span": null,
+        "confidence": 0.0
+      },
+      "task": {
+        "name": "state tracking",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 31,
+          "end": 43
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "WoZ",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 62,
+            "end": 65
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "DSTC2",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 69,
+            "end": 74
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "state-of-the-art"
+      ],
+      "self_consistency": 0.6666666666666666,
+      "critic_verdict": {
+        "method": "UNSUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "UNSUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 5587,
+    "tokens_out": 2069,
+    "cost_usd": 0.00432516,
+    "wall_time_seconds": 41.779173749964684,
+    "voting_samples": 3
+  }
+}

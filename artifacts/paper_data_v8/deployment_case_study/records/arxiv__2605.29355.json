@@ -1,0 +1,70 @@
+{
+  "paper_id": "arxiv:2605.29355",
+  "contributions": [
+    {
+      "method": {
+        "name": "autoregressive encoder-decoder model",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 481,
+          "end": 515
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "whole-body movement decoding",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 546,
+          "end": 573
+        },
+        "confidence": 0.6666666666666666
+      },
+      "datasets": [
+        {
+          "name": "neural-behavioral recordings from freely moving monkeys",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 329,
+            "end": 351
+          },
+          "confidence": 0.6666666666666666
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 559,
+            "end": 567
+          },
+          "confidence": 0.6666666666666666
+        }
+      ],
+      "claim_strength": "novel",
+      "comparison_targets": [
+        "constrained tasks",
+        "limited limb movements"
+      ],
+      "self_consistency": 0.7272727272727273,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "PARTIAL",
+        "datasets": "PARTIAL",
+        "metrics": "UNSUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 6094,
+    "tokens_out": 2011,
+    "cost_usd": 0.00446886,
+    "wall_time_seconds": 40.13108925009146,
+    "voting_samples": 3
+  }
+}

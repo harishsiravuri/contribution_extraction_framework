@@ -1,0 +1,88 @@
+{
+  "paper_id": "tdmsci:test_500_v2:01438",
+  "contributions": [
+    {
+      "method": {
+        "name": "web-mined training data",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 87,
+          "end": 110
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "speech translation",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 12,
+          "end": 30
+        },
+        "confidence": 0.5
+      },
+      "datasets": [
+        {
+          "name": "standard test sets",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 126,
+            "end": 143
+          },
+          "confidence": 0.5
+        },
+        {
+          "name": "test sets outside of the news domain",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 166,
+            "end": 199
+          },
+          "confidence": 0.5
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 1.5,
+          "unit": null,
+          "evidence_span": {
+            "start": 155,
+            "end": 161
+          },
+          "confidence": 0.5
+        },
+        {
+          "name": "BLEU",
+          "value": 5.0,
+          "unit": null,
+          "evidence_span": {
+            "start": 203,
+            "end": 209
+          },
+          "confidence": 0.5
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "standard government and news training text"
+      ],
+      "self_consistency": 0.875,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 6766,
+    "tokens_out": 2894,
+    "cost_usd": 0.00569931,
+    "wall_time_seconds": 62.149720000103116,
+    "voting_samples": 3
+  }
+}

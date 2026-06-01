@@ -1,0 +1,130 @@
+{
+  "paper_id": "scirex:1f8f0abfe4689aa93f2f6cc7ec4fd4c6adc2c2d6",
+  "contributions": [
+    {
+      "method": {
+        "name": "discriminative loss function",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 157,
+          "end": 183
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "instance segmentation",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 30,
+          "end": 53
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "Cityscapes",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 5377,
+            "end": 5387
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "CVPPP Leaf Segmentation",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 4600,
+            "end": 4625
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Symmetric Best Dice",
+          "value": 84.2,
+          "unit": null,
+          "evidence_span": {
+            "start": 5032,
+            "end": 5052
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "Absolute Difference in Count",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 5063,
+            "end": 5087
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "mean Average Precision",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 6392,
+            "end": 6413
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "AP0.5",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 6436,
+            "end": 6441
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "AP50 m",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 6472,
+            "end": 6478
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "AP100 m",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 6505,
+            "end": 6512
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "comparable",
+      "comparison_targets": [
+        "SAIS",
+        "MNC-based method",
+        "recurrent instance segmentation"
+      ],
+      "self_consistency": 0.875,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 31267,
+    "tokens_out": 4534,
+    "cost_usd": 0.01699324,
+    "wall_time_seconds": 204.243509833992,
+    "voting_samples": 3
+  }
+}

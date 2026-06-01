@@ -1,0 +1,69 @@
+{
+  "paper_id": "arxiv:2605.30051",
+  "contributions": [
+    {
+      "method": {
+        "name": "two-component framework (profile generator + simulator) with RL training",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 369,
+          "end": 500
+        },
+        "confidence": 0.67
+      },
+      "task": {
+        "name": "history-conditioned student simulation",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 282,
+          "end": 368
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "real-world dataset of student dialogues and question responses from math learning platform",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 501,
+            "end": 590
+          },
+          "confidence": 0.67
+        }
+      ],
+      "metrics": [
+        {
+          "name": "performance",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 591,
+            "end": 622
+          },
+          "confidence": 0.67
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "baselines"
+      ],
+      "self_consistency": 0.83,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 7164,
+    "tokens_out": 2538,
+    "cost_usd": 0.0054957800000000005,
+    "wall_time_seconds": 62.099042291985825,
+    "voting_samples": 3
+  }
+}

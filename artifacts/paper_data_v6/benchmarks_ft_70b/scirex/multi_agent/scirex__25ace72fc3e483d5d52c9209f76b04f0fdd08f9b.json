@@ -1,0 +1,85 @@
+{
+  "paper_id": "scirex:25ace72fc3e483d5d52c9209f76b04f0fdd08f9b",
+  "contributions": [
+    {
+      "method": {
+        "name": "ftsn",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 1954,
+          "end": 1957
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "text detection",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 141,
+          "end": 157
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "icdar 2015",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 3044,
+            "end": 3056
+          },
+          "confidence": 0.67
+        },
+        {
+          "name": "msra-td500",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 3083,
+            "end": 3095
+          },
+          "confidence": 0.67
+        },
+        {
+          "name": "total-text",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 3121,
+            "end": 3131
+          },
+          "confidence": 0.33
+        }
+      ],
+      "metrics": [
+        {
+          "name": "hmean",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 3335,
+            "end": 3340
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [],
+      "self_consistency": 0.83,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "harishsiravuri_e088/Meta-Llama-3.1-70B-Instruct-Reference-scirex-v6-70b-7cecddd1-66437b32",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 19618,
+    "tokens_out": 2706,
+    "cost_usd": 0.012249169999999998,
+    "wall_time_seconds": 75.81924783298746,
+    "voting_samples": 3
+  }
+}

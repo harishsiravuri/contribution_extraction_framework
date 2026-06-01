@@ -1,0 +1,143 @@
+{
+  "paper_id": "scirex:289e3e6b84982eb65aea8e3a64f2f6916c98e87e",
+  "contributions": [
+    {
+      "method": {
+        "name": "attention-enhanced sequence-to-sequence model",
+        "canonical_id": "LSTM+A",
+        "evidence_span": {
+          "start": 1050,
+          "end": 1150
+        },
+        "confidence": 0.8
+      },
+      "task": {
+        "name": "syntactic constituency parsing",
+        "canonical_id": "constituency parsing",
+        "evidence_span": {
+          "start": 0,
+          "end": 50
+        },
+        "confidence": 0.9
+      },
+      "datasets": [
+        {
+          "name": "WSJ",
+          "canonical_id": "Penn Treebank",
+          "evidence_span": {
+            "start": 400,
+            "end": 450
+          },
+          "confidence": 0.8
+        },
+        {
+          "name": "high-confidence corpus",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1700,
+            "end": 1800
+          },
+          "confidence": 0.6
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 92.5,
+          "unit": "percent",
+          "evidence_span": {
+            "start": 1400,
+            "end": 1450
+          },
+          "confidence": 0.8
+        },
+        {
+          "name": "F1",
+          "value": 92.8,
+          "unit": "percent",
+          "evidence_span": {
+            "start": 1450,
+            "end": 1500
+          },
+          "confidence": 0.8
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "BerkeleyParser",
+        "ZPar"
+      ],
+      "self_consistency": 0.85,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "PARTIAL",
+        "metrics": "SUPPORTED"
+      }
+    },
+    {
+      "method": {
+        "name": "LSTM + A",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 2500,
+          "end": 2600
+        },
+        "confidence": 0.7
+      },
+      "task": {
+        "name": "syntactic constituency parsing",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 50
+        },
+        "confidence": 0.8
+      },
+      "datasets": [
+        {
+          "name": "WSJ",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 300,
+            "end": 350
+          },
+          "confidence": 0.7
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 90.5,
+          "unit": null,
+          "evidence_span": {
+            "start": 1200,
+            "end": 1250
+          },
+          "confidence": 0.7
+        }
+      ],
+      "claim_strength": "comparable",
+      "comparison_targets": [
+        "BerkeleyParser"
+      ],
+      "self_consistency": 0.75,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "PARTIAL",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 42129,
+    "tokens_out": 6006,
+    "cost_usd": 0.022634379999999996,
+    "wall_time_seconds": 151.52223020902602,
+    "voting_samples": 3
+  }
+}

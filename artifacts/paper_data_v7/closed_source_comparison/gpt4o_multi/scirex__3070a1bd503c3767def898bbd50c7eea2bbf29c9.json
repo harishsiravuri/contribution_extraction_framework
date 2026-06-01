@@ -1,0 +1,130 @@
+{
+  "paper_id": "scirex:3070a1bd503c3767def898bbd50c7eea2bbf29c9",
+  "contributions": [
+    {
+      "method": {
+        "name": "Proposed shallow residual network architecture",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 366,
+          "end": 451
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "semantic segmentation",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 451,
+          "end": 451
+        },
+        "confidence": 0.8
+      },
+      "datasets": [
+        {
+          "name": "PASCAL VOC",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 451,
+            "end": 451
+          },
+          "confidence": 0.6
+        },
+        {
+          "name": "Cityscapes",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 451,
+            "end": 451
+          },
+          "confidence": 0.6
+        },
+        {
+          "name": "ADE20K",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 451,
+            "end": 451
+          },
+          "confidence": 0.6
+        },
+        {
+          "name": "PASCAL Context",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 451,
+            "end": 451
+          },
+          "confidence": 0.6
+        },
+        {
+          "name": "ImageNet",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 451,
+            "end": 451
+          },
+          "confidence": 0.4
+        }
+      ],
+      "metrics": [
+        {
+          "name": "mean IoU",
+          "value": 82.5,
+          "unit": "percentage",
+          "evidence_span": {
+            "start": 451,
+            "end": 451
+          },
+          "confidence": 0.6
+        },
+        {
+          "name": "class-level IoU",
+          "value": 78.4,
+          "unit": "percentage",
+          "evidence_span": {
+            "start": 590,
+            "end": 600
+          },
+          "confidence": 0.4
+        },
+        {
+          "name": "top-1 error rate",
+          "value": null,
+          "unit": "percentage",
+          "evidence_span": null,
+          "confidence": 0.4
+        },
+        {
+          "name": "top-5 error rate",
+          "value": null,
+          "unit": "percentage",
+          "evidence_span": null,
+          "confidence": 0.4
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "ResNet-200",
+        "state-of-the-art methods"
+      ],
+      "self_consistency": 0.72,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "openai/gpt-4o-2024-11-20",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 42778,
+    "tokens_out": 6371,
+    "cost_usd": 0.11467324,
+    "wall_time_seconds": 59.82632912509143,
+    "voting_samples": 3
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "paper_id": "nlp_tdms:1805.05286",
+  "contributions": [
+    {
+      "method": {
+        "name": "neural AMR parser with latent alignment",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 223,
+          "end": 316
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "AMR parsing",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 147,
+          "end": 222
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "LDC2016E25",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 4032,
+            "end": 4045
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "LDC2015E86",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 4095,
+            "end": 4108
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Smatch",
+          "value": 74.4,
+          "unit": "%",
+          "evidence_span": {
+            "start": 482,
+            "end": 505
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "JAMR",
+        "AMREager",
+        "CAMR",
+        "SEQ2SEQ",
+        "Mul-BiLSTM",
+        "Neural-Pointer",
+        "ChSeq"
+      ],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 33605,
+    "tokens_out": 2693,
+    "cost_usd": 0.01596926,
+    "wall_time_seconds": 62.01565587503137,
+    "voting_samples": 3
+  }
+}

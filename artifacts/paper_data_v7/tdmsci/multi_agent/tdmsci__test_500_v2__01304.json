@@ -1,0 +1,56 @@
+{
+  "paper_id": "tdmsci:test_500_v2:01304",
+  "contributions": [
+    {
+      "method": {
+        "name": "Stanford parser",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 39,
+          "end": 54
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "syntactic parsing",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 55,
+          "end": 67
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "ACE documents",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 0,
+            "end": 13
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [],
+      "claim_strength": null,
+      "comparison_targets": [],
+      "self_consistency": 0.875,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": null
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 5942,
+    "tokens_out": 2302,
+    "cost_usd": 0.004770099999999999,
+    "wall_time_seconds": 36.07368908403441,
+    "voting_samples": 3
+  }
+}

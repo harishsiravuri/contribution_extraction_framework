@@ -1,0 +1,71 @@
+{
+  "paper_id": "scirex:25b9b1ede6519eeef3e67657a97e2f551940b0d6",
+  "contributions": [
+    {
+      "method": {
+        "name": "Segmental Recurrent Neural Networks",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 11,
+          "end": 56
+        },
+        "confidence": 0.9
+      },
+      "task": {
+        "name": "End-to-end Speech Recognition",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 57,
+          "end": 91
+        },
+        "confidence": 0.9
+      },
+      "datasets": [
+        {
+          "name": "TIMIT",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 682,
+            "end": 687
+          },
+          "confidence": 0.9
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Phone Error Rate (PER)",
+          "value": 17.3,
+          "unit": "%",
+          "evidence_span": {
+            "start": 688,
+            "end": 735
+          },
+          "confidence": 0.9
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "CRF-based acoustic models",
+        "CTC",
+        "attention-based RNNs"
+      ],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "PARTIAL",
+        "task": "PARTIAL",
+        "datasets": "PARTIAL",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "openai/gpt-4o-2024-11-20",
+    "critic_model": "(none)",
+    "consolidator_model": "(none)",
+    "tokens_in": 3921,
+    "tokens_out": 346,
+    "cost_usd": 0.0132625,
+    "wall_time_seconds": 3.141028125071898,
+    "voting_samples": 1
+  }
+}

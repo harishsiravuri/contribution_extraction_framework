@@ -1,0 +1,108 @@
+{
+  "paper_id": "scirex:2ead783089fc757052abb908287a2fb743a4ebef",
+  "contributions": [
+    {
+      "method": {
+        "name": "SVDCNN",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 1429,
+          "end": 1500
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "text classification",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 389,
+          "end": 405
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "AG's News",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 3836,
+            "end": 3846
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "Yelp Polarity",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1210,
+            "end": 1225
+          },
+          "confidence": 0.5
+        },
+        {
+          "name": "Yelp Full",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1225,
+            "end": 1235
+          },
+          "confidence": 0.5
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": null,
+          "unit": "%",
+          "evidence_span": {
+            "start": 2307,
+            "end": 2317
+          },
+          "confidence": 0.75
+        },
+        {
+          "name": "storage size",
+          "value": 6.0,
+          "unit": "MB",
+          "evidence_span": {
+            "start": 356,
+            "end": 362
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "latency",
+          "value": null,
+          "unit": "ms",
+          "evidence_span": {
+            "start": 4184,
+            "end": 4199
+          },
+          "confidence": 0.5
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "VDCNN",
+        "Char-CNN"
+      ],
+      "self_consistency": 0.875,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "PARTIAL",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 27433,
+    "tokens_out": 5678,
+    "cost_usd": 0.01688229,
+    "wall_time_seconds": 117.76606283400906,
+    "voting_samples": 3
+  }
+}

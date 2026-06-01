@@ -1,0 +1,106 @@
+{
+  "paper_id": "scirex:087337fdad69caaab8ebd8ae68a731c5bf2e8b14",
+  "contributions": [
+    {
+      "method": {
+        "name": "Fully Convolutional Networks (FCNs)",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 123
+        },
+        "confidence": 0.9
+      },
+      "task": {
+        "name": "Semantic Segmentation",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 124,
+          "end": 211
+        },
+        "confidence": 0.9
+      },
+      "datasets": [
+        {
+          "name": "PASCAL VOC",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1015,
+            "end": 1025
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "NYUDv2",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1027,
+            "end": 1033
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "SIFT Flow",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1035,
+            "end": 1045
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "PASCAL-Context",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1047,
+            "end": 1061
+          },
+          "confidence": 0.9
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Mean Intersection over Union (mean IU)",
+          "value": 67.2,
+          "unit": "%",
+          "evidence_span": {
+            "start": 1015,
+            "end": 1061
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "Pixel Accuracy",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 1015,
+            "end": 1061
+          },
+          "confidence": 0.7
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "previous best results in semantic segmentation"
+      ],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "PARTIAL",
+        "task": "PARTIAL",
+        "datasets": "PARTIAL",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "openai/gpt-4o-2024-11-20",
+    "critic_model": "(none)",
+    "consolidator_model": "(none)",
+    "tokens_in": 9339,
+    "tokens_out": 521,
+    "cost_usd": 0.0285575,
+    "wall_time_seconds": 3.4873416249174625,
+    "voting_samples": 1
+  }
+}

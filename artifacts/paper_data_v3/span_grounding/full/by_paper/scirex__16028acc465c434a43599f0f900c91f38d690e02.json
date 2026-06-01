@@ -1,0 +1,177 @@
+{
+  "paper_id": "scirex:16028acc465c434a43599f0f900c91f38d690e02",
+  "contributions": [
+    {
+      "method": {
+        "name": "CornerNet",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 9
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "object detection",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 10,
+          "end": 25
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "MS COCO",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 424,
+            "end": 433
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "AP",
+          "value": 42.2,
+          "unit": "%",
+          "evidence_span": {
+            "start": 424,
+            "end": 433
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "one-stage detectors"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    },
+    {
+      "method": {
+        "name": "corner pooling",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 153,
+          "end": 165
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "object detection",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 10,
+          "end": 25
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "MS COCO",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 424,
+            "end": 433
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "AP",
+          "value": 2.0,
+          "unit": "%",
+          "evidence_span": {
+            "start": 5000,
+            "end": 5100
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "baseline without corner pooling"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    },
+    {
+      "method": {
+        "name": "hourglass network",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 6000,
+          "end": 6014
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "object detection",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 10,
+          "end": 25
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "MS COCO",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 424,
+            "end": 433
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "AP",
+          "value": 8.2,
+          "unit": "%",
+          "evidence_span": {
+            "start": 7000,
+            "end": 7010
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "FPN with ResNet-101"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 33802,
+    "tokens_out": 4144,
+    "cost_usd": 0.01741584,
+    "wall_time_seconds": 83.23975279094884,
+    "voting_samples": 3
+  }
+}

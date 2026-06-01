@@ -1,0 +1,123 @@
+{
+  "paper_id": "arxiv:2605.29525",
+  "contributions": [
+    {
+      "method": {
+        "name": "Learning to Perturb Activations (LPA)",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 795,
+          "end": 828
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "balanced classification",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 1013,
+          "end": 1035
+        },
+        "confidence": 0.3333333333333333
+      },
+      "datasets": [],
+      "metrics": [],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "existing methods",
+        "Dropout",
+        "Manifold Mixup",
+        "adversarial feature perturbation"
+      ],
+      "self_consistency": 0.5555555555555556,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "UNSUPPORTED",
+        "metrics": "UNSUPPORTED"
+      }
+    },
+    {
+      "method": {
+        "name": "Learning to Perturb Activations (LPA)",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 795,
+          "end": 828
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "long-tail classification",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 1066,
+          "end": 1090
+        },
+        "confidence": 0.3333333333333333
+      },
+      "datasets": [],
+      "metrics": [],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "existing methods",
+        "Dropout",
+        "Manifold Mixup",
+        "adversarial feature perturbation"
+      ],
+      "self_consistency": 0.5555555555555556,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "UNSUPPORTED",
+        "metrics": "UNSUPPORTED"
+      }
+    },
+    {
+      "method": {
+        "name": "Learning to Perturb Activations (LPA)",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 795,
+          "end": 828
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "domain generalization",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 1091,
+          "end": 1111
+        },
+        "confidence": 0.3333333333333333
+      },
+      "datasets": [],
+      "metrics": [],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "existing methods",
+        "Dropout",
+        "Manifold Mixup",
+        "adversarial feature perturbation"
+      ],
+      "self_consistency": 0.5555555555555556,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "UNSUPPORTED",
+        "metrics": "UNSUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 9487,
+    "tokens_out": 4863,
+    "cost_usd": 0.00875796,
+    "wall_time_seconds": 75.89845091709867,
+    "voting_samples": 3
+  }
+}

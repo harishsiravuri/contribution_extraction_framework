@@ -1,0 +1,3 @@
+Title: Sequential Neural Probabilistic Amplitude Shaping: Learning the Channel's Language
+
+Abstract: We present the first neural probabilistic amplitude shaping that outperforms existing methods while accounting for all implementation losses, using a block-less, easily implementable sequential autoregressive encoder compatible with arithmetic distribution matching, yielding reduced rate loss and higher achievable information rates.

@@ -1,0 +1,100 @@
+{
+  "paper_id": "scirex:11f411eee106efac9f677149e655252463811b09",
+  "contributions": [
+    {
+      "method": {
+        "name": "msgan",
+        "canonical_id": null,
+        "evidence_span": null,
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "image-to-image translation",
+        "canonical_id": null,
+        "evidence_span": null,
+        "confidence": 0.875
+      },
+      "datasets": [
+        {
+          "name": "maps",
+          "canonical_id": null,
+          "evidence_span": null,
+          "confidence": 0.25
+        },
+        {
+          "name": "cub-200-2011",
+          "canonical_id": null,
+          "evidence_span": null,
+          "confidence": 0.125
+        },
+        {
+          "name": "cat2dog",
+          "canonical_id": null,
+          "evidence_span": null,
+          "confidence": 0.125
+        },
+        {
+          "name": "facades",
+          "canonical_id": null,
+          "evidence_span": null,
+          "confidence": 0.125
+        },
+        {
+          "name": "yosemite",
+          "canonical_id": null,
+          "evidence_span": null,
+          "confidence": 0.125
+        }
+      ],
+      "metrics": [
+        {
+          "name": "fid",
+          "value": null,
+          "unit": null,
+          "evidence_span": null,
+          "confidence": 0.25
+        },
+        {
+          "name": "lpips",
+          "value": null,
+          "unit": null,
+          "evidence_span": null,
+          "confidence": 0.25
+        },
+        {
+          "name": "ndb",
+          "value": null,
+          "unit": null,
+          "evidence_span": null,
+          "confidence": 0.25
+        },
+        {
+          "name": "jsd",
+          "value": null,
+          "unit": null,
+          "evidence_span": null,
+          "confidence": 0.25
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [],
+      "self_consistency": 0.875,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "harishsiravuri_e088/Meta-Llama-3.1-70B-Instruct-Reference-scirex-v6-70b-7cecddd1-66437b32",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 41806,
+    "tokens_out": 14706,
+    "cost_usd": 0.032888669999999995,
+    "wall_time_seconds": 92.18882400001166,
+    "voting_samples": 3
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "paper_id": "nlp_tdms:P16-2034",
+  "contributions": [
+    {
+      "method": {
+        "name": "Att-BLSTM",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 361,
+          "end": 391
+        },
+        "confidence": 0.9
+      },
+      "task": {
+        "name": "Relation Classification",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 142,
+          "end": 167
+        },
+        "confidence": 0.9
+      },
+      "datasets": [
+        {
+          "name": "SemEval-2010 Task 8",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2604,
+            "end": 2621
+          },
+          "confidence": 0.9
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1-score",
+          "value": 84.0,
+          "unit": "%",
+          "evidence_span": {
+            "start": 2802,
+            "end": 2807
+          },
+          "confidence": 0.9
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "SVM",
+        "CNN",
+        "RNN",
+        "SDP-LSTM",
+        "BLSTM"
+      ],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "PARTIAL",
+        "task": "PARTIAL",
+        "datasets": "PARTIAL",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "(none)",
+    "consolidator_model": "(none)",
+    "tokens_in": 3620,
+    "tokens_out": 347,
+    "cost_usd": 0.00146723,
+    "wall_time_seconds": 11.551092875015456,
+    "voting_samples": 1
+  }
+}

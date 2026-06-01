@@ -1,0 +1,98 @@
+{
+  "paper_id": "scirex:1c059493904b2244d2280b8b4c0c7d3ca115be73",
+  "contributions": [
+    {
+      "method": {
+        "name": "node2vec",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 2000
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "feature learning in networks",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 2000
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "BlogCatalog",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2000,
+            "end": 3000
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "Protein-Protein Interactions (PPI)",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2000,
+            "end": 3000
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "Wikipedia",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2000,
+            "end": 3000
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Macro-F score",
+          "value": 26.7,
+          "unit": "percentage",
+          "evidence_span": {
+            "start": 3000,
+            "end": 4000
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "AUC improvement",
+          "value": 12.6,
+          "unit": "percentage",
+          "evidence_span": {
+            "start": 4000,
+            "end": 5000
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "DeepWalk",
+        "LINE"
+      ],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "PARTIAL",
+        "task": "PARTIAL",
+        "datasets": "PARTIAL",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "(none)",
+    "consolidator_model": "(none)",
+    "tokens_in": 9722,
+    "tokens_out": 493,
+    "cost_usd": 0.0035498099999999996,
+    "wall_time_seconds": 28.594300333003048,
+    "voting_samples": 1
+  }
+}

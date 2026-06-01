@@ -1,0 +1,129 @@
+{
+  "paper_id": "scirex:1762baa638866a13dcc6d146fd5a49b36cbd9c30",
+  "contributions": [
+    {
+      "method": {
+        "name": "Graph Convolutional Network (GCN)",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 145,
+          "end": 170
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "semi-supervised node classification",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 100,
+          "end": 140
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "Citeseer",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2000,
+            "end": 2007
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "Cora",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2000,
+            "end": 2005
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "Pubmed",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2000,
+            "end": 2007
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "NELL",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2100,
+            "end": 2105
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "random graphs",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2750,
+            "end": 2765
+          },
+          "confidence": 0.67
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": null,
+          "unit": "percent",
+          "evidence_span": {
+            "start": 3000,
+            "end": 3010
+          },
+          "confidence": 0.67
+        },
+        {
+          "name": "wall-clock time",
+          "value": null,
+          "unit": "seconds",
+          "evidence_span": {
+            "start": 3000,
+            "end": 3015
+          },
+          "confidence": 0.33
+        },
+        {
+          "name": "training time per epoch",
+          "value": null,
+          "unit": "seconds",
+          "evidence_span": {
+            "start": 3500,
+            "end": 3515
+          },
+          "confidence": 0.33
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "label propagation",
+        "semi-supervised embedding",
+        "manifold regularization",
+        "DeepWalk",
+        "Planetoid"
+      ],
+      "self_consistency": 0.83,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 33402,
+    "tokens_out": 4854,
+    "cost_usd": 0.01817107,
+    "wall_time_seconds": 196.35081804095535,
+    "voting_samples": 3
+  }
+}

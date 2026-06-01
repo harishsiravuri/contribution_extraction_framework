@@ -1,0 +1,74 @@
+{
+  "paper_id": "tdmsci:test_500_v2:01561",
+  "contributions": [
+    {
+      "method": {
+        "name": null,
+        "canonical_id": null,
+        "evidence_span": null,
+        "confidence": 0.0
+      },
+      "task": {
+        "name": "speech recognition",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 100
+        },
+        "confidence": 0.5
+      },
+      "datasets": [
+        {
+          "name": "French",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 24,
+            "end": 30
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Word Error Rate",
+          "value": 9.3,
+          "unit": "%",
+          "evidence_span": {
+            "start": 51,
+            "end": 70
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "BLEU",
+          "value": 0.83,
+          "unit": null,
+          "evidence_span": {
+            "start": 71,
+            "end": 80
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": null,
+      "comparison_targets": [],
+      "self_consistency": 0.75,
+      "critic_verdict": {
+        "method": "UNSUPPORTED",
+        "task": "UNSUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 6334,
+    "tokens_out": 2533,
+    "cost_usd": 0.00513518,
+    "wall_time_seconds": 82.48768095811829,
+    "voting_samples": 3
+  }
+}

@@ -1,0 +1,118 @@
+{
+  "paper_id": "scirex:0e6b990f41fc0e7fdd0662f88b5ad024375bd77b",
+  "contributions": [
+    {
+      "method": {
+        "name": "Clustering-based regularization for parsimonious representations",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 91,
+          "end": 179
+        },
+        "confidence": 0.9
+      },
+      "task": {
+        "name": "Facilitating generalization and interpretability in deep networks",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 90
+        },
+        "confidence": 0.8
+      },
+      "datasets": [
+        {
+          "name": "MNIST",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1225,
+            "end": 1230
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "CIFAR10",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1232,
+            "end": 1239
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "CIFAR100",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1244,
+            "end": 1252
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "CUB-200-2011",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1257,
+            "end": 1270
+          },
+          "confidence": 0.9
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Mean reconstruction error",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 10191,
+            "end": 10220
+          },
+          "confidence": 0.7
+        },
+        {
+          "name": "Normalized mutual information (NMI)",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 15763,
+            "end": 15798
+          },
+          "confidence": 0.7
+        },
+        {
+          "name": "Top-1 accuracy",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 21163,
+            "end": 21177
+          },
+          "confidence": 0.7
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "DeCov",
+        "Dropout",
+        "baseline models"
+      ],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "PARTIAL",
+        "task": "PARTIAL",
+        "datasets": "PARTIAL",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "openai/gpt-4o-2024-11-20",
+    "critic_model": "(none)",
+    "consolidator_model": "(none)",
+    "tokens_in": 6383,
+    "tokens_out": 640,
+    "cost_usd": 0.0223575,
+    "wall_time_seconds": 3.8370119580067694,
+    "voting_samples": 1
+  }
+}

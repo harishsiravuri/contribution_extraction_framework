@@ -1,0 +1,80 @@
+{
+  "paper_id": "scirex:0680f04750b1e257ffdd161e85382031dc73ea7f",
+  "contributions": [
+    {
+      "method": {
+        "name": "dynamic chunk reader (DCR)",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 50,
+          "end": 111
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "question answering",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 307,
+          "end": 327
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "SQuAD",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 3090,
+            "end": 3098
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "EM",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 1055,
+            "end": 1057
+          },
+          "confidence": 0.5
+        },
+        {
+          "name": "F1",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 1058,
+            "end": 1060
+          },
+          "confidence": 0.5
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Rajpurkar et al.",
+        "Wang and Jiang"
+      ],
+      "self_consistency": 0.875,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 28884,
+    "tokens_out": 2968,
+    "cost_usd": 0.014353329999999997,
+    "wall_time_seconds": 131.58714079199126,
+    "voting_samples": 3
+  }
+}

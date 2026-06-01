@@ -1,0 +1,123 @@
+{
+  "paper_id": "scirex:0c7f1d285ce069b2f7a807a4b2750695098bffe6",
+  "contributions": [
+    {
+      "method": {
+        "name": "Planetoid",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 220,
+          "end": 290
+        },
+        "confidence": 0.875
+      },
+      "task": {
+        "name": "text classification",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 927,
+          "end": 941
+        },
+        "confidence": 0.875
+      },
+      "datasets": [
+        {
+          "name": "Citeseer",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 5018,
+            "end": 5025
+          },
+          "confidence": 0.5
+        },
+        {
+          "name": "Cora",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 5026,
+            "end": 5030
+          },
+          "confidence": 0.5
+        },
+        {
+          "name": "Pubmed",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 5031,
+            "end": 5037
+          },
+          "confidence": 0.5
+        },
+        {
+          "name": "DIEL",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 5558,
+            "end": 5562
+          },
+          "confidence": 0.25
+        },
+        {
+          "name": "NELL",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 4400,
+            "end": 4404
+          },
+          "confidence": 0.25
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 5203,
+            "end": 5211
+          },
+          "confidence": 0.75
+        },
+        {
+          "name": "recall@k",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 5693,
+            "end": 5703
+          },
+          "confidence": 0.25
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "TSVM",
+        "GraphEmb",
+        "SemiEmb",
+        "label propagation",
+        "semi-supervised embedding",
+        "manifold regularization",
+        "graph embeddings",
+        "LP",
+        "DIEL"
+      ],
+      "self_consistency": 0.875,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "DISABLED (E2 critic-off ablation)",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 25164,
+    "tokens_out": 4192,
+    "cost_usd": 0.01345544,
+    "wall_time_seconds": 53.53665233310312,
+    "voting_samples": 3
+  }
+}

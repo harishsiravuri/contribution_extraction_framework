@@ -1,0 +1,91 @@
+{
+  "paper_id": "scirex:0910a4c470a410fac446f4026f7c8ef512ae7427",
+  "contributions": [
+    {
+      "method": {
+        "name": "Hierarchical co-attention model",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 223,
+          "end": 321
+        },
+        "confidence": 0.9
+      },
+      "task": {
+        "name": "Visual Question Answering (VQA)",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 57,
+          "end": 84
+        },
+        "confidence": 0.95
+      },
+      "datasets": [
+        {
+          "name": "VQA dataset",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2094,
+            "end": 2106
+          },
+          "confidence": 0.95
+        },
+        {
+          "name": "COCO-QA dataset",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2116,
+            "end": 2130
+          },
+          "confidence": 0.95
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy",
+          "value": 62.1,
+          "unit": "%",
+          "evidence_span": {
+            "start": 368,
+            "end": 375
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "Accuracy",
+          "value": 65.4,
+          "unit": "%",
+          "evidence_span": {
+            "start": 383,
+            "end": 388
+          },
+          "confidence": 0.9
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "SMem",
+        "SAN",
+        "FDA",
+        "DMN+"
+      ],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "PARTIAL",
+        "task": "PARTIAL",
+        "datasets": "PARTIAL",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "(none)",
+    "consolidator_model": "(none)",
+    "tokens_in": 5879,
+    "tokens_out": 445,
+    "cost_usd": 0.00227733,
+    "wall_time_seconds": 16.92073116695974,
+    "voting_samples": 1
+  }
+}

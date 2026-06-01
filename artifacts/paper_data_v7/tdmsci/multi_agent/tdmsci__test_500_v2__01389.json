@@ -1,0 +1,81 @@
+{
+  "paper_id": "tdmsci:test_500_v2:01389",
+  "contributions": [
+    {
+      "method": {
+        "name": null,
+        "canonical_id": null,
+        "evidence_span": null,
+        "confidence": 0.0
+      },
+      "task": {
+        "name": "text simplification",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 18,
+          "end": 30
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": null,
+          "canonical_id": null,
+          "evidence_span": null,
+          "confidence": 0.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "number of splits",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 80,
+            "end": 95
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "number of identical sentences",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 143,
+            "end": 183
+          },
+          "confidence": 0.5
+        },
+        {
+          "name": "Levenshtein distance",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 227,
+            "end": 238
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": null,
+      "comparison_targets": [],
+      "self_consistency": 0.75,
+      "critic_verdict": {
+        "method": "UNSUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "UNSUPPORTED",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 5897,
+    "tokens_out": 2004,
+    "cost_usd": 0.00443149,
+    "wall_time_seconds": 47.911355207907036,
+    "voting_samples": 3
+  }
+}

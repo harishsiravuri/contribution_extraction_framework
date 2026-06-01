@@ -1,0 +1,46 @@
+{
+  "paper_id": "tdmsci:train_1500_v2:00019",
+  "contributions": [
+    {
+      "method": {
+        "name": "query segmentation comparison",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 15,
+          "end": 34
+        },
+        "confidence": 0.8
+      },
+      "task": {
+        "name": null,
+        "canonical_id": null,
+        "evidence_span": null,
+        "confidence": 0.0
+      },
+      "datasets": [],
+      "metrics": [],
+      "claim_strength": null,
+      "comparison_targets": [
+        "NL sentences",
+        "random n-grams"
+      ],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "PARTIAL",
+        "task": "PARTIAL",
+        "datasets": "PARTIAL",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "(none)",
+    "consolidator_model": "(none)",
+    "tokens_in": 569,
+    "tokens_out": 195,
+    "cost_usd": 0.00035563,
+    "wall_time_seconds": 6.2619915420073085,
+    "voting_samples": 1
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "paper_id": "scirex:34f92431bb8cb9fa6a1210c5d6e4642079ffac7a",
+  "contributions": [
+    {
+      "method": {
+        "name": "SLPR",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 186,
+          "end": 199
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "text detection",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 44,
+          "end": 57
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "ICDAR2015 Incidental Scene Text",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2414,
+            "end": 2439
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Hmean",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 3055,
+            "end": 3060
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "comparable",
+      "comparison_targets": [],
+      "self_consistency": 0.75,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    },
+    {
+      "method": {
+        "name": "SLPR",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 186,
+          "end": 199
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "text detection",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 44,
+          "end": 57
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "CTW1500",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2539,
+            "end": 2547
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Hmean",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 3055,
+            "end": 3060
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "CTD",
+        "CTD+TLOC"
+      ],
+      "self_consistency": 0.75,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "openai/gpt-5",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 21001,
+    "tokens_out": 10137,
+    "cost_usd": 0.10840025,
+    "wall_time_seconds": 98.3251936250017,
+    "voting_samples": 3
+  }
+}

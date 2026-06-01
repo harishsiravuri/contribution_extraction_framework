@@ -1,0 +1,56 @@
+{
+  "paper_id": "tdmsci:test_500_v2:01285",
+  "contributions": [
+    {
+      "method": {
+        "name": "DCU-LSTM",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 9,
+          "end": 18
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": null,
+        "canonical_id": null,
+        "evidence_span": null,
+        "confidence": 0.0
+      },
+      "datasets": [],
+      "metrics": [
+        {
+          "name": "ROUGE-L",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 41,
+            "end": 49
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "BiDAF"
+      ],
+      "self_consistency": 0.8333333333333334,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "UNSUPPORTED",
+        "datasets": "UNSUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 4738,
+    "tokens_out": 1310,
+    "cost_usd": 0.00321397,
+    "wall_time_seconds": 43.66513100010343,
+    "voting_samples": 3
+  }
+}

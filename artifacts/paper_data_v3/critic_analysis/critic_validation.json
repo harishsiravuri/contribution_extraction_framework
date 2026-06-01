@@ -1,0 +1,88 @@
+{
+  "n_papers": 54,
+  "aggregate": {
+    "by_field": {
+      "method.name": {
+        "correct_supp": 0,
+        "false_supp": 0,
+        "missed_supp": 30,
+        "retained_correct": 24,
+        "implicit_supp": 0,
+        "n_critic_suppressions": 0,
+        "critic_precision": null,
+        "critic_recall": 0.0
+      },
+      "task.name": {
+        "correct_supp": 0,
+        "false_supp": 0,
+        "missed_supp": 28,
+        "retained_correct": 26,
+        "implicit_supp": 0,
+        "n_critic_suppressions": 0,
+        "critic_precision": null,
+        "critic_recall": 0.0
+      },
+      "datasets": {
+        "correct_supp": 0,
+        "false_supp": 0,
+        "missed_supp": 33,
+        "retained_correct": 21,
+        "implicit_supp": 0,
+        "n_critic_suppressions": 0,
+        "critic_precision": null,
+        "critic_recall": 0.0
+      },
+      "metrics": {
+        "correct_supp": 1,
+        "false_supp": 1,
+        "missed_supp": 25,
+        "retained_correct": 27,
+        "implicit_supp": 0,
+        "n_critic_suppressions": 2,
+        "critic_precision": 0.5,
+        "critic_recall": 0.038461538461538464
+      }
+    },
+    "overall": {
+      "correct_supp": 1,
+      "false_supp": 1,
+      "missed_supp": 116,
+      "retained_correct": 98,
+      "implicit_supp": 0,
+      "n_papers": 54,
+      "n_critic_suppressions": 2,
+      "critic_precision": 0.5,
+      "critic_recall": 0.008547008547008548
+    }
+  },
+  "false_suppression_examples": [
+    {
+      "paper_id": "scirex:33bcc97b605f00145098d095be2841a1fa6b9a95",
+      "field": "metrics",
+      "no_critic_name": "accuracy",
+      "full_name": null,
+      "critic_verdict": "UNSUPPORTED",
+      "is_critic_suppression": true,
+      "is_implicit_suppression": false,
+      "correct_suppression": false,
+      "false_suppression": true,
+      "missed_suppression": false,
+      "retained_correct": false
+    }
+  ],
+  "correct_suppression_examples": [
+    {
+      "paper_id": "scirex:3070a1bd503c3767def898bbd50c7eea2bbf29c9",
+      "field": "metrics",
+      "no_critic_name": "top 1 error rate",
+      "full_name": null,
+      "critic_verdict": "UNSUPPORTED",
+      "is_critic_suppression": true,
+      "is_implicit_suppression": false,
+      "correct_suppression": true,
+      "false_suppression": false,
+      "missed_suppression": false,
+      "retained_correct": false
+    }
+  ]
+}

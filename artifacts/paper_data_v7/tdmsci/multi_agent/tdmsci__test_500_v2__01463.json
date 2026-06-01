@@ -1,0 +1,56 @@
+{
+  "paper_id": "tdmsci:test_500_v2:01463",
+  "contributions": [
+    {
+      "method": {
+        "name": "MARS",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 28,
+          "end": 32
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "pronominal anaphora resolution",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 63,
+          "end": 93
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "Bengali",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 95,
+            "end": 102
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [],
+      "claim_strength": null,
+      "comparison_targets": [],
+      "self_consistency": 1.0,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": null
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 4509,
+    "tokens_out": 1151,
+    "cost_usd": 0.0029554200000000003,
+    "wall_time_seconds": 30.22458054102026,
+    "voting_samples": 3
+  }
+}

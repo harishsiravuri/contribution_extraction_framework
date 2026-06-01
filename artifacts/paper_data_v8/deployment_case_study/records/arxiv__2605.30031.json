@@ -1,0 +1,119 @@
+{
+  "paper_id": "arxiv:2605.30031",
+  "contributions": [
+    {
+      "method": {
+        "name": "Acoustic Best-of-N",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 736,
+          "end": 753
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "jailbreak attack",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 129,
+          "end": 145
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "ten open-source LALMs",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1001,
+            "end": 1022
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "attack success rate",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 885,
+            "end": 903
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": null,
+      "comparison_targets": [],
+      "self_consistency": 0.875,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    },
+    {
+      "method": {
+        "name": "Narrative Framing",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 814,
+          "end": 828
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "jailbreak attack",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 129,
+          "end": 145
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "ten open-source LALMs",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1001,
+            "end": 1022
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "latency",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 885,
+            "end": 903
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": null,
+      "comparison_targets": [],
+      "self_consistency": 0.875,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 9013,
+    "tokens_out": 4520,
+    "cost_usd": 0.00818047,
+    "wall_time_seconds": 95.65117524983361,
+    "voting_samples": 3
+  }
+}

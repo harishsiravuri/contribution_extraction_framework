@@ -1,0 +1,119 @@
+{
+  "paper_id": "arxiv:2605.29183",
+  "contributions": [
+    {
+      "method": {
+        "name": "TIMEGATE",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 95,
+          "end": 103
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "continual adaptation",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 69,
+          "end": 85
+        },
+        "confidence": 0.8
+      },
+      "datasets": [
+        {
+          "name": "Adult",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 226,
+            "end": 231
+          },
+          "confidence": 0.6
+        },
+        {
+          "name": "SST-2",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 258,
+            "end": 262
+          },
+          "confidence": 0.8
+        }
+      ],
+      "metrics": [
+        {
+          "name": "performance ratio",
+          "value": 2.3,
+          "unit": "x",
+          "evidence_span": {
+            "start": 218,
+            "end": 223
+          },
+          "confidence": 0.6
+        },
+        {
+          "name": "accuracy",
+          "value": 0.96,
+          "unit": null,
+          "evidence_span": {
+            "start": 263,
+            "end": 282
+          },
+          "confidence": 0.8
+        },
+        {
+          "name": "metric-availability sensitivity",
+          "value": 0.81,
+          "unit": null,
+          "evidence_span": {
+            "start": 344,
+            "end": 390
+          },
+          "confidence": 0.6
+        },
+        {
+          "name": "evaluation-compute savings",
+          "value": 66.0,
+          "unit": "%",
+          "evidence_span": {
+            "start": 398,
+            "end": 445
+          },
+          "confidence": 0.8
+        },
+        {
+          "name": "wall-clock savings",
+          "value": 89.0,
+          "unit": "%",
+          "evidence_span": {
+            "start": 506,
+            "end": 560
+          },
+          "confidence": 0.8
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "labeling",
+        "training"
+      ],
+      "self_consistency": 0.75,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "PARTIAL",
+        "datasets": "PARTIAL",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 13551,
+    "tokens_out": 7941,
+    "cost_usd": 0.01374619,
+    "wall_time_seconds": 196.3970303342212,
+    "voting_samples": 3
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "paper_id": "tdmsci:test_500_v2:01430",
+  "contributions": [
+    {
+      "method": {
+        "name": null,
+        "canonical_id": null,
+        "evidence_span": null,
+        "confidence": 0.0
+      },
+      "task": {
+        "name": "machine translation",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 50,
+          "end": 63
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "Chinese-English test set",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 70,
+            "end": 94
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "memory usage",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 12,
+            "end": 25
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "running time",
+          "value": null,
+          "unit": "seconds",
+          "evidence_span": {
+            "start": 30,
+            "end": 49
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": null,
+      "comparison_targets": [],
+      "self_consistency": 0.75,
+      "critic_verdict": {
+        "method": "UNSUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 5842,
+    "tokens_out": 2303,
+    "cost_usd": 0.00466663,
+    "wall_time_seconds": 49.16075833304785,
+    "voting_samples": 3
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "paper_id": "scirex:1510cf4b8abea80b9f352325ca4c132887de21a0",
+  "contributions": [
+    {
+      "method": {
+        "name": "Paragraph Vector",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 139,
+          "end": 231
+        },
+        "confidence": 0.9
+      },
+      "task": {
+        "name": "text representation learning",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 139,
+          "end": 231
+        },
+        "confidence": 0.8
+      },
+      "datasets": [
+        {
+          "name": "Stanford sentiment treebank",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1231,
+            "end": 1263
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "IMDB",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1595,
+            "end": 1601
+          },
+          "confidence": 0.9
+        }
+      ],
+      "metrics": [
+        {
+          "name": "error rate",
+          "value": 7.42,
+          "unit": "percentage",
+          "evidence_span": {
+            "start": 2033,
+            "end": 2043
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "error rate",
+          "value": 2.4,
+          "unit": "percentage",
+          "evidence_span": {
+            "start": 1457,
+            "end": 1461
+          },
+          "confidence": 0.9
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "bag-of-words",
+        "Recursive Neural Tensor Network",
+        "NBSVM"
+      ],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "PARTIAL",
+        "task": "PARTIAL",
+        "datasets": "PARTIAL",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "(none)",
+    "consolidator_model": "(none)",
+    "tokens_in": 6335,
+    "tokens_out": 482,
+    "cost_usd": 0.0024561800000000005,
+    "wall_time_seconds": 18.18152270797873,
+    "voting_samples": 1
+  }
+}

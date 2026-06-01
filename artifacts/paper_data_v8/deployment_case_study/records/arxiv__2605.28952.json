@@ -1,0 +1,117 @@
+{
+  "paper_id": "arxiv:2605.28952",
+  "contributions": [
+    {
+      "method": {
+        "name": "algorithm for differentially private hypothesis testing with e-values",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 292,
+          "end": 356
+        },
+        "confidence": 0.67
+      },
+      "task": {
+        "name": "hypothesis testing",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 126,
+          "end": 142
+        },
+        "confidence": 0.67
+      },
+      "datasets": [
+        {
+          "name": null,
+          "canonical_id": null,
+          "evidence_span": null,
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "e-power",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 224,
+            "end": 231
+          },
+          "confidence": 0.67
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "DP-SPRT"
+      ],
+      "self_consistency": 0.83,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    },
+    {
+      "method": {
+        "name": "algorithm for differentially private hypothesis testing with e-values",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 423,
+          "end": 436
+        },
+        "confidence": 0.67
+      },
+      "task": {
+        "name": "sequential hypothesis testing",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 423,
+          "end": 456
+        },
+        "confidence": 0.67
+      },
+      "datasets": [
+        {
+          "name": null,
+          "canonical_id": null,
+          "evidence_span": null,
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "stopping times",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 491,
+            "end": 503
+          },
+          "confidence": 0.67
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "DP-SPRT"
+      ],
+      "self_consistency": 0.83,
+      "critic_verdict": {
+        "method": "PARTIAL",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 7737,
+    "tokens_out": 3647,
+    "cost_usd": 0.00675357,
+    "wall_time_seconds": 80.79669841681607,
+    "voting_samples": 3
+  }
+}

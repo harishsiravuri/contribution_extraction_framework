@@ -1,0 +1,133 @@
+{
+  "paper_id": "scirex:189e6bb7523733c4e524214b9e6ae92d4ed50dac",
+  "contributions": [
+    {
+      "method": {
+        "name": "hierarchical recurrent neural networks for transfer learning",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 120,
+          "end": 320
+        },
+        "confidence": 0.9
+      },
+      "task": {
+        "name": "sequence tagging",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 40,
+          "end": 120
+        },
+        "confidence": 0.95
+      },
+      "datasets": [
+        {
+          "name": "Penn Treebank (PTB)",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 3610,
+            "end": 3630
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "CoNLL 2000 chunking",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 3630,
+            "end": 3650
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "CoNLL 2003 English NER",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 3650,
+            "end": 3675
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "CoNLL 2002 Dutch NER",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 3675,
+            "end": 3700
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "CoNLL 2002 Spanish NER",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 3700,
+            "end": 3725
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "Genia biomedical corpus",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 3725,
+            "end": 3755
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "Twitter corpus",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 3755,
+            "end": 3770
+          },
+          "confidence": 0.9
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": null,
+          "unit": "percentage",
+          "evidence_span": {
+            "start": 4700,
+            "end": 4710
+          },
+          "confidence": 0.8
+        },
+        {
+          "name": "chunk-level F1 score",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 4710,
+            "end": 4730
+          },
+          "confidence": 0.8
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "state-of-the-art systems"
+      ],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "PARTIAL",
+        "task": "PARTIAL",
+        "datasets": "PARTIAL",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "(none)",
+    "consolidator_model": "(none)",
+    "tokens_in": 5291,
+    "tokens_out": 711,
+    "cost_usd": 0.00232591,
+    "wall_time_seconds": 19.61517358297715,
+    "voting_samples": 1
+  }
+}

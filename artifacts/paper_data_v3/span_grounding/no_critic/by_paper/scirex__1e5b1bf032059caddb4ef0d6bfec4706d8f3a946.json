@@ -1,0 +1,97 @@
+{
+  "paper_id": "scirex:1e5b1bf032059caddb4ef0d6bfec4706d8f3a946",
+  "contributions": [
+    {
+      "method": {
+        "name": "Recurrent Graph CNN (RGCNN)",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 1564,
+          "end": 1596
+        },
+        "confidence": 0.8
+      },
+      "task": {
+        "name": "matrix completion",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 24,
+          "end": 42
+        },
+        "confidence": 0.8
+      },
+      "datasets": [
+        {
+          "name": "MovieLens",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 3375,
+            "end": 3384
+          },
+          "confidence": 0.2
+        },
+        {
+          "name": "Flixster",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 3385,
+            "end": 3393
+          },
+          "confidence": 0.2
+        },
+        {
+          "name": "Douban",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 3394,
+            "end": 3400
+          },
+          "confidence": 0.2
+        },
+        {
+          "name": "YahooMusic",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 3401,
+            "end": 3411
+          },
+          "confidence": 0.2
+        }
+      ],
+      "metrics": [
+        {
+          "name": "RMSE",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 3978,
+            "end": 3983
+          },
+          "confidence": 0.8
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Geometric Matrix Completion (GMC)",
+        "Graph Regularized Alternating Least Squares (GRALS)"
+      ],
+      "self_consistency": 0.6,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "PARTIAL",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "(none)",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 21303,
+    "tokens_out": 4394,
+    "cost_usd": 0.011985329999999999,
+    "wall_time_seconds": 194.06453041697387,
+    "voting_samples": 3
+  }
+}
