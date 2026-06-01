@@ -1,0 +1,97 @@
+{
+  "paper_id": "scirex:193089d56758ab88391d846edd08d359b1f9a863",
+  "contributions": [
+    {
+      "method": {
+        "name": "siamese network combining identification and verification losses",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 190,
+          "end": 274
+        },
+        "confidence": 0.9
+      },
+      "task": {
+        "name": "person re-identification",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 60,
+          "end": 88
+        },
+        "confidence": 0.95
+      },
+      "datasets": [
+        {
+          "name": "Market1501",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2097,
+            "end": 2106
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "CUHK03",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2108,
+            "end": 2114
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "Oxford5k",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2121,
+            "end": 2129
+          },
+          "confidence": 0.8
+        }
+      ],
+      "metrics": [
+        {
+          "name": "rank-1 accuracy",
+          "value": 79.51,
+          "unit": "%",
+          "evidence_span": {
+            "start": 6552,
+            "end": 6567
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "mAP",
+          "value": 59.87,
+          "unit": "%",
+          "evidence_span": {
+            "start": 6569,
+            "end": 6579
+          },
+          "confidence": 0.9
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "state-of-the-art methods"
+      ],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "PARTIAL",
+        "task": "PARTIAL",
+        "datasets": "PARTIAL",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "(none)",
+    "consolidator_model": "(none)",
+    "tokens_in": 7048,
+    "tokens_out": 493,
+    "cost_usd": 0.00269413,
+    "wall_time_seconds": 18.739261582959443,
+    "voting_samples": 1
+  }
+}

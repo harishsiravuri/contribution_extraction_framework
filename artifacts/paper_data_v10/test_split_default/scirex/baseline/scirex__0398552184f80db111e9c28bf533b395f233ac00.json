@@ -1,0 +1,74 @@
+{
+  "paper_id": "scirex:0398552184f80db111e9c28bf533b395f233ac00",
+  "contributions": [
+    {
+      "method": {
+        "name": "Self-paced curriculum learning (SPCL)",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 1000,
+          "end": 1100
+        },
+        "confidence": 0.9
+      },
+      "task": {
+        "name": "Weakly-supervised object detection (WOD)",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 50,
+          "end": 100
+        },
+        "confidence": 0.95
+      },
+      "datasets": [
+        {
+          "name": "Pascal VOC 2007",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 5000,
+            "end": 5020
+          },
+          "confidence": 0.95
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Average Precision (AP)",
+          "value": 29.96,
+          "unit": null,
+          "evidence_span": {
+            "start": 6000,
+            "end": 6050
+          },
+          "confidence": 0.9
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "PR",
+        "CC",
+        "MDD",
+        "LLO",
+        "VPC",
+        "MfMIL"
+      ],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "PARTIAL",
+        "task": "PARTIAL",
+        "datasets": "PARTIAL",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "(none)",
+    "consolidator_model": "(none)",
+    "tokens_in": 5342,
+    "tokens_out": 350,
+    "cost_usd": 0.00202094,
+    "wall_time_seconds": 12.449304041918367,
+    "voting_samples": 1
+  }
+}

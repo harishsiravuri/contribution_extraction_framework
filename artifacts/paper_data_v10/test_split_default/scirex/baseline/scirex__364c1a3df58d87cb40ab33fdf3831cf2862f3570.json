@@ -1,0 +1,81 @@
+{
+  "paper_id": "scirex:364c1a3df58d87cb40ab33fdf3831cf2862f3570",
+  "contributions": [
+    {
+      "method": {
+        "name": "attention based neural matching model (aNMM)",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 100
+        },
+        "confidence": 0.9
+      },
+      "task": {
+        "name": "ranking short answer text",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 100
+        },
+        "confidence": 0.9
+      },
+      "datasets": [
+        {
+          "name": "TREC QA dataset from TREC QA tracks 8-13",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 200,
+            "end": 250
+          },
+          "confidence": 0.9
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Mean Average Precision (MAP)",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 1000,
+            "end": 1050
+          },
+          "confidence": 0.8
+        },
+        {
+          "name": "Mean Reciprocal Rank (MRR)",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 1050,
+            "end": 1100
+          },
+          "confidence": 0.8
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "CNNs",
+        "LSTMs",
+        "linguistic feature engineering methods"
+      ],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "PARTIAL",
+        "task": "PARTIAL",
+        "datasets": "PARTIAL",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "(none)",
+    "consolidator_model": "(none)",
+    "tokens_in": 8512,
+    "tokens_out": 399,
+    "cost_usd": 0.0030789500000000004,
+    "wall_time_seconds": 15.10008258302696,
+    "voting_samples": 1
+  }
+}

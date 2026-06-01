@@ -1,0 +1,129 @@
+{
+  "paper_id": "scirex:175f74a09241b6cb5101a2a09978095720db7d5f",
+  "contributions": [
+    {
+      "method": {
+        "name": "Dual-State Recurrent Network (DSRN)",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 195,
+          "end": 236
+        },
+        "confidence": 0.9
+      },
+      "task": {
+        "name": "image super-resolution",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 25,
+          "end": 47
+        },
+        "confidence": 0.95
+      },
+      "datasets": [
+        {
+          "name": "Set5",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2754,
+            "end": 2758
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "Set14",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2760,
+            "end": 2765
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "B100",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2767,
+            "end": 2771
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "Urban100",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2773,
+            "end": 2781
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "DIV2K",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 689,
+            "end": 694
+          },
+          "confidence": 0.9
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Peak Signal-to-Noise Ratio (PSNR)",
+          "value": null,
+          "unit": "dB",
+          "evidence_span": {
+            "start": 4438,
+            "end": 4476
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "Structural SIMilarity (SSIM)",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 4478,
+            "end": 4504
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "Information Fidelity Criterion (IFC)",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 4506,
+            "end": 4537
+          },
+          "confidence": 0.9
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "DRCN",
+        "DRRN",
+        "VDSR",
+        "LapSRN",
+        "EDSR"
+      ],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "PARTIAL",
+        "task": "PARTIAL",
+        "datasets": "PARTIAL",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "(none)",
+    "consolidator_model": "(none)",
+    "tokens_in": 5776,
+    "tokens_out": 671,
+    "cost_usd": 0.00244551,
+    "wall_time_seconds": 25.53924970794469,
+    "voting_samples": 1
+  }
+}

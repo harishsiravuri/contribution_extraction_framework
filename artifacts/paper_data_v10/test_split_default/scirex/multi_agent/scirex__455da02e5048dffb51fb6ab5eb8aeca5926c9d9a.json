@@ -1,0 +1,285 @@
+{
+  "paper_id": "scirex:455da02e5048dffb51fb6ab5eb8aeca5926c9d9a",
+  "contributions": [
+    {
+      "method": {
+        "name": "SPP-net",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 125,
+          "end": 132
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "image classification",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 2879,
+          "end": 2896
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "ImageNet 2012",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 204,
+            "end": 218
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 2879,
+            "end": 2896
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": null,
+      "comparison_targets": [
+        "CNN architectures"
+      ],
+      "self_consistency": 0.8,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    },
+    {
+      "method": {
+        "name": "SPP-net",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 125,
+          "end": 132
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "image classification",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 2879,
+          "end": 2896
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "Pascal VOC 2007",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 221,
+            "end": 237
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "mAP",
+          "value": 82.44,
+          "unit": "%",
+          "evidence_span": {
+            "start": 17340,
+            "end": 17351
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": null,
+      "comparison_targets": [
+        "state-of-the-art methods"
+      ],
+      "self_consistency": 0.8,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    },
+    {
+      "method": {
+        "name": "SPP-net",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 125,
+          "end": 132
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "image classification",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 2879,
+          "end": 2896
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "Caltech101",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 243,
+            "end": 252
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": 93.42,
+          "unit": "%",
+          "evidence_span": {
+            "start": 18640,
+            "end": 18646
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": null,
+      "comparison_targets": [
+        "previous record"
+      ],
+      "self_consistency": 0.8,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    },
+    {
+      "method": {
+        "name": "SPP-net",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 125,
+          "end": 132
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "object detection",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 489,
+          "end": 505
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "Pascal VOC 2007",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 221,
+            "end": 237
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "mAP",
+          "value": 59.2,
+          "unit": "%",
+          "evidence_span": {
+            "start": 15413,
+            "end": 15418
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": null,
+      "comparison_targets": [
+        "R-CNN"
+      ],
+      "self_consistency": 0.8,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    },
+    {
+      "method": {
+        "name": "SPP-net",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 125,
+          "end": 132
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "object detection",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 489,
+          "end": 505
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "ILSVRC 2014",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 342,
+            "end": 354
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "mAP",
+          "value": 35.11,
+          "unit": "%",
+          "evidence_span": {
+            "start": 22422,
+            "end": 22427
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": null,
+      "comparison_targets": [
+        "competition entries"
+      ],
+      "self_consistency": 0.8,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 54235,
+    "tokens_out": 7798,
+    "cost_usd": 0.02909468,
+    "wall_time_seconds": 172.75208504102193,
+    "voting_samples": 3
+  }
+}

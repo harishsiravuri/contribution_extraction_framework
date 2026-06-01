@@ -1,0 +1,110 @@
+{
+  "paper_id": "scirex:3cf31ecb2724b5088783d7c96a5fc0d5604cbf41",
+  "contributions": [
+    {
+      "method": {
+        "name": "Bidirectional LSTM (BiLSTM) feature representations",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 200
+        },
+        "confidence": 0.9
+      },
+      "task": {
+        "name": "dependency parsing",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 200
+        },
+        "confidence": 0.9
+      },
+      "datasets": [
+        {
+          "name": "Stanford Dependency (SD) conversion of the Penn Treebank",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 7000,
+            "end": 7100
+          },
+          "confidence": 0.8
+        },
+        {
+          "name": "Penn Chinese Treebank 5.1 (CTB5)",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 7100,
+            "end": 7200
+          },
+          "confidence": 0.8
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Unlabeled Attachment Score (UAS)",
+          "value": 93.1,
+          "unit": "%",
+          "evidence_span": {
+            "start": 1000,
+            "end": 1100
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "Unlabeled Attachment Score (UAS)",
+          "value": 86.6,
+          "unit": "%",
+          "evidence_span": {
+            "start": 1000,
+            "end": 1100
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "Unlabeled Attachment Score (UAS)",
+          "value": 93.9,
+          "unit": "%",
+          "evidence_span": {
+            "start": 1100,
+            "end": 1200
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "Unlabeled Attachment Score (UAS)",
+          "value": 87.6,
+          "unit": "%",
+          "evidence_span": {
+            "start": 1100,
+            "end": 1200
+          },
+          "confidence": 0.9
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "TurboParser",
+        "Zhang and Nivre (2011)",
+        "Stack-LSTM parser of dyer2015transitionbased"
+      ],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "PARTIAL",
+        "task": "PARTIAL",
+        "datasets": "PARTIAL",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "(none)",
+    "consolidator_model": "(none)",
+    "tokens_in": 8043,
+    "tokens_out": 601,
+    "cost_usd": 0.00310865,
+    "wall_time_seconds": 22.17039545881562,
+    "voting_samples": 1
+  }
+}

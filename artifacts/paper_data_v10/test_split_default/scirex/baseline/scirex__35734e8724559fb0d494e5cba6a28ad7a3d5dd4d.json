@@ -1,0 +1,176 @@
+{
+  "paper_id": "scirex:35734e8724559fb0d494e5cba6a28ad7a3d5dd4d",
+  "contributions": [
+    {
+      "method": {
+        "name": "fast gradient sign method",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 1565,
+          "end": 1595
+        },
+        "confidence": 0.9
+      },
+      "task": {
+        "name": "adversarial example generation",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 1565,
+          "end": 1595
+        },
+        "confidence": 0.9
+      },
+      "datasets": [
+        {
+          "name": "MNIST",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1619,
+            "end": 1624
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "CIFAR-10",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1767,
+            "end": 1775
+          },
+          "confidence": 0.9
+        }
+      ],
+      "metrics": [
+        {
+          "name": "error rate",
+          "value": 89.4,
+          "unit": "%",
+          "evidence_span": {
+            "start": 1700,
+            "end": 1705
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "average confidence",
+          "value": 97.6,
+          "unit": "%",
+          "evidence_span": {
+            "start": 1722,
+            "end": 1729
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "error rate",
+          "value": 87.15,
+          "unit": "%",
+          "evidence_span": {
+            "start": 1750,
+            "end": 1757
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "average probability",
+          "value": 96.6,
+          "unit": "%",
+          "evidence_span": {
+            "start": 1788,
+            "end": 1795
+          },
+          "confidence": 0.9
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "dropout",
+        "weight decay",
+        "model averaging"
+      ],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "PARTIAL",
+        "task": "PARTIAL",
+        "datasets": "PARTIAL",
+        "metrics": "PARTIAL"
+      }
+    },
+    {
+      "method": {
+        "name": "adversarial training",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 1565,
+          "end": 1595
+        },
+        "confidence": 0.9
+      },
+      "task": {
+        "name": "regularization",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 1565,
+          "end": 1595
+        },
+        "confidence": 0.9
+      },
+      "datasets": [
+        {
+          "name": "MNIST",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1619,
+            "end": 1624
+          },
+          "confidence": 0.9
+        }
+      ],
+      "metrics": [
+        {
+          "name": "test set error rate",
+          "value": 0.84,
+          "unit": "%",
+          "evidence_span": {
+            "start": 2408,
+            "end": 2413
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "error rate on adversarial examples",
+          "value": 17.9,
+          "unit": "%",
+          "evidence_span": {
+            "start": 2585,
+            "end": 2590
+          },
+          "confidence": 0.9
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "dropout",
+        "weight decay",
+        "model averaging"
+      ],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "PARTIAL",
+        "task": "PARTIAL",
+        "datasets": "PARTIAL",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "(none)",
+    "consolidator_model": "(none)",
+    "tokens_in": 7690,
+    "tokens_out": 937,
+    "cost_usd": 0.00329473,
+    "wall_time_seconds": 32.861966624855995,
+    "voting_samples": 1
+  }
+}

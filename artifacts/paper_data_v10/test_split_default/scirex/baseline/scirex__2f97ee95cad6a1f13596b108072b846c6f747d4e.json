@@ -1,0 +1,97 @@
+{
+  "paper_id": "scirex:2f97ee95cad6a1f13596b108072b846c6f747d4e",
+  "contributions": [
+    {
+      "method": {
+        "name": "Microsoft's conversational speech recognition system",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 200
+        },
+        "confidence": 0.9
+      },
+      "task": {
+        "name": "conversational telephone speech recognition (CTS)",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 700,
+          "end": 750
+        },
+        "confidence": 0.9
+      },
+      "datasets": [
+        {
+          "name": "Switchboard",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 3500,
+            "end": 3520
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "Fisher",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 3500,
+            "end": 3520
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "NIST 2000 CTS test set",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 3500,
+            "end": 3520
+          },
+          "confidence": 0.9
+        }
+      ],
+      "metrics": [
+        {
+          "name": "word error rate",
+          "value": 6.2,
+          "unit": "%",
+          "evidence_span": {
+            "start": 200,
+            "end": 220
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "word error rate",
+          "value": 6.9,
+          "unit": "%",
+          "evidence_span": {
+            "start": 200,
+            "end": 220
+          },
+          "confidence": 0.9
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "previously reported results on this benchmark task"
+      ],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "PARTIAL",
+        "task": "PARTIAL",
+        "datasets": "PARTIAL",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "(none)",
+    "consolidator_model": "(none)",
+    "tokens_in": 4742,
+    "tokens_out": 489,
+    "cost_usd": 0.0019526499999999998,
+    "wall_time_seconds": 19.796855083899572,
+    "voting_samples": 1
+  }
+}

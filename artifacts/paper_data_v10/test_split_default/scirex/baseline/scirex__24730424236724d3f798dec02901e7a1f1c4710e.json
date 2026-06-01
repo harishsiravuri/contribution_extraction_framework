@@ -1,0 +1,142 @@
+{
+  "paper_id": "scirex:24730424236724d3f798dec02901e7a1f1c4710e",
+  "contributions": [
+    {
+      "method": {
+        "name": "Joint Maximum Purity Forest (JMPF)",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 29,
+          "end": 84
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "classification, clustering, and regression",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 84,
+          "end": 127
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "Set5",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 3855,
+            "end": 3859
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "Set14",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 3861,
+            "end": 3866
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "B100",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 3868,
+            "end": 3872
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "General-100",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 3977,
+            "end": 3986
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "error rate",
+          "value": null,
+          "unit": "%",
+          "evidence_span": {
+            "start": 1813,
+            "end": 1823
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "root mean squared error",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 1833,
+            "end": 1858
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "PSNR",
+          "value": null,
+          "unit": "dB",
+          "evidence_span": {
+            "start": 3944,
+            "end": 3948
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "improvement on classification",
+          "value": 23.57,
+          "unit": "%",
+          "evidence_span": {
+            "start": 1916,
+            "end": 1953
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "improvement on regression",
+          "value": 23.13,
+          "unit": "%",
+          "evidence_span": {
+            "start": 1959,
+            "end": 1995
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "standard random forest",
+        "alternating decision forests (ADF)",
+        "alternating regression forests (ARF)",
+        "bicubic interpolation",
+        "sparse representation SR (Zeyde)",
+        "anchored neighborhood regression (ANR)",
+        "A+"
+      ],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "PARTIAL",
+        "task": "PARTIAL",
+        "datasets": "PARTIAL",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "(none)",
+    "consolidator_model": "(none)",
+    "tokens_in": 8793,
+    "tokens_out": 756,
+    "cost_usd": 0.0034866000000000003,
+    "wall_time_seconds": 34.859880624804646,
+    "voting_samples": 1
+  }
+}

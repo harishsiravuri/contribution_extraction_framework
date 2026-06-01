@@ -1,0 +1,233 @@
+{
+  "paper_id": "scirex:23d2d3a6ffebfecaa8930307fdcf451c147757c8",
+  "contributions": [
+    {
+      "method": {
+        "name": "SeqGAN",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 186,
+          "end": 192
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "sequence generation",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 141,
+          "end": 163
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "synthetic data",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2261,
+            "end": 2275
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "negative log-likelihood",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 1041,
+            "end": 1064
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "maximum likelihood methods",
+        "scheduled sampling",
+        "PG-BLEU"
+      ],
+      "self_consistency": 0.8,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "PARTIAL"
+      }
+    },
+    {
+      "method": {
+        "name": "SeqGAN",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 186,
+          "end": 192
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "poem generation",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 3054,
+          "end": 3067
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "Chinese poems",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 3054,
+            "end": 3067
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 3145,
+            "end": 3149
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "MLE"
+      ],
+      "self_consistency": 0.8,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "PARTIAL"
+      }
+    },
+    {
+      "method": {
+        "name": "SeqGAN",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 186,
+          "end": 192
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "speech language generation",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 3241,
+          "end": 3264
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "Obama political speeches",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 3275,
+            "end": 3295
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 3145,
+            "end": 3149
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "MLE"
+      ],
+      "self_consistency": 0.8,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "PARTIAL"
+      }
+    },
+    {
+      "method": {
+        "name": "SeqGAN",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 186,
+          "end": 192
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "music generation",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 3330,
+          "end": 3344
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "Nottingham dataset",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 3355,
+            "end": 3371
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 3145,
+            "end": 3149
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "MLE"
+      ],
+      "self_consistency": 0.8,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 37921,
+    "tokens_out": 6437,
+    "cost_usd": 0.021545360000000003,
+    "wall_time_seconds": 88.7784533330705,
+    "voting_samples": 3
+  }
+}

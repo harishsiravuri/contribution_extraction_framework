@@ -1,0 +1,93 @@
+{
+  "paper_id": "scirex:1f08598381af9146d0fd9a61b30d0e51a7331689",
+  "contributions": [
+    {
+      "method": {
+        "name": "Distributed Prioritized Experience Replay (Ape-X)",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 200
+        },
+        "confidence": 0.9
+      },
+      "task": {
+        "name": "deep reinforcement learning",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 200
+        },
+        "confidence": 0.9
+      },
+      "datasets": [
+        {
+          "name": "Arcade Learning Environment",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 300,
+            "end": 330
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "DeepMind Control Suite",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2500,
+            "end": 2525
+          },
+          "confidence": 0.9
+        }
+      ],
+      "metrics": [
+        {
+          "name": "human-normalized score",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 3500,
+            "end": 3600
+          },
+          "confidence": 0.8
+        },
+        {
+          "name": "wall-clock training time",
+          "value": null,
+          "unit": "seconds",
+          "evidence_span": {
+            "start": 300,
+            "end": 400
+          },
+          "confidence": 0.8
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "DQN",
+        "Prioritized DQN",
+        "Distributional DQN",
+        "Rainbow",
+        "Gorila",
+        "DDPG"
+      ],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "PARTIAL",
+        "task": "PARTIAL",
+        "datasets": "PARTIAL",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "(none)",
+    "consolidator_model": "(none)",
+    "tokens_in": 7840,
+    "tokens_out": 456,
+    "cost_usd": 0.00291464,
+    "wall_time_seconds": 18.945247375173494,
+    "voting_samples": 1
+  }
+}

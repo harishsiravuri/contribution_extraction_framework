@@ -1,0 +1,85 @@
+{
+  "paper_id": "scirex:3daa086acd367dc971a2dc1382caba2031294233",
+  "contributions": [
+    {
+      "method": {
+        "name": "ResNet-101 with differentiable CRF",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 3627,
+          "end": 3770
+        },
+        "confidence": 0.75
+      },
+      "task": {
+        "name": "instance-level part segmentation",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 1104,
+          "end": 1185
+        },
+        "confidence": 0.5
+      },
+      "datasets": [
+        {
+          "name": "Pascal Person-Parts",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2401,
+            "end": 2421
+          },
+          "confidence": 0.75
+        }
+      ],
+      "metrics": [
+        {
+          "name": "APr",
+          "value": 38.0,
+          "unit": "%",
+          "evidence_span": {
+            "start": 4375,
+            "end": 4381
+          },
+          "confidence": 0.25
+        },
+        {
+          "name": "mean IoU",
+          "value": 66.3,
+          "unit": "%",
+          "evidence_span": {
+            "start": 6498,
+            "end": 6508
+          },
+          "confidence": 0.25
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "MNC",
+        "DeepLab",
+        "HAZN",
+        "LG-LSTM",
+        "Graph LSTM",
+        "DeepLab v2",
+        "RefineNet"
+      ],
+      "self_consistency": 0.625,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 45015,
+    "tokens_out": 5101,
+    "cost_usd": 0.022992369999999998,
+    "wall_time_seconds": 202.9974865829572,
+    "voting_samples": 3
+  }
+}

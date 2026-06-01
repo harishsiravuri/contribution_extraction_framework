@@ -1,0 +1,285 @@
+{
+  "paper_id": "scirex:436b07bebaa1d1f05ef85415e10374048d25334d",
+  "contributions": [
+    {
+      "method": {
+        "name": "Sparsely-Gated Mixture-of-Experts Layer (MoE)",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 231,
+          "end": 283
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "language modeling",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 509,
+          "end": 526
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "1 Billion Word Language Modeling Benchmark",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1541,
+            "end": 1574
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "perplexity",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 2001,
+            "end": 2010
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "LSTM"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    },
+    {
+      "method": {
+        "name": "Sparsely-Gated Mixture-of-Experts Layer (MoE)",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 231,
+          "end": 283
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "machine translation",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 509,
+          "end": 526
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "WMT'14 En→Fr",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2501,
+            "end": 2534
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 40.56,
+          "unit": null,
+          "evidence_span": {
+            "start": 2701,
+            "end": 2710
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "GNMT"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    },
+    {
+      "method": {
+        "name": "Sparsely-Gated Mixture-of-Experts Layer (MoE)",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 231,
+          "end": 283
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "machine translation",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 509,
+          "end": 526
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "WMT'14 En→De",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 3401,
+            "end": 3413
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 26.03,
+          "unit": null,
+          "evidence_span": {
+            "start": 3601,
+            "end": 3606
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "GNMT"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    },
+    {
+      "method": {
+        "name": "Sparsely-Gated Mixture-of-Experts Layer (MoE)",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 231,
+          "end": 283
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "machine translation",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 509,
+          "end": 526
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "Google Production English to French",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 3801,
+            "end": 3830
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 4001,
+            "end": 4004
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "GNMT"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    },
+    {
+      "method": {
+        "name": "Sparsely-Gated Mixture-of-Experts Layer (MoE)",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 231,
+          "end": 283
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "multilingual machine translation",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 4201,
+          "end": 4231
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "Combined dataset of twelve language pairs",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 4401,
+            "end": 4464
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 4601,
+            "end": 4604
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "GNMT"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 49247,
+    "tokens_out": 7287,
+    "cost_usd": 0.02676163,
+    "wall_time_seconds": 128.48945312481374,
+    "voting_samples": 3
+  }
+}

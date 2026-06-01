@@ -1,0 +1,93 @@
+{
+  "paper_id": "scirex:0a6c36de8726b6feaab586046ddc1d1a008f44f9",
+  "contributions": [
+    {
+      "method": {
+        "name": "Filtered Channel Features",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 36
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "pedestrian detection",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 103,
+          "end": 123
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "Caltech",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1689,
+            "end": 1696
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "KITTI",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 239,
+            "end": 245
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "recall",
+          "value": 93.0,
+          "unit": "%",
+          "evidence_span": {
+            "start": 292,
+            "end": 303
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "FPPI",
+          "value": 1.0,
+          "unit": null,
+          "evidence_span": {
+            "start": 323,
+            "end": 328
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": null,
+      "comparison_targets": [
+        "HOG + LUV",
+        "ACF",
+        "InformedHaar",
+        "LDCF",
+        "SpatialPooling",
+        "Regionlets"
+      ],
+      "self_consistency": 0.875,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 36448,
+    "tokens_out": 5188,
+    "cost_usd": 0.01960122,
+    "wall_time_seconds": 101.50527866603807,
+    "voting_samples": 3
+  }
+}

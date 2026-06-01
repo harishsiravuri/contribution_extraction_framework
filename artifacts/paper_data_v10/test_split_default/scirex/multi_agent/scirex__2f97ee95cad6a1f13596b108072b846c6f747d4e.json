@@ -1,0 +1,223 @@
+{
+  "paper_id": "scirex:2f97ee95cad6a1f13596b108072b846c6f747d4e",
+  "contributions": [
+    {
+      "method": {
+        "name": "ResNet architecture acoustic model with RNNLM rescoring",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 498,
+          "end": 557
+        },
+        "confidence": 0.75
+      },
+      "task": {
+        "name": "conversational speech recognition",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 39,
+          "end": 82
+        },
+        "confidence": 0.75
+      },
+      "datasets": [
+        {
+          "name": "NIST 2000 Switchboard",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 550,
+            "end": 568
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "word error rate",
+          "value": 6.9,
+          "unit": "%",
+          "evidence_span": {
+            "start": 550,
+            "end": 577
+          },
+          "confidence": 0.5
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [],
+      "self_consistency": 0.875,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "PARTIAL"
+      }
+    },
+    {
+      "method": {
+        "name": "combined system (ensemble of acoustic models)",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 578,
+          "end": 639
+        },
+        "confidence": 0.5
+      },
+      "task": {
+        "name": "conversational speech recognition",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 39,
+          "end": 82
+        },
+        "confidence": 0.5
+      },
+      "datasets": [
+        {
+          "name": "NIST 2000 Switchboard",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 683,
+            "end": 701
+          },
+          "confidence": 0.5
+        }
+      ],
+      "metrics": [
+        {
+          "name": "word error rate",
+          "value": 6.2,
+          "unit": "%",
+          "evidence_span": {
+            "start": 683,
+            "end": 707
+          },
+          "confidence": 0.5
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [],
+      "self_consistency": 0.75,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    },
+    {
+      "method": {
+        "name": "CNN acoustic models with i-vector adaptation and LFMMI training",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 1950,
+          "end": 2040
+        },
+        "confidence": 0.25
+      },
+      "task": {
+        "name": "conversational speech recognition",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 39,
+          "end": 82
+        },
+        "confidence": 0.25
+      },
+      "datasets": [
+        {
+          "name": "NIST 2000 Switchboard",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 550,
+            "end": 568
+          },
+          "confidence": 0.25
+        }
+      ],
+      "metrics": [
+        {
+          "name": "word error rate reduction",
+          "value": 5.0,
+          "unit": "% (relative)",
+          "evidence_span": {
+            "start": 4838,
+            "end": 4883
+          },
+          "confidence": 0.25
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "PARTIAL"
+      }
+    },
+    {
+      "method": {
+        "name": "RNNLM rescoring",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 177,
+          "end": 188
+        },
+        "confidence": 0.25
+      },
+      "task": {
+        "name": "conversational speech recognition",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 39,
+          "end": 82
+        },
+        "confidence": 0.25
+      },
+      "datasets": [
+        {
+          "name": "NIST 2000 Switchboard",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 550,
+            "end": 568
+          },
+          "confidence": 0.25
+        }
+      ],
+      "metrics": [
+        {
+          "name": "word error reduction",
+          "value": 20.0,
+          "unit": "% (relative)",
+          "evidence_span": {
+            "start": 6145,
+            "end": 6193
+          },
+          "confidence": 0.25
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 24932,
+    "tokens_out": 4808,
+    "cost_usd": 0.01463781,
+    "wall_time_seconds": 71.3774352078326,
+    "voting_samples": 3
+  }
+}

@@ -1,0 +1,111 @@
+{
+  "paper_id": "scirex:0834e74304b547c9354b6d7da6fa78ef47a48fa8",
+  "contributions": [
+    {
+      "method": {
+        "name": "LINE",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 200
+        },
+        "confidence": 0.95
+      },
+      "task": {
+        "name": "network embedding",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 200
+        },
+        "confidence": 0.95
+      },
+      "datasets": [
+        {
+          "name": "language network",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2000,
+            "end": 2100
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "social networks",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2100,
+            "end": 2200
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "citation networks",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2200,
+            "end": 2300
+          },
+          "confidence": 0.9
+        }
+      ],
+      "metrics": [
+        {
+          "name": "time to learn embedding",
+          "value": 3.0,
+          "unit": "hours",
+          "evidence_span": {
+            "start": 300,
+            "end": 400
+          },
+          "confidence": 0.8
+        },
+        {
+          "name": "effectiveness",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 400,
+            "end": 500
+          },
+          "confidence": 0.8
+        },
+        {
+          "name": "efficiency",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 500,
+            "end": 600
+          },
+          "confidence": 0.8
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "MDS",
+        "IsoMap",
+        "Laplacian eigenmap",
+        "DeepWalk",
+        "graph factorization"
+      ],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "PARTIAL",
+        "task": "PARTIAL",
+        "datasets": "PARTIAL",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "(none)",
+    "consolidator_model": "(none)",
+    "tokens_in": 10386,
+    "tokens_out": 589,
+    "cost_usd": 0.0038477299999999997,
+    "wall_time_seconds": 22.990465166978538,
+    "voting_samples": 1
+  }
+}

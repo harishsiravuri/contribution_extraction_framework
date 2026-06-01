@@ -1,0 +1,102 @@
+{
+  "paper_id": "scirex:0a6c36de8726b6feaab586046ddc1d1a008f44f9",
+  "contributions": [
+    {
+      "method": {
+        "name": "Filtered Channel Features",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 200
+        },
+        "confidence": 0.9
+      },
+      "task": {
+        "name": "Pedestrian Detection",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 250,
+          "end": 300
+        },
+        "confidence": 0.95
+      },
+      "datasets": [
+        {
+          "name": "Caltech",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 350,
+            "end": 400
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "KITTI",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 350,
+            "end": 400
+          },
+          "confidence": 0.9
+        }
+      ],
+      "metrics": [
+        {
+          "name": "recall at 1 FPPI",
+          "value": 93.0,
+          "unit": "%",
+          "evidence_span": {
+            "start": 350,
+            "end": 400
+          },
+          "confidence": 0.85
+        },
+        {
+          "name": "log-average miss-rate",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 1200,
+            "end": 1250
+          },
+          "confidence": 0.8
+        },
+        {
+          "name": "average precision",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 1250,
+            "end": 1300
+          },
+          "confidence": 0.8
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "ACF",
+        "InformedHaar",
+        "LDCF",
+        "SpatialPooling",
+        "Regionlets"
+      ],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "PARTIAL",
+        "task": "PARTIAL",
+        "datasets": "PARTIAL",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "(none)",
+    "consolidator_model": "(none)",
+    "tokens_in": 7356,
+    "tokens_out": 502,
+    "cost_usd": 0.0028006999999999997,
+    "wall_time_seconds": 18.209629625082016,
+    "voting_samples": 1
+  }
+}

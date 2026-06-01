@@ -1,0 +1,79 @@
+{
+  "paper_id": "scirex:3acc07f7f8951617276cf99483ed02aeb0a6eeac",
+  "contributions": [
+    {
+      "method": {
+        "name": "curriculum-style domain adaptation",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 156,
+          "end": 183
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "semantic segmentation",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 104,
+          "end": 127
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "Cityscapes",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2721,
+            "end": 2731
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "SYNTHIA",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2844,
+            "end": 2851
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "IoU",
+          "value": 28.1,
+          "unit": "%",
+          "evidence_span": {
+            "start": 3435,
+            "end": 3441
+          },
+          "confidence": 0.5
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "NoAdapt",
+        "Hoffman et al."
+      ],
+      "self_consistency": 0.875,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 35053,
+    "tokens_out": 3875,
+    "cost_usd": 0.01763551,
+    "wall_time_seconds": 92.81567483302206,
+    "voting_samples": 3
+  }
+}

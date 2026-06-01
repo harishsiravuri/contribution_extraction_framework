@@ -1,0 +1,162 @@
+{
+  "paper_id": "scirex:27aa0f3ec934925265f93fac7ff1cd1d70ceb618",
+  "contributions": [
+    {
+      "method": {
+        "name": "Multi-task Tri-training",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 1922,
+          "end": 1952
+        },
+        "confidence": 0.9
+      },
+      "task": {
+        "name": "sentiment analysis",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 1151,
+          "end": 1167
+        },
+        "confidence": 0.9
+      },
+      "datasets": [
+        {
+          "name": "Amazon Reviews",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 3763,
+            "end": 3779
+          },
+          "confidence": 0.9
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": null,
+          "unit": "percentage",
+          "evidence_span": null,
+          "confidence": 0.8
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "tri-training",
+        "asymmetric tri-training",
+        "state of the art"
+      ],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "PARTIAL",
+        "task": "PARTIAL",
+        "datasets": "PARTIAL",
+        "metrics": "PARTIAL"
+      }
+    },
+    {
+      "method": {
+        "name": "tri-training",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 265,
+          "end": 277
+        },
+        "confidence": 0.9
+      },
+      "task": {
+        "name": "POS tagging",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 1151,
+          "end": 1161
+        },
+        "confidence": 0.9
+      },
+      "datasets": [
+        {
+          "name": "SANCL 2012",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 4216,
+            "end": 4227
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "Penn Treebank WSJ",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 4324,
+            "end": 4347
+          },
+          "confidence": 0.9
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": 89.7,
+          "unit": "percentage",
+          "evidence_span": {
+            "start": 6519,
+            "end": 6525
+          },
+          "confidence": 0.8
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "self-training",
+        "FLORS tagger"
+      ],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "PARTIAL",
+        "task": "PARTIAL",
+        "datasets": "PARTIAL",
+        "metrics": "PARTIAL"
+      }
+    },
+    {
+      "method": {
+        "name": "tri-training",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 265,
+          "end": 277
+        },
+        "confidence": 0.9
+      },
+      "task": {
+        "name": "semantic role labeling",
+        "canonical_id": null,
+        "evidence_span": null,
+        "confidence": 0.5
+      },
+      "datasets": [],
+      "metrics": [],
+      "claim_strength": "comparable",
+      "comparison_targets": [
+        "state of the art"
+      ],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "PARTIAL",
+        "task": "PARTIAL",
+        "datasets": "PARTIAL",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "(none)",
+    "consolidator_model": "(none)",
+    "tokens_in": 6513,
+    "tokens_out": 846,
+    "cost_usd": 0.0028371,
+    "wall_time_seconds": 32.641284374985844,
+    "voting_samples": 1
+  }
+}

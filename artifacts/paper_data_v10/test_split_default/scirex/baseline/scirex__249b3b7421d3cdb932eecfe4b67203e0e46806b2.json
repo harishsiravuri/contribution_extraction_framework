@@ -1,0 +1,96 @@
+{
+  "paper_id": "scirex:249b3b7421d3cdb932eecfe4b67203e0e46806b2",
+  "contributions": [
+    {
+      "method": {
+        "name": "Cell-aware Stacked LSTM (CAS-LSTM)",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 200
+        },
+        "confidence": 0.9
+      },
+      "task": {
+        "name": "sentence representation learning",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 500,
+          "end": 600
+        },
+        "confidence": 0.8
+      },
+      "datasets": [
+        {
+          "name": "SNLI",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1000,
+            "end": 1010
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "MultiNLI",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1010,
+            "end": 1020
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "Quora Question Pairs",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1020,
+            "end": 1040
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "SST",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1040,
+            "end": 1050
+          },
+          "confidence": 0.9
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": 87.0,
+          "unit": "%",
+          "evidence_span": {
+            "start": 1500,
+            "end": 1520
+          },
+          "confidence": 0.9
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "stacked LSTMs"
+      ],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "PARTIAL",
+        "task": "PARTIAL",
+        "datasets": "PARTIAL",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "(none)",
+    "consolidator_model": "(none)",
+    "tokens_in": 5475,
+    "tokens_out": 484,
+    "cost_usd": 0.00218276,
+    "wall_time_seconds": 19.41337770805694,
+    "voting_samples": 1
+  }
+}

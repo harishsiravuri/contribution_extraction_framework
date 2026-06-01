@@ -1,0 +1,99 @@
+{
+  "paper_id": "scirex:11356cd6bb0f2776a88cd584ff108470414c6594",
+  "contributions": [
+    {
+      "method": {
+        "name": "Submanifold Sparse Convolutional Networks (VSC)",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 2000
+        },
+        "confidence": 0.9
+      },
+      "task": {
+        "name": "sparse data processing",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 100,
+          "end": 300
+        },
+        "confidence": 0.8
+      },
+      "datasets": [
+        {
+          "name": "CASIA",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2500,
+            "end": 2600
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "ModelNet-40",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2700,
+            "end": 2800
+          },
+          "confidence": 0.9
+        }
+      ],
+      "metrics": [
+        {
+          "name": "computational efficiency",
+          "value": null,
+          "unit": "factor reduction",
+          "evidence_span": {
+            "start": 2900,
+            "end": 3000
+          },
+          "confidence": 0.8
+        },
+        {
+          "name": "memory requirements",
+          "value": null,
+          "unit": "factor reduction",
+          "evidence_span": {
+            "start": 3000,
+            "end": 3100
+          },
+          "confidence": 0.8
+        },
+        {
+          "name": "accuracy",
+          "value": null,
+          "unit": "error rate",
+          "evidence_span": {
+            "start": 3200,
+            "end": 3300
+          },
+          "confidence": 0.7
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "OctNets",
+        "dense convolutional networks"
+      ],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "PARTIAL",
+        "task": "PARTIAL",
+        "datasets": "PARTIAL",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "(none)",
+    "consolidator_model": "(none)",
+    "tokens_in": 5272,
+    "tokens_out": 494,
+    "cost_usd": 0.0021267,
+    "wall_time_seconds": 17.907662708079442,
+    "voting_samples": 1
+  }
+}

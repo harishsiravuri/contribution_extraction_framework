@@ -1,0 +1,100 @@
+{
+  "paper_id": "scirex:33261d252218007147a71e40f8367ed152fa2fe0",
+  "contributions": [
+    {
+      "method": {
+        "name": "Subgraph Embeddings for Question Answering",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 223,
+          "end": 320
+        },
+        "confidence": 0.9
+      },
+      "task": {
+        "name": "open-domain question answering",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 480,
+          "end": 542
+        },
+        "confidence": 0.9
+      },
+      "datasets": [
+        {
+          "name": "WebQuestions",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1786,
+            "end": 1800
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "Freebase",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1879,
+            "end": 1887
+          },
+          "confidence": 0.9
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1 (Berant)",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 4675,
+            "end": 4686
+          },
+          "confidence": 0.8
+        },
+        {
+          "name": "F1 (Yao)",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 4694,
+            "end": 4702
+          },
+          "confidence": 0.8
+        },
+        {
+          "name": "Precision @1",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 4707,
+            "end": 4715
+          },
+          "confidence": 0.8
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "[reference]",
+        "[reference]",
+        "[reference]"
+      ],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "PARTIAL",
+        "task": "PARTIAL",
+        "datasets": "PARTIAL",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "(none)",
+    "consolidator_model": "(none)",
+    "tokens_in": 4797,
+    "tokens_out": 504,
+    "cost_usd": 0.0019836000000000003,
+    "wall_time_seconds": 16.11951266694814,
+    "voting_samples": 1
+  }
+}

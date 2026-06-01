@@ -1,0 +1,80 @@
+{
+  "paper_id": "scirex:364c1a3df58d87cb40ab33fdf3831cf2862f3570",
+  "contributions": [
+    {
+      "method": {
+        "name": "aNMM",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 155,
+          "end": 160
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "question answering",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 106,
+          "end": 119
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "TREC QA",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 500,
+            "end": 507
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "MAP",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 1834,
+            "end": 1837
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "MRR",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 1840,
+            "end": 1843
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "CNN",
+        "LSTM"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 46138,
+    "tokens_out": 8720,
+    "cost_usd": 0.02746614,
+    "wall_time_seconds": 437.366787499981,
+    "voting_samples": 3
+  }
+}

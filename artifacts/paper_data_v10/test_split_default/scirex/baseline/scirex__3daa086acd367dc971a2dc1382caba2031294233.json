@@ -1,0 +1,84 @@
+{
+  "paper_id": "scirex:3daa086acd367dc971a2dc1382caba2031294233",
+  "contributions": [
+    {
+      "method": {
+        "name": "holistic instance-level human parsing network",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 200
+        },
+        "confidence": 0.9
+      },
+      "task": {
+        "name": "instance-level human parsing",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 200
+        },
+        "confidence": 0.9
+      },
+      "datasets": [
+        {
+          "name": "Pascal Person-Parts",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2500,
+            "end": 2520
+          },
+          "confidence": 0.9
+        }
+      ],
+      "metrics": [
+        {
+          "name": "AP_r at 0.5",
+          "value": 38.0,
+          "unit": "%",
+          "evidence_span": {
+            "start": 5000,
+            "end": 5020
+          },
+          "confidence": 0.8
+        },
+        {
+          "name": "AP_r vol",
+          "value": null,
+          "unit": "%",
+          "evidence_span": {
+            "start": 5050,
+            "end": 5070
+          },
+          "confidence": 0.8
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "MNC",
+        "DeepLab-v2",
+        "HAZN",
+        "LG-LSTM",
+        "Graph LSTM",
+        "RefineNet"
+      ],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "PARTIAL",
+        "task": "PARTIAL",
+        "datasets": "PARTIAL",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "(none)",
+    "consolidator_model": "(none)",
+    "tokens_in": 9431,
+    "tokens_out": 407,
+    "cost_usd": 0.00338015,
+    "wall_time_seconds": 17.67583533306606,
+    "voting_samples": 1
+  }
+}

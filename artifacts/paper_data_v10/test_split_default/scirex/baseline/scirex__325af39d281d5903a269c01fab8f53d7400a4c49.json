@@ -1,0 +1,88 @@
+{
+  "paper_id": "scirex:325af39d281d5903a269c01fab8f53d7400a4c49",
+  "contributions": [
+    {
+      "method": {
+        "name": "ArtTrack",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 77
+        },
+        "confidence": 0.9
+      },
+      "task": {
+        "name": "articulated multi-person tracking in unconstrained videos",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 77
+        },
+        "confidence": 0.9
+      },
+      "datasets": [
+        {
+          "name": "MPII Human Pose",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 552,
+            "end": 567
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "MPII Video Pose",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 584,
+            "end": 601
+          },
+          "confidence": 0.9
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Average Precision (AP)",
+          "value": 72.6,
+          "unit": "%",
+          "evidence_span": {
+            "start": 7407,
+            "end": 7416
+          },
+          "confidence": 0.8
+        },
+        {
+          "name": "MOTA",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 7968,
+            "end": 7972
+          },
+          "confidence": 0.7
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "DeeperCut"
+      ],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "PARTIAL",
+        "task": "PARTIAL",
+        "datasets": "PARTIAL",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "(none)",
+    "consolidator_model": "(none)",
+    "tokens_in": 7482,
+    "tokens_out": 433,
+    "cost_usd": 0.00277961,
+    "wall_time_seconds": 20.91113366605714,
+    "voting_samples": 1
+  }
+}

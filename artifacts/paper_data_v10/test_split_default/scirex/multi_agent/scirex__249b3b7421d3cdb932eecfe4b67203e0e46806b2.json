@@ -1,0 +1,180 @@
+{
+  "paper_id": "scirex:249b3b7421d3cdb932eecfe4b67203e0e46806b2",
+  "contributions": [
+    {
+      "method": {
+        "name": "Cell-aware Stacked LSTM (CAS-LSTM)",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 15,
+          "end": 109
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "natural language inference",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 1173,
+          "end": 1195
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "SNLI",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1173,
+            "end": 1177
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "MultiNLI",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1183,
+            "end": 1191
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": 87.0,
+          "unit": "%",
+          "evidence_span": {
+            "start": 2560,
+            "end": 2565
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "stacked LSTMs"
+      ],
+      "self_consistency": 0.875,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    },
+    {
+      "method": {
+        "name": "Cell-aware Stacked LSTM (CAS-LSTM)",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 15,
+          "end": 109
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "paraphrase detection",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 1197,
+          "end": 1215
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "Quora Question Pairs",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1197,
+            "end": 1215
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": null,
+          "unit": null,
+          "evidence_span": null,
+          "confidence": 0.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "stacked LSTMs"
+      ],
+      "self_consistency": 0.75,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "UNSUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "UNSUPPORTED"
+      }
+    },
+    {
+      "method": {
+        "name": "Cell-aware Stacked LSTM (CAS-LSTM)",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 15,
+          "end": 109
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "sentiment classification",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 1217,
+          "end": 1236
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "SST",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1217,
+            "end": 1220
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": null,
+          "unit": null,
+          "evidence_span": null,
+          "confidence": 0.0
+        }
+      ],
+      "claim_strength": "comparable",
+      "comparison_targets": [
+        "stacked LSTMs"
+      ],
+      "self_consistency": 0.75,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "UNSUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "UNSUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 29116,
+    "tokens_out": 5376,
+    "cost_usd": 0.01708287,
+    "wall_time_seconds": 123.97670775000006,
+    "voting_samples": 3
+  }
+}

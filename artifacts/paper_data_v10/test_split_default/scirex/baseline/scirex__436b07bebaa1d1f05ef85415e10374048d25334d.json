@@ -1,0 +1,107 @@
+{
+  "paper_id": "scirex:436b07bebaa1d1f05ef85415e10374048d25334d",
+  "contributions": [
+    {
+      "method": {
+        "name": "Sparsely-Gated Mixture-of-Experts Layer (MoE)",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 81,
+          "end": 171
+        },
+        "confidence": 0.9
+      },
+      "task": {
+        "name": "language modeling and machine translation",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 325,
+          "end": 385
+        },
+        "confidence": 0.95
+      },
+      "datasets": [
+        {
+          "name": "1 Billion Word Language Modeling Benchmark",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1236,
+            "end": 1285
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "100 Billion Word Google News Corpus",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2213,
+            "end": 2257
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "WMT'14 En→Fr and En→De corpora",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2638,
+            "end": 2678
+          },
+          "confidence": 0.9
+        }
+      ],
+      "metrics": [
+        {
+          "name": "perplexity",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 1563,
+            "end": 1573
+          },
+          "confidence": 0.8
+        },
+        {
+          "name": "BLEU score",
+          "value": 40.56,
+          "unit": null,
+          "evidence_span": {
+            "start": 2879,
+            "end": 2887
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "computational efficiency",
+          "value": 0.72,
+          "unit": "TFLOPS/GPU",
+          "evidence_span": {
+            "start": 2502,
+            "end": 2525
+          },
+          "confidence": 0.8
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "state-of-the-art"
+      ],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "PARTIAL",
+        "task": "PARTIAL",
+        "datasets": "PARTIAL",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "(none)",
+    "consolidator_model": "(none)",
+    "tokens_in": 10096,
+    "tokens_out": 575,
+    "cost_usd": 0.0037424700000000003,
+    "wall_time_seconds": 18.108313750009984,
+    "voting_samples": 1
+  }
+}

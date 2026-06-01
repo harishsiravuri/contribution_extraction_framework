@@ -1,0 +1,69 @@
+{
+  "paper_id": "scirex:0dc9eb7d17f2def56ad930945f2521653f04c3fa",
+  "contributions": [
+    {
+      "method": {
+        "name": "Sparse Non-negative Matrix (SNM) estimation",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 43,
+          "end": 100
+        },
+        "confidence": 0.75
+      },
+      "task": {
+        "name": "language modeling",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 85,
+          "end": 101
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "One Billion Word Benchmark",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 181,
+            "end": 208
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "perplexity",
+          "value": 54.2,
+          "unit": null,
+          "evidence_span": {
+            "start": 5525,
+            "end": 5529
+          },
+          "confidence": 0.5
+        }
+      ],
+      "claim_strength": "comparable",
+      "comparison_targets": [
+        "Kneser-Ney (KN)"
+      ],
+      "self_consistency": 0.875,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 27323,
+    "tokens_out": 3754,
+    "cost_usd": 0.01466897,
+    "wall_time_seconds": 52.26994995796122,
+    "voting_samples": 3
+  }
+}

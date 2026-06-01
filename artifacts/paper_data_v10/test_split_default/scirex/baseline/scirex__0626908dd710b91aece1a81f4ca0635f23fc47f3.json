@@ -1,0 +1,81 @@
+{
+  "paper_id": "scirex:0626908dd710b91aece1a81f4ca0635f23fc47f3",
+  "contributions": [
+    {
+      "method": {
+        "name": "Inception-v3",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 1000
+        },
+        "confidence": 0.9
+      },
+      "task": {
+        "name": "Image Classification",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 200
+        },
+        "confidence": 0.9
+      },
+      "datasets": [
+        {
+          "name": "ILSVRC 2012",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 300,
+            "end": 350
+          },
+          "confidence": 0.9
+        }
+      ],
+      "metrics": [
+        {
+          "name": "top-1 error",
+          "value": 21.2,
+          "unit": "%",
+          "evidence_span": {
+            "start": 3500,
+            "end": 3600
+          },
+          "confidence": 0.8
+        },
+        {
+          "name": "top-5 error",
+          "value": 5.6,
+          "unit": "%",
+          "evidence_span": {
+            "start": 3600,
+            "end": 3700
+          },
+          "confidence": 0.8
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "GoogLeNet",
+        "VGGNet",
+        "AlexNet"
+      ],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "PARTIAL",
+        "task": "PARTIAL",
+        "datasets": "PARTIAL",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "(none)",
+    "consolidator_model": "(none)",
+    "tokens_in": 5994,
+    "tokens_out": 395,
+    "cost_usd": 0.0022696300000000003,
+    "wall_time_seconds": 16.2765997920651,
+    "voting_samples": 1
+  }
+}

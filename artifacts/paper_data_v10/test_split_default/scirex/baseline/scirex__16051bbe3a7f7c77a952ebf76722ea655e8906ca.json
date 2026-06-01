@@ -1,0 +1,88 @@
+{
+  "paper_id": "scirex:16051bbe3a7f7c77a952ebf76722ea655e8906ca",
+  "contributions": [
+    {
+      "method": {
+        "name": "Feature-Augmented Random Forest (FARF)",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 118,
+          "end": 186
+        },
+        "confidence": 0.9
+      },
+      "task": {
+        "name": "Single Image Super-Resolution (SISR)",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 118,
+          "end": 186
+        },
+        "confidence": 0.9
+      },
+      "datasets": [
+        {
+          "name": "Set5",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 10800,
+            "end": 10805
+          },
+          "confidence": 0.8
+        },
+        {
+          "name": "Set14",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 10800,
+            "end": 10805
+          },
+          "confidence": 0.8
+        },
+        {
+          "name": "B100",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 10800,
+            "end": 10805
+          },
+          "confidence": 0.8
+        }
+      ],
+      "metrics": [
+        {
+          "name": "PSNR",
+          "value": 0.3,
+          "unit": "dB",
+          "evidence_span": {
+            "start": 10800,
+            "end": 10850
+          },
+          "confidence": 0.9
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "traditional RF-based methods",
+        "SRCNN"
+      ],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "PARTIAL",
+        "task": "PARTIAL",
+        "datasets": "PARTIAL",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "(none)",
+    "consolidator_model": "(none)",
+    "tokens_in": 8718,
+    "tokens_out": 441,
+    "cost_usd": 0.00318225,
+    "wall_time_seconds": 16.783832833869383,
+    "voting_samples": 1
+  }
+}

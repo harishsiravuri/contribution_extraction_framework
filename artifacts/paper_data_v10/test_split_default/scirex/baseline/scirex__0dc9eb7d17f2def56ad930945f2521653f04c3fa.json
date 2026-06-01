@@ -1,0 +1,70 @@
+{
+  "paper_id": "scirex:0dc9eb7d17f2def56ad930945f2521653f04c3fa",
+  "contributions": [
+    {
+      "method": {
+        "name": "Sparse Non-negative Matrix (SNM) estimation",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 200
+        },
+        "confidence": 0.9
+      },
+      "task": {
+        "name": "Language Modeling",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 200
+        },
+        "confidence": 0.9
+      },
+      "datasets": [
+        {
+          "name": "One Billion Word Benchmark",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 200,
+            "end": 300
+          },
+          "confidence": 0.9
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Perplexity",
+          "value": 41.3,
+          "unit": null,
+          "evidence_span": {
+            "start": 3000,
+            "end": 3100
+          },
+          "confidence": 0.8
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Kneser-Ney (KN) models",
+        "Recurrent Neural Network (RNN) LMs"
+      ],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "PARTIAL",
+        "task": "PARTIAL",
+        "datasets": "PARTIAL",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "(none)",
+    "consolidator_model": "(none)",
+    "tokens_in": 5432,
+    "tokens_out": 341,
+    "cost_usd": 0.0020417300000000003,
+    "wall_time_seconds": 7.015657332958654,
+    "voting_samples": 1
+  }
+}

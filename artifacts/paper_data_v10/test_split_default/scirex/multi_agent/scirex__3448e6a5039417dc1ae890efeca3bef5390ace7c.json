@@ -1,0 +1,187 @@
+{
+  "paper_id": "scirex:3448e6a5039417dc1ae890efeca3bef5390ace7c",
+  "contributions": [
+    {
+      "method": {
+        "name": "eXtreme Deep Factorization Machine (xDeepFM)",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 1612,
+          "end": 1698
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "recommender systems",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 548,
+          "end": 633
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "Criteo Dataset",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 5708,
+            "end": 5812
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "Dianping Dataset",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 5813,
+            "end": 5955
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "Bing News Dataset",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 5956,
+            "end": 6076
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "AUC",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 6284,
+            "end": 6287
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "Logloss",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 6292,
+            "end": 6298
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "LR",
+        "FM",
+        "DNN",
+        "PNN",
+        "Wide & Deep",
+        "DCN",
+        "DeepFM"
+      ],
+      "self_consistency": 0.875,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    },
+    {
+      "method": {
+        "name": "Compressed Interaction Network (CIN)",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 1781,
+          "end": 1874
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "recommender systems",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 548,
+          "end": 633
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "Criteo Dataset",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 5708,
+            "end": 5812
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "Dianping Dataset",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 5813,
+            "end": 5955
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "Bing News Dataset",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 5956,
+            "end": 6076
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "AUC",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 6284,
+            "end": 6287
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "Logloss",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 6292,
+            "end": 6298
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "FM",
+        "DNN",
+        "CrossNet"
+      ],
+      "self_consistency": 0.875,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 39985,
+    "tokens_out": 6932,
+    "cost_usd": 0.02301906,
+    "wall_time_seconds": 157.6464115830604,
+    "voting_samples": 3
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "paper_id": "scirex:05d2700846c0323f79c1344aca5333994c7c03a5",
+  "contributions": [
+    {
+      "method": {
+        "name": "hybrid HMM decoding with score fusion of recurrent nets, very deep convolutional nets, and bidirectional LSTMs",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 1000
+        },
+        "confidence": 0.9
+      },
+      "task": {
+        "name": "English conversational telephone speech recognition",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 1000
+        },
+        "confidence": 0.9
+      },
+      "datasets": [
+        {
+          "name": "Switchboard subset of the Hub5 2000 evaluation testset",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 100,
+            "end": 200
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "Switchboard + Fisher dataset",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1000,
+            "end": 1200
+          },
+          "confidence": 0.8
+        }
+      ],
+      "metrics": [
+        {
+          "name": "word error rate",
+          "value": 6.6,
+          "unit": "%",
+          "evidence_span": {
+            "start": 80,
+            "end": 100
+          },
+          "confidence": 0.9
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "previous best model",
+        "human performance"
+      ],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "PARTIAL",
+        "task": "PARTIAL",
+        "datasets": "PARTIAL",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "(none)",
+    "consolidator_model": "(none)",
+    "tokens_in": 4076,
+    "tokens_out": 402,
+    "cost_usd": 0.0016621,
+    "wall_time_seconds": 17.918058124836534,
+    "voting_samples": 1
+  }
+}

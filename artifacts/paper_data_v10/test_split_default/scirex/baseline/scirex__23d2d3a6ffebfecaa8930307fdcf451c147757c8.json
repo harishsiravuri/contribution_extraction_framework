@@ -1,0 +1,118 @@
+{
+  "paper_id": "scirex:23d2d3a6ffebfecaa8930307fdcf451c147757c8",
+  "contributions": [
+    {
+      "method": {
+        "name": "SeqGAN",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 100
+        },
+        "confidence": 0.9
+      },
+      "task": {
+        "name": "sequence generation",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 100
+        },
+        "confidence": 0.9
+      },
+      "datasets": [
+        {
+          "name": "synthetic data",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1200,
+            "end": 1213
+          },
+          "confidence": 0.8
+        },
+        {
+          "name": "Chinese quatrains",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 6300,
+            "end": 6316
+          },
+          "confidence": 0.8
+        },
+        {
+          "name": "Obama political speeches",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 6350,
+            "end": 6373
+          },
+          "confidence": 0.8
+        },
+        {
+          "name": "Nottingham dataset",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 6800,
+            "end": 6817
+          },
+          "confidence": 0.8
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 6400,
+            "end": 6404
+          },
+          "confidence": 0.8
+        },
+        {
+          "name": "human judgement",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 6500,
+            "end": 6515
+          },
+          "confidence": 0.8
+        },
+        {
+          "name": "mean squared error (MSE)",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 6900,
+            "end": 6920
+          },
+          "confidence": 0.8
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "maximum likelihood methods",
+        "scheduled sampling",
+        "PG-BLEU"
+      ],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "PARTIAL",
+        "task": "PARTIAL",
+        "datasets": "PARTIAL",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "(none)",
+    "consolidator_model": "(none)",
+    "tokens_in": 7417,
+    "tokens_out": 646,
+    "cost_usd": 0.00294838,
+    "wall_time_seconds": 25.818352249916643,
+    "voting_samples": 1
+  }
+}

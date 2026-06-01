@@ -1,0 +1,107 @@
+{
+  "paper_id": "scirex:2f56b1ac5b9faac9527b6814778925e9242cf5fd",
+  "contributions": [
+    {
+      "method": {
+        "name": "Online Hard Example Mining (OHEM)",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 185,
+          "end": 207
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "object detection",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 38,
+          "end": 53
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "PASCAL VOC 2007",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 444,
+            "end": 459
+          },
+          "confidence": 0.5
+        },
+        {
+          "name": "PASCAL VOC 2012",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 463,
+            "end": 478
+          },
+          "confidence": 0.5
+        },
+        {
+          "name": "MS COCO",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 368,
+            "end": 377
+          },
+          "confidence": 0.5
+        }
+      ],
+      "metrics": [
+        {
+          "name": "mAP",
+          "value": 78.9,
+          "unit": "%",
+          "evidence_span": {
+            "start": 492,
+            "end": 498
+          },
+          "confidence": 0.5
+        },
+        {
+          "name": "mAP",
+          "value": 76.3,
+          "unit": "%",
+          "evidence_span": {
+            "start": 511,
+            "end": 517
+          },
+          "confidence": 0.5
+        },
+        {
+          "name": "AP",
+          "value": 22.6,
+          "unit": "%",
+          "evidence_span": {
+            "start": 10160,
+            "end": 10173
+          },
+          "confidence": 0.5
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Fast R-CNN"
+      ],
+      "self_consistency": 0.875,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 36921,
+    "tokens_out": 5427,
+    "cost_usd": 0.01999796,
+    "wall_time_seconds": 104.13110937504098,
+    "voting_samples": 3
+  }
+}

@@ -1,0 +1,303 @@
+{
+  "paper_id": "scirex:02567fd428a675ca91a0c6786f47f3e35881bcbd",
+  "contributions": [
+    {
+      "method": {
+        "name": "DLDL",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 541,
+          "end": 545
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "age estimation",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 157,
+          "end": 170
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "Morph",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2519,
+            "end": 2524
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "ChaLearn",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2627,
+            "end": 2634
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "MAE",
+          "value": null,
+          "unit": "years",
+          "evidence_span": {
+            "start": 3051,
+            "end": 3054
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "CS",
+          "value": null,
+          "unit": "%",
+          "evidence_span": {
+            "start": 3078,
+            "end": 3080
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "ε-error",
+          "value": 0.31,
+          "unit": null,
+          "evidence_span": {
+            "start": 4129,
+            "end": 4137
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "BFGS-LDL",
+        "C-ConvNet",
+        "R-ConvNet"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    },
+    {
+      "method": {
+        "name": "DLDL",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 541,
+          "end": 545
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "head pose estimation",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 4388,
+          "end": 4405
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "Pointing'04",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 4388,
+            "end": 4399
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "BJUT-3D",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 4544,
+            "end": 4551
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "AFLW",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 4734,
+            "end": 4738
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "MAE",
+          "value": null,
+          "unit": "degrees",
+          "evidence_span": {
+            "start": 5003,
+            "end": 5006
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "accuracy",
+          "value": null,
+          "unit": "%",
+          "evidence_span": {
+            "start": 5057,
+            "end": 5066
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "BFGS-LDL",
+        "C-ConvNet",
+        "R-ConvNet"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    },
+    {
+      "method": {
+        "name": "DLDL",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 541,
+          "end": 545
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "multi-label classification",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 6252,
+          "end": 6276
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "PASCAL VOC",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 6252,
+            "end": 6265
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "mAP",
+          "value": 93.4,
+          "unit": "%",
+          "evidence_span": {
+            "start": 7475,
+            "end": 7478
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "VGG + SVM",
+        "HCP",
+        "Fev + Lv"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    },
+    {
+      "method": {
+        "name": "DLDL",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 541,
+          "end": 545
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "semantic segmentation",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 7701,
+          "end": 7722
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "PASCAL VOC2011",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 7701,
+            "end": 7714
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "SBD",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 7858,
+            "end": 7861
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "mean IU",
+          "value": 64.9,
+          "unit": "%",
+          "evidence_span": {
+            "start": 7987,
+            "end": 7999
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "FCN-8s"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 56972,
+    "tokens_out": 7926,
+    "cost_usd": 0.03038547,
+    "wall_time_seconds": 172.03130354196765,
+    "voting_samples": 3
+  }
+}

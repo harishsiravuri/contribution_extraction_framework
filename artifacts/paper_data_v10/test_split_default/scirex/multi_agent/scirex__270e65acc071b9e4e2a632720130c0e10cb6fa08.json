@@ -1,0 +1,187 @@
+{
+  "paper_id": "scirex:270e65acc071b9e4e2a632720130c0e10cb6fa08",
+  "contributions": [
+    {
+      "method": {
+        "name": "Neural Tree Indexers (NTI)",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 190,
+          "end": 212
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "natural language inference",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 4030,
+          "end": 4050
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "Stanford Natural Language Inference (SNLI)",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 4030,
+            "end": 4060
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": 87.3,
+          "unit": "%",
+          "evidence_span": {
+            "start": 4540,
+            "end": 4560
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "sequential LSTM encoder"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    },
+    {
+      "method": {
+        "name": "Neural Tree Indexers (NTI)",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 190,
+          "end": 212
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "answer sentence selection",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 5040,
+          "end": 5070
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "WikiQA",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 5040,
+            "end": 5060
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "MAP",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 5520,
+            "end": 5540
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "MRR",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 5530,
+            "end": 5540
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "NASM"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    },
+    {
+      "method": {
+        "name": "Neural Tree Indexers (NTI)",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 190,
+          "end": 212
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "sentence classification",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 6030,
+          "end": 6060
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "Stanford Sentiment Treebank (SST)",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 6030,
+            "end": 6050
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 6540,
+            "end": 6560
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "CT-LSTM"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 30779,
+    "tokens_out": 5736,
+    "cost_usd": 0.01783162,
+    "wall_time_seconds": 95.51349854213186,
+    "voting_samples": 3
+  }
+}

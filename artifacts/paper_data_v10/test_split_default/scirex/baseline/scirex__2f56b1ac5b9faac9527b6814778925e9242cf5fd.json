@@ -1,0 +1,99 @@
+{
+  "paper_id": "scirex:2f56b1ac5b9faac9527b6814778925e9242cf5fd",
+  "contributions": [
+    {
+      "method": {
+        "name": "online hard example mining (OHEM)",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 133,
+          "end": 200
+        },
+        "confidence": 0.9
+      },
+      "task": {
+        "name": "object detection",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 42
+        },
+        "confidence": 0.95
+      },
+      "datasets": [
+        {
+          "name": "PASCAL VOC 2007",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 361,
+            "end": 377
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "PASCAL VOC 2012",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 378,
+            "end": 394
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "MS COCO",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 438,
+            "end": 446
+          },
+          "confidence": 0.9
+        }
+      ],
+      "metrics": [
+        {
+          "name": "mAP",
+          "value": 78.9,
+          "unit": "%",
+          "evidence_span": {
+            "start": 469,
+            "end": 492
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "mAP",
+          "value": 76.3,
+          "unit": "%",
+          "evidence_span": {
+            "start": 497,
+            "end": 520
+          },
+          "confidence": 0.9
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Fast R-CNN",
+        "SPPnet",
+        "MR-CNN"
+      ],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "PARTIAL",
+        "task": "PARTIAL",
+        "datasets": "PARTIAL",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "(none)",
+    "consolidator_model": "(none)",
+    "tokens_in": 7509,
+    "tokens_out": 495,
+    "cost_usd": 0.00284343,
+    "wall_time_seconds": 20.850705958204344,
+    "voting_samples": 1
+  }
+}

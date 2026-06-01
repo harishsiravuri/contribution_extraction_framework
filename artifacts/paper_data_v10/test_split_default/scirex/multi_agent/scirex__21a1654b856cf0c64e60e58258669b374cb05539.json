@@ -1,0 +1,107 @@
+{
+  "paper_id": "scirex:21a1654b856cf0c64e60e58258669b374cb05539",
+  "contributions": [
+    {
+      "method": {
+        "name": "YOLO",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 24,
+          "end": 28
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "object detection",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 10,
+          "end": 26
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "Pascal VOC 2007",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2000,
+            "end": 2015
+          },
+          "confidence": 0.6
+        },
+        {
+          "name": "Pascal VOC 2012",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 5030,
+            "end": 5045
+          },
+          "confidence": 0.4
+        },
+        {
+          "name": "Picasso Dataset",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 5740,
+            "end": 5755
+          },
+          "confidence": 0.4
+        },
+        {
+          "name": "People-Art Dataset",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 6020,
+            "end": 6035
+          },
+          "confidence": 0.4
+        }
+      ],
+      "metrics": [
+        {
+          "name": "mAP",
+          "value": 57.9,
+          "unit": null,
+          "evidence_span": {
+            "start": 5130,
+            "end": 5135
+          },
+          "confidence": 0.4
+        },
+        {
+          "name": "AP",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 5820,
+            "end": 5822
+          },
+          "confidence": 0.6
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "DPM",
+        "R-CNN"
+      ],
+      "self_consistency": 0.83,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 33514,
+    "tokens_out": 6396,
+    "cost_usd": 0.01988889,
+    "wall_time_seconds": 113.68999937502667,
+    "voting_samples": 3
+  }
+}

@@ -1,0 +1,320 @@
+{
+  "paper_id": "scirex:0c47cad9729c38d9db1f75491b1ee4bd883a5d4e",
+  "contributions": [
+    {
+      "method": {
+        "name": "Cross-View Training (CVT)",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 180,
+          "end": 204
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "sequence tagging",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 1190,
+          "end": 1208
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "CCGBank",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2250,
+            "end": 2258
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "CoNLL-2000",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2290,
+            "end": 2300
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "CoNLL-2003",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2337,
+            "end": 2347
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "OntoNotes",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2384,
+            "end": 2392
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "Penn Treebank",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2440,
+            "end": 2453
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 4000,
+            "end": 4050
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "ELMo",
+        "TagLM"
+      ],
+      "self_consistency": 0.875,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    },
+    {
+      "method": {
+        "name": "Cross-View Training (CVT)",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 180,
+          "end": 204
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "dependency parsing",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 1240,
+          "end": 1258
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "Penn Treebank",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2480,
+            "end": 2493
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": null,
+          "unit": null,
+          "evidence_span": null,
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "ELMo",
+        "TagLM"
+      ],
+      "self_consistency": 0.875,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "UNSUPPORTED"
+      }
+    },
+    {
+      "method": {
+        "name": "Cross-View Training (CVT)",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 180,
+          "end": 204
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "machine translation",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 1280,
+          "end": 1299
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "IWSLT 2015",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2530,
+            "end": 2541
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 2550,
+            "end": 2554
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "ELMo",
+        "TagLM"
+      ],
+      "self_consistency": 0.875,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    },
+    {
+      "method": {
+        "name": "Cross-View Training (CVT) + Multi-task Learning",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 3000,
+          "end": 3030
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "multi-task learning",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 3030,
+          "end": 3050
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "CCGBank",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2250,
+            "end": 2258
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "CoNLL-2000",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2290,
+            "end": 2300
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "CoNLL-2003",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2337,
+            "end": 2347
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "OntoNotes",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2384,
+            "end": 2392
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "Penn Treebank",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2440,
+            "end": 2453
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "IWSLT 2015",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2530,
+            "end": 2541
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": null,
+          "unit": null,
+          "evidence_span": null,
+          "confidence": 1.0
+        },
+        {
+          "name": "BLEU",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 2550,
+            "end": 2554
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "ELMo",
+        "TagLM"
+      ],
+      "self_consistency": 0.875,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 42627,
+    "tokens_out": 7331,
+    "cost_usd": 0.02428739,
+    "wall_time_seconds": 169.32916741701774,
+    "voting_samples": 3
+  }
+}

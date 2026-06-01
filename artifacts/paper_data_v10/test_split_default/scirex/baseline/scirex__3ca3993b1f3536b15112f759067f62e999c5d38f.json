@@ -1,0 +1,98 @@
+{
+  "paper_id": "scirex:3ca3993b1f3536b15112f759067f62e999c5d38f",
+  "contributions": [
+    {
+      "method": {
+        "name": "BB8",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 120
+        },
+        "confidence": 0.9
+      },
+      "task": {
+        "name": "3D object detection and pose estimation from color images only",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 120,
+          "end": 180
+        },
+        "confidence": 0.95
+      },
+      "datasets": [
+        {
+          "name": "LINEMOD",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 780,
+            "end": 800
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "Occlusion",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 810,
+            "end": 830
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "T-LESS",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 840,
+            "end": 860
+          },
+          "confidence": 0.9
+        }
+      ],
+      "metrics": [
+        {
+          "name": "correctly registered RGB frames",
+          "value": 89.3,
+          "unit": "%",
+          "evidence_span": {
+            "start": 790,
+            "end": 810
+          },
+          "confidence": 0.95
+        },
+        {
+          "name": "Pose 6D criterion",
+          "value": 54.0,
+          "unit": "%",
+          "evidence_span": {
+            "start": 830,
+            "end": 860
+          },
+          "confidence": 0.9
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "state-of-the-art on LINEMOD",
+        "state-of-the-art on T-LESS"
+      ],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "PARTIAL",
+        "task": "PARTIAL",
+        "datasets": "PARTIAL",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "(none)",
+    "consolidator_model": "(none)",
+    "tokens_in": 7485,
+    "tokens_out": 501,
+    "cost_usd": 0.00284109,
+    "wall_time_seconds": 16.18767866678536,
+    "voting_samples": 1
+  }
+}

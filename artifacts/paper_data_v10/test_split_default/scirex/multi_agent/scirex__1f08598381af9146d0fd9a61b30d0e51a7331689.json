@@ -1,0 +1,127 @@
+{
+  "paper_id": "scirex:1f08598381af9146d0fd9a61b30d0e51a7331689",
+  "contributions": [
+    {
+      "method": {
+        "name": "Ape-X DQN",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 1423,
+          "end": 1432
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "reinforcement learning",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 142,
+          "end": 155
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "Arcade Learning Environment",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 404,
+            "end": 429
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "human-normalized score",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 2314,
+            "end": 2332
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "DQN",
+        "Prioritized DQN",
+        "Distributional DQN",
+        "Rainbow",
+        "Gorila"
+      ],
+      "self_consistency": 0.875,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    },
+    {
+      "method": {
+        "name": "Ape-X DPG",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 3169,
+          "end": 3179
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "reinforcement learning",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 142,
+          "end": 155
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "continuous control tasks",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 3186,
+            "end": 3209
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "performance",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 3294,
+            "end": 3303
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "DDPG"
+      ],
+      "self_consistency": 0.875,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 36501,
+    "tokens_out": 3652,
+    "cost_usd": 0.01804668,
+    "wall_time_seconds": 195.07971833297051,
+    "voting_samples": 3
+  }
+}

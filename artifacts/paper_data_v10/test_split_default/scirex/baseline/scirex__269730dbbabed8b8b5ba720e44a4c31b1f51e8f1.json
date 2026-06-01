@@ -1,0 +1,82 @@
+{
+  "paper_id": "scirex:269730dbbabed8b8b5ba720e44a4c31b1f51e8f1",
+  "contributions": [
+    {
+      "method": {
+        "name": "Query-Reduction Network (QRN)",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 107,
+          "end": 179
+        },
+        "confidence": 0.95
+      },
+      "task": {
+        "name": "multi-fact reasoning in question answering",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 72,
+          "end": 106
+        },
+        "confidence": 0.9
+      },
+      "datasets": [
+        {
+          "name": "bAbI QA",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2682,
+            "end": 2693
+          },
+          "confidence": 0.85
+        },
+        {
+          "name": "bAbI dialog",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 3792,
+            "end": 3803
+          },
+          "confidence": 0.85
+        }
+      ],
+      "metrics": [
+        {
+          "name": "average accuracy",
+          "value": 99.7,
+          "unit": "%",
+          "evidence_span": {
+            "start": 7198,
+            "end": 7209
+          },
+          "confidence": 0.9
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "LSTM",
+        "End-to-end Memory Networks (N2N)",
+        "Dynamic Memory Networks (DMN+)",
+        "Gated End-to-end Memory Networks (GMemN2N)",
+        "Differentiable Neural Computer (DNC)"
+      ],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "PARTIAL",
+        "task": "PARTIAL",
+        "datasets": "PARTIAL",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "(none)",
+    "consolidator_model": "(none)",
+    "tokens_in": 7803,
+    "tokens_out": 423,
+    "cost_usd": 0.0028734299999999997,
+    "wall_time_seconds": 14.942066541872919,
+    "voting_samples": 1
+  }
+}

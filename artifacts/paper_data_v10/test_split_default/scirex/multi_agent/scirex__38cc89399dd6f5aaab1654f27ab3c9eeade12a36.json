@@ -1,0 +1,81 @@
+{
+  "paper_id": "scirex:38cc89399dd6f5aaab1654f27ab3c9eeade12a36",
+  "contributions": [
+    {
+      "method": {
+        "name": "sequence-to-sequence network with LSTM units and residual connections",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 1122,
+          "end": 1145
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "3D human pose estimation",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 35,
+          "end": 55
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "Human3.6M",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2439,
+            "end": 2451
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "HumanEva",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 3051,
+            "end": 3061
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "average error per joint",
+          "value": null,
+          "unit": "millimeters",
+          "evidence_span": {
+            "start": 2981,
+            "end": 3005
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Sun et al.",
+        "Martinez et al.",
+        "Moreno-Nouguer",
+        "previous work"
+      ],
+      "self_consistency": 0.875,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 32790,
+    "tokens_out": 3881,
+    "cost_usd": 0.01678752,
+    "wall_time_seconds": 80.74476925004274,
+    "voting_samples": 3
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "paper_id": "scirex:0398552184f80db111e9c28bf533b395f233ac00",
+  "contributions": [
+    {
+      "method": {
+        "name": "Self-paced Curriculum Learning (SPCL)",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 1556,
+          "end": 1574
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "weakly supervised object detection",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 103,
+          "end": 143
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "Pascal VOC 2007",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 3901,
+            "end": 3915
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "average precision",
+          "value": 29.96,
+          "unit": null,
+          "evidence_span": {
+            "start": 3906,
+            "end": 3922
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": null,
+      "comparison_targets": [
+        "PR",
+        "CC",
+        "MDD",
+        "LLO",
+        "VPC",
+        "MfMIL"
+      ],
+      "self_consistency": 0.8333333333333334,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 24518,
+    "tokens_out": 1818,
+    "cost_usd": 0.01143752,
+    "wall_time_seconds": 30.519284625072032,
+    "voting_samples": 3
+  }
+}

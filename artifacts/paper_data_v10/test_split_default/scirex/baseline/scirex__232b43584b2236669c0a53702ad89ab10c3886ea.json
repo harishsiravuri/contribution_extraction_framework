@@ -1,0 +1,82 @@
+{
+  "paper_id": "scirex:232b43584b2236669c0a53702ad89ab10c3886ea",
+  "contributions": [
+    {
+      "method": {
+        "name": "Implicit Quantile Networks (IQN)",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 200
+        },
+        "confidence": 0.9
+      },
+      "task": {
+        "name": "Distributional Reinforcement Learning",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 250,
+          "end": 350
+        },
+        "confidence": 0.95
+      },
+      "datasets": [
+        {
+          "name": "Atari 2600 games (ALE)",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 200,
+            "end": 250
+          },
+          "confidence": 0.9
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Human-normalized score",
+          "value": null,
+          "unit": "percentage",
+          "evidence_span": {
+            "start": 1500,
+            "end": 1600
+          },
+          "confidence": 0.8
+        },
+        {
+          "name": "Human-gap",
+          "value": null,
+          "unit": "percentage",
+          "evidence_span": {
+            "start": 1600,
+            "end": 1700
+          },
+          "confidence": 0.8
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "QR-DQN",
+        "Rainbow",
+        "C51",
+        "DQN"
+      ],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "PARTIAL",
+        "task": "PARTIAL",
+        "datasets": "PARTIAL",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "(none)",
+    "consolidator_model": "(none)",
+    "tokens_in": 7160,
+    "tokens_out": 401,
+    "cost_usd": 0.0026480899999999996,
+    "wall_time_seconds": 13.669015833875164,
+    "voting_samples": 1
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "paper_id": "scirex:38e2f851b705faa0d0a698ed9885bd6834440073",
+  "contributions": [
+    {
+      "method": {
+        "name": "PLATIPUS (Probabilistic LATent model for Incorporating Priors and Uncertainty in few-Shot learning)",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 2333,
+          "end": 2449
+        },
+        "confidence": 0.9
+      },
+      "task": {
+        "name": "few-shot meta-learning with uncertainty modeling",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 150,
+          "end": 376
+        },
+        "confidence": 0.9
+      },
+      "datasets": [
+        {
+          "name": "CelebA attribute classification",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 7840,
+            "end": 7925
+          },
+          "confidence": 0.8
+        },
+        {
+          "name": "MiniImagenet",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 8539,
+            "end": 8548
+          },
+          "confidence": 0.8
+        }
+      ],
+      "metrics": [
+        {
+          "name": "MiniImagenet 5-way 1-shot accuracy",
+          "value": 50.13,
+          "unit": "%",
+          "evidence_span": {
+            "start": 9125,
+            "end": 9139
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "Coverage score",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 7533,
+            "end": 7545
+          },
+          "confidence": 0.7
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "MAML"
+      ],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "PARTIAL",
+        "task": "PARTIAL",
+        "datasets": "PARTIAL",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "(none)",
+    "consolidator_model": "(none)",
+    "tokens_in": 7037,
+    "tokens_out": 495,
+    "cost_usd": 0.0026923900000000002,
+    "wall_time_seconds": 23.04144304106012,
+    "voting_samples": 1
+  }
+}

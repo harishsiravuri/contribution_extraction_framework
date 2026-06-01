@@ -1,0 +1,105 @@
+{
+  "paper_id": "scirex:178275dbdcfa267e41a9d5efe386ee5874c6d23f",
+  "contributions": [
+    {
+      "method": {
+        "name": "fraternal dropout",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 130,
+          "end": 203
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "language modeling",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 53,
+          "end": 81
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "Penn Treebank",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1118,
+            "end": 1134
+          },
+          "confidence": 0.75
+        },
+        {
+          "name": "Wikitext-2",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1118,
+            "end": 1129
+          },
+          "confidence": 0.5
+        },
+        {
+          "name": "Microsoft COCO",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 707,
+            "end": 723
+          },
+          "confidence": 0.25
+        },
+        {
+          "name": "CIFAR-10",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 714,
+            "end": 734
+          },
+          "confidence": 0.25
+        }
+      ],
+      "metrics": [
+        {
+          "name": "perplexity",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 1885,
+            "end": 1897
+          },
+          "confidence": 0.75
+        },
+        {
+          "name": "accuracy",
+          "value": null,
+          "unit": null,
+          "evidence_span": null,
+          "confidence": 0.25
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "state-of-the-art",
+        "baseline",
+        "Π-model"
+      ],
+      "self_consistency": 0.875,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 31519,
+    "tokens_out": 4132,
+    "cost_usd": 0.01673889,
+    "wall_time_seconds": 54.36225000000559,
+    "voting_samples": 3
+  }
+}

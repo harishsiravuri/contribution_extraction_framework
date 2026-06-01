@@ -1,0 +1,98 @@
+{
+  "paper_id": "scirex:1778e32c18bd611169e64c1805a51abff341ca53",
+  "contributions": [
+    {
+      "method": {
+        "name": "Densely Interactive Inference Network (DIIN)",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 123,
+          "end": 168
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "natural language inference",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 37
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "MultiNLI",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 219,
+            "end": 236
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "SNLI",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 168,
+            "end": 172
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "Quora Question Pair",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1071,
+            "end": 1093
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": 80.0,
+          "unit": "%",
+          "evidence_span": {
+            "start": 10145,
+            "end": 10150
+          },
+          "confidence": 0.5
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "ESIM",
+        "BiLSTM",
+        "GRU",
+        "SPINN",
+        "BiLSTM with intra-attention",
+        "mLSTM",
+        "LSTMN",
+        "Neural Tree Indexer",
+        "Re-read LSTM",
+        "BiMPM",
+        "DecAtt-word",
+        "DecAtt-char"
+      ],
+      "self_consistency": 0.875,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 31501,
+    "tokens_out": 3973,
+    "cost_usd": 0.016532210000000002,
+    "wall_time_seconds": 66.55409604101442,
+    "voting_samples": 3
+  }
+}

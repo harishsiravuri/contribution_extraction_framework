@@ -1,0 +1,117 @@
+{
+  "paper_id": "scirex:18168aea48a22f6fe2fe407c0ff70083cba225a7",
+  "contributions": [
+    {
+      "method": {
+        "name": "Very Deep Residual Encoder-Decoder Networks (RED-Net)",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 200
+        },
+        "confidence": 0.9
+      },
+      "task": {
+        "name": "image restoration (denoising and super-resolution)",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 50,
+          "end": 150
+        },
+        "confidence": 0.95
+      },
+      "datasets": [
+        {
+          "name": "Berkeley Segmentation Dataset (BSD)",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 6000,
+            "end": 6050
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "Set5",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 8000,
+            "end": 8050
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "Set14",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 8100,
+            "end": 8150
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "BSD100",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 8200,
+            "end": 8250
+          },
+          "confidence": 0.9
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Peak Signal-to-Noise Ratio (PSNR)",
+          "value": null,
+          "unit": "dB",
+          "evidence_span": {
+            "start": 7000,
+            "end": 7050
+          },
+          "confidence": 0.95
+        },
+        {
+          "name": "Structural SIMilarity (SSIM)",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 7100,
+            "end": 7150
+          },
+          "confidence": 0.95
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "BM3D",
+        "NCSR",
+        "EPLL",
+        "PCLR",
+        "PDPD",
+        "WMMN",
+        "SRCNN",
+        "NBSRF",
+        "CSCN",
+        "CSC",
+        "TSE",
+        "ARFL+"
+      ],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "PARTIAL",
+        "task": "PARTIAL",
+        "datasets": "PARTIAL",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "(none)",
+    "consolidator_model": "(none)",
+    "tokens_in": 5277,
+    "tokens_out": 623,
+    "cost_usd": 0.00224311,
+    "wall_time_seconds": 22.150384958134964,
+    "voting_samples": 1
+  }
+}

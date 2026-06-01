@@ -1,0 +1,96 @@
+{
+  "paper_id": "scirex:193b518bc3025804c6d587c74cbc154d91478417",
+  "contributions": [
+    {
+      "method": {
+        "name": "adversarial learning method for domain adaptation",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 201,
+          "end": 300
+        },
+        "confidence": 0.9
+      },
+      "task": {
+        "name": "semantic segmentation",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 201,
+          "end": 300
+        },
+        "confidence": 0.9
+      },
+      "datasets": [
+        {
+          "name": "GTA5",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2016,
+            "end": 2020
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "SYNTHIA",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2021,
+            "end": 2027
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "Cityscapes",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2028,
+            "end": 2038
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "Cross-City",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2039,
+            "end": 2048
+          },
+          "confidence": 0.9
+        }
+      ],
+      "metrics": [
+        {
+          "name": "mean intersection-over-union (IoU)",
+          "value": 65.1,
+          "unit": "%",
+          "evidence_span": {
+            "start": 2016,
+            "end": 2020
+          },
+          "confidence": 0.9
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "state-of-the-art methods"
+      ],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "PARTIAL",
+        "task": "PARTIAL",
+        "datasets": "PARTIAL",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "(none)",
+    "consolidator_model": "(none)",
+    "tokens_in": 5784,
+    "tokens_out": 483,
+    "cost_usd": 0.0022807500000000002,
+    "wall_time_seconds": 5.2192348330281675,
+    "voting_samples": 1
+  }
+}

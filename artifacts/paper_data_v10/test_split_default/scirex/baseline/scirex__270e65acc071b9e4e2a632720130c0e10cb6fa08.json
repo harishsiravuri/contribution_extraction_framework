@@ -1,0 +1,110 @@
+{
+  "paper_id": "scirex:270e65acc071b9e4e2a632720130c0e10cb6fa08",
+  "contributions": [
+    {
+      "method": {
+        "name": "Neural Tree Indexers (NTI)",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 224,
+          "end": 349
+        },
+        "confidence": 0.95
+      },
+      "task": {
+        "name": "natural language understanding",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 224,
+          "end": 349
+        },
+        "confidence": 0.9
+      },
+      "datasets": [
+        {
+          "name": "Stanford Natural Language Inference (SNLI)",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2806,
+            "end": 2878
+          },
+          "confidence": 0.95
+        },
+        {
+          "name": "WikiQA",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 4892,
+            "end": 4923
+          },
+          "confidence": 0.95
+        },
+        {
+          "name": "Stanford Sentiment Treebank (SST)",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 5478,
+            "end": 5500
+          },
+          "confidence": 0.95
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": 87.3,
+          "unit": "%",
+          "evidence_span": {
+            "start": 4545,
+            "end": 4559
+          },
+          "confidence": 0.95
+        },
+        {
+          "name": "MAP",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 5195,
+            "end": 5198
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "MRR",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 5195,
+            "end": 5198
+          },
+          "confidence": 0.9
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "RNNs",
+        "recursive neural networks",
+        "LSTM",
+        "CT-LSTM"
+      ],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "PARTIAL",
+        "task": "PARTIAL",
+        "datasets": "PARTIAL",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "(none)",
+    "consolidator_model": "(none)",
+    "tokens_in": 6017,
+    "tokens_out": 557,
+    "cost_usd": 0.0024211700000000003,
+    "wall_time_seconds": 20.240717584034428,
+    "voting_samples": 1
+  }
+}

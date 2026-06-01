@@ -1,0 +1,97 @@
+{
+  "paper_id": "scirex:3842ee1e0fdfeff936b5c49973ff21adfaaf3929",
+  "contributions": [
+    {
+      "method": {
+        "name": "Adversarial Discriminative Domain Adaptation (ADDA)",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 782,
+          "end": 821
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "domain adaptation",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 190,
+          "end": 209
+        },
+        "confidence": 0.67
+      },
+      "datasets": [
+        {
+          "name": "MNIST",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2165,
+            "end": 2170
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "USPS",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2172,
+            "end": 2176
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "SVHN",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2181,
+            "end": 2185
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "NYU depth dataset",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2952,
+            "end": 2956
+          },
+          "confidence": 0.67
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": 21.1,
+          "unit": "%",
+          "evidence_span": {
+            "start": 3523,
+            "end": 3528
+          },
+          "confidence": 0.67
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "CoGANs",
+        "source only baseline"
+      ],
+      "self_consistency": 0.83,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 29159,
+    "tokens_out": 4823,
+    "cost_usd": 0.016376389999999998,
+    "wall_time_seconds": 252.47235325002111,
+    "voting_samples": 3
+  }
+}

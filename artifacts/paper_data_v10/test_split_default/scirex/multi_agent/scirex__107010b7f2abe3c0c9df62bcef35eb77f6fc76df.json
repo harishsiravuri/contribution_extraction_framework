@@ -1,0 +1,217 @@
+{
+  "paper_id": "scirex:107010b7f2abe3c0c9df62bcef35eb77f6fc76df",
+  "contributions": [
+    {
+      "method": {
+        "name": "Domain-Adversarial Neural Networks (DANN)",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 452,
+          "end": 544
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "sentiment analysis",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 1020,
+          "end": 1037
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "Amazon reviews",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1020,
+            "end": 1037
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 1020,
+            "end": 1037
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Marginalized Stacked Denoising Autoencoders (mSDA)",
+        "NN",
+        "SVM"
+      ],
+      "self_consistency": 0.875,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "UNSUPPORTED"
+      }
+    },
+    {
+      "method": {
+        "name": "Domain-Adversarial Neural Networks (DANN)",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 452,
+          "end": 544
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "image classification",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 1042,
+          "end": 1061
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "MNIST",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1042,
+            "end": 1061
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "SVHN",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1042,
+            "end": 1061
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "Office",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1042,
+            "end": 1061
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 1042,
+            "end": 1061
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "source-only model",
+        "subspace alignment (SA)",
+        "previous state-of-the-art"
+      ],
+      "self_consistency": 0.875,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "UNSUPPORTED"
+      }
+    },
+    {
+      "method": {
+        "name": "Domain-Adversarial Neural Networks (DANN)",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 452,
+          "end": 544
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "person re-identification",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 1069,
+          "end": 1095
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "PRID",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1069,
+            "end": 1095
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "VIPeR",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1069,
+            "end": 1095
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "CUHK",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1069,
+            "end": 1095
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 1069,
+            "end": 1095
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "baseline descriptors"
+      ],
+      "self_consistency": 0.875,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "UNSUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 66387,
+    "tokens_out": 5707,
+    "cost_usd": 0.031744419999999995,
+    "wall_time_seconds": 110.71138937491924,
+    "voting_samples": 3
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "paper_id": "scirex:1d0dcb458aa4d30b51f7c74b159be687f39120a0",
+  "contributions": [
+    {
+      "method": {
+        "name": "Pose-driven Deep Convolutional (PDC) model",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 156,
+          "end": 183
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "person re-identification",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 103,
+          "end": 128
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "CUHK 03",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 3642,
+            "end": 3648
+          },
+          "confidence": 0.6
+        },
+        {
+          "name": "Market 1501",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 3922,
+            "end": 3932
+          },
+          "confidence": 0.4
+        },
+        {
+          "name": "VIPeR",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 4074,
+            "end": 4079
+          },
+          "confidence": 0.2
+        }
+      ],
+      "metrics": [
+        {
+          "name": "rank1 accuracy",
+          "value": 88.7,
+          "unit": "%",
+          "evidence_span": {
+            "start": 10033,
+            "end": 10041
+          },
+          "confidence": 0.4
+        },
+        {
+          "name": "mAP",
+          "value": 63.41,
+          "unit": "%",
+          "evidence_span": {
+            "start": 10413,
+            "end": 10417
+          },
+          "confidence": 0.2
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "PIE",
+        "Spindle"
+      ],
+      "self_consistency": 0.83,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "PARTIAL",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 34554,
+    "tokens_out": 6077,
+    "cost_usd": 0.020104689999999998,
+    "wall_time_seconds": 416.8165813339874,
+    "voting_samples": 3
+  }
+}

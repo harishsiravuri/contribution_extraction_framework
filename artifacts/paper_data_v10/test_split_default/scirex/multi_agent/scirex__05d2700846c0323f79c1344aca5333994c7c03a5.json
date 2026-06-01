@@ -1,0 +1,259 @@
+{
+  "paper_id": "scirex:05d2700846c0323f79c1344aca5333994c7c03a5",
+  "contributions": [
+    {
+      "method": {
+        "name": "recurrent nets with maxout activations",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 2064,
+          "end": 2086
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "speech recognition",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 45
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "Switchboard",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 154,
+            "end": 164
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "CallHome",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 154,
+            "end": 164
+          },
+          "confidence": 0.5
+        }
+      ],
+      "metrics": [
+        {
+          "name": "WER",
+          "value": null,
+          "unit": "%",
+          "evidence_span": {
+            "start": 0,
+            "end": 0
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "sigmoid RNNs"
+      ],
+      "self_consistency": 0.875,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "PARTIAL"
+      }
+    },
+    {
+      "method": {
+        "name": "very deep convolutional networks",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 2839,
+          "end": 2863
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "speech recognition",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 45
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "Switchboard",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 154,
+            "end": 164
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "CallHome",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 154,
+            "end": 164
+          },
+          "confidence": 0.5
+        }
+      ],
+      "metrics": [
+        {
+          "name": "WER",
+          "value": null,
+          "unit": "%",
+          "evidence_span": {
+            "start": 0,
+            "end": 0
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "classical CNN"
+      ],
+      "self_consistency": 0.875,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "PARTIAL"
+      }
+    },
+    {
+      "method": {
+        "name": "bidirectional LSTMs",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 3411,
+          "end": 3430
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "speech recognition",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 45
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "Switchboard",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 154,
+            "end": 164
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "CallHome",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 154,
+            "end": 164
+          },
+          "confidence": 0.5
+        }
+      ],
+      "metrics": [
+        {
+          "name": "WER",
+          "value": null,
+          "unit": "%",
+          "evidence_span": {
+            "start": 0,
+            "end": 0
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "DNN",
+        "single layer LSTMs"
+      ],
+      "self_consistency": 0.875,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "PARTIAL"
+      }
+    },
+    {
+      "method": {
+        "name": "model combination",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 3902,
+          "end": 3918
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "speech recognition",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 45
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "Switchboard",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 154,
+            "end": 164
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "WER",
+          "value": 6.6,
+          "unit": "%",
+          "evidence_span": {
+            "start": 136,
+            "end": 141
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "n-gram LM baseline"
+      ],
+      "self_consistency": 0.875,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 25794,
+    "tokens_out": 8085,
+    "cost_usd": 0.018468659999999998,
+    "wall_time_seconds": 131.44056454091333,
+    "voting_samples": 3
+  }
+}

@@ -1,0 +1,132 @@
+{
+  "paper_id": "scirex:35734e8724559fb0d494e5cba6a28ad7a3d5dd4d",
+  "contributions": [
+    {
+      "method": {
+        "name": "fast gradient sign method",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 2439,
+          "end": 2456
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "adversarial example generation",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 2439,
+          "end": 2456
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "MNIST",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2200,
+            "end": 2205
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "CIFAR-10",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2240,
+            "end": 2248
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "error rate",
+          "value": 99.9,
+          "unit": "%",
+          "evidence_span": {
+            "start": 2220,
+            "end": 2228
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "dropout"
+      ],
+      "self_consistency": 0.875,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    },
+    {
+      "method": {
+        "name": "adversarial training",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 2960,
+          "end": 2980
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "classification",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 2960,
+          "end": 2980
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "MNIST",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2400,
+            "end": 2405
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "error rate",
+          "value": 0.84,
+          "unit": "%",
+          "evidence_span": {
+            "start": 2400,
+            "end": 2408
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "dropout"
+      ],
+      "self_consistency": 0.875,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 43619,
+    "tokens_out": 9400,
+    "cost_usd": 0.02715512,
+    "wall_time_seconds": 389.1106437500566,
+    "voting_samples": 3
+  }
+}

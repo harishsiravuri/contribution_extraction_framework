@@ -1,0 +1,175 @@
+{
+  "paper_id": "scirex:1235dd37312cb20aced0e97d953f6379d8a0c7d4",
+  "contributions": [
+    {
+      "method": {
+        "name": "V-BiMPM",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 2397,
+          "end": 2403
+        },
+        "confidence": 0.5
+      },
+      "task": {
+        "name": "textual entailment",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 107,
+          "end": 126
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "V-SNLI",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1954,
+            "end": 1960
+          },
+          "confidence": 0.75
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": 63.67,
+          "unit": "%",
+          "evidence_span": {
+            "start": 12373,
+            "end": 12379
+          },
+          "confidence": 0.25
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "BiMPM"
+      ],
+      "self_consistency": 0.625,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "PARTIAL"
+      }
+    },
+    {
+      "method": {
+        "name": "V-LSTM",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 11457,
+          "end": 11463
+        },
+        "confidence": 0.5
+      },
+      "task": {
+        "name": "textual entailment",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 107,
+          "end": 126
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "V-SNLI",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1954,
+            "end": 1960
+          },
+          "confidence": 0.75
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": null,
+          "unit": "%",
+          "evidence_span": {
+            "start": 12349,
+            "end": 12355
+          },
+          "confidence": 0.25
+        }
+      ],
+      "claim_strength": null,
+      "comparison_targets": [
+        "LSTM"
+      ],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "UNSUPPORTED"
+      }
+    },
+    {
+      "method": {
+        "name": "BiMPM",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 11893,
+          "end": 11898
+        },
+        "confidence": 0.75
+      },
+      "task": {
+        "name": "textual entailment",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 107,
+          "end": 126
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "SNLI",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1907,
+            "end": 1911
+          },
+          "confidence": 0.5
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": 86.9,
+          "unit": "%",
+          "evidence_span": {
+            "start": 11893,
+            "end": 11898
+          },
+          "confidence": 0.75
+        }
+      ],
+      "claim_strength": "comparable",
+      "comparison_targets": [],
+      "self_consistency": 0.75,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 75544,
+    "tokens_out": 5971,
+    "cost_usd": 0.035499079999999995,
+    "wall_time_seconds": 515.379647416994,
+    "voting_samples": 3
+  }
+}

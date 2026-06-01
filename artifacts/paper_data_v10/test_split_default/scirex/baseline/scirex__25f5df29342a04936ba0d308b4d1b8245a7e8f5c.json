@@ -1,0 +1,96 @@
+{
+  "paper_id": "scirex:25f5df29342a04936ba0d308b4d1b8245a7e8f5c",
+  "contributions": [
+    {
+      "method": {
+        "name": "Convolutional Pose Machines (CPMs)",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 100
+        },
+        "confidence": 0.9
+      },
+      "task": {
+        "name": "articulated pose estimation",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 150,
+          "end": 200
+        },
+        "confidence": 0.9
+      },
+      "datasets": [
+        {
+          "name": "MPII",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1800,
+            "end": 1850
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "LSP",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1800,
+            "end": 1850
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "FLIC",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1800,
+            "end": 1850
+          },
+          "confidence": 0.9
+        }
+      ],
+      "metrics": [
+        {
+          "name": "PCKh-0.5",
+          "value": 87.95,
+          "unit": "%",
+          "evidence_span": {
+            "start": 2500,
+            "end": 2550
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "PCK@0.1",
+          "value": null,
+          "unit": "%",
+          "evidence_span": null,
+          "confidence": 0.7
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "MPII",
+        "LSP",
+        "FLIC"
+      ],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "PARTIAL",
+        "task": "PARTIAL",
+        "datasets": "PARTIAL",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "(none)",
+    "consolidator_model": "(none)",
+    "tokens_in": 6175,
+    "tokens_out": 485,
+    "cost_usd": 0.00240765,
+    "wall_time_seconds": 20.302197041921318,
+    "voting_samples": 1
+  }
+}

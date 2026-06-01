@@ -1,0 +1,110 @@
+{
+  "paper_id": "scirex:2138a7127429d67746ec78de46d6820fee0e548e",
+  "contributions": [
+    {
+      "method": {
+        "name": "Graph2Seq",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 66,
+          "end": 73
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "path finding",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 1728,
+          "end": 1740
+        },
+        "confidence": 0.75
+      },
+      "datasets": [
+        {
+          "name": "bAbI Task 19",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1728,
+            "end": 1740
+          },
+          "confidence": 0.5
+        },
+        {
+          "name": "SP-S",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2589,
+            "end": 2593
+          },
+          "confidence": 0.5
+        },
+        {
+          "name": "SP-L",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2594,
+            "end": 2598
+          },
+          "confidence": 0.5
+        },
+        {
+          "name": "WikiSQL",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 3137,
+            "end": 3145
+          },
+          "confidence": 0.5
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": 100.0,
+          "unit": "%",
+          "evidence_span": {
+            "start": 2159,
+            "end": 2164
+          },
+          "confidence": 0.75
+        },
+        {
+          "name": "BLEU-4",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 3131,
+            "end": 3136
+          },
+          "confidence": 0.25
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "LSTM",
+        "GGS-NN",
+        "GCN",
+        "Seq2Seq",
+        "Tree2Seq"
+      ],
+      "self_consistency": 0.875,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 45732,
+    "tokens_out": 4959,
+    "cost_usd": 0.02306797,
+    "wall_time_seconds": 94.01618441590108,
+    "voting_samples": 3
+  }
+}

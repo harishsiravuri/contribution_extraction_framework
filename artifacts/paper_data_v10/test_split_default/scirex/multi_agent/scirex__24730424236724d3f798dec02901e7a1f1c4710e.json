@@ -1,0 +1,203 @@
+{
+  "paper_id": "scirex:24730424236724d3f798dec02901e7a1f1c4710e",
+  "contributions": [
+    {
+      "method": {
+        "name": "Joint Maximum Purity Forest (JMPF)",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 28,
+          "end": 80
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "classification",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 93,
+          "end": 104
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "public benchmark datasets",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 343,
+            "end": 368
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "error rate",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 2581,
+            "end": 2591
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "RF",
+        "ADF",
+        "ARF"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    },
+    {
+      "method": {
+        "name": "Joint Maximum Purity Forest (JMPF)",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 28,
+          "end": 80
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "regression",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 109,
+          "end": 118
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "public benchmark datasets",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 343,
+            "end": 368
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "RMSE",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 2581,
+            "end": 2586
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "RF",
+        "ARF"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    },
+    {
+      "method": {
+        "name": "Joint Maximum Purity Forest (JMPF)",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 28,
+          "end": 80
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "image super-resolution",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 399,
+          "end": 418
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "Set5",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 11703,
+            "end": 11708
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "Set14",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 11710,
+            "end": 11715
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "B100",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 11717,
+            "end": 11721
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "PSNR",
+          "value": null,
+          "unit": "dB",
+          "evidence_span": {
+            "start": 11741,
+            "end": 11746
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "bicubic interpolation",
+        "Zeyde",
+        "ANR",
+        "A+",
+        "RF",
+        "ARF"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 41103,
+    "tokens_out": 4687,
+    "cost_usd": 0.020855600000000002,
+    "wall_time_seconds": 96.83876458392479,
+    "voting_samples": 3
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "paper_id": "scirex:3448e6a5039417dc1ae890efeca3bef5390ace7c",
+  "contributions": [
+    {
+      "method": {
+        "name": "eXtreme Deep Factorization Machine (xDeepFM)",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 823,
+          "end": 905
+        },
+        "confidence": 0.95
+      },
+      "task": {
+        "name": "recommender systems",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 140,
+          "end": 155
+        },
+        "confidence": 0.9
+      },
+      "datasets": [
+        {
+          "name": "Criteo Dataset",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 5991,
+            "end": 6007
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "Dianping Dataset",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 6008,
+            "end": 6024
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "Bing News Dataset",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 6025,
+            "end": 6042
+          },
+          "confidence": 0.9
+        }
+      ],
+      "metrics": [
+        {
+          "name": "AUC",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 6211,
+            "end": 6214
+          },
+          "confidence": 0.85
+        },
+        {
+          "name": "Logloss",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 6215,
+            "end": 6222
+          },
+          "confidence": 0.85
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "FM",
+        "DNN",
+        "PNN",
+        "Wide & Deep",
+        "DCN",
+        "DeepFM"
+      ],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "PARTIAL",
+        "task": "PARTIAL",
+        "datasets": "PARTIAL",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "(none)",
+    "consolidator_model": "(none)",
+    "tokens_in": 7627,
+    "tokens_out": 499,
+    "cost_usd": 0.00288475,
+    "wall_time_seconds": 18.08767758286558,
+    "voting_samples": 1
+  }
+}

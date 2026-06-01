@@ -1,0 +1,132 @@
+{
+  "paper_id": "scirex:0c47cad9729c38d9db1f75491b1ee4bd883a5d4e",
+  "contributions": [
+    {
+      "method": {
+        "name": "Cross - View Training (CVT)",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 423,
+          "end": 483
+        },
+        "confidence": 0.9
+      },
+      "task": {
+        "name": "sequence tagging, dependency parsing, sequence - to - sequence learning",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 2219,
+          "end": 2295
+        },
+        "confidence": 0.8
+      },
+      "datasets": [
+        {
+          "name": "CCGBank",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2981,
+            "end": 2988
+          },
+          "confidence": 0.8
+        },
+        {
+          "name": "CoNLL - 2000",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 3013,
+            "end": 3022
+          },
+          "confidence": 0.8
+        },
+        {
+          "name": "CoNLL - 2003",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 3062,
+            "end": 3071
+          },
+          "confidence": 0.8
+        },
+        {
+          "name": "OntoNotes",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 3099,
+            "end": 3107
+          },
+          "confidence": 0.8
+        },
+        {
+          "name": "Penn Treebank",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 3144,
+            "end": 3156
+          },
+          "confidence": 0.8
+        },
+        {
+          "name": "English - Vietnamese translation dataset from IWSLT 2015",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 3184,
+            "end": 3225
+          },
+          "confidence": 0.8
+        },
+        {
+          "name": "1 Billion Word Language Model Benchmark",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 3234,
+            "end": 3271
+          },
+          "confidence": 0.8
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": null,
+          "unit": null,
+          "evidence_span": null,
+          "confidence": 0.5
+        },
+        {
+          "name": "BLEU",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 3196,
+            "end": 3200
+          },
+          "confidence": 0.7
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Word Dropout",
+        "Virtual Adversarial Training (VAT)",
+        "ELMo"
+      ],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "PARTIAL",
+        "task": "PARTIAL",
+        "datasets": "PARTIAL",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "(none)",
+    "consolidator_model": "(none)",
+    "tokens_in": 8433,
+    "tokens_out": 774,
+    "cost_usd": 0.00338742,
+    "wall_time_seconds": 32.65159995807335,
+    "voting_samples": 1
+  }
+}

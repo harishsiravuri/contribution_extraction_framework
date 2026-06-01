@@ -1,0 +1,72 @@
+{
+  "paper_id": "scirex:11da0c54ba904a1cb31a09d10da55f73e8825c61",
+  "contributions": [
+    {
+      "method": {
+        "name": "TBCNN-pair model",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 38,
+          "end": 83
+        },
+        "confidence": 0.9
+      },
+      "task": {
+        "name": "natural language inference (NLI)",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 38,
+          "end": 83
+        },
+        "confidence": 0.9
+      },
+      "datasets": [
+        {
+          "name": "Stanford Natural Language Inference (SNLI) dataset",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 3488,
+            "end": 3538
+          },
+          "confidence": 0.9
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": 82.1,
+          "unit": "%",
+          "evidence_span": {
+            "start": 4137,
+            "end": 4142
+          },
+          "confidence": 0.9
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "feature-rich methods",
+        "long short term memory (LSTM)-based recurrent networks",
+        "1024d gated recurrent unit (GRU)-based RNN with skip-thought pretraining",
+        "attention-based LSTMs"
+      ],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "PARTIAL",
+        "task": "PARTIAL",
+        "datasets": "PARTIAL",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "(none)",
+    "consolidator_model": "(none)",
+    "tokens_in": 3784,
+    "tokens_out": 383,
+    "cost_usd": 0.0015517500000000002,
+    "wall_time_seconds": 14.479949291097,
+    "voting_samples": 1
+  }
+}

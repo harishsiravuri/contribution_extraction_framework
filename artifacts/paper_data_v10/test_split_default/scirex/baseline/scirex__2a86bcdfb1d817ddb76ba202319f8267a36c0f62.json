@@ -1,0 +1,97 @@
+{
+  "paper_id": "scirex:2a86bcdfb1d817ddb76ba202319f8267a36c0f62",
+  "contributions": [
+    {
+      "method": {
+        "name": "Proposal Cluster Learning (PCL)",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 150
+        },
+        "confidence": 0.9
+      },
+      "task": {
+        "name": "Weakly Supervised Object Detection (WSOD)",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 150
+        },
+        "confidence": 0.95
+      },
+      "datasets": [
+        {
+          "name": "PASCAL VOC",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 500,
+            "end": 520
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "ImageNet detection",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 520,
+            "end": 540
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "MS-COCO",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 540,
+            "end": 550
+          },
+          "confidence": 0.9
+        }
+      ],
+      "metrics": [
+        {
+          "name": "mAP",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 550,
+            "end": 560
+          },
+          "confidence": 0.8
+        },
+        {
+          "name": "CorLoc",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 560,
+            "end": 570
+          },
+          "confidence": 0.8
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "previous state of the art"
+      ],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "PARTIAL",
+        "task": "PARTIAL",
+        "datasets": "PARTIAL",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "(none)",
+    "consolidator_model": "(none)",
+    "tokens_in": 13106,
+    "tokens_out": 471,
+    "cost_usd": 0.00461311,
+    "wall_time_seconds": 18.861643499927595,
+    "voting_samples": 1
+  }
+}

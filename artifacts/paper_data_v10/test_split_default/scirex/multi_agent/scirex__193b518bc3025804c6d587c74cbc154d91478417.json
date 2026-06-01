@@ -1,0 +1,97 @@
+{
+  "paper_id": "scirex:193b518bc3025804c6d587c74cbc154d91478417",
+  "contributions": [
+    {
+      "method": {
+        "name": "adversarial learning in output space",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 193,
+          "end": 219
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "semantic segmentation",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 55,
+          "end": 74
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "GTA5",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 4000,
+            "end": 4005
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "SYNTHIA",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 4000,
+            "end": 4007
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "Cityscapes",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 355,
+            "end": 365
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "Cross-City",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 5000,
+            "end": 5010
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "IoU",
+          "value": null,
+          "unit": "%",
+          "evidence_span": {
+            "start": 4444,
+            "end": 4447
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "state-of-the-art methods",
+        "single-level adaptation"
+      ],
+      "self_consistency": 0.875,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 33035,
+    "tokens_out": 7069,
+    "cost_usd": 0.02049372,
+    "wall_time_seconds": 492.87901904201135,
+    "voting_samples": 3
+  }
+}

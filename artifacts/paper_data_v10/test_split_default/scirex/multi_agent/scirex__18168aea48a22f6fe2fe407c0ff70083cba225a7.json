@@ -1,0 +1,117 @@
+{
+  "paper_id": "scirex:18168aea48a22f6fe2fe407c0ff70083cba225a7",
+  "contributions": [
+    {
+      "method": {
+        "name": "RED-Net",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 155,
+          "end": 160
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "image denoising",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 216,
+          "end": 231
+        },
+        "confidence": 0.6
+      },
+      "datasets": [
+        {
+          "name": "14 common benchmark images",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 3013,
+            "end": 3030
+          },
+          "confidence": 0.4
+        },
+        {
+          "name": "BSD200",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 3099,
+            "end": 3106
+          },
+          "confidence": 0.4
+        },
+        {
+          "name": "Set5",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 3199,
+            "end": 3205
+          },
+          "confidence": 0.4
+        },
+        {
+          "name": "Set14",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 3299,
+            "end": 3305
+          },
+          "confidence": 0.4
+        },
+        {
+          "name": "BSD100",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 3399,
+            "end": 3406
+          },
+          "confidence": 0.4
+        }
+      ],
+      "metrics": [
+        {
+          "name": "PSNR",
+          "value": null,
+          "unit": "dB",
+          "evidence_span": {
+            "start": 1005,
+            "end": 1009
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "WNNM",
+        "PCLR",
+        "BM3D",
+        "NCSR",
+        "EPLL",
+        "PDPD",
+        "WMMN",
+        "CSCN",
+        "SRCNN",
+        "NBSRF",
+        "CSC",
+        "TSE",
+        "ARFL+"
+      ],
+      "self_consistency": 0.83,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 29606,
+    "tokens_out": 6171,
+    "cost_usd": 0.01822773,
+    "wall_time_seconds": 267.3608303749934,
+    "voting_samples": 3
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "paper_id": "scirex:38e2f851b705faa0d0a698ed9885bd6834440073",
+  "contributions": [
+    {
+      "method": {
+        "name": "PLATIPUS",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 1554,
+          "end": 1561
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "few-shot learning",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 103,
+          "end": 121
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "CelebA",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 4211,
+            "end": 4217
+          },
+          "confidence": 0.5
+        },
+        {
+          "name": "MiniImagenet",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 5095,
+            "end": 5106
+          },
+          "confidence": 0.5
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": 50.13,
+          "unit": "%",
+          "evidence_span": {
+            "start": 5521,
+            "end": 5527
+          },
+          "confidence": 0.5
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "MAML"
+      ],
+      "self_consistency": 0.875,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "PARTIAL",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 33994,
+    "tokens_out": 4348,
+    "cost_usd": 0.01775227,
+    "wall_time_seconds": 92.27457408397458,
+    "voting_samples": 3
+  }
+}

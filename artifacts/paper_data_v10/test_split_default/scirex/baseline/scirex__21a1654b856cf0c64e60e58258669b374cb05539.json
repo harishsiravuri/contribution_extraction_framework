@@ -1,0 +1,89 @@
+{
+  "paper_id": "scirex:21a1654b856cf0c64e60e58258669b374cb05539",
+  "contributions": [
+    {
+      "method": {
+        "name": "YOLO (You Only Look Once)",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 100
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "Object Detection",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 100
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "Pascal VOC",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2000,
+            "end": 2010
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "ImageNet",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1500,
+            "end": 1510
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "frames per second",
+          "value": 45.0,
+          "unit": "fps",
+          "evidence_span": {
+            "start": 300,
+            "end": 350
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "mean average precision",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 400,
+            "end": 450
+          },
+          "confidence": 0.8
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "DPM",
+        "R-CNN"
+      ],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "PARTIAL",
+        "task": "PARTIAL",
+        "datasets": "PARTIAL",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "(none)",
+    "consolidator_model": "(none)",
+    "tokens_in": 6254,
+    "tokens_out": 426,
+    "cost_usd": 0.0023804200000000003,
+    "wall_time_seconds": 6.879563707858324,
+    "voting_samples": 1
+  }
+}

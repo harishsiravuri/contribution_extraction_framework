@@ -1,0 +1,109 @@
+{
+  "paper_id": "scirex:2138a7127429d67746ec78de46d6820fee0e548e",
+  "contributions": [
+    {
+      "method": {
+        "name": "Graph2Seq",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 294
+        },
+        "confidence": 0.9
+      },
+      "task": {
+        "name": "graph-to-sequence learning",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 260,
+          "end": 294
+        },
+        "confidence": 0.9
+      },
+      "datasets": [
+        {
+          "name": "bAbI",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 421,
+            "end": 426
+          },
+          "confidence": 0.8
+        },
+        {
+          "name": "Shortest Path",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 428,
+            "end": 442
+          },
+          "confidence": 0.8
+        },
+        {
+          "name": "Natural Language Generation",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 444,
+            "end": 469
+          },
+          "confidence": 0.8
+        },
+        {
+          "name": "WikiSQL",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 8963,
+            "end": 8970
+          },
+          "confidence": 0.8
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": 100.0,
+          "unit": "%",
+          "evidence_span": {
+            "start": 7591,
+            "end": 7596
+          },
+          "confidence": 0.8
+        },
+        {
+          "name": "BLEU-4",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 8655,
+            "end": 8663
+          },
+          "confidence": 0.7
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Seq2Seq",
+        "Tree2Seq",
+        "GGS-NN",
+        "GCN"
+      ],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "PARTIAL",
+        "task": "PARTIAL",
+        "datasets": "PARTIAL",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "(none)",
+    "consolidator_model": "(none)",
+    "tokens_in": 9788,
+    "tokens_out": 547,
+    "cost_usd": 0.00361899,
+    "wall_time_seconds": 20.237089042086154,
+    "voting_samples": 1
+  }
+}

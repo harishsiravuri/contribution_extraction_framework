@@ -1,0 +1,79 @@
+{
+  "paper_id": "scirex:3acc07f7f8951617276cf99483ed02aeb0a6eeac",
+  "contributions": [
+    {
+      "method": {
+        "name": "curriculum-style domain adaptation",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 200,
+          "end": 300
+        },
+        "confidence": 0.9
+      },
+      "task": {
+        "name": "semantic segmentation of urban scenes",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 100,
+          "end": 200
+        },
+        "confidence": 0.95
+      },
+      "datasets": [
+        {
+          "name": "Cityscapes",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2500,
+            "end": 2600
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "SYNTHIA",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2600,
+            "end": 2700
+          },
+          "confidence": 0.9
+        }
+      ],
+      "metrics": [
+        {
+          "name": "mean IoU",
+          "value": 28.1,
+          "unit": "%",
+          "evidence_span": {
+            "start": 6000,
+            "end": 6100
+          },
+          "confidence": 0.8
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "NoAdapt",
+        "Hoffman et al."
+      ],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "PARTIAL",
+        "task": "PARTIAL",
+        "datasets": "PARTIAL",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "(none)",
+    "consolidator_model": "(none)",
+    "tokens_in": 7415,
+    "tokens_out": 388,
+    "cost_usd": 0.00271812,
+    "wall_time_seconds": 16.173472917173058,
+    "voting_samples": 1
+  }
+}

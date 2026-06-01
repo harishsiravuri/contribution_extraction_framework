@@ -1,0 +1,127 @@
+{
+  "paper_id": "scirex:45429c281e30f9e87ebcd1ae42e0656d2ead24d1",
+  "contributions": [
+    {
+      "method": {
+        "name": "conditional generative adversarial networks with novel adversarial loss and multi-scale generator/discriminator architectures",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 14,
+          "end": 223
+        },
+        "confidence": 0.9
+      },
+      "task": {
+        "name": "high-resolution photo-realistic image synthesis from semantic label maps",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 14,
+          "end": 91
+        },
+        "confidence": 0.95
+      },
+      "datasets": [
+        {
+          "name": "Cityscapes",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 11194,
+            "end": 11206
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "NYU Indoor RGBD",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 11208,
+            "end": 11224
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "ADE20K",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 11226,
+            "end": 11233
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "Helen Face",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 11235,
+            "end": 11246
+          },
+          "confidence": 0.9
+        }
+      ],
+      "metrics": [
+        {
+          "name": "pixel-wise accuracy",
+          "value": null,
+          "unit": "%",
+          "evidence_span": {
+            "start": 10061,
+            "end": 10079
+          },
+          "confidence": 0.8
+        },
+        {
+          "name": "mean intersection-over-union (IoU)",
+          "value": null,
+          "unit": "%",
+          "evidence_span": {
+            "start": 10083,
+            "end": 10112
+          },
+          "confidence": 0.8
+        },
+        {
+          "name": "human preference rate (unlimited time)",
+          "value": null,
+          "unit": "%",
+          "evidence_span": {
+            "start": 10260,
+            "end": 10288
+          },
+          "confidence": 0.8
+        },
+        {
+          "name": "human preference rate (limited time)",
+          "value": null,
+          "unit": "%",
+          "evidence_span": {
+            "start": 10396,
+            "end": 10424
+          },
+          "confidence": 0.8
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "pix2pix",
+        "CRN"
+      ],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "PARTIAL",
+        "task": "PARTIAL",
+        "datasets": "PARTIAL",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "(none)",
+    "consolidator_model": "(none)",
+    "tokens_in": 6850,
+    "tokens_out": 677,
+    "cost_usd": 0.00279453,
+    "wall_time_seconds": 23.651880291989073,
+    "voting_samples": 1
+  }
+}

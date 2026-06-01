@@ -1,0 +1,235 @@
+{
+  "paper_id": "scirex:44078d0daed8b13114cffb15b368acc467f96351",
+  "contributions": [
+    {
+      "method": {
+        "name": "Triplet Probability Embedding (TPE)",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 1541,
+          "end": 1564
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "face verification",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 103,
+          "end": 120
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "IJB-A",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2084,
+            "end": 2091
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "False Non-Match Rate (FNMR)",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 3411,
+            "end": 3434
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Government-off-the-Shelf (GOTS)",
+        "Parkhi et al.",
+        "Neural Aggregation network (NAN)",
+        "Masi et al.",
+        "Crosswhite et al."
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "PARTIAL"
+      }
+    },
+    {
+      "method": {
+        "name": "Triplet Probability Embedding (TPE)",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 1541,
+          "end": 1564
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "face verification",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 103,
+          "end": 120
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "CFP",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 3700,
+            "end": 3703
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Equal Error Rate (EER)",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 3771,
+            "end": 3791
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "state of the art"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "PARTIAL"
+      }
+    },
+    {
+      "method": {
+        "name": "Triplet Probability Embedding (TPE)",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 1541,
+          "end": 1564
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "face clustering",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 4000,
+          "end": 4017
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "LFW",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 4100,
+            "end": 4103
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F-score",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 4150,
+            "end": 4155
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "approximate Rank-order clustering"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "PARTIAL"
+      }
+    },
+    {
+      "method": {
+        "name": "Triplet Probability Embedding (TPE)",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 1541,
+          "end": 1564
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "face clustering",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 4000,
+          "end": 4017
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "IJB-A",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 4200,
+            "end": 4207
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F-score",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 4250,
+            "end": 4255
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "raw CNN features"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 34893,
+    "tokens_out": 8700,
+    "cost_usd": 0.02248302,
+    "wall_time_seconds": 264.4975010000635,
+    "voting_samples": 3
+  }
+}

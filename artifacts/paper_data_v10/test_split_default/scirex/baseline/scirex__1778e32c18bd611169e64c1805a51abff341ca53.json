@@ -1,0 +1,87 @@
+{
+  "paper_id": "scirex:1778e32c18bd611169e64c1805a51abff341ca53",
+  "contributions": [
+    {
+      "method": {
+        "name": "Interactive Inference Network (IIN)",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 244,
+          "end": 542
+        },
+        "confidence": 0.9
+      },
+      "task": {
+        "name": "Natural Language Inference (NLI)",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 90,
+          "end": 242
+        },
+        "confidence": 0.95
+      },
+      "datasets": [
+        {
+          "name": "MultiNLI",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 477,
+            "end": 490
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "SNLI",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 3164,
+            "end": 3169
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "Quora Question Pair",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 722,
+            "end": 737
+          },
+          "confidence": 0.9
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": 80.0,
+          "unit": "%",
+          "evidence_span": {
+            "start": 4531,
+            "end": 4539
+          },
+          "confidence": 0.9
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "ESIM"
+      ],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "PARTIAL",
+        "task": "PARTIAL",
+        "datasets": "PARTIAL",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "(none)",
+    "consolidator_model": "(none)",
+    "tokens_in": 6421,
+    "tokens_out": 426,
+    "cost_usd": 0.00243386,
+    "wall_time_seconds": 14.820172041887417,
+    "voting_samples": 1
+  }
+}

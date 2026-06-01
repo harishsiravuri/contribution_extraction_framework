@@ -1,0 +1,79 @@
+{
+  "paper_id": "scirex:0678a8abea82793993cd89383319da75f6dc4be3",
+  "contributions": [
+    {
+      "method": {
+        "name": "ProNet",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 31,
+          "end": 36
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "object classification",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 105,
+          "end": 125
+        },
+        "confidence": 0.5
+      },
+      "datasets": [
+        {
+          "name": "PASCAL VOC 2012",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1547,
+            "end": 1563
+          },
+          "confidence": 0.5
+        },
+        {
+          "name": "MS COCO",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2018,
+            "end": 2025
+          },
+          "confidence": 0.5
+        }
+      ],
+      "metrics": [
+        {
+          "name": "average precision",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 2351,
+            "end": 2365
+          },
+          "confidence": 0.5
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "RCNN",
+        "Fast RCNN"
+      ],
+      "self_consistency": 0.875,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 32438,
+    "tokens_out": 5005,
+    "cost_usd": 0.01799013,
+    "wall_time_seconds": 153.6758037081454,
+    "voting_samples": 3
+  }
+}

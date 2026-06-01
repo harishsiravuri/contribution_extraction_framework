@@ -1,0 +1,107 @@
+{
+  "paper_id": "scirex:2777cd26b2c257843273fe41ad4c5b8cdf1b1b75",
+  "contributions": [
+    {
+      "method": {
+        "name": "Deep Nested Adversarial Network (NAN)",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 1000,
+          "end": 1200
+        },
+        "confidence": 0.9
+      },
+      "task": {
+        "name": "Multi-Human Parsing",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 500,
+          "end": 600
+        },
+        "confidence": 0.9
+      },
+      "datasets": [
+        {
+          "name": "Multi-Human Parsing (MHP v2.0)",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 700,
+            "end": 800
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "MHP v1.0",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1500,
+            "end": 1600
+          },
+          "confidence": 0.8
+        },
+        {
+          "name": "PASCAL-Person-Part",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1700,
+            "end": 1800
+          },
+          "confidence": 0.8
+        },
+        {
+          "name": "Buffy",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1900,
+            "end": 2000
+          },
+          "confidence": 0.8
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Average Precision based on Part (AP^p)",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 2500,
+            "end": 2600
+          },
+          "confidence": 0.8
+        },
+        {
+          "name": "Percentage of Correctly parsed semantic Parts (PCP)",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 2700,
+            "end": 2800
+          },
+          "confidence": 0.8
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Mask R-CNN",
+        "MH-Parser"
+      ],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "PARTIAL",
+        "task": "PARTIAL",
+        "datasets": "PARTIAL",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "(none)",
+    "consolidator_model": "(none)",
+    "tokens_in": 9471,
+    "tokens_out": 565,
+    "cost_usd": 0.00353357,
+    "wall_time_seconds": 11.863978625042364,
+    "voting_samples": 1
+  }
+}

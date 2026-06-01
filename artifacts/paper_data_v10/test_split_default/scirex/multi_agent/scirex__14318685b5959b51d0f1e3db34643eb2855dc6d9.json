@@ -1,0 +1,124 @@
+{
+  "paper_id": "scirex:14318685b5959b51d0f1e3db34643eb2855dc6d9",
+  "contributions": [
+    {
+      "method": {
+        "name": "GoogLeNet",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 143,
+          "end": 152
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "image classification",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 233,
+          "end": 250
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "ImageNet",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 233,
+            "end": 240
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "top-5 error rate",
+          "value": 6.67,
+          "unit": "%",
+          "evidence_span": {
+            "start": 6555,
+            "end": 6561
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "SuperVision",
+        "Clarifai"
+      ],
+      "self_consistency": 0.875,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    },
+    {
+      "method": {
+        "name": "GoogLeNet",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 143,
+          "end": 152
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "object detection",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 3964,
+          "end": 3982
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "ImageNet",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 233,
+            "end": 240
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "mAP",
+          "value": 43.9,
+          "unit": "%",
+          "evidence_span": {
+            "start": 10349,
+            "end": 10353
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "R-CNN"
+      ],
+      "self_consistency": 0.875,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 31169,
+    "tokens_out": 3213,
+    "cost_usd": 0.015467509999999999,
+    "wall_time_seconds": 50.7529562918935,
+    "voting_samples": 3
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "paper_id": "scirex:455da02e5048dffb51fb6ab5eb8aeca5926c9d9a",
+  "contributions": [
+    {
+      "method": {
+        "name": "Spatial Pyramid Pooling (SPP-net)",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 208,
+          "end": 312
+        },
+        "confidence": 0.9
+      },
+      "task": {
+        "name": "Image Classification and Object Detection",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 208,
+          "end": 312
+        },
+        "confidence": 0.9
+      },
+      "datasets": [
+        {
+          "name": "ImageNet 2012",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 469,
+            "end": 490
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "Pascal VOC 2007",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 491,
+            "end": 513
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "Caltech101",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 514,
+            "end": 523
+          },
+          "confidence": 0.9
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": null,
+          "unit": "percentage",
+          "evidence_span": {
+            "start": 469,
+            "end": 513
+          },
+          "confidence": 0.8
+        },
+        {
+          "name": "speedup",
+          "value": 102.0,
+          "unit": "times",
+          "evidence_span": {
+            "start": 906,
+            "end": 918
+          },
+          "confidence": 0.9
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "R-CNN"
+      ],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "PARTIAL",
+        "task": "PARTIAL",
+        "datasets": "PARTIAL",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "(none)",
+    "consolidator_model": "(none)",
+    "tokens_in": 11392,
+    "tokens_out": 483,
+    "cost_usd": 0.0040753099999999995,
+    "wall_time_seconds": 21.190619542030618,
+    "voting_samples": 1
+  }
+}

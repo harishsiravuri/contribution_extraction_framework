@@ -1,0 +1,79 @@
+{
+  "paper_id": "scirex:02b3d1d162080d9aefd3fc30a0bcc9a843073b5d",
+  "contributions": [
+    {
+      "method": {
+        "name": "Recurrent Neural Networks with character Convolutional Neural Networks and Long-Short Term Memory",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 200
+        },
+        "confidence": 0.9
+      },
+      "task": {
+        "name": "Language Modeling",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 200
+        },
+        "confidence": 0.9
+      },
+      "datasets": [
+        {
+          "name": "One Billion Word Benchmark",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 200,
+            "end": 300
+          },
+          "confidence": 0.9
+        }
+      ],
+      "metrics": [
+        {
+          "name": "perplexity",
+          "value": 30.0,
+          "unit": null,
+          "evidence_span": {
+            "start": 300,
+            "end": 400
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "perplexity",
+          "value": 23.7,
+          "unit": null,
+          "evidence_span": {
+            "start": 400,
+            "end": 500
+          },
+          "confidence": 0.9
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "state-of-the-art"
+      ],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "PARTIAL",
+        "task": "PARTIAL",
+        "datasets": "PARTIAL",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "(none)",
+    "consolidator_model": "(none)",
+    "tokens_in": 6953,
+    "tokens_out": 388,
+    "cost_usd": 0.0025702800000000003,
+    "wall_time_seconds": 13.439935500035062,
+    "voting_samples": 1
+  }
+}

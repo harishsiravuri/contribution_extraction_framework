@@ -1,0 +1,88 @@
+{
+  "paper_id": "scirex:4365eb43a635bc6431dfaf3af1f7bf7bf55522cc",
+  "contributions": [
+    {
+      "method": {
+        "name": "CoupleNet",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 277,
+          "end": 285
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "object detection",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 122,
+          "end": 135
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "PASCAL VOC2007",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 4819,
+            "end": 4825
+          },
+          "confidence": 0.5
+        },
+        {
+          "name": "PASCAL VOC2012",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2000,
+            "end": 2015
+          },
+          "confidence": 0.5
+        },
+        {
+          "name": "MS COCO",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 3000,
+            "end": 3010
+          },
+          "confidence": 0.5
+        }
+      ],
+      "metrics": [
+        {
+          "name": "mAP",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 4815,
+            "end": 4819
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "R-FCN",
+        "Faster R-CNN"
+      ],
+      "self_consistency": 0.875,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 29619,
+    "tokens_out": 3699,
+    "cost_usd": 0.01551116,
+    "wall_time_seconds": 72.30680654221214,
+    "voting_samples": 3
+  }
+}

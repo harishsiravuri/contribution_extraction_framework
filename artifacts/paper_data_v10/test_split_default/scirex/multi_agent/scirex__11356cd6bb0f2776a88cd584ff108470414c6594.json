@@ -1,0 +1,123 @@
+{
+  "paper_id": "scirex:11356cd6bb0f2776a88cd584ff108470414c6594",
+  "contributions": [
+    {
+      "method": {
+        "name": "Submanifold Sparse Convolutional Networks (VSC)",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 3469,
+          "end": 3549
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "image classification",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 284,
+          "end": 307
+        },
+        "confidence": 0.67
+      },
+      "datasets": [
+        {
+          "name": "CASIA",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2721,
+            "end": 2727
+          },
+          "confidence": 0.67
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": null,
+          "unit": "%",
+          "evidence_span": {
+            "start": 2754,
+            "end": 2761
+          },
+          "confidence": 0.33
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "regular convolutional networks"
+      ],
+      "self_consistency": 0.67,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "UNSUPPORTED"
+      }
+    },
+    {
+      "method": {
+        "name": "Submanifold Sparse Convolutional Networks (VSC)",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 3469,
+          "end": 3549
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "3D shape classification",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 2797,
+          "end": 2815
+        },
+        "confidence": 0.67
+      },
+      "datasets": [
+        {
+          "name": "ModelNet-40",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2797,
+            "end": 2807
+          },
+          "confidence": 0.67
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": null,
+          "unit": "%",
+          "evidence_span": {
+            "start": 3549,
+            "end": 3557
+          },
+          "confidence": 0.33
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "3DNiN"
+      ],
+      "self_consistency": 0.67,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "UNSUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 26330,
+    "tokens_out": 4014,
+    "cost_usd": 0.014370349999999999,
+    "wall_time_seconds": 77.98353908304125,
+    "voting_samples": 3
+  }
+}

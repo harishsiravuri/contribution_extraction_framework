@@ -1,0 +1,99 @@
+{
+  "paper_id": "scirex:178275dbdcfa267e41a9d5efe386ee5874c6d23f",
+  "contributions": [
+    {
+      "method": {
+        "name": "fraternal dropout",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 220,
+          "end": 340
+        },
+        "confidence": 0.9
+      },
+      "task": {
+        "name": "sequence modeling",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 120
+        },
+        "confidence": 0.9
+      },
+      "datasets": [
+        {
+          "name": "Penn Treebank",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1050,
+            "end": 1065
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "Wikitext-2",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1067,
+            "end": 1079
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "Microsoft COCO",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1120,
+            "end": 1134
+          },
+          "confidence": 0.8
+        },
+        {
+          "name": "CIFAR-10",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1145,
+            "end": 1153
+          },
+          "confidence": 0.8
+        }
+      ],
+      "metrics": [
+        {
+          "name": "perplexity",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 1800,
+            "end": 1810
+          },
+          "confidence": 0.8
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "expectation-linear dropout",
+        "Π-model",
+        "activity regularization",
+        "temporal activation regularization"
+      ],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "PARTIAL",
+        "task": "PARTIAL",
+        "datasets": "PARTIAL",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "(none)",
+    "consolidator_model": "(none)",
+    "tokens_in": 6384,
+    "tokens_out": 499,
+    "cost_usd": 0.00248699,
+    "wall_time_seconds": 21.689051541965455,
+    "voting_samples": 1
+  }
+}

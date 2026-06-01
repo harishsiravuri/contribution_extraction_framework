@@ -1,0 +1,78 @@
+{
+  "paper_id": "scirex:27a99c21a1324f087b2f144adc119f04137dfd87",
+  "contributions": [
+    {
+      "method": {
+        "name": "Adaptive Fastfood transform",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 292,
+          "end": 365
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "parameter reduction in convolutional neural networks",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 292,
+          "end": 365
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "MNIST",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 365,
+            "end": 371
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "ImageNet",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 371,
+            "end": 379
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "parameter reduction",
+          "value": 0.5,
+          "unit": "fraction",
+          "evidence_span": {
+            "start": 365,
+            "end": 379
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "standard convolutional networks"
+      ],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "PARTIAL",
+        "task": "PARTIAL",
+        "datasets": "PARTIAL",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "(none)",
+    "consolidator_model": "(none)",
+    "tokens_in": 5974,
+    "tokens_out": 367,
+    "cost_usd": 0.00223831,
+    "wall_time_seconds": 8.701807165984064,
+    "voting_samples": 1
+  }
+}

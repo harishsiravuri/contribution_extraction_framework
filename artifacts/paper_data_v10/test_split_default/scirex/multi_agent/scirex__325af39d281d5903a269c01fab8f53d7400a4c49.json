@@ -1,0 +1,182 @@
+{
+  "paper_id": "scirex:325af39d281d5903a269c01fab8f53d7400a4c49",
+  "contributions": [
+    {
+      "method": {
+        "name": "ArtTrack",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 7
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "articulated multi-person tracking",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 31,
+          "end": 56
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "MPII Human Pose",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1022,
+            "end": 1039
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "MPII Video Pose",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1043,
+            "end": 1061
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "AP",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 1022,
+            "end": 1061
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "DeeperCut"
+      ],
+      "self_consistency": 0.875,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    },
+    {
+      "method": {
+        "name": "Bottom-Up (BU) model",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 2500,
+          "end": 2514
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "pose estimation",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 2500,
+          "end": 2514
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "MPII Multi-Person",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 7846,
+            "end": 7865
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "AP",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 7846,
+            "end": 7848
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "novel",
+      "comparison_targets": [],
+      "self_consistency": 0.75,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    },
+    {
+      "method": {
+        "name": "Top-Down/Bottom-Up (TD/BU) model",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 4100,
+          "end": 4120
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "pose estimation",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 4100,
+          "end": 4120
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "MPII Multi-Person",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 7846,
+            "end": 7865
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "AP",
+          "value": 77.5,
+          "unit": null,
+          "evidence_span": {
+            "start": 3152,
+            "end": 3169
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "novel",
+      "comparison_targets": [],
+      "self_consistency": 0.75,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 38106,
+    "tokens_out": 6431,
+    "cost_usd": 0.02164651,
+    "wall_time_seconds": 248.86141416616738,
+    "voting_samples": 3
+  }
+}

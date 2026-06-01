@@ -1,0 +1,219 @@
+{
+  "paper_id": "scirex:160563abbd75265b19afc8b4169bab9e1eb33d97",
+  "contributions": [
+    {
+      "method": {
+        "name": "BiLSTM encoder with shared BPE vocabulary",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 1551,
+          "end": 1574
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "natural language inference",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 2411,
+          "end": 2434
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "XNLI",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2461,
+            "end": 2465
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 2591,
+            "end": 2598
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "BERT"
+      ],
+      "self_consistency": 0.75,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    },
+    {
+      "method": {
+        "name": "BiLSTM encoder with shared BPE vocabulary",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 1551,
+          "end": 1574
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "document classification",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 3041,
+          "end": 3065
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "MLDoc",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 3081,
+            "end": 3086
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 2591,
+            "end": 2598
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [],
+      "self_consistency": 0.75,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    },
+    {
+      "method": {
+        "name": "BiLSTM encoder with shared BPE vocabulary",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 1551,
+          "end": 1574
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "bitext mining",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 3301,
+          "end": 3315
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "BUCC",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 3341,
+            "end": 3345
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": null,
+          "unit": null,
+          "evidence_span": null,
+          "confidence": 0.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "UNSUPPORTED"
+      }
+    },
+    {
+      "method": {
+        "name": "BiLSTM encoder with shared BPE vocabulary",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 1551,
+          "end": 1574
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "multilingual similarity search",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 3561,
+          "end": 3582
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "Tatoeba",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 3601,
+            "end": 3608
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "error rate",
+          "value": null,
+          "unit": "percentage",
+          "evidence_span": null,
+          "confidence": 0.5
+        }
+      ],
+      "claim_strength": "novel",
+      "comparison_targets": [],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "UNSUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 37556,
+    "tokens_out": 5711,
+    "cost_usd": 0.02053149,
+    "wall_time_seconds": 105.16261395812035,
+    "voting_samples": 3
+  }
+}

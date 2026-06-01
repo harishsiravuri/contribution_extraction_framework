@@ -1,0 +1,120 @@
+{
+  "paper_id": "scirex:44078d0daed8b13114cffb15b368acc467f96351",
+  "contributions": [
+    {
+      "method": {
+        "name": "Triplet Probabilistic Embedding (TPE)",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 2000
+        },
+        "confidence": 0.9
+      },
+      "task": {
+        "name": "face verification and clustering",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 2000
+        },
+        "confidence": 0.9
+      },
+      "datasets": [
+        {
+          "name": "IJB-A",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 500,
+            "end": 600
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "CFP",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 600,
+            "end": 700
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "LFW",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 700,
+            "end": 800
+          },
+          "confidence": 0.9
+        }
+      ],
+      "metrics": [
+        {
+          "name": "False Non-Match Rate (FNMR)",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 2500,
+            "end": 2600
+          },
+          "confidence": 0.8
+        },
+        {
+          "name": "False Match Rate (FMR)",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 2600,
+            "end": 2700
+          },
+          "confidence": 0.8
+        },
+        {
+          "name": "Equal Error Rate (EER)",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 2700,
+            "end": 2800
+          },
+          "confidence": 0.8
+        },
+        {
+          "name": "Area under the curve (AUC)",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 2800,
+            "end": 2900
+          },
+          "confidence": 0.8
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "DeepFace",
+        "Facenet",
+        "Neural Aggregation network (NAN)",
+        "Government-off-the-Shelf (GOTS)"
+      ],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "PARTIAL",
+        "task": "PARTIAL",
+        "datasets": "PARTIAL",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "(none)",
+    "consolidator_model": "(none)",
+    "tokens_in": 6255,
+    "tokens_out": 619,
+    "cost_usd": 0.00255251,
+    "wall_time_seconds": 21.198172917123884,
+    "voting_samples": 1
+  }
+}

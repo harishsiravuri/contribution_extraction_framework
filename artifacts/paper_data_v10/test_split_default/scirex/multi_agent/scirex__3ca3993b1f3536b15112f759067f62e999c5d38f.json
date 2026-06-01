@@ -1,0 +1,97 @@
+{
+  "paper_id": "scirex:3ca3993b1f3536b15112f759067f62e999c5d38f",
+  "contributions": [
+    {
+      "method": {
+        "name": "BB8",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 23,
+          "end": 26
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "3D object detection and pose estimation",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 91,
+          "end": 140
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "LINEMOD",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 155,
+            "end": 162
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "Occlusion",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 693,
+            "end": 702
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "T-LESS",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 943,
+            "end": 949
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": 89.3,
+          "unit": "%",
+          "evidence_span": {
+            "start": 417,
+            "end": 423
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "Pose 6D criterion",
+          "value": 54.0,
+          "unit": "%",
+          "evidence_span": {
+            "start": 837,
+            "end": 851
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "state-of-the-art"
+      ],
+      "self_consistency": 0.83,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 37362,
+    "tokens_out": 5709,
+    "cost_usd": 0.02050414,
+    "wall_time_seconds": 248.89036570908502,
+    "voting_samples": 3
+  }
+}

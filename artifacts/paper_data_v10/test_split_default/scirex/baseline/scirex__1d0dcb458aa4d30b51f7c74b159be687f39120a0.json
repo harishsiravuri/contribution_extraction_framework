@@ -1,0 +1,132 @@
+{
+  "paper_id": "scirex:1d0dcb458aa4d30b51f7c74b159be687f39120a0",
+  "contributions": [
+    {
+      "method": {
+        "name": "Pose-driven Deep Convolutional (PDC) model",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 162,
+          "end": 207
+        },
+        "confidence": 0.9
+      },
+      "task": {
+        "name": "Person Re-Identification (ReID)",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 54,
+          "end": 78
+        },
+        "confidence": 0.95
+      },
+      "datasets": [
+        {
+          "name": "CUHK03",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 10903,
+            "end": 10909
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "Market-1501",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 10910,
+            "end": 10921
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "VIPeR",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 10922,
+            "end": 10928
+          },
+          "confidence": 0.9
+        }
+      ],
+      "metrics": [
+        {
+          "name": "rank1 accuracy",
+          "value": 88.7,
+          "unit": "%",
+          "evidence_span": {
+            "start": 12545,
+            "end": 12553
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "rank5 accuracy",
+          "value": null,
+          "unit": "%",
+          "evidence_span": null,
+          "confidence": 0.5
+        },
+        {
+          "name": "rank10 accuracy",
+          "value": null,
+          "unit": "%",
+          "evidence_span": null,
+          "confidence": 0.5
+        },
+        {
+          "name": "rank20 accuracy",
+          "value": null,
+          "unit": "%",
+          "evidence_span": null,
+          "confidence": 0.5
+        },
+        {
+          "name": "mean Average Precision (mAP)",
+          "value": 63.41,
+          "unit": "%",
+          "evidence_span": {
+            "start": 12684,
+            "end": 12693
+          },
+          "confidence": 0.9
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "MLAPG",
+        "LOMO + XQDA",
+        "BoW + HS",
+        "WARCA",
+        "LDNS",
+        "GOG",
+        "IDLA",
+        "PersonNet",
+        "DGDropout",
+        "SI + CI",
+        "Gate S-CNN",
+        "LSTM S-CNN",
+        "EDM",
+        "PIE",
+        "Spindle"
+      ],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "PARTIAL",
+        "task": "PARTIAL",
+        "datasets": "PARTIAL",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "(none)",
+    "consolidator_model": "(none)",
+    "tokens_in": 6411,
+    "tokens_out": 716,
+    "cost_usd": 0.00268876,
+    "wall_time_seconds": 27.54808249999769,
+    "voting_samples": 1
+  }
+}

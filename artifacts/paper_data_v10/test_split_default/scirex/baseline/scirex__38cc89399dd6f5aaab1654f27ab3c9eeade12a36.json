@@ -1,0 +1,80 @@
+{
+  "paper_id": "scirex:38cc89399dd6f5aaab1654f27ab3c9eeade12a36",
+  "contributions": [
+    {
+      "method": {
+        "name": "sequence-to-sequence network with LSTM units and residual connections",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 1557,
+          "end": 1665
+        },
+        "confidence": 0.9
+      },
+      "task": {
+        "name": "3D human pose estimation from a sequence of 2D poses",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 46,
+          "end": 85
+        },
+        "confidence": 0.95
+      },
+      "datasets": [
+        {
+          "name": "Human3.6M",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 967,
+            "end": 974
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "HumanEva",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 976,
+            "end": 985
+          },
+          "confidence": 0.9
+        }
+      ],
+      "metrics": [
+        {
+          "name": "average error per joint in millimeters",
+          "value": null,
+          "unit": "mm",
+          "evidence_span": {
+            "start": 2395,
+            "end": 2425
+          },
+          "confidence": 0.85
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Martinez et al.",
+        "Sun et al.",
+        "Moreno-Nouguer"
+      ],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "PARTIAL",
+        "task": "PARTIAL",
+        "datasets": "PARTIAL",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "(none)",
+    "consolidator_model": "(none)",
+    "tokens_in": 6883,
+    "tokens_out": 416,
+    "cost_usd": 0.0025728,
+    "wall_time_seconds": 18.5749043750111,
+    "voting_samples": 1
+  }
+}

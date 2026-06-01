@@ -1,0 +1,101 @@
+{
+  "paper_id": "scirex:081531984770a74e87dbd68907061b4b0f3631bf",
+  "contributions": [
+    {
+      "method": {
+        "name": "spatio-temporal sub-pixel convolution networks",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 155,
+          "end": 183
+        },
+        "confidence": 0.6
+      },
+      "task": {
+        "name": "video super-resolution",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 30
+        },
+        "confidence": 0.8
+      },
+      "datasets": [
+        {
+          "name": "CDVL",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 4280,
+            "end": 4284
+          },
+          "confidence": 0.6
+        },
+        {
+          "name": "Vid4",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 4320,
+            "end": 4324
+          },
+          "confidence": 0.4
+        }
+      ],
+      "metrics": [
+        {
+          "name": "PSNR",
+          "value": null,
+          "unit": "dB",
+          "evidence_span": {
+            "start": 4480,
+            "end": 4485
+          },
+          "confidence": 0.8
+        },
+        {
+          "name": "SSIM",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 4485,
+            "end": 4490
+          },
+          "confidence": 0.4
+        },
+        {
+          "name": "MOVIE",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 4490,
+            "end": 4495
+          },
+          "confidence": 0.4
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "single-frame models",
+        "SRCNN",
+        "ESPCN",
+        "VSRnet"
+      ],
+      "self_consistency": 0.65,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 35492,
+    "tokens_out": 7808,
+    "cost_usd": 0.02226022,
+    "wall_time_seconds": 58.375592541880906,
+    "voting_samples": 3
+  }
+}

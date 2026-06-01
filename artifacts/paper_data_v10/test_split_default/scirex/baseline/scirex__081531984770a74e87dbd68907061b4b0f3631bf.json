@@ -1,0 +1,100 @@
+{
+  "paper_id": "scirex:081531984770a74e87dbd68907061b4b0f3631bf",
+  "contributions": [
+    {
+      "method": {
+        "name": "spatio-temporal sub-pixel convolution networks with motion compensation",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 100,
+          "end": 300
+        },
+        "confidence": 0.9
+      },
+      "task": {
+        "name": "video super-resolution",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 50,
+          "end": 100
+        },
+        "confidence": 0.95
+      },
+      "datasets": [
+        {
+          "name": "CDVL database",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 3500,
+            "end": 3550
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "Vid4",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 3550,
+            "end": 3600
+          },
+          "confidence": 0.9
+        }
+      ],
+      "metrics": [
+        {
+          "name": "PSNR",
+          "value": null,
+          "unit": "dB",
+          "evidence_span": {
+            "start": 5000,
+            "end": 5050
+          },
+          "confidence": 0.85
+        },
+        {
+          "name": "SSIM",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 5050,
+            "end": 5100
+          },
+          "confidence": 0.85
+        },
+        {
+          "name": "MOVIE index",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 5100,
+            "end": 5150
+          },
+          "confidence": 0.8
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "ESPCN",
+        "VSRnet",
+        "SRCNN"
+      ],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "PARTIAL",
+        "task": "PARTIAL",
+        "datasets": "PARTIAL",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "(none)",
+    "consolidator_model": "(none)",
+    "tokens_in": 6215,
+    "tokens_out": 496,
+    "cost_usd": 0.00243024,
+    "wall_time_seconds": 18.09362337505445,
+    "voting_samples": 1
+  }
+}

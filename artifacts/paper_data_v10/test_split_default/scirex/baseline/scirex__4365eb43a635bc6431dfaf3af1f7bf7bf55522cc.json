@@ -1,0 +1,88 @@
+{
+  "paper_id": "scirex:4365eb43a635bc6431dfaf3af1f7bf7bf55522cc",
+  "contributions": [
+    {
+      "method": {
+        "name": "CoupleNet",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 200
+        },
+        "confidence": 0.9
+      },
+      "task": {
+        "name": "object detection",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 200
+        },
+        "confidence": 0.9
+      },
+      "datasets": [
+        {
+          "name": "PASCAL VOC2007",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1200,
+            "end": 1300
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "PASCAL VOC2012",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1300,
+            "end": 1400
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "MS COCO",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1400,
+            "end": 1500
+          },
+          "confidence": 0.9
+        }
+      ],
+      "metrics": [
+        {
+          "name": "mAP",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 1200,
+            "end": 1300
+          },
+          "confidence": 0.8
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Faster R-CNN",
+        "R-FCN"
+      ],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "PARTIAL",
+        "task": "PARTIAL",
+        "datasets": "PARTIAL",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "(none)",
+    "consolidator_model": "(none)",
+    "tokens_in": 6027,
+    "tokens_out": 434,
+    "cost_usd": 0.0023149,
+    "wall_time_seconds": 16.064525000052527,
+    "voting_samples": 1
+  }
+}

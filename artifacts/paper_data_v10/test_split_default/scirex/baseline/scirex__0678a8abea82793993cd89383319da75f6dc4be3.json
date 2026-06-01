@@ -1,0 +1,79 @@
+{
+  "paper_id": "scirex:0678a8abea82793993cd89383319da75f6dc4be3",
+  "contributions": [
+    {
+      "method": {
+        "name": "ProNet",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 59,
+          "end": 112
+        },
+        "confidence": 0.9
+      },
+      "task": {
+        "name": "object classification and localization",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 59,
+          "end": 112
+        },
+        "confidence": 0.9
+      },
+      "datasets": [
+        {
+          "name": "PASCAL VOC 2012",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2117,
+            "end": 2131
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "MS COCO",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2136,
+            "end": 2143
+          },
+          "confidence": 0.9
+        }
+      ],
+      "metrics": [
+        {
+          "name": "average precision",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 2149,
+            "end": 2165
+          },
+          "confidence": 0.8
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "RCNN",
+        "Fast RCNN"
+      ],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "PARTIAL",
+        "task": "PARTIAL",
+        "datasets": "PARTIAL",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "(none)",
+    "consolidator_model": "(none)",
+    "tokens_in": 6350,
+    "tokens_out": 381,
+    "cost_usd": 0.00237109,
+    "wall_time_seconds": 14.3430745000951,
+    "voting_samples": 1
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "paper_id": "scirex:2f04ba0f74df046b0080ca78e56898bd4847898b",
+  "contributions": [
+    {
+      "method": {
+        "name": "aggregate channel features",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 200,
+          "end": 400
+        },
+        "confidence": 0.9
+      },
+      "task": {
+        "name": "multi-view face detection",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 500,
+          "end": 700
+        },
+        "confidence": 0.9
+      },
+      "datasets": [
+        {
+          "name": "AFLW",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1500,
+            "end": 1600
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "AFW",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1600,
+            "end": 1700
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "FDDB",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1700,
+            "end": 1800
+          },
+          "confidence": 0.9
+        }
+      ],
+      "metrics": [
+        {
+          "name": "detection accuracy",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 1800,
+            "end": 1900
+          },
+          "confidence": 0.8
+        },
+        {
+          "name": "detection speed",
+          "value": 42.0,
+          "unit": "FPS",
+          "evidence_span": {
+            "start": 1900,
+            "end": 2000
+          },
+          "confidence": 0.9
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Viola-Jones",
+        "Haar-like features",
+        "HoG",
+        "SURF"
+      ],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "PARTIAL",
+        "task": "PARTIAL",
+        "datasets": "PARTIAL",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "(none)",
+    "consolidator_model": "(none)",
+    "tokens_in": 6539,
+    "tokens_out": 497,
+    "cost_usd": 0.0025348099999999998,
+    "wall_time_seconds": 22.092439624946564,
+    "voting_samples": 1
+  }
+}

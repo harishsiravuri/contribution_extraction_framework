@@ -1,0 +1,108 @@
+{
+  "paper_id": "scirex:107010b7f2abe3c0c9df62bcef35eb77f6fc76df",
+  "contributions": [
+    {
+      "method": {
+        "name": "Domain-Adversarial Neural Networks (DANN)",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 555,
+          "end": 600
+        },
+        "confidence": 0.95
+      },
+      "task": {
+        "name": "Domain adaptation",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 491,
+          "end": 585
+        },
+        "confidence": 0.95
+      },
+      "datasets": [
+        {
+          "name": "Amazon reviews",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1866,
+            "end": 1880
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "MNIST",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 5542,
+            "end": 5547
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "SVHN",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 5550,
+            "end": 5554
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "Office",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 5557,
+            "end": 5563
+          },
+          "confidence": 0.9
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Classification accuracy",
+          "value": null,
+          "unit": "percentage",
+          "evidence_span": {
+            "start": 5708,
+            "end": 5725
+          },
+          "confidence": 0.8
+        },
+        {
+          "name": "Proxy A-distance (PAD)",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 3073,
+            "end": 3089
+          },
+          "confidence": 0.8
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Marginalized Stacked Denoising Autoencoders (mSDA)",
+        "Support Vector Machine (SVM)",
+        "Standard neural network (NN)"
+      ],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "PARTIAL",
+        "task": "PARTIAL",
+        "datasets": "PARTIAL",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "(none)",
+    "consolidator_model": "(none)",
+    "tokens_in": 14807,
+    "tokens_out": 605,
+    "cost_usd": 0.0052766900000000005,
+    "wall_time_seconds": 19.767523207934573,
+    "voting_samples": 1
+  }
+}

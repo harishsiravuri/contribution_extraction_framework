@@ -1,0 +1,117 @@
+{
+  "paper_id": "scirex:25f5df29342a04936ba0d308b4d1b8245a7e8f5c",
+  "contributions": [
+    {
+      "method": {
+        "name": "Convolutional Pose Machines (CPM)",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 68,
+          "end": 91
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "pose estimation",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 105,
+          "end": 120
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "MPII",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 14435,
+            "end": 14439
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "LSP",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 14435,
+            "end": 14438
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "FLIC",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 14435,
+            "end": 14439
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "PCKh-0.5",
+          "value": 87.95,
+          "unit": "%",
+          "evidence_span": {
+            "start": 18414,
+            "end": 18422
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "PCK",
+          "value": 84.32,
+          "unit": "%",
+          "evidence_span": {
+            "start": 18968,
+            "end": 18972
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "PCK@0.2 (elbows)",
+          "value": 97.59,
+          "unit": "%",
+          "evidence_span": {
+            "start": 19095,
+            "end": 19109
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "PCK@0.2 (wrists)",
+          "value": 95.03,
+          "unit": "%",
+          "evidence_span": {
+            "start": 19116,
+            "end": 19130
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "previous methods"
+      ],
+      "self_consistency": 0.875,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 31427,
+    "tokens_out": 4786,
+    "cost_usd": 0.017334020000000002,
+    "wall_time_seconds": 128.19433020893484,
+    "voting_samples": 3
+  }
+}

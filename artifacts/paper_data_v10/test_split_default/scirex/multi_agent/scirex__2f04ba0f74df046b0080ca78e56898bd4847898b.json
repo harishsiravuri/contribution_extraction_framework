@@ -1,0 +1,92 @@
+{
+  "paper_id": "scirex:2f04ba0f74df046b0080ca78e56898bd4847898b",
+  "contributions": [
+    {
+      "method": {
+        "name": "aggregate channel features",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 146,
+          "end": 173
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "face detection",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 40,
+          "end": 54
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "AFW",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1095,
+            "end": 1098
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "FDDB",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1099,
+            "end": 1103
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "FPS",
+          "value": 42.0,
+          "unit": "frames per second",
+          "evidence_span": {
+            "start": 298,
+            "end": 301
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Google Picasa",
+        "Face.com",
+        "Face++",
+        "Shen",
+        "Zhu",
+        "DPM",
+        "multiHOG",
+        "Kalal",
+        "Viola-Jones detector",
+        "Olaworks",
+        "Yan",
+        "Boosted Exemplar",
+        "SURF multiview",
+        "PEP-Adapt",
+        "XZJY"
+      ],
+      "self_consistency": 0.875,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 31858,
+    "tokens_out": 4013,
+    "cost_usd": 0.0166824,
+    "wall_time_seconds": 107.76498083304614,
+    "voting_samples": 3
+  }
+}

@@ -1,0 +1,173 @@
+{
+  "paper_id": "scirex:02567fd428a675ca91a0c6786f47f3e35881bcbd",
+  "contributions": [
+    {
+      "method": {
+        "name": "Deep Label Distribution Learning (DLDL)",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 2500
+        },
+        "confidence": 0.9
+      },
+      "task": {
+        "name": "Visual recognition tasks with label ambiguity",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 2500
+        },
+        "confidence": 0.9
+      },
+      "datasets": [
+        {
+          "name": "Morph",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2500,
+            "end": 3000
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "ChaLearn",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 3000,
+            "end": 3500
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "Pointing’04",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 3500,
+            "end": 4000
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "BJUT-3D",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 4000,
+            "end": 4500
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "AFLW",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 4500,
+            "end": 5000
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "PASCAL VOC",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 5000,
+            "end": 5500
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "Semantic Boundaries Dataset (SBD)",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 5500,
+            "end": 6000
+          },
+          "confidence": 0.9
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Mean Absolute Error (MAE)",
+          "value": null,
+          "unit": "years",
+          "evidence_span": {
+            "start": 6000,
+            "end": 6500
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "Cumulative Score (CS)",
+          "value": null,
+          "unit": "percentage",
+          "evidence_span": {
+            "start": 6500,
+            "end": 7000
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "epsilon-error",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 7000,
+            "end": 7500
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "Average Precision (AP)",
+          "value": null,
+          "unit": "percentage",
+          "evidence_span": {
+            "start": 7500,
+            "end": 8000
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "Mean Average Precision (mAP)",
+          "value": null,
+          "unit": "percentage",
+          "evidence_span": {
+            "start": 8000,
+            "end": 8500
+          },
+          "confidence": 0.9
+        },
+        {
+          "name": "Mean Intersection over Union (Mean IU)",
+          "value": null,
+          "unit": "percentage",
+          "evidence_span": {
+            "start": 8500,
+            "end": 9000
+          },
+          "confidence": 0.9
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "state-of-the-art methods"
+      ],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "PARTIAL",
+        "task": "PARTIAL",
+        "datasets": "PARTIAL",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "(none)",
+    "consolidator_model": "(none)",
+    "tokens_in": 11966,
+    "tokens_out": 933,
+    "cost_usd": 0.00465949,
+    "wall_time_seconds": 36.137597542023286,
+    "voting_samples": 1
+  }
+}

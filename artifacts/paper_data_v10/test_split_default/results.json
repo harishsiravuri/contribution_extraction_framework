@@ -1,0 +1,104 @@
+{
+  "experiment": "v10_default_zero_shot_test_split",
+  "seed": 42,
+  "n_resamples_bootstrap": 1000,
+  "config_path": "config/models.yaml",
+  "extractor_model": "deepseek/deepseek-chat",
+  "papers_total": 66,
+  "papers_ok_multi": 64,
+  "papers_error_multi": 2,
+  "papers_ok_baseline": 66,
+  "multi_total_cost_usd": 1.29660177,
+  "baseline_total_cost_usd": 0.18568732000000002,
+  "total_cost_usd": 1.48228909,
+  "multi_wall_time_seconds": 2099.5884783749934,
+  "per_field_dev_vs_test": {
+    "methods": {
+      "n_test": 64,
+      "n_dev": 62,
+      "test_f1": 0.5484375,
+      "test_ci_lo": 0.4395703125,
+      "test_ci_hi": 0.6656510416666667,
+      "dev_f1": 0.48387096774193544,
+      "dev_ci_lo": 0.36663978494623656,
+      "dev_ci_hi": 0.5968010752688172,
+      "delta_test_minus_dev": 0.06456653225806458
+    },
+    "tasks": {
+      "n_test": 64,
+      "n_dev": 62,
+      "test_f1": 0.5475446428571429,
+      "test_ci_lo": 0.4336272321428571,
+      "test_ci_hi": 0.6529668898809523,
+      "dev_f1": 0.5591397849462364,
+      "dev_ci_lo": 0.45161290322580644,
+      "dev_ci_hi": 0.6612903225806449,
+      "delta_test_minus_dev": -0.011595142089093513
+    },
+    "datasets": {
+      "n_test": 64,
+      "n_dev": 62,
+      "test_f1": 0.49587053571428574,
+      "test_ci_lo": 0.41077380952380954,
+      "test_ci_hi": 0.5817485119047618,
+      "dev_f1": 0.45894777265745,
+      "dev_ci_lo": 0.3776446492575525,
+      "dev_ci_hi": 0.5512586405529951,
+      "delta_test_minus_dev": 0.03692276305683573
+    },
+    "metrics": {
+      "n_test": 64,
+      "n_dev": 62,
+      "test_f1": 0.5117063492063492,
+      "test_ci_lo": 0.41575210813492064,
+      "test_ci_hi": 0.6094140624999999,
+      "dev_f1": 0.4226702508960573,
+      "dev_ci_lo": 0.33537858422939065,
+      "dev_ci_hi": 0.5150448028673833,
+      "delta_test_minus_dev": 0.08903609831029186
+    }
+  },
+  "triple_f1_test": {
+    "n": 64,
+    "f1": 0.04909586940836941,
+    "ci_lo": 0.02165601325757577,
+    "ci_hi": 0.08352019074675324,
+    "exploratory": true,
+    "note": "Triple F1 on the held-out test split; framework was not tuned for triple binding."
+  },
+  "calibration_test_with_dev_fitted_T": {
+    "method.name": {
+      "n": 64,
+      "T_from_dev": 20.0,
+      "ece_uncalibrated_test": 0.4089583333333334,
+      "ece_dev_T_applied_to_test": 0.10106832423458714,
+      "ece_calibrated_dev_baseline": 0.11103354170147424,
+      "ece_uncalibrated_dev_baseline": 0.42922553636839356
+    },
+    "task.name": {
+      "n": 64,
+      "T_from_dev": 11.582278481012658,
+      "ece_uncalibrated_test": 0.4542708333333334,
+      "ece_dev_T_applied_to_test": 0.14222708558746328,
+      "ece_calibrated_dev_baseline": 0.049197522646123884,
+      "ece_uncalibrated_dev_baseline": 0.3020804832690078
+    },
+    "datasets": {
+      "n": 64,
+      "T_from_dev": 12.30379746835443,
+      "ece_uncalibrated_test": 0.20583333333333342,
+      "ece_dev_T_applied_to_test": 0.14353681488405473,
+      "ece_calibrated_dev_baseline": 0.028723665662391713,
+      "ece_uncalibrated_dev_baseline": 0.3020974955277281
+    },
+    "metrics": {
+      "n": 64,
+      "T_from_dev": 2.9240506329113924,
+      "ece_uncalibrated_test": 0.2995833333333334,
+      "ece_dev_T_applied_to_test": 0.13261675435429554,
+      "ece_calibrated_dev_baseline": 0.1057049888167291,
+      "ece_uncalibrated_dev_baseline": 0.20265163170163167
+    }
+  },
+  "records_dir": "outputs/paper_data_v10/test_split_default/scirex/multi_agent"
+}

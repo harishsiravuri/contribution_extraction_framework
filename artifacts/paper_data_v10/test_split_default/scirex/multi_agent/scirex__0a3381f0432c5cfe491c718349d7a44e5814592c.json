@@ -1,0 +1,78 @@
+{
+  "paper_id": "scirex:0a3381f0432c5cfe491c718349d7a44e5814592c",
+  "contributions": [
+    {
+      "method": {
+        "name": "bidirectional LSTM",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 2461,
+          "end": 2477
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "error detection in learner writing",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 146,
+          "end": 175
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-14 shared task dataset",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 151,
+            "end": 190
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "First Certificate in English dataset (FCE-public)",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1511,
+            "end": 1570
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F0.5",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 1835,
+            "end": 1839
+          },
+          "confidence": 0.5
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "other participants"
+      ],
+      "self_consistency": 0.875,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 30866,
+    "tokens_out": 4805,
+    "cost_usd": 0.01726391,
+    "wall_time_seconds": 79.88285066583194,
+    "voting_samples": 3
+  }
+}

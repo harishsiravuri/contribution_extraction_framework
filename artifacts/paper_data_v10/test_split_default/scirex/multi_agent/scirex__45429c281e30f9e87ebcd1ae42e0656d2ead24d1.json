@@ -1,0 +1,97 @@
+{
+  "paper_id": "scirex:45429c281e30f9e87ebcd1ae42e0656d2ead24d1",
+  "contributions": [
+    {
+      "method": {
+        "name": "conditional GANs with multi-scale generator and discriminator architectures",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 200
+        },
+        "confidence": 0.8
+      },
+      "task": {
+        "name": "high-resolution image synthesis",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 200
+        },
+        "confidence": 0.8
+      },
+      "datasets": [
+        {
+          "name": "Cityscapes",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 5000,
+            "end": 5015
+          },
+          "confidence": 0.6
+        },
+        {
+          "name": "NYU Indoor RGBD",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 5100,
+            "end": 5115
+          },
+          "confidence": 0.4
+        },
+        {
+          "name": "ADE20K",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 6000,
+            "end": 6010
+          },
+          "confidence": 0.4
+        },
+        {
+          "name": "Helen Face",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 6000,
+            "end": 6010
+          },
+          "confidence": 0.4
+        }
+      ],
+      "metrics": [
+        {
+          "name": "human preference rate",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 5700,
+            "end": 5800
+          },
+          "confidence": 0.6
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "pix2pix",
+        "CRN"
+      ],
+      "self_consistency": 0.7,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "UNSUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 35711,
+    "tokens_out": 5846,
+    "cost_usd": 0.020284939999999998,
+    "wall_time_seconds": 107.91905533289537,
+    "voting_samples": 3
+  }
+}

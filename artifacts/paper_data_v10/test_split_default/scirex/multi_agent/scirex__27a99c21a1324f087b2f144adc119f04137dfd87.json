@@ -1,0 +1,90 @@
+{
+  "paper_id": "scirex:27a99c21a1324f087b2f144adc119f04137dfd87",
+  "contributions": [
+    {
+      "method": {
+        "name": "Adaptive Fastfood transform",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 126,
+          "end": 150
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "image classification",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 1260,
+          "end": 1296
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "MNIST",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 446,
+            "end": 451
+          },
+          "confidence": 0.5
+        },
+        {
+          "name": "ImageNet",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1266,
+            "end": 1274
+          },
+          "confidence": 0.5
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 1260,
+            "end": 1296
+          },
+          "confidence": 0.75
+        },
+        {
+          "name": "top-1 error",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 4590,
+            "end": 4630
+          },
+          "confidence": 0.25
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "LeNet",
+        "AlexNet",
+        "SVD factorization"
+      ],
+      "self_consistency": 0.875,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 30049,
+    "tokens_out": 4257,
+    "cost_usd": 0.01626669,
+    "wall_time_seconds": 132.12823425000533,
+    "voting_samples": 3
+  }
+}

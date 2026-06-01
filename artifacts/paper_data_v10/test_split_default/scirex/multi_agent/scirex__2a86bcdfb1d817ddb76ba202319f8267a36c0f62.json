@@ -1,0 +1,97 @@
+{
+  "paper_id": "scirex:2a86bcdfb1d817ddb76ba202319f8267a36c0f62",
+  "contributions": [
+    {
+      "method": {
+        "name": "Proposal Cluster Learning (PCL)",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 155,
+          "end": 173
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "weakly supervised object detection",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 29,
+          "end": 61
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "PASCAL VOC",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2814,
+            "end": 2826
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "ImageNet detection",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2834,
+            "end": 2850
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "MS-COCO",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2858,
+            "end": 2866
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "mAP",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 3008,
+            "end": 3011
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "CorLoc",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 3020,
+            "end": 3026
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "previous state of the art"
+      ],
+      "self_consistency": 0.8,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 59176,
+    "tokens_out": 4690,
+    "cost_usd": 0.028020650000000005,
+    "wall_time_seconds": 79.8514191659633,
+    "voting_samples": 3
+  }
+}

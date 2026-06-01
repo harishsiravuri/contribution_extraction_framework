@@ -1,0 +1,147 @@
+{
+  "paper_id": "scirex:2777cd26b2c257843273fe41ad4c5b8cdf1b1b75",
+  "contributions": [
+    {
+      "method": {
+        "name": "Nested Adversarial Network (NAN)",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 2690,
+          "end": 2789
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "multi-human parsing",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 1669,
+          "end": 1687
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "MHP v2.0",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 818,
+            "end": 826
+          },
+          "confidence": 0.5
+        },
+        {
+          "name": "MHP v1.0",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1985,
+            "end": 1993
+          },
+          "confidence": 0.5
+        },
+        {
+          "name": "PASCAL-Person-Part",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 15414,
+            "end": 15431
+          },
+          "confidence": 0.5
+        },
+        {
+          "name": "Buffy",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 16382,
+            "end": 16387
+          },
+          "confidence": 0.5
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Average Precision based on part (AP^p)",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 13838,
+            "end": 13871
+          },
+          "confidence": 0.75
+        },
+        {
+          "name": "Percentage of Correctly parsed semantic Parts (PCP)",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 13871,
+            "end": 13935
+          },
+          "confidence": 0.75
+        },
+        {
+          "name": "Forward score",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 16399,
+            "end": 16407
+          },
+          "confidence": 0.25
+        },
+        {
+          "name": "Backward score",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 16409,
+            "end": 16420
+          },
+          "confidence": 0.25
+        },
+        {
+          "name": "F score",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 1017,
+            "end": 1081
+          },
+          "confidence": 0.25
+        },
+        {
+          "name": "B score",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 1017,
+            "end": 1081
+          },
+          "confidence": 0.25
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Mask R-CNN",
+        "MH-Parser"
+      ],
+      "self_consistency": 0.83,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 50716,
+    "tokens_out": 9232,
+    "cost_usd": 0.02978084,
+    "wall_time_seconds": 159.24115304113366,
+    "voting_samples": 3
+  }
+}

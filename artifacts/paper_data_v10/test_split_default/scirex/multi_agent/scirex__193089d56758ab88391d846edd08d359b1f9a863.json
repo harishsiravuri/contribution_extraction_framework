@@ -1,0 +1,203 @@
+{
+  "paper_id": "scirex:193089d56758ab88391d846edd08d359b1f9a863",
+  "contributions": [
+    {
+      "method": {
+        "name": "siamese network with identification and verification losses",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 155,
+          "end": 183
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "person re-identification",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 103,
+          "end": 125
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "Market1501",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 4292,
+            "end": 4301
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "CUHK03",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 4302,
+            "end": 4308
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "rank-1 accuracy",
+          "value": 79.51,
+          "unit": "%",
+          "evidence_span": {
+            "start": 8384,
+            "end": 8398
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "mAP",
+          "value": 59.87,
+          "unit": "%",
+          "evidence_span": {
+            "start": 8402,
+            "end": 8409
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "state-of-the-art methods"
+      ],
+      "self_consistency": 0.875,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    },
+    {
+      "method": {
+        "name": "siamese network with identification and verification losses",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 155,
+          "end": 183
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "person re-identification",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 103,
+          "end": 125
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "Market1501 + 500k",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 4413,
+            "end": 4428
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "rank-1 accuracy",
+          "value": 68.26,
+          "unit": "%",
+          "evidence_span": {
+            "start": 8943,
+            "end": 8957
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "mAP",
+          "value": 45.24,
+          "unit": "%",
+          "evidence_span": {
+            "start": 8961,
+            "end": 8968
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "comparable",
+      "comparison_targets": [
+        "state-of-the-art methods"
+      ],
+      "self_consistency": 0.75,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    },
+    {
+      "method": {
+        "name": "siamese network with identification and verification losses",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 155,
+          "end": 183
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "image retrieval",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 300,
+          "end": 319
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "Oxford5k",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 5203,
+            "end": 5210
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "mAP",
+          "value": null,
+          "unit": "%",
+          "evidence_span": null,
+          "confidence": 0.0
+        }
+      ],
+      "claim_strength": "comparable",
+      "comparison_targets": [
+        "state-of-the-art methods"
+      ],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "UNSUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 36810,
+    "tokens_out": 6865,
+    "cost_usd": 0.0215556,
+    "wall_time_seconds": 100.66847062506713,
+    "voting_samples": 3
+  }
+}

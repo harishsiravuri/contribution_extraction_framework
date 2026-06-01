@@ -12,6 +12,7 @@ tests use 10,000 permutations.
 | Manuscript element                             | Script                                              | Artifact                                                                       |
 |-----------------------------------------------|-----------------------------------------------------|---------------------------------------------------------------------------------|
 | Table 1: dev F1, multi-agent vs single-LLM    | `scripts/run_benchmarks.py --benchmarks scirex`     | `artifacts/paper_data_v3/benchmarks/scirex/evaluation.json`                     |
+| **Table 1b: held-out TEST F1, default zero-shot framework** (same configuration as Table 1) | `scripts/run_benchmarks.py --benchmarks scirex --scirex-split test --config config/models.yaml` then `scripts/v10_score.py` | `artifacts/paper_data_v10/test_split_default/results.json` + `SUMMARY.md` |
 | Table 2: test F1, specialized 70B FT vs Jain  | `scripts/run_benchmarks.py --benchmarks scirex --scirex-split test --config config/models_ft_v6_70b.yaml --client together` | `artifacts/paper_data_v6/benchmarks_ft_70b_test/scirex/evaluation.json` |
 | Table 3: calibration ECE before/after T-scaling | `scripts/run_calibration_v2.py`                   | `artifacts/paper_data_v2/calibration/calibration.json` *(see note below)*       |
 | Table 4: span-grounding ablation              | `scripts/run_span_grounding.py`                     | `artifacts/paper_data_v3/span_grounding/`                                       |
