@@ -18,7 +18,7 @@ artifacts referenced in the paper, and the scripts that produced them.
 ## Quickstart (5 minutes)
 
 ```bash
-git clone https://github.com/<your-handle>/contribution_extraction_framework.git
+git clone https://github.com/harishsiravuri/contribution_extraction_framework.git
 cd contribution_extraction_framework
 
 # 1. Set up the Python env with uv (https://docs.astral.sh/uv/)
@@ -90,7 +90,7 @@ once available):
   author    = {Siravuri, Harish},
   booktitle = {International Conference on Machine Learning and Applications (ICMLA)},
   year      = {2026},
-  note      = {Code and data available at \url{https://github.com/<your-handle>/contribution_extraction_framework}}
+  note      = {Code and data available at \url{https://github.com/harishsiravuri/contribution_extraction_framework}}
 }
 ```
 
@@ -114,9 +114,3 @@ once available):
 Attribution to third-party dependencies and external services is in
 [NOTICE](NOTICE).
 
-## Anonymous-review mirror
-
-This is the public, attributed version of the repository. For the
-double-blind peer-review version, the author uploaded an anonymous mirror
-via [anonymous.4open.science](https://anonymous.4open.science). See
-[ANONYMIZE.md](ANONYMIZE.md) for the redaction checklist applied to that mirror.
