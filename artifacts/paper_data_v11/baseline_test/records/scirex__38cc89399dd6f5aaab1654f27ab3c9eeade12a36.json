@@ -1,0 +1,125 @@
+{
+  "paper_id": "scirex:38cc89399dd6f5aaab1654f27ab3c9eeade12a36",
+  "contributions": [
+    {
+      "method": {
+        "name": "sequence-to-sequence network with LSTM units and residual connections",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 1000,
+          "end": 1100
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "3D human pose estimation",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 50
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "Human3.6M",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2000,
+            "end": 2100
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "average error per joint in millimeters",
+          "value": null,
+          "unit": "mm",
+          "evidence_span": {
+            "start": 3000,
+            "end": 3100
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Sun et al.",
+        "Martinez et al.",
+        "Moreno-Nouguer"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {
+        "method": null,
+        "task": null,
+        "datasets": null,
+        "metrics": null
+      }
+    },
+    {
+      "method": {
+        "name": "sequence-to-sequence network with LSTM units and residual connections",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 1000,
+          "end": 1100
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "3D human pose estimation",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 50
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "HumanEva",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 4000,
+            "end": 4100
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "average error per joint in millimeters",
+          "value": null,
+          "unit": "mm",
+          "evidence_span": {
+            "start": 3000,
+            "end": 3100
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "previous work"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {
+        "method": null,
+        "task": null,
+        "datasets": null,
+        "metrics": null
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "DISABLED (Condition A: single-LLM baseline, extractor prompt @ t=0)",
+    "consolidator_model": "DISABLED (Condition A: single-LLM baseline)",
+    "tokens_in": 7153,
+    "tokens_out": 556,
+    "cost_usd": 0.0027838,
+    "wall_time_seconds": 16.072799749905244,
+    "voting_samples": 1
+  }
+}

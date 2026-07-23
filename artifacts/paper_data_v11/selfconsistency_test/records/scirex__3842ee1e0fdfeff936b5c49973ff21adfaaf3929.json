@@ -1,0 +1,259 @@
+{
+  "paper_id": "scirex:3842ee1e0fdfeff936b5c49973ff21adfaaf3929",
+  "contributions": [
+    {
+      "method": {
+        "name": "Adversarial Discriminative Domain Adaptation (ADDA)",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 1001,
+          "end": 1100
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "domain adaptation",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 1001,
+          "end": 1100
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "MNIST",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1001,
+            "end": 1100
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "USPS",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1140,
+            "end": 1145
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "SVHN",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1147,
+            "end": 1151
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 1001,
+            "end": 1100
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "CoGANs"
+      ],
+      "self_consistency": 0.8857142857142858,
+      "critic_verdict": {
+        "method": null,
+        "task": null,
+        "datasets": null,
+        "metrics": null
+      }
+    },
+    {
+      "method": {
+        "name": "Adversarial Discriminative Domain Adaptation (ADDA)",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 1001,
+          "end": 1100
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "domain adaptation",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 1001,
+          "end": 1100
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "USPS",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1001,
+            "end": 1100
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "NYU depth dataset",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1153,
+            "end": 1169
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": 21.1,
+          "unit": "%",
+          "evidence_span": {
+            "start": 1001,
+            "end": 1100
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "CoGANs",
+        "source only baseline"
+      ],
+      "self_consistency": 0.8333333333333334,
+      "critic_verdict": {
+        "method": null,
+        "task": null,
+        "datasets": null,
+        "metrics": null
+      }
+    },
+    {
+      "method": {
+        "name": "Adversarial Discriminative Domain Adaptation (ADDA)",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 1001,
+          "end": 1100
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "domain adaptation",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 1001,
+          "end": 1100
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "SVHN",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1001,
+            "end": 1100
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 1001,
+            "end": 1100
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "CoGANs"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {
+        "method": null,
+        "task": null,
+        "datasets": null,
+        "metrics": null
+      }
+    },
+    {
+      "method": {
+        "name": "Adversarial Discriminative Domain Adaptation (ADDA)",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 1001,
+          "end": 1100
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "domain adaptation",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 1001,
+          "end": 1100
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "NYU depth dataset",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1001,
+            "end": 1100
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": 21.1,
+          "unit": "%",
+          "evidence_span": {
+            "start": 1001,
+            "end": 1100
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "nonadaptive baseline"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {
+        "method": null,
+        "task": null,
+        "datasets": null,
+        "metrics": null
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "DISABLED (Condition B: self-consistency vote of 5 extractor samples)",
+    "consolidator_model": "DISABLED (Condition B: self-consistency baseline)",
+    "tokens_in": 29760,
+    "tokens_out": 3581,
+    "cost_usd": 0.012710289999999999,
+    "wall_time_seconds": 38.89256412512623,
+    "voting_samples": 5
+  }
+}

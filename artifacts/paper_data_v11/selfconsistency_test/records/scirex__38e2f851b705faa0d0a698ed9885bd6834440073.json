@@ -1,0 +1,142 @@
+{
+  "paper_id": "scirex:38e2f851b705faa0d0a698ed9885bd6834440073",
+  "contributions": [
+    {
+      "method": {
+        "name": "PLATIPUS",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 100
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "few-shot learning",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 100
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "CelebA",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 5000,
+            "end": 5100
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "MiniImagenet",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 8041,
+            "end": 8053
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 0,
+            "end": 100
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "MAML"
+      ],
+      "self_consistency": 0.8333333333333334,
+      "critic_verdict": {
+        "method": null,
+        "task": null,
+        "datasets": null,
+        "metrics": null
+      }
+    },
+    {
+      "method": {
+        "name": "PLATIPUS",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 100
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "few-shot learning",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 100
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "MiniImagenet",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 0,
+            "end": 100
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": 50.13,
+          "unit": "%",
+          "evidence_span": {
+            "start": 0,
+            "end": 100
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "comparable",
+      "comparison_targets": [
+        "MAML",
+        "LLAMA",
+        "Reptile",
+        "Meta-SGD",
+        "matching nets",
+        "meta-learner LSTM",
+        "SNAIL",
+        "prototypical networks",
+        "mAP-DLM",
+        "GNN",
+        "Relation Net"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {
+        "method": null,
+        "task": null,
+        "datasets": null,
+        "metrics": null
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "DISABLED (Condition B: self-consistency vote of 5 extractor samples)",
+    "consolidator_model": "DISABLED (Condition B: self-consistency baseline)",
+    "tokens_in": 36535,
+    "tokens_out": 2644,
+    "cost_usd": 0.01404436,
+    "wall_time_seconds": 17.539374166866764,
+    "voting_samples": 5
+  }
+}

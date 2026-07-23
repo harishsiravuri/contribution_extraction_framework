@@ -1,0 +1,177 @@
+{
+  "paper_id": "scirex:27a99c21a1324f087b2f144adc119f04137dfd87",
+  "contributions": [
+    {
+      "method": {
+        "name": "Adaptive Fastfood transform",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 100,
+          "end": 200
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "image classification",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 2000,
+          "end": 2100
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "MNIST",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2200,
+            "end": 2300
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 2400,
+            "end": 2500
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "LeNet"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {
+        "method": null,
+        "task": null,
+        "datasets": null,
+        "metrics": null
+      }
+    },
+    {
+      "method": {
+        "name": "Adaptive Fastfood transform",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 100,
+          "end": 200
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "image classification",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 3000,
+          "end": 3100
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "ImageNet",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 3200,
+            "end": 3300
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "top-1 error",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 3400,
+            "end": 3500
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "AlexNet"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {
+        "method": null,
+        "task": null,
+        "datasets": null,
+        "metrics": null
+      }
+    },
+    {
+      "method": {
+        "name": "Adaptive Fastfood transform",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 100,
+          "end": 200
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "image classification",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 3600,
+          "end": 3700
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "ImageNet",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 3200,
+            "end": 3300
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "top-1 error",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 3800,
+            "end": 3900
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "SVD factorization"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {
+        "method": null,
+        "task": null,
+        "datasets": null,
+        "metrics": null
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "DISABLED (Condition A: single-LLM baseline, extractor prompt @ t=0)",
+    "consolidator_model": "DISABLED (Condition A: single-LLM baseline)",
+    "tokens_in": 6244,
+    "tokens_out": 779,
+    "cost_usd": 0.00269139,
+    "wall_time_seconds": 20.735320042120293,
+    "voting_samples": 1
+  }
+}

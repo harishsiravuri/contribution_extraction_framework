@@ -1,0 +1,289 @@
+{
+  "paper_id": "scirex:1130d8fdd931225c2d7563c3808367726cfa1c3a",
+  "contributions": [
+    {
+      "method": {
+        "name": "PixelGAN autoencoder",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 200
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "unsupervised clustering",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 3000,
+          "end": 3100
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "MNIST",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 3000,
+            "end": 3100
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "error rate",
+          "value": 5.0,
+          "unit": "%",
+          "evidence_span": {
+            "start": 3000,
+            "end": 3100
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "accuracy",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 2200,
+            "end": 2300
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "F1",
+          "value": null,
+          "unit": null,
+          "evidence_span": null,
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "comparable",
+      "comparison_targets": [
+        "CatGAN",
+        "InfoGAN",
+        "adversarial autoencoders"
+      ],
+      "self_consistency": 0.6095238095238095,
+      "critic_verdict": {
+        "method": null,
+        "task": null,
+        "datasets": null,
+        "metrics": null
+      }
+    },
+    {
+      "method": {
+        "name": "PixelGAN autoencoder",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 200
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "semi-supervised classification",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 4000,
+          "end": 4100
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "MNIST",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 4000,
+            "end": 4100
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "SVHN",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2300,
+            "end": 2400
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "error rate",
+          "value": 1.1,
+          "unit": "%",
+          "evidence_span": {
+            "start": 4000,
+            "end": 4100
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "accuracy",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 2400,
+            "end": 2500
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": null,
+      "comparison_targets": [],
+      "self_consistency": 0.6666666666666666,
+      "critic_verdict": {
+        "method": null,
+        "task": null,
+        "datasets": null,
+        "metrics": null
+      }
+    },
+    {
+      "method": {
+        "name": "PixelGAN autoencoder",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 200
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "semi-supervised classification",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 5000,
+          "end": 5100
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "SVHN",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 5000,
+            "end": 5100
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "NORB",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2500,
+            "end": 2600
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "error rate",
+          "value": null,
+          "unit": "%",
+          "evidence_span": {
+            "start": 5000,
+            "end": 5100
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "accuracy",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 2600,
+            "end": 2700
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": null,
+      "comparison_targets": [],
+      "self_consistency": 0.6666666666666666,
+      "critic_verdict": {
+        "method": null,
+        "task": null,
+        "datasets": null,
+        "metrics": null
+      }
+    },
+    {
+      "method": {
+        "name": "PixelGAN autoencoder",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 200
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "semi-supervised classification",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 6000,
+          "end": 6100
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "NORB",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 6000,
+            "end": 6100
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "error rate",
+          "value": 8.17,
+          "unit": "%",
+          "evidence_span": {
+            "start": 6000,
+            "end": 6100
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "accuracy",
+          "value": null,
+          "unit": null,
+          "evidence_span": null,
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [],
+      "self_consistency": 0.8333333333333334,
+      "critic_verdict": {
+        "method": null,
+        "task": null,
+        "datasets": null,
+        "metrics": null
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "DISABLED (Condition B: self-consistency vote of 5 extractor samples)",
+    "consolidator_model": "DISABLED (Condition B: self-consistency baseline)",
+    "tokens_in": 53770,
+    "tokens_out": 4840,
+    "cost_usd": 0.021514000000000002,
+    "wall_time_seconds": 29.42928249994293,
+    "voting_samples": 5
+  }
+}

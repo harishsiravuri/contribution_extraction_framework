@@ -1,0 +1,127 @@
+{
+  "paper_id": "scirex:33261d252218007147a71e40f8367ed152fa2fe0",
+  "contributions": [
+    {
+      "method": {
+        "name": "subgraph embedding model",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 200
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "question answering",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 200
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "WebQuestions",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1000,
+            "end": 1100
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 4000,
+            "end": 4100
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "[reference]",
+        "[reference]",
+        "[reference]"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {
+        "method": null,
+        "task": null,
+        "datasets": null,
+        "metrics": null
+      }
+    },
+    {
+      "method": {
+        "name": "subgraph embedding model",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 200
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "question answering",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 200
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "WebQuestions",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1000,
+            "end": 1100
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "precision@1",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 4000,
+            "end": 4100
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "[reference]",
+        "[reference]",
+        "[reference]"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {
+        "method": null,
+        "task": null,
+        "datasets": null,
+        "metrics": null
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "DISABLED (Condition A: single-LLM baseline, extractor prompt @ t=0)",
+    "consolidator_model": "DISABLED (Condition A: single-LLM baseline)",
+    "tokens_in": 5067,
+    "tokens_out": 517,
+    "cost_usd": 0.00208157,
+    "wall_time_seconds": 13.960207207826898,
+    "voting_samples": 1
+  }
+}

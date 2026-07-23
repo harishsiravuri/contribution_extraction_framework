@@ -1,0 +1,177 @@
+{
+  "paper_id": "scirex:0dc9eb7d17f2def56ad930945f2521653f04c3fa",
+  "contributions": [
+    {
+      "method": {
+        "name": "Sparse Non-negative Matrix (SNM) estimation",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 20,
+          "end": 80
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "language modeling",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 20,
+          "end": 80
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "One Billion Word Benchmark",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 200,
+            "end": 230
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "perplexity",
+          "value": 69.8,
+          "unit": null,
+          "evidence_span": {
+            "start": 2000,
+            "end": 2020
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "comparable",
+      "comparison_targets": [
+        "Kneser-Ney (KN) models"
+      ],
+      "self_consistency": 0.96,
+      "critic_verdict": {
+        "method": null,
+        "task": null,
+        "datasets": null,
+        "metrics": null
+      }
+    },
+    {
+      "method": {
+        "name": "Sparse Non-negative Matrix (SNM) estimation with skip-gram features",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 2500,
+          "end": 2600
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "language modeling",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 2500,
+          "end": 2600
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "One Billion Word Benchmark",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 200,
+            "end": 230
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "perplexity",
+          "value": 54.2,
+          "unit": null,
+          "evidence_span": {
+            "start": 2500,
+            "end": 2600
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "comparable",
+      "comparison_targets": [
+        "recurrent neural network (RNN) LMs"
+      ],
+      "self_consistency": 0.8400000000000001,
+      "critic_verdict": {
+        "method": null,
+        "task": null,
+        "datasets": null,
+        "metrics": null
+      }
+    },
+    {
+      "method": {
+        "name": "Sparse Non-negative Matrix (SNM) estimation with skip-gram features and n-grams",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 2700,
+          "end": 2800
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "language modeling",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 2700,
+          "end": 2800
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "One Billion Word Benchmark",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 200,
+            "end": 230
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "perplexity",
+          "value": 41.3,
+          "unit": null,
+          "evidence_span": {
+            "start": 3000,
+            "end": 3100
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "recurrent neural network (RNN) LMs"
+      ],
+      "self_consistency": 0.9199999999999999,
+      "critic_verdict": {
+        "method": null,
+        "task": null,
+        "datasets": null,
+        "metrics": null
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "DISABLED (Condition B: self-consistency vote of 5 extractor samples)",
+    "consolidator_model": "DISABLED (Condition B: self-consistency baseline)",
+    "tokens_in": 28510,
+    "tokens_out": 3890,
+    "cost_usd": 0.0125853,
+    "wall_time_seconds": 21.359268124913797,
+    "voting_samples": 5
+  }
+}

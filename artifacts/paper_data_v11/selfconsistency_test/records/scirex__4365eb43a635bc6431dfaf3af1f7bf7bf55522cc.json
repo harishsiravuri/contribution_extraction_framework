@@ -1,0 +1,207 @@
+{
+  "paper_id": "scirex:4365eb43a635bc6431dfaf3af1f7bf7bf55522cc",
+  "contributions": [
+    {
+      "method": {
+        "name": "CoupleNet",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 0
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "object detection",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 0
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "PASCAL VOC2007",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 0,
+            "end": 0
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "VOC07",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 734,
+            "end": 739
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "mAP",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 0,
+            "end": 0
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Faster R-CNN",
+        "R-FCN"
+      ],
+      "self_consistency": 0.8333333333333334,
+      "critic_verdict": {
+        "method": null,
+        "task": null,
+        "datasets": null,
+        "metrics": null
+      }
+    },
+    {
+      "method": {
+        "name": "CoupleNet",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 0
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "object detection",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 0
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "PASCAL VOC2012",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 0,
+            "end": 0
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "VOC12",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 740,
+            "end": 745
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "mAP",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 0,
+            "end": 0
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Faster R-CNN",
+        "R-FCN"
+      ],
+      "self_consistency": 0.8333333333333334,
+      "critic_verdict": {
+        "method": null,
+        "task": null,
+        "datasets": null,
+        "metrics": null
+      }
+    },
+    {
+      "method": {
+        "name": "CoupleNet",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 0
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "object detection",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 0
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "MS COCO",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 0,
+            "end": 0
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "COCO",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 746,
+            "end": 750
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "mAP",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 0,
+            "end": 0
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Faster R-CNN",
+        "R-FCN"
+      ],
+      "self_consistency": 0.8333333333333334,
+      "critic_verdict": {
+        "method": null,
+        "task": null,
+        "datasets": null,
+        "metrics": null
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "DISABLED (Condition B: self-consistency vote of 5 extractor samples)",
+    "consolidator_model": "DISABLED (Condition B: self-consistency baseline)",
+    "tokens_in": 31480,
+    "tokens_out": 3470,
+    "cost_usd": 0.0131619,
+    "wall_time_seconds": 41.17988287517801,
+    "voting_samples": 5
+  }
+}

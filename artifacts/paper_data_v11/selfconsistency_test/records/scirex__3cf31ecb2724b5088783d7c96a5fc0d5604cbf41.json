@@ -1,0 +1,315 @@
+{
+  "paper_id": "scirex:3cf31ecb2724b5088783d7c96a5fc0d5604cbf41",
+  "contributions": [
+    {
+      "method": {
+        "name": "BiLSTM-based feature extractor",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 200
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "dependency parsing",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 200
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "Penn Treebank (English)",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 0,
+            "end": 200
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "Penn Treebank",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 0,
+            "end": 100
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "Stanford Dependency (SD) conversion of the Penn Treebank",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 12000,
+            "end": 12080
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "UAS",
+          "value": 93.1,
+          "unit": null,
+          "evidence_span": {
+            "start": 0,
+            "end": 100
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "state-of-the-art",
+        "TurboParser",
+        "Zhang and Nivre (2011)",
+        "dyer2015transitionbased"
+      ],
+      "self_consistency": 0.6857142857142857,
+      "critic_verdict": {
+        "method": null,
+        "task": null,
+        "datasets": null,
+        "metrics": null
+      }
+    },
+    {
+      "method": {
+        "name": "BiLSTM-based feature extractor",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 200
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "dependency parsing",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 200
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "Penn Chinese Treebank 5.1",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 0,
+            "end": 200
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "Stanford Dependency (SD) conversion of the Penn Treebank",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 12000,
+            "end": 12080
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "Penn Chinese Treebank 5.1 (CTB5)",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 0,
+            "end": 100
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "UAS",
+          "value": 86.6,
+          "unit": null,
+          "evidence_span": {
+            "start": 0,
+            "end": 100
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "state-of-the-art",
+        "TurboParser",
+        "Zhang and Nivre (2011)",
+        "dyer2015transitionbased"
+      ],
+      "self_consistency": 0.6857142857142857,
+      "critic_verdict": {
+        "method": null,
+        "task": null,
+        "datasets": null,
+        "metrics": null
+      }
+    },
+    {
+      "method": {
+        "name": "BiLSTM-based feature extractor with pre-trained word embeddings",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 200
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "dependency parsing",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 200
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "Penn Treebank (English)",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 0,
+            "end": 200
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "Penn Treebank",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 0,
+            "end": 100
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "Penn Chinese Treebank 5.1 (CTB5)",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 12100,
+            "end": 12150
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "Stanford Dependency (SD) conversion of the Penn Treebank",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 0,
+            "end": 100
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "UAS",
+          "value": 93.9,
+          "unit": null,
+          "evidence_span": {
+            "start": 0,
+            "end": 100
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "state-of-the-art",
+        "TurboParser",
+        "Zhang and Nivre (2011)",
+        "dyer2015transitionbased"
+      ],
+      "self_consistency": 0.575,
+      "critic_verdict": {
+        "method": null,
+        "task": null,
+        "datasets": null,
+        "metrics": null
+      }
+    },
+    {
+      "method": {
+        "name": "BiLSTM-based feature extractor with pre-trained word embeddings",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 200
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "dependency parsing",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 200
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "Penn Chinese Treebank 5.1",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 0,
+            "end": 200
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "Penn Chinese Treebank 5.1 (CTB5)",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 12100,
+            "end": 12150
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "UAS",
+          "value": 87.6,
+          "unit": null,
+          "evidence_span": {
+            "start": 0,
+            "end": 100
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "state-of-the-art",
+        "TurboParser",
+        "Zhang and Nivre (2011)",
+        "dyer2015transitionbased"
+      ],
+      "self_consistency": 0.7666666666666666,
+      "critic_verdict": {
+        "method": null,
+        "task": null,
+        "datasets": null,
+        "metrics": null
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "DISABLED (Condition B: self-consistency vote of 5 extractor samples)",
+    "consolidator_model": "DISABLED (Condition B: self-consistency baseline)",
+    "tokens_in": 41560,
+    "tokens_out": 5385,
+    "cost_usd": 0.01809185,
+    "wall_time_seconds": 29.987578541971743,
+    "voting_samples": 5
+  }
+}

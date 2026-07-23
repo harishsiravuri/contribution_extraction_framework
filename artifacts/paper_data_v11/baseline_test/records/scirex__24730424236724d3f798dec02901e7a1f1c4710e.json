@@ -1,0 +1,202 @@
+{
+  "paper_id": "scirex:24730424236724d3f798dec02901e7a1f1c4710e",
+  "contributions": [
+    {
+      "method": {
+        "name": "Joint Maximum Purity Forest (JMPF)",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 20,
+          "end": 60
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "classification",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 100,
+          "end": 110
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "public benchmark datasets",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 300,
+            "end": 325
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "error rate",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 2000,
+            "end": 2010
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "random forest",
+        "alternating decision forests (ADF)"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {
+        "method": null,
+        "task": null,
+        "datasets": null,
+        "metrics": null
+      }
+    },
+    {
+      "method": {
+        "name": "Joint Maximum Purity Forest (JMPF)",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 20,
+          "end": 60
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "regression",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 100,
+          "end": 110
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "public benchmark datasets",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 300,
+            "end": 325
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "root mean squared error (RMSE)",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 2000,
+            "end": 2010
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "random forest",
+        "alternating regression forests (ARF)"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {
+        "method": null,
+        "task": null,
+        "datasets": null,
+        "metrics": null
+      }
+    },
+    {
+      "method": {
+        "name": "Joint Maximum Purity Forest (JMPF)",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 20,
+          "end": 60
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "image super-resolution",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 400,
+          "end": 420
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "Set5",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 5000,
+            "end": 5005
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "Set14",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 5005,
+            "end": 5010
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "B100",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 5010,
+            "end": 5015
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "PSNR",
+          "value": null,
+          "unit": "dB",
+          "evidence_span": {
+            "start": 6000,
+            "end": 6005
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "bicubic interpolation",
+        "sparse representation SR (Zeyde)",
+        "anchored neighborhood regression (ANR)",
+        "A+",
+        "standard random forest (RF)",
+        "alternating regression forests (ARF)"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {
+        "method": null,
+        "task": null,
+        "datasets": null,
+        "metrics": null
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "DISABLED (Condition A: single-LLM baseline, extractor prompt @ t=0)",
+    "consolidator_model": "DISABLED (Condition A: single-LLM baseline)",
+    "tokens_in": 9063,
+    "tokens_out": 731,
+    "cost_usd": 0.00355075,
+    "wall_time_seconds": 36.38905629096553,
+    "voting_samples": 1
+  }
+}

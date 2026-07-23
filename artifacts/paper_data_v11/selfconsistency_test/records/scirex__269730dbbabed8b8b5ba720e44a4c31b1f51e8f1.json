@@ -1,0 +1,274 @@
+{
+  "paper_id": "scirex:269730dbbabed8b8b5ba720e44a4c31b1f51e8f1",
+  "contributions": [
+    {
+      "method": {
+        "name": "Query-Reduction Network (QRN)",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 0
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "question answering",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 0
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "bAbI QA",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 0,
+            "end": 0
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": 99.7,
+          "unit": "%",
+          "evidence_span": {
+            "start": 0,
+            "end": 0
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "LSTM",
+        "End-to-end Memory Networks (N2N)",
+        "Dynamic Memory Networks (DMN+)",
+        "Gated End-to-end Memory Networks (GMemN2N)",
+        "Differentiable Neural Computer (DNC)"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {
+        "method": null,
+        "task": null,
+        "datasets": null,
+        "metrics": null
+      }
+    },
+    {
+      "method": {
+        "name": "Query-Reduction Network (QRN)",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 0
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "dialog",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 0
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "bAbI dialog",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 0,
+            "end": 0
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "bAbI QA",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 136,
+            "end": 222
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": null,
+          "unit": "%",
+          "evidence_span": {
+            "start": 0,
+            "end": 0
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "LSTM",
+        "End-to-end Memory Networks (N2N)",
+        "Dynamic Memory Networks (DMN+)",
+        "Gated End-to-end Memory Networks (GMemN2N)",
+        "Differentiable Neural Computer (DNC)"
+      ],
+      "self_consistency": 0.7666666666666666,
+      "critic_verdict": {
+        "method": null,
+        "task": null,
+        "datasets": null,
+        "metrics": null
+      }
+    },
+    {
+      "method": {
+        "name": "Query-Reduction Network (QRN)",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 0
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "dialog",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 0
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "DSTC2 dialog",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 0,
+            "end": 0
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "DSTC2 (Task 6) dialog",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 3933,
+            "end": 3955
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "bAbI dialog",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 136,
+            "end": 222
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": null,
+          "unit": "%",
+          "evidence_span": {
+            "start": 0,
+            "end": 0
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "LSTM",
+        "End-to-end Memory Networks (N2N)",
+        "Dynamic Memory Networks (DMN+)",
+        "Gated End-to-end Memory Networks (GMemN2N)",
+        "Differentiable Neural Computer (DNC)"
+      ],
+      "self_consistency": 0.6857142857142857,
+      "critic_verdict": {
+        "method": null,
+        "task": null,
+        "datasets": null,
+        "metrics": null
+      }
+    },
+    {
+      "method": {
+        "name": "Query-Reduction Network (QRN)",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 136,
+          "end": 222
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "dialog",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 136,
+          "end": 222
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "DSTC2 (Task 6) dialog",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 136,
+            "end": 222
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": null,
+          "unit": "%",
+          "evidence_span": {
+            "start": 136,
+            "end": 222
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "LSTM",
+        "End-to-end Memory Networks (N2N)",
+        "Dynamic Memory Networks (DMN+)",
+        "Gated End-to-end Memory Networks (GMemN2N)",
+        "Differentiable Neural Computer (DNC)"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {
+        "method": null,
+        "task": null,
+        "datasets": null,
+        "metrics": null
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "DISABLED (Condition B: self-consistency vote of 5 extractor samples)",
+    "consolidator_model": "DISABLED (Condition B: self-consistency baseline)",
+    "tokens_in": 40365,
+    "tokens_out": 4556,
+    "cost_usd": 0.016971640000000003,
+    "wall_time_seconds": 46.9259824170731,
+    "voting_samples": 5
+  }
+}

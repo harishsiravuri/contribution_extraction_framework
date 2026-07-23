@@ -1,0 +1,256 @@
+{
+  "paper_id": "scirex:3daa086acd367dc971a2dc1382caba2031294233",
+  "contributions": [
+    {
+      "method": {
+        "name": "holistic instance-level human parsing network",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 200
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "instance-level part segmentation",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 1800,
+          "end": 1900
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "Pascal Person-Parts",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2000,
+            "end": 2020
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "APr",
+          "value": 38.0,
+          "unit": "%",
+          "evidence_span": {
+            "start": 5000,
+            "end": 5100
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "MNC"
+      ],
+      "self_consistency": 0.8400000000000001,
+      "critic_verdict": {
+        "method": null,
+        "task": null,
+        "datasets": null,
+        "metrics": null
+      }
+    },
+    {
+      "method": {
+        "name": "holistic instance-level human parsing network",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 200
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "instance-level part segmentation",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 1800,
+          "end": 1900
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "Pascal Person-Parts",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2000,
+            "end": 2020
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "APr",
+          "value": null,
+          "unit": "%",
+          "evidence_span": {
+            "start": 4000,
+            "end": 4100
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "DeepLab",
+        "Attention",
+        "HAZN",
+        "LG-LSTM",
+        "Graph LSTM",
+        "DeepLab v2",
+        "RefineNet",
+        "MNC"
+      ],
+      "self_consistency": 0.8400000000000001,
+      "critic_verdict": {
+        "method": null,
+        "task": null,
+        "datasets": null,
+        "metrics": null
+      }
+    },
+    {
+      "method": {
+        "name": "holistic instance-level human parsing network",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 200
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "human instance segmentation",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 8500,
+          "end": 8600
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "Pascal Person-Parts",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2000,
+            "end": 2020
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "mean IoU",
+          "value": 66.3,
+          "unit": "%",
+          "evidence_span": {
+            "start": 5000,
+            "end": 5100
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "APr",
+          "value": null,
+          "unit": "%",
+          "evidence_span": {
+            "start": 8600,
+            "end": 8700
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "DeepLab",
+        "Attention",
+        "HAZN",
+        "LG-LSTM",
+        "Graph LSTM",
+        "DeepLab v2",
+        "RefineNet"
+      ],
+      "self_consistency": 0.6,
+      "critic_verdict": {
+        "method": null,
+        "task": null,
+        "datasets": null,
+        "metrics": null
+      }
+    },
+    {
+      "method": {
+        "name": "ResNet-101 with differentiable CRF",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 2000,
+          "end": 2200
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "category-level part segmentation",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 8800,
+          "end": 8900
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "Pascal Person-Parts",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 4000,
+            "end": 4100
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "mean IoU",
+          "value": 66.3,
+          "unit": "%",
+          "evidence_span": {
+            "start": 8900,
+            "end": 9000
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "comparable",
+      "comparison_targets": [
+        "DeepLab v2",
+        "RefineNet",
+        "DeepLab-v2"
+      ],
+      "self_consistency": 0.9333333333333333,
+      "critic_verdict": {
+        "method": null,
+        "task": null,
+        "datasets": null,
+        "metrics": null
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "DISABLED (Condition B: self-consistency vote of 5 extractor samples)",
+    "consolidator_model": "DISABLED (Condition B: self-consistency baseline)",
+    "tokens_in": 48500,
+    "tokens_out": 4979,
+    "cost_usd": 0.01995131,
+    "wall_time_seconds": 29.756195582915097,
+    "voting_samples": 5
+  }
+}

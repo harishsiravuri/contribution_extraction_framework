@@ -1,0 +1,322 @@
+{
+  "paper_id": "scirex:44078d0daed8b13114cffb15b368acc467f96351",
+  "contributions": [
+    {
+      "method": {
+        "name": "Triplet Probability Embedding (TPE)",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 200
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "face verification",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 200
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "IJB-A",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 200,
+            "end": 300
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "False Non-Match Rate (FNMR)",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 3000,
+            "end": 3100
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "accuracy",
+          "value": null,
+          "unit": null,
+          "evidence_span": null,
+          "confidence": 1.0
+        },
+        {
+          "name": "EER",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 2800,
+            "end": 2850
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "FMR",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 134,
+            "end": 225
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "GOTS",
+        "Parkhi et al.",
+        "NAN",
+        "Masi et al.",
+        "Crosswhite et al."
+      ],
+      "self_consistency": 0.625,
+      "critic_verdict": {
+        "method": null,
+        "task": null,
+        "datasets": null,
+        "metrics": null
+      }
+    },
+    {
+      "method": {
+        "name": "Triplet Probability Embedding (TPE)",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 200
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "face verification",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 200
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "CFP",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2000,
+            "end": 2100
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Equal Error Rate (EER)",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 2100,
+            "end": 2200
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "accuracy",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 3200,
+            "end": 3250
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "AUC",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 134,
+            "end": 225
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "EER",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 134,
+            "end": 225
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [],
+      "self_consistency": 0.65,
+      "critic_verdict": {
+        "method": null,
+        "task": null,
+        "datasets": null,
+        "metrics": null
+      }
+    },
+    {
+      "method": {
+        "name": "Triplet Probability Embedding (TPE)",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 200
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "face clustering",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 4000,
+          "end": 4100
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "LFW",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 4100,
+            "end": 4200
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "IJB-A",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 103,
+            "end": 250
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F-score",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 4200,
+            "end": 4300
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "accuracy",
+          "value": null,
+          "unit": null,
+          "evidence_span": null,
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "approximate Rank-order clustering"
+      ],
+      "self_consistency": 0.6857142857142857,
+      "critic_verdict": {
+        "method": null,
+        "task": null,
+        "datasets": null,
+        "metrics": null
+      }
+    },
+    {
+      "method": {
+        "name": "Triplet Probability Embedding (TPE)",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 200
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "face clustering",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 4000,
+          "end": 4100
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "IJB-A",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 4300,
+            "end": 4400
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "LFW",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 103,
+            "end": 250
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F-score",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 4400,
+            "end": 4500
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "accuracy",
+          "value": null,
+          "unit": null,
+          "evidence_span": null,
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "raw CNN features"
+      ],
+      "self_consistency": 0.6857142857142857,
+      "critic_verdict": {
+        "method": null,
+        "task": null,
+        "datasets": null,
+        "metrics": null
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "DISABLED (Condition B: self-consistency vote of 5 extractor samples)",
+    "consolidator_model": "DISABLED (Condition B: self-consistency baseline)",
+    "tokens_in": 32620,
+    "tokens_out": 5188,
+    "cost_usd": 0.015055720000000002,
+    "wall_time_seconds": 42.51990983309224,
+    "voting_samples": 5
+  }
+}

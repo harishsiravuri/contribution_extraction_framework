@@ -1,0 +1,198 @@
+{
+  "paper_id": "scirex:0a6c36de8726b6feaab586046ddc1d1a008f44f9",
+  "contributions": [
+    {
+      "method": {
+        "name": "Filtered Channel Features",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 200
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "pedestrian detection",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 200,
+          "end": 300
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "Caltech",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 300,
+            "end": 400
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "KITTI",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 305,
+            "end": 310
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "recall",
+          "value": 93.0,
+          "unit": "%",
+          "evidence_span": {
+            "start": 400,
+            "end": 500
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "FPPI",
+          "value": 1.0,
+          "unit": null,
+          "evidence_span": {
+            "start": 349,
+            "end": 354
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "ACF",
+        "InformedHaar"
+      ],
+      "self_consistency": 0.7714285714285715,
+      "critic_verdict": {
+        "method": null,
+        "task": null,
+        "datasets": null,
+        "metrics": null
+      }
+    },
+    {
+      "method": {
+        "name": "Filtered Channel Features",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 200
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "pedestrian detection",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 200,
+          "end": 300
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "KITTI",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 300,
+            "end": 400
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "average precision",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 400,
+            "end": 500
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "ACF",
+        "InformedHaar"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {
+        "method": null,
+        "task": null,
+        "datasets": null,
+        "metrics": null
+      }
+    },
+    {
+      "method": {
+        "name": "Filtered Channel Features with Optical Flow",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 500,
+          "end": 600
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "pedestrian detection",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 200,
+          "end": 300
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "Caltech",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 300,
+            "end": 400
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "recall",
+          "value": 93.0,
+          "unit": "%",
+          "evidence_span": {
+            "start": 400,
+            "end": 500
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "previous methods"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {
+        "method": null,
+        "task": null,
+        "datasets": null,
+        "metrics": null
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "DISABLED (Condition B: self-consistency vote of 5 extractor samples)",
+    "consolidator_model": "DISABLED (Condition B: self-consistency baseline)",
+    "tokens_in": 38125,
+    "tokens_out": 2416,
+    "cost_usd": 0.01435024,
+    "wall_time_seconds": 24.733663000166416,
+    "voting_samples": 5
+  }
+}

@@ -1,0 +1,231 @@
+{
+  "paper_id": "scirex:3cf31ecb2724b5088783d7c96a5fc0d5604cbf41",
+  "contributions": [
+    {
+      "method": {
+        "name": "BiLSTM-based feature extractor",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 200
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "dependency parsing",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 200,
+          "end": 300
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "Stanford Dependency (SD) conversion of the Penn Treebank",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 10000,
+            "end": 10100
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "UAS",
+          "value": 93.1,
+          "unit": null,
+          "evidence_span": {
+            "start": 2000,
+            "end": 2100
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "state-of-the-art"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {
+        "method": null,
+        "task": null,
+        "datasets": null,
+        "metrics": null
+      }
+    },
+    {
+      "method": {
+        "name": "BiLSTM-based feature extractor",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 200
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "dependency parsing",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 200,
+          "end": 300
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "Penn Chinese Treebank 5.1 (CTB5)",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 10100,
+            "end": 10200
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "UAS",
+          "value": 86.6,
+          "unit": null,
+          "evidence_span": {
+            "start": 2100,
+            "end": 2200
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "state-of-the-art"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {
+        "method": null,
+        "task": null,
+        "datasets": null,
+        "metrics": null
+      }
+    },
+    {
+      "method": {
+        "name": "BiLSTM-based feature extractor with pre-trained word embeddings",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 2200,
+          "end": 2400
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "dependency parsing",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 200,
+          "end": 300
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "Stanford Dependency (SD) conversion of the Penn Treebank",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 10000,
+            "end": 10100
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "UAS",
+          "value": 93.9,
+          "unit": null,
+          "evidence_span": {
+            "start": 2200,
+            "end": 2300
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "state-of-the-art"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {
+        "method": null,
+        "task": null,
+        "datasets": null,
+        "metrics": null
+      }
+    },
+    {
+      "method": {
+        "name": "BiLSTM-based feature extractor with pre-trained word embeddings",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 2200,
+          "end": 2400
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "dependency parsing",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 200,
+          "end": 300
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "Penn Chinese Treebank 5.1 (CTB5)",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 10100,
+            "end": 10200
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "UAS",
+          "value": 87.6,
+          "unit": null,
+          "evidence_span": {
+            "start": 2300,
+            "end": 2400
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "state-of-the-art"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {
+        "method": null,
+        "task": null,
+        "datasets": null,
+        "metrics": null
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "DISABLED (Condition A: single-LLM baseline, extractor prompt @ t=0)",
+    "consolidator_model": "DISABLED (Condition A: single-LLM baseline)",
+    "tokens_in": 8312,
+    "tokens_out": 1021,
+    "cost_usd": 0.0035685300000000003,
+    "wall_time_seconds": 26.664178333012387,
+    "voting_samples": 1
+  }
+}

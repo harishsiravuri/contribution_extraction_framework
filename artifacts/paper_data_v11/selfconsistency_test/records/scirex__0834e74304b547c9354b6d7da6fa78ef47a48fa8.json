@@ -1,0 +1,462 @@
+{
+  "paper_id": "scirex:0834e74304b547c9354b6d7da6fa78ef47a48fa8",
+  "contributions": [
+    {
+      "method": {
+        "name": "LINE",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 100
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "network embedding",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 100
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "language network",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2000,
+            "end": 2100
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "language networks",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 0,
+            "end": 200
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 3000,
+            "end": 3100
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Graph factorization",
+        "DeepWalk"
+      ],
+      "self_consistency": 0.7333333333333334,
+      "critic_verdict": {
+        "method": null,
+        "task": null,
+        "datasets": null,
+        "metrics": null
+      }
+    },
+    {
+      "method": {
+        "name": "LINE",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 100
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "network embedding",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 100
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "Flickr",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 4000,
+            "end": 4100
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "social networks",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 0,
+            "end": 200
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "Flickr network",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 5000,
+            "end": 5100
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 5000,
+            "end": 5100
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "accuracy",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 5500,
+            "end": 5600
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Graph factorization",
+        "DeepWalk"
+      ],
+      "self_consistency": 0.55,
+      "critic_verdict": {
+        "method": null,
+        "task": null,
+        "datasets": null,
+        "metrics": null
+      }
+    },
+    {
+      "method": {
+        "name": "LINE",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 100
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "network embedding",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 100
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "Youtube",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 6000,
+            "end": 6100
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "citation networks",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 0,
+            "end": 200
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "Youtube network",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 6000,
+            "end": 6100
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 7000,
+            "end": 7100
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "accuracy",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 6500,
+            "end": 6600
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "DeepWalk"
+      ],
+      "self_consistency": 0.55,
+      "critic_verdict": {
+        "method": null,
+        "task": null,
+        "datasets": null,
+        "metrics": null
+      }
+    },
+    {
+      "method": {
+        "name": "LINE",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 100
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "network embedding",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 100
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "DBLP (AuthorCitation)",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 8000,
+            "end": 8100
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "DBLP (AuthorCitation) network",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 7000,
+            "end": 7100
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "language networks",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1063,
+            "end": 1080
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 9000,
+            "end": 9100
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "accuracy",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 7500,
+            "end": 7600
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "DeepWalk",
+        "graph factorization"
+      ],
+      "self_consistency": 0.5833333333333333,
+      "critic_verdict": {
+        "method": null,
+        "task": null,
+        "datasets": null,
+        "metrics": null
+      }
+    },
+    {
+      "method": {
+        "name": "LINE",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 100
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "network embedding",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 100
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "DBLP (PaperCitation)",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 10000,
+            "end": 10100
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "DBLP (PaperCitation) network",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 8000,
+            "end": 8100
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "social networks",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1063,
+            "end": 1080
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 11000,
+            "end": 11100
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "accuracy",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 8500,
+            "end": 8600
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "DeepWalk",
+        "graph factorization"
+      ],
+      "self_consistency": 0.5833333333333333,
+      "critic_verdict": {
+        "method": null,
+        "task": null,
+        "datasets": null,
+        "metrics": null
+      }
+    },
+    {
+      "method": {
+        "name": "LINE",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 385,
+          "end": 467
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "link prediction",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 113,
+          "end": 145
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "citation networks",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1063,
+            "end": 1080
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": null,
+          "unit": null,
+          "evidence_span": null,
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "DeepWalk",
+        "graph factorization"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {
+        "method": null,
+        "task": null,
+        "datasets": null,
+        "metrics": null
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "DISABLED (Condition B: self-consistency vote of 5 extractor samples)",
+    "consolidator_model": "DISABLED (Condition B: self-consistency baseline)",
+    "tokens_in": 53280,
+    "tokens_out": 4873,
+    "cost_usd": 0.02138657,
+    "wall_time_seconds": 44.43911079200916,
+    "voting_samples": 5
+  }
+}

@@ -1,0 +1,124 @@
+{
+  "paper_id": "scirex:14318685b5959b51d0f1e3db34643eb2855dc6d9",
+  "contributions": [
+    {
+      "method": {
+        "name": "GoogLeNet",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 200
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "image classification",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 200
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "ILSVRC 2014",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 0,
+            "end": 200
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "top-5 error",
+          "value": 6.67,
+          "unit": "%",
+          "evidence_span": {
+            "start": 10000,
+            "end": 10100
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "SuperVision",
+        "Clarifai"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {
+        "method": null,
+        "task": null,
+        "datasets": null,
+        "metrics": null
+      }
+    },
+    {
+      "method": {
+        "name": "GoogLeNet",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 200
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "object detection",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 200
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "ILSVRC 2014",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 0,
+            "end": 200
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "mAP",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 11000,
+            "end": 11100
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "R-CNN"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {
+        "method": null,
+        "task": null,
+        "datasets": null,
+        "metrics": null
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "DISABLED (Condition A: single-LLM baseline, extractor prompt @ t=0)",
+    "consolidator_model": "DISABLED (Condition A: single-LLM baseline)",
+    "tokens_in": 6920,
+    "tokens_out": 423,
+    "cost_usd": 0.00259087,
+    "wall_time_seconds": 15.692004666896537,
+    "voting_samples": 1
+  }
+}

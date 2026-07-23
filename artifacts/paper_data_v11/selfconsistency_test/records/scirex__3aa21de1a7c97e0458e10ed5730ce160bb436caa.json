@@ -1,0 +1,203 @@
+{
+  "paper_id": "scirex:3aa21de1a7c97e0458e10ed5730ce160bb436caa",
+  "contributions": [
+    {
+      "method": {
+        "name": "Pixel2Mesh",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 101
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "3D mesh generation",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 101
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "ShapeNet",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 10000,
+            "end": 10100
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F-score",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 10000,
+            "end": 10100
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "Chamfer Distance",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 10000,
+            "end": 10100
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "Earth Mover's Distance",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 10000,
+            "end": 10100
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "3D-R2N2",
+        "PSG",
+        "N3MR"
+      ],
+      "self_consistency": 0.8285714285714285,
+      "critic_verdict": {
+        "method": null,
+        "task": null,
+        "datasets": null,
+        "metrics": null
+      }
+    },
+    {
+      "method": {
+        "name": "Pixel2Mesh",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 101
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "3D mesh generation",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 101
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "ShapeNet",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 4831,
+            "end": 4839
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Chamfer Distance",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 5920,
+            "end": 5936
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "3D-R2N2",
+        "PSG",
+        "N3MR"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {
+        "method": null,
+        "task": null,
+        "datasets": null,
+        "metrics": null
+      }
+    },
+    {
+      "method": {
+        "name": "Pixel2Mesh",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 101
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "3D mesh generation",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 101
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "ShapeNet",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 4831,
+            "end": 4839
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Earth Mover's Distance",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 5938,
+            "end": 5959
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "3D-R2N2",
+        "PSG",
+        "N3MR"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {
+        "method": null,
+        "task": null,
+        "datasets": null,
+        "metrics": null
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "DISABLED (Condition B: self-consistency vote of 5 extractor samples)",
+    "consolidator_model": "DISABLED (Condition B: self-consistency baseline)",
+    "tokens_in": 35455,
+    "tokens_out": 3266,
+    "cost_usd": 0.01425234,
+    "wall_time_seconds": 23.065012208884582,
+    "voting_samples": 5
+  }
+}

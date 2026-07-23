@@ -1,0 +1,431 @@
+{
+  "paper_id": "scirex:3448e6a5039417dc1ae890efeca3bef5390ace7c",
+  "contributions": [
+    {
+      "method": {
+        "name": "xDeepFM",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 0
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "recommender systems",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 0
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "Criteo Dataset",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 0,
+            "end": 0
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "AUC",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 0,
+            "end": 0
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "LR",
+        "FM",
+        "DNN",
+        "PNN",
+        "Wide & Deep",
+        "DCN",
+        "DeepFM"
+      ],
+      "self_consistency": 0.96,
+      "critic_verdict": {
+        "method": null,
+        "task": null,
+        "datasets": null,
+        "metrics": null
+      }
+    },
+    {
+      "method": {
+        "name": "xDeepFM",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 0
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "recommender systems",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 0
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "Dianping Dataset",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 0,
+            "end": 0
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "Criteo Dataset",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 4075,
+            "end": 4091
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "AUC",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 0,
+            "end": 0
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "Logloss",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 4353,
+            "end": 4360
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "LR",
+        "FM",
+        "DNN",
+        "PNN",
+        "Wide & Deep",
+        "DCN",
+        "DeepFM"
+      ],
+      "self_consistency": 0.6857142857142857,
+      "critic_verdict": {
+        "method": null,
+        "task": null,
+        "datasets": null,
+        "metrics": null
+      }
+    },
+    {
+      "method": {
+        "name": "xDeepFM",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 0
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "recommender systems",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 0
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "Bing News Dataset",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 0,
+            "end": 0
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "Dianping Dataset",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 4093,
+            "end": 4108
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "AUC",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 0,
+            "end": 0
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "LR",
+        "FM",
+        "DNN",
+        "PNN",
+        "Wide & Deep",
+        "DCN",
+        "DeepFM"
+      ],
+      "self_consistency": 0.7999999999999999,
+      "critic_verdict": {
+        "method": null,
+        "task": null,
+        "datasets": null,
+        "metrics": null
+      }
+    },
+    {
+      "method": {
+        "name": "xDeepFM",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 0
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "recommender systems",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 0
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "Criteo Dataset",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 0,
+            "end": 0
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "Dianping Dataset",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 4093,
+            "end": 4108
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Logloss",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 0,
+            "end": 0
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "LR",
+        "FM",
+        "DNN",
+        "PNN",
+        "Wide & Deep",
+        "DCN",
+        "DeepFM"
+      ],
+      "self_consistency": 0.8333333333333334,
+      "critic_verdict": {
+        "method": null,
+        "task": null,
+        "datasets": null,
+        "metrics": null
+      }
+    },
+    {
+      "method": {
+        "name": "xDeepFM",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 0
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "recommender systems",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 0
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "Dianping Dataset",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 0,
+            "end": 0
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "Bing News Dataset",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 4110,
+            "end": 4126
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Logloss",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 0,
+            "end": 0
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "AUC",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 4348,
+            "end": 4351
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "LR",
+        "FM",
+        "DNN",
+        "PNN",
+        "Wide & Deep",
+        "DCN",
+        "DeepFM"
+      ],
+      "self_consistency": 0.7142857142857143,
+      "critic_verdict": {
+        "method": null,
+        "task": null,
+        "datasets": null,
+        "metrics": null
+      }
+    },
+    {
+      "method": {
+        "name": "xDeepFM",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 0
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "recommender systems",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 0
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "Bing News Dataset",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 0,
+            "end": 0
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Logloss",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 0,
+            "end": 0
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "LR",
+        "FM",
+        "DNN",
+        "PNN",
+        "Wide & Deep",
+        "DCN",
+        "DeepFM"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {
+        "method": null,
+        "task": null,
+        "datasets": null,
+        "metrics": null
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "DISABLED (Condition B: self-consistency vote of 5 extractor samples)",
+    "consolidator_model": "DISABLED (Condition B: self-consistency baseline)",
+    "tokens_in": 39485,
+    "tokens_out": 6418,
+    "cost_usd": 0.01834722,
+    "wall_time_seconds": 80.18026416702196,
+    "voting_samples": 5
+  }
+}

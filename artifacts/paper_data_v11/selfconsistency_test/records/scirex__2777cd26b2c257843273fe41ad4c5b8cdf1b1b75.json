@@ -1,0 +1,536 @@
+{
+  "paper_id": "scirex:2777cd26b2c257843273fe41ad4c5b8cdf1b1b75",
+  "contributions": [
+    {
+      "method": {
+        "name": "Nested Adversarial Network (NAN)",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 1000,
+          "end": 1200
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "multi-human parsing",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 800,
+          "end": 900
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "MHP v2.0",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1200,
+            "end": 1300
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Average Precision based on part (APp)",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 5000,
+            "end": 5100
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "AP^p",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 1428,
+            "end": 1470
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Mask R-CNN",
+        "MH-Parser"
+      ],
+      "self_consistency": 0.8333333333333334,
+      "critic_verdict": {
+        "method": null,
+        "task": null,
+        "datasets": null,
+        "metrics": null
+      }
+    },
+    {
+      "method": {
+        "name": "Nested Adversarial Network (NAN)",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 1000,
+          "end": 1200
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "multi-human parsing",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 800,
+          "end": 900
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "MHP v1.0",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1300,
+            "end": 1400
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "MHP v2.0",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1428,
+            "end": 1470
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Average Precision based on part (APp)",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 5000,
+            "end": 5100
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "PCP",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 1428,
+            "end": 1470
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "Percentage of Correctly parsed semantic Parts (PCP)",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 1491,
+            "end": 1626
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Mask R-CNN",
+        "MH-Parser"
+      ],
+      "self_consistency": 0.625,
+      "critic_verdict": {
+        "method": null,
+        "task": null,
+        "datasets": null,
+        "metrics": null
+      }
+    },
+    {
+      "method": {
+        "name": "Nested Adversarial Network (NAN)",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 1000,
+          "end": 1200
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "multi-human parsing",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 800,
+          "end": 900
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "PASCAL-Person-Part",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1400,
+            "end": 1500
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "MHP v1.0",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1428,
+            "end": 1470
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Average Precision based on part (APp)",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 5000,
+            "end": 5100
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "AP^p",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 1428,
+            "end": 1470
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Mask R-CNN",
+        "MH-Parser"
+      ],
+      "self_consistency": 0.7142857142857143,
+      "critic_verdict": {
+        "method": null,
+        "task": null,
+        "datasets": null,
+        "metrics": null
+      }
+    },
+    {
+      "method": {
+        "name": "Nested Adversarial Network (NAN)",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 1000,
+          "end": 1200
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "multi-human parsing",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 1428,
+          "end": 1470
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "Buffy",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1600,
+            "end": 1700
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "MHP v1.0",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1428,
+            "end": 1470
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Forward (F) score",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 6000,
+            "end": 6100
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "PCP",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 1428,
+            "end": 1470
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "Percentage of Correctly parsed semantic Parts (PCP)",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 1491,
+            "end": 1626
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Mask R-CNN",
+        "MH-Parser"
+      ],
+      "self_consistency": 0.6,
+      "critic_verdict": {
+        "method": null,
+        "task": null,
+        "datasets": null,
+        "metrics": null
+      }
+    },
+    {
+      "method": {
+        "name": "Nested Adversarial Network (NAN)",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 1000,
+          "end": 1200
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "multi-human parsing",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 1428,
+          "end": 1470
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "Buffy",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1600,
+            "end": 1700
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "PASCAL-Person-Part",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1428,
+            "end": 1470
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Backward (B) score",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 6100,
+            "end": 6200
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "AP^p",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 1428,
+            "end": 1470
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "Average Precision based on part (APp)",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 1491,
+            "end": 1626
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Mask R-CNN",
+        "MH-Parser"
+      ],
+      "self_consistency": 0.6,
+      "critic_verdict": {
+        "method": null,
+        "task": null,
+        "datasets": null,
+        "metrics": null
+      }
+    },
+    {
+      "method": {
+        "name": "Nested Adversarial Network (NAN)",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 1428,
+          "end": 1470
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "instance segmentation",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 1428,
+          "end": 1470
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "Buffy",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1428,
+            "end": 1470
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F score",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 1428,
+            "end": 1470
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "Forward (F) score",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 1491,
+            "end": 1626
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Mask R-CNN",
+        "MH-Parser"
+      ],
+      "self_consistency": 0.7916666666666666,
+      "critic_verdict": {
+        "method": null,
+        "task": null,
+        "datasets": null,
+        "metrics": null
+      }
+    },
+    {
+      "method": {
+        "name": "Nested Adversarial Network (NAN)",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 1428,
+          "end": 1470
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "instance segmentation",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 1428,
+          "end": 1470
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "Buffy",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1428,
+            "end": 1470
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "B score",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 1428,
+            "end": 1470
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "Backward (B) score",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 1491,
+            "end": 1626
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Mask R-CNN",
+        "MH-Parser"
+      ],
+      "self_consistency": 0.7916666666666666,
+      "critic_verdict": {
+        "method": null,
+        "task": null,
+        "datasets": null,
+        "metrics": null
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "DISABLED (Condition B: self-consistency vote of 5 extractor samples)",
+    "consolidator_model": "DISABLED (Condition B: self-consistency baseline)",
+    "tokens_in": 48705,
+    "tokens_out": 8291,
+    "cost_usd": 0.02296459,
+    "wall_time_seconds": 69.73903724993579,
+    "voting_samples": 5
+  }
+}

@@ -1,0 +1,298 @@
+{
+  "paper_id": "scirex:2138a7127429d67746ec78de46d6820fee0e548e",
+  "contributions": [
+    {
+      "method": {
+        "name": "Graph2Seq",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 200
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "graph to sequence learning",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 200
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "bAbI",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 200,
+            "end": 300
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": 100.0,
+          "unit": "%",
+          "evidence_span": {
+            "start": 2000,
+            "end": 2100
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "GGS-NN",
+        "GCN",
+        "LSTM",
+        "Seq2Seq",
+        "Tree2Seq"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {
+        "method": null,
+        "task": null,
+        "datasets": null,
+        "metrics": null
+      }
+    },
+    {
+      "method": {
+        "name": "Graph2Seq",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 200
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "graph to sequence learning",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 200
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "Shortest Path (SP-S)",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2500,
+            "end": 2600
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "Shortest Path Task",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 300,
+            "end": 400
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "Shortest Path",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 0,
+            "end": 200
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "SP-S",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2200,
+            "end": 2300
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": 100.0,
+          "unit": "%",
+          "evidence_span": {
+            "start": 2600,
+            "end": 2700
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "GGS-NN",
+        "Seq2Seq",
+        "Tree2Seq"
+      ],
+      "self_consistency": 0.55,
+      "critic_verdict": {
+        "method": null,
+        "task": null,
+        "datasets": null,
+        "metrics": null
+      }
+    },
+    {
+      "method": {
+        "name": "Graph2Seq",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 200
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "graph to sequence learning",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 200
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "Shortest Path (SP-L)",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2500,
+            "end": 2600
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "WikiSQL",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 400,
+            "end": 500
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "SP-L",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2200,
+            "end": 2300
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": null,
+          "unit": "%",
+          "evidence_span": {
+            "start": 2600,
+            "end": 2700
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "BLEU-4",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 400,
+            "end": 500
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "GGS-NN",
+        "GCN",
+        "Seq2Seq",
+        "Tree2Seq"
+      ],
+      "self_consistency": 0.55,
+      "critic_verdict": {
+        "method": null,
+        "task": null,
+        "datasets": null,
+        "metrics": null
+      }
+    },
+    {
+      "method": {
+        "name": "Graph2Seq",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 200
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "natural language generation",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 3000,
+          "end": 3100
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "WikiSQL",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 3100,
+            "end": 3200
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU-4",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 3200,
+            "end": 3300
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Seq2Seq",
+        "Tree2Seq",
+        "GCN",
+        "GGS-NN"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {
+        "method": null,
+        "task": null,
+        "datasets": null,
+        "metrics": null
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "DISABLED (Condition B: self-consistency vote of 5 extractor samples)",
+    "consolidator_model": "DISABLED (Condition B: self-consistency baseline)",
+    "tokens_in": 50290,
+    "tokens_out": 4255,
+    "cost_usd": 0.019879749999999998,
+    "wall_time_seconds": 34.99682900006883,
+    "voting_samples": 5
+  }
+}

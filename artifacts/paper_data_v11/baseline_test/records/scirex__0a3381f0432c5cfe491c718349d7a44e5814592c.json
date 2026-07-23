@@ -1,0 +1,180 @@
+{
+  "paper_id": "scirex:0a3381f0432c5cfe491c718349d7a44e5814592c",
+  "contributions": [
+    {
+      "method": {
+        "name": "bidirectional LSTM",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 1080,
+          "end": 1095
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "error detection in learner writing",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 108,
+          "end": 140
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-14 shared task dataset",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 200,
+            "end": 230
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F0.5",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 2000,
+            "end": 2003
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "other participants"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {
+        "method": null,
+        "task": null,
+        "datasets": null,
+        "metrics": null
+      }
+    },
+    {
+      "method": {
+        "name": "bidirectional LSTM",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 1080,
+          "end": 1095
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "error detection in learner writing",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 108,
+          "end": 140
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "FCE-public",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2000,
+            "end": 2010
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F0.5",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 2000,
+            "end": 2003
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "CRF",
+        "convolutional network",
+        "bidirectional RNN"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {
+        "method": null,
+        "task": null,
+        "datasets": null,
+        "metrics": null
+      }
+    },
+    {
+      "method": {
+        "name": "bidirectional LSTM",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 1080,
+          "end": 1095
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "automated essay scoring",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 8000,
+          "end": 8025
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "FCE-public",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2000,
+            "end": 2010
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Pearson's correlation",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 9000,
+            "end": 9020
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "human annotators",
+        "existing SAT system"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {
+        "method": null,
+        "task": null,
+        "datasets": null,
+        "metrics": null
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "DISABLED (Condition A: single-LLM baseline, extractor prompt @ t=0)",
+    "consolidator_model": "DISABLED (Condition A: single-LLM baseline)",
+    "tokens_in": 6194,
+    "tokens_out": 894,
+    "cost_usd": 0.00277774,
+    "wall_time_seconds": 25.858691582921892,
+    "voting_samples": 1
+  }
+}

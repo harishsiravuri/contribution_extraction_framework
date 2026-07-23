@@ -1,0 +1,72 @@
+{
+  "paper_id": "scirex:11da0c54ba904a1cb31a09d10da55f73e8825c61",
+  "contributions": [
+    {
+      "method": {
+        "name": "TBCNN-pair",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 100
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "natural language inference",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 100
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "SNLI",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 0,
+            "end": 100
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": 82.1,
+          "unit": "%",
+          "evidence_span": {
+            "start": 0,
+            "end": 100
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "feature-rich methods",
+        "LSTM-based recurrent networks",
+        "GRU-based RNN with skip-thought pretraining",
+        "attention-based LSTMs"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {
+        "method": null,
+        "task": null,
+        "datasets": null,
+        "metrics": null
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "DISABLED (Condition A: single-LLM baseline, extractor prompt @ t=0)",
+    "consolidator_model": "DISABLED (Condition A: single-LLM baseline)",
+    "tokens_in": 4053,
+    "tokens_out": 287,
+    "cost_usd": 0.00155239,
+    "wall_time_seconds": 8.545498250052333,
+    "voting_samples": 1
+  }
+}

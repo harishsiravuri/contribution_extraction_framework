@@ -1,0 +1,449 @@
+{
+  "paper_id": "scirex:325af39d281d5903a269c01fab8f53d7400a4c49",
+  "contributions": [
+    {
+      "method": {
+        "name": "ArtTrack",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 100
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "articulated human pose tracking",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 100
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "MPII Human Pose",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 0,
+            "end": 100
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "MPII Video Pose",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 106,
+            "end": 121
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "AP",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 0,
+            "end": 100
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "accuracy",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 1902,
+            "end": 1912
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "DeeperCut",
+        "state-of-the-art"
+      ],
+      "self_consistency": 0.7428571428571429,
+      "critic_verdict": {
+        "method": null,
+        "task": null,
+        "datasets": null,
+        "metrics": null
+      }
+    },
+    {
+      "method": {
+        "name": "ArtTrack",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 100
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "articulated human pose tracking",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 100
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "MPII Video Pose",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 0,
+            "end": 100
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "We Are Family (WAF)",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 10268,
+            "end": 10288
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "MPII Multi-Person",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2635,
+            "end": 2650
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "AP",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 0,
+            "end": 100
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "MOTA",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 106,
+            "end": 121
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "accuracy",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 1902,
+            "end": 1912
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "DeeperCut",
+        "state-of-the-art"
+      ],
+      "self_consistency": 0.48888888888888893,
+      "critic_verdict": {
+        "method": null,
+        "task": null,
+        "datasets": null,
+        "metrics": null
+      }
+    },
+    {
+      "method": {
+        "name": "ArtTrack",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 100
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "articulated human pose tracking",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 100
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "MPII Multi-Person",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 0,
+            "end": 100
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "MPII Video Pose",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1062,
+            "end": 1080
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "AP",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 0,
+            "end": 100
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "MOTA",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 1062,
+            "end": 1080
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "DeeperCut"
+      ],
+      "self_consistency": 0.6071428571428571,
+      "critic_verdict": {
+        "method": null,
+        "task": null,
+        "datasets": null,
+        "metrics": null
+      }
+    },
+    {
+      "method": {
+        "name": "ArtTrack",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 100
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "articulated human pose tracking",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 100
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "WAF",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 0,
+            "end": 100
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "MPII Video Pose",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 4250,
+            "end": 4267
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "AP",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 0,
+            "end": 100
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "DeeperCut",
+        "BU-sparse",
+        "state-of-the-art"
+      ],
+      "self_consistency": 0.7222222222222222,
+      "critic_verdict": {
+        "method": null,
+        "task": null,
+        "datasets": null,
+        "metrics": null
+      }
+    },
+    {
+      "method": {
+        "name": "TD/BU + temporal",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 4280,
+          "end": 4295
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "multi-frame pose estimation",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 4280,
+          "end": 4295
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "MPII Video Pose",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 4280,
+            "end": 4295
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "MPII Multi-Person",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 10962,
+            "end": 10980
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "AP",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 4280,
+            "end": 4295
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "MOTA",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 11298,
+            "end": 11303
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "TD/BU",
+        "state-of-the-art"
+      ],
+      "self_consistency": 0.5714285714285714,
+      "critic_verdict": {
+        "method": null,
+        "task": null,
+        "datasets": null,
+        "metrics": null
+      }
+    },
+    {
+      "method": {
+        "name": "BU-sparse + temporal",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 4400,
+          "end": 4417
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "multi-person articulated body tracking",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 4400,
+          "end": 4417
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "MPII Video Pose",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 4400,
+            "end": 4417
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "MOTA",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 4400,
+            "end": 4417
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "baseline model",
+        "state-of-the-art"
+      ],
+      "self_consistency": 0.8,
+      "critic_verdict": {
+        "method": null,
+        "task": null,
+        "datasets": null,
+        "metrics": null
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "DISABLED (Condition B: self-consistency vote of 5 extractor samples)",
+    "consolidator_model": "DISABLED (Condition B: self-consistency baseline)",
+    "tokens_in": 38760,
+    "tokens_out": 5153,
+    "cost_usd": 0.01698937,
+    "wall_time_seconds": 58.53253766591661,
+    "voting_samples": 5
+  }
+}

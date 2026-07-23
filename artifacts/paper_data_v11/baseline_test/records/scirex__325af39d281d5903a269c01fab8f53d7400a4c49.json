@@ -1,0 +1,250 @@
+{
+  "paper_id": "scirex:325af39d281d5903a269c01fab8f53d7400a4c49",
+  "contributions": [
+    {
+      "method": {
+        "name": "ArtTrack",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 100
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "articulated multi-person tracking",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 100
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "MPII Human Pose",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 600,
+            "end": 616
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "MPII Video Pose",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 616,
+            "end": 633
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "AP",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 600,
+            "end": 633
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "MOTA",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 600,
+            "end": 633
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "DeeperCut"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {
+        "method": null,
+        "task": null,
+        "datasets": null,
+        "metrics": null
+      }
+    },
+    {
+      "method": {
+        "name": "Bottom-Up (BU) model",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 2000,
+          "end": 2020
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "single-frame pose estimation",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 2000,
+          "end": 2020
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "MPII Multi-Person",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 6000,
+            "end": 6018
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "AP",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 6000,
+            "end": 6018
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "DeeperCut"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {
+        "method": null,
+        "task": null,
+        "datasets": null,
+        "metrics": null
+      }
+    },
+    {
+      "method": {
+        "name": "Top-Down/Bottom-Up (TD/BU) model",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 3000,
+          "end": 3025
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "single-frame pose estimation",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 3000,
+          "end": 3025
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "MPII Multi-Person",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 6000,
+            "end": 6018
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "AP",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 6000,
+            "end": 6018
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "DeeperCut"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {
+        "method": null,
+        "task": null,
+        "datasets": null,
+        "metrics": null
+      }
+    },
+    {
+      "method": {
+        "name": "ArtTrack",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 100
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "articulated multi-person tracking",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 100
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "We Are Family (WAF)",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 10000,
+            "end": 10020
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "AP",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 10000,
+            "end": 10020
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "DeeperCut"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {
+        "method": null,
+        "task": null,
+        "datasets": null,
+        "metrics": null
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "DISABLED (Condition A: single-LLM baseline, extractor prompt @ t=0)",
+    "consolidator_model": "DISABLED (Condition A: single-LLM baseline)",
+    "tokens_in": 7752,
+    "tokens_out": 1180,
+    "cost_usd": 0.0035308400000000004,
+    "wall_time_seconds": 33.04089091694914,
+    "voting_samples": 1
+  }
+}

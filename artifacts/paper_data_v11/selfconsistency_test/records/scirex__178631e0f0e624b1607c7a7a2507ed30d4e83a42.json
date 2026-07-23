@@ -1,0 +1,69 @@
+{
+  "paper_id": "scirex:178631e0f0e624b1607c7a7a2507ed30d4e83a42",
+  "contributions": [
+    {
+      "method": {
+        "name": "deep bidirectional Long Short-term Memory RNNs",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 100
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "phoneme recognition",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 1200,
+          "end": 1216
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "TIMIT",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1000,
+            "end": 1005
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "error rate",
+          "value": 17.7,
+          "unit": "%",
+          "evidence_span": {
+            "start": 500,
+            "end": 520
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "single-layer LSTM"
+      ],
+      "self_consistency": 0.8800000000000001,
+      "critic_verdict": {
+        "method": null,
+        "task": null,
+        "datasets": null,
+        "metrics": null
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "DISABLED (Condition B: self-consistency vote of 5 extractor samples)",
+    "consolidator_model": "DISABLED (Condition B: self-consistency baseline)",
+    "tokens_in": 20090,
+    "tokens_out": 1357,
+    "cost_usd": 0.00763653,
+    "wall_time_seconds": 12.637548375176266,
+    "voting_samples": 5
+  }
+}

@@ -1,0 +1,341 @@
+{
+  "paper_id": "scirex:0a3381f0432c5cfe491c718349d7a44e5814592c",
+  "contributions": [
+    {
+      "method": {
+        "name": "bidirectional LSTM",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 200,
+          "end": 230
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "error detection in learner writing",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 1440,
+          "end": 1484
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-14",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 200,
+            "end": 230
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "CoNLL - 14 shared task dataset",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 148,
+            "end": 178
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 200,
+            "end": 230
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "F0.5",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 148,
+            "end": 178
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "other participants"
+      ],
+      "self_consistency": 0.6285714285714287,
+      "critic_verdict": {
+        "method": null,
+        "task": null,
+        "datasets": null,
+        "metrics": null
+      }
+    },
+    {
+      "method": {
+        "name": "bidirectional LSTM",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 200,
+          "end": 230
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "error detection in learner writing",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 1440,
+          "end": 1484
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-14",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 200,
+            "end": 230
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "FCE - public",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1440,
+            "end": 1484
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 200,
+            "end": 230
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "F0.5",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 1440,
+            "end": 1484
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "human annotators",
+        "CRF",
+        "convolutional networks",
+        "bidirectional recurrent network"
+      ],
+      "self_consistency": 0.5714285714285714,
+      "critic_verdict": {
+        "method": null,
+        "task": null,
+        "datasets": null,
+        "metrics": null
+      }
+    },
+    {
+      "method": {
+        "name": "bidirectional LSTM",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 200,
+          "end": 230
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "error detection",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 200,
+          "end": 230
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "FCE-public",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 200,
+            "end": 230
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "CoNLL-14",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 242,
+            "end": 253
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "CoNLL - 14 shared task test data",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 255,
+            "end": 288
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 200,
+            "end": 230
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "Pearson's correlation",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 1440,
+            "end": 1484
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "Spearman's correlation",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 1440,
+            "end": 1484
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "F0.5",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 255,
+            "end": 288
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "human annotators"
+      ],
+      "self_consistency": 0.44000000000000006,
+      "critic_verdict": {
+        "method": null,
+        "task": null,
+        "datasets": null,
+        "metrics": null
+      }
+    },
+    {
+      "method": {
+        "name": "bidirectional LSTM",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 200,
+          "end": 230
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "automated essay scoring",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 120,
+          "end": 155
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "FCE - public",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 200,
+            "end": 230
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 200,
+            "end": 230
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "Pearson’s correlation",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 2554,
+            "end": 2564
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "Spearman’s correlation",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 2554,
+            "end": 2564
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "human annotators",
+        "existing SAT system"
+      ],
+      "self_consistency": 0.619047619047619,
+      "critic_verdict": {
+        "method": null,
+        "task": null,
+        "datasets": null,
+        "metrics": null
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "DISABLED (Condition B: self-consistency vote of 5 extractor samples)",
+    "consolidator_model": "DISABLED (Condition B: self-consistency baseline)",
+    "tokens_in": 30970,
+    "tokens_out": 4622,
+    "cost_usd": 0.014023979999999998,
+    "wall_time_seconds": 35.42339741718024,
+    "voting_samples": 5
+  }
+}

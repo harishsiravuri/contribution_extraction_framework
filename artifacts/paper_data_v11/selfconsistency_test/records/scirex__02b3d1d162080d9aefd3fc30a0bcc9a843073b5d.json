@@ -1,0 +1,177 @@
+{
+  "paper_id": "scirex:02b3d1d162080d9aefd3fc30a0bcc9a843073b5d",
+  "contributions": [
+    {
+      "method": {
+        "name": "LSTM with CNN Softmax",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 1000
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "language modeling",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 100
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "One Billion Word Benchmark",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 100,
+            "end": 200
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "perplexity",
+          "value": 30.0,
+          "unit": null,
+          "evidence_span": {
+            "start": 200,
+            "end": 300
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "previous state-of-the-art"
+      ],
+      "self_consistency": 0.8800000000000001,
+      "critic_verdict": {
+        "method": null,
+        "task": null,
+        "datasets": null,
+        "metrics": null
+      }
+    },
+    {
+      "method": {
+        "name": "Ensemble of LSTM models",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 600,
+          "end": 700
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "language modeling",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 100
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "One Billion Word Benchmark",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 100,
+            "end": 200
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "perplexity",
+          "value": 23.7,
+          "unit": null,
+          "evidence_span": {
+            "start": 200,
+            "end": 300
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "previous state-of-the-art"
+      ],
+      "self_consistency": 0.8800000000000001,
+      "critic_verdict": {
+        "method": null,
+        "task": null,
+        "datasets": null,
+        "metrics": null
+      }
+    },
+    {
+      "method": {
+        "name": "CNN Softmax",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 2000,
+          "end": 2010
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "language modeling",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 100
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "One Billion Word Benchmark",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 300,
+            "end": 325
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "perplexity",
+          "value": 35.8,
+          "unit": null,
+          "evidence_span": {
+            "start": 2500,
+            "end": 2525
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "full Softmax"
+      ],
+      "self_consistency": 0.9,
+      "critic_verdict": {
+        "method": null,
+        "task": null,
+        "datasets": null,
+        "metrics": null
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "DISABLED (Condition B: self-consistency vote of 5 extractor samples)",
+    "consolidator_model": "DISABLED (Condition B: self-consistency baseline)",
+    "tokens_in": 36115,
+    "tokens_out": 3173,
+    "cost_usd": 0.014380770000000001,
+    "wall_time_seconds": 25.91332675004378,
+    "voting_samples": 5
+  }
+}

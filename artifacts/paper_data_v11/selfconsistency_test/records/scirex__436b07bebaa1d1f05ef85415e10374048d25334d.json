@@ -1,0 +1,446 @@
+{
+  "paper_id": "scirex:436b07bebaa1d1f05ef85415e10374048d25334d",
+  "contributions": [
+    {
+      "method": {
+        "name": "Sparsely-Gated Mixture-of-Experts Layer (MoE)",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 200
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "language modeling",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 500,
+          "end": 600
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "1 Billion Word Language Modeling Benchmark",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2500,
+            "end": 2600
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "perplexity",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 3000,
+            "end": 3100
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "LSTM",
+        "state-of-the-art"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {
+        "method": null,
+        "task": null,
+        "datasets": null,
+        "metrics": null
+      }
+    },
+    {
+      "method": {
+        "name": "Sparsely-Gated Mixture-of-Experts Layer (MoE)",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 200
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "machine translation",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 1000,
+          "end": 1200
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "1 Billion Word Language Modeling Benchmark",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2500,
+            "end": 2600
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "WMT'14 En→Fr",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 12000,
+            "end": 12200
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "perplexity",
+          "value": 28.0,
+          "unit": null,
+          "evidence_span": {
+            "start": 3200,
+            "end": 3300
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "BLEU",
+          "value": 40.56,
+          "unit": null,
+          "evidence_span": {
+            "start": 12000,
+            "end": 12200
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "LSTM",
+        "state-of-the-art"
+      ],
+      "self_consistency": 0.6571428571428571,
+      "critic_verdict": {
+        "method": null,
+        "task": null,
+        "datasets": null,
+        "metrics": null
+      }
+    },
+    {
+      "method": {
+        "name": "Sparsely-Gated Mixture-of-Experts Layer (MoE)",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 200
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "machine translation",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 1000,
+          "end": 1200
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "100 Billion Word Google News Corpus",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 3500,
+            "end": 3600
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "WMT'14 En→De",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 12200,
+            "end": 12400
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "WMT'14 En→Fr",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2000,
+            "end": 2100
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "perplexity",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 3700,
+            "end": 3800
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "BLEU",
+          "value": 26.03,
+          "unit": null,
+          "evidence_span": {
+            "start": 12200,
+            "end": 12400
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "state-of-the-art"
+      ],
+      "self_consistency": 0.6,
+      "critic_verdict": {
+        "method": null,
+        "task": null,
+        "datasets": null,
+        "metrics": null
+      }
+    },
+    {
+      "method": {
+        "name": "Sparsely-Gated Mixture-of-Experts Layer (MoE)",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 200
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "language modeling",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 1000,
+          "end": 1200
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "WMT'14 En→Fr",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 4200,
+            "end": 4300
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "100 Billion Word Google News Corpus",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 8000,
+            "end": 8200
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "Google News Corpus",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 4800,
+            "end": 4900
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "WMT'14 En→De",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2100,
+            "end": 2200
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 40.56,
+          "unit": null,
+          "evidence_span": {
+            "start": 4400,
+            "end": 4500
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "perplexity",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 8000,
+            "end": 8200
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "GNMT",
+        "state-of-the-art"
+      ],
+      "self_consistency": 0.5111111111111111,
+      "critic_verdict": {
+        "method": null,
+        "task": null,
+        "datasets": null,
+        "metrics": null
+      }
+    },
+    {
+      "method": {
+        "name": "Sparsely-Gated Mixture-of-Experts Layer (MoE)",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 200
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "machine translation",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 4000,
+          "end": 4100
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "WMT'14 En→De",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 4600,
+            "end": 4700
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "100 Billion Word Google News Corpus",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 3000,
+            "end": 3100
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 26.03,
+          "unit": null,
+          "evidence_span": {
+            "start": 4800,
+            "end": 4900
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "perplexity",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 3500,
+            "end": 3600
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "GNMT",
+        "LSTM"
+      ],
+      "self_consistency": 0.6428571428571429,
+      "critic_verdict": {
+        "method": null,
+        "task": null,
+        "datasets": null,
+        "metrics": null
+      }
+    },
+    {
+      "method": {
+        "name": "Sparsely-Gated Mixture-of-Experts Layer (MoE)",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 200
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "machine translation",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 4000,
+          "end": 4100
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "Google Production English to French",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 5000,
+            "end": 5100
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 5200,
+            "end": 5300
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "GNMT"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {
+        "method": null,
+        "task": null,
+        "datasets": null,
+        "metrics": null
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "DISABLED (Condition B: self-consistency vote of 5 extractor samples)",
+    "consolidator_model": "DISABLED (Condition B: self-consistency baseline)",
+    "tokens_in": 51830,
+    "tokens_out": 5497,
+    "cost_usd": 0.02147793,
+    "wall_time_seconds": 51.08974183304235,
+    "voting_samples": 5
+  }
+}

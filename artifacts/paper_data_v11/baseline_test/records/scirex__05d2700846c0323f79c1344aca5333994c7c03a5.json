@@ -1,0 +1,177 @@
+{
+  "paper_id": "scirex:05d2700846c0323f79c1344aca5333994c7c03a5",
+  "contributions": [
+    {
+      "method": {
+        "name": "recurrent nets with maxout activations",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 1000,
+          "end": 1038
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "speech recognition",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 50
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "Switchboard",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 200,
+            "end": 210
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "WER",
+          "value": 6.6,
+          "unit": "%",
+          "evidence_span": {
+            "start": 150,
+            "end": 160
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "previous best model"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {
+        "method": null,
+        "task": null,
+        "datasets": null,
+        "metrics": null
+      }
+    },
+    {
+      "method": {
+        "name": "very deep convolutional nets",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 1000,
+          "end": 1025
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "speech recognition",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 50
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "Switchboard",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 200,
+            "end": 210
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "WER",
+          "value": 6.6,
+          "unit": "%",
+          "evidence_span": {
+            "start": 150,
+            "end": 160
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "previous best model"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {
+        "method": null,
+        "task": null,
+        "datasets": null,
+        "metrics": null
+      }
+    },
+    {
+      "method": {
+        "name": "bidirectional long short-term memory nets",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 1000,
+          "end": 1045
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "speech recognition",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 50
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "Switchboard",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 200,
+            "end": 210
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "WER",
+          "value": 6.6,
+          "unit": "%",
+          "evidence_span": {
+            "start": 150,
+            "end": 160
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "previous best model"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {
+        "method": null,
+        "task": null,
+        "datasets": null,
+        "metrics": null
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "DISABLED (Condition A: single-LLM baseline, extractor prompt @ t=0)",
+    "consolidator_model": "DISABLED (Condition A: single-LLM baseline)",
+    "tokens_in": 4345,
+    "tokens_out": 598,
+    "cost_usd": 0.0019226199999999999,
+    "wall_time_seconds": 22.856919874902815,
+    "voting_samples": 1
+  }
+}

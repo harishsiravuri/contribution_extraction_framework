@@ -1,0 +1,81 @@
+{
+  "paper_id": "scirex:11da0c54ba904a1cb31a09d10da55f73e8825c61",
+  "contributions": [
+    {
+      "method": {
+        "name": "TBCNN-pair",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 25,
+          "end": 50
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "natural language inference",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 24
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "Stanford Natural Language Inference (SNLI)",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 3803,
+            "end": 3843
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "SNLI",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 3563,
+            "end": 3597
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": 82.1,
+          "unit": "%",
+          "evidence_span": {
+            "start": 4041,
+            "end": 4046
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "feature-rich methods",
+        "LSTM-based recurrent networks",
+        "GRU-based RNN with skip-thought pretraining",
+        "attention-based LSTMs"
+      ],
+      "self_consistency": 0.8333333333333334,
+      "critic_verdict": {
+        "method": null,
+        "task": null,
+        "datasets": null,
+        "metrics": null
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "DISABLED (Condition B: self-consistency vote of 5 extractor samples)",
+    "consolidator_model": "DISABLED (Condition B: self-consistency baseline)",
+    "tokens_in": 20265,
+    "tokens_out": 1601,
+    "cost_usd": 0.00790969,
+    "wall_time_seconds": 11.595659333048388,
+    "voting_samples": 5
+  }
+}

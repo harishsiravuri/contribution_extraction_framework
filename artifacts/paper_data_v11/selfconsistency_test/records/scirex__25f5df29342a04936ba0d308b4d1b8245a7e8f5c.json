@@ -1,0 +1,231 @@
+{
+  "paper_id": "scirex:25f5df29342a04936ba0d308b4d1b8245a7e8f5c",
+  "contributions": [
+    {
+      "method": {
+        "name": "Convolutional Pose Machines",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 200
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "pose estimation",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 200,
+          "end": 300
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "MPII",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 3000,
+            "end": 3100
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "LSP",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 350,
+            "end": 400
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "FLIC",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 400,
+            "end": 450
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "PCKh-0.5",
+          "value": 87.95,
+          "unit": "%",
+          "evidence_span": {
+            "start": 5000,
+            "end": 5100
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "PCKh",
+          "value": 87.95,
+          "unit": "%",
+          "evidence_span": {
+            "start": 450,
+            "end": 500
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "PCK",
+          "value": 84.32,
+          "unit": "%",
+          "evidence_span": {
+            "start": 500,
+            "end": 550
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "PCK@0.2",
+          "value": 97.59,
+          "unit": "%",
+          "evidence_span": {
+            "start": 550,
+            "end": 600
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "previous methods"
+      ],
+      "self_consistency": 0.54,
+      "critic_verdict": {
+        "method": null,
+        "task": null,
+        "datasets": null,
+        "metrics": null
+      }
+    },
+    {
+      "method": {
+        "name": "Convolutional Pose Machines (CPMs)",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 200
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "pose estimation",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 200,
+          "end": 300
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "LSP",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 5200,
+            "end": 5300
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "PCK",
+          "value": 84.32,
+          "unit": "%",
+          "evidence_span": {
+            "start": 5300,
+            "end": 5400
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [],
+      "self_consistency": 0.9,
+      "critic_verdict": {
+        "method": null,
+        "task": null,
+        "datasets": null,
+        "metrics": null
+      }
+    },
+    {
+      "method": {
+        "name": "Convolutional Pose Machines (CPMs)",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 200
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "pose estimation",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 200,
+          "end": 300
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "FLIC",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 5400,
+            "end": 5500
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "PCK@0.2",
+          "value": 97.59,
+          "unit": "%",
+          "evidence_span": {
+            "start": 5500,
+            "end": 5600
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "PCK",
+          "value": 97.59,
+          "unit": "%",
+          "evidence_span": {
+            "start": 11440,
+            "end": 11447
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [],
+      "self_consistency": 0.75,
+      "critic_verdict": {
+        "method": null,
+        "task": null,
+        "datasets": null,
+        "metrics": null
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "DISABLED (Condition B: self-consistency vote of 5 extractor samples)",
+    "consolidator_model": "DISABLED (Condition B: self-consistency baseline)",
+    "tokens_in": 32225,
+    "tokens_out": 3064,
+    "cost_usd": 0.013038960000000002,
+    "wall_time_seconds": 28.826350250048563,
+    "voting_samples": 5
+  }
+}

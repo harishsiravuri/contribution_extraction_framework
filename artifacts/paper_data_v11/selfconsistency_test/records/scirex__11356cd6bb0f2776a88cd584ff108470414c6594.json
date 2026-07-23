@@ -1,0 +1,231 @@
+{
+  "paper_id": "scirex:11356cd6bb0f2776a88cd584ff108470414c6594",
+  "contributions": [
+    {
+      "method": {
+        "name": "Submanifold Sparse Convolutional Networks (VSC)",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 200
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "image classification",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 200
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "CASIA",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 3000,
+            "end": 3100
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 3000,
+            "end": 3500
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "regular convolutional networks"
+      ],
+      "self_consistency": 0.8800000000000001,
+      "critic_verdict": {
+        "method": null,
+        "task": null,
+        "datasets": null,
+        "metrics": null
+      }
+    },
+    {
+      "method": {
+        "name": "Submanifold Sparse Convolutional Networks (VSC)",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 200
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "3D shape classification",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 200
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "ModelNet-40",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 3500,
+            "end": 3600
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 3500,
+            "end": 4000
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "comparable",
+      "comparison_targets": [
+        "dense 3DNiN network"
+      ],
+      "self_consistency": 0.8,
+      "critic_verdict": {
+        "method": null,
+        "task": null,
+        "datasets": null,
+        "metrics": null
+      }
+    },
+    {
+      "method": {
+        "name": "Submanifold Sparse Convolutional Networks (VSC)",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 200
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "image classification",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 1000,
+          "end": 1100
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "CASIA",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2500,
+            "end": 2550
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "computation",
+          "value": null,
+          "unit": "FLOPs",
+          "evidence_span": {
+            "start": 2600,
+            "end": 2650
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "regular convolutional networks"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {
+        "method": null,
+        "task": null,
+        "datasets": null,
+        "metrics": null
+      }
+    },
+    {
+      "method": {
+        "name": "Submanifold Sparse Convolutional Networks (VSC)",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 200
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "3D shape classification",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 2800,
+          "end": 2900
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "ModelNet-40",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2700,
+            "end": 2750
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "computation",
+          "value": null,
+          "unit": "FLOPs",
+          "evidence_span": {
+            "start": 2900,
+            "end": 2950
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "dense 3DNiN network"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {
+        "method": null,
+        "task": null,
+        "datasets": null,
+        "metrics": null
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "DISABLED (Condition B: self-consistency vote of 5 extractor samples)",
+    "consolidator_model": "DISABLED (Condition B: self-consistency baseline)",
+    "tokens_in": 27705,
+    "tokens_out": 3054,
+    "cost_usd": 0.011583659999999999,
+    "wall_time_seconds": 29.163847042014822,
+    "voting_samples": 5
+  }
+}

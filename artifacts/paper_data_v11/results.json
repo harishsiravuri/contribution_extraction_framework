@@ -1,0 +1,233 @@
+{
+  "experiment": "v11_matched_budget_baselines_scirex_test",
+  "seed": 42,
+  "n_resamples_bootstrap": 1000,
+  "n_permutations_paired": 10000,
+  "bonferroni_across_fields_per_comparison": 4,
+  "prompt": "config/prompts/extractor.md",
+  "extractor_model": "deepseek/deepseek-chat",
+  "papers_evaluated": 66,
+  "standalone_f1_per_system": {
+    "multi": {
+      "methods": {
+        "n": 64,
+        "f1": 0.5484375,
+        "ci_lo": 0.43489583333333326,
+        "ci_hi": 0.6625
+      },
+      "tasks": {
+        "n": 64,
+        "f1": 0.5475446428571429,
+        "ci_lo": 0.44194382440476193,
+        "ci_hi": 0.6563392857142857
+      },
+      "datasets": {
+        "n": 64,
+        "f1": 0.49587053571428574,
+        "ci_lo": 0.41053385416666666,
+        "ci_hi": 0.5821549479166666
+      },
+      "metrics": {
+        "n": 64,
+        "f1": 0.5117063492063492,
+        "ci_lo": 0.41321242559523813,
+        "ci_hi": 0.6104910714285714
+      },
+      "triple": {
+        "n": 64,
+        "f1": 0.04909586940836941,
+        "ci_lo": 0.02165601325757577,
+        "ci_hi": 0.08352019074675324
+      }
+    },
+    "A": {
+      "methods": {
+        "n": 66,
+        "f1": 0.5525252525252525,
+        "ci_lo": 0.4414141414141414,
+        "ci_hi": 0.6575757575757576
+      },
+      "tasks": {
+        "n": 66,
+        "f1": 0.5594516594516593,
+        "ci_lo": 0.4569191919191919,
+        "ci_hi": 0.6640259740259741
+      },
+      "datasets": {
+        "n": 66,
+        "f1": 0.46891534391534395,
+        "ci_lo": 0.38012175324675324,
+        "ci_hi": 0.554712000962001
+      },
+      "metrics": {
+        "n": 66,
+        "f1": 0.5529822029822029,
+        "ci_lo": 0.45834836459836464,
+        "ci_hi": 0.6384626022126021
+      },
+      "triple": {
+        "n": 66,
+        "f1": 0.05423280423280424,
+        "ci_lo": 0.02212602212602213,
+        "ci_hi": 0.0931998556998557
+      }
+    },
+    "B": {
+      "methods": {
+        "n": 65,
+        "f1": 0.5425641025641026,
+        "ci_lo": 0.42405128205128206,
+        "ci_hi": 0.6564487179487181
+      },
+      "tasks": {
+        "n": 65,
+        "f1": 0.5795970695970695,
+        "ci_lo": 0.4756117216117216,
+        "ci_hi": 0.6871327838827838
+      },
+      "datasets": {
+        "n": 65,
+        "f1": 0.4966588966588967,
+        "ci_lo": 0.40887276612276613,
+        "ci_hi": 0.5843035298035297
+      },
+      "metrics": {
+        "n": 65,
+        "f1": 0.5483882783882783,
+        "ci_lo": 0.4550985958485958,
+        "ci_hi": 0.6413943833943834
+      },
+      "triple": {
+        "n": 65,
+        "f1": 0.05627594627594628,
+        "ci_lo": 0.024948717948717957,
+        "ci_hi": 0.09198046398046396
+      }
+    }
+  },
+  "paired_comparisons": {
+    "multi_vs_A": {
+      "methods": {
+        "n_paired": 64,
+        "delta_x_minus_y": -0.005729166666666674,
+        "p_raw": 0.8312168783121687,
+        "p_bonferroni": 1.0
+      },
+      "tasks": {
+        "n_paired": 64,
+        "delta_x_minus_y": -0.013764880952380931,
+        "p_raw": 0.5973402659734026,
+        "p_bonferroni": 1.0
+      },
+      "datasets": {
+        "n_paired": 64,
+        "delta_x_minus_y": 0.02792658730158737,
+        "p_raw": 0.1151884811518848,
+        "p_bonferroni": 0.4607539246075392
+      },
+      "metrics": {
+        "n_paired": 64,
+        "delta_x_minus_y": -0.040327380952380976,
+        "p_raw": 0.19968003199680032,
+        "p_bonferroni": 0.7987201279872013
+      },
+      "triple": {
+        "n_paired": 64,
+        "delta_x_minus_y": 0.0009807900432900404,
+        "p_raw": 0.9059094090590941
+      }
+    },
+    "multi_vs_B": {
+      "methods": {
+        "n_paired": 63,
+        "delta_x_minus_y": -0.002645502645502673,
+        "p_raw": 0.9179082091790821,
+        "p_bonferroni": 1.0
+      },
+      "tasks": {
+        "n_paired": 63,
+        "delta_x_minus_y": -0.025888133030990135,
+        "p_raw": 0.45445455454454553,
+        "p_bonferroni": 1.0
+      },
+      "datasets": {
+        "n_paired": 63,
+        "delta_x_minus_y": 0.00718866671247631,
+        "p_raw": 0.3778622137786221,
+        "p_bonferroni": 1.0
+      },
+      "metrics": {
+        "n_paired": 63,
+        "delta_x_minus_y": -0.043323255228017055,
+        "p_raw": 0.18768123187681232,
+        "p_bonferroni": 0.7507249275072493
+      },
+      "triple": {
+        "n_paired": 63,
+        "delta_x_minus_y": -0.0018381089809661327,
+        "p_raw": 0.8117188281171883
+      }
+    },
+    "B_vs_A": {
+      "methods": {
+        "n_paired": 65,
+        "delta_x_minus_y": -0.003076923076923088,
+        "p_raw": 0.7508249175082492,
+        "p_bonferroni": 1.0
+      },
+      "tasks": {
+        "n_paired": 65,
+        "delta_x_minus_y": 0.011538461538461497,
+        "p_raw": 0.6246375362463754,
+        "p_bonferroni": 1.0
+      },
+      "datasets": {
+        "n_paired": 65,
+        "delta_x_minus_y": 0.020529470529470573,
+        "p_raw": 0.3274672532746725,
+        "p_bonferroni": 1.0
+      },
+      "metrics": {
+        "n_paired": 65,
+        "delta_x_minus_y": -0.0028449328449329236,
+        "p_raw": 0.8842115788421158,
+        "p_bonferroni": 1.0
+      },
+      "triple": {
+        "n_paired": 65,
+        "delta_x_minus_y": 0.0012087912087912073,
+        "p_raw": 0.8769123087691231
+      }
+    }
+  },
+  "cost_and_calls": {
+    "multi_agent_v10": {
+      "papers_ok": 64,
+      "papers_error": 2,
+      "total_cost_usd": 1.29660177,
+      "wall_time_seconds": 2099.5884783749934,
+      "llm_calls_note": "3 extractor + 1 critic + 1 consolidator = 5 per successful paper"
+    },
+    "condition_A_single_llm": {
+      "papers_ok": 66,
+      "papers_error": 0,
+      "total_cost_usd": 0.21166653,
+      "total_tokens_in": 504537,
+      "total_tokens_out": 56421,
+      "llm_calls": 66,
+      "wall_time_seconds": 380.31459420803003,
+      "cost_cap_tripped": false
+    },
+    "condition_B_self_consistency": {
+      "papers_ok": 65,
+      "papers_error": 1,
+      "total_cost_usd": 1.04352812,
+      "total_tokens_in": 2485535,
+      "total_tokens_out": 278828,
+      "llm_calls": 325,
+      "wall_time_seconds": 842.5577234588563,
+      "cost_cap_tripped": false
+    }
+  },
+  "total_v11_openrouter_spend_usd": 1.25519465
+}

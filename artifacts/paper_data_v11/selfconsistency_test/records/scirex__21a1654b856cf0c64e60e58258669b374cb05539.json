@@ -1,0 +1,335 @@
+{
+  "paper_id": "scirex:21a1654b856cf0c64e60e58258669b374cb05539",
+  "contributions": [
+    {
+      "method": {
+        "name": "YOLO",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 100
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "object detection",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 100
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "Pascal VOC",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2000,
+            "end": 2010
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "Pascal VOC 2007",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2193,
+            "end": 2208
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "mAP",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 2000,
+            "end": 2010
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "DPM",
+        "R-CNN"
+      ],
+      "self_consistency": 0.8333333333333334,
+      "critic_verdict": {
+        "method": null,
+        "task": null,
+        "datasets": null,
+        "metrics": null
+      }
+    },
+    {
+      "method": {
+        "name": "Fast YOLO",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 500,
+          "end": 600
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "object detection",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 100
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "Pascal VOC",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2000,
+            "end": 2010
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "Pascal VOC 2007",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2193,
+            "end": 2208
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "mAP",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 2000,
+            "end": 2010
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "DPM",
+        "R-CNN"
+      ],
+      "self_consistency": 0.8333333333333334,
+      "critic_verdict": {
+        "method": null,
+        "task": null,
+        "datasets": null,
+        "metrics": null
+      }
+    },
+    {
+      "method": {
+        "name": "YOLO",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 100
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "object detection",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 100
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "Picasso Dataset",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 10000,
+            "end": 10050
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "Pascal VOC 2012",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 3150,
+            "end": 3165
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "AP",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 10000,
+            "end": 10050
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "mAP",
+          "value": 57.9,
+          "unit": null,
+          "evidence_span": {
+            "start": 3166,
+            "end": 3172
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "comparable",
+      "comparison_targets": [
+        "R-CNN"
+      ],
+      "self_consistency": 0.6857142857142857,
+      "critic_verdict": {
+        "method": null,
+        "task": null,
+        "datasets": null,
+        "metrics": null
+      }
+    },
+    {
+      "method": {
+        "name": "YOLO",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 100
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "object detection",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 100
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "People-Art Dataset",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 10050,
+            "end": 10100
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "Picasso Dataset",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 3493,
+            "end": 3508
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "AP",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 10050,
+            "end": 10100
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "R-CNN",
+        "DPM"
+      ],
+      "self_consistency": 0.8333333333333334,
+      "critic_verdict": {
+        "method": null,
+        "task": null,
+        "datasets": null,
+        "metrics": null
+      }
+    },
+    {
+      "method": {
+        "name": "YOLO",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 100
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "object detection",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 100
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "People-Art Dataset",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 3513,
+            "end": 3531
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "AP",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 3532,
+            "end": 3534
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "R-CNN",
+        "DPM"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {
+        "method": null,
+        "task": null,
+        "datasets": null,
+        "metrics": null
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "DISABLED (Condition B: self-consistency vote of 5 extractor samples)",
+    "consolidator_model": "DISABLED (Condition B: self-consistency baseline)",
+    "tokens_in": 32620,
+    "tokens_out": 5928,
+    "cost_usd": 0.01571432,
+    "wall_time_seconds": 42.45775087503716,
+    "voting_samples": 5
+  }
+}

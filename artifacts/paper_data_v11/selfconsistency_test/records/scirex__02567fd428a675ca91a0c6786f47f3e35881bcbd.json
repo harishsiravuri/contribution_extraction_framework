@@ -1,0 +1,636 @@
+{
+  "paper_id": "scirex:02567fd428a675ca91a0c6786f47f3e35881bcbd",
+  "contributions": [
+    {
+      "method": {
+        "name": "DLDL",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 100
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "age estimation",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 100,
+          "end": 200
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "Morph",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2000,
+            "end": 2100
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "ChaLearn",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2100,
+            "end": 2200
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "MAE",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 3000,
+            "end": 3100
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "CS",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 3100,
+            "end": 3200
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "BFGS-LDL",
+        "C-ConvNet",
+        "R-ConvNet",
+        "ConvNet+LS"
+      ],
+      "self_consistency": 0.8285714285714285,
+      "critic_verdict": {
+        "method": null,
+        "task": null,
+        "datasets": null,
+        "metrics": null
+      }
+    },
+    {
+      "method": {
+        "name": "DLDL",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 100
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "head pose estimation",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 100,
+          "end": 200
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "Pointing'04",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 4000,
+            "end": 4100
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "BJUT-3D",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 4100,
+            "end": 4200
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "AFLW",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 4200,
+            "end": 4300
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "ChaLearn",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 300,
+            "end": 400
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "MAE",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 5000,
+            "end": 5100
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "Acc",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 5100,
+            "end": 5200
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "BFGS-LDL",
+        "C-ConvNet",
+        "R-ConvNet",
+        "ConvNet+LS"
+      ],
+      "self_consistency": 0.6444444444444444,
+      "critic_verdict": {
+        "method": null,
+        "task": null,
+        "datasets": null,
+        "metrics": null
+      }
+    },
+    {
+      "method": {
+        "name": "DLDL",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 100
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "multi-label classification",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 100,
+          "end": 200
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "PASCAL VOC2007",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 6000,
+            "end": 6100
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "PASCAL VOC2012",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 6100,
+            "end": 6200
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "Pointing'04",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 300,
+            "end": 400
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "mAP",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 7000,
+            "end": 7100
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "MAE",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 400,
+            "end": 500
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "VGG+SVM",
+        "HCP",
+        "Fev+Lv",
+        "IF-VGG-ℓ2",
+        "IF-VGG-KL",
+        "BFGS-LDL",
+        "C-ConvNet",
+        "R-ConvNet"
+      ],
+      "self_consistency": 0.625,
+      "critic_verdict": {
+        "method": null,
+        "task": null,
+        "datasets": null,
+        "metrics": null
+      }
+    },
+    {
+      "method": {
+        "name": "DLDL",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 100
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "semantic segmentation",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 100,
+          "end": 200
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "PASCAL VOC2011",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 8000,
+            "end": 8100
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "PASCAL VOC2012",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 8100,
+            "end": 8200
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "BJUT-3D",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 300,
+            "end": 400
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "mean IU",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 9000,
+            "end": 9100
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "MAE",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 400,
+            "end": 500
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "FCN-8s",
+        "BFGS-LDL",
+        "C-ConvNet",
+        "R-ConvNet"
+      ],
+      "self_consistency": 0.625,
+      "critic_verdict": {
+        "method": null,
+        "task": null,
+        "datasets": null,
+        "metrics": null
+      }
+    },
+    {
+      "method": {
+        "name": "DLDL",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 200
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "head pose estimation",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 200,
+          "end": 300
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "AFLW",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 300,
+            "end": 400
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "MAE",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 400,
+            "end": 500
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "BFGS-LDL",
+        "C-ConvNet",
+        "R-ConvNet",
+        "ConvNet+LS"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {
+        "method": null,
+        "task": null,
+        "datasets": null,
+        "metrics": null
+      }
+    },
+    {
+      "method": {
+        "name": "DLDL",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 200
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "multi-label classification",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 200,
+          "end": 300
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "PASCAL VOC2007",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 300,
+            "end": 400
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "mAP",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 400,
+            "end": 500
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "VGG+SVM",
+        "HCP",
+        "Fev+Lv"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {
+        "method": null,
+        "task": null,
+        "datasets": null,
+        "metrics": null
+      }
+    },
+    {
+      "method": {
+        "name": "DLDL",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 200
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "multi-label classification",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 200,
+          "end": 300
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "PASCAL VOC2012",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 300,
+            "end": 400
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "mAP",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 400,
+            "end": 500
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "VGG+SVM",
+        "HCP",
+        "Fev+Lv"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {
+        "method": null,
+        "task": null,
+        "datasets": null,
+        "metrics": null
+      }
+    },
+    {
+      "method": {
+        "name": "DLDL",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 200
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "semantic segmentation",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 200,
+          "end": 300
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "PASCAL VOC2011",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 300,
+            "end": 400
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "mean IU",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 400,
+            "end": 500
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "FCN-8s"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {
+        "method": null,
+        "task": null,
+        "datasets": null,
+        "metrics": null
+      }
+    },
+    {
+      "method": {
+        "name": "DLDL",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 200
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "semantic segmentation",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 200,
+          "end": 300
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "PASCAL VOC2012",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 300,
+            "end": 400
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "mean IU",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 400,
+            "end": 500
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "FCN-8s"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {
+        "method": null,
+        "task": null,
+        "datasets": null,
+        "metrics": null
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "DISABLED (Condition B: self-consistency vote of 5 extractor samples)",
+    "consolidator_model": "DISABLED (Condition B: self-consistency baseline)",
+    "tokens_in": 61175,
+    "tokens_out": 7628,
+    "cost_usd": 0.02636492,
+    "wall_time_seconds": 61.66185083286837,
+    "voting_samples": 5
+  }
+}

@@ -1,0 +1,382 @@
+{
+  "paper_id": "scirex:175f74a09241b6cb5101a2a09978095720db7d5f",
+  "contributions": [
+    {
+      "method": {
+        "name": "Dual-State Recurrent Network (DSRN)",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 1000
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "image super-resolution",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 1000
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "Set5",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1000,
+            "end": 2000
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "Set14",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 3000,
+            "end": 3100
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "B100",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 3000,
+            "end": 3100
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "Urban100",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 3000,
+            "end": 3100
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "DIV2K",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 3000,
+            "end": 3100
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "PSNR",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 2000,
+            "end": 3000
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "SSIM",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 4000,
+            "end": 4100
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "IFC",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 4000,
+            "end": 4100
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "VDSR",
+        "LapSRN",
+        "DRRN",
+        "SRCNN",
+        "DRCN",
+        "RED30"
+      ],
+      "self_consistency": 0.7636363636363637,
+      "critic_verdict": {
+        "method": null,
+        "task": null,
+        "datasets": null,
+        "metrics": null
+      }
+    },
+    {
+      "method": {
+        "name": "Dual-State Recurrent Network (DSRN)",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 1000
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "image super-resolution",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 1000
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "Set14",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1000,
+            "end": 2000
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "DIV2K",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2211,
+            "end": 2216
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "PSNR",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 2000,
+            "end": 3000
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "SSIM",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 4505,
+            "end": 4509
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "IFC",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 4511,
+            "end": 4514
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "VDSR",
+        "LapSRN",
+        "DRRN",
+        "EDSR+"
+      ],
+      "self_consistency": 0.7083333333333334,
+      "critic_verdict": {
+        "method": null,
+        "task": null,
+        "datasets": null,
+        "metrics": null
+      }
+    },
+    {
+      "method": {
+        "name": "Dual-State Recurrent Network (DSRN)",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 1000
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "image super-resolution",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 1000
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "B100",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1000,
+            "end": 2000
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "PSNR",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 2000,
+            "end": 3000
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "VDSR",
+        "LapSRN",
+        "DRRN"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {
+        "method": null,
+        "task": null,
+        "datasets": null,
+        "metrics": null
+      }
+    },
+    {
+      "method": {
+        "name": "Dual-State Recurrent Network (DSRN)",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 1000
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "image super-resolution",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 1000
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "Urban100",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1000,
+            "end": 2000
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "PSNR",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 2000,
+            "end": 3000
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "VDSR",
+        "LapSRN",
+        "DRRN"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {
+        "method": null,
+        "task": null,
+        "datasets": null,
+        "metrics": null
+      }
+    },
+    {
+      "method": {
+        "name": "Dual-State Recurrent Network (DSRN)",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 1000
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "image super-resolution",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 1000
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "DIV2K",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1000,
+            "end": 2000
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "PSNR",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 2000,
+            "end": 3000
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "EDSR+"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {
+        "method": null,
+        "task": null,
+        "datasets": null,
+        "metrics": null
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "DISABLED (Condition B: self-consistency vote of 5 extractor samples)",
+    "consolidator_model": "DISABLED (Condition B: self-consistency baseline)",
+    "tokens_in": 30230,
+    "tokens_out": 3936,
+    "cost_usd": 0.01317664,
+    "wall_time_seconds": 45.21858970914036,
+    "voting_samples": 5
+  }
+}

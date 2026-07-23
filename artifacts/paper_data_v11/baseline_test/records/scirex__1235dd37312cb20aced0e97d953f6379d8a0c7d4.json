@@ -1,0 +1,223 @@
+{
+  "paper_id": "scirex:1235dd37312cb20aced0e97d953f6379d8a0c7d4",
+  "contributions": [
+    {
+      "method": {
+        "name": "LSTM",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 3000,
+          "end": 3200
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "textual entailment",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 300,
+          "end": 400
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "SNLI",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 3000,
+            "end": 3200
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": 81.49,
+          "unit": "%",
+          "evidence_span": {
+            "start": 3000,
+            "end": 3200
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": null,
+      "comparison_targets": [],
+      "self_consistency": 1.0,
+      "critic_verdict": {
+        "method": null,
+        "task": null,
+        "datasets": null,
+        "metrics": null
+      }
+    },
+    {
+      "method": {
+        "name": "V-LSTM",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 3200,
+          "end": 3400
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "textual entailment",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 300,
+          "end": 400
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "V-SNLI",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 3200,
+            "end": 3400
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": null,
+          "unit": "%",
+          "evidence_span": {
+            "start": 3200,
+            "end": 3400
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": null,
+      "comparison_targets": [],
+      "self_consistency": 1.0,
+      "critic_verdict": {
+        "method": null,
+        "task": null,
+        "datasets": null,
+        "metrics": null
+      }
+    },
+    {
+      "method": {
+        "name": "BiMPM",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 3400,
+          "end": 3600
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "textual entailment",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 300,
+          "end": 400
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "SNLI",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 3400,
+            "end": 3600
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": 86.9,
+          "unit": "%",
+          "evidence_span": {
+            "start": 3400,
+            "end": 3600
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": null,
+      "comparison_targets": [],
+      "self_consistency": 1.0,
+      "critic_verdict": {
+        "method": null,
+        "task": null,
+        "datasets": null,
+        "metrics": null
+      }
+    },
+    {
+      "method": {
+        "name": "V-BiMPM",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 3600,
+          "end": 3800
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "textual entailment",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 300,
+          "end": 400
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "V-SNLI",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 3600,
+            "end": 3800
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": null,
+          "unit": "%",
+          "evidence_span": {
+            "start": 3600,
+            "end": 3800
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": null,
+      "comparison_targets": [],
+      "self_consistency": 1.0,
+      "critic_verdict": {
+        "method": null,
+        "task": null,
+        "datasets": null,
+        "metrics": null
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "DISABLED (Condition A: single-LLM baseline, extractor prompt @ t=0)",
+    "consolidator_model": "DISABLED (Condition A: single-LLM baseline)",
+    "tokens_in": 17370,
+    "tokens_out": 1012,
+    "cost_usd": 0.00645908,
+    "wall_time_seconds": 38.46377708390355,
+    "voting_samples": 1
+  }
+}

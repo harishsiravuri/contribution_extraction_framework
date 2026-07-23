@@ -1,0 +1,375 @@
+{
+  "paper_id": "scirex:3448e6a5039417dc1ae890efeca3bef5390ace7c",
+  "contributions": [
+    {
+      "method": {
+        "name": "xDeepFM",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 1000,
+          "end": 1100
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "recommendation",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 1000,
+          "end": 1100
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "Criteo Dataset",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 5000,
+            "end": 5100
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "AUC",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 6000,
+            "end": 6100
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "LR",
+        "FM",
+        "DNN",
+        "PNN",
+        "Wide & Deep",
+        "DCN",
+        "DeepFM"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {
+        "method": null,
+        "task": null,
+        "datasets": null,
+        "metrics": null
+      }
+    },
+    {
+      "method": {
+        "name": "xDeepFM",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 1000,
+          "end": 1100
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "recommendation",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 1000,
+          "end": 1100
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "Criteo Dataset",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 5000,
+            "end": 5100
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Logloss",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 6000,
+            "end": 6100
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "LR",
+        "FM",
+        "DNN",
+        "PNN",
+        "Wide & Deep",
+        "DCN",
+        "DeepFM"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {
+        "method": null,
+        "task": null,
+        "datasets": null,
+        "metrics": null
+      }
+    },
+    {
+      "method": {
+        "name": "xDeepFM",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 1000,
+          "end": 1100
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "recommendation",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 1000,
+          "end": 1100
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "Dianping Dataset",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 5200,
+            "end": 5300
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "AUC",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 6000,
+            "end": 6100
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "LR",
+        "FM",
+        "DNN",
+        "PNN",
+        "Wide & Deep",
+        "DCN",
+        "DeepFM"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {
+        "method": null,
+        "task": null,
+        "datasets": null,
+        "metrics": null
+      }
+    },
+    {
+      "method": {
+        "name": "xDeepFM",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 1000,
+          "end": 1100
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "recommendation",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 1000,
+          "end": 1100
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "Dianping Dataset",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 5200,
+            "end": 5300
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Logloss",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 6000,
+            "end": 6100
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "LR",
+        "FM",
+        "DNN",
+        "PNN",
+        "Wide & Deep",
+        "DCN",
+        "DeepFM"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {
+        "method": null,
+        "task": null,
+        "datasets": null,
+        "metrics": null
+      }
+    },
+    {
+      "method": {
+        "name": "xDeepFM",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 1000,
+          "end": 1100
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "recommendation",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 1000,
+          "end": 1100
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "Bing News Dataset",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 5400,
+            "end": 5500
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "AUC",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 6000,
+            "end": 6100
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "LR",
+        "FM",
+        "DNN",
+        "PNN",
+        "Wide & Deep",
+        "DCN",
+        "DeepFM"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {
+        "method": null,
+        "task": null,
+        "datasets": null,
+        "metrics": null
+      }
+    },
+    {
+      "method": {
+        "name": "xDeepFM",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 1000,
+          "end": 1100
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "recommendation",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 1000,
+          "end": 1100
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "Bing News Dataset",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 5400,
+            "end": 5500
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Logloss",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 6000,
+            "end": 6100
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "LR",
+        "FM",
+        "DNN",
+        "PNN",
+        "Wide & Deep",
+        "DCN",
+        "DeepFM"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {
+        "method": null,
+        "task": null,
+        "datasets": null,
+        "metrics": null
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "DISABLED (Condition A: single-LLM baseline, extractor prompt @ t=0)",
+    "consolidator_model": "DISABLED (Condition A: single-LLM baseline)",
+    "tokens_in": 7897,
+    "tokens_out": 1329,
+    "cost_usd": 0.0037098499999999998,
+    "wall_time_seconds": 63.51037708390504,
+    "voting_samples": 1
+  }
+}

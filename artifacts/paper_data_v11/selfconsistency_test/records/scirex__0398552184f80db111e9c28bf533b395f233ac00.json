@@ -1,0 +1,74 @@
+{
+  "paper_id": "scirex:0398552184f80db111e9c28bf533b395f233ac00",
+  "contributions": [
+    {
+      "method": {
+        "name": "Self-paced curriculum learning (SPCL)",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 2000,
+          "end": 2200
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "weakly supervised object detection",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 100,
+          "end": 200
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "Pascal VOC 2007",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 5000,
+            "end": 5100
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "AP",
+          "value": 29.96,
+          "unit": null,
+          "evidence_span": {
+            "start": 5200,
+            "end": 5300
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "PR",
+        "CC",
+        "MDD",
+        "LLO",
+        "VPC",
+        "MfMIL"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {
+        "method": null,
+        "task": null,
+        "datasets": null,
+        "metrics": null
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "DISABLED (Condition B: self-consistency vote of 5 extractor samples)",
+    "consolidator_model": "DISABLED (Condition B: self-consistency baseline)",
+    "tokens_in": 28060,
+    "tokens_out": 1476,
+    "cost_usd": 0.010292840000000001,
+    "wall_time_seconds": 11.095569791039452,
+    "voting_samples": 5
+  }
+}

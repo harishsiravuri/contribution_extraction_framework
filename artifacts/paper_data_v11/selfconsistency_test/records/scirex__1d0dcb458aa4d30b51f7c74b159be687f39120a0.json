@@ -1,0 +1,393 @@
+{
+  "paper_id": "scirex:1d0dcb458aa4d30b51f7c74b159be687f39120a0",
+  "contributions": [
+    {
+      "method": {
+        "name": "Pose-driven Deep Convolutional (PDC) model",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 200
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "person re-identification",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 200
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "CUHK03",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2000,
+            "end": 2200
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "CUHK 03",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 5225,
+            "end": 5233
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "rank1 accuracy",
+          "value": 88.7,
+          "unit": "%",
+          "evidence_span": {
+            "start": 5000,
+            "end": 5200
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "accuracy",
+          "value": 78.29,
+          "unit": "%",
+          "evidence_span": {
+            "start": 7816,
+            "end": 7822
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "PIE",
+        "Spindle"
+      ],
+      "self_consistency": 0.7142857142857143,
+      "critic_verdict": {
+        "method": null,
+        "task": null,
+        "datasets": null,
+        "metrics": null
+      }
+    },
+    {
+      "method": {
+        "name": "Pose-driven Deep Convolutional (PDC) model",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 200
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "person re-identification",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 200
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "Market-1501",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2200,
+            "end": 2400
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "CUHK03",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 4242,
+            "end": 4248
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "CUHK 03",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 5225,
+            "end": 5233
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "rank1 accuracy",
+          "value": 84.14,
+          "unit": "%",
+          "evidence_span": {
+            "start": 5200,
+            "end": 5400
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "mAP",
+          "value": 63.41,
+          "unit": "%",
+          "evidence_span": {
+            "start": 5200,
+            "end": 5400
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "accuracy",
+          "value": 88.7,
+          "unit": "%",
+          "evidence_span": {
+            "start": 7837,
+            "end": 7843
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "PIE",
+        "Spindle"
+      ],
+      "self_consistency": 0.6000000000000001,
+      "critic_verdict": {
+        "method": null,
+        "task": null,
+        "datasets": null,
+        "metrics": null
+      }
+    },
+    {
+      "method": {
+        "name": "Pose-driven Deep Convolutional (PDC) model",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 200
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "person re-identification",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 200
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "VIPeR",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2400,
+            "end": 2600
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "Market1501",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 4260,
+            "end": 4270
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "Market 1501",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 5250,
+            "end": 5261
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "rank1 accuracy",
+          "value": 51.27,
+          "unit": "%",
+          "evidence_span": {
+            "start": 5400,
+            "end": 5600
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "accuracy",
+          "value": 84.14,
+          "unit": "%",
+          "evidence_span": {
+            "start": 7937,
+            "end": 7943
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Spindle",
+        "PIE"
+      ],
+      "self_consistency": 0.625,
+      "critic_verdict": {
+        "method": null,
+        "task": null,
+        "datasets": null,
+        "metrics": null
+      }
+    },
+    {
+      "method": {
+        "name": "Pose-driven Deep Convolutional (PDC) model",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 173,
+          "end": 242
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "person re-identification",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 173,
+          "end": 242
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "Market1501",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 4260,
+            "end": 4270
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "Market 1501",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 5250,
+            "end": 5261
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "mAP",
+          "value": 63.41,
+          "unit": "%",
+          "evidence_span": {
+            "start": 7948,
+            "end": 7954
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "PIE",
+        "Spindle"
+      ],
+      "self_consistency": 0.8333333333333334,
+      "critic_verdict": {
+        "method": null,
+        "task": null,
+        "datasets": null,
+        "metrics": null
+      }
+    },
+    {
+      "method": {
+        "name": "Pose-driven Deep Convolutional (PDC) model",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 173,
+          "end": 242
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "person re-identification",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 173,
+          "end": 242
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "VIPeR",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 4282,
+            "end": 4287
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": 51.27,
+          "unit": "%",
+          "evidence_span": {
+            "start": 8041,
+            "end": 8047
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "rank1 accuracy",
+          "value": 51.27,
+          "unit": "%",
+          "evidence_span": {
+            "start": 6143,
+            "end": 6151
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Spindle"
+      ],
+      "self_consistency": 0.8333333333333334,
+      "critic_verdict": {
+        "method": null,
+        "task": null,
+        "datasets": null,
+        "metrics": null
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "DISABLED (Condition B: self-consistency vote of 5 extractor samples)",
+    "consolidator_model": "DISABLED (Condition B: self-consistency baseline)",
+    "tokens_in": 33400,
+    "tokens_out": 4679,
+    "cost_usd": 0.014852309999999999,
+    "wall_time_seconds": 53.313763624988496,
+    "voting_samples": 5
+  }
+}

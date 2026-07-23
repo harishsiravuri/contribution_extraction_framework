@@ -1,0 +1,74 @@
+{
+  "paper_id": "scirex:0398552184f80db111e9c28bf533b395f233ac00",
+  "contributions": [
+    {
+      "method": {
+        "name": "Self-Paced Curriculum Learning (SPCL)",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 1200,
+          "end": 1300
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "weakly supervised object detection",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 100,
+          "end": 200
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "Pascal VOC 2007",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 5000,
+            "end": 5100
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "AP",
+          "value": 29.96,
+          "unit": null,
+          "evidence_span": {
+            "start": 5200,
+            "end": 5300
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "PR",
+        "CC",
+        "MDD",
+        "LLO",
+        "VPC",
+        "MfMIL"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {
+        "method": null,
+        "task": null,
+        "datasets": null,
+        "metrics": null
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "DISABLED (Condition A: single-LLM baseline, extractor prompt @ t=0)",
+    "consolidator_model": "DISABLED (Condition A: single-LLM baseline)",
+    "tokens_in": 5612,
+    "tokens_out": 299,
+    "cost_usd": 0.00206195,
+    "wall_time_seconds": 8.507812625030056,
+    "voting_samples": 1
+  }
+}

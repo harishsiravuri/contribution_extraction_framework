@@ -1,0 +1,177 @@
+{
+  "paper_id": "scirex:408e8eecc14c5cc60bbdfc486ba7a7fc97031788",
+  "contributions": [
+    {
+      "method": {
+        "name": "Exemplar-CNN",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 200,
+          "end": 300
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "visual object recognition",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 300,
+          "end": 350
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "STL-10",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 350,
+            "end": 400
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": 72.8,
+          "unit": "%",
+          "evidence_span": {
+            "start": 3500,
+            "end": 3600
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "previous unsupervised feature learning methods"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {
+        "method": null,
+        "task": null,
+        "datasets": null,
+        "metrics": null
+      }
+    },
+    {
+      "method": {
+        "name": "Exemplar-CNN",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 200,
+          "end": 300
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "visual object recognition",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 300,
+          "end": 350
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "CIFAR-10",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 350,
+            "end": 400
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": null,
+          "unit": "%",
+          "evidence_span": {
+            "start": 3500,
+            "end": 3600
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "previous unsupervised feature learning methods"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {
+        "method": null,
+        "task": null,
+        "datasets": null,
+        "metrics": null
+      }
+    },
+    {
+      "method": {
+        "name": "Exemplar-CNN",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 200,
+          "end": 300
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "visual object recognition",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 300,
+          "end": 350
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "Caltech-101",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 350,
+            "end": 400
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": null,
+          "unit": "%",
+          "evidence_span": {
+            "start": 3500,
+            "end": 3600
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "previous unsupervised feature learning methods"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {
+        "method": null,
+        "task": null,
+        "datasets": null,
+        "metrics": null
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "DISABLED (Condition A: single-LLM baseline, extractor prompt @ t=0)",
+    "consolidator_model": "DISABLED (Condition A: single-LLM baseline)",
+    "tokens_in": 6775,
+    "tokens_out": 794,
+    "cost_usd": 0.00287466,
+    "wall_time_seconds": 22.26709579094313,
+    "voting_samples": 1
+  }
+}

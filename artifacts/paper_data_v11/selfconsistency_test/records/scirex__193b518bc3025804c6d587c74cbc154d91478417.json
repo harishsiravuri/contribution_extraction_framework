@@ -1,0 +1,420 @@
+{
+  "paper_id": "scirex:193b518bc3025804c6d587c74cbc154d91478417",
+  "contributions": [
+    {
+      "method": {
+        "name": "adversarial learning in the output space",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 1000
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "semantic segmentation",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 199,
+          "end": 222
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "Cityscapes",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 3506,
+            "end": 3516
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "GTA5",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 4000,
+            "end": 4100
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "SYNTHIA",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 0,
+            "end": 0
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "Cross-City",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 0,
+            "end": 0
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "IoU",
+          "value": 65.1,
+          "unit": "%",
+          "evidence_span": {
+            "start": 11353,
+            "end": 11358
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "state-of-the-art methods"
+      ],
+      "self_consistency": 0.675,
+      "critic_verdict": {
+        "method": null,
+        "task": null,
+        "datasets": null,
+        "metrics": null
+      }
+    },
+    {
+      "method": {
+        "name": "multi-level adversarial learning",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 1894,
+          "end": 1939
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "semantic segmentation",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 199,
+          "end": 222
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "GTA5",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 3386,
+            "end": 3390
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "Cityscapes",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 3506,
+            "end": 3516
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "SYNTHIA",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 0,
+            "end": 0
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "Cross-City",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 0,
+            "end": 0
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "IoU",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 17979,
+            "end": 17983
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "single-level adaptation"
+      ],
+      "self_consistency": 0.75,
+      "critic_verdict": {
+        "method": null,
+        "task": null,
+        "datasets": null,
+        "metrics": null
+      }
+    },
+    {
+      "method": {
+        "name": "adversarial learning in the output space",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 1000
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "semantic segmentation",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 199,
+          "end": 222
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "SYNTHIA",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 18407,
+            "end": 18414
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "Cityscapes",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 18427,
+            "end": 18437
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "IoU",
+          "value": null,
+          "unit": "%",
+          "evidence_span": {
+            "start": 18472,
+            "end": 18476
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "state-of-the-art methods"
+      ],
+      "self_consistency": 0.875,
+      "critic_verdict": {
+        "method": null,
+        "task": null,
+        "datasets": null,
+        "metrics": null
+      }
+    },
+    {
+      "method": {
+        "name": "multi-level adversarial learning",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 1894,
+          "end": 1939
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "semantic segmentation",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 199,
+          "end": 222
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "Cross-City",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 18705,
+            "end": 18715
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "SYNTHIA",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 6000,
+            "end": 6100
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "Cityscapes",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 6000,
+            "end": 6100
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "IoU",
+          "value": null,
+          "unit": "%",
+          "evidence_span": {
+            "start": 18733,
+            "end": 18737
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "single-level adaptation"
+      ],
+      "self_consistency": 0.75,
+      "critic_verdict": {
+        "method": null,
+        "task": null,
+        "datasets": null,
+        "metrics": null
+      }
+    },
+    {
+      "method": {
+        "name": "adversarial learning in the output space",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 1000
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "semantic segmentation",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 1000
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "Cross-City",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 7000,
+            "end": 7100
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "IoU",
+          "value": null,
+          "unit": "%",
+          "evidence_span": {
+            "start": 7100,
+            "end": 7200
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "state-of-the-art methods"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {
+        "method": null,
+        "task": null,
+        "datasets": null,
+        "metrics": null
+      }
+    },
+    {
+      "method": {
+        "name": "multi-level adversarial learning",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 150,
+          "end": 300
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "semantic segmentation",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 150,
+          "end": 300
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "Cross-City",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 3000,
+            "end": 3100
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "IoU",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 3000,
+            "end": 3100
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "single-level adaptation"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {
+        "method": null,
+        "task": null,
+        "datasets": null,
+        "metrics": null
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "DISABLED (Condition B: self-consistency vote of 5 extractor samples)",
+    "consolidator_model": "DISABLED (Condition B: self-consistency baseline)",
+    "tokens_in": 30270,
+    "tokens_out": 5762,
+    "cost_usd": 0.01481458,
+    "wall_time_seconds": 43.096482708118856,
+    "voting_samples": 5
+  }
+}

@@ -1,0 +1,223 @@
+{
+  "paper_id": "scirex:322a7dad274f440a92548faa8f2b2be666b2d01f",
+  "contributions": [
+    {
+      "method": {
+        "name": "PSPNet",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 50,
+          "end": 100
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "scene parsing",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 20
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "PASCAL VOC 2012",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 200,
+            "end": 215
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "mIoU",
+          "value": 85.4,
+          "unit": "%",
+          "evidence_span": {
+            "start": 215,
+            "end": 230
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [],
+      "self_consistency": 1.0,
+      "critic_verdict": {
+        "method": null,
+        "task": null,
+        "datasets": null,
+        "metrics": null
+      }
+    },
+    {
+      "method": {
+        "name": "PSPNet",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 50,
+          "end": 100
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "scene parsing",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 20
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "Cityscapes",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 230,
+            "end": 240
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": 80.2,
+          "unit": "%",
+          "evidence_span": {
+            "start": 240,
+            "end": 250
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [],
+      "self_consistency": 1.0,
+      "critic_verdict": {
+        "method": null,
+        "task": null,
+        "datasets": null,
+        "metrics": null
+      }
+    },
+    {
+      "method": {
+        "name": "PSPNet",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 50,
+          "end": 100
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "scene parsing",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 20
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "ADE20K",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1000,
+            "end": 1005
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Mean IoU",
+          "value": 41.68,
+          "unit": "%",
+          "evidence_span": {
+            "start": 1500,
+            "end": 1510
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [],
+      "self_consistency": 1.0,
+      "critic_verdict": {
+        "method": null,
+        "task": null,
+        "datasets": null,
+        "metrics": null
+      }
+    },
+    {
+      "method": {
+        "name": "PSPNet",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 50,
+          "end": 100
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "scene parsing",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 20
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "ADE20K",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1000,
+            "end": 1005
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Pixel Acc.",
+          "value": 80.04,
+          "unit": "%",
+          "evidence_span": {
+            "start": 1510,
+            "end": 1520
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [],
+      "self_consistency": 1.0,
+      "critic_verdict": {
+        "method": null,
+        "task": null,
+        "datasets": null,
+        "metrics": null
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "DISABLED (Condition B: self-consistency vote of 5 extractor samples)",
+    "consolidator_model": "DISABLED (Condition B: self-consistency baseline)",
+    "tokens_in": 30590,
+    "tokens_out": 4019,
+    "cost_usd": 0.013365710000000001,
+    "wall_time_seconds": 35.67802566708997,
+    "voting_samples": 5
+  }
+}

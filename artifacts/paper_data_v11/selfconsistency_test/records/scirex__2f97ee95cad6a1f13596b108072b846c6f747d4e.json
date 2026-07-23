@@ -1,0 +1,137 @@
+{
+  "paper_id": "scirex:2f97ee95cad6a1f13596b108072b846c6f747d4e",
+  "contributions": [
+    {
+      "method": {
+        "name": "ResNet",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 1000,
+          "end": 1010
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "speech recognition",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 100
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "NIST 2000 Switchboard",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1000,
+            "end": 1020
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "NIST 2000 Switchboard task",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1075,
+            "end": 1103
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "word error rate",
+          "value": 6.9,
+          "unit": "%",
+          "evidence_span": {
+            "start": 1000,
+            "end": 1020
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [],
+      "self_consistency": 0.7666666666666667,
+      "critic_verdict": {
+        "method": null,
+        "task": null,
+        "datasets": null,
+        "metrics": null
+      }
+    },
+    {
+      "method": {
+        "name": "ensemble of acoustic models",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 1000,
+          "end": 1020
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "speech recognition",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 100
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "NIST 2000 Switchboard",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1000,
+            "end": 1020
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "NIST 2000 Switchboard task",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1075,
+            "end": 1103
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "word error rate",
+          "value": 6.2,
+          "unit": "%",
+          "evidence_span": {
+            "start": 1000,
+            "end": 1020
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [],
+      "self_consistency": 0.7000000000000001,
+      "critic_verdict": {
+        "method": null,
+        "task": null,
+        "datasets": null,
+        "metrics": null
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "DISABLED (Condition B: self-consistency vote of 5 extractor samples)",
+    "consolidator_model": "DISABLED (Condition B: self-consistency baseline)",
+    "tokens_in": 25060,
+    "tokens_out": 2658,
+    "cost_usd": 0.01038482,
+    "wall_time_seconds": 24.75937958410941,
+    "voting_samples": 5
+  }
+}

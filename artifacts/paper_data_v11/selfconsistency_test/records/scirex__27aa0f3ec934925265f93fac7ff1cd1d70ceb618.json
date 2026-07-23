@@ -1,0 +1,263 @@
+{
+  "paper_id": "scirex:27aa0f3ec934925265f93fac7ff1cd1d70ceb618",
+  "contributions": [
+    {
+      "method": {
+        "name": "multi-task tri-training",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 1080,
+          "end": 1110
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "sentiment analysis",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 1080,
+          "end": 1110
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "Amazon Reviews dataset",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1080,
+            "end": 1110
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "Amazon Reviews",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2220,
+            "end": 2235
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 1080,
+            "end": 1110
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "tri-training",
+        "asymmetric tri-training"
+      ],
+      "self_consistency": 0.8333333333333334,
+      "critic_verdict": {
+        "method": null,
+        "task": null,
+        "datasets": null,
+        "metrics": null
+      }
+    },
+    {
+      "method": {
+        "name": "tri-training",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 1080,
+          "end": 1110
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "POS tagging",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 1080,
+          "end": 1110
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "SANCL 2012 shared task dataset",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1080,
+            "end": 1110
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "SANCL 2012",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2220,
+            "end": 2232
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 1080,
+            "end": 1110
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "multi-task tri-training"
+      ],
+      "self_consistency": 0.8333333333333334,
+      "critic_verdict": {
+        "method": null,
+        "task": null,
+        "datasets": null,
+        "metrics": null
+      }
+    },
+    {
+      "method": {
+        "name": "tri-training",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 2443,
+          "end": 2520
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "sentiment analysis",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 2443,
+          "end": 2520
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "Amazon Reviews dataset",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2443,
+            "end": 2520
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "Amazon Reviews",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2220,
+            "end": 2235
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 2443,
+            "end": 2520
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "self-training",
+        "tri-training with disagreement",
+        "VFAE",
+        "DANN"
+      ],
+      "self_consistency": 0.8333333333333334,
+      "critic_verdict": {
+        "method": null,
+        "task": null,
+        "datasets": null,
+        "metrics": null
+      }
+    },
+    {
+      "method": {
+        "name": "tri-training with disagreement",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 2443,
+          "end": 2520
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "POS tagging",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 2443,
+          "end": 2520
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "SANCL 2012 shared task dataset",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2443,
+            "end": 2520
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 2443,
+            "end": 2520
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "self-training",
+        "tri-training"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {
+        "method": null,
+        "task": null,
+        "datasets": null,
+        "metrics": null
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "DISABLED (Condition B: self-consistency vote of 5 extractor samples)",
+    "consolidator_model": "DISABLED (Condition B: self-consistency baseline)",
+    "tokens_in": 33915,
+    "tokens_out": 3051,
+    "cost_usd": 0.01356819,
+    "wall_time_seconds": 23.507848875131458,
+    "voting_samples": 5
+  }
+}

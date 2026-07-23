@@ -1,0 +1,199 @@
+{
+  "paper_id": "scirex:081531984770a74e87dbd68907061b4b0f3631bf",
+  "contributions": [
+    {
+      "method": {
+        "name": "spatio-temporal sub-pixel convolution networks",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 200
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "video super-resolution",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 200
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "CDVL",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 5000,
+            "end": 5100
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "PSNR",
+          "value": null,
+          "unit": "dB",
+          "evidence_span": {
+            "start": 6000,
+            "end": 6100
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "single-frame models"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {
+        "method": null,
+        "task": null,
+        "datasets": null,
+        "metrics": null
+      }
+    },
+    {
+      "method": {
+        "name": "joint motion compensation and video super-resolution algorithm",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 200,
+          "end": 400
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "video super-resolution",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 200,
+          "end": 400
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "CDVL",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 5000,
+            "end": 5100
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "PSNR",
+          "value": null,
+          "unit": "dB",
+          "evidence_span": {
+            "start": 6000,
+            "end": 6100
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "VSRnet"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {
+        "method": null,
+        "task": null,
+        "datasets": null,
+        "metrics": null
+      }
+    },
+    {
+      "method": {
+        "name": "video ESPCN (VESPCN)",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 8000,
+          "end": 8100
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "video super-resolution",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 8000,
+          "end": 8100
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "Vid4",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 9000,
+            "end": 9100
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "PSNR",
+          "value": null,
+          "unit": "dB",
+          "evidence_span": {
+            "start": 10000,
+            "end": 10100
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "SSIM",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 10000,
+            "end": 10100
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "MOVIE",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 10000,
+            "end": 10100
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "SRCNN",
+        "ESPCN",
+        "VSRnet"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {
+        "method": null,
+        "task": null,
+        "datasets": null,
+        "metrics": null
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "DISABLED (Condition A: single-LLM baseline, extractor prompt @ t=0)",
+    "consolidator_model": "DISABLED (Condition A: single-LLM baseline)",
+    "tokens_in": 6484,
+    "tokens_out": 951,
+    "cost_usd": 0.00292127,
+    "wall_time_seconds": 24.86928179091774,
+    "voting_samples": 1
+  }
+}

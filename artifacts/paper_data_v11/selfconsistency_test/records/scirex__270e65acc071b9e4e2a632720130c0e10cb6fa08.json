@@ -1,0 +1,195 @@
+{
+  "paper_id": "scirex:270e65acc071b9e4e2a632720130c0e10cb6fa08",
+  "contributions": [
+    {
+      "method": {
+        "name": "Neural Tree Indexers (NTI)",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 100
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "natural language inference",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 1000,
+          "end": 1025
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "Stanford Natural Language Inference (SNLI)",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1000,
+            "end": 1025
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": 87.3,
+          "unit": "%",
+          "evidence_span": {
+            "start": 1000,
+            "end": 1025
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "sequential LSTM encoder"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {
+        "method": null,
+        "task": null,
+        "datasets": null,
+        "metrics": null
+      }
+    },
+    {
+      "method": {
+        "name": "Neural Tree Indexers (NTI)",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 100
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "answer sentence selection",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 2000,
+          "end": 2025
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "WikiQA",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2000,
+            "end": 2025
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "MAP",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 2000,
+            "end": 2025
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "MRR",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 2000,
+            "end": 2025
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "NASM"
+      ],
+      "self_consistency": 0.9,
+      "critic_verdict": {
+        "method": null,
+        "task": null,
+        "datasets": null,
+        "metrics": null
+      }
+    },
+    {
+      "method": {
+        "name": "Neural Tree Indexers (NTI)",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 100
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "sentence classification",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 3000,
+          "end": 3025
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "Stanford Sentiment Treebank (SST)",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 3000,
+            "end": 3025
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 3000,
+            "end": 3025
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "F1",
+          "value": null,
+          "unit": null,
+          "evidence_span": null,
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "CT-LSTM",
+        "CT-LSTM model"
+      ],
+      "self_consistency": 0.8666666666666667,
+      "critic_verdict": {
+        "method": null,
+        "task": null,
+        "datasets": null,
+        "metrics": null
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "DISABLED (Condition B: self-consistency vote of 5 extractor samples)",
+    "consolidator_model": "DISABLED (Condition B: self-consistency baseline)",
+    "tokens_in": 31430,
+    "tokens_out": 3649,
+    "cost_usd": 0.013305210000000001,
+    "wall_time_seconds": 33.01045620790683,
+    "voting_samples": 5
+  }
+}

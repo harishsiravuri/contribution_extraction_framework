@@ -1,0 +1,147 @@
+{
+  "paper_id": "scirex:38cc89399dd6f5aaab1654f27ab3c9eeade12a36",
+  "contributions": [
+    {
+      "method": {
+        "name": "sequence-to-sequence network with LSTM units and residual connections",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 1083,
+          "end": 1167
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "3D human pose estimation",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 34,
+          "end": 63
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "Human3.6M",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1200,
+            "end": 1210
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "average error per joint",
+          "value": null,
+          "unit": "millimeters",
+          "evidence_span": {
+            "start": 3841,
+            "end": 3881
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "average error per joint in millimeters",
+          "value": null,
+          "unit": "mm",
+          "evidence_span": {
+            "start": 2539,
+            "end": 2581
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Sun et al.",
+        "Martinez et al.",
+        "Moreno-Nouguer"
+      ],
+      "self_consistency": 0.7999999999999999,
+      "critic_verdict": {
+        "method": null,
+        "task": null,
+        "datasets": null,
+        "metrics": null
+      }
+    },
+    {
+      "method": {
+        "name": "sequence-to-sequence network with LSTM units and residual connections",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 1083,
+          "end": 1167
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "3D human pose estimation",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 34,
+          "end": 63
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "HumanEva",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 3841,
+            "end": 3850
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "average error per joint",
+          "value": null,
+          "unit": "millimeters",
+          "evidence_span": {
+            "start": 3841,
+            "end": 3881
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "average error per joint in millimeters",
+          "value": null,
+          "unit": "mm",
+          "evidence_span": {
+            "start": 2539,
+            "end": 2581
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Sun et al.",
+        "Martinez et al.",
+        "previous work"
+      ],
+      "self_consistency": 0.7999999999999999,
+      "critic_verdict": {
+        "method": null,
+        "task": null,
+        "datasets": null,
+        "metrics": null
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "DISABLED (Condition B: self-consistency vote of 5 extractor samples)",
+    "consolidator_model": "DISABLED (Condition B: self-consistency baseline)",
+    "tokens_in": 35765,
+    "tokens_out": 2660,
+    "cost_usd": 0.0138122,
+    "wall_time_seconds": 22.626559416996315,
+    "voting_samples": 5
+  }
+}

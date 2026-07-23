@@ -1,0 +1,329 @@
+{
+  "paper_id": "scirex:35734e8724559fb0d494e5cba6a28ad7a3d5dd4d",
+  "contributions": [
+    {
+      "method": {
+        "name": "fast gradient sign method",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 2011,
+          "end": 2035
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "adversarial example generation",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 2011,
+          "end": 2035
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "MNIST",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2201,
+            "end": 2205
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "error rate",
+          "value": 99.9,
+          "unit": "%",
+          "evidence_span": {
+            "start": 2201,
+            "end": 2235
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "novel",
+      "comparison_targets": [],
+      "self_consistency": 1.0,
+      "critic_verdict": {
+        "method": null,
+        "task": null,
+        "datasets": null,
+        "metrics": null
+      }
+    },
+    {
+      "method": {
+        "name": "fast gradient sign method",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 2011,
+          "end": 2035
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "adversarial example generation",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 2011,
+          "end": 2035
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "MNIST",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2241,
+            "end": 2245
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "error rate",
+          "value": 89.4,
+          "unit": "%",
+          "evidence_span": {
+            "start": 2241,
+            "end": 2280
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "novel",
+      "comparison_targets": [],
+      "self_consistency": 0.8800000000000001,
+      "critic_verdict": {
+        "method": null,
+        "task": null,
+        "datasets": null,
+        "metrics": null
+      }
+    },
+    {
+      "method": {
+        "name": "fast gradient sign method",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 2011,
+          "end": 2035
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "adversarial example generation",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 2011,
+          "end": 2035
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "CIFAR-10",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2286,
+            "end": 2294
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "error rate",
+          "value": 87.15,
+          "unit": "%",
+          "evidence_span": {
+            "start": 2286,
+            "end": 2345
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "novel",
+      "comparison_targets": [],
+      "self_consistency": 1.0,
+      "critic_verdict": {
+        "method": null,
+        "task": null,
+        "datasets": null,
+        "metrics": null
+      }
+    },
+    {
+      "method": {
+        "name": "adversarial training",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 3500,
+          "end": 3520
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "image classification",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 3500,
+          "end": 3520
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "MNIST",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 3600,
+            "end": 3604
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "error rate",
+          "value": 0.84,
+          "unit": "%",
+          "evidence_span": {
+            "start": 3600,
+            "end": 3650
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "dropout"
+      ],
+      "self_consistency": 0.95,
+      "critic_verdict": {
+        "method": null,
+        "task": null,
+        "datasets": null,
+        "metrics": null
+      }
+    },
+    {
+      "method": {
+        "name": "adversarial training",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 3500,
+          "end": 3520
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "adversarial robustness",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 3500,
+          "end": 3520
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "MNIST",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 3800,
+            "end": 3804
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "error rate",
+          "value": 17.9,
+          "unit": "%",
+          "evidence_span": {
+            "start": 3800,
+            "end": 3850
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [],
+      "self_consistency": 0.95,
+      "critic_verdict": {
+        "method": null,
+        "task": null,
+        "datasets": null,
+        "metrics": null
+      }
+    },
+    {
+      "method": {
+        "name": "adversarial training",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 2233,
+          "end": 2253
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "adversarial robustness",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 2233,
+          "end": 2253
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "MNIST",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2318,
+            "end": 2323
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "error rate",
+          "value": 17.9,
+          "unit": "%",
+          "evidence_span": {
+            "start": 2763,
+            "end": 2773
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [],
+      "self_consistency": 1.0,
+      "critic_verdict": {
+        "method": null,
+        "task": null,
+        "datasets": null,
+        "metrics": null
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "DISABLED (Condition B: self-consistency vote of 5 extractor samples)",
+    "consolidator_model": "DISABLED (Condition B: self-consistency baseline)",
+    "tokens_in": 39795,
+    "tokens_out": 6267,
+    "cost_usd": 0.018312030000000003,
+    "wall_time_seconds": 40.13967000017874,
+    "voting_samples": 5
+  }
+}

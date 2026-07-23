@@ -1,0 +1,385 @@
+{
+  "paper_id": "scirex:45429c281e30f9e87ebcd1ae42e0656d2ead24d1",
+  "contributions": [
+    {
+      "method": {
+        "name": "conditional GANs with multi-scale generator and discriminator architectures",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 200
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "image synthesis",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 200
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "Cityscapes",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 10000,
+            "end": 10050
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 10000,
+            "end": 10050
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "segmentation accuracy",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 6000,
+            "end": 6100
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "pix2pix",
+        "CRN"
+      ],
+      "self_consistency": 0.7333333333333334,
+      "critic_verdict": {
+        "method": null,
+        "task": null,
+        "datasets": null,
+        "metrics": null
+      }
+    },
+    {
+      "method": {
+        "name": "conditional GANs with multi-scale generator and discriminator architectures",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 200
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "image synthesis",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 200
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "Cityscapes",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 10000,
+            "end": 10050
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "NYU Indoor RGBD",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 6020,
+            "end": 6040
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "IoU",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 10000,
+            "end": 10050
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "accuracy",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 6020,
+            "end": 6040
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "human preference rate",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 7000,
+            "end": 7100
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "pix2pix",
+        "CRN"
+      ],
+      "self_consistency": 0.55,
+      "critic_verdict": {
+        "method": null,
+        "task": null,
+        "datasets": null,
+        "metrics": null
+      }
+    },
+    {
+      "method": {
+        "name": "conditional GANs",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 200
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "image synthesis",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 200
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "NYU Indoor RGBD",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 10000,
+            "end": 10050
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "ADE20K",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 6040,
+            "end": 6060
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "Cityscapes",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2890,
+            "end": 2900
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 10000,
+            "end": 10050
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "human preference rate",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 2890,
+            "end": 2900
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "pix2pix",
+        "CRN"
+      ],
+      "self_consistency": 0.5,
+      "critic_verdict": {
+        "method": null,
+        "task": null,
+        "datasets": null,
+        "metrics": null
+      }
+    },
+    {
+      "method": {
+        "name": "conditional GANs with multi-scale generator and discriminator architectures",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 200
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "image synthesis",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 200
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "NYU Indoor RGBD",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 10000,
+            "end": 10050
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "Helen Face",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 6060,
+            "end": 6080
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "ADE20K",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 5225,
+            "end": 5230
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "IoU",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 10000,
+            "end": 10050
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "accuracy",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 6060,
+            "end": 6080
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "pix2pix",
+        "CRN"
+      ],
+      "self_consistency": 0.5833333333333333,
+      "critic_verdict": {
+        "method": null,
+        "task": null,
+        "datasets": null,
+        "metrics": null
+      }
+    },
+    {
+      "method": {
+        "name": "conditional GANs with multi-scale generator and discriminator architectures",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 300
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "image synthesis",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 300
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "Helen Face",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 5230,
+            "end": 5240
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 5230,
+            "end": 5240
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "pix2pix",
+        "CRN"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {
+        "method": null,
+        "task": null,
+        "datasets": null,
+        "metrics": null
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "DISABLED (Condition B: self-consistency vote of 5 extractor samples)",
+    "consolidator_model": "DISABLED (Condition B: self-consistency baseline)",
+    "tokens_in": 35595,
+    "tokens_out": 4971,
+    "cost_usd": 0.01581459,
+    "wall_time_seconds": 45.70238304208033,
+    "voting_samples": 5
+  }
+}

@@ -1,0 +1,152 @@
+{
+  "paper_id": "scirex:3acc07f7f8951617276cf99483ed02aeb0a6eeac",
+  "contributions": [
+    {
+      "method": {
+        "name": "curriculum-style domain adaptation",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 200
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "semantic segmentation",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 200
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "Cityscapes",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2000,
+            "end": 2100
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "SYNTHIA",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2000,
+            "end": 2100
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "IoU",
+          "value": 28.1,
+          "unit": "%",
+          "evidence_span": {
+            "start": 10000,
+            "end": 10100
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "NoAdapt",
+        "Hoffman et al."
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {
+        "method": null,
+        "task": null,
+        "datasets": null,
+        "metrics": null
+      }
+    },
+    {
+      "method": {
+        "name": "curriculum-style domain adaptation",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 200
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "semantic segmentation",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 200
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "Cityscapes",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2000,
+            "end": 2100
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "GTA",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 15000,
+            "end": 15100
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "SYNTHIA",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2193,
+            "end": 2200
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "IoU",
+          "value": null,
+          "unit": "%",
+          "evidence_span": {
+            "start": 15000,
+            "end": 15100
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "NoAdapt",
+        "Hoffman et al."
+      ],
+      "self_consistency": 0.8571428571428571,
+      "critic_verdict": {
+        "method": null,
+        "task": null,
+        "datasets": null,
+        "metrics": null
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "DISABLED (Condition B: self-consistency vote of 5 extractor samples)",
+    "consolidator_model": "DISABLED (Condition B: self-consistency baseline)",
+    "tokens_in": 38420,
+    "tokens_out": 3155,
+    "cost_usd": 0.01510235,
+    "wall_time_seconds": 27.868409833870828,
+    "voting_samples": 5
+  }
+}
